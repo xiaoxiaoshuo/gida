@@ -1,0 +1,272 @@
+﻿[
+    {
+        "name":  "openclaw/openclaw",
+        "stars":  335682,
+        "valueScore":  402818,
+        "language":  "TypeScript",
+        "description":  "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+        "category":  "AI/ML",
+        "url":  "https://github.com/openclaw/openclaw"
+    },
+    {
+        "name":  "donnemartin/system-design-primer",
+        "stars":  340180,
+        "valueScore":  340180,
+        "language":  "Python",
+        "description":  "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+        "category":  "其他",
+        "url":  "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+        "name":  "vinta/awesome-python",
+        "stars":  288934,
+        "valueScore":  288934,
+        "language":  "Python",
+        "description":  "An opinionated list of Python frameworks, libraries, tools, and resources.",
+        "category":  "开发工具",
+        "url":  "https://github.com/vinta/awesome-python"
+    },
+    {
+        "name":  "facebook/react",
+        "stars":  244182,
+        "valueScore":  244182,
+        "language":  "JavaScript",
+        "description":  "The library for web and native user interfaces.",
+        "category":  "其他",
+        "url":  "https://github.com/facebook/react"
+    },
+    {
+        "name":  "awesome-selfhosted/awesome-selfhosted",
+        "stars":  282019,
+        "valueScore":  282019,
+        "language":  null,
+        "description":  "A list of Free Software network services and web applications which can be hosted on your own servers",
+        "category":  "其他",
+        "url":  "https://github.com/awesome-selfhosted/awesome-selfhosted"
+    },
+    {
+        "name":  "freeCodeCamp/freeCodeCamp",
+        "stars":  438820,
+        "valueScore":  438820,
+        "language":  "TypeScript",
+        "description":  "freeCodeCamp.org\u0027s open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+        "category":  "开发工具",
+        "url":  "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+        "name":  "sindresorhus/awesome",
+        "stars":  448768,
+        "valueScore":  448768,
+        "language":  null,
+        "description":  "😎 Awesome lists about all kinds of interesting topics",
+        "category":  "其他",
+        "url":  "https://github.com/sindresorhus/awesome"
+    },
+    {
+        "name":  "public-apis/public-apis",
+        "stars":  415994,
+        "valueScore":  415994,
+        "language":  "Python",
+        "description":  "A collective list of free APIs",
+        "category":  "开发工具",
+        "url":  "https://github.com/public-apis/public-apis"
+    },
+    {
+        "name":  "kamranahmedse/developer-roadmap",
+        "stars":  351657,
+        "valueScore":  351657,
+        "language":  "TypeScript",
+        "description":  "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+        "category":  "开发工具",
+        "url":  "https://github.com/kamranahmedse/developer-roadmap"
+    },
+    {
+        "name":  "EbookFoundation/free-programming-books",
+        "stars":  384566,
+        "valueScore":  461479,
+        "language":  "Python",
+        "description":  ":books: Freely available programming books",
+        "category":  "AI/ML",
+        "url":  "https://github.com/EbookFoundation/free-programming-books"
+    },
+    {
+        "name":  "Significant-Gravitas/AutoGPT",
+        "stars":  182820,
+        "valueScore":  219384,
+        "language":  "Python",
+        "description":  "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/Significant-Gravitas/AutoGPT"
+    },
+    {
+        "name":  "microsoft/vscode",
+        "stars":  183064,
+        "valueScore":  183064,
+        "language":  "TypeScript",
+        "description":  "Visual Studio Code",
+        "category":  "开发工具",
+        "url":  "https://github.com/microsoft/vscode"
+    },
+    {
+        "name":  "n8n-io/n8n",
+        "stars":  181023,
+        "valueScore":  217228,
+        "language":  "TypeScript",
+        "description":  "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/n8n-io/n8n"
+    },
+    {
+        "name":  "flutter/flutter",
+        "stars":  175699,
+        "valueScore":  175699,
+        "language":  "Dart",
+        "description":  "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+        "category":  "开发工具",
+        "url":  "https://github.com/flutter/flutter"
+    },
+    {
+        "name":  "jackfrued/Python-100-Days",
+        "stars":  180175,
+        "valueScore":  180175,
+        "language":  "Jupyter Notebook",
+        "description":  "Python - 100天从新手到大师",
+        "category":  "其他",
+        "url":  "https://github.com/jackfrued/Python-100-Days"
+    },
+    {
+        "name":  "TheAlgorithms/Python",
+        "stars":  219047,
+        "valueScore":  219047,
+        "language":  "Python",
+        "description":  "All Algorithms implemented in Python",
+        "category":  "其他",
+        "url":  "https://github.com/TheAlgorithms/Python"
+    },
+    {
+        "name":  "torvalds/linux",
+        "stars":  225050,
+        "valueScore":  225050,
+        "language":  "C",
+        "description":  "Linux kernel source tree",
+        "category":  "其他",
+        "url":  "https://github.com/torvalds/linux"
+    },
+    {
+        "name":  "ossu/computer-science",
+        "stars":  202727,
+        "valueScore":  202727,
+        "language":  "HTML",
+        "description":  "🎓 Path to a free self-taught education in Computer Science!",
+        "category":  "其他",
+        "url":  "https://github.com/ossu/computer-science"
+    },
+    {
+        "name":  "ohmyzsh/ohmyzsh",
+        "stars":  185619,
+        "valueScore":  222743,
+        "language":  "Shell",
+        "description":  "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/ohmyzsh/ohmyzsh"
+    },
+    {
+        "name":  "tensorflow/tensorflow",
+        "stars":  194337,
+        "valueScore":  233204,
+        "language":  "C++",
+        "description":  "An Open Source Machine Learning Framework for Everyone",
+        "category":  "AI/ML",
+        "url":  "https://github.com/tensorflow/tensorflow"
+    },
+    {
+        "name":  "openai/symphony",
+        "stars":  14023,
+        "valueScore":  16828,
+        "language":  "Elixir",
+        "description":  "Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/openai/symphony"
+    },
+    {
+        "name":  "NVIDIA/NemoClaw",
+        "stars":  16636,
+        "valueScore":  16636,
+        "language":  "JavaScript",
+        "description":  "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+        "category":  "开发工具",
+        "url":  "https://github.com/NVIDIA/NemoClaw"
+    },
+    {
+        "name":  "THU-MAIC/OpenMAIC",
+        "stars":  12287,
+        "valueScore":  14744,
+        "language":  "TypeScript",
+        "description":  "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+        "category":  "AI/ML",
+        "url":  "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+        "name":  "nikopueringer/CorridorKey",
+        "stars":  8987,
+        "valueScore":  8987,
+        "language":  "Python",
+        "description":  "Perfect Green Screen Keys",
+        "category":  "其他",
+        "url":  "https://github.com/nikopueringer/CorridorKey"
+    },
+    {
+        "name":  "tanweai/pua",
+        "stars":  11873,
+        "valueScore":  14248,
+        "language":  "TypeScript",
+        "description":  "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/tanweai/pua"
+    },
+    {
+        "name":  "garrytan/gstack",
+        "stars":  46941,
+        "valueScore":  46941,
+        "language":  "TypeScript",
+        "description":  "Use Garry Tan\u0027s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+        "category":  "AI/ML",
+        "url":  "https://github.com/garrytan/gstack"
+    },
+    {
+        "name":  "karpathy/autoresearch",
+        "stars":  55650,
+        "valueScore":  66780,
+        "language":  "Python",
+        "description":  "AI agents running research on single-GPU nanochat training automatically",
+        "category":  "AI/ML",
+        "url":  "https://github.com/karpathy/autoresearch"
+    },
+    {
+        "name":  "paperclipai/paperclip",
+        "stars":  32975,
+        "valueScore":  32975,
+        "language":  "TypeScript",
+        "description":  "Open-source orchestration for zero-human companies",
+        "category":  "AI/ML",
+        "url":  "https://github.com/paperclipai/paperclip"
+    },
+    {
+        "name":  "googleworkspace/cli",
+        "stars":  22513,
+        "valueScore":  27016,
+        "language":  "Rust",
+        "description":  "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+        "category":  "AI/ML",
+        "url":  "https://github.com/googleworkspace/cli"
+    },
+    {
+        "name":  "HKUDS/CLI-Anything",
+        "stars":  22987,
+        "valueScore":  27584,
+        "language":  "Python",
+        "description":  "CLI-Anything: Making ALL Software Agent-Native",
+        "category":  "AI/ML",
+        "url":  "https://github.com/HKUDS/CLI-Anything"
+    }
+]

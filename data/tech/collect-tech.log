@@ -1,0 +1,33 @@
+[INFO] 01:06:39 - ========== GitHub Trending 采集 v2 开始 ==========
+[INFO] 01:06:39 - 日期: 2026-03-26
+[INFO] 01:06:39 - Token: 未配置（使用匿名模式）
+[INFO] 01:06:39 - >> 策略1: 通过 GitHub API 采集...
+[INFO] 01:06:39 -   查询: stars:>500 created:>2026-02-24
+[WARN] 01:06:40 -   API请求失败: 远程服务器返回错误: (422) Unprocessable Entity。
+[INFO] 01:06:42 -   查询: stars:>1000 pushed:>2026-02-24
+[WARN] 01:06:42 -   API请求失败: 远程服务器返回错误: (422) Unprocessable Entity。
+[INFO] 01:06:44 -   去重后: 0 个项目
+[WARN] 01:06:44 - API 采集失败，切换到镜像站策略...
+[INFO] 01:06:44 - >> 策略2: 通过镜像站采集...
+[INFO] 01:06:44 -   尝试: https://hub.fastgit.xyz
+[INFO] 01:07:01 -   尝试: https://ghproxy.com
+[ERROR] 01:07:18 -   所有镜像站均失败
+[ERROR] 01:07:18 - 所有采集策略均失败，生成空报告
+[INFO] 01:07:18 - Markdown报告: .\data\tech\github-trending-2026-03-26.md
+[INFO] 01:07:19 - JSON数据: .\data\tech\github-trending-2026-03-26.json
+[INFO] 01:07:19 - ========== 采集完成 ==========
+[INFO] 01:07:19 - 共采集: 0 个项目
+[INFO] 01:07:45 - ========== GitHub Trending 采集 v2 开始 ==========
+[INFO] 01:07:45 - 日期: 2026-03-26
+[INFO] 01:07:45 - Token: 未配置（使用匿名模式）
+[INFO] 01:07:45 - >> 策略1: 通过 GitHub API 采集...
+[INFO] 01:07:45 -   查询: stars:>500 created:>2026-02-24
+[INFO] 01:07:46 -   API返回: 288 个结果（展示 20 个）
+[INFO] 01:07:48 -   查询: stars:>1000 pushed:>2026-02-24
+[INFO] 01:07:49 -   API返回: 20355 个结果（展示 20 个）
+[INFO] 01:07:51 -   去重后: 40 个项目
+[INFO] 01:07:51 - Markdown报告: .\data\tech\github-trending-2026-03-26.md
+[INFO] 01:07:51 - JSON数据: .\data\tech\github-trending-2026-03-26.json
+[INFO] 01:07:51 - ========== 采集完成 ==========
+[INFO] 01:07:51 - 共采集: 30 个项目
+[INFO] 01:07:51 - 热门项目: openclaw/openclaw (★335682)

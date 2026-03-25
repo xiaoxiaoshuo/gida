@@ -54,6 +54,17 @@ if ($TrendingContent -match '(?s)\| \*\*vllm\*\*.*?\| ([\d.]+k) \|') {
     $TopProjects += "vllm (74k stars) - LLM推理引擎"
 }
 
+# 如果正则匹配失败，尝试备选方案
+if ($TopProjects.Count -eq 0 -and $TrendingContent -match 'openclaw') {
+    $TopProjects += "openclaw - AI助手平台"
+}
+if ($TopProjects.Count -eq 1 -and $TrendingContent -match 'AutoGPT') {
+    $TopProjects += "AutoGPT - Agent工作流"
+}
+if ($TopProjects.Count -eq 2 -and $TrendingContent -match 'vllm') {
+    $TopProjects += "vllm - LLM推理引擎"
+}
+
 # === 4. 获取 OpenAI 最新新闻 (cn.bing.com) ===
 $NewsItems = @()
 try {
@@ -126,10 +137,7 @@ if (-not (Test-Path $BriefingsFile)) {
     $Header | Set-Content $BriefingsFile -NoNewline
 }
 
-$BrieferContent = Get-Content $BriefingsFile -Raw -ErrorAction SilentlyContinue
-if ($BrieferContent -notmatch "## 📊 加密市场简报") {
-    $Briefing | Add-Content -Path $BriefingsFile
-}
+$Briefing | Add-Content -Path $BriefingsFile
 
 # === 7. Git 检测变更 ===
 try {

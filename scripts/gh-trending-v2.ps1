@@ -64,8 +64,7 @@ function Get-GithubTrendingViaApi {
     
     foreach ($q in $queries) {
         Write-Log "  查询: $q"
-        $url = "https://api.github.com/search/repositories?q=[System.Web.HttpUtility]::UrlEncode($q)&sort=stars&order=desc&per_page=$PerPage"
-        $encodedQ = [System.Web.HttpUtility]::UrlEncode($q)
+        $encodedQ = [System.Uri]::EscapeDataString($q)
         $apiUrl = "https://api.github.com/search/repositories?q=$encodedQ&sort=stars&order=desc&per_page=$PerPage"
         
         try {
@@ -150,7 +149,9 @@ function Get-GithubTrendingViaMirror {
                 return $projects
             }
         } catch {
-            Write-Log "  镜像站失败: $mirror - $($_.Exception.Message.Substring(0,50))" "WARN"
+            $errMsg = $_.Exception.Message
+            if ($errMsg.Length -gt 50) { $errMsg = $errMsg.Substring(0, 50) }
+            Write-Log "  镜像站失败: $mirror - $errMsg" "WARN"
         }
         Start-Sleep -Seconds 2
     }

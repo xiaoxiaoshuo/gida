@@ -65,37 +65,51 @@ $report = @{
     errors = @()
 }
 
-# ---------- 1. GitHub Trending (通过Bing搜索) ----------
-Write-Log ">> 采集GitHub Trending..."
-$githubTrendingQueries = @(
-    "GitHub Trending Python 2026",
-    "GitHub Trending JavaScript 2026",
-    "GitHub trending repositories today"
-)
-
-$githubProjects = @()
-foreach ($q in $githubTrendingQueries) {
-    Write-Log "  搜索: $q"
-    $content = Invoke-BingSearch -Query $q -MaxChars 5000
-    if ($content) {
-        # 提取GitHub项目链接 (github.com/xxx/yyy 格式)
-        $matches = [regex]::Matches($content, 'github\.com/[\w\-\.]+/[\w\-\.]+')
-        $uniqueProjects = @{}
-        foreach ($m in $matches) {
-            $proj = $m.Value -replace 'github\.com/', ''
-            if (-not $uniqueProjects.ContainsKey($proj)) {
-                $uniqueProjects[$proj] = $true
-                $githubProjects += @{
-                    name = $proj
-                    query = $q
+# ---------- 1. GitHub Trending (通过 gh-trending-v2.ps1) ----------
+Write-Log ">> 采集GitHub Trending (v2)..."
+$ghScriptPath = "C:\Users\Administrator\clawd\agents\workspace-gid\scripts\gh-trending-v2.ps1"
+if (Test-Path $ghScriptPath) {
+    try {
+        $ghResult = & $ghScriptPath -OutputDir $OutputDir
+        if ($ghResult -and $ghResult.count -gt 0) {
+            $report.data.github_trending = $ghResult.projects
+            Write-Log "GitHub Trending 采集成功: $($ghResult.count) 个项目"
+        } else {
+            Write-Log "GitHub Trending 采集返回空结果" "WARN"
+            $report.errors += "GitHub trending returned empty"
+        }
+    } catch {
+        Write-Log "GitHub Trending 脚本执行失败: $($_.Exception.Message.Substring(0,80))" "ERROR"
+        $report.errors += "GitHub trending script failed"
+    }
+} else {
+    Write-Log "gh-trending-v2.ps1 未找到，回退到Bing搜索模式" "WARN"
+    # 回退: Bing搜索模式
+    $githubTrendingQueries = @(
+        "GitHub Trending Python 2026",
+        "GitHub Trending JavaScript 2026",
+        "GitHub trending repositories today"
+    )
+    $githubProjects = @()
+    foreach ($q in $githubTrendingQueries) {
+        Write-Log "  搜索: $q"
+        $content = Invoke-BingSearch -Query $q -MaxChars 5000
+        if ($content) {
+            $matches = [regex]::Matches($content, 'github\.com/[\w\-\.]+/[\w\-\.]+')
+            $uniqueProjects = @{}
+            foreach ($m in $matches) {
+                $proj = $m.Value -replace 'github\.com/', ''
+                if (-not $uniqueProjects.ContainsKey($proj)) {
+                    $uniqueProjects[$proj] = $true
+                    $githubProjects += @{ name = $proj; query = $q }
                 }
             }
+            Write-Log "  发现 $($uniqueProjects.Count) 个项目"
         }
-        Write-Log "  发现 $($uniqueProjects.Count) 个项目"
+        Start-Sleep -Seconds 2
     }
-    Start-Sleep -Seconds 2
+    $report.data.github_trending = $githubProjects
 }
-$report.data.github_trending = $githubProjects
 
 # ---------- 2. AI技术博客 ----------
 Write-Log ">> 采集AI技术博客..."
