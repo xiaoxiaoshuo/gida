@@ -1,80 +1,25 @@
 {
-  "errors": [
-    "GOLD : failed"
-  ],
-  "collection_version": "v4",
-  "quality_report": {
-    "ETH": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "SOL": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "OIL": {
-      "score": 65,
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "BTC": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "VIX": {
-      "score": 65,
-      "label": "中",
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "_overall": {
-      "average_score": 86.0,
-      "label": "高",
-      "total_items": 5
-    }
-  },
-  "timestamp": "2026-03-26 06:04:33",
   "crypto": {
-    "BTC": {
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"BTC-USDT\",\"last\":\"71081\",\"lastSz\":\"0.00042",
-      "price": 71081.0,
-      "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-26 06:04:33"
-    },
-    "ETH": {
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"ETH-USDT\",\"last\":\"2166.35\",\"lastSz\":\"0.036",
-      "price": 2166.35,
-      "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-26 06:04:33"
-    },
-    "SOL": {
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"SOL-USDT\",\"last\":\"91.26\",\"lastSz\":\"3.98120",
-      "price": 91.26,
-      "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-26 06:04:33"
-    }
+    "BTC": { "price": 71079, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" },
+    "ETH": { "price": 2164.5, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" },
+    "SOL": { "price": 91.2, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" }
   },
-  "timestamp_iso": "2026-03-25T22:04:33Z",
   "macro": {
-    "OIL": {
-      "source": "oilprice.com",
-      "raw_len": 171359,
-      "value": 90.32,
-      "unit": "USD/barrel (WTI)",
-      "confidence": "high",
-      "timestamp": "2026-03-26 06:04:33"
-    },
-    "VIX": {
-      "value": 14.0,
-      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"14\",\n\t\t\t\"value_classification\": \"Extr",
-      "confidence": "medium",
-      "source": "alternative.me_FNG",
-      "timestamp": "2026-03-26 06:04:33"
-    }
-  }
+    "VIX": { "value": 14, "source": "alternative.me_FNG", "confidence": "medium", "value_classification": "Extreme Fear", "timestamp": "2026-03-26 06:00:00" },
+    "GOLD": { "value": 4456.1, "source": "kitco.com", "confidence": "medium", "unit": "USD/oz", "timestamp": "2026-03-26 04:34:00" },
+    "OIL": { "value": 91.27, "source": "oilprice.com", "confidence": "medium", "unit": "USD/barrel (WTI)", "timestamp": "2026-03-26 04:34:00" }
+  },
+  "quality_report": {
+    "BTC": { "score": 100, "label": "高" },
+    "ETH": { "score": 100, "label": "高" },
+    "SOL": { "score": 100, "label": "高" },
+    "VIX": { "score": 65, "label": "中" },
+    "GOLD": { "score": 65, "label": "中" },
+    "OIL": { "score": 65, "label": "中" },
+    "_overall": { "average_score": 82.5, "label": "高", "total_items": 6 }
+  },
+  "errors": [],
+  "timestamp": "2026-03-26 06:05:00",
+  "timestamp_iso": "2026-03-26T06:05:00Z",
+  "collection_version": "v6b"
 }
