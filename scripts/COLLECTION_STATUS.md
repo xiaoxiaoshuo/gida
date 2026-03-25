@@ -1,7 +1,7 @@
 # COLLECTION_STATUS.md - 数据采集系统状态报告
 
-**生成时间**: 2026-03-25 20:15 GMT+8
-**版本**: v4 (优化版)
+**生成时间**: 2026-03-26 01:18 GMT+8
+**版本**: v5 (VIX修复版)
 **运行环境**: Windows Server / PowerShell + web_fetch
 
 ---
@@ -10,8 +10,8 @@
 
 | 脚本 | 版本 | 功能 | 状态 |
 |------|------|------|------|
-| `collect-prices-simple.ps1` | v4 | 加密货币+VIX+黄金+原油 | ✅ 重写 |
-| `gh-trending-collector.ps1` | v2 | GitHub Trending深度采集 | ✅ 新建 |
+| `collect-prices-simple.ps1` | v5 | 加密货币+VIX+黄金+原油 | ✅ VIX修复 |
+| `gh-trending-collector.ps1` | v2 | GitHub Trending深度采集 | ✅ 已部署 |
 | `collect-market-data.ps1` | v2 | 市场数据(Bing搜索) | ✅ 兼容 |
 | `collect-tech-news.ps1` | (原版) | AI博客/量子计算 | ✅ 兼容 |
 | `collect-policy.ps1` | (原版) | FOMC/央行/出口管制 | ✅ 兼容 |
@@ -145,6 +145,7 @@
 | 21:00 | `collect-prices-simple.ps1` | 晚间价格 |
 | 21:30 | `collect-policy.ps1` | 政策晚间版 |
 | 22:00 | `auto-push.ps1` | 每日推送 |
+| 每小时 | `collect-prices-simple.ps1` | `price-refresh-hourly` | 加密货币+VIX实时监控 |
 
 ---
 
@@ -166,4 +167,12 @@
 
 ---
 
-*报告更新: 2026-03-25 数据采集优化智能体*
+## 七、已知问题
+
+| 问题 | 原因 | 状态 | 修复方案 |
+|------|------|------|----------|
+| VIX采集失败 (2026-03-25 20:15起) | cn.bing.com搜索VIX结果失效 | ✅ 已修复(v5) | 改用Yahoo Finance API `^VIX` + CNN Fear&Greed降级 |
+
+---
+
+*报告更新: 2026-03-26 01:18 - VIX采集修复 + cron任务更新*

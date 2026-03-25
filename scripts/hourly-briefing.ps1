@@ -14,6 +14,22 @@ function Test-StaleData {
     return $age -gt 2
 }
 
+# === 价格数据刷新（过期时自动触发）===
+$PriceFile = "$WorkDir\data\market\prices_latest.json"
+if (Test-Path $PriceFile) {
+    $json = Get-Content $PriceFile -Raw | ConvertFrom-Json -ErrorAction SilentlyContinue
+    $PriceTimestamp = if ($json.crypto.BTC) { $json.crypto.BTC.timestamp } else { $null }
+    if ($PriceTimestamp -and (Test-StaleData $PriceTimestamp)) {
+        Write-Host "[PRICE-REFRESH] 价格数据过期（>$([Math]::Round((Get-Date).Subtract([DateTime]::Parse($PriceTimestamp)).TotalHours,1))小时），触发采集..."
+        try {
+            & "$WorkDir\scripts\collect-prices-simple.ps1" -OutputDir "$WorkDir\data\market" 2>&1 | Out-Null
+            Write-Host "[PRICE-REFRESH] 价格采集完成"
+        } catch {
+            Write-Host "[PRICE-REFRESH] 价格采集失败: $_"
+        }
+    }
+}
+
 # === 1. 读取本地价格数据 ===
 $PriceFile = "$WorkDir\data\market\prices_latest.json"
 $PriceStale = $false

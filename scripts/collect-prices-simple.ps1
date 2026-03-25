@@ -160,7 +160,69 @@ function Get-CryptoPrice {
     return $null
 }
 
-# ========== 宏观数据采集 (VIX/黄金/原油) ==========
+# ========== VIX专项采集 (Yahoo Finance API) ==========
+function Get-VIXPrice {
+    # Yahoo Finance 非官方CSV接口
+    $yahooUrl = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d"
+    $r = Invoke-SafeFetch -Url $yahooUrl -Timeout 10
+    if ($r.ok -and $r.status -eq 200) {
+        try {
+            $json = $r.content | ConvertFrom-Json
+            $vixVal = $json.chart.result[0].meta.regularMarketPrice
+            if ($vixVal -and [double]$vixVal -gt 0) {
+                return @{
+                    value = [double]$vixVal; source = "Yahoo_Finance_API"; confidence = "high"
+                    raw = $r.content.Substring(0, [Math]::Min(100, $r.content.Length)); timestamp = $DateStr
+                }
+            }
+        } catch { Write-Log "VIX Yahoo Finance JSON解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+    }
+    # 降级1: 查询2个替代代码
+    foreach ($sym in @("^VIX", "^VIXN")) {
+        $url2 = "https://query1.finance.yahoo.com/v8/finance/chart/$sym?interval=1d&range=1d"
+        $r2 = Invoke-SafeFetch -Url $url2 -Timeout 10
+        if ($r2.ok -and $r2.status -eq 200) {
+            try {
+                $json2 = $r2.content | ConvertFrom-Json
+                $vixVal2 = $json2.chart.result[0].meta.regularMarketPrice
+                if ($vixVal2 -and [double]$vixVal2 -gt 0) {
+                    return @{
+                        value = [double]$vixVal2; source = "Yahoo_Finance_API"; confidence = "high"
+                        raw = $r2.content.Substring(0, [Math]::Min(100, $r2.content.Length)); timestamp = $DateStr
+                    }
+                }
+            } catch {}
+        }
+    }
+    # 降级2: CNN Fear & Greed
+    $cnnR = Invoke-SafeFetch -Url "https://api.cnn.com/edge/v1/pulse/feargreed/indicator" -Timeout 10
+    if ($cnnR.ok -and $cnnR.status -eq 200) {
+        try {
+            $cnnJson = $cnnR.content | ConvertFrom-Json
+            if ($cnnJson.fearGreedScore -and [double]$cnnJson.fearGreedScore -gt 0) {
+                return @{
+                    value = [double]$cnnJson.fearGreedScore; source = "CNN_FearGreed"; confidence = "medium"
+                    raw_len = $cnnR.len; timestamp = $DateStr
+                }
+            }
+        } catch { Write-Log "CNN Fear&Greed解析失败" "WARN" }
+    }
+    # 降级3: Bing搜索兜底 (最低置信度)
+    Write-Log "VIX API全部失败，降级到Bing搜索兜底..." "WARN"
+    $bingR = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode('VIX恐慌指数 今日') )" -Timeout 12
+    if ($bingR.ok) {
+        $price = Extract-PriceValue -Text $bingR.content -Symbol "VIX"
+        if ($price -and $price -gt 0) {
+            return @{
+                value = $price; source = "cn.bing.com"; confidence = "low"
+                raw_len = $bingR.len; timestamp = $DateStr
+            }
+        }
+    }
+    return $null
+}
+
+# ========== 宏观数据采集 (黄金/原油) ==========
 function Get-MacroPrice {
     param([string]$Name, [string]$Query)
 
@@ -228,7 +290,7 @@ foreach ($sym in $symbols) {
 
 # --- 采集宏观数据 ---
 Write-Log ">> 采集VIX恐慌指数..."
-$vix = Get-MacroPrice -Name "VIX" -Query "VIX恐慌指数 今日"
+$vix = Get-VIXPrice
 if ($vix) {
     $result.macro["VIX"] = $vix
     $qs = Get-DataQualityScore -Data $vix
