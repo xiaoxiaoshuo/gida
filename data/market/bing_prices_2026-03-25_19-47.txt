@@ -1,0 +1,10 @@
+﻿=== Bing价格采集 2026-03-25 19:47:22 ===
+BTC :
+  Prices: $1
+  Snippets: 2026年2月23日&ensp;&#0183;&ensp;Bitcoin is an innovative payment network and a new kind of money. Find all you need to know and get started with Bitcoin on bitcoin.org. | 2026年2月23日&ensp;&#0183;&ensp;A transaction is a transfer of value between Bitcoin wallets that gets included in the block chain. Bitcoin wallets keep a secret piece of data called a private key or seed, which is used to … | 2026年2月23日&ensp;&#0183;&ensp;Getting started with Bitcoin Using Bitcoin to transact is easy and accessible to everyone.
+ETH :
+  Prices: $1
+  Snippets: You've reached the limit for the number of requests that can be made in a short period of time. Please wait a moment and try again. If you believe this message was ...
+SOL :
+  Prices: $1
+  Snippets: 2025年8月14日&ensp;&#0183;&ensp;Authors: Quentin Kniep, Kobi Sliwinski, Roger Wattenhofer Summary Alpenglow is a major overhaul of Solana’s core consensus protocol, replacing the existing Proof-of-History and … | 2025年2月25日&ensp;&#0183;&ensp;Summary A new mechanism is proposed to allow validators to set a block reward commission and share part of their block revenue with their delegators and to receive their own block … | 2025年11月25日&ensp;&#0183;&ensp;Motivation The core motivation for this proposal is to materially reduce Solana’s emissions schedule. Unlike SIMD-228, doubling the disinflation rate takes a fundamentally different …

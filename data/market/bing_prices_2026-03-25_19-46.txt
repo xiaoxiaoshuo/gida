@@ -1,0 +1,10 @@
+﻿=== Bing价格采集 2026-03-25 19:46:57 ===
+BTC :
+  Prices: $1
+  Snippets: 
+ETH :
+  Prices: $1
+  Snippets: 
+SOL :
+  Prices: $1
+  Snippets: 
