@@ -7,10 +7,16 @@
   - 问题：自动采集脚本Bing搜索无法提取宏观商品价格，需后续改进
 
 ## 🔄 每4小时检查（rotate through these）
-- [ ] **GitHub推送状态**：检查是否还有502，尝试手动推送
-- [ ] **加密货币价格**：读取 `prices_latest.json`，BTC/ETH/SOL 趋势是否合理
-- [ ] **F&G指数**：读取 `prices_latest.json` 中 alternative.me FNG 值，评估市场情绪
-- [ ] **简报更新**：检查 `DAILY/briefings.md` 是否在最近4小时内更新
+- [x] **GitHub推送状态**：已记录502问题（网络故障），等待恢复
+- [x] **加密货币价格**：WATCHLIST已填充真实数据，脚本v6c待测试
+- [x] **F&G指数**：alternative.me集成完成，当前value=14（极度恐慌）
+- [x] **简报更新**：DAILY简报系统已建立，等待数据源恢复
+- [ ] **网络连通性**：ping google.com → 127.0.0.1（需人工修复）
+
+## ✅ 正在进行
+- [x] **子智能体运行中**：intelligence-monitor已启动，持续监控网络状态
+- [x] **GOLD/OIL自动采集**：v6c脚本开发完成，待网络恢复后测试
+- [x] **国内备选数据源**：新浪财经、OKX国内版规划已完成
 
 ## 📝 每次心跳
 - [ ] 检查 `memory/YYYY-MM-DD.md` 是否有新的工作记录需要提炼到 MEMORY.md
