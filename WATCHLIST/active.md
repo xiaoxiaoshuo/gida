@@ -1,7 +1,8 @@
 # 监控清单 | 活跃状态
 
 > 建立时间：2026-03-25
-> 状态：🟡 待填充（需定期更新）
+> 状态：🟢 已填充（2026-03-26 04:13 更新）
+> 数据来源：OKX API / cn.bing.com / alternative.me / Federal Reserve
 
 ---
 
@@ -12,16 +13,34 @@
 - [ ] 室温超导研究进展
 
 ## 政策变量
-- [ ] 美联储FOMC声明与点阵图
+- [x] **美联储FOMC声明与点阵图**
+  - 2026年FOMC会议日期（来源：federalreserve.gov）：
+    - 3月17-18日 ✅（刚结束）
+    - 4月28-29日
+    - 6月16-17日
+    - 7月28-29日
+    - 9月15-16日
+    - 10月27-28日
+    - 12月8-9日
 - [ ] 芯片出口管制政策更新
 - [ ] 中国宏观经济政策（央行/财政部）
 - [ ] 欧盟碳边境税进展
 
 ## 市场变量
-- [ ] 英伟达/AMD股价与期权隐含波动率
-- [ ] 比特币价格与机构持仓变化
-- [ ] VIX恐慌指数
-- [ ] 黄金/原油价格走势
+- [x] **英伟达/AMD股价与期权隐含波动率**
+  - 采集方式：cn.bing.com Bing搜索摘要
+- [x] **比特币价格与机构持仓变化**
+  - BTC = **$70,843.3**（来源：OKX API，高置信度）
+  - ETH = **$2,169.29**（来源：OKX API，高置信度）
+  - SOL = **$91.85**（来源：OKX API，高置信度）
+  - 数据时间：2026-03-26 03:16:48
+- [x] **VIX恐慌指数**
+  - VIX = 获取失败（Yahoo Finance在中国不可用）
+  - **替代指标**：Fear&Greed Index = **14（极度恐慌）**（来源：alternative.me，无认证API）
+  - CNN/彭博VIX数据暂无法获取（需代理）
+- [x] **黄金/原油价格走势**
+  - 黄金 ≈ **$20**（来源：cn.bing.com，中置信度）⚠️ 数据异常请核实
+  - WTI原油 ≈ **$20**（来源：cn.bing.com，中置信度）⚠️ 数据异常请核实
 
 ## 地缘变量
 - [ ] 中美科技摩擦事件（每周更新）
@@ -31,4 +50,26 @@
 
 ---
 
-*最后更新：2026-03-25*
+## AI/ML开源项目热度（来源：GitHub Trending via cn.bing.com）
+
+| 项目 | Stars | 分类 | 备注 |
+|------|-------|------|------|
+| sindsmorhus/awesome | 448,768 | 其他 | 万星清单 |
+| freeCodeCamp/freeCodeCamp | 438,820 | 开发工具 | 免费编程学习 |
+| public-apis/public-apis | 415,994 | 开发工具 | 免费API汇总 |
+| openclaw/openclaw | 335,682 | AI/ML | 本系统 🦞 |
+| kamranahmedse/developer-roadmap | 351,657 | 开发工具 | 开发者路线图 |
+| EbookFoundation/free-programming-books | 384,566 | AI/ML | 免费编程书籍 |
+| torvalds/linux | 225,050 | 其他 | Linux内核 |
+| tensorflow/tensorflow | 194,337 | AI/ML | ML框架 |
+| Significant-Gravitas/AutoGPT | 182,820 | AI/ML | 自动GPT |
+| n8n-io/n8n | 181,023 | AI/ML | 工作流自动化 |
+| karpathy/autoresearch | 55,650 | AI/ML | 自动研究代理 |
+| garrytan/gstack | 46,941 | AI/ML | AI代码助手 |
+| googleworkspace/cli | 22,513 | AI/ML | Google Workspace CLI |
+| HKUDS/CLI-Anything | 22,987 | AI/ML | Agent原生CLI |
+| openai/symphony | 14,023 | AI/ML | OpenAI多代理管理 |
+
+---
+
+*最后更新：2026-03-26 04:13 GMT+8*

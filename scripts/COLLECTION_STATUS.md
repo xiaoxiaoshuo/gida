@@ -1,7 +1,7 @@
 # COLLECTION_STATUS.md - 数据采集系统状态报告
 
 **生成时间**: 2026-03-26 01:18 GMT+8
-**版本**: v5 (VIX修复版)
+**版本**: v6 (alternative.me FNG增强版)
 **运行环境**: Windows Server / PowerShell + web_fetch
 
 ---
@@ -10,13 +10,15 @@
 
 | 脚本 | 版本 | 功能 | 状态 |
 |------|------|------|------|
-| `collect-prices-simple.ps1` | v5 | 加密货币+VIX+黄金+原油 | ✅ VIX修复 |
-| `gh-trending-collector.ps1` | v2 | GitHub Trending深度采集 | ✅ 已部署 |
-| `collect-market-data.ps1` | v2 | 市场数据(Bing搜索) | ✅ 兼容 |
+| `collect-prices-simple.ps1` | v6 | 加密货币+VIX+黄金+原油 | ✅ 新增alternative.me FNG |
+| `gh-trending-v2.ps1` | v2 | GitHub Trending深度采集 | ✅ 主力脚本 |
 | `collect-tech-news.ps1` | (原版) | AI博客/量子计算 | ✅ 兼容 |
 | `collect-policy.ps1` | (原版) | FOMC/央行/出口管制 | ✅ 兼容 |
 | `auto-push.ps1` | v2 | 推送(含归档集成) | ✅ 升级 |
 | `incremental-backup.ps1` | v1 | 增量归档+清理 | ✅ 新建 |
+| `hourly-briefing.ps1` | (原版) | 每小时简报生成 | ✅ 兼容 |
+
+> **已删除重复脚本** (2026-03-26): `gh-trending-collector.ps1` (被v2覆盖), `collect-market-data.ps1` (被collect-prices-simple覆盖), `extract-prices.ps1` (功能重复)
 
 ---
 

@@ -207,7 +207,21 @@ function Get-VIXPrice {
             }
         } catch { Write-Log "CNN Fear&Greed解析失败" "WARN" }
     }
-    # 降级3: Bing搜索兜底 (最低置信度)
+    # 降级3: alternative.me Fear&Greed Index (无需认证)
+    $fngR = Invoke-SafeFetch -Url "https://api.alternative.me/fng/" -Timeout 10
+    if ($fngR.ok -and $fngR.status -eq 200) {
+        try {
+            $fngJson = $fngR.content | ConvertFrom-Json
+            if ($fngJson.data[0].value -and [double]$fngJson.data[0].value -gt 0) {
+                $fngVal = [double]$fngJson.data[0].value
+                return @{
+                    value = $fngVal; source = "alternative.me_FNG"; confidence = "medium"
+                    raw = $fngR.content.Substring(0, [Math]::Min(100, $fngR.content.Length)); timestamp = $DateStr
+                }
+            }
+        } catch { Write-Log "alternative.me FNG解析失败" "WARN" }
+    }
+    # 降级4: Bing搜索兜底 (最低置信度)
     Write-Log "VIX API全部失败，降级到Bing搜索兜底..." "WARN"
     $bingR = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode('VIX恐慌指数 今日') )" -Timeout 12
     if ($bingR.ok) {
