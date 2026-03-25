@@ -1,22 +1,20 @@
-# 市场行情简报 - 2026-03-26
+# 市场简报 | 2026-03-26 07:45 GMT+8
 
-## 07:39 早间行情
+## 价格
+- BTC: $71,271 | ETH: $2,168 | SOL: $91.61
+- GOLD: $4,492/oz | OIL: $91.06/barrel
 
-**加密货币** (OKX_API，高置信度)
-| 品种 | 价格 | 备注 |
-|------|------|------|
-| BTC | $71,271.1 | 横盘整理 |
-| ETH | $2,168.08 | 区间震荡 |
-| SOL | $91.61 | 弱势回调 |
+## 重大事件
+1. **OpenAI史上最大融资$1200亿** - IPO筹备中，同时收购Astral强化产品线；Sora视频平台正式关停，战略全面转向AI Agent
+2. **DeepSeek V3.2确认上线** - 236B参数，API定价$0.14/M，推理能力达GPT-5水平，首个将思考融入工具调用
+3. **GitHub AI热潮持续** - OpenClaw 335K ⭐领跑，OpenViking(上下文数据库)、karpathy/autoresearch等Agent基础设施爆发
 
-**宏观指标** (alternative.me / kitco.com / oilprice.com)
-| 品种 | 价格 | 状态 |
-|------|------|------|
-| VIX恐慌指数 | 14 | 极度恐慌 |
-| 黄金(USD/oz) | $4,492 | 高位震荡 |
-| WTI原油(桶) | $91.06 | 供给支撑 |
+## 市场情绪
+VIX: 不可用 | Fear&Greed: **14（极度恐慌）** | 较昨日(11)小幅回升
 
-**采集质量**: 平均 82.5 / 100 | 成功率: 6/6
+## 简评
+BTC在$71K获得支撑，但恐惧指数14表明市场情绪极弱。DeepSeek V3.2低价策略(+$0.14/M)将加剧AI定价战，OpenAI融资应对。地缘摩擦暂无重大升级信号。
 
 ---
-*数据来源: OKX_API / alternative.me / kitco.com / oilprice.com*
+
+*数据来源：OKX API(价格)、alternative.me(F&G)、Kitco/OilPrice(宏观) | 质量：高 | 更新：07:45*
