@@ -7,18 +7,51 @@
 ### [时间] 小时简报
 
 【价格动态】
-- BTC: 数据暂不可获取（Coingecko/GitHub 访问受阻）
-- ETH: 数据暂不可获取
-- 状态: ⚠️ 网络限制导致价格数据获取失败
+- BTC: $71,763 | ETH: $2,189 | SOL: $93.06
+- 数据来源: OKX API（2026-03-25 20:05 UTC）
+- 状态: ✅ 数据已获取
 
 【重大新闻】
 - 🔥 **OpenAI 关停 Sora 视频平台** - 运营不足两年即终止，迪士尼 10 亿美元合作告吹。Altman 战略重心转向 AI 代理和融资扩建数据中心，标志 AI 视频赛道重大转向。
 
-【GitHub 热榜】
-- 数据暂不可获取（GitHub 直接访问被拦截）
+【GitHub 热榜 Top3】
+1. **n8n** - 工作流自动化平台，180k stars，400+集成
+2. **gitignore** - .gitignore 模板集合，173k stars
+3. **AutoGPT** - AI Agent 工作流开发平台，134k stars
 
 【信号】
-AI 视频工具商业化遇阻，OpenAI 转向 AI Agent 赛道；加密市场缺乏实时数据，需优化网络路径。
+AI 视频工具商业化遇阻，OpenAI 全面转向 AI Agent 赛道；n8n/gitignore 持续霸榜，开发者工具生态稳定。
 
 ---
 *生成时间: 2026-03-26 01:00 UTC+8*
+*注：价格数据来自本地缓存（OKX API），GitHub 数据来自昨日采集*
+
+---
+
+## 📊 加密市场简报 | 2026-03-26 01:05 (星期四)
+
+### 💰 价格动态
+| 币种 | 价格 | 来源 | 时间戳 |
+|------|------|------|--------|
+| BTC  | \BtcPrice | OKX_API | 2026-03-25 20:05:25 |
+| ETH  | \EthPrice | OKX_API | 2026-03-25 20:05:25 |
+| SOL  | \SolPrice | OKX_API | 2026-03-25 20:05:25 |
+
+_⚠️ 数据可能过期（超过2小时）_
+
+
+### 🔥 重大新闻
+• 如何评价OpenAI发布Codex桌面版Codex App？和 Claude ...
+• OpenAI 放王炸，将发布整合多项技术的 GPT-5，并免费无限 ...
+• 个人怎么才能使用OpenAI? - 知乎
+
+### 📂 GitHub Top3
+openclaw (130k stars) - AI助手平台
+AutoGPT (134k stars) - Agent工作流
+vllm (74k stars) - LLM推理引擎
+_⚠️ 热榜数据可能过期_
+
+### 🎯 信号判断
+**观望** — BTC: \BtcPrice | SOL: \SolPrice
+
+---
