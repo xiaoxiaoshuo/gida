@@ -240,16 +240,52 @@ function Get-VIXPrice {
 function Get-MacroPrice {
     param([string]$Name, [string]$Query)
 
-    # 合理性阈值：低于此值认为提取错误（Bing摘要不含价格）
-    $minReasonable = if ($Name -eq "GOLD") { 500 } elseif ($Name -eq "OIL") { 20 } else { 1 }
+    # 直接抓取专业价格页面（替代Bing搜索，避免摘要不含价格）
+    if ($Name -eq "GOLD") {
+        $r = Invoke-SafeFetch -Url "https://goldprice.org/gold-price-hong-kong.html" -Timeout 15
+        if ($r.ok) {
+            # 提取 Spot Gold Price: USD x,xxx.x / Ounce
+            if ($r.content -match 'Spot Gold Price:\s*USD\s*([0-9,]+\.?[0-9]*)') {
+                $priceStr = $matches[1] -replace ',', ''
+                $price = [double]$priceStr
+                if ($price -gt 500) {
+                    Write-Log "  GOLD 直接抓取成功: $price" "INFO"
+                    return @{
+                        value = $price; source = "goldprice.org"; confidence = "high"
+                        raw_len = $r.len; timestamp = $DateStr
+                    }
+                }
+            }
+        }
+        Write-Log "  GOLD goldprice.org 解析失败，降级到Bing" "WARN"
+    }
 
+    if ($Name -eq "OIL") {
+        $r = Invoke-SafeFetch -Url "https://oilprice.com/oil-price-charts/" -Timeout 15
+        if ($r.ok) {
+            # 提取 WTI Crude x.xx
+            if ($r.content -match 'WTI Crude\s+([0-9]+\.?[0-9]*)\s*[-+]?[0-9]*\.?[0-9]*%?') {
+                $price = [double]$matches[1]
+                if ($price -gt 20) {
+                    Write-Log "  OIL 直接抓取成功: $price" "INFO"
+                    return @{
+                        value = $price; source = "oilprice.com"; confidence = "high"
+                        raw_len = $r.len; timestamp = $DateStr
+                    }
+                }
+            }
+        }
+        Write-Log "  OIL oilprice.com 解析失败，降级到Bing" "WARN"
+    }
+
+    # Bing搜索降级（保留但添加合理性检查）
+    $minReasonable = if ($Name -eq "GOLD") { 500 } elseif ($Name -eq "OIL") { 20 } else { 1 }
     $r = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode($Query) )" -Timeout 12
     if ($r.ok) {
         $price = Extract-PriceValue -Text $r.content -Symbol $Name
         if ($price -and $price -gt 0) {
-            # 合理性检查：防止提取到错误数字（如页面元素ID "20"）
             if ($price -lt $minReasonable) {
-                Write-Log "  $Name 提取值 $price 低于合理阈值 ${minReasonable}，标记为失败（可能Bing摘要无价格）" "WARN"
+                Write-Log "  $Name 提取值 $price 低于合理阈值 ${minReasonable}，标记为失败" "WARN"
                 return @{
                     value = $null; source = "cn.bing.com"; confidence = "low"
                     raw_len = $r.len; timestamp = $DateStr
