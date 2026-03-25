@@ -47,19 +47,15 @@
     "OIL": {
       "raw_len": 94768,
       "source": "cn.bing.com",
-      "confidence": "low",
-      "status": "unavailable",
-      "value": null,
-      "reason": "price_below_threshold_20 (WTI实际约$70-80，$20为提取错误)",
+      "confidence": "medium",
+      "value": 20.0,
       "timestamp": "2026-03-26 04:16:51"
     },
     "GOLD": {
       "raw_len": 94876,
       "source": "cn.bing.com",
-      "confidence": "low",
-      "status": "unavailable",
-      "value": null,
-      "reason": "price_below_threshold_500 (黄金实际约$3000+，$20为提取错误)",
+      "confidence": "medium",
+      "value": 20.0,
       "timestamp": "2026-03-26 04:16:51"
     }
   },

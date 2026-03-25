@@ -117,3 +117,41 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
   - 有变更时执行：`git add -A && git commit -m "chore: 定时更新 $(date)" && git push`
   - 遇到问题记录至 `memory/YYYY-MM-DD.md`，包含错误信息、尝试的解决方案、最终结果
   - 若推送失败（502/超时等），等待30秒后重试，最多3次
+
+### 2026-03-26 关键技术决策
+
+#### 数据源架构
+- **加密货币主力**：OKX API（最稳定，中国可访问）→ CryptoCompare → Gate.io → Bing搜索降级
+- **VIX主力**：Yahoo Finance API（`^VIX`）→ alternative.me Fear&Greed（value=14, 无认证）
+- **宏观数据（黄金/原油）**：cn.bing.com 搜索（唯一来源，置信度低）
+- **GitHub Trending**：cn.bing.com 优化查询（主力）→ Gitee API（备选）
+- **FOMC日历**：federalreserve.gov 直连（稳定）
+
+#### 已发现未修复BUG
+- **🔴 GOLD/OIL价格提取逻辑BUG**：Bing搜索结果中提取到"20"（明显错误），原因待查
+  - 可能是页面结构解析失败，或页面本身无价格（搜索结果摘要不含价格）
+  - 日志显示 `\(System.Collections.Hashtable.value)` 字符串插值异常
+  - 需要修复：更换黄金/原油数据源或改进正则匹配
+- **GitHub 502问题**：持续约40分钟（~04:07 UTC开始），本地commits堆积
+
+#### 系统架构（已稳定）
+- 采集脚本：`collect-prices-simple.ps1`（v6）、`gh-trending-v2.ps1`（v2）
+- 推送：`auto-push.ps1`（v2）+ `incremental-backup.ps1`（归档保护）
+- 简报：`hourly-briefing.ps1`
+- GitHub推送历史：每10分钟自动推送，成功率约60%（502期间失败）
+
+#### 关键变量当前值（2026-03-26 04:00 UTC）
+| 变量 | 值 | 来源 | 状态 |
+|------|-----|------|------|
+| BTC | $70,843 | OKX API | ✅ 高置信 |
+| ETH | $2,169 | OKX API | ✅ 高置信 |
+| SOL | $91.85 | OKX API | ✅ 高置信 |
+| Fear&Greed | 14（极度恐慌） | alternative.me | ✅ 中置信 |
+| VIX | N/A | Yahoo Finance被墙 | ❌ 缺失 |
+| 黄金/原油 | ~$20（疑似错误） | Bing搜索 | ❌ 数据异常 |
+
+#### 学到的教训
+- PowerShell字符串插值：`$($hashtable.property)` 在双引号字符串内有效，但日志输出需检查实际值
+- GitHub 502是服务器端问题，本地git reset保护有效
+- alternative.me FNG是有效的无认证VIX替代指标（需理解：F&G范围0-100，14=极度恐慌）
+- cron调度：price-refresh-hourly（每小时）最关键，不可中断

@@ -1,7 +1,7 @@
 # COLLECTION_STATUS.md - 数据采集系统状态报告
 
 **生成时间**: 2026-03-26 01:18 GMT+8
-**版本**: v6 (alternative.me FNG增强版)
+**版本**: v6b (GOLD/OIL合理性检查修复版)
 **运行环境**: Windows Server / PowerShell + web_fetch
 
 ---

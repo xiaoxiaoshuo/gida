@@ -240,10 +240,22 @@ function Get-VIXPrice {
 function Get-MacroPrice {
     param([string]$Name, [string]$Query)
 
+    # 合理性阈值：低于此值认为提取错误（Bing摘要不含价格）
+    $minReasonable = if ($Name -eq "GOLD") { 500 } elseif ($Name -eq "OIL") { 20 } else { 1 }
+
     $r = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode($Query) )" -Timeout 12
     if ($r.ok) {
         $price = Extract-PriceValue -Text $r.content -Symbol $Name
         if ($price -and $price -gt 0) {
+            # 合理性检查：防止提取到错误数字（如页面元素ID "20"）
+            if ($price -lt $minReasonable) {
+                Write-Log "  $Name 提取值 $price 低于合理阈值 ${minReasonable}，标记为失败（可能Bing摘要无价格）" "WARN"
+                return @{
+                    value = $null; source = "cn.bing.com"; confidence = "low"
+                    raw_len = $r.len; timestamp = $DateStr
+                    status = "unavailable"; reason = "price_below_threshold"
+                }
+            }
             return @{
                 value = $price; source = "cn.bing.com"; confidence = "medium"
                 raw_len = $r.len; timestamp = $DateStr
