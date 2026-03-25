@@ -1,0 +1,93 @@
+{
+  "timestamp": "2026-03-26 04:27:47",
+  "macro": {
+    "OIL": {
+      "source": "cn.bing.com",
+      "timestamp": "2026-03-26 04:27:47",
+      "raw_len": 95362,
+      "value": null,
+      "confidence": "low",
+      "status": "unavailable",
+      "reason": "price_below_threshold"
+    },
+    "GOLD": {
+      "source": "cn.bing.com",
+      "timestamp": "2026-03-26 04:27:47",
+      "raw_len": 94380,
+      "value": null,
+      "confidence": "low",
+      "status": "unavailable",
+      "reason": "price_below_threshold"
+    },
+    "VIX": {
+      "value": 14.0,
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"14\",\n\t\t\t\"value_classification\": \"Extr",
+      "source": "alternative.me_FNG",
+      "timestamp": "2026-03-26 04:27:47",
+      "confidence": "medium"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"SOL-USDT\",\"last\":\"91.2\",\"lastSz\":\"0.133975",
+      "source": "OKX_API",
+      "price": 91.2,
+      "timestamp": "2026-03-26 04:27:47",
+      "confidence": "high"
+    },
+    "ETH": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"ETH-USDT\",\"last\":\"2161.29\",\"lastSz\":\"0.004",
+      "source": "OKX_API",
+      "price": 2161.29,
+      "timestamp": "2026-03-26 04:27:47",
+      "confidence": "high"
+    },
+    "BTC": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"BTC-USDT\",\"last\":\"70694.9\",\"lastSz\":\"0.023",
+      "source": "OKX_API",
+      "price": 70694.9,
+      "timestamp": "2026-03-26 04:27:47",
+      "confidence": "high"
+    }
+  },
+  "quality_report": {
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "score": 65,
+      "label": "中",
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "_overall": {
+      "average_score": 72.5,
+      "label": "高",
+      "total_items": 6
+    },
+    "OIL": {
+      "score": 35,
+      "label": "低",
+      "factors": "Bing搜索(低置信) + 来源标注 + 时间戳"
+    },
+    "GOLD": {
+      "score": 35,
+      "label": "低",
+      "factors": "Bing搜索(低置信) + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "collection_version": "v4",
+  "errors": [],
+  "timestamp_iso": "2026-03-25T20:27:47Z"
+}

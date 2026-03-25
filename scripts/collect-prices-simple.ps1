@@ -1,4 +1,4 @@
-# collect-prices-simple.ps1 - 加密货币价格采集 v4 (多源降级 + 质量评分)
+﻿# collect-prices-simple.ps1 - 加密货币价格采集 v6b (多源降级 + 质量评分)
 # 用途: BTC/ETH/SOL + VIX + 黄金 + 原油
 # 降级路径: OKX/CryptoCompare API → Bing搜索摘要 → 国内财经网站
 # 输出: data/market/prices_YYYY-MM-DD_HH-mm.json (带时间戳+置信度)
@@ -31,10 +31,12 @@ function Invoke-SafeFetch {
     param([string]$Url, [int]$Timeout = 10, [string]$UA = "Mozilla/5.0")
     try {
         $headers = @{ "User-Agent" = $UA }
-        $r = Invoke-WebRequest -Uri $Url -Headers $headers -TimeoutSec $Timeout -UseBasicParsing
+        $r = Invoke-WebRequest -Uri $Url -Headers $headers -TimeoutSec $Timeout -UseBasicParsing -AllowInsecureRedirect
         return @{ ok = $true; content = $r.Content; status = $r.StatusCode; len = $r.Content.Length }
     } catch {
-        return @{ ok = $false; error = $_.Exception.Message.Substring(0, 80); status = 0 }
+        $msg = $_.Exception.Message
+        if ($msg.Length -gt 80) { $msg = $msg.Substring(0, 80) }
+        return @{ ok = $false; error = $msg; status = 0 }
     }
 }
 
@@ -42,12 +44,13 @@ function Invoke-SafeFetch {
 function Extract-PriceValue {
     param([string]$Text, [string]$Symbol)
     # 优先找 "Symbol: $price" 或 "Symbol price: $price" 格式
+    # 优先找 "Symbol: $price" 或 "Symbol price: $price" 格式
     $patterns = @(
-        "(?:$Symbol)[:\s]*\\$[\d,]+\.?\d*",
-        "(?:price|cost|最新|当前)[:\s]*\\$?[\d,]+\.?\d*",
-        "\\$[\d,]+\.?\d*",
-        "USD[:\s]*[\d,]+\.?\d*",
-        "[\d,]+\.?\d*\s*(?:USD|美元)"
+        '(?i:' + $Symbol + ')[:\s]*\$[\d,]+\.?\d*',
+        '(?:price|cost 最新|当前)[:\s]*\$?[\d,]+\.?\d*',
+        '\$[\d,]+\.?\d*',
+        '(?i)USD[:\s]*[\d,]+\.?\d*',
+        '[\d,]+\.?\d*\s*(?:USD|美元)'
     )
     foreach ($p in $patterns) {
         if ($Text -match $p) {
@@ -240,45 +243,88 @@ function Get-VIXPrice {
 function Get-MacroPrice {
     param([string]$Name, [string]$Query)
 
-    # 直接抓取专业价格页面（替代Bing搜索，避免摘要不含价格）
+    # ---- 黄金：优先 Kitco (有明确的Bid价格) ----
     if ($Name -eq "GOLD") {
-        $r = Invoke-SafeFetch -Url "https://goldprice.org/gold-price-hong-kong.html" -Timeout 15
+        # 策略1: Kitco Live Gold - 页面含 "Bid\n### 4,523.10" 格式
+        $r = Invoke-SafeFetch -Url "https://www.kitco.com/charts/livegold.html" -Timeout 15
         if ($r.ok) {
-            # 提取 Spot Gold Price: USD x,xxx.x / Ounce
-            if ($r.content -match 'Spot Gold Price:\s*USD\s*([0-9,]+\.?[0-9]*)') {
+            # 匹配 markdown heading 格式的价格：### 4,523.10
+            if ($r.content -match '###\s*([0-9,]+\.?[0-9]*)\s*(?:\n|$)') {
                 $priceStr = $matches[1] -replace ',', ''
                 $price = [double]$priceStr
                 if ($price -gt 500) {
-                    Write-Log "  GOLD 直接抓取成功: $price" "INFO"
+                    Write-Log "  GOLD Kitco抓取成功: $price" "INFO"
                     return @{
-                        value = $price; source = "goldprice.org"; confidence = "high"
-                        raw_len = $r.len; timestamp = $DateStr
+                        value = $price; source = "kitco.com"; confidence = "high"
+                        unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+                    }
+                }
+            }
+            # 备用正则：Bid\n### 4,523.10 格式
+            if ($r.content -match '(?s)Bid.*?([0-9]{3,4}\.[0-9]{2})') {
+                $priceStr = $matches[1] -replace ',', ''
+                $price = [double]$priceStr
+                if ($price -gt 500 -and $price -lt 10000) {
+                    Write-Log "  GOLD Kitco备用正则成功: $price" "INFO"
+                    return @{
+                        value = $price; source = "kitco.com"; confidence = "high"
+                        unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
                     }
                 }
             }
         }
-        Write-Log "  GOLD goldprice.org 解析失败，降级到Bing" "WARN"
+        Write-Log "  GOLD Kitco解析失败，尝试goldprice.org..." "WARN"
+
+        # 策略2: goldprice.org JSON API
+        $r2 = Invoke-SafeFetch -Url "https://goldprice.org/gold-price-hong-kong.html" -Timeout 15
+        if ($r2.ok) {
+            if ($r2.content -match 'Spot Gold Price:\s*USD\s*([0-9,]+\.?[0-9]*)') {
+                $priceStr = $matches[1] -replace ',', ''
+                $price = [double]$priceStr
+                if ($price -gt 500) {
+                    Write-Log "  GOLD goldprice.org抓取成功: $price" "INFO"
+                    return @{
+                        value = $price; source = "goldprice.org"; confidence = "high"
+                        unit = "USD/oz"; raw_len = $r2.len; timestamp = $DateStr
+                    }
+                }
+            }
+        }
+        Write-Log "  GOLD 所有专业网站失败，降级到Bing..." "WARN"
     }
 
+    # ---- 原油：优先 oilprice.com 表格 ----
     if ($Name -eq "OIL") {
         $r = Invoke-SafeFetch -Url "https://oilprice.com/oil-price-charts/" -Timeout 15
         if ($r.ok) {
-            # 提取 WTI Crude x.xx
-            if ($r.content -match 'WTI Crude\s+([0-9]+\.?[0-9]*)\s*[-+]?[0-9]*\.?[0-9]*%?') {
+            # oilprice.com格式: "WTI Crude\n 91.13-1.22-1.32%"
+            # 先匹配 "WTI Crude" 然后匹配后面的数字
+            if ($r.content -match 'WTI Crude\s+\n\s*([0-9]+\.[0-9]{2})') {
                 $price = [double]$matches[1]
                 if ($price -gt 20) {
-                    Write-Log "  OIL 直接抓取成功: $price" "INFO"
+                    Write-Log "  OIL oilprice.com抓取成功: $price" "INFO"
                     return @{
                         value = $price; source = "oilprice.com"; confidence = "high"
-                        raw_len = $r.len; timestamp = $DateStr
+                        unit = "USD/barrel (WTI)"; raw_len = $r.len; timestamp = $DateStr
+                    }
+                }
+            }
+            # 备用：直接找WTI后面的第一个数字
+            if ($r.content -match 'WTI Crude[^0-9]*([0-9]{2,3}\.[0-9]{2})') {
+                $price = [double]$matches[1]
+                if ($price -gt 20) {
+                    Write-Log "  OIL oilprice.com备用抓取成功: $price" "INFO"
+                    return @{
+                        value = $price; source = "oilprice.com"; confidence = "high"
+                        unit = "USD/barrel (WTI)"; raw_len = $r.len; timestamp = $DateStr
                     }
                 }
             }
         }
-        Write-Log "  OIL oilprice.com 解析失败，降级到Bing" "WARN"
+        Write-Log "  OIL oilprice.com解析失败，降级到Bing..." "WARN"
     }
 
-    # Bing搜索降级（保留但添加合理性检查）
+    # Bing搜索降级（添加合理性检查）
     $minReasonable = if ($Name -eq "GOLD") { 500 } elseif ($Name -eq "OIL") { 20 } else { 1 }
     $r = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode($Query) )" -Timeout 12
     if ($r.ok) {
@@ -343,7 +389,7 @@ foreach ($sym in $symbols) {
         $result.crypto[$sym] = $data
         $qs = Get-DataQualityScore -Data $data
         $result.quality_report[$sym] = $qs
-        Write-Log "  $sym = \$$($data.price) [$( $data.source )] 质量:$( $qs.label )" "OK"
+        Write-Log "  $sym = $($data.price) [$( $data.source )] 质量:$( $qs.label )" "OK"
     } else {
         Write-Log "  $sym 采集失败" "ERROR"
         $result.errors += "$sym : all sources failed"
@@ -369,7 +415,7 @@ if ($gold) {
     $result.macro["GOLD"] = $gold
     $qs = Get-DataQualityScore -Data $gold
     $result.quality_report["GOLD"] = $qs
-    Write-Log "  GOLD = \$$($gold.value) [$( $gold.source )] 质量:$( $qs.label )" "OK"
+    Write-Log "  GOLD = $($gold.value) [$( $gold.source )] 质量:$( $qs.label )" "OK"
 } else {
     Write-Log "  黄金采集失败" "ERROR"
     $result.errors += "GOLD : failed"
@@ -381,7 +427,7 @@ if ($oil) {
     $result.macro["OIL"] = $oil
     $qs = Get-DataQualityScore -Data $oil
     $result.quality_report["OIL"] = $qs
-    Write-Log "  OIL = \$$($oil.value) [$( $oil.source )] 质量:$( $qs.label )" "OK"
+    Write-Log "  OIL = $($oil.value) [$( $oil.source )] 质量:$( $qs.label )" "OK"
 } else {
     Write-Log "  原油采集失败" "ERROR"
     $result.errors += "OIL : failed"
