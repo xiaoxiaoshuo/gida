@@ -82,6 +82,11 @@ if ($BtcPrice -and $SolPrice) {
 }
 
 # === 构建简报内容 ===
+$PriceStaleNote = if ($PriceStale) { "_⚠️ 数据可能过期（超过2小时）_`n" } else { "" }
+$TopProjectsText = if ($TopProjects) { $TopProjects -join "`n" } else { "暂无数据" }
+$TrendingNote = if ($TrendingStale) { "_⚠️ 热榜数据可能过期_" } else { "_数据来源: $TrendingDate_" }
+$NewsText = if ($NewsItems.Count -gt 0) { $NewsItems -join "`n" } else { "• [新闻获取失败]" }
+
 $Briefing = @"
 
 ---
@@ -91,21 +96,20 @@ $Briefing = @"
 ### 💰 价格动态
 | 币种 | 价格 | 来源 | 时间戳 |
 |------|------|------|--------|
-| BTC  | $${BtcPrice} | $PriceSource | $PriceTimestamp |
-| ETH  | $${EthPrice} | $PriceSource | $PriceTimestamp |
-| SOL  | $${SolPrice} | $PriceSource | $PriceTimestamp |
+| BTC  | $BtcPrice | $PriceSource | $PriceTimestamp |
+| ETH  | $EthPrice | $PriceSource | $PriceTimestamp |
+| SOL  | $SolPrice | $PriceSource | $PriceTimestamp |
 
-$(if ($PriceStale) { "_⚠️ 数据可能过期（超过2小时）_`n" })
-
+$PriceStaleNote
 ### 🔥 重大新闻
-$($NewsItems -join "`n")
+$NewsText
 
 ### 📂 GitHub Top3
-$(if ($TopProjects) { $TopProjects -join "`n" } else { "暂无数据" })
-$(if ($TrendingStale) { "_⚠️ 热榜数据可能过期_" } else { "_数据来源: $TrendingDate_" })
+$TopProjectsText
+$TrendingNote
 
 ### 🎯 信号判断
-**$Signal** — BTC: $${BtcPrice} | SOL: $${SolPrice}
+**$Signal** — BTC: $BtcPrice | SOL: $SolPrice
 
 ---
 "@
