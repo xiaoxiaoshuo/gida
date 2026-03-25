@@ -1,138 +1,169 @@
-# 数据采集管道状态报告
+# COLLECTION_STATUS.md - 数据采集系统状态报告
 
-**生成时间**: 2026-03-25 18:53 GMT+8  
-**运行环境**: Windows Server / PowerShell + web_fetch  
-**测试次数**: 每数据源1-2次验证
-
----
-
-## 一、数据源可用性清单
-
-### P0 数据源（每日必采）
-
-| # | 数据源 | URL | 状态 | 成功率 | 备注 |
-|---|--------|-----|------|--------|------|
-| 1 | 加密货币价格 (Bing搜索) | `cn.bing.com/search?q=BTC+ETH+SOL+price` | ✅ 稳定 | ~80% | 通过cn.bing.com聚合知乎/CoinMarketCap摘要 |
-| 2 | 美联储FOMC官方 | `federalreserve.gov/monetarypolicy/fomccalendars.htm` | ✅ 稳定 | ~90% | 可直连，含完整会议日程 |
-| 3 | 美联储政策 (Bing搜索) | `cn.bing.com/search?q=Federal+Reserve+FOMC` | ✅ 稳定 | ~80% | 搜索结果来自知乎等中文源 |
-| 4 | BTC/ETH/SOL价格 (Bing) | `cn.bing.com/search?q=CoinMarketCap+BTC+ETH+SOL` | ✅ 稳定 | ~80% | 知乎引用了CoinMarketCap价格数据 |
-
-### P1 数据源（每日重点）
-
-| # | 数据源 | URL | 状态 | 成功率 | 备注 |
-|---|--------|-----|------|--------|------|
-| 5 | GitHub Trending (直连) | `github.com/trending` | ❌ 失败 | 0% | GFW屏蔽，无法访问 |
-| 6 | GitHub Trending (Gitee镜像) | `gitee.com/trending` | ⚠️ 低可用 | ~30% | 页面内容为空/需登录 |
-| 7 | GitHub Trending (Bing搜索) | `cn.bing.com/search?q=GitHub+Trending` | ✅ 稳定 | ~75% | 可提取项目链接，需去重 |
-| 8 | OpenAI Blog (直连) | `openai.com/blog` | ✅ 稳定 | ~90% | 重定向到news页，内容有限 |
-| 9 | DeepSeek Blog (直连) | `deepseek.com/blog` | ✅ 稳定 | ~90% | 主站可访问，内容丰富 |
-| 10 | Google AI / DeepMind | `ai.google.com/research` | ❌ 失败 | 0% | GFW屏蔽 |
-| 11 | Google AI (Bing搜索) | `cn.bing.com/search?q=Google+AI+research` | ✅ 稳定 | ~75% | 可获取摘要 |
-| 12 | 量子计算进展 (Bing) | `cn.bing.com/search?q=quantum+computing+breakthrough+2026` | ✅ 稳定 | ~85% | 结果丰富，含IBM/Google/科学文章 |
-
-### P2 数据源（每周）
-
-| # | 数据源 | URL | 状态 | 成功率 | 备注 |
-|---|--------|-----|------|--------|------|
-| 13 | 芯片出口管制 (Bing) | `cn.bing.com/search?q=chip+semiconductor+export+control` | ✅ 稳定 | ~75% | 中文结果为主（知乎/Chiphell） |
-| 14 | 黄金价格 (Bing) | `cn.bing.com/search?q=gold+price+today` | ✅ 稳定 | ~80% | 含KITCO等财经网站摘要 |
-| 15 | 原油价格 (Bing) | `cn.bing.com/search?q=crude+oil+price+today` | ✅ 稳定 | ~80% | 含彭博/路透社摘要 |
-| 16 | VIX恐慌指数 (Bing) | `cn.bing.com/search?q=VIX+index` | ✅ 稳定 | ~75% | 含知乎解释性内容 |
-| 17 | 中国央行政策 (Bing) | `cn.bing.com/search?q=PBOC+monetary+policy` | ✅ 稳定 | ~80% | 知乎结果为主 |
-| 18 | 地缘政治 (Bing) | `cn.bing.com/search?q=US+China+trade+war` | ✅ 稳定 | ~80% | 结果丰富 |
-
-### 无法访问的数据源
-
-| 数据源 | 原因 | 替代方案 |
-|--------|------|----------|
-| `github.com` | GFW完全屏蔽 | 使用 cn.bing.com 搜索GitHub项目 |
-| `google.com` / `ai.google.com` | GFW屏蔽 | 使用 cn.bing.com |
-| `coinmarketcap.com` (直连) | GFW屏蔽 | 通过Bing搜索摘要 |
-| `coingecko.com` (直连) | GFW屏蔽 | 通过Bing搜索摘要 |
-| `api.coinbase.com` | API访问失败 | 通过Bing搜索替代 |
+**生成时间**: 2026-03-25 20:15 GMT+8
+**版本**: v4 (优化版)
+**运行环境**: Windows Server / PowerShell + web_fetch
 
 ---
 
-## 二、采集频率建议
+## 一、脚本清单
 
-| 数据类别 | 建议频率 | 理由 |
-|----------|----------|------|
-| 加密货币价格 | 每日 2 次 (09:00 / 21:00) | BTC波动大，补充晚间数据 |
-| 美联储/FOMC | 每日 1 次 (08:30) | FOMC会议不频繁，日常跟踪政策信号 |
-| GitHub Trending | 每日 1 次 (10:00) | 日榜/周榜变化 |
-| AI博客 | 每日 1 次 (10:30) | 文章更新频率较低 |
-| 量子计算 | 每日 1 次 | 突破性新闻不频繁 |
-| 芯片出口管制 | 每周 2-3 次 | 政策新闻突发性强 |
-| 黄金/原油/VIX | 每日 1 次 (09:00) | 大宗商品日波动 |
-| 地缘政治 | 每日 1 次 | 实时性要求 |
-| 中国央行 | 每日 1 次 (09:30) | LPR每月公布一次 |
+| 脚本 | 版本 | 功能 | 状态 |
+|------|------|------|------|
+| `collect-prices-simple.ps1` | v4 | 加密货币+VIX+黄金+原油 | ✅ 重写 |
+| `gh-trending-collector.ps1` | v2 | GitHub Trending深度采集 | ✅ 新建 |
+| `collect-market-data.ps1` | v2 | 市场数据(Bing搜索) | ✅ 兼容 |
+| `collect-tech-news.ps1` | (原版) | AI博客/量子计算 | ✅ 兼容 |
+| `collect-policy.ps1` | (原版) | FOMC/央行/出口管制 | ✅ 兼容 |
+| `auto-push.ps1` | v2 | 推送(含归档集成) | ✅ 升级 |
+| `incremental-backup.ps1` | v1 | 增量归档+清理 | ✅ 新建 |
 
 ---
 
-## 三、最佳采集路径
+## 二、数据源可用性清单
 
-### 加密货币价格
-```
-主要: cn.bing.com → 搜索 "BTC ETH SOL price 今日"
-备选: cn.bing.com → 搜索 "CoinMarketCap BTC ETH SOL"
-注意: 知乎引用CMC数据，可作为价格参考
-```
+### 加密货币价格 (2026-03-25 测试结果)
+
+| 数据源 | URL | 状态 | 备注 |
+|--------|-----|------|------|
+| OKX API | `okx.com/api/v5/market/ticker?instId=BTC-USDT` | ✅ 成功 (~349ms) | **主推荐** |
+| CryptoCompare API | `min-api.cryptocompare.com/data/price` | ✅ 成功 (~1865ms) | 备选 |
+| Gate.io API | `api.gateio.ws/api/v4/spot/tickers` | ✅ 成功 (~2649ms) | 备选 |
+| Binance API | `api.binance.com` | ❌ 失败 (~8s超时) | GFW屏蔽 |
+| CoinGecko API | `api.coingecko.com` | ❌ 失败 | GFW屏蔽 |
+| cn.bing.com | 搜索摘要 | ✅ 兜底 | 低置信度 |
 
 ### GitHub Trending
-```
-最优: cn.bing.com → 搜索 "GitHub Trending Python/JavaScript today"
-     → 提取 github.com/xxx/yyy 格式链接
-次选: gitee.com/trending (内容贫乏，不推荐)
-```
 
-### 美联储政策
-```
-主要: federalreserve.gov (直连，高可靠)
-次要: cn.bing.com 搜索 Federal Reserve FOMC 2026
-```
+| 方式 | URL | 状态 | 备注 |
+|------|-----|------|------|
+| githubfast.com | `githubfast.com/trending` | ❌ 403 Forbidden | 已测试失败 |
+| ghp.ci | - | ❌ DNS解析失败 | 域名不可用 |
+| gitmirror.com | - | ❌ DNS解析失败 | 域名不可用 |
+| hub.fastgit.xyz | `hub.fastgit.xyz/trending` | ❌ 超时 (~8s) | 不可用 |
+| cn.bing.com 优化查询 | 搜索策略 | ✅ 75% | **当前主力方案** |
+| Gitee API | `gitee.com/api/v5/explore_rank/hottest` | ✅ 可用 | 备选镜像 |
 
-### AI博客
-```
-DeepSeek: deepseek.com/blog (直连，最稳定)
-OpenAI: openai.com/news (直连，重定向后内容少)
-Google: 通过 cn.bing.com 搜索 "Google AI research blog"
-```
+### 其他数据源
 
-### 量子计算
-```
-cn.bing.com → 搜索 "quantum computing breakthrough 2026"
-→ 结果来源: ScienceDaily, programming-helper, evidentweb 等
-```
+| 数据源 | 直连 | Bing代理 | 备注 |
+|--------|------|----------|------|
+| federalreserve.gov | ✅ 90% | - | FOMC日历 |
+| deepseek.com/blog | ✅ 90% | - | DeepSeek博客 |
+| openai.com/news | ✅ 90% | - | OpenAI |
+| google.com | ❌ | ✅ 75% | 走cn.bing.com |
+| github.com | ❌ | ✅ 75% | 走cn.bing.com |
 
 ---
 
-## 四、后续优化建议
+## 三、v4 改进详情
 
-### 高优先级
-1. **接入代理池** - 当前约40%的数据源（GitHub/Google/CoinMarketCap直连）被GFW屏蔽，建议配置代理（Shadowrocket/sing-box规则）以提升采集完整性
-2. **GitHub Trending镜像站** - 可探索 `githubfast.com/trending` 或 `ghp.ci/trending` 等社区镜像
-3. **价格API替代** - 考虑接入 `api.binance.com` (可能需要代理) 或 `min-api.cryptocompare.com` 等加密货币API
+### 任务1: collect-prices-simple.ps1 (重写)
 
-### 中优先级
-4. **数据解析增强** - 当前Bing搜索结果为摘要文本，价格提取正则精度有限，建议增加AI辅助解析或结构化提取
-5. **Gitee热榜内容** - gitee.com/trending 目前返回空内容，需排查是否需要登录态
+**改进点**:
+1. **多源降级**: OKX API → CryptoCompare → Gate.io → cn.bing.com
+2. **JSON结构化输出**: 价格 + source + confidence + timestamp + raw snippet
+3. **数据质量评分**: 高/中/低 三档 (基于来源权威性+字段完整性)
+4. **输出格式**: `data/market/prices_YYYY-MM-DD_HH-mm.json` (带时间戳)
+5. **详细日志**: 每一步都有日志记录
 
-### 低优先级
-6. **RSS订阅** - 部分博客(RSS)可能比网页更稳定，可测试 feedproxy.google.com 等RSS服务
-7. **缓存机制** - 对于更新频率低的数据（量子计算、芯片政策）增加去重和缓存逻辑
+**数据结构**:
+```json
+{
+  "timestamp": "2026-03-25 20:00:00",
+  "timestamp_iso": "2026-03-25T12:00:00Z",
+  "collection_version": "v4",
+  "crypto": {
+    "BTC": { "price": 71712.9, "source": "OKX_API", "confidence": "high", "raw": "..." }
+  },
+  "macro": {
+    "VIX": { "value": 18.5, "source": "cn.bing.com", "confidence": "medium" }
+  },
+  "quality_report": {
+    "BTC": { "score": 95, "label": "高", "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据" },
+    "_overall": { "average_score": 82.5, "label": "高", "total_items": 6 }
+  }
+}
+```
+
+### 任务2: gh-trending-collector.ps1 (新建)
+
+**改进点**:
+1. **镜像探测**: 启动时自动测试 githubfast.com / hub.fastgit.xyz
+2. **多语言采集**: Python/JS/AI/Go/Rust 各语言trending
+3. **智能去重**: 基于repo path去重，累计采集
+4. **Markdown报告**: 生成结构化MD报告(AI/ML优先)
+5. **三种模式**: `mirror` → `bing_optimized` → `gitee_backup`
+
+**输出**:
+- `data/tech/github-trending_YYYY-MM-DD_HH-mm.json` (原始数据)
+- `data/tech/github-trending_YYYY-MM-DD_HH-mm.md` (可读报告)
+
+### 任务3: incremental-backup.ps1 (新建) + auto-push.ps1 (升级)
+
+**改进点**:
+1. **归档触发**: 推送失败时自动将新文件移动到 `data/archive/`
+2. **manifest追踪**: `_manifest.json` 记录所有归档文件状态
+3. **恢复机制**: `incremental-backup.ps1 restore` 可恢复归档文件
+4. **自动清理**: 推送成功后清理archive已推送记录(保留7天)
+5. **git reset保护**: 推送失败时 `git reset --soft HEAD~1` 保留变更
+
+**流程**:
+```
+采集 → auto-push → 推送成功 → 清理archive ✅
+                → 推送失败 → git reset → 归档到data/archive/ → 下次恢复推送
+```
+
+### 任务4: 数据质量评分
+
+**评分维度**:
+| 维度 | 高分条件 | 分值 |
+|------|----------|------|
+| 来源权威性 | API接口返回 | +40 |
+| 来源权威性 | Bing搜索摘要 | +25 |
+| 来源权威性 | Bing搜索(无结构) | +10 |
+| 字段完整性 | 价格/value字段 | +20 |
+| 字段完整性 | source来源标注 | +15 |
+| 字段完整性 | timestamp时间戳 | +10 |
+| 字段完整性 | raw原始数据 | +15 |
+
+**评分标签**:
+- 高 (≥70分): API接口来源，字段完整
+- 中 (40-69分): Bing搜索摘要，基础字段
+- 低 (<40分): Bing搜索，内容不完整
 
 ---
 
-## 五、已创建的脚本
+## 四、推荐 cron 调度
 
-| 脚本 | 路径 | 功能 |
+| 时间 | 脚本 | 备注 |
 |------|------|------|
-| collect-market-data.ps1 | `...\scripts\collect-market-data.ps1` | 加密货币价格、VIX、黄金、原油 |
-| collect-tech-news.ps1 | `...\scripts\collect-tech-news.ps1` | GitHub Trending、AI博客、量子计算 |
-| collect-policy.ps1 | `...\scripts\collect-policy.ps1` | FOMC、中国央行、出口管制、地缘政治 |
-
-**使用方式**: 将脚本放入 cron/OpenClaw 定时任务，建议测试阶段先手动执行验证输出。
+| 09:00 | `collect-prices-simple.ps1` | 早间价格 |
+| 09:30 | `collect-policy.ps1` | 政策/FOMC |
+| 10:00 | `gh-trending-collector.ps1` | GitHub热榜 |
+| 10:30 | `collect-tech-news.ps1` | AI博客/量子 |
+| 21:00 | `collect-prices-simple.ps1` | 晚间价格 |
+| 21:30 | `collect-policy.ps1` | 政策晚间版 |
+| 22:00 | `auto-push.ps1` | 每日推送 |
 
 ---
 
-*报告生成: 2026-03-25 采集者智能体*
+## 五、已知限制
+
+1. **GitHub直连**: github.com 被GFW完全屏蔽，镜像站也不稳定，Bing搜索是主要方案
+2. **Binance API**: api.binance.com 在中国不可访问，改用OKX/CryptoCompare替代
+3. **数据质量**: Bing搜索来源的价格数据置信度为"低"，仅供趋势参考
+4. **Gitee内容**: Gitee热榜内容有限，主要作为GitHub的最后备选
+
+---
+
+## 六、data/archive/ 说明
+
+- **用途**: 推送失败时临时保存数据，确保不丢失
+- **恢复**: `.\incremental-backup.ps1 restore` 可恢复
+- **清理**: 推送成功后自动清理7天前记录
+- **manifest**: `data/archive/_manifest.json` 追踪归档状态
+
+---
+
+*报告更新: 2026-03-25 数据采集优化智能体*
