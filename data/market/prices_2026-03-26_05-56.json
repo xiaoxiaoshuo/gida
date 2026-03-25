@@ -7,7 +7,7 @@
                    "GOLD : failed",
                    "OIL : failed"
                ],
-    "timestamp":  "2026-03-26 06:02:18",
+    "timestamp":  "2026-03-26 05:56:43",
     "collection_version":  "v4",
     "quality_report":  {
                            "_overall":  {
@@ -22,5 +22,5 @@
     "crypto":  {
 
                },
-    "timestamp_iso":  "2026-03-25T22:02:18Z"
+    "timestamp_iso":  "2026-03-25T21:56:43Z"
 }
