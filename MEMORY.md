@@ -155,3 +155,5 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - GitHub 502是服务器端问题，本地git reset保护有效
 - alternative.me FNG是有效的无认证VIX替代指标（需理解：F&G范围0-100，14=极度恐慌）
 - cron调度：price-refresh-hourly（每小时）最关键，不可中断
+- **GitHub push的PowerShell退出码1是假阳性**：当使用 `command 2>&1` 时，即使push成功PowerShell也可能返回exit code 1。真正要看的是输出中的 `old..new branch -> branch` 确认行
+- **Bing搜索无法可靠采集黄金/原油价格**：搜索结果摘要通常不含价格数字，导致正则提取到错误值（如页面元素ID "20"）。替代方案：直接抓 goldprice.org / oilprice.com / 新浪财经API
