@@ -1,8 +1,8 @@
 {
   "crypto": {
-    "BTC": { "price": 71079, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" },
-    "ETH": { "price": 2164.5, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" },
-    "SOL": { "price": 91.2, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:05:00" }
+    "BTC": { "price": 71265, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:36:00" },
+    "ETH": { "price": 2175.6, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:36:00" },
+    "SOL": { "price": 91.68, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 06:36:00" }
   },
   "macro": {
     "VIX": { "value": 14, "source": "alternative.me_FNG", "confidence": "medium", "value_classification": "Extreme Fear", "timestamp": "2026-03-26 06:00:00" },
@@ -19,7 +19,7 @@
     "_overall": { "average_score": 82.5, "label": "高", "total_items": 6 }
   },
   "errors": [],
-  "timestamp": "2026-03-26 06:05:00",
-  "timestamp_iso": "2026-03-26T06:05:00Z",
+  "timestamp": "2026-03-26 06:36:00",
+  "timestamp_iso": "2026-03-26T06:36:00Z",
   "collection_version": "v6b"
 }
