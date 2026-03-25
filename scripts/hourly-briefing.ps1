@@ -37,7 +37,7 @@ $TrendingContent = ""
 $TrendingDate = ""
 
 if ($TrendingFile) {
-    $TrendingDate = $TrendingFile.BaseName -replace "github-trending-", ""
+    $TrendingDate = [System.IO.Path]::GetFileNameWithoutExtension($TrendingFile.FullName) -replace "github-trending-", ""
     if (Test-StaleData $TrendingFile.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")) { $TrendingStale = $true }
     $TrendingContent = Get-Content $TrendingFile.FullName -Raw
 }
