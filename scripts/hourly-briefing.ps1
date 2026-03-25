@@ -44,25 +44,23 @@ if ($TrendingFile) {
 
 # === 3. 提取 GitHub Top3 项目 ===
 $TopProjects = @()
-if ($TrendingContent -match '(?s)\| \*\*openclaw\*\*.*?\| ([\d.]+k) \|') {
-    $TopProjects += "openclaw (130k stars) - AI助手平台"
+# 支持 openclaw/openclaw 或 openclaw
+if ($TrendingContent -match '(?s)\| \*\*openclaw[/\\].*?\| ([\d.]+) \|') {
+    $stars = $Matches[1]; $TopProjects += "openclaw ($stars stars) - AI助手平台"
 }
-if ($TrendingContent -match '(?s)\| \*\*AutoGPT\*\*.*?\| ([\d.]+k) \|') {
-    $TopProjects += "AutoGPT (134k stars) - Agent工作流"
+if ($TrendingContent -match '(?s)\| \*\*AutoGPT[/\\].*?\| ([\d.]+) \|') {
+    $stars = $Matches[1]; $TopProjects += "AutoGPT ($stars stars) - Agent工作流"
 }
-if ($TrendingContent -match '(?s)\| \*\*vllm\*\*.*?\| ([\d.]+k) \|') {
-    $TopProjects += "vllm (74k stars) - LLM推理引擎"
+if ($TrendingContent -match '(?s)\| \*\*Significant-Gravitas[/\\]AutoGPT.*?\| ([\d.]+) \|') {
+    $stars = $Matches[1]; if ($TopProjects.Count -lt 2) { $TopProjects += "AutoGPT ($stars stars) - Agent工作流" }
+}
+if ($TrendingContent -match '(?s)\| \*\*n8n[/\\].*?\| ([\d.]+) \|') {
+    $stars = $Matches[1]; if ($TopProjects.Count -lt 3) { $TopProjects += "n8n ($stars stars) - 工作流自动化" }
 }
 
-# 如果正则匹配失败，尝试备选方案
-if ($TopProjects.Count -eq 0 -and $TrendingContent -match 'openclaw') {
+# 备用：从描述行提取
+if ($TopProjects.Count -eq 0 -and $TrendingContent -match 'openclaw.*?(\d+)\s*stars') {
     $TopProjects += "openclaw - AI助手平台"
-}
-if ($TopProjects.Count -eq 1 -and $TrendingContent -match 'AutoGPT') {
-    $TopProjects += "AutoGPT - Agent工作流"
-}
-if ($TopProjects.Count -eq 2 -and $TrendingContent -match 'vllm') {
-    $TopProjects += "vllm - LLM推理引擎"
 }
 
 # === 4. 获取 OpenAI 最新新闻 (cn.bing.com) ===
