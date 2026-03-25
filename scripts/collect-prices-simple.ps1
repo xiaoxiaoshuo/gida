@@ -245,30 +245,51 @@ function Get-MacroPrice {
 
     # ---- 黄金：优先 Kitco (有明确的Bid价格) ----
     if ($Name -eq "GOLD") {
-        # 策略1: Kitco Live Gold - 页面含 "Bid\n### 4,523.10" 格式
-        $r = Invoke-SafeFetch -Url "https://www.kitco.com/charts/livegold.html" -Timeout 15
-        if ($r.ok) {
-            # 匹配 markdown heading 格式的价格：### 4,523.10
-            if ($r.content -match '###\s*([0-9,]+\.?[0-9]*)\s*(?:\n|$)') {
-                $priceStr = $matches[1] -replace ',', ''
-                $price = [double]$priceStr
-                if ($price -gt 500) {
-                    Write-Log "  GOLD Kitco抓取成功: $price" "INFO"
-                    return @{
-                        value = $price; source = "kitco.com"; confidence = "high"
-                        unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+        # 策略1: Kitco Charts - raw HTML 格式
+        # 实际HTML: <div class="mr-0.5 text-[19px] font-normal">4,520.30</div>
+        # 价格为 4,xxx.xx 格式（USD/oz），需要合理性验证
+        $kitcoUrls = @(
+            "https://www.kitco.com/charts/gold",
+            "https://www.kitco.com/charts/livegold.html"
+        )
+        foreach ($kitcoUrl in $kitcoUrls) {
+            $r = Invoke-SafeFetch -Url $kitcoUrl -Timeout 15
+            if ($r.ok) {
+                # 匹配原始HTML中的黄金现货价格：4,520.30 格式
+                # 先尝试 oz/ounce 附近的 4,xxx 价格
+                if ($r.content -match '(?:oz|ounce)[^<]*?([0-9],[0-9]{3}\.[0-9]{2})') {
+                    $priceStr = $matches[1] -replace ',', ''
+                    $price = [double]$priceStr
+                    if ($price -gt 1500 -and $price -lt 10000) {
+                        Write-Log "  GOLD Kitco oz附近正则成功: $price (URL: $kitcoUrl)" "INFO"
+                        return @{
+                            value = $price; source = "kitco.com"; confidence = "high"
+                            unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+                        }
                     }
                 }
-            }
-            # 备用正则：Bid\n### 4,523.10 格式
-            if ($r.content -match '(?s)Bid.*?([0-9]{3,4}\.[0-9]{2})') {
-                $priceStr = $matches[1] -replace ',', ''
-                $price = [double]$priceStr
-                if ($price -gt 500 -and $price -lt 10000) {
-                    Write-Log "  GOLD Kitco备用正则成功: $price" "INFO"
-                    return @{
-                        value = $price; source = "kitco.com"; confidence = "high"
-                        unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+                # 备用：匹配 text-[19px] font-normal 样式中的价格（Kitco页面主价格）
+                if ($r.content -match 'font-normal">([0-9],[0-9]{3}\.[0-9]{2})</div>') {
+                    $priceStr = $matches[1] -replace ',', ''
+                    $price = [double]$priceStr
+                    if ($price -gt 1500 -and $price -lt 10000) {
+                        Write-Log "  GOLD Kitco字体样式正则成功: $price" "INFO"
+                        return @{
+                            value = $price; source = "kitco.com"; confidence = "high"
+                            unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+                        }
+                    }
+                }
+                # 备用：匹配 4,xxx.xx 格式的大数字（oz价格范围 $1500-$9999）
+                if ($r.content -match '>([4-9],[0-9]{3}\.[0-9]{2})<') {
+                    $priceStr = $matches[1] -replace ',', ''
+                    $price = [double]$priceStr
+                    if ($price -gt 1500 -and $price -lt 10000) {
+                        Write-Log "  GOLD Kitco 4xxx范围正则成功: $price" "INFO"
+                        return @{
+                            value = $price; source = "kitco.com"; confidence = "medium"
+                            unit = "USD/oz"; raw_len = $r.len; timestamp = $DateStr
+                        }
                     }
                 }
             }
