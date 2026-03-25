@@ -91,9 +91,9 @@ $Briefing = @"
 ### 💰 价格动态
 | 币种 | 价格 | 来源 | 时间戳 |
 |------|------|------|--------|
-| BTC  | \$$BtcPrice | $PriceSource | $PriceTimestamp |
-| ETH  | \$$EthPrice | $PriceSource | $PriceTimestamp |
-| SOL  | \$$SolPrice | $PriceSource | $PriceTimestamp |
+| BTC  | $${BtcPrice} | $PriceSource | $PriceTimestamp |
+| ETH  | $${EthPrice} | $PriceSource | $PriceTimestamp |
+| SOL  | $${SolPrice} | $PriceSource | $PriceTimestamp |
 
 $(if ($PriceStale) { "_⚠️ 数据可能过期（超过2小时）_`n" })
 
@@ -105,7 +105,7 @@ $(if ($TopProjects) { $TopProjects -join "`n" } else { "暂无数据" })
 $(if ($TrendingStale) { "_⚠️ 热榜数据可能过期_" } else { "_数据来源: $TrendingDate_" })
 
 ### 🎯 信号判断
-**$Signal** — BTC: \$$BtcPrice | SOL: \$$SolPrice
+**$Signal** — BTC: $${BtcPrice} | SOL: $${SolPrice}
 
 ---
 "@
