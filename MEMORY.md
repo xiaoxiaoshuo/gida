@@ -134,11 +134,22 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
   - 需要修复：更换黄金/原油数据源或改进正则匹配
 - **GitHub 502问题**：持续约40分钟（~04:07 UTC开始），本地commits堆积
 
+#### GitHub 502 最终解决方案（07:36 UTC+8）
+- **根因**：GFW阻断SSH端口22，git push走SSH协议失败
+- **解决方案**：
+  ```powershell
+  git config --global url."https://github.com/".insteadOf "git@github.com:"
+  git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
+  ```
+- **效果**：强制git走HTTPS/443端口，绕过SSH阻断
+- **已集成到auto-push.ps1脚本开头**
+- **推送耗时**：2535ms（正常），推送成功
+
 #### 系统架构（已稳定）
 - 采集脚本：`collect-prices-simple.ps1`（v6）、`gh-trending-v2.ps1`（v2）
-- 推送：`auto-push.ps1`（v2）+ `incremental-backup.ps1`（归档保护）
+- 推送：`auto-push.ps1`（v3，含HTTPS/443配置）+ `incremental-backup.ps1`（归档保护）
 - 简报：`hourly-briefing.ps1`
-- GitHub推送历史：每10分钟自动推送，成功率约60%（502期间失败）
+- GitHub推送：**已稳定**，HTTPS/443方案有效
 
 #### 关键变量当前值（2026-03-26 04:00 UTC）
 | 变量 | 值 | 来源 | 状态 |

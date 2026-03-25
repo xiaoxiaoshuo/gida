@@ -19,6 +19,11 @@ function Write-Log {
     Add-Content -Path $LogFile -Value "  - $entry" -Encoding UTF8
 }
 
+# ========== 解决GitHub 502: 强制HTTPS走443端口 ==========
+# GitHub的SSH端口(22)经常被GFW阻断，走HTTPS/443绕过
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
+
 Set-Location $RepoRoot
 
 # 检查变更
