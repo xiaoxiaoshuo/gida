@@ -106,3 +106,8 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
   - ARCHIVE 目录不存在
 - **已修复**：更新 USER.md，完善用户画像（GitHub热榜、AI博客兴趣已记录）
 - **进行中**：派生采集智能体（intelligence-collector）建立自动化采集管道
+- **定时推送要求**：每日定时变更后自动推送至 GitHub（https://github.com/xiaoxiaoshuo/gida）
+  - 推送前检查 `git status --short`
+  - 有变更时执行：`git add -A && git commit -m "chore: 定时更新 $(date)" && git push`
+  - 遇到问题记录至 `memory/YYYY-MM-DD.md`，包含错误信息、尝试的解决方案、最终结果
+  - 若推送失败（502/超时等），等待30秒后重试，最多3次
