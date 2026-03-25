@@ -45,22 +45,21 @@
       "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"14\",\n\t\t\t\"value_classification\": \"Extr"
     },
     "OIL": {
-      "raw_len": 94768,
-      "source": "cn.bing.com",
-      "confidence": "low",
-      "status": "unavailable",
-      "value": null,
-      "reason": "price_below_threshold_20 (WTI实际约$70-80，$20为提取错误)",
-      "timestamp": "2026-03-26 04:16:51"
+      "source": "oilprice.com",
+      "confidence": "high",
+      "value": 91.13,
+      "unit": "USD/barrel (WTI)",
+      "change_pct": -1.32,
+      "note": "手动补充（自动采集Bing失败）",
+      "timestamp": "2026-03-26 04:22:00"
     },
     "GOLD": {
-      "raw_len": 94876,
-      "source": "cn.bing.com",
-      "confidence": "low",
-      "status": "unavailable",
-      "value": null,
-      "reason": "price_below_threshold_500 (黄金实际约$3000+，$20为提取错误)",
-      "timestamp": "2026-03-26 04:16:51"
+      "source": "goldprice.org",
+      "confidence": "high",
+      "value": 4494.1,
+      "unit": "USD/oz (spot)",
+      "note": "手动补充（自动采集Bing失败）；查询时间约Mar 21-25",
+      "timestamp": "2026-03-26 04:22:00"
     }
   },
   "errors": [],
