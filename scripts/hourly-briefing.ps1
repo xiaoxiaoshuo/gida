@@ -139,18 +139,55 @@ $TrendingNote
 ---
 "@
 
-# === 6. 追加到 briefings.md ===
+# === 6. 写入 briefings.md（去重：同一小时只保留最新） ===
 $BriefingsFile = "$WorkDir\DAILY\briefings.md"
 $Header = @"
 # 📈 每日简报汇总
 
 "@
 
+# 当前小时的简报标识（精确到小时）
+$CurrentHourMarker = "## 📊 加密市场简报 | $DateStr"
+# 简报开始标记（定位要删除的块）
+$BlockStart = "## 📊 加密市场简报 |"
+$BlockEnd = "^---$"
+
 if (-not (Test-Path $BriefingsFile)) {
     New-Item -Path $BriefingsFile -ItemType File -Force | Out-Null
     $Header | Set-Content $BriefingsFile -NoNewline
 }
 
+# 读取现有内容，去除同一小时的旧条目
+$ExistingContent = Get-Content $BriefingsFile -Raw
+if ($ExistingContent) {
+    $Lines = $ExistingContent -split "`n"
+    $NewLines = @()
+    $SkipBlock = $false
+    foreach ($Line in $Lines) {
+        if ($Line -match "^## 📊 加密市场简报 \| (\d{4}-\d{2}-\d{2} \d{2}):") {
+            # 检查是否与当前小时相同
+            if ($Line -match "^## 📊 加密市场简报 \| $($Now.ToString('yyyy-MM-dd HH')):") {
+                $SkipBlock = $true
+                continue
+            } else {
+                $SkipBlock = $false
+            }
+        }
+        if ($Line -match "^---$" -and $SkipBlock) {
+            $SkipBlock = $false
+            continue
+        }
+        if (-not $SkipBlock) {
+            $NewLines += $Line
+        }
+    }
+    # 移除末尾空行后重新写入
+    $CleanContent = $NewLines | Where-Object { $_ -ne "" -or $LastNonEmpty }
+    if ($LastNonEmpty) { $CleanContent += "" }
+    $CleanContent -join "`n" | Set-Content $BriefingsFile -NoNewline
+}
+
+# 追加新简报
 $Briefing | Add-Content -Path $BriefingsFile
 
 # === 7. Git 检测变更 ===
