@@ -1,0 +1,16 @@
+{
+  "timestamp_iso": "2026-03-26T03:23:00Z",
+  "source": "github.com/trending via Playwright browser",
+  "projects": [
+    { "name": "mvanhorn/last30days-skill", "stars": 7980, "description": "AI agent skill that researches any topic across Reddit, X, Y", "language": "Python" },
+    { "name": "bytedance/deer-flow", "stars": 46629, "description": "An open-source long-horizon SuperAgent harness for research", "language": "Python" },
+    { "name": "BerriAI/litellm", "stars": 40729, "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs", "language": "Python" },
+    { "name": "pascalorg/editor", "stars": 6921, "description": "Create and share 3D architectural projects", "language": "TypeScript" },
+    { "name": "letta-ai/claude-subconscious", "stars": 1522, "description": "Give Claude Code a subconscious", "language": "TypeScript" },
+    { "name": "ruvnet/ruflo", "stars": 26314, "description": "The leading agent orchestration platform for Claude", "language": "TypeScript" },
+    { "name": "Crosstalk-Solutions/project-nomad", "stars": 16746, "description": "Self-contained, offline survival game", "language": "TypeScript" },
+    { "name": "ruvnet/RuView", "stars": 42400, "description": "WiFi DensePose turns commodity WiFi signals into real-time 3D body tracking", "language": "Rust" },
+    { "name": "supermemoryai/supermemory", "stars": 19284, "description": "Memory engine and app that is extremely fast, scalable", "language": "TypeScript" },
+    { "name": "FujiwaraChoki/MoneyPrinterV2", "stars": 25667, "description": "Automate the process of making money online", "language": "Python" }
+  ]
+}
