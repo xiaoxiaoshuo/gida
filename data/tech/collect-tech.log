@@ -45,3 +45,17 @@
 [INFO] 06:07:41 - ========== 采集完成 ==========
 [INFO] 06:07:41 - 共采集: 30 个项目
 [INFO] 06:07:41 - 热门项目: EbookFoundation/free-programming-books (★384574)
+[INFO] 10:42:00 - ========== GitHub Trending 采集 v2 开始 ==========
+[INFO] 10:42:00 - 日期: 2026-03-26
+[INFO] 10:42:00 - Token: 未配置（使用匿名模式）
+[INFO] 10:42:00 - >> 策略1: 通过 GitHub API 采集...
+[INFO] 10:42:00 -   查询: stars:>500 created:>2026-02-24
+[INFO] 10:42:01 -   API返回: 291 个结果（展示 20 个）
+[INFO] 10:42:03 -   查询: stars:>1000 pushed:>2026-02-24
+[INFO] 10:42:04 -   API返回: 20412 个结果（展示 20 个）
+[INFO] 10:42:06 -   去重后: 40 个项目
+[INFO] 10:42:07 - Markdown报告: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-03-26.md
+[INFO] 10:42:07 - JSON数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-03-26.json
+[INFO] 10:42:07 - ========== 采集完成 ==========
+[INFO] 10:42:07 - 共采集: 30 个项目
+[INFO] 10:42:07 - 热门项目: openclaw/openclaw (★336087)
