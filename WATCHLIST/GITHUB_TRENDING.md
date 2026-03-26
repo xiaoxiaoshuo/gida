@@ -1,7 +1,7 @@
 # WATCHLIST | GitHub Trending AI/ML 项目监控清单
 
 > 建立时间：2026-03-26  
-> 状态：🟡 初始版本  
+> 状态：🟢 已更新 (2026-03-26 10:46)  
 > 频率：每日自动采集 + 每周人工复核
 
 ---
@@ -10,14 +10,14 @@
 
 | 项目 | 类型 | Stars | 监控理由 | 数据源 |
 |------|------|-------|----------|--------|
-| [openclaw/openclaw](https://github.com/openclaw/openclaw) | AI助手/Agent | 335K | 核心基础设施 | GitHub API |
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | AI助手/Agent | 336K | 核心基础设施 | GitHub API |
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | AI Agent | 182K | 行业先驱/Agent标准 | GitHub API |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI研究自动化 | 55K | Andrej Karpathy背书 | GitHub API |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | AI研究自动化 | 56K | Andrej Karpathy背书 | GitHub API |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | ML框架 | 194K | 行业基准 | GitHub API |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 工作流+AI | 181K | AI Agent落地标杆 | GitHub API |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | AI Agent套件 | 46K | CEO/Designer多角色Agent | GitHub API |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | AI Agent套件 | 47K | CEO/Designer多角色Agent | GitHub API |
 | [googleworkspace/cli](https://github.com/googleworkspace/cli) | AI+工具 | 22K | Google AI Agent技能 | GitHub API |
-| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Agent原生 | 22K | CLI-Agent协议研究 | GitHub API |
+| [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | Agent原生 | 23K | CLI-Agent协议研究 | GitHub API |
 
 ---
 
@@ -98,11 +98,18 @@ AI/ML/
 
 | 数据源 | 状态 | 备注 |
 |--------|------|------|
-| GitHub API | ✅ 可用 | 需要Token提升限速 |
+| GitHub API | ✅ 可用 | 匿名模式限速较低，建议配置Token |
 | GitHub Trending页面 | 🔴 GFW阻断 | 解析至内网IP |
 | hub.fastgit.xyz | ⚠️ 不稳定 | 作为备选 |
 | cn.bing.com | ✅ 可用 | 搜索聚合 |
 
 ---
 
-*最后更新：2026-03-26*
+## 📅 采集记录
+
+- **2026-03-26 10:46** - 采集30个项目，AI/ML类15个，质量评分97.5/100
+- **2026-03-26 10:40** - 初始化采集管道
+
+---
+
+*最后更新：2026-03-26 10:46 GMT+8*
