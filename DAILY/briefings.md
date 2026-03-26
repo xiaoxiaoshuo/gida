@@ -1,19 +1,20 @@
 ===
 
-[2026-03-27 12:00 AM] 小时简报
+[2026-03-27 01:01] 小时简报
 
-【价格动态】BTC: 数据获取失败 | ETH: 数据获取失败 | 状态: API访问受限
+【价格动态】
+BTC: 数据获取中 | ETH: 数据获取中 | 状态: 待更新
 
 【重大新闻】
-- 🔥 [OpenAI Codex App] OpenAI于2026年2月2日正式推出Codex App macOS版，定位为"智能体指挥中心"
-- 🔥 [GPT-5发布] OpenAI在2026年8月发布GPT-5，整合多项技术并免费无限使用
-- 🔥 [AI智能体Operator] OpenAI发布Operator，能像人类一样自主操控
+- 🔥 [OpenAI关停Sora] OpenAI宣布关停AI视频平台Sora，迪士尼10亿美元投资告吹
+- OpenAI计划2026年将员工人数翻倍以应对竞争
+- OpenAI预计2026年将烧掉170亿美元
 
 【GitHub 热榜 Top3】
-1. bytedance/deer-flow - 开源长视野SuperAgent框架，Python，47,937星，今日+2,388
-2. virattt/dexter - 自主金融研究智能体，TypeScript，18,780星，今日+269
-3. ruvnet/RuView - WiFi DensePose技术，通过WiFi信号实现人体姿态估计，无需视频
+1. bytedance/deer-flow - 开源长周期SuperAgent harness，48,019 stars
+2. virattt/dexter - 自主金融研究代理，18,808 stars
+3. Yeachan-Heo/oh-my-claudecode - Teams优先的多智能体编排，12,286 stars
 
-【信号】AI智能体生态持续爆发，OpenAI加速产品化布局，金融AI和Agent框架成为GitHub热点。
+【信号】AI领域继续深度整合，多智能体系统成为开源社区热点
 
 ===
