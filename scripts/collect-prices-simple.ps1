@@ -26,6 +26,11 @@ function Write-Log {
     Add-Content -Path $LogFile -Value $msg -Encoding UTF8
 }
 
+# ========== SSL证书绕过（Fortinet拦截环境） ==========
+$CertPolicy = [System.Net.ServicePointManager]::ServerCertificateValidationCallback
+try {
+    [System.Net.ServicePointManager]::ServerCertificateValidationCallback = { $true }
+
 # ========== HTTP工具 ==========
 function Invoke-SafeFetch {
     param([string]$Url, [int]$Timeout = 10, [string]$UA = "Mozilla/5.0")
@@ -314,39 +319,84 @@ function Get-MacroPrice {
         Write-Log "  GOLD 所有专业网站失败，降级到Bing..." "WARN"
     }
 
-    # ---- 原油：优先 oilprice.com 表格 ----
+    # ---- 原油：多源降级采集 ----
     if ($Name -eq "OIL") {
-        $r = Invoke-SafeFetch -Url "https://oilprice.com/oil-price-charts/" -Timeout 15
-        if ($r.ok) {
-            # oilprice.com格式: "WTI Crude\n 91.13-1.22-1.32%"
-            # 先匹配 "WTI Crude" 然后匹配后面的数字
-            if ($r.content -match 'WTI Crude\s+\n\s*([0-9]+\.[0-9]{2})') {
+        # --- 策略1: TradingEconomics (最可靠，内容明确) ---
+        $r = Invoke-SafeFetch -Url "https://tradingeconomics.com/commodity/crude-oil" -Timeout 15
+        if ($r.ok -and $r.content) {
+            # 匹配格式: "Crude Oil rose to 91.88 USD/Bbl" 或 "XXX USD/Bbl"
+            if ($r.content -match 'Crude Oil[^$]*?(\d+\.\d{2})\s*USD/Bbl') {
                 $price = [double]$matches[1]
-                if ($price -gt 20) {
-                    Write-Log "  OIL oilprice.com抓取成功: $price" "INFO"
+                if ($price -gt 40 -and $price -lt 200) {
+                    Write-Log "  OIL TradingEconomics抓取成功: $price" "INFO"
                     return @{
-                        value = $price; source = "oilprice.com"; confidence = "high"
+                        value = $price; source = "tradingeconomics.com"; confidence = "high"
                         unit = "USD/barrel (WTI)"; raw_len = $r.len; timestamp = $DateStr
                     }
                 }
             }
-            # 备用：直接找WTI后面的第一个数字
-            if ($r.content -match 'WTI Crude[^0-9]*([0-9]{2,3}\.[0-9]{2})') {
+            # 备用: 直接找 "USD/Bbl" 前的数字
+            if ($r.content -match '(\d+\.\d{2})\s*USD/Bbl') {
                 $price = [double]$matches[1]
-                if ($price -gt 20) {
-                    Write-Log "  OIL oilprice.com备用抓取成功: $price" "INFO"
+                if ($price -gt 40 -and $price -lt 200) {
+                    Write-Log "  OIL TradingEconomics备用抓取成功: $price" "INFO"
                     return @{
-                        value = $price; source = "oilprice.com"; confidence = "high"
+                        value = $price; source = "tradingeconomics.com"; confidence = "high"
                         unit = "USD/barrel (WTI)"; raw_len = $r.len; timestamp = $DateStr
                     }
                 }
             }
         }
-        Write-Log "  OIL oilprice.com解析失败，降级到Bing..." "WARN"
+
+        # --- 策略2: EIA API (官方数据，DEMO_KEY有频率限制) ---
+        $eiaUrl = "https://api.eia.gov/v2/petroleum/pri/spt/data/?api_key=DEMO_KEY&frequency=daily&data[0]=value&facets[product][]=EPCWTI&sort[0][column]=period&sort[0][direction]=desc&length=1"
+        $eia = Invoke-SafeFetch -Url $eiaUrl -Timeout 15
+        if ($eia.ok) {
+            try {
+                $eiaJson = $eia.content | ConvertFrom-Json
+                if ($eiaJson.response.data.Count -gt 0) {
+                    $price = [double]$eiaJson.response.data[0].value
+                    if ($price -gt 40 -and $price -lt 200) {
+                        Write-Log "  OIL EIA官方API抓取成功: $price" "INFO"
+                        return @{
+                            value = $price; source = "EIA_API"; confidence = "high"
+                            unit = "USD/barrel (WTI)"; raw_len = $eia.len; timestamp = $DateStr
+                        }
+                    }
+                }
+            } catch { Write-Log "  OIL EIA JSON解析失败" "WARN" }
+        }
+
+        # --- 策略3: oilprice.com (保留但加强合理性检查) ---
+        $r = Invoke-SafeFetch -Url "https://oilprice.com/oil-price-charts/" -Timeout 15
+        if ($r.ok) {
+            # oilprice.com格式: "WTI Crude\n 91.13-1.22-1.32%" 或 "WTI Crude 91.13"
+            $wtiPatterns = @(
+                'WTI Crude[\s\n]+([0-9]+\.[0-9]{2})',
+                'WTI\s*Crude[^0-9]*([0-9]{2,3}\.[0-9]{2})',
+                'value">([0-9]{2,3}\.[0-9]{2})'
+            )
+            foreach ($pat in $wtiPatterns) {
+                if ($r.content -match $pat) {
+                    $price = [double]$matches[1]
+                    # 合理性检查: WTI应该在 $40-$200 之间
+                    if ($price -gt 40 -and $price -lt 200) {
+                        Write-Log "  OIL oilprice.com抓取成功: $price (正则: $pat)" "INFO"
+                        return @{
+                            value = $price; source = "oilprice.com"; confidence = "high"
+                            unit = "USD/barrel (WTI)"; raw_len = $r.len; timestamp = $DateStr
+                        }
+                    } else {
+                        Write-Log "  OIL oilprice.com值 $price 超出合理范围($40-$200)，跳过" "WARN"
+                    }
+                }
+            }
+        }
+        Write-Log "  OIL 所有源失败，降级到Bing..." "WARN"
     }
 
     # Bing搜索降级（添加合理性检查）
-    $minReasonable = if ($Name -eq "GOLD") { 500 } elseif ($Name -eq "OIL") { 20 } else { 1 }
+    $minReasonable = if ($Name -eq "GOLD") { 1500 } elseif ($Name -eq "OIL") { 40 } else { 1 }
     $r = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode($Query) )" -Timeout 12
     if ($r.ok) {
         $price = Extract-PriceValue -Text $r.content -Symbol $Name
@@ -476,6 +526,10 @@ Write-Log "质量: $( $result.quality_report['_overall'].label ) (平均分 $avg
 Write-Log "错误: $( $result.errors.Count ) 项"
 if ($result.errors.Count -gt 0) {
     Write-Log "失败详情: $($result.errors -join ' | ')" "WARN"
+}
+
+} finally {
+    [System.Net.ServicePointManager]::ServerCertificateValidationCallback = $CertPolicy
 }
 
 exit $(if ($result.errors.Count -gt 3) { 1 } else { 0 })

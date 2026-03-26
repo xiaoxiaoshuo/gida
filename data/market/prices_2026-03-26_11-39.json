@@ -1,0 +1,30 @@
+{
+  "crypto": {
+    "BTC": {
+      "confidence": "high",
+      "source": "OKX_API",
+      "price": 70872.4
+    },
+    "ETH": {
+      "confidence": "high",
+      "source": "OKX_API",
+      "price": 2152.39
+    },
+    "SOL": {
+      "confidence": "high",
+      "source": "OKX_API",
+      "price": 90.93
+    }
+  },
+  "timestamp": "2026-03-26 11:39:41",
+  "timestamp_iso": "2026-03-26T11:39:41Z",
+  "errors": [],
+  "macro": {
+    "FNG": {
+      "confidence": "medium",
+      "classification": "",
+      "value": 40,
+      "source": "alternative.me_page"
+    }
+  }
+}
