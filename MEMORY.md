@@ -145,6 +145,14 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - **已集成到auto-push.ps1脚本开头**
 - **推送耗时**：2535ms（正常），推送成功
 
+### 2026-03-26 10:39 - Playwright MCP安装 + 定时自我审查
+- **Playwright MCP** 已安装（@playwright/mcp全局包 + Chromium v1208）
+  - 浏览器路径：`C:\Users\Administrator\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe`
+  - 启动命令：`npx @playwright/mcp`
+- **定时触发**：10:39 AM 准时执行自我审查
+- **发现的遗忘点**：GitHub Trending(依赖Bing不稳定)、黄金/原油($20错误值长期未修复)、简报6小时未更新
+- **解决方案**：派生子智能体intelligence-collector-playwright + intelligence-briefing-updater
+
 #### 系统架构（已稳定）
 - 采集脚本：`collect-prices-simple.ps1`（v6）、`gh-trending-v2.ps1`（v2）
 - 推送：`auto-push.ps1`（v3，含HTTPS/443配置）+ `incremental-backup.ps1`（归档保护）
