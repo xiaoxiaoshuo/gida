@@ -1,0 +1,81 @@
+﻿{
+    "errors":  [
+                   "OIL : failed"
+               ],
+    "timestamp":  "2026-03-26 10:45:24",
+    "collection_version":  "v5-optimized",
+    "quality_report":  {
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "_overall":  {
+                                            "label":  "高",
+                                            "total_items":  5,
+                                            "average_score":  97
+                                        },
+                           "GOLD":  {
+                                        "label":  "高",
+                                        "score":  100,
+                                        "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                    },
+                           "BTC":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "FNG":  {
+                                       "label":  "高",
+                                       "score":  85,
+                                       "factors":  "Bing摘要 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "FNG":  {
+                              "value":  10,
+                              "source":  "alternative.me_FNG",
+                              "timestamp":  "2026-03-26 10:45:24",
+                              "confidence":  "medium",
+                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"10\",\n\t\t\t\"value_classification\": \"Extr",
+                              "value_classification":  "Extreme Fear"
+                          },
+                  "GOLD":  {
+                               "value":  4519.7,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-03-26 10:45:24",
+                               "raw_len":  60769,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "crypto":  {
+                   "BTC":  {
+                               "price":  70835.88,
+                               "timestamp":  "2026-03-26 10:45:24",
+                               "raw":  "{\"USD\":70835.88}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "ETH":  {
+                               "price":  2148.23,
+                               "timestamp":  "2026-03-26 10:45:24",
+                               "raw":  "{\"USD\":2148.23}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  90.85,
+                               "timestamp":  "2026-03-26 10:45:24",
+                               "raw":  "{\"USD\":90.85}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "timestamp_iso":  "2026-03-26T02:45:24Z"
+}

@@ -687,3 +687,35 @@
 [INFO] 10:42:12 - 质量: 低 (平均分 0)
 [INFO] 10:42:12 - 错误: 6 项
 [WARN] 10:42:12 - 失败详情: BTC : all sources failed | ETH : all sources failed | SOL : all sources failed | VIX : failed | GOLD : failed | OIL : failed
+[INFO] 10:45:24 - ========== 优化版数据采集开始 ==========
+[INFO] 10:45:24 - 时间: 2026-03-26 10:45:24
+[INFO] 10:45:24 - >> 采集加密货币...
+[INFO] 10:45:25 -   BTC = 70835.88 [CryptoCompare]
+[INFO] 10:45:25 -   ETH = 2148.23 [CryptoCompare]
+[INFO] 10:45:25 -   SOL = 90.85 [CryptoCompare]
+[INFO] 10:45:25 - >> 采集Fear&Greed指数...
+[INFO] 10:45:26 - >> 采集黄金价格...
+[INFO] 10:45:28 -   GOLD = 4519.7 [Kitco]
+[INFO] 10:45:28 - >> 采集原油价格...
+[WARN] 10:45:32 -   OIL oilprice.com解析失败，降级Bing...
+[ERROR] 10:45:32 -   OIL 采集失败
+[INFO] 10:45:32 - ========== 采集完成 ==========
+[INFO] 10:45:32 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-26_10-45.json
+[INFO] 10:45:32 - 质量: 高 (平均分 97)
+[INFO] 10:45:32 - 错误: 1 项
+[WARN] 10:45:32 - 失败: OIL : failed
+[INFO] 10:46:52 - ========== 优化版数据采集开始 ==========
+[INFO] 10:46:52 - 时间: 2026-03-26 10:46:52
+[INFO] 10:46:52 - >> 采集加密货币...
+[INFO] 10:46:53 -   BTC = 70847.05 [CryptoCompare]
+[INFO] 10:46:53 -   ETH = 2149.06 [CryptoCompare]
+[INFO] 10:46:54 -   SOL = 90.89 [CryptoCompare]
+[INFO] 10:46:54 - >> 采集Fear&Greed指数...
+[INFO] 10:46:55 - >> 采集黄金价格...
+[INFO] 10:46:57 -   GOLD = 4517.5 [Kitco]
+[INFO] 10:46:57 - >> 采集原油价格...
+[INFO] 10:47:00 -   OIL = 91.63 [oilprice.com]
+[INFO] 10:47:00 - ========== 采集完成 ==========
+[INFO] 10:47:00 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-26_10-46.json
+[INFO] 10:47:00 - 质量: 高 (平均分 97.5)
+[INFO] 10:47:00 - 错误: 0 项

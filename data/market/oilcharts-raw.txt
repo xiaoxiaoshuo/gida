@@ -1,0 +1,1746 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oil Price Charts | Oilprice.com</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Oilprices from around the world." />
+	<meta name="msvalidate.01" content="D14A5D573CE72469797ECB50683F1795" />
+	<meta name="robots" content="max-image-preview:large">
+	<meta name="robots" content="noodp, noydir" />
+<link rel="canonical" href="https://oilprice.com/oil-price-charts/" />
+
+
+<meta name="globalsign-domain-verification" content="i17dx3lHCudSTzNis2zK4tdE1MxllC1mnwnJlWeumr" />
+<meta name="google-site-verification" content="GF7StMp03Fok8YcW3aFydFYdEc-SGzGZmsm8tg3zAXU" />
+<meta name="google-site-verification" content="GmPOc04rwBxPbdPVD-Xv9q4TXrA_Gm2TmGHhT-j5eXM" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@oilandenergy" />
+<meta name="twitter:title" content="Oil Price Charts | Oilprice.com" />
+<meta name="twitter:description" content="Oilprices from around the world." />
+<meta name="twitter:url" content="https://oilprice.com/oil-price-charts/" />
+
+<meta property="og:site_name" content="OilPrice.com" />
+
+	<meta property="og:type" content="website" />
+<meta property="og:title" content="Oil Price Charts | Oilprice.com" />
+	<meta property="og:image" content="https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png" />
+	<meta property="og:image:secure_url" content="https://d1o9e4un86hhpc.cloudfront.net/images/facebook-share-logo.png" />
+<meta property="og:description" content="Oilprices from around the world." />
+<meta property="og:url" content="https://oilprice.com/oil-price-charts/" />
+
+<link rel="preconnect" href="https://a.pub.network/" crossorigin />
+<link rel="preconnect" href="https://b.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.pub.network/" crossorigin />
+<link rel="preconnect" href="https://d.pub.network/" crossorigin />
+<link rel="preconnect" href="https://c.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://s.amazon-adsystem.com" crossorigin />
+<link rel="preconnect" href="https://secure.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://rules.quantcount.com/" crossorigin />
+<link rel="preconnect" href="https://pixel.quantserve.com/" crossorigin />
+<link rel="preconnect" href="https://cmp.quantcast.com/" crossorigin />
+<link rel="preconnect" href="https://btloader.com/" crossorigin />
+<link rel="preconnect" href="https://api.btloader.com/" crossorigin />
+<link rel="preconnect" href="https://confiant-integrations.global.ssl.fastly.net" crossorigin />
+
+
+<!-- Below is a link to a CSS file that accounts for Cumulative Layout Shift, a new Core Web Vitals subset that Google uses to help rank your site in search -->
+<!-- The file is intended to eliminate the layout shifts that are seen when ads load into the page. If you don't want to use this, simply remove this file -->
+<!-- To find out more about CLS, visit https://web.dev/vitals/ -->
+<link rel="stylesheet" href="https://a.pub.network/oilprice-com/cls.css">
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.config.enabled_slots = [];
+  freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }
+</script>
+<script src="https://a.pub.network/oilprice-com/pubfig.min.js" data-cfasync="false" async></script>
+<script id='HyDgbd_1s' src='https://prebidads.revcatch.com/ads.js' type='text/javascript' async></script> <script>(function(w,d,b,s,i){var cts=d.createElement(s);cts.async=true;cts.id='catchscript'; cts.dataset.appid=i;cts.src='https://app.protectsubrev.com/catch_rp.js?cb='+Math.random(); document.head.appendChild(cts); }) (window,document,'head','script','rc-mpEqG6');</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKBMHMJ');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+			<link rel="alternate" hreflang="en" href="https://oilprice.com/oil-price-charts/">
+					<link rel="alternate" hreflang="nl" href="https://oilprice.com/nl/olieprijs-grafieken">
+					<link rel="alternate" hreflang="ru" href="https://oilprice.com/ru/Нефтяные-котировки">
+					<link rel="alternate" hreflang="ar" href="https://oilprice.com/ar/oil-price-charts">
+					<link rel="alternate" hreflang="de" href="https://oilprice.com/de/Ölpreisdiagramme">
+					<link rel="alternate" hreflang="fr" href="https://oilprice.com/fr/graphiques-de-prix-du-pétrole">
+					<link rel="alternate" hreflang="ja" href="https://oilprice.com/jp/原油価格チャート">
+					<link rel="alternate" hreflang="pt" href="https://oilprice.com/pt/tabelas-de-preços-do-petróleo">
+					<link rel="alternate" hreflang="zh" href="https://oilprice.com/zh/石油价格图表">
+					<link rel="alternate" hreflang="es" href="https://oilprice.com/es/Información-y-Precios-del-petróleo">
+					<link rel="alternate" hreflang="sv" href="https://oilprice.com/sv/Diagram-över-oljepriser">
+					<link rel="alternate" hreflang="bn" href="https://oilprice.com/bn/তেলের-মূল্যতালিকা ">
+					<link rel="alternate" hreflang="hi" href="https://oilprice.com/hi/तेल-की-मूल्य-तालिका">
+				<link rel="alternate" hreflang="x-default" href="https://oilprice.com/oil-price-charts/">
+	
+<link rel="apple-touch-icon" sizes="180x180" href="https://d1o9e4un86hhpc.cloudfront.net/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://d1o9e4un86hhpc.cloudfront.net/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://d1o9e4un86hhpc.cloudfront.net/favicon-16x16.png">
+<link rel="manifest" href="https://d1o9e4un86hhpc.cloudfront.net/site.webmanifest">
+
+
+
+
+
+<script>
+		// append css dynamically to head - workaround for loading Roboto CSS async
+	var head = document.getElementsByTagName('head');
+	var element = document.createElement('link');
+	element.rel = 'stylesheet';
+	element.type = 'text/css';
+	element.href = 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic&display=swap';
+
+		//here's the magic
+	element.media = 'non-existant-media';
+	head[0].appendChild(element, head.firstChild);
+	setTimeout(function () {
+		element.media = 'all';
+	});
+</script>
+
+<link href="https://d1o9e4un86hhpc.cloudfront.net/min/f=a/css/style.css,a/css/mobile_popups/style.css,a/css/oilprices/style.css?v=1774008248" id="main-stylesheet" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+		/*jQuery(document).ready(function(){
+
+	[		if(document.cookie.indexOf('SessionCookie=') == -1){ // If not set
+				jQuery('.video-ad-hide').removeClass('video-ad-hide');
+				jQuery('#non-sticky-ad').addClass('video-ad-hide');
+			}]
+
+			document.cookie = "SessionCookie=1;";
+		});*/
+</script>
+<style type="text/css">
+	.video-ad-hide{
+		display: none !important;
+	}
+	.video-ad-show{
+		display: block !important;
+	}
+</style>
+
+<!-- Start SmartBanner -->
+	<!--link rel="stylesheet" href="a/css/third_party/smartbanner.min.css" type="text/css" />
+	<script src="a/js/third_party/smartbanner.min.js"></script>
+	<meta name="smartbanner:title" content="Oilprice">
+	<meta name="smartbanner:author" content="Energy News">
+	<meta name="smartbanner:price" content="FREE">
+	<meta name="smartbanner:price-suffix-apple" content=" - On the App Store">
+	<meta name="smartbanner:price-suffix-google" content=" - In Google Play">
+	<meta name="smartbanner:icon-apple" content="https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/48/e3/48/48e34816-fabf-149d-4d3d-13d7629580eb/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-6.png/246x0w.jpg">
+	<meta name="smartbanner:icon-google" content="https://lh3.googleusercontent.com/jSvFs4rb41j5extKZYrQDg8VEgwqLIoNedSfPSwQZgpWbhoTbw00FWj8vjZ5_qX_IMwb=s180-rw">
+	<meta name="smartbanner:button" content="INSTALL">
+	<meta name="smartbanner:button-url-apple" content="https://itunes.apple.com/in/app/oilprice/id1389772617?mt=8">
+	<meta name="smartbanner:button-url-google" content="https://play.google.com/store/apps/details?id=oilprice.android.app">
+	<meta name="smartbanner:enabled-platforms" content="android,ios">
+	<meta name="smartbanner:disable-positioning" content="true"-->
+	<style type="text/css">
+		.smartbanner--ios, .smartbanner--android{
+			display: none;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			top: auto;
+			z-index: 9998;
+			/* animation: 2s fadeIn;
+			-webkit-backface-visibility: hidden;
+			visibility: hidden;
+			animation-delay: 10s;
+  		animation-fill-mode: forwards; */
+  	}
+
+		/* @keyframes fadeIn {
+
+			0% {
+			opacity: 0;
+			}
+
+			100% {
+				visibility: visible;
+				opacity: 1;
+			}
+
+		} */;
+			/* animation: 2s fadeIn;
+			-webkit-backface-visibility: hidden;
+			visibility: hidden;
+			animation-delay: 10s;
+  		animation-fill-mode: forwards; */
+  	}
+
+		/* @keyframes fadeIn {
+
+			0% {
+			opacity: 0;
+			}
+
+			100% {
+				visibility: visible;
+				opacity: 1;
+			}
+
+		} */
+
+	</style>
+	<!-- End SmartBanner configuration -->
+
+	<!-- preconnect -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://d1o9e4un86hhpc.cloudfront.net">
+	
+
+		
+	
+	<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['setCustomDimension', 1, false]);
+    _paq.push(['setCustomDimension', 2, false]);
+    _paq.push(['setCustomDimension', 3, false]);
+  
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//a.oilprice.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script type="text/javascript">
+  var include_matomo = true;
+</script>
+
+	<!-- Meta Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '9126556957395130');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=9126556957395130&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Meta Pixel Code -->
+	</head>
+
+	<body id="pagetop" class="oilprices loggedout show_mobile_header_ad show_ads">
+
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKBMHMJ"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+
+						
+				
+													
+																							<div id="mobile-footer-popup-container"></div>
+									
+							<form id="form-search" method="post" action="https://oilprice.com/search/index">
+								<div id="search-close" class="open">
+									<span></span>
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+								<fieldset>
+									<label for="keyword">Type your search and press <b>Enter</b></label>
+									<input type="text" id="keyword" name="keyword" value="" placeholder="Search...">
+								</fieldset>
+							</form>
+
+							<div class="siteWrapper">
+								<div class="header">
+									<div class="siteContainer">
+										<div class="banner--header_mobile">
+											<!-- /192633929/OilPrice-728x90-ATF -->
+<script type="text/javascript">
+	if(window.innerWidth <= 1224){
+		var write_html = `<div class="ad-holder">
+	<p>ADVERTISEMENT</p>
+	<div align="center" data-freestar-ad="__320x50 __970x90" id="oilprice_leaderboard_atf">
+		<script data-cfasync="false" type="text/javascript">
+			freestar.config.enabled_slots.push({ placementName: "oilprice_leaderboard_atf", slotId: "oilprice_leaderboard_atf" });
+		<\/script>
+	</div>
+</div>`;
+		document.write(write_html);
+		
+	}
+</script>
+
+<!-- END: /192633929/OilPrice-728x90-ATF -->										</div>
+										<a class="siteLogo" href="https://oilprice.com/">
+											<picture>
+												<source media="(min-width:1224px)" srcset="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprice-logo.webp" type="image/webp">
+													<source media="(max-width:1224px)" srcset="https://d1o9e4un86hhpc.cloudfront.net/a/img/common/header/mobile_logo.webp" type="image/webp">
+														<img class="desktop_logo" width="352" height="72" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprice-logo.png?v=3" alt="Crude oil prices today - Oilprice.com" title="Oil prices - Oilprice.com">
+														<img class="mobile_logo" width="168" height="38" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/common/header/mobile_logo.png?v=3" alt="Crude oil prices today - Oilprice.com" title="Oil prices - Oilprice.com">
+													</picture>
+												</a>
+												<div class="banner--header">
+													<!-- /192633929/OilPrice-728x90-ATF -->
+<script type="text/javascript">
+	if(window.innerWidth > 1224){
+		var write_html = `<div class="ad-holder">
+	<p>ADVERTISEMENT</p>
+	<div align="center" data-freestar-ad="__320x50 __970x90" id="oilprice_leaderboard_atf">
+		<script data-cfasync="false" type="text/javascript">
+			freestar.config.enabled_slots.push({ placementName: "oilprice_leaderboard_atf", slotId: "oilprice_leaderboard_atf" });
+		<\/script>
+	</div>
+</div>`;
+		document.write(write_html);
+	}
+</script>
+
+<!-- END: /192633929/OilPrice-728x90-ATF -->												</div>
+												<!-- /.header__banner -->
+											</div>
+											<!-- /.siteContainer -->
+										</div>
+										<!-- /.header -->
+
+										<div class="primaryNavigation">
+
+
+											<div id="primaryNavigationButtonContainer" class="primaryNavigation__buttonContainer"><a href="#" id="primaryNavigationButton" class="primaryNavigation__button"></a></div>
+											<div class="siteContainer siteContainer--relativePosition menu_holder_site">
+													<ul id="primaryNavigation" class="primaryNavigation__menu">
+	
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/" class="primaryNavigation__link primaryNavigation__link--first">Home</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/oil-price-charts/" class="primaryNavigation__link primaryNavigation__link">Oil Prices</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/futures/wti/" class="primaryNavigation__link primaryNavigation__link">Oil Futures</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/rig-count" class="primaryNavigation__link primaryNavigation__link">Rig Count</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/Energy/" class="primaryNavigation__link">Energy <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				<div class="primaryNavigation__megaMenuContainer">
+					<ul class="primaryNavigation__megaMenu">
+														<li class="primaryNavigation__subMenuItem  first"><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Energy-General/">Energy-General</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Oil-Prices/">Oil Prices</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Crude-Oil/">Crude Oil</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Heating-Oil/">Heating Oil</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Gas-Prices/">Gas Prices</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Natural-Gas/">Natural Gas</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Energy/Coal/">Coal</a></li>
+													</ul>
+					<ul class="primaryNavigation__megaMenu">
+						<li class="primaryNavigation__subMenuItem"><a href="https://oilprice.com/Company-News" class="primaryNavigation__subMenuLink primaryNavigation__subMenuLinkCategory">Company News</a></li>
+						<li class="primaryNavigation__subMenuItem"><a href="https://oilprice.com/Interviews" class="primaryNavigation__subMenuLink primaryNavigation__subMenuLinkCategory">Interviews</a></li>
+						<li class="primaryNavigation__subMenuItem"><a href="https://oilprice.com/Geopolitics/" class="primaryNavigation__subMenuLink primaryNavigation__subMenuLinkCategory">Geopolitics</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/Alternative-Energy/" class="primaryNavigation__link">Alternative Energy <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+				<div class="primaryNavigation__megaMenuContainer">
+					<ul class="primaryNavigation__megaMenu">
+														<li class="primaryNavigation__subMenuItem  first"><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Nuclear-Power/">Nuclear Power</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Solar-Energy/">Solar Energy</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Hydroelectric/">Hydroelectric</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Renewable-Energy/">Renewable Energy</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Geothermal-Energy/">Geothermal Energy</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Wind-Power/">Wind Power</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Fuel-Cells/">Fuel Cells</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Tidal-Energy/">Tidal Energy</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/Alternative-Energy/Biofuels/">Biofuels</a></li>
+													</ul>
+					<ul class="primaryNavigation__megaMenu">
+						<li class="primaryNavigation__subMenuItem"><a href="https://oilprice.com/The-Environment/" class="primaryNavigation__subMenuLink primaryNavigation__subMenuLinkCategory">Environment</a>
+														<li class="primaryNavigation__subMenuItem  first"><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/The-Environment/Global-Warming/">Global Warming</a></li>
+																<li class="primaryNavigation__subMenuItem "><a class="primaryNavigation__subMenuLink" href="https://oilprice.com/The-Environment/Oil-Spills/">Oil Spills</a></li>
+													</ul>
+				</div>
+			</li>
+			
+						
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/Company-News/" class="primaryNavigation__link">Company News</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/Latest-Energy-News/World-News/" class="primaryNavigation__link">Breaking News</a></li>
+			<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/gea-articles/" class="primaryNavigation__link premium">Premium Articles</a></li>		<li class="primaryNavigation__menuItem"><a href="https://oilprice.com/account/index" class="primaryNavigation__link primaryNavigation__link primaryNavigation__link--alt" rel="nofollow">My Account</a></li>
+			</ul>
+													<a href="#" class="primaryNavigation__icon-search"><i class="fa fa-search"></i></a>
+
+			
+				<a href="/free" class="primaryNavigation__link primaryNavigation__trade_energy_now_button" id="get_exclusive_intel" onClick="ga('send', 'event', 'Nav Button Click Secrets Successful', 'click', 'Button 1', '1');">
+					Get Exclusive Intel
+				</a>
+						</div>
+		<!-- /.siteContainer -->
+	</div>
+	<!-- /.primaryNavigation -->
+
+							<div class="ad_maybe_empty loading" id="charts_header_container" style=""></div>
+			<style type="text/css">
+				div#charts_header_container.loading{
+					min-height: 200px; 
+					position: relative;
+					overflow: hidden;
+					background-color: #DDDBDD;
+				}
+				@media screen and (max-width: 700px){
+					div#charts_header_container.loading{
+						min-height: 175px;
+					}
+				}
+				div#charts_header_container.loading::after {
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					transform: translateX(-100%);
+					background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0));
+					animation: shimmer 2s infinite;
+					content: '';
+				}
+				@keyframes shimmer {
+					100% {
+						transform: translateX(100%);
+					}
+				}
+			</style>
+							<div class="breakingNews">
+				<div class="siteContainer siteContainer--relativePosition">
+					<h3 class="breakingNews__title">Breaking News:</h3> <p class="breakingNews__headline"><a href="https://oilprice.com/Latest-Energy-News/World-News/Chinas-Top-Shipper-Resumes-Middle-East-Trips-Amid-Iran-Ceasefire-Talks.html" data-embargo="1774459800">China's Top Shipper Resumes Middle East Trips Amid Iran Ceasefire Talks</a></p>
+					<p class="breakingNews__socialMedia">
+						<span>Find us on:</span>
+						<a class="breakingNews__socialLink" href="https://www.facebook.com/oilpricenews" rel="external"><i class="fab fa-facebook-f"></i></a>
+						<a class="breakingNews__socialLink" href="https://twitter.com/OilandEnergy" rel="external"><i class="fab fa-twitter"></i></a>
+						<a class="breakingNews__socialLink" href="https://www.linkedin.com/company/oilprice-com?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf" rel="external"><i class="fab fa-linkedin"></i></a>
+						<a class="breakingNews__socialLink" href="https://feeds.feedburner.com/oilpricecom" rel="external publisher"><i class="icon-feedburner"></i><!--<img src="https://d1o9e4un86hhpc.cloudfront.net/a/img/common/icon-feedburner.png" height="14" width="13" alt="Feedburner">--></a>
+						<a class="breakingNews__socialLink" href="https://oilprice.com/rss/main" rel="external"><i class="fa fa-rss"></i></a>
+												</p>
+						<!-- /.breakingNews__socialMedia -->
+
+						
+					</div>
+					<!-- /.siteContainer -->
+				</div>
+				<!-- /.breakingNews -->
+									<div id="pagecontent">
+				
+<div class="siteContainer oilprices" data-page_time="1774493102">
+	<br><br>
+	<div class="top_flag_holder">
+		<ul class="langs_list">
+							<li class="single_flag active ">
+					<a href="https://oilprice.com/oil-price-charts/"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/1.svg" alt="English - OilPrice.com">English</a>
+				</li>
+										<li class="single_flag ">
+					<a href="https://oilprice.com/nl/olieprijs-grafieken"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/2.svg" alt="Nederlands - OilPrice.com">Nederlands</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/ru/Нефтяные-котировки"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/3.svg" alt="русский - OilPrice.com">русский</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/ar/oil-price-charts"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/4.svg" alt="عربى - OilPrice.com">عربى</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/de/Ölpreisdiagramme"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/5.svg" alt="Deutsch - OilPrice.com">Deutsch</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/fr/graphiques-de-prix-du-pétrole"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/6.svg" alt="Français - OilPrice.com">Français</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/jp/原油価格チャート"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/7.svg" alt="日本語 - OilPrice.com">日本語</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/pt/tabelas-de-preços-do-petróleo"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/8.svg" alt="Português - OilPrice.com">Português</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/zh/石油价格图表"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/9.svg" alt="中文 - OilPrice.com">中文</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/es/Información-y-Precios-del-petróleo"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/10.svg" alt="Español - OilPrice.com">Español</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/sv/Diagram-över-oljepriser"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/11.svg" alt="Svenska - OilPrice.com">Svenska</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/bn/তেলের-মূল্যতালিকা "><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/12.svg" alt="Bengali - OilPrice.com">Bengali</a>
+				</li>
+							<li class="single_flag ">
+					<a href="https://oilprice.com/hi/तेल-की-मूल्य-तालिका"><img width="34" height="20" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/lang/13.svg" alt="Hindi - OilPrice.com">Hindi</a>
+				</li>
+					</ul>
+		<a href="#" class="lang_toggle"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+	</div>
+
+	<div class="futures_pages_links">
+		Futures Charts
+		<div class="tab_menu_holder">
+			<ul class="tab_menu">
+									<li><a href="https://oilprice.com/futures/wti/" class="select_tab" data-id="1">WTI</a></li>
+									<li><a href="https://oilprice.com/futures/brent/" class="select_tab" data-id="2">Brent</a></li>
+									<li><a href="https://oilprice.com/futures/murban/" class="select_tab" data-id="6">Murban Crude</a></li>
+									<li><a href="https://oilprice.com/futures/natural-gas/" class="select_tab" data-id="3">Natural Gas</a></li>
+									<li><a href="https://oilprice.com/futures/gasoline/" class="select_tab" data-id="4">Gasoline</a></li>
+									<li><a href="https://oilprice.com/futures/wti-midland/" class="select_tab" data-id="5">WTI Midland</a></li>
+						</ul>
+		</div>
+	</div>
+
+	<h1 class="oil_prices_overview drop_red">Oil Price Charts</h1>
+	<p>Oilprice.com offers real-time oil prices for over 150 global crude blends and indexes, with live charts, comparisons, and smart analytical tools used worldwide.</p>
+	<!--	<a href="https://oilprice.com/set_lang/1">English</a>
+		<a href="https://oilprice.com/set_lang/2">Nederlands</a>
+		<a href="https://oilprice.com/set_lang/3">русский</a>
+		<a href="https://oilprice.com/set_lang/4">عربى</a>
+		<a href="https://oilprice.com/set_lang/5">Deutsch</a>
+		<a href="https://oilprice.com/set_lang/6">Français</a>
+		<a href="https://oilprice.com/set_lang/7">日本語</a>
+		<a href="https://oilprice.com/set_lang/8">Português</a>
+		<a href="https://oilprice.com/set_lang/9">中文</a>
+		<a href="https://oilprice.com/set_lang/10">Español</a>
+		<a href="https://oilprice.com/set_lang/11">Svenska</a>
+		<a href="https://oilprice.com/set_lang/12">Bengali</a>
+		<a href="https://oilprice.com/set_lang/13">Hindi</a>
+	-->
+    
+
+	<!--
+    <div class="cfd_notice">
+    	<span class="info_symbol"><img alt="OilPrice.com - Info" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/red_info.png"></span>
+	    <p>CFDs are complex instruments and come with a high risk of losing money rapidly due to leverage. 74-89% of retail investor accounts lose money when trading CFDs. You should consider whether you understand how CFDs work and whether you can afford to take the high risk of losing your money. This service is offered to you by OPCMarkets.</p>
+    </div>
+	-->
+
+	<a href="#" class="jump_to_comparison">Jump to comparison chart</a>
+	
+	<div class="mobile_ad_unit">
+		<center>
+			
+		</center>
+	</div>
+
+	<div class="oilprices__leftcolumn">
+		<div class="oilprices_nav">
+            <ul class="main_nav" id="prices">
+                <div class="main_nav_title"><div class="flag_container"><img alt="OilPrice.com - OilPrice Blend Flag" class='flag' src='https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/charts.png'></div>Oil Price Charts</div>
+                                	<li data-id="1" class="main_nav_item"><div class="flag_container"><img class='flag' alt="OilPrice.com - OilPrice Blend Flag" src='https://d1o9e4un86hhpc.cloudfront.net/a/img/flags/flag_image/small/46e79e5528b71c6d2c54242872c5a24a.png'></div><a href="#section_1">Futures & Indexes</a>
+                		                	</li>
+            	                	<li data-id="50" class="main_nav_item"><div class="flag_container"><img class='flag' alt="OilPrice.com - OilPrice Blend Flag" src='https://d1o9e4un86hhpc.cloudfront.net/a/img/flags/flag_image/small/opec.png'></div><a href="#section_50">Opec Members (Daily Pricing)</a>
+                		                	</li>
+            	                	<li data-id="34" class="main_nav_item has_sub_nav"><div class="flag_container"><img class='flag' alt="OilPrice.com - OilPrice Blend Flag" src='https://d1o9e4un86hhpc.cloudfront.net/a/img/flags/flag_image/small/ec1ec86e51e4b090e883c14d62108391.png'></div><a href="#section_34">International Prices</a>
+                		                			<span class="sub_nav_arrow">&#x25BE;</span>
+                			<ul data-id="34" class="sub_nav">
+                				                					<li data-id="63" class="sub_nav_item"><div class="flag_container"></div><a href="#section_63">Australia</a></li>
+                				                					<li data-id="62" class="sub_nav_item"><div class="flag_container"></div><a href="#section_62">Angola</a></li>
+                				                					<li data-id="61" class="sub_nav_item"><div class="flag_container"></div><a href="#section_61">Nigeria</a></li>
+                				                					<li data-id="57" class="sub_nav_item"><div class="flag_container"></div><a href="#section_57">Uae</a></li>
+                				                					<li data-id="58" class="sub_nav_item"><div class="flag_container"></div><a href="#section_58">Qatar</a></li>
+                				                					<li data-id="59" class="sub_nav_item"><div class="flag_container"></div><a href="#section_59">Iraq</a></li>
+                				                					<li data-id="60" class="sub_nav_item"><div class="flag_container"></div><a href="#section_60">Saudi Arabia</a></li>
+                				                					<li data-id="35" class="sub_nav_item"><div class="flag_container"></div><a href="#section_35">Ecuador</a></li>
+                				                					<li data-id="23" class="sub_nav_item"><div class="flag_container"></div><a href="#section_23">Mexico</a></li>
+                				                					<li data-id="44" class="sub_nav_item"><div class="flag_container"></div><a href="#section_44">Iran</a></li>
+                				                					<li data-id="54" class="sub_nav_item"><div class="flag_container"></div><a href="#section_54">Russia</a></li>
+                				                					<li data-id="65" class="sub_nav_item"><div class="flag_container"></div><a href="#section_65">Azerbaijan</a></li>
+                				                					<li data-id="66" class="sub_nav_item"><div class="flag_container"></div><a href="#section_66">Brazil</a></li>
+                				                					<li data-id="67" class="sub_nav_item"><div class="flag_container"></div><a href="#section_67">Kazakhstan</a></li>
+                				                			</ul>
+                		                	</li>
+            	                	<li data-id="49" class="main_nav_item"><div class="flag_container"></div><a href="#section_49">Canadian Blends</a>
+                		                	</li>
+            	                	<li data-id="8" class="main_nav_item has_sub_nav"><div class="flag_container"></div><a href="#section_8">United States Blends</a>
+                		                			<span class="sub_nav_arrow">&#x25BE;</span>
+                			<ul data-id="8" class="sub_nav">
+                				                					<li data-id="27" class="sub_nav_item"><div class="flag_container"></div><a href="#section_27">Arkansas</a></li>
+                				                					<li data-id="20" class="sub_nav_item"><div class="flag_container"></div><a href="#section_20">Texas</a></li>
+                				                					<li data-id="19" class="sub_nav_item"><div class="flag_container"></div><a href="#section_19">Oklahoma</a></li>
+                				                					<li data-id="22" class="sub_nav_item"><div class="flag_container"></div><a href="#section_22">Wyoming</a></li>
+                				                					<li data-id="9" class="sub_nav_item"><div class="flag_container"></div><a href="#section_9">Colorado</a></li>
+                				                					<li data-id="16" class="sub_nav_item"><div class="flag_container"></div><a href="#section_16">Nebraska</a></li>
+                				                					<li data-id="14" class="sub_nav_item"><div class="flag_container"></div><a href="#section_14">Michigan</a></li>
+                				                					<li data-id="13" class="sub_nav_item"><div class="flag_container"></div><a href="#section_13">Louisiana</a></li>
+                				                					<li data-id="12" class="sub_nav_item"><div class="flag_container"></div><a href="#section_12">Kansas</a></li>
+                				                			</ul>
+                		                	</li>
+            	                	<li data-id="6" class="main_nav_item"><div class="flag_container"><img class='flag' alt="OilPrice.com - OilPrice Blend Flag" src='https://d1o9e4un86hhpc.cloudfront.net/a/img/flags/flag_image/small/opec.png'></div><a href="#section_6">Opec Members</a>
+                		                	</li>
+            	            </ul>
+			<br><br>
+		<center>
+		<!-- /192633929/OilPrice-160x600-BTF -->
+<script>
+	if(window.innerWidth > 1023){
+		var write_html = `<div class="desktop-only ad-holder">
+	<p>ADVERTISEMENT</p>
+	<div align="center" data-freestar-ad="__160x600" id="oilprice_left_rail">
+	  	<script data-cfasync="false" type="text/javascript">
+	    	freestar.config.enabled_slots.push({ placementName: "oilprice_left_rail", slotId: "oilprice_left_rail" });
+	  	<\/script>
+	</div>
+</div>`;
+		document.write(write_html);		
+	}
+</script>
+
+
+<!-- END: /192633929/OilPrice-160x600-BTF -->
+
+		<!-- /192633929/OilPrice-300x250-ATF-Mobile -->
+<script>
+	if(window.innerWidth <= 1023){
+		var write_html = '<div class="mobile-only ad-holder"><p>ADVERTISEMENT</p><div align="center" data-freestar-ad="__300x250 __336x280" id="oilprice_medrec_atf"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "oilprice_medrec_atf", slotId: "oilprice_medrec_atf" });<\/script></div></div>';
+		document.write(write_html);		
+	}
+</script>
+<!-- END: /192633929/OilPrice-300x250-ATF-Mobile -->
+
+		</center>
+        </div>
+    </div>
+	<div class="oilprices__centercolumn">
+		<table class="oilprices__table" data-id="1"><tr class="thead" id="section_1"><th class="flag_holder"><img class="flag_move_left" src="https://d32r1sh890xpii.cloudfront.net/flag_image/small/46e79e5528b71c6d2c54242872c5a24a.png" alt="OilPrice.com - OilPrice Blend Flag"></th><th>Futures & Indexes<span class="section_update_text"></span></th><th class="last_heading">Last</th><th class="change_heading">Change</th><th class="change_percent_heading">% Change</th><th class="last_updated">Last Updated</th></tr><tbody class='row_holder'><tr class='stripe show_graph update_on_load'  data-name='WTI-Crude' data-id='45' data-spreadsheet='Crude Oil WTI'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">WTI Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='91.63'>91.63</td><td dir='ltr' class='change_up flat_change_cell'>+1.31</td><td dir='ltr' class='change_up_percent percent_change_cell'>+1.45%<span class='blend_update_text'>(11 Minutes Delay)</span></td><td class='last_updated' data-stamp='1774492438'>(11 Minutes Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Brent-Crude' data-id='46' data-spreadsheet='Crude Oil Brent'>
+      <td class='flag_holder'><div class='flag_uk'></div></td><td><span class="blend_name_span">Brent Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='103.51'>103.51</td><td dir='ltr' class='change_up flat_change_cell'>+1.29</td><td dir='ltr' class='change_up_percent percent_change_cell'>+1.26%<span class='blend_update_text'>(11 Minutes Delay)</span></td><td class='last_updated' data-stamp='1774492430'>(11 Minutes Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Murban-Crude' data-id='4464' data-spreadsheet='Crude Oil Murban'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Murban Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='105.36'>105.36</td><td dir='ltr' class='change_down flat_change_cell'>-14.52</td><td dir='ltr' class='change_down_percent percent_change_cell'>-12.11%<span class='blend_update_text'>(16 Minutes Delay)</span></td><td class='last_updated' data-stamp='1774492142'>(16 Minutes Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Natural-Gas' data-id='51' data-spreadsheet='Natural Gas'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Natural Gas</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='2.96'>2.960</td><td dir='ltr' class='change_up flat_change_cell'>+0.008</td><td dir='ltr' class='change_up_percent percent_change_cell'>+0.27%<span class='blend_update_text'>(11 Minutes Delay)</span></td><td class='last_updated' data-stamp='1774492383'>(11 Minutes Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Gasoline' data-id='53' data-spreadsheet='Gasoline RBOB'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Gasoline</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='3.0313'>3.031</td><td dir='ltr' class='change_up flat_change_cell'>+0.019</td><td dir='ltr' class='change_up_percent percent_change_cell'>+0.63%<span class='blend_update_text'>(1 Hour Delay)</span></td><td class='last_updated' data-stamp='1774489353'>(1 Hour Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Heating-Oil' data-id='52' data-spreadsheet='ULSD NY Harbor'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Heating Oil</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='4.0305'>4.031</td><td dir='ltr' class='change_up flat_change_cell'>+0.024</td><td dir='ltr' class='change_up_percent percent_change_cell'>+0.6%<span class='blend_update_text'>(36 Minutes Delay)</span></td><td class='last_updated' data-stamp='1774490930'>(36 Minutes Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='WTI-Midland' data-id='4853' data-spreadsheet='Crude Oil Midland WTI'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">WTI Midland</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='93.22'>93.22</td><td dir='ltr' class='change_down flat_change_cell'>-1.87</td><td dir='ltr' class='change_down_percent percent_change_cell'>-1.97%<span class='blend_update_text'>(4
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774476480'>(4
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Mars' data-id='4860' data-spreadsheet='RCMARSOV'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Mars</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='117.070'>117.07</td><td dir='ltr' class='change_up'>+1.29</td><td class='change_up_percent'>+1.11%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='stripe show_graph'  data-name='Opec-Basket' data-id='29' data-spreadsheet='Opec Basket Price'>
+      <td class='flag_holder'><div class='flag_opec'></div></td><td><span class="blend_name_span">Opec Basket</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='145.24'>145.24</td><td dir='ltr' class='change_up'>+2.38</td><td class='change_up_percent'>+1.67%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='DME-Oman' data-id='48' data-spreadsheet='DME Crude Oil Oman'>
+      <td class='flag_holder'><div class='flag_bed'></div></td><td><span class="blend_name_span">DME Oman</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='157.08'>157.08</td><td dir='ltr' class='change_up'>+11.03</td><td class='change_up_percent'>+7.55%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Mexican-Basket' data-id='71' data-spreadsheet='Pemex'>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Mexican Basket</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='91.84'>91.84</td><td dir='ltr' class='change_up'>+3.94</td><td class='change_up_percent'>+4.48%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Indian-Basket' data-id='72' data-spreadsheet='Indian Basket'>
+      <td class='flag_holder'><div class='flag_india'></div></td><td><span class="blend_name_span">Indian Basket</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='157.04'>157.04</td><td dir='ltr' class='change_up'>+7.11</td><td class='change_up_percent'>+4.74%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Urals-Brent' data-id='4466' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_rus'></div></td><td><span class="blend_name_span">Urals</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='98.99'>98.99</td><td dir='ltr' class='change_down'>-1.24</td><td class='change_down_percent'>-1.24%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774310400'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Western-Canadian-Select' data-id='257' data-spreadsheet='WCS'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Western Canadian Select</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80'>80.00</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.57%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='AECO-C-natural-gas' data-id='4861' data-spreadsheet='AECO/NGX Spot Price'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">AECO C natural gas</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='1.21'>1.210</td><td dir='ltr' class='change_up'>+0.010</td><td class='change_up_percent'>+0.83%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774332000'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Dubai' data-id='144' data-spreadsheet='Dubai'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Dubai</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='131.969'>131.97</td><td dir='ltr' class='change_down'>-2.10</td><td class='change_down_percent'>-1.57%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Brent-Weighted-Average' data-id='151' data-spreadsheet='Brent Average'>
+      <td class='flag_holder'><div class='flag_uk'></div></td><td><span class="blend_name_span">Brent Weighted Average</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='99.98'>99.98</td><td dir='ltr' class='change_down'>-2.59</td><td class='change_down_percent'>-2.53%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Louisiana-Light' data-id='76' data-spreadsheet='Louisiana Light'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Louisiana Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='96.43'>96.43</td><td dir='ltr' class='change_up'>+1.60</td><td class='change_up_percent'>+1.69%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Domestic-Swt-Cushing' data-id='26' data-spreadsheet='Domestic Swt. @ Cushing'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Domestic Swt. @ Cushing</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.8'>86.80</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.29%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Giddings' data-id='27' data-spreadsheet='Giddings'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Giddings</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80.55'>80.55</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.46%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='ANS-West-Coast' data-id='44' data-spreadsheet='ANS West Coast'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">ANS West Coast</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='102.99'>102.99</td><td dir='ltr' class='change_up'>+1.94</td><td class='change_up_percent'>+1.92%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Gulf-Coast-HSFO' data-id='140' data-spreadsheet='Gulf Coast HSFO'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Gulf Coast HSFO</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.37'>84.37</td><td dir='ltr' class='change_down'>-3.55</td><td class='change_down_percent'>-4.04%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph update_on_load'  data-name='Ethanol' data-id='4854' data-spreadsheet='Ethanol Chicago'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Ethanol</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='2.01'>2.010</td><td dir='ltr' class='change_up flat_change_cell'>+0.010</td><td dir='ltr' class='change_up_percent percent_change_cell'>+0.5%<span class='blend_update_text'>(6
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774469650'>(6
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Dutch-TTF-Natural-Gas' data-id='4447' data-spreadsheet='Dutch TTF Natural Gas'>
+      <td class='flag_holder'><div class='flag_dutch'></div></td><td><span class="blend_name_span">Dutch TTF Natural Gas</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='19.327'>19.33</td><td dir='ltr' class='change_down'>-0.74</td><td class='change_down_percent'>-3.70%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='LNG-JapanKorea-Marker' data-id='4448' data-spreadsheet='LNG Japan/Korea Marker'>
+      <td class='flag_holder'><div class='flag_japkor'></div></td><td><span class="blend_name_span">LNG Japan/Korea Marker</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='21'>21.00</td><td dir='ltr' class='change_down'>-0.70</td><td class='change_down_percent'>-3.25%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr></tbody></table><!-- Tag ID: oilprice_chartpage_leaderboard_btf -->
+<div align="center" data-freestar-ad="__468x60" id="oilprice_chartpage_leaderboard_btf">
+  <script data-cfasync="false" type="text/javascript">
+    freestar.config.enabled_slots.push({ placementName: "oilprice_chartpage_leaderboard_btf", slotId: "oilprice_chartpage_leaderboard_btf" });
+  </script>
+</div><br><br><table class="oilprices__table" data-id="50"><tr class="thead" id="section_50"><th class="flag_holder"><img class="flag_move_left" src="https://d32r1sh890xpii.cloudfront.net/flag_image/small/opec.png" alt="OilPrice.com - OilPrice Blend Flag"></th><th>OPEC Members (Daily Pricing)<span class="section_update_text"></span></th><th class="last_heading">Last</th><th class="change_heading">Change</th><th class="change_percent_heading">% Change</th><th class="last_updated">Last Updated</th></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Arab-Light' data-id='4402' data-spreadsheet='RCARABLC'>
+      <td class='flag_holder'><div class='flag_arab'></div></td><td><span class="blend_name_span">Arab Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='110.925'>110.93</td><td dir='ltr' class='change_down'>-11.54</td><td class='change_down_percent'>-9.42%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Kuwait-Export-Blend' data-id='152' data-spreadsheet='Kuwait Export Blend'>
+      <td class='flag_holder'><div class='flag_kuwait'></div></td><td><span class="blend_name_span">Kuwait Export Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='163.08'>163.08</td><td dir='ltr' class='change_up'>+6.58</td><td class='change_up_percent'>+4.20%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr></tbody></table><table class="oilprices__table" data-id="34"><tr class="thead" id="section_34"><th class="flag_holder"><img class="flag_move_left" src="https://d32r1sh890xpii.cloudfront.net/flag_image/small/ec1ec86e51e4b090e883c14d62108391.png" alt="OilPrice.com - OilPrice Blend Flag"></th><th>International Prices<span class="section_update_text"></span></th><th class="last_heading">Last</th><th class="change_heading">Change</th><th class="change_percent_heading">% Change</th><th class="last_updated">Last Updated</th></tr><tr class="thead heading_level_2" id="section_63" data-block="63"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Australia<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Cossack' data-id='4411' data-spreadsheet='RC262TP$'>
+      <td class='flag_holder'><div class='flag_0d76ea4a10a6482d1f83c31f04273bda'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/0d76ea4a10a6482d1f83c31f04273bda.png'></div></td><td><span class="blend_name_span">Cossack</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='103.810'>103.81</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='NWS-Condensate' data-id='4857' data-spreadsheet='RC281TP$'>
+      <td class='flag_holder'><div class='flag_0d76ea4a10a6482d1f83c31f04273bda'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/0d76ea4a10a6482d1f83c31f04273bda.png'></div></td><td><span class="blend_name_span">NWS Con</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='100.010'>100.01</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.29%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='stripe show_graph'  data-name='Ichthys-Condensate' data-id='4858' data-spreadsheet='RCICHTHV'>
+      <td class='flag_holder'><div class='flag_0d76ea4a10a6482d1f83c31f04273bda'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/0d76ea4a10a6482d1f83c31f04273bda.png'></div></td><td><span class="blend_name_span">Ichthys Con</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='107.060'>107.06</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.21%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_62" data-block="62"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Angola<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Cabinda' data-id='4406' data-spreadsheet='RCCABINV'>
+      <td class='flag_holder'><div class='flag_272971de1d672c5baa7d0153f5fdc4a3'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/272971de1d672c5baa7d0153f5fdc4a3.png'></div></td><td><span class="blend_name_span">Cabinda</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='102.410'>102.41</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.26%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Nemba' data-id='4407' data-spreadsheet='RCNEMBAV'>
+      <td class='flag_holder'><div class='flag_e288dcc50f27690b19a2bc1ad7e396b0'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/e288dcc50f27690b19a2bc1ad7e396b0.png'></div></td><td><span class="blend_name_span">Nemba</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='100.660'>100.66</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.28%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Dalia' data-id='4408' data-spreadsheet='RCDALIAV'>
+      <td class='flag_holder'><div class='flag_e70401cf75d1c9b291b0fdf9e8eef023'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/e70401cf75d1c9b291b0fdf9e8eef023.png'></div></td><td><span class="blend_name_span">Dalia</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='101.060'>101.06</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.28%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_61" data-block="61"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Nigeria<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Brass-River' data-id='4404' data-spreadsheet='RCBRASRV'>
+      <td class='flag_holder'><div class='flag_nig'></div></td><td><span class="blend_name_span">Brass River</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.860'>97.86</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.32%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Qua-Iboe' data-id='4405' data-spreadsheet='RCQUAIBV'>
+      <td class='flag_holder'><div class='flag_nig'></div></td><td><span class="blend_name_span">Qua Iboe</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.760'>97.76</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.32%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_57" data-block="57"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">UAE<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Das' data-id='4397' data-spreadsheet='RCDASAGV'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Das</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='110.135'>110.14</td><td dir='ltr' class='change_down'>-26.43</td><td class='change_down_percent'>-19.35%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Umm-Lulu' data-id='4454' data-spreadsheet='RCUMMLUV'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Umm Lulu</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='110.635'>110.64</td><td dir='ltr' class='change_down'>-26.43</td><td class='change_down_percent'>-19.28%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Upper-Zakum' data-id='4455' data-spreadsheet='RCUZAKUV'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Upper Zakum</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='152.015'>152.02</td><td dir='ltr' class='change_down'>-6.18</td><td class='change_down_percent'>-3.91%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_58" data-block="58"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Qatar<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Qatar-Land-Qatar' data-id='4398' data-spreadsheet='RC097T1$'>
+      <td class='flag_holder'><div class='flag_qatar'></div></td><td><span class="blend_name_span">Qatar Land - Qatar</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='109.885'>109.89</td><td dir='ltr' class='change_down'>-26.43</td><td class='change_down_percent'>-19.39%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Al-Shaheen-Qatar' data-id='4399' data-spreadsheet='RC333TO1'>
+      <td class='flag_holder'><div class='flag_qatar'></div></td><td><span class="blend_name_span">Al Shaheen - Qatar</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='152.015'>152.02</td><td dir='ltr' class='change_down'>-6.18</td><td class='change_down_percent'>-3.91%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='DF-Condensate' data-id='4855' data-spreadsheet='RCDFCONV'>
+      <td class='flag_holder'><div class='flag_qatar'></div></td><td><span class="blend_name_span">D.F.Condensate</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='98.895'>98.90</td><td dir='ltr' class='change_down'>-1.66</td><td class='change_down_percent'>-1.65%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='stripe show_graph'  data-name='LS-Condensate' data-id='4856' data-spreadsheet='RCLSCONV'>
+      <td class='flag_holder'><div class='flag_qatar'></div></td><td><span class="blend_name_span">L.S.Condensate</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='98.595'>98.60</td><td dir='ltr' class='change_down'>-1.66</td><td class='change_down_percent'>-1.66%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_59" data-block="59"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Iraq<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Basrah-Heavy' data-id='4400' data-spreadsheet='RCBASRHV'>
+      <td class='flag_holder'><div class='flag_iraq'></div></td><td><span class="blend_name_span">Basrah Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='108.925'>108.93</td><td dir='ltr' class='change_down'>-9.75</td><td class='change_down_percent'>-8.22%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Basrah-Medium' data-id='4459' data-spreadsheet='RCBASRMV'>
+      <td class='flag_holder'><div class='flag_iraq'></div></td><td><span class="blend_name_span">Basrah Medium</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='111.025'>111.03</td><td dir='ltr' class='change_down'>-9.75</td><td class='change_down_percent'>-8.07%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_60" data-block="60"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Saudi Arabia<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Arab-Extra-Light' data-id='4401' data-spreadsheet='RCAREXLC'>
+      <td class='flag_holder'><div class='flag_arab'></div></td><td><span class="blend_name_span">Arab Extra Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='111.425'>111.43</td><td dir='ltr' class='change_down'>-11.54</td><td class='change_down_percent'>-9.38%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Arab-Heavy' data-id='4403' data-spreadsheet='RCARABHC'>
+      <td class='flag_holder'><div class='flag_arab'></div></td><td><span class="blend_name_span">Arab Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='107.825'>107.83</td><td dir='ltr' class='change_down'>-11.54</td><td class='change_down_percent'>-9.67%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Arab-Medium' data-id='4456' data-spreadsheet='RCARABMC'>
+      <td class='flag_holder'><div class='flag_arab'></div></td><td><span class="blend_name_span">Arab Medium</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='109.175'>109.18</td><td dir='ltr' class='change_down'>-11.54</td><td class='change_down_percent'>-9.56%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_35" data-block="35"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Ecuador<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Oriente-Crude' data-id='138' data-spreadsheet='Oriente Crude'>
+      <td class='flag_holder'><div class='flag_851d5de6f432b9bcb3495795937210d5'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/851d5de6f432b9bcb3495795937210d5.jpg'></div></td><td><span class="blend_name_span">Oriente Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='88.35'>88.35</td><td dir='ltr' class='change_down'>-2.73</td><td class='change_down_percent'>-3.00%<span class='blend_update_text'>(5
+	days Delay)</span></td><td class='last_updated' data-stamp='1773982800'>(5
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Napo-Crude' data-id='139' data-spreadsheet='Napo Crude'>
+      <td class='flag_holder'><div class='flag_2906a3a2d7b07b583e726c2e93b2cf02'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/2906a3a2d7b07b583e726c2e93b2cf02.jpg'></div></td><td><span class="blend_name_span">Napo Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='77.86'>77.86</td><td dir='ltr' class='change_down'>-2.73</td><td class='change_down_percent'>-3.39%<span class='blend_update_text'>(5
+	days Delay)</span></td><td class='last_updated' data-stamp='1773982800'>(5
+	days Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_23" data-block="23"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Mexico<span class="section_update_text"></span></td></tr><tr class="thead heading_level_3" id="section_39" data-block="39"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to U.S. Gulf Coast<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Maya' data-id='141' data-spreadsheet='Maya'>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Maya</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='78.327'>78.33</td><td dir='ltr' class='change_down flat_change_cell'>-7.48</td><td dir='ltr' class='change_down_percent percent_change_cell'>-8.72%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Isthmus' data-id='142' data-spreadsheet='Isthmus'>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Isthmus</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='85.07'>85.07</td><td dir='ltr' class='change_down flat_change_cell'>-9.93</td><td dir='ltr' class='change_down_percent percent_change_cell'>-10.45%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Olmeca' data-id='143' data-spreadsheet='Olmeca'>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Olmeca</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.44633'>86.45</td><td dir='ltr' class='change_down flat_change_cell'>-10.01</td><td dir='ltr' class='change_down_percent percent_change_cell'>-10.38%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr></tbody><tr class="thead heading_level_3" id="section_40" data-block="40"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to U.S. West Coast<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Maya' data-id='145' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Maya</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='78.127'>78.13</td><td dir='ltr' class='change_down flat_change_cell'>-7.48</td><td dir='ltr' class='change_down_percent percent_change_cell'>-8.74%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Isthmus' data-id='146' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Isthmus</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='82.77'>82.77</td><td dir='ltr' class='change_down flat_change_cell'>-9.93</td><td dir='ltr' class='change_down_percent percent_change_cell'>-10.71%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr></tbody><tr class="thead heading_level_3" id="section_42" data-block="42"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to the Far East<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Maya' data-id='147' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Maya</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='132.6095'>132.61</td><td dir='ltr' class='change_down flat_change_cell'>-9.38</td><td dir='ltr' class='change_down_percent percent_change_cell'>-6.61%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='stripe show_graph'  data-name='Isthmus' data-id='148' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_mexico'></div></td><td><span class="blend_name_span">Isthmus</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='133.2095'>133.21</td><td dir='ltr' class='change_down flat_change_cell'>-9.38</td><td dir='ltr' class='change_down_percent percent_change_cell'>-6.58%<span class='blend_update_text'>(1 day Delay)</span></td><td class='last_updated' data-stamp='1774328400'>(1 day Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_44" data-block="44"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Iran<span class="section_update_text"></span></td></tr><tr class="thead heading_level_3" id="section_45" data-block="45"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to North West Europe<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Iran-Light' data-id='153' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.68'>97.68</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.58%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Iran-Heavy' data-id='154' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='95.78'>95.78</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.63%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Forozan-Blend' data-id='155' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Forozan Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='96.03'>96.03</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.63%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr></tbody><tr class="thead heading_level_3" id="section_46" data-block="46"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to Mediterranean<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Iran-Light' data-id='156' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.03'>97.03</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.60%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Iran-Heavy' data-id='157' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='94.88'>94.88</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.66%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Forozan-Blend' data-id='158' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Forozan Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='95.13'>95.13</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.65%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Soroosh' data-id='159' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Soroosh</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='91.88'>91.88</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.74%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr></tbody><tr class="thead heading_level_3" id="section_47" data-block="47"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to Sidi Kerir<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Iran-Light' data-id='161' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='98.93'>98.93</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.55%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Iran-Heavy' data-id='162' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='96.78'>96.78</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.61%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Forozan-Blend' data-id='163' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Forozan Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.03'>97.03</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.60%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr></tbody><tr class="thead heading_level_3" id="section_48" data-block="48"><td class="flag_holder"></td><td colspan="5" class="sub_heading sub_sub_heading ">> Deliveries to South Africa<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Iran-Light' data-id='164' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='97.68'>97.68</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.58%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Iran-Heavy' data-id='165' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='95.78'>95.78</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.63%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Forozan-Blend' data-id='166' data-spreadsheet=''>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Forozan Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='96.03'>96.03</td><td dir='ltr' class='change_down flat_change_cell'>-2.59</td><td dir='ltr' class='change_down_percent percent_change_cell'>-2.63%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_54" data-block="54"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">RUSSIA<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Sokol' data-id='4410' data-spreadsheet='RCSOKOLV'>
+      <td class='flag_holder'><div class='flag_rus'></div></td><td><span class="blend_name_span">Sokol</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='107.320'>107.32</td><td dir='ltr' class='change_down'>-1.66</td><td class='change_down_percent'>-1.52%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_65" data-block="65"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Azerbaijan<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Azeri-Light' data-id='4457' data-spreadsheet='RCAZERIV'>
+      <td class='flag_holder'><div class='flag_2020-06-25_n4vlmfsd5z'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/2020-06-25_n4vlmfsd5z.jpg'></div></td><td><span class="blend_name_span">Azeri Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='122.060'>122.06</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.06%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_66" data-block="66"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Brazil<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Lula' data-id='4458' data-spreadsheet='RCLULSDV'>
+      <td class='flag_holder'><div class='flag_2020-06-25_6qjxslc8h5'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/2020-06-25_6qjxslc8h5.jpg'></div></td><td><span class="blend_name_span">Lula</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='112.110'>112.11</td><td dir='ltr' class='change_down'>-1.95</td><td class='change_down_percent'>-1.71%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_67" data-block="67"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Kazakhstan<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='CPC-Blend' data-id='4859' data-spreadsheet='RCCPCBLV'>
+      <td class='flag_holder'><div class='flag_2024-07-01_ehy94jccly'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/2024-07-01_ehy94jccly.jpg'></div></td><td><span class="blend_name_span">CPC Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='118.060'>118.06</td><td dir='ltr' class='change_down'>-1.31</td><td class='change_down_percent'>-1.10%<span class='blend_update_text'></span></td><td class='last_updated' data-stamp='1774414800'></td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody></table><table class="oilprices__table" data-id="49"><tr class="thead" id="section_49"><th class="flag_holder"></th><th>Canadian Blends<span class="section_update_text"></span></th><th class="last_heading">Last</th><th class="change_heading">Change</th><th class="change_percent_heading">% Change</th><th class="last_updated">Last Updated</th></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Central-Alberta' data-id='274' data-spreadsheet='CAL'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Central Alberta</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.2'>84.20</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.28%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Light-Sour-Blend' data-id='275' data-spreadsheet='LSB'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Light Sour Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.6'>84.60</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.25%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Peace-Sour' data-id='276' data-spreadsheet='PSO'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Peace Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.35'>84.35</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.27%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Syncrude-Sweet-Premium' data-id='277' data-spreadsheet='SSP'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Syncrude Sweet Premium</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='88.85'>88.85</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+4.99%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Sweet-Crude' data-id='278' data-spreadsheet='SW'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Sweet Crude</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.6'>86.60</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.12%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='US-High-Sweet-Clearbrook' data-id='279' data-spreadsheet='UHC'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">US High Sweet Clearbrook</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='90.5'>90.50</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+4.89%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Midale' data-id='281' data-spreadsheet='MID'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Midale</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.85'>84.85</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+5.23%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Albian-Heavy-Synthetic' data-id='282' data-spreadsheet='AHS/WCS'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Albian Heavy Synthetic</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='91.85'>91.85</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+4.82%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Access-Western-Blend' data-id='283' data-spreadsheet='AWB/WCS'>
+      <td class='flag_holder'><div class='flag_canada'></div></td><td><span class="blend_name_span">Access Western Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='91.45'>91.45</td><td dir='ltr' class='change_up flat_change_cell'>+4.22</td><td dir='ltr' class='change_up_percent percent_change_cell'>+4.84%<span class='blend_update_text'>(20
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774418401'>(20
+	Hours Delay)</td></tr></tbody></table><table class="oilprices__table" data-id="8"><tr class="thead" id="section_8"><th class="flag_holder"></th><th colspan="5">United States Blends<span class="section_update_text"></span></th></tr><tr class="section_description"><td></td><td class="section_description__td" colspan="4">(All prices have been taken from a number of midstream companies and the prices are the averages they are paying for various blends)<td></tr><tr class="thead heading_level_2" id="section_27" data-block="27"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Arkansas<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Arkansas-Sweet' data-id='82' data-spreadsheet='Arkansas Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Arkansas Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='82.25'>82.25</td><td dir='ltr' class='change_down'>-10.00</td><td class='change_down_percent'>-10.84%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Arkansas-Sour' data-id='83' data-spreadsheet='Arkansas Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Arkansas Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='81.00'>81.00</td><td dir='ltr' class='change_down'>-10.00</td><td class='change_down_percent'>-10.99%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='stripe show_graph'  data-name='Arkansas-Ex-Heavy' data-id='84' data-spreadsheet='Arkansas Ex Heavy'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Arkansas Ex Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='81.00'>81.00</td><td dir='ltr' class='change_down'>-4.75</td><td class='change_down_percent'>-5.54%<span class='blend_update_text'>(2
+	days Delay)</span></td><td class='last_updated' data-stamp='1774242000'>(2
+	days Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_20" data-block="20"><td class="flag_holder"></td><td class="sub_heading ">Texas<span class="section_update_text"></span></td><th>Last</th><th>Change</th><th>% Change</th><th class="last_updated">Last Updated</th></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='West-Texas-Sour' data-id='3' data-spreadsheet='West Texas Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">West Texas Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='82.45'>82.45</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.40%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='West-Texas-Intermediate' data-id='4' data-spreadsheet='West Texas Intermediate'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">West Texas Intermediate</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.8'>86.80</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.29%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Upper-Texas-Gulf-Coast' data-id='5' data-spreadsheet='Upper Texas Gulf Coast'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Upper Texas Gulf Coast</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80.55'>80.55</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.46%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Texas-Gulf-Coast-Light' data-id='6' data-spreadsheet='Texas Gulf Coast Light'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Texas Gulf Coast Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80.55'>80.55</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.46%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='South-Texas-Sour' data-id='7' data-spreadsheet='South Texas Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">South Texas Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='74.05'>74.05</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.67%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='North-Texas-Sweet' data-id='8' data-spreadsheet='North Texas Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">North Texas Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='87'>87.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Eagle-Ford' data-id='12' data-spreadsheet='Eagle Ford'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Eagle Ford</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.8'>86.80</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.29%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Tx-Upper-Gulf-Coast' data-id='14' data-spreadsheet='Tx. Upper Gulf Coast'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Tx. Upper Gulf Coast</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80.75'>80.75</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.42%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='South-Texas-Light' data-id='15' data-spreadsheet='South Texas Light'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">South Texas Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='80.75'>80.75</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.42%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='W-TxN-Mex-Inter' data-id='16' data-spreadsheet='W. Tx./N. Mex. Inter.'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">W. Tx./N. Mex. Inter.</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='87'>87.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='W-Cen-Tx-Inter' data-id='19' data-spreadsheet='W. Cen. Tx. Inter.'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">W. Cen. Tx. Inter.</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='87'>87.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='East-Texas-Sweet' data-id='23' data-spreadsheet='East Texas Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">East Texas Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84.25'>84.25</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.32%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_19" data-block="19"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Oklahoma<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Oklahoma-Sweet' data-id='1' data-spreadsheet='Oklahoma Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Oklahoma Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='87'>87.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Oklahoma-Sour' data-id='2' data-spreadsheet='Oklahoma Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Oklahoma Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='75'>75.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.60%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Western-Oklahoma-Swt' data-id='21' data-spreadsheet='Western Oklahoma Swt.'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Western Oklahoma Swt.</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.25'>86.25</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.27%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Oklahoma-Intermediate' data-id='28' data-spreadsheet='Oklahoma Intermediate'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Oklahoma Intermediate</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='86.75'>86.75</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.25%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_22" data-block="22"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Wyoming<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Wyoming-General-Sour' data-id='126' data-spreadsheet='Wyoming General Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Wyoming General Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='83.38'>83.38</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.38%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Wyoming-General-Sweet' data-id='127' data-spreadsheet='Wyoming General Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Wyoming General Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='83.9'>83.90</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.36%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_9" data-block="9"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Colorado<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Colorado-South-East' data-id='131' data-spreadsheet='Colorado South East'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Colorado South East</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='77.3'>77.30</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.56%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_16" data-block="16"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Nebraska<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Nebraska-Sweet' data-id='130' data-spreadsheet='Nebraska Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Nebraska Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='78.1'>78.10</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.53%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_14" data-block="14"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Michigan<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Michigan-Sour' data-id='24' data-spreadsheet='Michigan Sour'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Michigan Sour</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='79'>79.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.47%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='Michigan-Sweet' data-id='25' data-spreadsheet='Michigan Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Michigan Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='83.75'>83.75</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.33%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_13" data-block="13"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Louisiana<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='DelhiN-Louisiana' data-id='18' data-spreadsheet='Delhi/N. Louisiana'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">Delhi/N. Louisiana</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='84'>84.00</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.33%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='South-Louisiana' data-id='20' data-spreadsheet='South Louisiana'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">South Louisiana</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='85.5'>85.50</td><td dir='ltr' class='change_down'>-2.00</td><td class='change_down_percent'>-2.29%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody><tr class="thead heading_level_2" id="section_12" data-block="12"><td class="flag_holder"></td><td colspan="5" class="sub_heading ">Kansas<span class="section_update_text"></span></td></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Kansas-Common' data-id='77' data-spreadsheet='Kansas Common'>
+      <td class='flag_holder'><div class='flag_fabde99f67da974825edba2bcae7eb71'><img alt='OilPirce.com - Oil Prices Blend Flag' class='flag' src='https://d32r1sh890xpii.cloudfront.net/flag_image/small/fabde99f67da974825edba2bcae7eb71.png'></div></td><td><span class="blend_name_span">Kansas Common</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='77.15'>77.15</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.56%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='NW-Kansas-Sweet' data-id='133' data-spreadsheet='NW Kansas Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">NW Kansas Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='78.3'>78.30</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.53%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='stripe show_graph'  data-name='SW-Kansas-Sweet' data-id='134' data-spreadsheet='SW Kansas Sweet'>
+      <td class='flag_holder'><div class='flag_usa'></div></td><td><span class="blend_name_span">SW Kansas Sweet</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='78.8'>78.80</td><td dir='ltr' class='change_down'>-2.03</td><td class='change_down_percent'>-2.51%<span class='blend_update_text'>(21
+	Hours Delay)</span></td><td class='last_updated' data-stamp='1774414800'>(21
+	Hours Delay)</td></tr><tr class='border_bottom'><td colspan='6'></td></tr></tbody></table><table class="oilprices__table" data-id="6"><tr class="thead" id="section_6"><th class="flag_holder"><img class="flag_move_left" src="https://d32r1sh890xpii.cloudfront.net/flag_image/small/opec.png" alt="OilPrice.com - OilPrice Blend Flag"></th><th>OPEC Members<span class="section_update_text">(Monthly Pricing)</span></th><th class="last_heading">Last</th><th class="change_heading">Change</th><th class="change_percent_heading">% Change</th><th class="last_updated">Last Updated</th></tr><tbody class='row_holder'><tr class='stripe show_graph'  data-name='Arab-Light' data-id='30' data-spreadsheet='Arab Light'>
+      <td class='flag_holder'><div class='flag_arab'></div></td><td><span class="blend_name_span">Arab Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='68.4'>68.40</td><td dir='ltr' class='change_up'>+5.56</td><td class='change_up_percent'>+8.85%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Basrah-Medium' data-id='31' data-spreadsheet='Basrah Medium'>
+      <td class='flag_holder'><div class='flag_iraq'></div></td><td><span class="blend_name_span">Basrah Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='66.77'>66.77</td><td dir='ltr' class='change_up'>+5.49</td><td class='change_up_percent'>+8.96%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Bonny-Light' data-id='32' data-spreadsheet='Bonny Light'>
+      <td class='flag_holder'><div class='flag_nig'></div></td><td><span class="blend_name_span">Bonny Light</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='71.96'>71.96</td><td dir='ltr' class='change_up'>+4.30</td><td class='change_up_percent'>+6.36%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Es-Sider' data-id='33' data-spreadsheet='Es Sider'>
+      <td class='flag_holder'><div class='flag_libya'></div></td><td><span class="blend_name_span">Es Sider</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='71.14'>71.14</td><td dir='ltr' class='change_up'>+4.36</td><td class='change_up_percent'>+6.53%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Iran-Heavy' data-id='35' data-spreadsheet='Iran Heavy'>
+      <td class='flag_holder'><div class='flag_iran'></div></td><td><span class="blend_name_span">Iran Heavy</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='66.59'>66.59</td><td dir='ltr' class='change_up'>+5.72</td><td class='change_up_percent'>+9.40%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Kuwait-Export' data-id='36' data-spreadsheet='Kuwait Export'>
+      <td class='flag_holder'><div class='flag_kuwait'></div></td><td><span class="blend_name_span">Kuwait Export</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='66.61'>66.61</td><td dir='ltr' class='change_up'>+5.89</td><td class='change_up_percent'>+9.70%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Merey' data-id='38' data-spreadsheet='Merey'>
+      <td class='flag_holder'><div class='flag_ven'></div></td><td><span class="blend_name_span">Merey</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='52.31'>52.31</td><td dir='ltr' class='change_up'>+9.10</td><td class='change_up_percent'>+21.06%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Murban' data-id='39' data-spreadsheet='Murban'>
+      <td class='flag_holder'><div class='flag_uae'></div></td><td><span class="blend_name_span">Murban</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='69.45'>69.45</td><td dir='ltr' class='change_up'>+5.46</td><td class='change_up_percent'>+8.53%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr><tr class='stripe show_graph'  data-name='Saharan-Blend' data-id='41' data-spreadsheet='Saharan Blend'>
+      <td class='flag_holder'><div class='flag_algeria'></div></td><td><span class="blend_name_span">Saharan Blend</span><i class="fa fa-plus user_add_blend hidden" aria-hidden="true" title="Follow blend" style="float:right;"></i><i class="fa fa-times user_remove_blend hidden" aria-hidden="true" title="Unfollow blend" style="float:right;"></i></td>
+    <td class='last_price' data-price='73.59'>73.59</td><td dir='ltr' class='change_up'>+5.86</td><td class='change_up_percent'>+8.65%<span class='blend_update_text'>(. Price)</span></td><td class='last_updated' data-stamp='1772258400'>(. Price)</td></tr></tbody></table>	</div>
+	<div class="oilprices__rightcolumn">
+				<div class="top_graph_holder">
+			<a href="#" class="close_lightbox_top_graph">X</a>
+			<a href='#' class="desktop_big"><i class="fa fa-arrows-alt" aria-hidden="true"></i></a>
+			<div class="top_actual_graph">
+				<iframe title="Oil Prices Blend Chart" scrolling="no" src="https://oilprice.com/freewidgets/get_oilprices_chart/45/4"></iframe>
+			</div>
+			
+		</div>
+		<div class="bottom_graph_holder">
+			<h2></h2>
+			<div class="comparison_chart">
+				<div class="view">View:</div>
+				<div class="drop_downs">
+					<select id="view_chart" class="view_chart">
+															<option value="45">WTI Crude</option>
+																<option value="46">Brent Crude</option>
+																<option value="4464">Murban Crude</option>
+																<option value="51">Natural Gas</option>
+																<option value="53">Gasoline</option>
+																<option value="52">Heating Oil</option>
+																<option value="4853">WTI Midland</option>
+																<option value="4860">Mars</option>
+																<option value="29">Opec Basket</option>
+																<option value="48">DME Oman</option>
+																<option value="71">Mexican Basket</option>
+																<option value="72">Indian Basket</option>
+																<option value="4466">Urals</option>
+																<option value="257">Western Canadian Select</option>
+																<option value="4861">AECO C natural gas</option>
+																<option value="144">Dubai</option>
+																<option value="151">Brent Weighted Average</option>
+																<option value="76">Louisiana Light</option>
+																<option value="26">Domestic Swt. @ Cushing</option>
+																<option value="27">Giddings</option>
+																<option value="44">ANS West Coast</option>
+																<option value="140">Gulf Coast HSFO</option>
+																<option value="4854">Ethanol</option>
+																<option value="4447">Dutch TTF Natural Gas</option>
+																<option value="4448">LNG Japan/Korea Marker</option>
+																<option value="4402">Arab Light</option>
+																<option value="152">Kuwait Export Blend</option>
+																<option value="4411">Cossack</option>
+																<option value="4857">NWS Con</option>
+																<option value="4858">Ichthys Con</option>
+																<option value="4406">Cabinda</option>
+																<option value="4407">Nemba</option>
+																<option value="4408">Dalia</option>
+																<option value="4404">Brass River</option>
+																<option value="4405">Qua Iboe</option>
+																<option value="4397">Das</option>
+																<option value="4454">Umm Lulu</option>
+																<option value="4455">Upper Zakum</option>
+																<option value="4398">Qatar Land - Qatar</option>
+																<option value="4399">Al Shaheen - Qatar</option>
+																<option value="4855">D.F.Condensate</option>
+																<option value="4856">L.S.Condensate</option>
+																<option value="4400">Basrah Heavy</option>
+																<option value="4459">Basrah Medium</option>
+																<option value="4401">Arab Extra Light</option>
+																<option value="4403">Arab Heavy</option>
+																<option value="4456">Arab Medium</option>
+																<option value="138">Oriente Crude</option>
+																<option value="139">Napo Crude</option>
+																<option value="141">Maya</option>
+																<option value="142">Isthmus</option>
+																<option value="143">Olmeca</option>
+																<option value="145">Maya</option>
+																<option value="146">Isthmus</option>
+																<option value="147">Maya</option>
+																<option value="148">Isthmus</option>
+																<option value="153">Iran Light</option>
+																<option value="154">Iran Heavy</option>
+																<option value="155">Forozan Blend</option>
+																<option value="156">Iran Light</option>
+																<option value="157">Iran Heavy</option>
+																<option value="158">Forozan Blend</option>
+																<option value="159">Soroosh</option>
+																<option value="161">Iran Light</option>
+																<option value="162">Iran Heavy</option>
+																<option value="163">Forozan Blend</option>
+																<option value="164">Iran Light</option>
+																<option value="165">Iran Heavy</option>
+																<option value="166">Forozan Blend</option>
+																<option value="4410">Sokol</option>
+																<option value="4457">Azeri Light</option>
+																<option value="4458">Lula</option>
+																<option value="4859">CPC Blend</option>
+																<option value="274">Central Alberta</option>
+																<option value="275">Light Sour Blend</option>
+																<option value="276">Peace Sour</option>
+																<option value="277">Syncrude Sweet Premium</option>
+																<option value="278">Sweet Crude</option>
+																<option value="279">US High Sweet Clearbrook</option>
+																<option value="281">Midale</option>
+																<option value="282">Albian Heavy Synthetic</option>
+																<option value="283">Access Western Blend</option>
+																<option value="82">Arkansas Sweet</option>
+																<option value="83">Arkansas Sour</option>
+																<option value="84">Arkansas Ex Heavy</option>
+																<option value="3">West Texas Sour</option>
+																<option value="4">West Texas Intermediate</option>
+																<option value="5">Upper Texas Gulf Coast</option>
+																<option value="6">Texas Gulf Coast Light</option>
+																<option value="7">South Texas Sour</option>
+																<option value="8">North Texas Sweet</option>
+																<option value="12">Eagle Ford</option>
+																<option value="14">Tx. Upper Gulf Coast</option>
+																<option value="15">South Texas Light</option>
+																<option value="16">W. Tx./N. Mex. Inter.</option>
+																<option value="19">W. Cen. Tx. Inter.</option>
+																<option value="23">East Texas Sweet</option>
+																<option value="1">Oklahoma Sweet</option>
+																<option value="2">Oklahoma Sour</option>
+																<option value="21">Western Oklahoma Swt.</option>
+																<option value="28">Oklahoma Intermediate</option>
+																<option value="126">Wyoming General Sour</option>
+																<option value="127">Wyoming General Sweet</option>
+																<option value="131">Colorado South East</option>
+																<option value="130">Nebraska Sweet</option>
+																<option value="24">Michigan Sour</option>
+																<option value="25">Michigan Sweet</option>
+																<option value="18">Delhi/N. Louisiana</option>
+																<option value="20">South Louisiana</option>
+																<option value="77">Kansas Common</option>
+																<option value="133">NW Kansas Sweet</option>
+																<option value="134">SW Kansas Sweet</option>
+																<option value="30">Arab Light</option>
+																<option value="31">Basrah Light</option>
+																<option value="32">Bonny Light</option>
+																<option value="33">Es Sider</option>
+																<option value="35">Iran Heavy</option>
+																<option value="36">Kuwait Export</option>
+																<option value="38">Merey</option>
+																<option value="39">Murban</option>
+																<option value="41">Saharan Blend</option>
+													</select>
+
+					<select id="compare_chart" class="compare_chart">
+						<option value="0">Add a comparison</option>
+															<option value="46">Brent Crude</option>
+																<option value="4464">Murban Crude</option>
+																<option value="51">Natural Gas</option>
+																<option value="53">Gasoline</option>
+																<option value="52">Heating Oil</option>
+																<option value="4853">WTI Midland</option>
+																<option value="4860">Mars</option>
+																<option value="29">Opec Basket</option>
+																<option value="48">DME Oman</option>
+																<option value="71">Mexican Basket</option>
+																<option value="72">Indian Basket</option>
+																<option value="4466">Urals</option>
+																<option value="257">Western Canadian Select</option>
+																<option value="4861">AECO C natural gas</option>
+																<option value="144">Dubai</option>
+																<option value="151">Brent Weighted Average</option>
+																<option value="76">Louisiana Light</option>
+																<option value="26">Domestic Swt. @ Cushing</option>
+																<option value="27">Giddings</option>
+																<option value="44">ANS West Coast</option>
+																<option value="140">Gulf Coast HSFO</option>
+																<option value="4854">Ethanol</option>
+																<option value="4447">Dutch TTF Natural Gas</option>
+																<option value="4448">LNG Japan/Korea Marker</option>
+																<option value="4402">Arab Light</option>
+																<option value="152">Kuwait Export Blend</option>
+																<option value="4411">Cossack</option>
+																<option value="4857">NWS Con</option>
+																<option value="4858">Ichthys Con</option>
+																<option value="4406">Cabinda</option>
+																<option value="4407">Nemba</option>
+																<option value="4408">Dalia</option>
+																<option value="4404">Brass River</option>
+																<option value="4405">Qua Iboe</option>
+																<option value="4397">Das</option>
+																<option value="4454">Umm Lulu</option>
+																<option value="4455">Upper Zakum</option>
+																<option value="4398">Qatar Land - Qatar</option>
+																<option value="4399">Al Shaheen - Qatar</option>
+																<option value="4855">D.F.Condensate</option>
+																<option value="4856">L.S.Condensate</option>
+																<option value="4400">Basrah Heavy</option>
+																<option value="4459">Basrah Medium</option>
+																<option value="4401">Arab Extra Light</option>
+																<option value="4403">Arab Heavy</option>
+																<option value="4456">Arab Medium</option>
+																<option value="138">Oriente Crude</option>
+																<option value="139">Napo Crude</option>
+																<option value="141">Maya</option>
+																<option value="142">Isthmus</option>
+																<option value="143">Olmeca</option>
+																<option value="145">Maya</option>
+																<option value="146">Isthmus</option>
+																<option value="147">Maya</option>
+																<option value="148">Isthmus</option>
+																<option value="153">Iran Light</option>
+																<option value="154">Iran Heavy</option>
+																<option value="155">Forozan Blend</option>
+																<option value="156">Iran Light</option>
+																<option value="157">Iran Heavy</option>
+																<option value="158">Forozan Blend</option>
+																<option value="159">Soroosh</option>
+																<option value="161">Iran Light</option>
+																<option value="162">Iran Heavy</option>
+																<option value="163">Forozan Blend</option>
+																<option value="164">Iran Light</option>
+																<option value="165">Iran Heavy</option>
+																<option value="166">Forozan Blend</option>
+																<option value="4410">Sokol</option>
+																<option value="4457">Azeri Light</option>
+																<option value="4458">Lula</option>
+																<option value="4859">CPC Blend</option>
+																<option value="274">Central Alberta</option>
+																<option value="275">Light Sour Blend</option>
+																<option value="276">Peace Sour</option>
+																<option value="277">Syncrude Sweet Premium</option>
+																<option value="278">Sweet Crude</option>
+																<option value="279">US High Sweet Clearbrook</option>
+																<option value="281">Midale</option>
+																<option value="282">Albian Heavy Synthetic</option>
+																<option value="283">Access Western Blend</option>
+																<option value="82">Arkansas Sweet</option>
+																<option value="83">Arkansas Sour</option>
+																<option value="84">Arkansas Ex Heavy</option>
+																<option value="3">West Texas Sour</option>
+																<option value="4">West Texas Intermediate</option>
+																<option value="5">Upper Texas Gulf Coast</option>
+																<option value="6">Texas Gulf Coast Light</option>
+																<option value="7">South Texas Sour</option>
+																<option value="8">North Texas Sweet</option>
+																<option value="12">Eagle Ford</option>
+																<option value="14">Tx. Upper Gulf Coast</option>
+																<option value="15">South Texas Light</option>
+																<option value="16">W. Tx./N. Mex. Inter.</option>
+																<option value="19">W. Cen. Tx. Inter.</option>
+																<option value="23">East Texas Sweet</option>
+																<option value="1">Oklahoma Sweet</option>
+																<option value="2">Oklahoma Sour</option>
+																<option value="21">Western Oklahoma Swt.</option>
+																<option value="28">Oklahoma Intermediate</option>
+																<option value="126">Wyoming General Sour</option>
+																<option value="127">Wyoming General Sweet</option>
+																<option value="131">Colorado South East</option>
+																<option value="130">Nebraska Sweet</option>
+																<option value="24">Michigan Sour</option>
+																<option value="25">Michigan Sweet</option>
+																<option value="18">Delhi/N. Louisiana</option>
+																<option value="20">South Louisiana</option>
+																<option value="77">Kansas Common</option>
+																<option value="133">NW Kansas Sweet</option>
+																<option value="134">SW Kansas Sweet</option>
+																<option value="30">Arab Light</option>
+																<option value="31">Basrah Light</option>
+																<option value="32">Bonny Light</option>
+																<option value="33">Es Sider</option>
+																<option value="35">Iran Heavy</option>
+																<option value="36">Kuwait Export</option>
+																<option value="38">Merey</option>
+																<option value="39">Murban</option>
+																<option value="41">Saharan Blend</option>
+													</select>
+				</div>
+
+				<a href="#" id="reset_chart">Reset chart</a>
+				<!--
+				<select id="remove_chart" class="remove_chart">
+					<option value="0">Remove</option>
+				</select>
+				-->
+
+			</div>
+			<div class="bottom_actual_graph">
+				<iframe title="Oil Prices Blends Comparison Chart" scrolling="no" id="advanced_graph" src="https://oilprice.com/freewidgets/get_oilprices_comparison_chart/45"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /192633929/OilPrice-728x90-BTF -->
+<script type="text/javascript">
+	if(window.innerWidth > 1224){
+		var write_html = `<div class="desktop-only ad-holder">
+	<p>ADVERTISEMENT</p>
+	<div align="center" data-freestar-ad="__728x90" id="oilprice_leaderboard_btf">
+	  	<script data-cfasync="false" type="text/javascript">
+	    	freestar.config.enabled_slots.push({ placementName: "oilprice_leaderboard_btf", slotId: "oilprice_leaderboard_btf" });
+	  	<\/script>
+	</div>
+</div>`;
+		document.write(write_html);
+	}
+</script>
+
+<!-- END: /192633929/OilPrice-728x90-BTF -->
+
+
+
+
+<div class="siteContainer">
+	<div class="notice_box">
+	    <span class="info_symbol"><img alt="OilPrice.com - Info" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/info.png"></span>
+	    <p	>The data provided on Oilprice.com is proprietary. Redistribution of our live data feeds, charts, or tables is prohibited without prior written consent. Individual price points or data cited in the context of news reporting, academic research, or commentary may be referenced provided that Oilprice.com is credited as the source.</p>
+	    <span class="close_box"><img alt="OilPrice.com - Close" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/close.png"></span>
+	</div>
+</div>
+<div class="our-partners-banner">
+	<div class="border-container">
+		<div class="our-partners partner_logo_container"><h2>Our Partners</h2></div>
+		<div class="rim-intelligence partner_logo_container"><a href="https://eng.rim-intelligence.co.jp/" rel="nofollow" target="_blank"><img alt="Rim Itelligence - OilPrice.com Partner" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/rim_intelligence.png"></a></div>
+		<div class="marexspectron partner_logo_container"><a href="http://www.marexspectron.com/" rel="nofollow" target="_blank"><img alt="Marex Spectron - OilPrice.com Partner" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/marex_spectron_black_purple.png"></a></div>
+		<div class="JLC partner_logo_container"><a href="http://www.jlcint.com/index" rel="nofollow" target="_blank"><img alt="JLC - OilPrice.com Partner" src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprices/jlc.jpg"></a></div>
+	</div>
+</div>
+<br><br>
+<div class="clear_both"></div>
+<!-- /.siteContainer -->
+<script type="text/javascript">	
+var cdn_url = "https://oilprice.com/";
+var jump_to_blend = "[[jump_to_blend]]";
+var jump_to_block = "-1";
+var min_word = "Minute";
+var mins_word = "Minutes";
+var hour_word = "Hour";
+var hours_word = "Hours";
+var day_word = "Day";
+var days_word = "Days";
+var delay_word = "Delay";
+var prev_trade_day = "2026-03-24";
+var s3_url = 'https://s3.amazonaws.com/oilprice.com/';
+//var s3_url = 'https://s3.amazonaws.com/oilprice.com/';
+</script>			</div>
+													<div class="footerLogoBanner">
+						<div class="siteContainer">
+							<img class="lozad" data-src="https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprice-logo-footer.png" alt="Oilprice - The No. 1 Source for Oil &amp; Energy News" width="224" height="55" title="Oilprice - The No. 1 Source for Oil &amp; Energy News">
+														<p class="footerLogoBanner__socialMedia">
+								<a class="footerLogoBanner__socialLink" href="https://www.facebook.com/oilpricenews" rel="external"><i class="fab fa-facebook-f"></i></a>
+								<a class="footerLogoBanner__socialLink" href="https://twitter.com/OilandEnergy" rel="external"><i class="fab fa-twitter"></i></a>
+								<a class="footerLogoBanner__socialLink" href="https://www.linkedin.com/company/oilprice-com?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf" rel="external"><i class="fab fa-linkedin"></i></a>
+								<a class="footerLogoBanner__socialLink" href="https://feeds.feedburner.com/oilpricecom" rel="external publisher"><i class="icon-feedburner"></i></a>
+								<a class="footerLogoBanner__socialLink" href="https://oilprice.com/rss/main" rel="external"><i class="fa fa-rss"></i></a>
+
+							</p>
+							<!-- /.breakingNews__socialMedia -->
+						</div>
+						<!-- /.siteContainer -->
+					</div>
+					<!-- /.footerLogoBanner -->
+
+
+					<div class="footer" style="background:url('https://d1o9e4un86hhpc.cloudfront.net/a/img/footer.png');">
+						<div class="siteContainer">
+							<div class="footerNavigation">
+								<div class="footerNavigation__column">
+									<ul class="footerNavigation__linkList">
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/about-us" class="footerNavigation__link footerNavigation__link--title">More About Us</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/about-us" class="footerNavigation__link">About Us</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/Latest-Energy-News/World-News" class="footerNavigation__link">Site News</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/Sitemap" class="footerNavigation__link">Sitemap</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/advertising" class="footerNavigation__link">Advertise with us</a></li>
+
+										<!-- <li class="footerNavigation__linkItem"><a href="https://oilprice.com/editorial-staff" class="footerNavigation__link">Editorial Staff</a></li> -->
+									</ul>
+									<!-- HTML for geo depending button -->
+									<button style="color: white; font-size: 18px; padding: 0px;" id="pmLink">Privacy Manager</button>
+								</div>
+								<!-- /.footerNavigation__column -->
+
+								<div class="footerNavigation__column">
+									<ul class="footerNavigation__linkList">
+										<li class="footerNavigation__linkItem"><a class="footerNavigation__link footerNavigation__link--title">Site info</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/terms-and-conditions" class="footerNavigation__link">Terms &amp; Conditions</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/disclaimer" class="footerNavigation__link">Disclaimer</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/privacy-policy" class="footerNavigation__link">Privacy Policy</a></li>
+										<li class="footerNavigation__linkItem"><a href="https://oilprice.com/contact" class="footerNavigation__link">Contact Us</a></li>
+									</ul>
+								</div>
+								<!-- /.footerNavigation__column -->
+
+								<div class="footerNavigation__column float_right footer_copyright">
+									<p class="copyrightText">&copy; <a href="/">OilPrice.com</a><!-- | <a href="https://plus.google.com/100818571694606454377/posts" rel="external nofollow">Google+</a>--></p>
+									<p class="smallprint">The materials provided on this Web site are for informational and educational purposes only and are not intended to provide tax, legal, or investment advice.</p>
+									<p class="smallprint">Nothing contained on the Web site shall be considered a recommendation, solicitation, or offer to buy or sell a security to any person in any jurisdiction.</p>
+									<p class="smallprint">Merchant of Record: A Media Solutions trading as Oilprice.com</p>
+								</div>
+							</div>
+							<!-- /.footerNavigation -->
+						</div>
+						<!-- /.siteContainer -->
+					</div>
+					<!-- /.footer -->
+
+				</div>
+				<!-- /wrapper-container -->
+
+				
+
+		<script type="text/javascript" src="https://d1o9e4un86hhpc.cloudfront.net/min/f=a/js/third_party/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript" src="https://d1o9e4un86hhpc.cloudfront.net/min/f=a/js/third_party/jquery.cookie.min.js,a/js/script.js,a/js/third_party/lozad.js,a/js/third_party/jquery.sticky-kit.min.js,a/js/third_party/jquery.lightbox_me.js,a/js/third_party/moment.2.24.0.min.js,a/js/third_party/moment-timezone-0.5.25.min.js,a/js/oilprices/script.js?v=1774008248" defer></script>
+		
+
+<script type="text/javascript">
+	var country_code = 'US';
+	var disallowed_countries = ["IN","PK","SG","ZA","IQ","BR","HK","RU","NZ","IL","JP","TT","CN","IR","EG","RS","GH","LK","TN","ET","YE","SY","VI","MP","VU","KP"];
+	var s3_header_json = "widgets/oilprices/all/last.json";
+	var s3_data_json = "data.json";
+	var s3_all_json = "https://s3.amazonaws.com/oilprice.com/oilprices/blend_cache.json";
+	var s3_article_base = "https://s3.amazonaws.com/oilprice.com/live_articles/";
+	var google_preferred_source_countries = ["US","IN"];
+</script>
+
+	<!-- Quantcast Tag -->
+	<script type="text/javascript">
+		var _qevents = _qevents || [];
+
+		(function() {
+			var elem = document.createElement('script');
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+		})();
+
+		_qevents.push({
+			qacct:"p-mYGzvda-tntH2"
+		});
+	</script>
+
+	<noscript>
+		<div style="display:none;">
+			<img src="//pixel.quantserve.com/pixel/p-mYGzvda-tntH2.gif" border="0" height="1" width="1" alt="Quantcast"/>
+		</div>
+	</noscript>
+	<!-- End Quantcast tag -->
+	
+
+	<!-- Incudles Optin Monster Popup Campaigns -->
+	
+	
+									
+
+<style>    
+	#pmLink {        
+		visibility: hidden;               
+		text-decoration: none;        
+		cursor: pointer;        
+		background: transparent;        
+		border: none;    
+	}
+
+	#pmLink:hover {        
+		visibility: visible;        
+		color: grey;    
+	} 
+</style>
+
+<!-- Bing retargeting pixel -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"26054419"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script>
+<!-- End Bing retargeting pixel -->
+
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+	if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+	n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '332667700771750');
+			fbq('track', 'PageView');
+</script>
+<noscript>
+	<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=332667700771750&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+
+<!-- Check if article to load in extra fb pixel and google pixel-->
+
+		
+
+			
+			
+			<script type="text/javascript">
+				var current_header_block = 0;
+				var show_opc = false;
+			</script>
+
+			<script type="text/javascript">
+				var uaString = navigator.userAgent;
+				var includesMobile = uaString.includes("Mobile");
+				var includesWV = uaString.includes("wv)");
+				var includesVersion = uaString.includes("Version");
+				var includesiPhone = uaString.includes("iPhone");
+				var includesAndroid = uaString.includes("Android");
+
+	if ( (includesMobile && includesiPhone && !includesVersion) || (includesMobile && includesWV && includesAndroid) ){ // iPhone or Android
+		document.write('<style type="text/css">.hide-in-app,.smartbanner, #om-vfajfuoxhhid9q37enfd, #om-i8bhm8esmrx2w3gojuo6{display:none !important;}</style>');
+	}
+
+	
+		function temp_getCookie(name) {
+			const value = `; ${document.cookie}`;
+			const parts = value.split(`; ${name}=`);
+			if (parts.length === 2) return parts.pop().split(';').shift();
+			return null;
+		}
+
+		// Function to set a cookie
+		function temp_setCookie(name, value, days, path = '/', domain = window.location.hostname) {
+			const expires = new Date();
+			expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+			document.cookie = `${name}=${encodeURIComponent(value)}; expires=${expires.toUTCString()}; path=${path}; domain=${domain}; SameSite=Lax`;
+		}
+
+		function temp_getRandomInt(min, max) {
+			min = Math.ceil(min);
+			max = Math.floor(max);
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+
+		var ga_logged_in = false;
+		var ga_has_gea = false;
+		var ga_has_adfree = false;
+
+		var test_cookie = temp_getCookie('ga_store_user_id');
+
+		if(test_cookie){
+			var ga_user_id = test_cookie;
+		}else{
+			var ga_user_id =  Date.now() + "" + temp_getRandomInt(1000000000,2000000000);
+			temp_setCookie('ga_store_user_id',ga_user_id,20 * 365);
+		}
+
+	</script>
+
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "OilPrice.com",
+  "url": "https://oilprice.com",
+  "logo": "https://d1o9e4un86hhpc.cloudfront.net/a/img/oilprice-logo.png?v=3",
+  "foundingDate": "2009",
+  "founder": {
+    "@type": "Person",
+    "name": "James Stafford"
+  },
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Advanced Media Solutions"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/oilprice-com",
+    "https://twitter.com/OilandEnergy",
+    "https://www.facebook.com/oilprice.com"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@oilprice.com"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "advertising",
+      "email": "support@oilprice.com"
+    }
+  ],
+  "description": "OilPrice.com is a leading energy news website providing analysis of the oil & gas industry, alternative energy, and geopolitics.",
+  "publishingPrinciples": "https://oilprice.com/about-us",  
+  "ethicsPolicy": "https://oilprice.com/about-us",  
+  "correctionsPolicy": "https://oilprice.com/about-us",  
+  "areaServed": "Global",
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "James Stafford",
+      "jobTitle": "Publisher",
+      "url": "https://oilprice.com/contributors/James-Stafford"
+    },
+    {
+      "@type": "Person",
+      "name": "Tom Kool",
+      "jobTitle": "Head of Operations",
+      "url": "https://oilprice.com/contributors/Tom-Kool"
+    },
+    {
+      "@type": "Person",
+      "name": "Josh Owens",
+      "jobTitle": "Content Director",
+      "url": "https://oilprice.com/contributors/Josh-Owens"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Kern",
+      "jobTitle": "Creative Director",
+      "url": "https://oilprice.com/contributors/Michael-Kern"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Scott",
+      "jobTitle": "Marketing Director",
+      "url": "https://oilprice.com/contributors/Michael-Scott"
+    },
+    {
+      "@type": "Person",
+      "name": "James Hyerczyk",
+      "jobTitle": "Analysts",
+      "url": "https://oilprice.com/contributors/Jim-Hyerczyk"
+    },
+    {
+      "@type": "Person",
+      "name": "Martin Tillier",
+      "jobTitle": "Analyst",
+      "url": "https://oilprice.com/contributors/Martin-Tillier"
+    },
+    {
+      "@type": "Person",
+      "name": "Dr. Cyril Widdershoven",
+      "jobTitle": "Analyst",
+      "url": "https://oilprice.com/contributors/Cyril-Widdershoven"
+    },
+    {
+      "@type": "Person",
+      "name": "David Messler",
+      "jobTitle": "Analyst",
+      "url": "https://oilprice.com/contributors/David-Messler"
+    },
+    {
+      "@type": "Person",
+      "name": "Simon Watkins",
+      "jobTitle": "Analyst",
+      "url": "https://oilprice.com/contributors/Simon-Watkins"
+    },
+    {
+      "@type": "Person",
+      "name": "Matthew Smith",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Matthew-Smith"
+    },
+    {
+      "@type": "Person",
+      "name": "Irina Slav",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Irina-Slav"
+    },
+    {
+      "@type": "Person",
+      "name": "Tsvetana Paraskova",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Tsvetana-Paraskova"
+    },
+    {
+      "@type": "Person",
+      "name": "Alex Kimani",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Alex-Kimani"
+    },
+    {
+      "@type": "Person",
+      "name": "Julianne Geiger",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Julianne-Geiger"
+    },
+    {
+      "@type": "Person",
+      "name": "Felicity Bradstock",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Felicity-Bradstock"
+    },
+    {
+      "@type": "Person",
+      "name": "Haley Zaremba",
+      "jobTitle": "Writer",
+      "url": "https://oilprice.com/contributors/Haley-Zaremba"
+    }
+  ],
+  "knowsAbout": [
+    "oil",
+    "natural gas",
+    "alternative energy",
+    "geopolitics",
+    "energy markets",
+    "commodities"
+  ]
+}
+</script>
+
+
+</body>
+</html>
+
