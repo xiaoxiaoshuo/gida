@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-03-26 11:19:58",
+  "timestamp_iso": "2026-03-26T03:19:58Z",
+  "quality_report": {
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "VIX": {
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "label": "中",
+      "score": 65
+    },
+    "_overall": {
+      "total_items": 6,
+      "label": "高",
+      "average_score": 82.5
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "price": 2152.0,
+      "timestamp": "2026-03-26 11:19:58",
+      "confidence": "high",
+      "source": "OKX_API",
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"ETH-USDT\",\"last\":\"2152\",\"lastSz\":\"0.43063\""
+    },
+    "BTC": {
+      "price": 70913.0,
+      "timestamp": "2026-03-26 11:19:58",
+      "confidence": "high",
+      "source": "OKX_API",
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"BTC-USDT\",\"last\":\"70913\",\"lastSz\":\"0.00987"
+    },
+    "SOL": {
+      "price": 90.93,
+      "timestamp": "2026-03-26 11:19:58",
+      "confidence": "high",
+      "source": "OKX_API",
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"SOL-USDT\",\"last\":\"90.93\",\"lastSz\":\"6.84440"
+    }
+  },
+  "collection_version": "v4",
+  "macro": {
+    "GOLD": {
+      "value": 4510.7,
+      "raw_len": 60798,
+      "timestamp": "2026-03-26 11:19:58",
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "confidence": "high"
+    },
+    "OIL": {
+      "value": 91.92,
+      "raw_len": 171418,
+      "timestamp": "2026-03-26 11:19:58",
+      "unit": "USD/barrel (WTI)",
+      "source": "oilprice.com",
+      "confidence": "high"
+    },
+    "VIX": {
+      "timestamp": "2026-03-26 11:19:58",
+      "value": 10.0,
+      "confidence": "medium",
+      "source": "alternative.me_FNG",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"10\",\n\t\t\t\"value_classification\": \"Extr"
+    }
+  },
+  "errors": []
+}
