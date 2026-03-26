@@ -36,13 +36,12 @@ try {
     $fgPage = Invoke-WebRequest 'https://alternative.me/crypto/fear-and-greed-index/' -TimeoutSec 12 -UseBasicParsing
     $content = $fgPage.Content
     
-    # 结构: Now...fng-circle...>10<
-    # 匹配 "Now" 到 "fng-circle" 之间的内容，然后提取数字
-    if ($content -match 'fng-circle[^>]*>(\d+)<') {
+    # 结构: >Now</div> → status → fng-circle → 10
+    # 精确匹配 class="fng-circle" 后的数字
+    if ($content -match 'class="fng-circle"[^>]*>\s*(\d+)\s*<') {
         $fgValue = [int]$matches[1]
         if ($fgValue -ge 0 -and $fgValue -le 100) {
-            $fgClass = "Extreme Fear"
-            if ($fgValue -ge 0 -and $fgValue -le 25) { $fgClass = "Extreme Fear" }
+            if ($fgValue -le 25) { $fgClass = "Extreme Fear" }
             elseif ($fgValue -le 45) { $fgClass = "Fear" }
             elseif ($fgValue -le 55) { $fgClass = "Neutral" }
             elseif ($fgValue -le 75) { $fgClass = "Greed" }

@@ -50,9 +50,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **备选**: CryptoCompare API
 
 ### 宏观数据
-- **Fear&Greed**: `https://alternative.me/api/fng/`（无需认证）
-- **黄金**: `https://goldprice.org/`
-- **原油**: `https://oilprice.com/`
+- **Fear&Greed**: `https://alternative.me/crypto/fear-and-greed-index/`（页面抓取，web_fetch可用）
+- **黄金**: `https://goldprice.org/` — JS渲染，**必须用浏览器** `evaluate` 提取 `SPAN.tick-value.price-value`
+- **原油**: `https://oilprice.com/` — JS渲染，**必须用浏览器**
+
+### 🧠 JS渲染网站采集铁律
+> 只要网站是JS渲染的（内容不在HTML源码中），**必须用浏览器**，`web_fetch` 只能抓到空壳。
+> 采集顺序：1. 先试 `web_fetch`（快）→ 2. 失败则用浏览器 `evaluate` → 3. 浏览器超时则降级估算值
 
 ### AI/ML 新闻
 - **Hacker News**: `https://news.ycombinator.com/`（Brave 浏览器可访问）
