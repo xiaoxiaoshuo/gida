@@ -1,40 +1,25 @@
 {
-  "timestamp_iso": "2026-03-26T11:50:31Z",
   "crypto": {
-    "SOL": {
-      "source": "OKX_API",
-      "confidence": "high",
-      "price": 90.98
-    },
-    "BTC": {
-      "source": "OKX_API",
-      "confidence": "high",
-      "price": 70836.7
-    },
-    "ETH": {
-      "source": "OKX_API",
-      "confidence": "high",
-      "price": 2151.31
-    }
+    "BTC": { "price": 70008.1, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 14:00:00" },
+    "ETH": { "price": 2117.72, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 14:00:00" },
+    "SOL": { "price": 89.21, "source": "OKX_API", "confidence": "high", "timestamp": "2026-03-26 14:00:00" }
+  },
+  "macro": {
+    "VIX": { "value": 10, "source": "alternative.me_FNG", "confidence": "medium", "value_classification": "Extreme Fear", "timestamp": "2026-03-26 08:00:00" },
+    "GOLD": { "value": 4492, "source": "kitco.com", "confidence": "high", "unit": "USD/oz", "timestamp": "2026-03-26 07:40:00" },
+    "OIL": { "value": 91.06, "source": "oilprice.com", "confidence": "high", "unit": "USD/barrel (WTI)", "timestamp": "2026-03-26 07:40:00" }
+  },
+  "quality_report": {
+    "BTC": { "score": 100, "label": "高" },
+    "ETH": { "score": 100, "label": "高" },
+    "SOL": { "score": 100, "label": "高" },
+    "VIX": { "score": 65, "label": "中" },
+    "GOLD": { "score": 85, "label": "高" },
+    "OIL": { "score": 85, "label": "高" },
+    "_overall": { "average_score": 88.3, "label": "高", "total_items": 6 }
   },
   "errors": [],
-  "macro": {
-    "GOLD": {
-      "value": 4009.0,
-      "source": "goldprice.org",
-      "unit": "USD/oz"
-    },
-    "OIL": {
-      "value": 100.0,
-      "source": "oilprice.com",
-      "unit": "USD/barrel"
-    },
-    "FNG": {
-      "classification": "Extreme Fear",
-      "value": 10,
-      "source": "alternative.me_page",
-      "confidence": "high"
-    }
-  },
-  "timestamp": "2026-03-26 11:50:31"
+  "timestamp": "2026-03-26 14:00:00",
+  "timestamp_iso": "2026-03-26T06:00:00Z",
+  "collection_version": "v6"
 }
