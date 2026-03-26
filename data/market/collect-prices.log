@@ -19,3 +19,26 @@
 [INFO] 18:38:49 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-26_18-38.json
 [INFO] 18:38:49 - 质量: 高 (平均分 82.5)
 [INFO] 18:38:49 - 错误: 0 项
+[INFO] 00:03:40 - ========== 价格采集开始 (v4 多源降级) ==========
+[INFO] 00:03:40 - 时间: 2026-03-27 00:03:40
+[INFO] 00:03:40 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 00:03:40 -   采集 BTC ...
+[OK] 00:03:41 -   BTC = 68984 [OKX_API] 质量:高
+[INFO] 00:03:41 -   采集 ETH ...
+[OK] 00:03:43 -   ETH = 2067.9 [OKX_API] 质量:高
+[INFO] 00:03:43 -   采集 SOL ...
+[OK] 00:03:44 -   SOL = 87.52 [OKX_API] 质量:高
+[INFO] 00:03:44 - >> 采集VIX恐慌指数...
+[WARN] 00:04:16 - VIX API全部失败，降级到Bing搜索兜底...
+[ERROR] 00:04:17 -   VIX采集失败
+[INFO] 00:04:17 - >> 采集黄金价格...
+[INFO] 00:04:18 -   GOLD Kitco字体样式正则成功: 4432.9
+[OK] 00:04:18 -   GOLD = 4432.9 [kitco.com] 质量:中
+[INFO] 00:04:18 - >> 采集原油价格...
+[INFO] 00:04:37 -   OIL EIA官方API抓取成功: 89.33
+[OK] 00:04:37 -   OIL = 89.33 [EIA_API] 质量:中
+[INFO] 00:04:37 - ========== 采集完成 ==========
+[INFO] 00:04:37 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-27_00-03.json
+[INFO] 00:04:37 - 质量: 高 (平均分 86)
+[INFO] 00:04:37 - 错误: 1 项
+[WARN] 00:04:37 - 失败详情: VIX : failed
