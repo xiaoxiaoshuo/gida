@@ -34,20 +34,22 @@ try {
 }
 
 # ========== 2. Fear&Greed Index (alternative.me 页面抓取) ==========
-# API 端点 /api/fng/ 已404，改用页面抓取
+# 2026-03-26: 修复正则 - Now/分类/值在三个独立元素中
 try {
     $fgPage = Invoke-WebRequest 'https://alternative.me/crypto/fear-and-greed-index/' -TimeoutSec 10 -UseBasicParsing
-    if ($fgPage.Content -match 'Now\s+([\w\s]+)\s+(\d+)\s+Yesterday\s+([\w\s]+)\s+(\d+)') {
-        $fgValue = [int]$matches[2]
+    $html = $fgPage.Content
+    # 匹配 Now → 分类 → 数值（三元素结构）
+    if ($html -match '(?s)Now.{0,200}?(Extreme\s+Fear|Extreme\s+Greed|Fear|Greed|Neutral).{0,50}?<[^>]+>(\d{1,3})<') {
         $fgClass = $matches[1].Trim()
+        $fgValue = [int]$matches[2]
         $results.macro.FNG = @{
             value = $fgValue
             classification = $fgClass
             source = "alternative.me_page"
             confidence = "medium"
         }
-    } elseif ($fgPage.Content -match 'value["\s]*[:=]["\s]*(\d+)["\s]*[^<]*<[^>]*>[^<]*([\w\s]+)') {
-        # 备用匹配
+    } elseif ($html -match '(?s)Now.{0,200}?(\d{1,3}).{0,50}?(Extreme\s+Fear|Extreme\s+Greed|Fear|Greed|Neutral)') {
+        # 备选：数值在前
         $fgValue = [int]$matches[1]
         $fgClass = $matches[2].Trim()
         $results.macro.FNG = @{
@@ -55,6 +57,15 @@ try {
             classification = $fgClass
             source = "alternative.me_page"
             confidence = "medium"
+        }
+    } elseif ($html -match '>Now<.*?>(\d+)<') {
+        # 最简匹配：找>Now<之后的第一个数字
+        $fgValue = [int]$matches[1]
+        $results.macro.FNG = @{
+            value = $fgValue
+            classification = "Unknown"
+            source = "alternative.me_page"
+            confidence = "low"
         }
     }
 } catch {

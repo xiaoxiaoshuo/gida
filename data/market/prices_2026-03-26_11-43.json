@@ -1,0 +1,18 @@
+﻿{
+    "timestamp_iso":  "2026-03-26T11:43:53Z",
+    "macro":  {
+                  "FNG":  {
+                              "classification":  "",
+                              "confidence":  "medium",
+                              "source":  "alternative.me_page",
+                              "value":  40
+                          }
+              },
+    "errors":  [
+                   "OKX_API_FAILED: 基础连接已经关闭: 发送时发生错误。"
+               ],
+    "crypto":  {
+
+               },
+    "timestamp":  "2026-03-26 11:43:53"
+}

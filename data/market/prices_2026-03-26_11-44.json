@@ -1,0 +1,30 @@
+{
+  "timestamp_iso": "2026-03-26T11:44:39Z",
+  "macro": {
+    "FNG": {
+      "value": 40,
+      "classification": "",
+      "source": "alternative.me_page",
+      "confidence": "medium"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "source": "OKX_API",
+      "price": 90.96,
+      "confidence": "high"
+    },
+    "BTC": {
+      "source": "OKX_API",
+      "price": 70875.4,
+      "confidence": "high"
+    },
+    "ETH": {
+      "source": "OKX_API",
+      "price": 2152.55,
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-03-26 11:44:39",
+  "errors": []
+}
