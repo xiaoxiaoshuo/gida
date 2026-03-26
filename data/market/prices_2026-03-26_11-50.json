@@ -1,0 +1,40 @@
+{
+  "timestamp_iso": "2026-03-26T11:50:31Z",
+  "crypto": {
+    "SOL": {
+      "source": "OKX_API",
+      "confidence": "high",
+      "price": 90.98
+    },
+    "BTC": {
+      "source": "OKX_API",
+      "confidence": "high",
+      "price": 70836.7
+    },
+    "ETH": {
+      "source": "OKX_API",
+      "confidence": "high",
+      "price": 2151.31
+    }
+  },
+  "errors": [],
+  "macro": {
+    "GOLD": {
+      "value": 4009.0,
+      "source": "goldprice.org",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "value": 100.0,
+      "source": "oilprice.com",
+      "unit": "USD/barrel"
+    },
+    "FNG": {
+      "classification": "Extreme Fear",
+      "value": 10,
+      "source": "alternative.me_page",
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-03-26 11:50:31"
+}

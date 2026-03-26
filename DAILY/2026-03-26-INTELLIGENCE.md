@@ -338,4 +338,62 @@
 
 ---
 
-*框架版本：v1.1 | 本次更新：2026-03-26 10:40 | 情报周期：24h*
+---
+
+## 🔄 11:37 深度扫描更新（Subagent v2 修复 + 新闻采集）
+
+### ✅ 修复完成清单
+
+| 任务 | 状态 | 结果 |
+|------|------|------|
+| F&G 采集修复 | ✅ 修复成功 | **10 (Extreme Fear)** — 确认实际值 |
+| GOLD 采集修复 | ✅ 修复成功 | **$4,516.90/oz** (Kitco) |
+| OIL 采集修复 | ✅ 修复成功 | **$91.72/barrel** (oilprice.com) |
+| browser-price-collector.ps1 | ✅ 已修复 | F&G正则更新（3个备选方案）|
+| collect-optimized-v2.ps1 | ✅ 已修复 | F&G改用页面抓取（API 404）|
+| GitHub Trending | ✅ 已采集 | 更新至 github-trending_latest.json |
+| AI新闻扫描 | ✅ 已生成 | data/tech/ai-news-scan-2026-03-26_11-37.md |
+| Git push | ✅ 无待推送 | 工作区干净 |
+
+### 📊 实时市场快照（11:46 GMT+8）
+
+| 品种 | 价格 | 状态 |
+|------|------|------|
+| BTC | $70,847.14 | 🟢 CryptoCompare |
+| ETH | $2,151.37 | 🟢 CryptoCompare |
+| SOL | $90.98 | 🟢 CryptoCompare |
+| **F&G** | **10 (Extreme Fear)** | 🔴 alternative.me_page |
+| **GOLD** | **$4,516.90/oz** | 🟢 kitco.com |
+| **OIL** | **$91.72/barrel** | 🟢 oilprice.com |
+
+### 🔴 关键情报信号
+
+**1. F&G = 10：历史极值区间**
+- 对应宏观：Warsaw Pact 战争 + Iran 冲突 + 关税政策不确定性
+- 黄金 $4,516 + 原油 $91.72 双双高位 = 避险资产确认
+- BTC 维持 $70.8k，未出现踩踏，但上行无力
+- **判断**：恐慌极值 ≠ 立即抄底，需等 F&G 回归 30-40
+
+**2. GitHub Trending AI/ML 核心趋势**
+- **Agent Orchestration 爆发**: letta-ai, ruvnet/ruflo, mvanhorn/last30days-skill
+- **AI Memory 基础设施**: supermemoryai (19K★, 810★/天)
+- **Claude 生态独立化**: subconscious, ruflo 围绕 Claude 栈
+- **Token 效率优化**: Nit (Zig实现Git) 节省71% token — 新赛道
+- **MoneyPrinterV2**: 1,065★/天，自动化网赚仍是最热商业应用
+
+**3. Hacker News AI 相关高价值项目**
+- ARC-AGI-3 (291★): AGI 基准测试新版本，影响 AI 估值逻辑
+- "90% of Claude output to repos <2 stars" (215★): AI 代码质量分布警示
+- Nit — Git in Zig (71 token节省): AI 效率基础设施
+- Quantization from the Ground Up (212★): LLM 部署核心技术
+
+### 🔧 已知问题
+
+| 问题 | 原因 | 状态 |
+|------|------|------|
+| OKX API 间歇失败 | SSL/连接问题 | 脚本自动降级至 CryptoCompare ✅ |
+| goldprice.org 正则失效 | JS渲染，HTML无价格数据 | 改用 Kitco ✅ |
+| alternative.me API 404 | 端点废弃 | 改用页面抓取 ✅ |
+| CoinDesk 新闻页失败 | coindesk.com GFW阻断 | 需替代源 |
+
+*框架版本：v1.1 | 本次更新：2026-03-26 11:37 | 情报周期：24h*

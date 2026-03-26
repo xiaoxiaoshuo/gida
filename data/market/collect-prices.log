@@ -837,3 +837,19 @@
 [INFO] 11:45:28 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-26_11-45.json
 [INFO] 11:45:28 - 质量: 高 (平均分 82.5)
 [INFO] 11:45:28 - 错误: 0 项
+[INFO] 11:46:43 - ========== 优化版数据采集开始 ==========
+[INFO] 11:46:43 - 时间: 2026-03-26 11:46:43
+[INFO] 11:46:43 - >> 采集加密货币...
+[INFO] 11:46:46 -   BTC = 70847.14 [CryptoCompare]
+[INFO] 11:46:47 -   ETH = 2151.37 [CryptoCompare]
+[INFO] 11:46:47 -   SOL = 90.98 [CryptoCompare]
+[INFO] 11:46:47 - >> 采集Fear&Greed指数...
+[INFO] 11:46:57 - >> 采集黄金价格...
+[INFO] 11:47:01 -   GOLD = 4516.9 [Kitco]
+[INFO] 11:47:01 - >> 采集原油价格...
+[INFO] 11:47:16 -   OIL = 91.72 [oilprice.com]
+[INFO] 11:47:16 - ========== 采集完成 ==========
+[INFO] 11:47:16 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-03-26_11-46.json
+[INFO] 11:47:16 - 质量: 高 (平均分 100)
+[INFO] 11:47:16 - 错误: 1 项
+[WARN] 11:47:16 - 失败: FNG : failed

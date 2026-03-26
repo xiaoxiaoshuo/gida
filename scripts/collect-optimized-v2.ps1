@@ -102,20 +102,33 @@ function Get-CryptoPrices {
 }
 
 # ========== Fear & Greed ==========
+# 2026-03-26: API端点 /fng/ 返回404，改用页面抓取
 function Get-FearGreed {
-    $r = Invoke-SafeFetch -Url "https://api.alternative.me/fng/" -Timeout 10
+    $r = Invoke-SafeFetch -Url "https://alternative.me/crypto/fear-and-greed-index/" -Timeout 15
     if ($r.ok) {
         try {
-            $json = $r.content | ConvertFrom-Json
-            $val = [double]$json.data[0].value
-            $class = $json.data[0].value_classification
-            if ($val -gt 0) {
+            $html = $r.content
+            # 三元素结构：Now → 分类 → 数值
+            if ($html -match '(?s)Now.{0,200}?(Extreme\s+Fear|Extreme\s+Greed|Fear|Greed|Neutral).{0,80}?<[^>]+>(\d{1,3})<') {
+                $class = $matches[1].Trim()
+                $val = [int]$matches[2]
                 return @{
                     value = $val
                     value_classification = $class
-                    source = "alternative.me_FNG"
+                    source = "alternative.me_page"
                     confidence = "medium"
-                    raw = $r.content.Substring(0, [Math]::Min(100, $r.content.Length))
+                    raw = "$class $val"
+                    timestamp = $DateTimeStr
+                }
+            } elseif ($html -match '>Now<.*?>(\d{1,3})<') {
+                # 最简：>Now<后的第一个数字
+                $val = [int]$matches[1]
+                return @{
+                    value = $val
+                    value_classification = "Unknown"
+                    source = "alternative.me_page"
+                    confidence = "low"
+                    raw = "value=$val"
                     timestamp = $DateTimeStr
                 }
             }
