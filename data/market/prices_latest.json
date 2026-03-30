@@ -1,33 +1,28 @@
 {
-  "timestamp": "2026-03-30T22:48:20+08:00",
-  "source": "gate.io",
-  "prices": [
-    {
-      "symbol": "BTC_USDT",
-      "last": 67268,
-      "change_pct": 1.11,
+  "timestamp": "2026-03-30T17:53:53Z",
+  "source": "gateio",
+  "prices": {
+    "BTC_USDT": {
+      "last": 66849.6,
       "high_24h": 68172.9,
       "low_24h": 64998,
-      "volume_24h_base": 9856.09,
-      "volume_24h_quote": 659520552.08
+      "change_pct": 0.69
     },
-    {
-      "symbol": "ETH_USDT",
-      "last": 2053.4,
-      "change_pct": 3.05,
+    "ETH_USDT": {
+      "last": 2044.71,
       "high_24h": 2084.62,
       "low_24h": 1938.07,
-      "volume_24h_base": 178785.38,
-      "volume_24h_quote": 362666992.85
+      "change_pct": 2.46
     },
-    {
-      "symbol": "SOL_USDT",
-      "last": 83.89,
-      "change_pct": 2.51,
+    "SOL_USDT": {
+      "last": 83.23,
       "high_24h": 84.97,
       "low_24h": 78.91,
-      "volume_24h_base": 685967.9,
-      "volume_24h_quote": 56982203.36
+      "change_pct": 2.04
     }
-  ]
+  },
+  "reference_2248": {
+    "BTC": 67268,
+    "24h_low": 64998
+  }
 }
