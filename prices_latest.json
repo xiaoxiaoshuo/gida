@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-03-31T02:54:00+08:00",
+  "source": "gate.io",
+  "BTC_USDT": { "last": 66618, "high_24h": 68172.9, "low_24h": 64998 },
+  "ETH_USDT": { "last": 2031.82, "high_24h": 2084.62, "low_24h": 1938.07 },
+  "SOL_USDT": { "last": 82.61, "high_24h": 84.97, "low_24h": 78.91 }
+}
