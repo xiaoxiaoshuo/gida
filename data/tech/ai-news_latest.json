@@ -1,137 +1,310 @@
 {
-  "采集时间": "2026-03-30T22:52:00+08:00",
-  "采集人": "deep-intel-collector-2250",
-  "数据来源": ["cn.bing.com", "bgithub.xyz", "techcrunch.com", "sciencedaily.com"],
-  "P0_AI新闻": [
+  "timestamp": "2026-03-31T05:10:00+08:00",
+  "source": "https://news.ycombinator.com/",
+  "items": [
     {
-      "标题": "This quantum computing breakthrough may not be what it seemed",
-      "来源": "ScienceDaily",
-      "URL": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-      "摘要": "匹兹堡大学团队复现拓扑量子计算研究，发现早期突破实验数据存在其他解释，论文经历2年审查于2026年1月发表于Science。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "A",
-      "标签": ["量子计算", "复现研究", "Science"]
+      "rank": 1,
+      "title": "Fedware: Government apps that spy harder than the apps they ban",
+      "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+      "points": 222,
+      "comments": 69,
+      "author": "speckx",
+      "date": "2 hours ago",
+      "id": "47577761"
     },
     {
-      "标题": "微软发布VibeVoice：开源前沿语音AI",
-      "来源": "GitHub Trending",
-      "URL": "https://bgithub.xyz/microsoft/VibeVoice",
-      "摘要": "微软开源语音AI项目YaoyaoChang等开发，28951星，今日2509星，TypeScript/Python，支持实时语音处理。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "A",
-      "标签": ["微软", "开源", "语音AI", "GitHub Trending"]
+      "rank": 2,
+      "title": "Do your own writing",
+      "url": "https://alexhwoods.com/dont-let-ai-write-for-you/",
+      "points": 192,
+      "comments": 57,
+      "author": "karimf",
+      "date": "3 hours ago",
+      "id": "47573519"
     },
     {
-      "标题": "ICML 2026因审稿人违规使用AI一次性撤拒497篇论文",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/2017816580403246847",
-      "摘要": "2026年3月19日，ICML 2026学术会议因审稿人违规使用AI辅助审稿，一次性撤拒497篇论文，506人是地板而非天花板。",
-      "采集时间": "2026-03-30T22:52:00+08:00",
-      "信源等级": "B",
-      "标签": ["AI学术", "ICML", "论文撤稿"]
+      "rank": 3,
+      "title": "How to turn anything into a router",
+      "url": "https://nbailey.ca/post/router/",
+      "points": 497,
+      "comments": 186,
+      "author": "yabones",
+      "date": "7 hours ago",
+      "id": "47574034"
     },
     {
-      "标题": "文科生72小时杀入GitHub全球榜：没写一行代码但指挥了一支AI军队",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/2009666916382421190",
-      "摘要": "2026年2月26日，非技术背景用户通过指挥AI工具72小时内在GitHub全球榜获得关注，展示AI编程协作新范式。",
-      "采集时间": "2026-03-30T22:52:00+08:00",
-      "信源等级": "B",
-      "标签": ["GitHub", "AI编程", "趋势"]
+      "rank": 4,
+      "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
+      "url": "https://anishathalye.com/macbook-touchscreen/",
+      "points": 73,
+      "comments": 31,
+      "author": "HughParry",
+      "date": "1 hour ago",
+      "id": "47578572"
     },
     {
-      "标题": "2026年：AI重塑一切的一年——44项预测",
-      "来源": "知乎/外媒编译",
-      " ":
-      "摘要": "科技观察家Greg Isenberg预测2026年将成为AI融入社会并开始颠覆性重塑一切的元年，覆盖SaaS、终端、AI编程等44项变革。",
-      "采集时间": "2026-03-30T22:52:00+08:00",
-      "信源等级": "B",
-      "标签": ["AI趋势", "2026展望"]
+      "rank": 5,
+      "title": "Bird brains (2023)",
+      "url": "https://www.dhanishsemar.com/writing/bird-brains",
+      "points": 267,
+      "comments": 172,
+      "author": "DiffTheEnder",
+      "date": "7 hours ago",
+      "id": "47573887"
     },
     {
-      "标题": "DeepSeek更新v3.2新模型：价格重回2元/百万tokens",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/1978819912970555965",
-      "摘要": "DeepSeek V3.2在参数量级不变、推理能力不下降情况下将价格从4/16元降至2/3元/百万tokens，延续高性价比路线。",
-      "采集时间": "2026-03-30T22:52:00+08:00",
-      "信源等级": "B",
-      "标签": ["DeepSeek", "大模型", "价格战"]
+      "rank": 6,
+      "title": "Vulnerability research is cooked",
+      "url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
+      "points": 65,
+      "comments": 39,
+      "author": "pedro84",
+      "date": "2 hours ago",
+      "id": "47578086"
     },
     {
-      "标题": "NousResearch发布Hermes-Agent：随着你成长的AI代理",
-      "来源": "GitHub Trending",
-      "URL": "https://github.com/NousResearch/hermes-agent",
-      "摘要": "NousResearch开源AI代理项目，17870星，今日1859星，Python，支持持续学习与工具调用。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "A",
-      "标签": ["AI Agent", "开源", "NousResearch", "GitHub Trending"]
+      "rank": 7,
+      "title": "Cherri – programming language that compiles to an Apple Shortcut",
+      "url": "https://github.com/electrikmilk/cherri",
+      "points": 178,
+      "comments": 34,
+      "author": "mihau",
+      "date": "5 hours ago",
+      "id": "47549824"
     },
     {
-      "标题": "Deep-Live-Cam：仅凭一张图片实现实时换脸和视频深度伪造",
-      "来源": "GitHub Trending",
-      "URL": "https://github.com/hacksider/Deep-Live-Cam",
-      "摘要": "开源实时换脸项目，支持仅用单张图片进行视频深度伪造，技术伦理争议较大。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "B",
-      "标签": ["深度伪造", "开源", "AI安全"]
-    }
-  ],
-  "P1_宏观加密情绪": [
-    {
-      "标题": "以色列2月28日突袭伊朗，加密货币市场应声重挫",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/2011098078724249221",
-      "摘要": "地缘政治冲击下BTC与黄金走势出现历史性背离，BTC下跌而黄金上涨，与往常对冲逻辑相反。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "B",
-      "标签": ["BTC", "地缘政治", "市场情绪"]
+      "rank": 8,
+      "title": "William Blake, Remote by the Sea",
+      "url": "https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea",
+      "points": 24,
+      "comments": 0,
+      "author": "occurrence",
+      "date": "2 hours ago",
+      "id": "47578464"
     },
     {
-      "标题": "国际金银美股石油BTC均现下跌，银价一度跌超11%",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/2005568531748648323",
-      "摘要": "2026年2月13日春节期间，全球风险资产普跌，BTC联动下跌，加密市场与传统风险资产同步走弱。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "B",
-      "标签": ["BTC", "市场下跌", "风险资产"]
+      "rank": 9,
+      "title": "A sea of sparks: Seeing radioactivity",
+      "url": "https://maurycyz.com/projects/spinthariscope/",
+      "points": 37,
+      "comments": 13,
+      "author": "maurycyz",
+      "date": "2 hours ago",
+      "id": "47577979"
     },
     {
-      "标题": "比特币重挫破6万美元，贝森特称美国不会救助",
-      "来源": "知乎",
-      "URL": "https://www.zhihu.com/question/2002848288005718086",
-      "摘要": "BTC跌破7万美元大关，盘中最低69,620美元，为2024年11月以来首次跌破该水平，BTC牛市评分归零。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "B",
-      "标签": ["BTC", "下跌", "政策"]
-    }
-  ],
-  "P2_量子计算芯片": [
-    {
-      "标题": "IBM 2026量子计算突破：433量子比特Condor处理器",
-      "来源": "programming-helper.com",
-      "URL": "https://www.programming-helper.com/tech/quantum-computing-breakthrough-2026-ibm-google-qubit-race",
-      "摘要": "IBM 2026年部署433量子比特Condor处理器，Google实现1000量子比特Willow系统，Atom Computing达1000+量子比特，商业化加速。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "B",
-      "标签": ["量子计算", "IBM", "Google", "2026突破"]
+      "rank": 10,
+      "title": "OCR for construction documents does not work, we fixed it",
+      "url": "https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors",
+      "points": 90,
+      "comments": 52,
+      "author": "wcisco17",
+      "date": "5 hours ago",
+      "id": "47576055"
     },
     {
-      "标题": "量子计算突破或非如其所声称——Science论文揭示复现失败",
-      "来源": "ScienceDaily",
-      "URL": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-      "摘要": "匹兹堡大学团队对拓扑量子计算突破进行复现研究，发现早期实验数据存在其他解释，呼吁改革科研评审机制。",
-      "采集时间": "2026-03-30T22:53:00+08:00",
-      "信源等级": "A",
-      "标签": ["量子计算", "复现危机", "Science"]
+      "rank": 11,
+      "title": "Roulette Computers: Hidden Devices That Predict Spins",
+      "url": "https://www.roulette-computers.com/",
+      "points": 22,
+      "comments": 1,
+      "author": "o4c",
+      "date": "2 hours ago",
+      "id": "47554493"
     },
     {
-      "标题": "2026年中国AI发展趋势前瞻：AI企业超6000家",
-      "来源": "央视网/新华网",
-      "URL": "https://news.cctv.com/2026/01/28/ARTIEvCAzmKkHNEUbwOAS6et260128.shtml",
-      "摘要": "中国AI核心产业规模预计突破1.2万亿元，同比增长近30%，国产开源大模型全球累计下载量突破100亿次。",
-      "采集时间": "2026-03-30T22:52:00+08:00",
-      "信源等级": "A",
-      "标签": ["中国AI", "产业规模", "开源大模型"]
+      "rank": 12,
+      "title": "Seeing Like a Spreadsheet",
+      "url": "https://davidoks.blog/p/how-the-spreadsheet-reshaped-america",
+      "points": 33,
+      "comments": 5,
+      "author": "paulpauper",
+      "date": "3 hours ago",
+      "id": "47556063"
+    },
+    {
+      "rank": 13,
+      "title": "CodingFont: A game to help you pick a coding font",
+      "url": "https://www.codingfont.com/",
+      "points": 238,
+      "comments": 145,
+      "author": "nvahalik",
+      "date": "5 hours ago",
+      "id": "47575403"
+    },
+    {
+      "rank": 14,
+      "title": "Build123d: A Python CAD programming library",
+      "url": "https://github.com/gumyr/build123d",
+      "points": 95,
+      "comments": 38,
+      "author": "Ivoah",
+      "date": "6 hours ago",
+      "id": "47567242"
+    },
+    {
+      "rank": 15,
+      "title": "In math, rigor is vital, but are digitized proofs taking it too far?",
+      "url": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/",
+      "points": 80,
+      "comments": 65,
+      "author": "isaacfrond",
+      "date": "7 hours ago",
+      "id": "47528403"
+    },
+    {
+      "rank": 16,
+      "title": "Recover Apple Keychain",
+      "url": "https://arkoinad.com/posts/apple_keychain_recovery.html",
+      "points": 25,
+      "comments": 6,
+      "author": "speckx",
+      "date": "3 hours ago",
+      "id": "47577120"
+    },
+    {
+      "rank": 17,
+      "title": "Show HN: Coasts – Containerized Hosts for Agents",
+      "url": "https://github.com/coast-guard/coasts",
+      "points": 39,
+      "comments": 11,
+      "author": "jsunderland323",
+      "date": "5 hours ago",
+      "id": "47575417",
+      "is_ai_related": true
+    },
+    {
+      "rank": 18,
+      "title": "Take better notes, by hand",
+      "url": "https://brianschrader.com/archive/take-better-notes-by-hand/",
+      "points": 142,
+      "comments": 66,
+      "author": "sonicrocketman",
+      "date": "4 hours ago",
+      "id": "47576317"
+    },
+    {
+      "rank": 19,
+      "title": "Mathematical methods and human thought in the age of AI",
+      "url": "https://arxiv.org/abs/2603.26524",
+      "points": 177,
+      "comments": 71,
+      "author": "zaikunzhang",
+      "date": "10 hours ago",
+      "id": "47572771",
+      "is_ai_related": true
+    },
+    {
+      "rank": 20,
+      "title": "An NSFW filter for Marginalia search",
+      "url": "https://www.marginalia.nu/log/a_134_nsfw/",
+      "points": 69,
+      "comments": 13,
+      "author": "speckx",
+      "date": "5 hours ago",
+      "id": "47575935"
+    },
+    {
+      "rank": 21,
+      "title": "Car Seats as Contraception",
+      "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/731812",
+      "points": 5,
+      "comments": 2,
+      "author": "CGMthrowaway",
+      "date": "1 hour ago",
+      "id": "47578855"
+    },
+    {
+      "rank": 22,
+      "title": "I am definitely missing the pre-AI writing era",
+      "url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era",
+      "points": 206,
+      "comments": 173,
+      "author": "joozio",
+      "date": "14 hours ago",
+      "id": "47571279",
+      "is_ai_related": true
+    },
+    {
+      "rank": 23,
+      "title": "FTC action against Match and OkCupid for deceiving users, sharing personal data",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party",
+      "points": 197,
+      "comments": 102,
+      "author": "gnabgib",
+      "date": "5 hours ago",
+      "id": "47575616"
+    },
+    {
+      "rank": 24,
+      "title": "I use Excalidraw to manage my diagrams for my blog",
+      "url": "https://blog.lysk.tech/excalidraw-frame-export/",
+      "points": 252,
+      "comments": 100,
+      "author": "mlysk",
+      "date": "13 hours ago",
+      "id": "47571376"
+    },
+    {
+      "rank": 25,
+      "title": "Proactively Parasocial",
+      "url": "https://nicklandolfi.com/posts/proactively-parasocial.html",
+      "points": 25,
+      "comments": 3,
+      "author": "jxmorris12",
+      "date": "4 hours ago",
+      "id": "47526744"
+    },
+    {
+      "rank": 26,
+      "title": "From Proxmox to FreeBSD and Sylve in our office lab",
+      "url": "https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab",
+      "points": 61,
+      "comments": 50,
+      "author": "arch1e",
+      "date": "7 hours ago",
+      "id": "47553910"
+    },
+    {
+      "rank": 27,
+      "title": "The ladder is missing rungs – Engineering Progression When AI Ate the Middle",
+      "url": "https://negroniventurestudios.com/2026/03/19/the-ladder-is-missing-rungs/",
+      "points": 54,
+      "comments": 8,
+      "author": "sorenvrist",
+      "date": "7 hours ago",
+      "id": "47574346",
+      "is_ai_related": true
+    },
+    {
+      "rank": 28,
+      "title": "Fibonacci's Composed Fractions",
+      "url": "https://ztoz.blog/posts/fibonacci-fractions/",
+      "points": 12,
+      "comments": 2,
+      "author": "aebtebeten",
+      "date": "3 hours ago",
+      "id": "47542640"
+    },
+    {
+      "rank": 29,
+      "title": "A second Starlink satellite exploded in orbit",
+      "url": "https://twitter.com/LeoLabs_Space/status/2038680177408880719",
+      "points": 15,
+      "comments": 3,
+      "author": "wmf",
+      "date": "58 minutes ago",
+      "id": "47579182"
+    },
+    {
+      "rank": 30,
+      "title": "New Washington state law bans noncompete agreements",
+      "url": "https://www.seattletimes.com/business/local-business/new-washington-law-bans-noncompete-agreements/",
+      "points": 268,
+      "comments": 105,
+      "author": "toomuchtodo",
+      "date": "4 hours ago",
+      "id": "47576861"
     }
   ]
 }

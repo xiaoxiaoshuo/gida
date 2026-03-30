@@ -1,72 +1,31 @@
-# AI/科技新闻简报
-**采集时间**: 2026-03-30 22:52 GMT+8  
-**采集人**: deep-intel-collector-2250  
-**数据源**: cn.bing.com · bgithub.xyz · GitHub Trending · ScienceDaily
+# Hacker News Top Stories — 2026-03-31
 
----
+> Source: [news.ycombinator.com](https://news.ycombinator.com/) | Updated: 2026-03-31 05:10 GMT+8
 
-## 🔬 P0: AI/ML 最新动态
+## Top 30 Stories
 
-### 头条：拓扑量子计算突破或存疑——Science发表复现研究
-- **来源**: ScienceDaily · 等级: A
-- **时间**: 1天前 (2026-03-28)
-- **摘要**: 匹兹堡大学Sergey Frolov团队对多项拓扑量子计算突破进行系统性复现，发现早期实验数据存在其他解释。论文经历2年审查于2026年1月发表于Science，呼吁科研数据共享与评审机制改革。
-- **标签**: #量子计算 #复现危机
-
----
-
-### 🏆 GitHub Trending AI项目（今日）
-
-| 项目 | 描述 | 今日星 | 总星 | 来源 |
-|------|------|--------|------|------|
-| **microsoft/VibeVoice** | 微软开源前沿语音AI | 2,509 | 28,951 | bgithub |
-| **NousResearch/hermes-agent** | 可成长的AI代理，支持工具调用 | 1,859 | 17,870 | bgithub |
-| **Yeachan-Heo/oh-my-claudecode** | Claude Code多智能体编排 | 1,785 | 17,175 | bgithub |
-| **luongnv89/claude-howto** | Claude Code可视化指南 | 4,150 | 9,241 | bgithub |
-
----
-
-### 🗞️ AI行业重要新闻
-
-1. **ICML 2026撤稿风暴：497篇论文因审稿人违规使用AI被撤** (等级B)
-   - 2026-03-19，506人只是"地板"，学界AI辅助审稿问题严峻
-
-2. **DeepSeek V3.2：价格重回2元/百万tokens** (等级B)
-   - 参数量不变、推理能力不降，价格从4/16元降至2/3元，延续高性价比
-
-3. **文科生72小时闯入GitHub全球榜** (等级B)
-   - 2026-02-26，不写一行代码，指挥AI工具链完成项目
-
-4. **2026年：AI重塑一切元年——44项预测** (等级B)
-   - Greg Isenberg预测AI将在终端设备、AI编程等领域加速落地
-
----
-
-## 📊 P1: 宏观/加密市场情绪
-
-1. **以色列突袭伊朗，BTC与黄金走势历史性背离** (等级B)
-   - 地缘政治冲击下BTC下跌、黄金上涨，与传统对冲逻辑相反
-
-2. **2026年2月13日全球风险资产普跌，BTC联动走弱** (等级B)
-   - 春节期间金银美股石油BTC全线下挫，银价一度跌超11%
-
-3. **BTC跌破7万美元，牛市评分归零** (等级B)
-   - 2024年11月以来首次跌破7万关口
-
----
-
-## 💻 P2: 量子计算/芯片动态
-
-1. **IBM/Google/Atom Computing三足鼎立，量子比特竞赛加速** (等级B)
-   - IBM 433量子比特Condor · Google 1000量子比特Willow · Atom 1000+
-   - 量子计算从"实验"向"商业应用"转型
-
-2. **2026年中国AI产业规模预计破1.2万亿元** (等级A)
-   - AI企业超6000家，国产开源大模型全球下载量破100亿次
-
----
-
-**⚠️ 采集说明**: 
-- TechCrunch主站无法直接抓取内容（JS渲染），通过Bing聚合获取
-- news.google.com被GWF阻断，GitHub direct被阻断（使用bgithub.xyz镜像）
-- 知乎作为国内二次加工信源，标注等级B
+| # | Title | Points | Comments | Author | Time |
+|---|-------|--------|----------|--------|------|
+| 1 | [Fedware: Government apps that spy harder than the apps they ban](https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/) | 222 | 69 | speckx | 2h |
+| 2 | [Do your own writing](https://alexhwoods.com/dont-let-ai-write-for-you/) | 192 | 57 | karimf | 3h |
+| 3 | [How to turn anything into a router](https://nbailey.ca/post/router/) | 497 | 186 | yabones | 7h |
+| 4 | [Turning a MacBook into a touchscreen with $1 of hardware (2018)](https://anishathalye.com/macbook-touchscreen/) | 73 | 31 | HughParry | 1h |
+| 5 | [Bird brains (2023)](https://www.dhanishsemar.com/writing/bird-brains) | 267 | 172 | DiffTheEnder | 7h |
+| 6 | [Vulnerability research is cooked](https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/) | 65 | 39 | pedro84 | 2h |
+| 7 | [Cherri – programming language that compiles to an Apple Shortcut](https://github.com/electrikmilk/cherri) | 178 | 34 | mihau | 5h |
+| 8 | [William Blake, Remote by the Sea](https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea) | 24 | 0 | occurrence | 2h |
+| 9 | [A sea of sparks: Seeing radioactivity](https://maurycyz.com/projects/spinthariscope/) | 37 | 13 | maurycyz | 2h |
+| 10 | [OCR for construction documents does not work, we fixed it](https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors) | 90 | 52 | wcisco17 | 5h |
+| 11 | [Roulette Computers: Hidden Devices That Predict Spins](https://www.roulette-computers.com/) | 22 | 1 | o4c | 2h |
+| 12 | [Seeing Like a Spreadsheet](https://davidoks.blog/p/how-the-spreadsheet-reshaped-america) | 33 | 5 | paulpauper | 3h |
+| 13 | [CodingFont: A game to help you pick a coding font](https://www.codingfont.com/) | 238 | 145 | nvahalik | 5h |
+| 14 | [Build123d: A Python CAD programming library](https://github.com/gumyr/build123d) | 95 | 38 | Ivoah | 6h |
+| 15 | [In math, rigor is vital, but are digitized proofs taking it too far?](https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/) | 80 | 65 | isaacfrond | 7h |
+| 16 | [Recover Apple Keychain](https://arkoinad.com/posts/apple_keychain_recovery.html) | 25 | 6 | speckx | 3h |
+| 17 | [Show HN: Coasts – Containerized Hosts for Agents](https://github.com/coast-guard/coasts) ⚡AI | 39 | 11 | jsunderland323 | 5h |
+| 18 | [Take better notes, by hand](https://brianschrader.com/archive/take-better-notes-by-hand/) | 142 | 66 | sonicrocketman | 4h |
+| 19 | [Mathematical methods and human thought in the age of AI](https://arxiv.org/abs/2603.26524) ⚡AI | 177 | 71 | zaikunzhang | 10h |
+| 20 | [An NSFW filter for Marginalia search](https://www.marginalia.nu/log/a_134_nsfw/) | 69 | 13 | speckx | 5h |
+| 21 | [Car Seats as Contraception](https://www.journals.uchicago.edu/doi/abs/10.1086/731812) | 5 | 2 | CGMthrowaway | 1h |
+| 22 | [I am definitely missing the pre-AI writing era](https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era) ⚡AI | 206 | 173 | joozio | 14h |
+| 23 | [FTC action against Match and OkCupid for deceiving users](https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against
