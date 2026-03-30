@@ -1,8 +1,52 @@
 {
-    "timestamp": "2026-03-30T22:28:00Z",
-    "source": "cn.bing.com search",
-    "query": "AI ML news 2026 latest OpenAI DeepSeek artificial intelligence",
-    "status": "degraded",
-    "note": "Bing搜索结果未返回有效AI新闻摘要，内容被过滤",
-    "items": []
+    "timestamp": "2026-03-30T22:33:00Z",
+    "source": "cn.bing.com search + 中中文信源",
+    "query": "site:techcrunch.com AI 2026 + 中国AI动态",
+    "fetched_at": "2026-03-31 06:33 GMT+8",
+    "items": [
+        {
+            "title": "2026年3月全球AI技术动态全景解析",
+            "source": "百度开发者中心",
+            "url": "https://developer.baidu.com/article/detail.html?id=6270722",
+            "date": "6 days ago",
+            "summary": "汇总2026年3月全球AI领域核心突破，涵盖基础架构创新、行业应用深化及安全伦理挑战三大维度，24项关键事件"
+        },
+        {
+            "title": "2026年Q1大模型深度复盘：OpenAI，Gemini2.0，字节跳动",
+            "source": "CSDN",
+            "url": "https://blog.csdn.net/chen_si_shang_article/details/159280208",
+            "date": "recent",
+            "summary": "Agent从Demo走向数字员工，OpenAI Operator 2.0，智谱GLM更新"
+        },
+        {
+            "title": "中国AI调用量超越美国，智能体时代开启",
+            "source": "CCTV新闻",
+            "url": "https://news.cctv.cn/2026/03/23/ARTIY9NK61T7g6W0jjQighKR260323.shtml",
+            "date": "2026-03-23",
+            "summary": "截至3月15日，中国AI大模型周调用量达4.69万亿Token，连续第二周超越美国"
+        },
+        {
+            "title": "张亚勤：2026年是智能体AI元年",
+            "source": "中国新闻网",
+            "url": "https://www.chinanews.com.cn/cj/2026/03-25/10592604.shtml",
+            "date": "2026-03-25",
+            "summary": "博鳌论坛：张亚勤称AI迎三大发展趋势，智能体元年开启"
+        },
+        {
+            "title": "2026中关村论坛人工智能主题日",
+            "source": "新华网",
+            "url": "https://www.xinhuanet.com/tech/20260326/c94e0c98cb0b4580b1ff7921c5833fa5/c.html",
+            "date": "2026-03-26",
+            "summary": "23家国产AI算力超级底座上线，AI开源前沿论坛重磅发布"
+        },
+        {
+            "title": "2026年迄今为止最大AI事件盘点",
+            "source": "赢政天下",
+            "url": "https://www.winzheng.com/lab/reports/biggest-ai-stories-2026-so-far",
+            "date": "2026-03-14",
+            "summary": "OpenAI与微软并购风波，独立AI工具逆袭，公众抗议"
+        }
+    ],
+    "top_signal": "中国AI调用量周4.69万亿Token超越美国，智能体时代正式开启",
+    "ai_index_trend": "中国AI产业加速扩张，OpenAI面临地缘竞争"
 }
