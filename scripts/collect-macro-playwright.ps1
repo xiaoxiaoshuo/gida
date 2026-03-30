@@ -129,21 +129,51 @@ try {
     Write-Log "  VIX 采集失败: $($_.Exception.Message.Substring(0,80))" "WARN"
 }
 
-# ========== 更新 prices_latest.json ==========
+# ========== 更新 prices_latest.json（合并模式） ==========
 $latestFile = "$OutputDir\prices_latest.json"
-if (Test-Path $latestFile) {
-    $existing = Get-Content $latestFile -Raw | ConvertFrom-Json
-} else {
-    $existing = @{ crypto = @{}; macro = @{} }
+
+# 构建新的 macro 数据（只包含本次采集到的有效数据）
+$newMacroData = @{}
+foreach ($key in @("GOLD", "OIL", "VIX")) {
+    if ($result.ContainsKey($key)) {
+        $newMacroData[$key] = $result[$key]
+    }
 }
 
-# 更新 macro 字段
-$existing.macro = $result.Clone()
-$existing.timestamp = $DateStr
-$existing.collection_version = "macro-playwright"
+# 读取现有数据并合并
+$finalData = @{
+    timestamp = $DateStr
+    collection_version = "macro-playwright-v2"
+    crypto = @{}
+    macro = $newMacroData
+}
+if (Test-Path $latestFile) {
+    try {
+        $existingJson = Get-Content $latestFile -Raw | ConvertFrom-Json
+        # 保留现有的 crypto 数据
+        if ($existingJson.crypto) {
+            $finalData.crypto = @{}
+            $existingJson.crypto.PSObject.Properties | ForEach-Object {
+                $finalData.crypto[$_.Name] = $_.Value
+            }
+        }
+        # 合并已有的 macro 数据（新数据覆盖旧数据）
+        if ($existingJson.macro) {
+            $existingJson.macro.PSObject.Properties | ForEach-Object {
+                if (-not $finalData.macro.ContainsKey($_.Name)) {
+                    $finalData.macro[$_.Name] = $_.Value
+                }
+            }
+        }
+        Write-Log "  合并已有数据: crypto保留 $($finalData.crypto.Count) 项, macro合并 $($finalData.macro.Count) 项" "INFO"
+    } catch {
+        Write-Log "  读取 prices_latest.json 失败，将创建新文件: $($_.Exception.Message.Substring(0,80))" "WARN"
+    }
+}
 
-$json = $existing | ConvertTo-Json -Depth 6
+$json = $finalData | ConvertTo-Json -Depth 6
 $json | Out-File -FilePath $latestFile -Encoding UTF8
+Write-Log "  prices_latest.json 已更新" "INFO"
 
 Write-Log "========== 采集完成 =========="
 Write-Log "输出: $latestFile"

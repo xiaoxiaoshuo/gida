@@ -1,25 +1,65 @@
-# GitHub Trending — 2026-03-31
+# GitHub Trending - 2026-03-31 06:47 UTC
 
-> Source: [bgithub.xyz/trending](https://bgithub.xyz/trending) | Date range: Today | Updated: 2026-03-31 05:10 GMT+8
+> Source: https://bgithub.xyz/trending | Captured: 2026-03-31T06:47:00Z
 
-## Top 11 Repositories
+## 🏆 Top Projects
 
-| Rank | Repo | Stars Today | Total Stars | Forks | Language | Description |
-|------|------|------------|-------------|-------|----------|-------------|
-| 1 | [microsoft/VibeVoice](https://bgithub.xyz/microsoft/VibeVoice) | 2,509 | 29,719 | 3,246 | Python | Open-Source Frontier Voice AI |
-| 2 | [luongnv89/claude-howto](https://bgithub.xyz/luongnv89/claude-howto) | 4,150 | 9,668 | 969 | Python | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents |
-| 3 | [Yeachan-Heo/oh-my-claudecode](https://bgithub.xyz/Yeachan-Heo/oh-my-claudecode) | 1,785 | 17,488 | 1,221 | TypeScript | Teams-first Multi-agent orchestration for Claude Code |
-| 4 | [shanraisshan/claude-code-best-practice](https://bgithub.xyz/shanraisshan/claude-code-best-practice) | 1,342 | 25,829 | 2,176 | HTML | practice made claude perfect |
-| 5 | [hacksider/Deep-Live-Cam](https://bgithub.xyz/hacksider/Deep-Live-Cam) | 1,138 | 86,251 | 12,531 | Python | real time face swap and one-click video deepfake with only a single image |
-| 6 | [OpenBB-finance/OpenBB](https://bgithub.xyz/OpenBB-finance/OpenBB) | 499 | 64,476 | 6,347 | Python | Financial data platform for analysts, quants and AI agents |
-| 7 | [freeCodeCamp/freeCodeCamp](https://bgithub.xyz/freeCodeCamp/freeCodeCamp) | 376 | 439,638 | 43,887 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum |
-| 8 | [sherlock-project/sherlock](https://bgithub.xyz/sherlock-project/sherlock) | 68 | 74,610 | 8,835 | Python | Hunt down social media accounts by username across social networks |
-| 9 | [apache/superset](https://bgithub.xyz/apache/superset) | 63 | 71,856 | 16,936 | TypeScript | Apache Superset is a Data Visualization and Data Exploration Platform |
-| 10 | [fastfetch-cli/fastfetch](https://bgithub.xyz/fastfetch-cli/fastfetch) | 271 | 21,383 | 725 | C | A maintained, feature-rich and performance oriented, neofetch like system information tool |
-| 11 | [NousResearch/hermes-agent](https://bgithub.xyz/NousResearch/hermes-agent) | 1,859 | 18,371 | 2,217 | Python | The agent that grows with you |
+### 1. [microsoft/VibeVoice](https://bgithub.xyz/microsoft/VibeVoice) ⭐ 29,888 | 📈 +2,509 today
+**Open-Source Frontier Voice AI**
+- Microsoft开源语音AI项目
+- 2509 stars today — fastest growing
+- Python实现
 
-## Notes
+### 2. [luongnv89/claude-howto](https://bgithub.xyz/luongnv89/claude-howto) ⭐ 9,734 | 📈 +4,150 today
+**Visual guide to Claude Code**
+- Claude Code教程，从基础到高级智能体
+- 4150 stars today — very high velocity
+- Python
 
-- **Claude Code 相关项目爆发**：前4名中有3个与Claude Code相关（claude-howto, oh-my-claudecode, claude-code-best-practice），反映Anthropic Claude Code工具的流行
-- **Voice AI热点**：microsoft/VibeVoice排名第一，开源语音AI持续热门
-- **AI Agent**： NousResearch/hermes-agent 排名靠前
+### 3. [Yeachan-Heo/oh-my-claudecode](https://bgithub.xyz/Yeachan-Heo/oh-my-claudecode) ⭐ 17,548 | 📈 +1,785 today
+**Teams-first Multi-agent orchestration for Claude Code**
+- Claude Code多智能体编排
+- TypeScript实现
+- 团队协作方向
+
+### 4. [shanraisshan/claude-code-best-practice](https://bgithub.xyz/shanraisshan/claude-code-best-practice)
+**practice made claude perfect**
+- Claude Code最佳实践
+
+### 5. [hacksider/Deep-Live-Cam](https://bgithub.xyz/hacksider/Deep-Live-Cam)
+**Real-time face swap and one-click video deepfake**
+- 仅需单张图片即可实时换脸
+- Deepfake工具
+
+### 6. [OpenBB-finance/OpenBB](https://bgithub.xyz/OpenBB-finance/OpenBB) ⭐ 23,000
+**Financial data platform for analysts, quants and AI agents**
+- Python金融数据平台
+- AI量化相关
+
+### 7. [freeCodeCamp/freeCodeCamp](https://bgithub.xyz/freeCodeCamp/freeCodeCamp) ⭐ 390,000
+**Open-source codebase and curriculum**
+- JS, 39万stars
+
+### 8. [sherlock-project/sherlock](https://bgithub.xyz/sherlock-project/sherlock)
+**Hunt down social media accounts by username**
+- OSINT工具
+
+### 9. [apache/superset](https://bgithub.xyz/apache/superset) ⭐ 62,000
+**Data Visualization and Data Exploration Platform**
+- Python, Apache顶级项目
+
+### 10. [fastfetch-cli/fastfetch](https://bgithub.xyz/fastfetch-cli/fastfetch) ⭐ 21,395 | 📈 +271 today
+**Neofetch like system information tool**
+- C语言, 高性能系统信息工具
+
+### 11. [NousResearch/hermes-agent](https://bgithub.xyz/NousResearch/hermes-agent) ⭐ 18,479 | 📈 +1,859 today
+**The agent that grows with you**
+- 开源AI智能体框架
+
+---
+
+## 💡 洞察
+
+- **Claude Code生态系统主导**：前4名中有3个与Claude Code直接相关
+- **AI/Agent项目爆发**：Top 11中7个AI相关
+- **Microsoft VibeVoice**：今日增长最快的开源语音AI项目

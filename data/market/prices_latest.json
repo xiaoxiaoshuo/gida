@@ -1,26 +1,49 @@
-﻿{
-    "errors":  [
-                   "BTC : all sources failed",
-                   "ETH : all sources failed",
-                   "SOL : all sources failed",
-                   "VIX : failed",
-                   "GOLD : failed",
-                   "OIL : failed"
-               ],
-    "timestamp":  "2026-03-31 06:44:25",
-    "collection_version":  "v4",
-    "quality_report":  {
-                           "_overall":  {
-                                            "label":  "低",
-                                            "total_items":  0,
-                                            "average_score":  0
-                                        }
-                       },
-    "macro":  {
-
-              },
-    "crypto":  {
-
-               },
-    "timestamp_iso":  "2026-03-30T22:44:25Z"
+{
+  "timestamp": "2026-03-31T06:48:00Z",
+  "source": "OKX_Web browser (via browser automation)",
+  "collection_version": "v5-okx-browser",
+  "errors": [],
+  "crypto": {
+    "BTC": {
+      "price": 66824.8,
+      "price_str": "$66,824.8",
+      "currency": "USD",
+      "source": "OKX Web",
+      "change_24h": null
+    },
+    "ETH": {
+      "price": 2035.96,
+      "price_str": "$2,035.96",
+      "currency": "USD",
+      "source": "OKX Web",
+      "change_24h": null
+    },
+    "SOL": {
+      "price": 82.84,
+      "price_str": "$82.84",
+      "currency": "USD",
+      "source": "OKX Web",
+      "change_24h": "+1.13%"
+    }
+  },
+  "macro": {
+    "VIX": {
+      "value": 30.61,
+      "source": "cached from 06:42 run"
+    },
+    "GOLD": {
+      "value": 4511,
+      "source": "cached from 06:42 run"
+    },
+    "OIL": {
+      "value": 104.60,
+      "source": "cached from 06:42 run"
+    }
+  },
+  "fear_and_greed": {
+    "value": 8,
+    "label": "Extreme Fear",
+    "source": "alternative.me"
+  },
+  "notes": "BTC/ETH/SOL collected via OKX_Web browser. Macro data from earlier 06:42 run (cron-macro-integrate)."
 }

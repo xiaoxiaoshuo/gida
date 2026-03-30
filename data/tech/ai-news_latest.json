@@ -1,52 +1,151 @@
 {
-    "timestamp": "2026-03-30T22:33:00Z",
-    "source": "cn.bing.com search + 中中文信源",
-    "query": "site:techcrunch.com AI 2026 + 中国AI动态",
-    "fetched_at": "2026-03-31 06:33 GMT+8",
-    "items": [
+  "timestamp": "2026-03-31T06:46:00Z",
+  "source": "cn.bing.com + theaitrack.com + digitalapplied.com",
+  "news": [
+    {
+      "category": "OpenAI",
+      "items": [
         {
-            "title": "2026年3月全球AI技术动态全景解析",
-            "source": "百度开发者中心",
-            "url": "https://developer.baidu.com/article/detail.html?id=6270722",
-            "date": "6 days ago",
-            "summary": "汇总2026年3月全球AI领域核心突破，涵盖基础架构创新、行业应用深化及安全伦理挑战三大维度，24项关键事件"
+          "title": "OpenAI Signs Pentagon AI Deal",
+          "source": "theaitrack.com",
+          "date": "2026-03-28",
+          "summary": "OpenAI signs Pentagon AI deal for classified, cloud-only AI deployment with three redlines. Federal agencies move to phase out Anthropic over six months."
         },
         {
-            "title": "2026年Q1大模型深度复盘：OpenAI，Gemini2.0，字节跳动",
-            "source": "CSDN",
-            "url": "https://blog.csdn.net/chen_si_shang_article/details/159280208",
-            "date": "recent",
-            "summary": "Agent从Demo走向数字员工，OpenAI Operator 2.0，智谱GLM更新"
+          "title": "OpenAI Raises $110B in Funding Round Backed by Amazon and Nvidia",
+          "source": "theaitrack.com",
+          "date": "2026-03-27",
+          "summary": "OpenAI raises $110B from Amazon, Nvidia, and SoftBank, reaching a $730B pre-money valuation and expanding AWS distribution and Nvidia infrastructure capacity."
         },
         {
-            "title": "中国AI调用量超越美国，智能体时代开启",
-            "source": "CCTV新闻",
-            "url": "https://news.cctv.cn/2026/03/23/ARTIY9NK61T7g6W0jjQighKR260323.shtml",
-            "date": "2026-03-23",
-            "summary": "截至3月15日，中国AI大模型周调用量达4.69万亿Token，连续第二周超越美国"
+          "title": "OpenAI plans to almost double its headcount this year",
+          "source": "fortune.com",
+          "date": "2026-03-22",
+          "summary": "OpenAI plans to almost double its headcount by the end of 2026 to fend off competition from Anthropic and Google."
         },
         {
-            "title": "张亚勤：2026年是智能体AI元年",
-            "source": "中国新闻网",
-            "url": "https://www.chinanews.com.cn/cj/2026/03-25/10592604.shtml",
-            "date": "2026-03-25",
-            "summary": "博鳌论坛：张亚勤称AI迎三大发展趋势，智能体元年开启"
+          "title": "OpenAI is throwing everything into building a fully automated researcher",
+          "source": "technologyreview.com",
+          "date": "2026-03-20",
+          "summary": "OpenAI refocuses research efforts on building an AI researcher - a fully automated research system."
         },
         {
-            "title": "2026中关村论坛人工智能主题日",
-            "source": "新华网",
-            "url": "https://www.xinhuanet.com/tech/20260326/c94e0c98cb0b4580b1ff7921c5833fa5/c.html",
-            "date": "2026-03-26",
-            "summary": "23家国产AI算力超级底座上线，AI开源前沿论坛重磅发布"
+          "title": "OpenAI Release Notes - March 2026",
+          "source": "releasebot.io",
+          "date": "2026-03-26",
+          "summary": "Complete list of OpenAI latest updates for March 2026: GPT-5.4 launch (3 variants: Standard, Thinking, Pro)."
         },
         {
-            "title": "2026年迄今为止最大AI事件盘点",
-            "source": "赢政天下",
-            "url": "https://www.winzheng.com/lab/reports/biggest-ai-stories-2026-so-far",
-            "date": "2026-03-14",
-            "summary": "OpenAI与微软并购风波，独立AI工具逆袭，公众抗议"
+          "title": "OpenAI is shutting down its Sora video app",
+          "source": "cnn.com",
+          "date": "2026-03-24",
+          "summary": "OpenAI winding down Sora video generation app months after launch, signaling shift away from consumer creative tools."
+        },
+        {
+          "title": "OpenAI secures extra $10B in record funding round",
+          "source": "cnbc.com",
+          "date": "2026-03-24",
+          "summary": "Fresh capital brings OpenAI's historic fundraise to $120B, exceeding initial target of $100B."
         }
-    ],
-    "top_signal": "中国AI调用量周4.69万亿Token超越美国，智能体时代正式开启",
-    "ai_index_trend": "中国AI产业加速扩张，OpenAI面临地缘竞争"
+      ]
+    },
+    {
+      "category": "DeepSeek",
+      "items": [
+        {
+          "title": "DeepSeek V3.2 正式版",
+          "source": "api-docs.deepseek.com",
+          "date": "2025-07-25",
+          "summary": "DeepSeek-V3.2首个将思考融入工具使用的模型，同时支持思考模式与非思考模式的工具调用。"
+        },
+        {
+          "title": "DeepSeek API Platform",
+          "source": "platform.deepseek.com",
+          "date": "ongoing",
+          "summary": "DeepSeek API平台持续运营，提供模型API、开发者资源和文档。"
+        }
+      ]
+    },
+    {
+      "category": "Quantum Computing",
+      "items": [
+        {
+          "title": "March 2026 AI Roundup - MCP crosses 97M installs",
+          "source": "digitalapplied.com",
+          "date": "2026-03-26",
+          "summary": "MCP (Model Context Protocol) crossed 97 million installs in March 2026, signaling permanent change in how AI agents are built."
+        },
+        {
+          "title": "NVIDIA GTC 2026 - Agentic AI Summit",
+          "source": "digitalapplied.com",
+          "date": "2026-03-10-14",
+          "summary": "NVIDIA GTC 2026 ran March 10-14, reframing enterprise AI conversation around agentic deployments. Fortune 500 production agentic deployments confirmed."
+        }
+      ]
+    },
+    {
+      "category": "Embodied AI / Robotics",
+      "items": [
+        {
+          "title": "Lumo-1: 端到端全身VLA模型",
+          "source": "zhihu.com",
+          "date": "2025-12-12",
+          "summary": "星尘智能发布Lumo-1，端到端全身VLA模型，超越了π0和π0.5，在具身智能领域取得突破。"
+        },
+        {
+          "title": "Wayve Raises $1.2B Series D",
+          "source": "theaitrack.com",
+          "date": "2026-02-25",
+          "summary": "Self-driving startup Wayve secured $1.2B in Series D at $8.6B valuation, targeting London public robotaxi trials in 2026."
+        },
+        {
+          "title": "Mistral Small 4 launched March 3",
+          "source": "digitalapplied.com",
+          "date": "2026-03-03",
+          "summary": "Mistral Small 4 launched March 3rd and immediately topped open-source reasoning benchmarks."
+        }
+      ]
+    },
+    {
+      "category": "March 2026 AI Summary",
+      "items": [
+        {
+          "title": "GPT-5.4, Gemini 3.1, Grok 4.20 launched in 23-day window",
+          "source": "digitalapplied.com",
+          "date": "2026-03-17-22",
+          "summary": "GPT-5.4 (3 variants), Gemini 3.1 Ultra, Grok 4.20, and Mistral Small 4 all launched in a 23-day window. Competitive gap compressed to weeks."
+        },
+        {
+          "title": "MCP Hits 97 Million Installs",
+          "source": "digitalapplied.com",
+          "date": "2026-03-25",
+          "summary": "MCP crossed 97 million installs. Google Workspace CLI hit #1 on Hacker News. Agentic tooling moved from experimental to standard practice."
+        },
+        {
+          "title": "EU AI Act enforcement issued first formal inquiries",
+          "source": "digitalapplied.com",
+          "date": "2026-03",
+          "summary": "EU AI Act enforcement issued first formal inquiries. Three US states passed AI transparency laws. UK AI Safety Institute published March model evaluations."
+        },
+        {
+          "title": "Anthropic computer use error rates reduced ~40%",
+          "source": "digitalapplied.com",
+          "date": "2026-03",
+          "summary": "Updated computer use capabilities reduced error rates on desktop application interactions by ~40%. Claude API got new streaming and batching endpoints."
+        },
+        {
+          "title": "Google Acquires ProducerAI",
+          "source": "theaitrack.com",
+          "date": "2026-02-24",
+          "summary": "ProducerAI joins Google Labs as Google expands Lyria 3 music creation in Gemini, starting with 30-second tracks and SynthID watermarking."
+        },
+        {
+          "title": "Meta and AMD Sign $60B AI Infrastructure Deal",
+          "source": "theaitrack.com",
+          "date": "2026-02-24",
+          "summary": "Meta and AMD formalize $60B AI chip partnership tied to 6 gigawatt GPU rollout and expanded multivendor compute strategy."
+        }
+      ]
+    }
+  ]
 }

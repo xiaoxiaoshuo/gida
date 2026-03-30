@@ -506,12 +506,20 @@ if ($oil) {
 
 # ========== 宏观数据浏览器降级采集 (JS渲染网站专用) ==========
 # 如果黄金/原油/VIX采集失败，调用Playwright浏览器采集
+# 注意：先保存当前采集结果，再运行浏览器降级（浏览器脚本会合并更新 prices_latest.json）
 $macroFailed = @()
 if (-not $gold -or $gold.value -eq $null) { $macroFailed += "GOLD" }
 if (-not $oil -or $oil.value -eq $null) { $macroFailed += "OIL" }
 if (-not $vix -or $vix.value -eq $null) { $macroFailed += "VIX" }
 
 if ($macroFailed.Count -gt 0) {
+    # 先保存当前采集结果（crypto和已成功的macro）
+    $jsonFile = "$OutputDir\prices_$Timestamp.json"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $jsonFile -Encoding UTF8
+    $latestFile = "$OutputDir\prices_latest.json"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $latestFile -Encoding UTF8
+    Write-Log "  [中间保存] crypto+partial macro 已写入 prices_latest.json" "INFO"
+
     Write-Log ">> 宏观数据浏览器降级采集 (失败项: $($macroFailed -join ', '))..." "WARN"
     try {
         $macroScript = "C:\Users\Administrator\clawd\agents\workspace-gid\scripts\collect-macro-playwright.ps1"
@@ -523,8 +531,25 @@ if ($macroFailed.Count -gt 0) {
             Write-Log "  collect-macro-playwright.ps1 不存在，跳过浏览器降级" "WARN"
         }
     } catch {
-        Write-Log "  浏览器降级采集异常: $($_.Exception.Message.Substring(0,80))" "WARN"
+        $errMsg = $_.Exception.Message
+        if ($errMsg.Length -gt 80) { $errMsg = $errMsg.Substring(0, 80) }
+        Write-Log "  浏览器降级采集异常: $errMsg" "WARN"
     }
+
+    # 读取浏览器更新后的 prices_latest.json 用于后续质量评估
+    if (Test-Path $latestFile) {
+        $updated = Get-Content $latestFile -Raw | ConvertFrom-Json
+        if ($updated.macro) {
+            $result.macro = $updated.macro
+            Write-Log "  [合并] 浏览器采集的macro数据已合并到结果" "INFO"
+        }
+    }
+} else {
+    # 没有失败项，直接保存
+    $jsonFile = "$OutputDir\prices_$Timestamp.json"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $jsonFile -Encoding UTF8
+    $latestFile = "$OutputDir\prices_latest.json"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $latestFile -Encoding UTF8
 }
 
 # --- 总体质量评估 ---
@@ -535,13 +560,6 @@ $result.quality_report["_overall"] = @{
     label = if ($avgScore -ge 70) { "高" } elseif ($avgScore -ge 40) { "中" } else { "低" }
     total_items = $allScores.Count
 }
-
-# --- 保存结果 ---
-$jsonFile = "$OutputDir\prices_$Timestamp.json"
-$result | ConvertTo-Json -Depth 6 | Out-File -FilePath $jsonFile -Encoding UTF8
-
-$latestFile = "$OutputDir\prices_latest.json"
-$result | ConvertTo-Json -Depth 6 | Out-File -FilePath $latestFile -Encoding UTF8
 
 Write-Log "========== 采集完成 =========="
 Write-Log "输出: $jsonFile"

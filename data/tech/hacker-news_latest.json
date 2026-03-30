@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-03-31T06:48:00Z",
+  "source": "https://news.ycombinator.com/",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "Show HN: 30u30.fyi – Is your startup founder on Forbes' most fraudulent list?",
+      "url": "https://30u30.fyi/",
+      "score": "81 points",
+      "comments": 20,
+      "posted_ago": "36 minutes ago",
+      "ai_related": false
+    },
+    {
+      "rank": 2,
+      "title": "Fedware: Government apps that spy harder than the apps they ban",
+      "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+      "score": "312 points",
+      "comments": 99,
+      "posted_ago": "4 hours ago",
+      "ai_related": false
+    },
+    {
+      "rank": 3,
+      "title": "Do your own writing",
+      "url": "https://alexhwoods.com/dont-let-ai-write-for-you/",
+      "score": "279 points",
+      "comments": 84,
+      "posted_ago": "5 hours ago",
+      "ai_related": false,
+      "note": "Anti-AI writing content"
+    },
+    {
+      "rank": 4,
+      "title": "Learn Claude Code by doing, not reading",
+      "url": "https://claude.nagdy.me/",
+      "score": "69 points",
+      "comments": 34,
+      "posted_ago": "2 hours ago",
+      "ai_related": true,
+      "note": "Claude Code tutorial"
+    },
+    {
+      "rank": 5,
+      "title": "Android Developer Verification",
+      "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html",
+      "score": "31 points",
+      "comments": 6,
+      "posted_ago": "41 minutes ago",
+      "ai_related": false
+    },
+    {
+      "rank": 6,
+      "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
+      "url": "https://anishathalye.com/macbook-touchscreen/",
+      "score": "129 points",
+      "comments": 57,
+      "posted_ago": "3 hours ago",
+      "ai_related": false
+    },
+    {
+      "rank": 7,
+      "title": "How to turn anything into a router",
+      "url": "https://nbailey.ca/post/router/",
+      "score": "535 points",
+      "comments": 198,
+      "posted_ago": "9 hours ago",
+      "ai_related": false
+    },
+    {
+      "rank": 8,
+      "title": "The stealthy startup that pitched brainless human clones",
+      "url": "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/",
+      "score": "28 points",
+      "comments": 27,
+      "posted_ago": "1 hour ago",
+      "ai_related": false
+    },
+    {
+      "rank": 9,
+      "title": "Agents of Chaos",
+      "url": "https://agentsofchaos.baulab.info/report.html",
+      "score": "37 points",
+      "comments": 2,
+      "posted_ago": "2 hours ago",
+      "ai_related": true,
+      "note": "Agentic AI report"
+    },
+    {
+      "rank": 10,
+      "title": "Bird brains (2023)",
+      "url": "https://www.dhanishsemar.com/writing/bird-brains",
+      "score": "275 points",
+      "comments": 181,
+      "posted_ago": "9 hours ago",
+      "ai_related": false
+    }
+  ],
+  "summary": "HN Top 10 dominated by non-AI content today. Notable: 'Do your own writing' (279pts) reflects anti-AI sentiment. 'Learn Claude Code' (69pts) shows AI tool education interest. 'Agents of Chaos' is AI/agent research paper."
+}
