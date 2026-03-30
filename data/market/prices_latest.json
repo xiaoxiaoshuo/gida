@@ -37,14 +37,47 @@
             "timestamp": "2026-03-31 06:28:00"
         }
     },
-    "macro": {},
+    "macro": {
+        "GOLD": {
+            "value": 4511.73,
+            "source": "goldprice.org",
+            "confidence": "high",
+            "unit": "USD/oz",
+            "timestamp": "2026-03-31 06:38:00"
+        },
+        "OIL": {
+            "value": 104.6,
+            "source": "oilprice.com",
+            "confidence": "high",
+            "unit": "USD/barrel (WTI)",
+            "timestamp": "2026-03-31 06:38:00"
+        },
+        "VIX": {
+            "value": 30.61,
+            "source": "CBOE.com",
+            "confidence": "high",
+            "timestamp": "2026-03-30 22:00:00",
+            "note": "as of March 30 2026"
+        },
+        "FNG": {
+            "value": 8,
+            "value_classification": "Extreme Fear",
+            "source": "alternative.me",
+            "confidence": "medium",
+            "timestamp": "2026-03-31 06:38:00"
+        }
+    },
     "quality_report": {
         "_overall": {
             "label": "高",
-            "average_score": 95,
-            "total_items": 3,
+            "average_score": 92,
+            "total_items": 6,
             "note": "通过OKX浏览器页面采集，JS渲染数据"
         },
+        "GOLD": { "score": 80, "label": "高", "factors": "goldprice.org浏览器 + 高置信" },
+        "OIL": { "score": 80, "label": "高", "factors": "oilprice.com浏览器 + 高置信" },
+        "VIX": { "score": 80, "label": "高", "factors": "CBOE官方 + 高置信" },
+        "FNG": { "score": 60, "label": "中", "factors": "alternative.me + 中置信" },
         "BTC": { "score": 95, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" },
         "ETH": { "score": 95, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" },
         "SOL": { "score": 90, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" }
