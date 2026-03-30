@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-03-30T22:29:00Z",
+    "source": "news.ycombinator.com via browser",
+    "fetched_at": "2026-03-31 06:29 GMT+8",
+    "items": [
+        { "rank": 1, "title": "Show HN: 30u30.fyi – Is your startup founder on Forbes' most fraudulent list?", "points": 534, "url": "https://30u30.fyi", "domain": "30u30.fyi", "comments": 198, "time_ago": "9 hours ago" },
+        { "rank": 2, "title": "Fedware: Government apps that spy harder than the apps they ban", "points": 304, "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/", "domain": "sambent.com", "comments": 99, "time_ago": "4 hours ago" },
+        { "rank": 3, "title": "Bird brains (2023)", "points": 273, "url": "https://www.dhanishsemar.com/writing/bird-brains", "domain": "dhanishsemar.com", "comments": 180, "time_ago": "9 hours ago" },
+        { "rank": 4, "title": "Do your own writing", "points": 269, "url": "https://alexhwoods.com/dont-let-ai-write-for-you/", "domain": "alexhwoods.com", "comments": 82, "time_ago": "4 hours ago" },
+        { "rank": 5, "title": "CodingFont: A game to help you pick a coding font", "points": 267, "url": "https://www.codingfont.com/", "domain": "codingfont.com", "comments": 156, "time_ago": "7 hours ago" },
+        { "rank": 6, "title": "I am definitely missing the pre-AI writing era", "points": 223, "url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era", "domain": "lesswrong.com", "comments": 179, "time_ago": "15 hours ago" },
+        { "rank": 7, "title": "FTC action against Match and OkCupid for deceiving users, sharing personal data", "points": 211, "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party", "domain": "ftc.gov", "comments": 110, "time_ago": "6 hours ago" },
+        { "rank": 8, "title": "Mathematical methods and human thought in the age of AI", "points": 182, "url": "https://arxiv.org/abs/2603.26524", "domain": "arxiv.org", "comments": 74, "time_ago": "11 hours ago" },
+        { "rank": 9, "title": "Build123d: A Python CAD programming library", "points": 103, "url": "https://github.com/gumyr/build123d", "domain": "github.com/gumyr", "comments": 42, "time_ago": "8 hours ago" },
+        { "rank": 10, "title": "Show HN: Coasts – Containerized Hosts for Agents", "points": 47, "url": "https://github.com/coast-guard/coasts", "domain": "github.com/coast-guard", "comments": 16, "time_ago": "6 hours ago" }
+    ],
+    "top_ai_related": [
+        { "rank": 8, "title": "Mathematical methods and human thought in the age of AI", "points": 182 },
+        { "rank": 6, "title": "I am definitely missing the pre-AI writing era", "points": 223 },
+        { "rank": 10, "title": "Show HN: Coasts – Containerized Hosts for Agents", "points": 47 }
+    ]
+}

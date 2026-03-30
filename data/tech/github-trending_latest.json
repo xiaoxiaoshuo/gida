@@ -1,128 +1,18 @@
 {
-  "timestamp": "2026-03-31T05:10:00+08:00",
-  "source": "https://bgithub.xyz/trending",
-  "date_range": "Today",
-  "repos": [
-    {
-      "rank": 1,
-      "author": "microsoft",
-      "name": "VibeVoice",
-      "url": "https://bgithub.xyz/microsoft/VibeVoice",
-      "description": "Open-Source Frontier Voice AI",
-      "language": "Python",
-      "total_stars": 29719,
-      "forks": 3246,
-      "stars_today": 2509
-    },
-    {
-      "rank": 2,
-      "author": "luongnv89",
-      "name": "claude-howto",
-      "url": "https://bgithub.xyz/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "language": "Python",
-      "total_stars": 9668,
-      "forks": 969,
-      "stars_today": 4150
-    },
-    {
-      "rank": 3,
-      "author": "Yeachan-Heo",
-      "name": "oh-my-claudecode",
-      "url": "https://bgithub.xyz/Yeachan-Heo/oh-my-claudecode",
-      "description": "Teams-first Multi-agent orchestration for Claude Code",
-      "language": "TypeScript",
-      "total_stars": 17488,
-      "forks": 1221,
-      "stars_today": 1785
-    },
-    {
-      "rank": 4,
-      "author": "shanraisshan",
-      "name": "claude-code-best-practice",
-      "url": "https://bgithub.xyz/shanraisshan/claude-code-best-practice",
-      "description": "practice made claude perfect",
-      "language": "HTML",
-      "total_stars": 25829,
-      "forks": 2176,
-      "stars_today": 1342
-    },
-    {
-      "rank": 5,
-      "author": "hacksider",
-      "name": "Deep-Live-Cam",
-      "url": "https://bgithub.xyz/hacksider/Deep-Live-Cam",
-      "description": "real time face swap and one-click video deepfake with only a single image",
-      "language": "Python",
-      "total_stars": 86251,
-      "forks": 12531,
-      "stars_today": 1138
-    },
-    {
-      "rank": 6,
-      "author": "OpenBB-finance",
-      "name": "OpenBB",
-      "url": "https://bgithub.xyz/OpenBB-finance/OpenBB",
-      "description": "Financial data platform for analysts, quants and AI agents.",
-      "language": "Python",
-      "total_stars": 64476,
-      "forks": 6347,
-      "stars_today": 499
-    },
-    {
-      "rank": 7,
-      "author": "freeCodeCamp",
-      "name": "freeCodeCamp",
-      "url": "https://bgithub.xyz/freeCodeCamp/freeCodeCamp",
-      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-      "language": "TypeScript",
-      "total_stars": 439638,
-      "forks": 43887,
-      "stars_today": 376
-    },
-    {
-      "rank": 8,
-      "author": "sherlock-project",
-      "name": "sherlock",
-      "url": "https://bgithub.xyz/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "language": "Python",
-      "total_stars": 74610,
-      "forks": 8835,
-      "stars_today": 68
-    },
-    {
-      "rank": 9,
-      "author": "apache",
-      "name": "superset",
-      "url": "https://bgithub.xyz/apache/superset",
-      "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
-      "language": "TypeScript",
-      "total_stars": 71856,
-      "forks": 16936,
-      "stars_today": 63
-    },
-    {
-      "rank": 10,
-      "author": "fastfetch-cli",
-      "name": "fastfetch",
-      "url": "https://bgithub.xyz/fastfetch-cli/fastfetch",
-      "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool.",
-      "language": "C",
-      "total_stars": 21383,
-      "forks": 725,
-      "stars_today": 271
-    },
-    {
-      "rank": 11,
-      "author": "NousResearch",
-      "name": "hermes-agent",
-      "url": "https://bgithub.xyz/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "total_stars": 18371,
-      "forks": 2217,
-      "stars_today": 1859
-    }
-  ]
+    "timestamp": "2026-03-30T22:26:00Z",
+    "source": "bgithub.xyz/trending",
+    "fetched_at": "2026-03-31 06:26 GMT+8",
+    "repositories": [
+        { "rank": 1, "repo": "microsoft/VibeVoice", "description": "Open-Source Frontier Voice AI", "lang": "Python", "stars_today": 2509, "stars_total": 29845, "forks": 3263 },
+        { "rank": 2, "repo": "luongnv89/claude-howto", "description": "A visual, example-driven guide to Claude Code", "lang": "Python", "stars_today": 4150, "stars_total": 9714, "forks": 974 },
+        { "rank": 3, "repo": "Yeachan-Heo/oh-my-claudecode", "description": "Teams-first Multi-agent orchestration for Claude Code", "lang": "TypeScript", "stars_today": 1785, "stars_total": 17531, "forks": 1223 },
+        { "rank": 4, "repo": "NousResearch/hermes-agent", "description": "The agent that grows with you", "lang": "Python", "stars_today": 1859, "stars_total": 18457, "forks": 2237 },
+        { "rank": 5, "repo": "hacksider/Deep-Live-Cam", "description": "real time face swap and one-click video deepfake with only a single image", "lang": null, "stars_today": null, "stars_total": null, "forks": null },
+        { "rank": 6, "repo": "OpenBB-finance/OpenBB", "description": "Financial data platform for analysts, quants and AI agents", "lang": null, "stars_today": null, "stars_total": null, "forks": null },
+        { "rank": 7, "repo": "fastfetch-cli/fastfetch", "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool", "lang": "C", "stars_today": 271, "stars_total": 21392, "forks": 726 },
+        { "rank": 8, "repo": "shanraisshan/claude-code-best-practice", "description": "practice made claude perfect", "lang": null, "stars_today": null, "stars_total": null, "forks": null },
+        { "rank": 9, "repo": "freeCodeCamp/freeCodeCamp", "description": "freeCodeCamp.org's open-source codebase and curriculum", "lang": null, "stars_today": null, "stars_total": null, "forks": null },
+        { "rank": 10, "repo": "sherlock-project/sherlock", "description": "Hunt down social media accounts by username across social networks", "lang": null, "stars_today": null, "stars_total": null, "forks": null }
+    ],
+    "summary": "Claude Code生态持续爆发，Top4中3个相关。VibeVoice(微软开源语音AI)领跑。"
 }

@@ -1,5 +1,58 @@
 # HEARTBEAT.md - 定时检查清单
 
+## 🚨 06:29 早间采集 - 子智能体执行中
+
+### 📊 系统状态（06:29 快照）
+| 项目 | 状态 | 详情 |
+|------|------|------|
+| **GitHub Push** | 🔴 阻断中 | 06:13起持续失败，archive=0，无待推送 |
+| **BTC/ETH/SOL** | ✅ 已更新 | BTC=$66,849 / ETH=$2,038 / SOL=$82.94 |
+| **F&G指数** | ✅ 已更新 | 8（极度恐慌），via API.alternative.me |
+| **AI新闻** | 🔴 失败 | Bing搜索结果为空 |
+| **GitHub Trending** | ✅ 已更新 | bgithub.xyz，VibeVoice登顶 |
+| **HackerNews** | ⚠️ 失败 | web_fetch失败 |
+
+### 子智能体
+- ✅ morning-intel-refresh-0625 执行中
+
+### 关键发现
+- **BTC $66,849**: OKX采集，较前日无显著变化，极度恐慌情绪持续
+- **F&G 8**: 极度恐慌（7天内无改善）
+- **OKX_Web绕过成功**: API全部失败，但OKX价格页面可通过浏览器采集
+- **GitHub Trending**: Microsoft/VibeVoice开源语音AI，2509 stars今日
+
+### 技术记录
+- 方案：PowerShell Invoke-WebRequest → 全部SSL拦截（Fortinet）
+- 方案：web_fetch → API可用（FNG），OKX/BTC/ETH/SOL页面JS渲染失败
+- 方案：Browser直连OKX价格页 → ✅ 成功
+
+*最后更新：2026-03-31 06:29 GMT+8*
+
+---
+
+## 🚨 06:25 早间采集 - 子智能体已派发
+
+### 📊 系统状态（06:25 快照）
+| 项目 | 状态 | 详情 |
+|------|------|------|
+| **GitHub Push** | 🔴 归档降级 | 06:25失败3次，incremental-backup已归档 |
+| **BTC/ETH/SOL** | ⚠️ 7.5h陈旧 | 最后22:49 Gate.io |
+| **F&G指数** | ⚠️ 待刷新 | 最后05:17 |
+| **AI新闻** | ⚠️ 1.2h陈旧 | 最后05:10 |
+| **GitHub Trending** | ⚠️ 1.1h陈旧 | 最后05:13 |
+
+### 子智能体
+- ✅ morning-intel-refresh-0625 已派发（市场+Tech+推送恢复）
+
+### 遗忘点
+- P0: GitHub网络间歇性阻断
+- P1: BTC价格7.5小时未刷新
+- P2: AI/ML新闻密度待确认
+
+*最后更新：2026-03-31 06:25 GMT+8*
+
+---
+
 ## 🚨 05:17 任务完成 - 每日简报已更新
 
 ### 📊 系统状态（05:17 快照）

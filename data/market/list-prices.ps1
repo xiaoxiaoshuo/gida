@@ -1,0 +1,1 @@
+Get-ChildItem "C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_*.json" | Sort-Object LastWriteTime -Descending | Select-Object -First 3 | ForEach-Object { $f = $_; "$($f.Name) $($f.LastWriteTime)" }

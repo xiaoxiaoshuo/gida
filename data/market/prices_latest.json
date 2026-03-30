@@ -1,41 +1,53 @@
 {
-  "timestamp": "2026-03-30T20:05:43Z",
-  "timestamp_cst": "2026-03-31 04:05",
-  "source": "gateio",
-  "fetch_method": "web_fetch individual pairs",
-  "prices": {
-    "BTC_USDT": {
-      "last": 66612.1,
-      "high_24h": 68172.9,
-      "low_24h": 64998,
-      "change_pct": 0.28
+    "timestamp": "2026-03-31 06:28:00",
+    "timestamp_iso": "2026-03-30T22:28:00Z",
+    "collection_version": "browser-okx",
+    "crypto": {
+        "BTC": {
+            "price": 66848.9,
+            "source": "OKX_Web",
+            "confidence": "high",
+            "24h_change": "+0.55%",
+            "7d_change": "-4.33%",
+            "30d_change": "+0.01%",
+            "market_cap_usd": "1.34万亿",
+            "volume_24h_usd": "391.32亿",
+            "ath": 126200,
+            "ath_date": "2025-10-07",
+            "timestamp": "2026-03-31 06:28:00"
+        },
+        "ETH": {
+            "price": 2037.66,
+            "source": "OKX_Web",
+            "confidence": "high",
+            "24h_change": "+2.22%",
+            "7d_change": "-4.57%",
+            "30d_change": "+2.22%",
+            "market_cap_usd": "2459.81亿",
+            "volume_24h_usd": "173.47亿",
+            "ath": 4946.05,
+            "ath_date": "2025-08-25",
+            "timestamp": "2026-03-31 06:28:00"
+        },
+        "SOL": {
+            "price": 82.94,
+            "source": "OKX_Web",
+            "confidence": "high",
+            "24h_change": "+1.42%",
+            "timestamp": "2026-03-31 06:28:00"
+        }
     },
-    "ETH_USDT": {
-      "last": 2025.34,
-      "high_24h": 2084.62,
-      "low_24h": 1938.07,
-      "change_pct": 1.37
+    "macro": {},
+    "quality_report": {
+        "_overall": {
+            "label": "高",
+            "average_score": 95,
+            "total_items": 3,
+            "note": "通过OKX浏览器页面采集，JS渲染数据"
+        },
+        "BTC": { "score": 95, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" },
+        "ETH": { "score": 95, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" },
+        "SOL": { "score": 90, "label": "高", "factors": "OKX_Web权威来源 + 价格 + 24h数据" }
     },
-    "SOL_USDT": {
-      "last": 82.61,
-      "high_24h": 84.97,
-      "low_24h": 78.91,
-      "change_pct": 1.05
-    }
-  },
-  "fear_and_greed": {
-    "value": 8,
-    "label": "Extreme Fear",
-    "yesterday": 9,
-    "last_week": 8,
-    "last_month": 11,
-    "source": "alternative.me",
-    "trend": "stable_extreme_fear"
-  },
-  "comparison": {
-    "reference_price_btc": 66849.6,
-    "reference_time_utc": "2026-03-30T17:53:53Z",
-    "change_usd": -237.5,
-    "change_pct": -0.355
-  }
+    "errors": []
 }
