@@ -1,4 +1,4 @@
-﻿# collect-prices-simple.ps1 - 加密货币价格采集 v6b (多源降级 + 质量评分)
+﻿# collect-prices-simple.ps1 - 加密货币价格采集 v7 (多源降级 + 质量评分 + 浏览器降级)
 # 用途: BTC/ETH/SOL + VIX + 黄金 + 原油
 # 降级路径: OKX/CryptoCompare API → Bing搜索摘要 → 国内财经网站
 # 输出: data/market/prices_YYYY-MM-DD_HH-mm.json (带时间戳+置信度)
@@ -26,17 +26,14 @@ function Write-Log {
     Add-Content -Path $LogFile -Value $msg -Encoding UTF8
 }
 
-# ========== SSL证书绕过（Fortinet拦截环境） ==========
-$CertPolicy = [System.Net.ServicePointManager]::ServerCertificateValidationCallback
-try {
-    [System.Net.ServicePointManager]::ServerCertificateValidationCallback = { $true }
-
 # ========== HTTP工具 ==========
 function Invoke-SafeFetch {
     param([string]$Url, [int]$Timeout = 10, [string]$UA = "Mozilla/5.0")
     try {
+        # 强制TLS1.2（Fortinet SSL inspection环境兼容）
+        [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
         $headers = @{ "User-Agent" = $UA }
-        $r = Invoke-WebRequest -Uri $Url -Headers $headers -TimeoutSec $Timeout -UseBasicParsing -AllowInsecureRedirect
+        $r = Invoke-WebRequest -Uri $Url -Headers $headers -TimeoutSec $Timeout -UseBasicParsing
         return @{ ok = $true; content = $r.Content; status = $r.StatusCode; len = $r.Content.Length }
     } catch {
         $msg = $_.Exception.Message
@@ -81,18 +78,18 @@ function Get-CryptoPrice {
     }
     if ($okxUrls[$Symbol]) {
         $r = Invoke-SafeFetch -Url $okxUrls[$Symbol] -Timeout 8
-        if ($r.ok) {
+        if ($r.ok -and $r.len -gt 10) {
             try {
                 $json = $r.content | ConvertFrom-Json
                 if ($json.code -eq "0" -and $json.data[0].last) {
                     $price = [double]$json.data[0].last
+                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(100, $r.len)) } else { "" }
                     return @{
                         price = $price; source = "OKX_API"; confidence = "high"
-                        raw = $r.content.Substring(0, [Math]::Min(100, $r.content.Length))
-                        timestamp = $DateStr
+                        raw = $raw; timestamp = $DateStr
                     }
                 }
-            } catch { Write-Log "OKX $Symbol JSON解析失败" "WARN" }
+            } catch { Write-Log "OKX $Symbol JSON解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
         }
     }
 
@@ -104,18 +101,18 @@ function Get-CryptoPrice {
     }
     if ($ccUrls[$Symbol]) {
         $r = Invoke-SafeFetch -Url $ccUrls[$Symbol] -Timeout 10
-        if ($r.ok) {
+        if ($r.ok -and $r.len -gt 5) {
             try {
                 $json = $r.content | ConvertFrom-Json
                 if ($json.USD) {
                     $price = [double]$json.USD
+                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(60, $r.len)) } else { "" }
                     return @{
                         price = $price; source = "CryptoCompare_API"; confidence = "high"
-                        raw = $r.content.Substring(0, [Math]::Min(60, $r.content.Length))
-                        timestamp = $DateStr
+                        raw = $raw; timestamp = $DateStr
                     }
                 }
-            } catch { Write-Log "CryptoCompare $Symbol 解析失败" "WARN" }
+            } catch { Write-Log "CryptoCompare $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
         }
     }
 
@@ -127,18 +124,18 @@ function Get-CryptoPrice {
     }
     if ($gateUrls[$Symbol]) {
         $r = Invoke-SafeFetch -Url $gateUrls[$Symbol] -Timeout 10
-        if ($r.ok) {
+        if ($r.ok -and $r.len -gt 10) {
             try {
                 $json = $r.content | ConvertFrom-Json
                 if ($json[0].last) {
                     $price = [double]$json[0].last
+                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(80, $r.len)) } else { "" }
                     return @{
                         price = $price; source = "Gateio_API"; confidence = "high"
-                        raw = $r.content.Substring(0, [Math]::Min(80, $r.content.Length))
-                        timestamp = $DateStr
+                        raw = $raw; timestamp = $DateStr
                     }
                 }
-            } catch { Write-Log "Gate.io $Symbol 解析失败" "WARN" }
+            } catch { Write-Log "Gate.io $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
         }
     }
 
@@ -178,9 +175,10 @@ function Get-VIXPrice {
             $json = $r.content | ConvertFrom-Json
             $vixVal = $json.chart.result[0].meta.regularMarketPrice
             if ($vixVal -and [double]$vixVal -gt 0) {
+                $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(100, $r.len)) } else { "" }
                 return @{
                     value = [double]$vixVal; source = "Yahoo_Finance_API"; confidence = "high"
-                    raw = $r.content.Substring(0, [Math]::Min(100, $r.content.Length)); timestamp = $DateStr
+                    raw = $raw; timestamp = $DateStr
                 }
             }
         } catch { Write-Log "VIX Yahoo Finance JSON解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
@@ -194,9 +192,10 @@ function Get-VIXPrice {
                 $json2 = $r2.content | ConvertFrom-Json
                 $vixVal2 = $json2.chart.result[0].meta.regularMarketPrice
                 if ($vixVal2 -and [double]$vixVal2 -gt 0) {
+                    $raw = if ($r2.len -gt 0) { $r2.content.Substring(0, [Math]::Min(100, $r2.len)) } else { "" }
                     return @{
                         value = [double]$vixVal2; source = "Yahoo_Finance_API"; confidence = "high"
-                        raw = $r2.content.Substring(0, [Math]::Min(100, $r2.content.Length)); timestamp = $DateStr
+                        raw = $raw; timestamp = $DateStr
                     }
                 }
             } catch {}
@@ -222,9 +221,10 @@ function Get-VIXPrice {
             $fngJson = $fngR.content | ConvertFrom-Json
             if ($fngJson.data[0].value -and [double]$fngJson.data[0].value -gt 0) {
                 $fngVal = [double]$fngJson.data[0].value
+                $raw = if ($fngR.len -gt 0) { $fngR.content.Substring(0, [Math]::Min(100, $fngR.len)) } else { "" }
                 return @{
                     value = $fngVal; source = "alternative.me_FNG"; confidence = "medium"
-                    raw = $fngR.content.Substring(0, [Math]::Min(100, $fngR.content.Length)); timestamp = $DateStr
+                    raw = $raw; timestamp = $DateStr
                 }
             }
         } catch { Write-Log "alternative.me FNG解析失败" "WARN" }
@@ -538,11 +538,21 @@ if ($macroFailed.Count -gt 0) {
 
     # 读取浏览器更新后的 prices_latest.json 用于后续质量评估
     if (Test-Path $latestFile) {
-        $updated = Get-Content $latestFile -Raw | ConvertFrom-Json
-        if ($updated.macro) {
-            $result.macro = $updated.macro
-            Write-Log "  [合并] 浏览器采集的macro数据已合并到结果" "INFO"
+        try {
+            $updated = Get-Content $latestFile -Raw | ConvertFrom-Json
+            if ($updated.macro) {
+                $macroKeys = @($updated.macro.PSObject.Properties | ForEach-Object { $_.Name })
+                Write-Log "  [合并] 浏览器采集的macro数据: $($macroKeys -join ', ')" "INFO"
+                $result.macro = $updated.macro
+                Write-Log "  [合并] 浏览器采集的macro数据已合并到结果" "INFO"
+            } else {
+                Write-Log "  [合并] 浏览器未返回macro数据" "WARN"
+            }
+        } catch {
+            Write-Log "  [合并] 读取更新后的prices_latest.json失败: $($_.Exception.Message.Substring(0,80))" "WARN"
         }
+    } else {
+        Write-Log "  [合并] prices_latest.json不存在" "WARN"
     }
 } else {
     # 没有失败项，直接保存
@@ -567,10 +577,6 @@ Write-Log "质量: $( $result.quality_report['_overall'].label ) (平均分 $avg
 Write-Log "错误: $( $result.errors.Count ) 项"
 if ($result.errors.Count -gt 0) {
     Write-Log "失败详情: $($result.errors -join ' | ')" "WARN"
-}
-
-} finally {
-    [System.Net.ServicePointManager]::ServerCertificateValidationCallback = $CertPolicy
 }
 
 exit $(if ($result.errors.Count -gt 3) { 1 } else { 0 })

@@ -1,0 +1,22 @@
+﻿{
+    "errors":  [
+                   "BTC : all sources failed",
+                   "ETH : all sources failed",
+                   "SOL : all sources failed",
+                   "VIX : failed",
+                   "GOLD : failed",
+                   "OIL : failed"
+               ],
+    "timestamp":  "2026-03-31 06:56:33",
+    "collection_version":  "v4",
+    "quality_report":  {
+
+                       },
+    "macro":  {
+
+              },
+    "crypto":  {
+
+               },
+    "timestamp_iso":  "2026-03-30T22:56:33Z"
+}
