@@ -1,57 +1,17 @@
 {
-  "scraped_at": "2026-03-26T03:40:00Z",
-  "source": "bgithub.xyz/trending",
-  "top_ai_ml": [
-    {
-      "rank": 1,
-      "repo": "mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web",
-      "stars": 8007,
-      "today_stars": 737,
-      "language": "Python",
-      "url": "https://github.com/mvanhorn/last30days-skill"
-    },
-    {
-      "rank": 2,
-      "repo": "bytedance/deer-flow",
-      "description": "Open-source long-horizon SuperAgent harness that researches, codes, and creates",
-      "stars": null,
-      "today_stars": null,
-      "language": null,
-      "url": "https://github.com/bytedance/deer-flow"
-    },
-    {
-      "rank": 3,
-      "repo": "letta-ai/claude-subconscious",
-      "description": "Give Claude Code a subconscious",
-      "stars": 1530,
-      "today_stars": 71,
-      "language": "TypeScript",
-      "url": "https://github.com/letta-ai/claude-subconscious"
-    },
-    {
-      "rank": 4,
-      "repo": "ruvnet/ruflo",
-      "description": "Leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms",
-      "stars": null,
-      "today_stars": null,
-      "language": null,
-      "url": "https://github.com/ruvnet/ruflo"
-    },
-    {
-      "rank": 5,
-      "repo": "supermemoryai/supermemory",
-      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era",
-      "stars": 19287,
-      "today_stars": 810,
-      "language": "TypeScript",
-      "url": "https://github.com/supermemoryai/supermemory"
-    }
-  ],
-  "signals": {
-    "agent_frameworks": "热：letta-ai, ruvnet/ruflo, mvanhorn/last30days-skill — 多智能体 orchestration 成为 Top 趋势",
-    "ai_memory": "supermemoryai — Memory API 作为 AI 时代基础设施受到关注",
-    "claude_ecosystem": "Claude Code 相关项目（subconscious、ruflo）形成独立生态",
-    "github_stars_today": "MoneyPrinterV2(1065★), supermemory(810★), last30days-skill(737★)"
-  }
+  "timestamp": "2026-03-30T22:48:05+08:00",
+  "source": "https://bgithub.xyz/trending",
+  "repos": [
+    {"rank": 1, "author": "microsoft", "name": "VibeVoice", "stars_today": 2509, "total_stars": 28938, "forks": 3165, "language": "Python", "description": "Open-Source Frontier Voice AI"},
+    {"rank": 2, "author": "luongnv89", "name": "claude-howto", "stars_today": 4150, "total_stars": 9230, "forks": 936, "language": "Python", "description": "A visual, example-driven guide to Claude Code"},
+    {"rank": 3, "author": "Yeachan-Heo", "name": "oh-my-claudecode", "stars_today": 1785, "total_stars": 17167, "forks": 1203, "language": "TypeScript", "description": "Teams-first Multi-agent orchestration for Claude Code"},
+    {"rank": 4, "author": "shanraisshan", "name": "claude-code-best-practice", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "practice made claude perfect"},
+    {"rank": 5, "author": "hacksider", "name": "Deep-Live-Cam", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "real time face swap and one-click video deepfake with only a single image"},
+    {"rank": 6, "author": "OpenBB-finance", "name": "OpenBB", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "Financial data platform for analysts, quants and AI agents."},
+    {"rank": 7, "author": "freeCodeCamp", "name": "freeCodeCamp", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "freeCodeCamp.org's open-source codebase and curriculum."},
+    {"rank": 8, "author": "sherlock-project", "name": "sherlock", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "Hunt down social media accounts by username across social networks"},
+    {"rank": 9, "author": "apache", "name": "superset", "stars_today": null, "total_stars": null, "forks": null, "language": null, "description": "Apache Superset is a Data Visualization and Data Exploration Platform"},
+    {"rank": 10, "author": "fastfetch-cli", "name": "fastfetch", "stars_today": 271, "total_stars": 21319, "forks": 720, "language": "C", "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool."},
+    {"rank": 11, "author": "NousResearch", "name": "hermes-agent", "stars_today": 1859, "total_stars": 17863, "forks": 2162, "language": "Python", "description": "The agent that grows with you"}
+  ]
 }
