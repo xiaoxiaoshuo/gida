@@ -1,28 +1,41 @@
 {
-  "timestamp": "2026-03-30T17:53:53Z",
+  "timestamp": "2026-03-30T20:05:43Z",
+  "timestamp_cst": "2026-03-31 04:05",
   "source": "gateio",
+  "fetch_method": "web_fetch individual pairs",
   "prices": {
     "BTC_USDT": {
-      "last": 66849.6,
+      "last": 66612.1,
       "high_24h": 68172.9,
       "low_24h": 64998,
-      "change_pct": 0.69
+      "change_pct": 0.28
     },
     "ETH_USDT": {
-      "last": 2044.71,
+      "last": 2025.34,
       "high_24h": 2084.62,
       "low_24h": 1938.07,
-      "change_pct": 2.46
+      "change_pct": 1.37
     },
     "SOL_USDT": {
-      "last": 83.23,
+      "last": 82.61,
       "high_24h": 84.97,
       "low_24h": 78.91,
-      "change_pct": 2.04
+      "change_pct": 1.05
     }
   },
-  "reference_2248": {
-    "BTC": 67268,
-    "24h_low": 64998
+  "fear_and_greed": {
+    "value": 8,
+    "label": "Extreme Fear",
+    "yesterday": 9,
+    "last_week": 8,
+    "last_month": 11,
+    "source": "alternative.me",
+    "trend": "stable_extreme_fear"
+  },
+  "comparison": {
+    "reference_price_btc": 66849.6,
+    "reference_time_utc": "2026-03-30T17:53:53Z",
+    "change_usd": -237.5,
+    "change_pct": -0.355
   }
 }
