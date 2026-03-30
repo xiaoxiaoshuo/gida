@@ -504,6 +504,29 @@ if ($oil) {
     $result.errors += "OIL : failed"
 }
 
+# ========== 宏观数据浏览器降级采集 (JS渲染网站专用) ==========
+# 如果黄金/原油/VIX采集失败，调用Playwright浏览器采集
+$macroFailed = @()
+if (-not $gold -or $gold.value -eq $null) { $macroFailed += "GOLD" }
+if (-not $oil -or $oil.value -eq $null) { $macroFailed += "OIL" }
+if (-not $vix -or $vix.value -eq $null) { $macroFailed += "VIX" }
+
+if ($macroFailed.Count -gt 0) {
+    Write-Log ">> 宏观数据浏览器降级采集 (失败项: $($macroFailed -join ', '))..." "WARN"
+    try {
+        $macroScript = "C:\Users\Administrator\clawd\agents\workspace-gid\scripts\collect-macro-playwright.ps1"
+        if (Test-Path $macroScript) {
+            $macroResult = & $macroScript 2>&1
+            $macroResult | ForEach-Object { Write-Log "  [Playwright] $_" "INFO" }
+            Write-Log "  浏览器降级采集完成" "OK"
+        } else {
+            Write-Log "  collect-macro-playwright.ps1 不存在，跳过浏览器降级" "WARN"
+        }
+    } catch {
+        Write-Log "  浏览器降级采集异常: $($_.Exception.Message.Substring(0,80))" "WARN"
+    }
+}
+
 # --- 总体质量评估 ---
 $allScores = $result.quality_report.Values | Where-Object { $_ -ne $null } | ForEach-Object { $_.score }
 $avgScore = if ($allScores.Count -gt 0) { [Math]::Round(($allScores | Measure-Object -Average).Average, 1) } else { 0 }
