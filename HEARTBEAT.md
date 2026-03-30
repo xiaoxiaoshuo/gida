@@ -10,7 +10,7 @@
 | **F&G指数** | ✅ 已更新 | 8（极度恐慌），via API.alternative.me |
 | **AI新闻** | 🔴 失败 | Bing搜索结果为空 |
 | **GitHub Trending** | ✅ 已更新 | bgithub.xyz，VibeVoice登顶 |
-| **HackerNews** | ⚠️ 失败 | web_fetch失败 |
+| **HackerNews** | ✅ 已更新 | 浏览器OKX_HN页，534★ "30u30.fyi" |
 
 ### 子智能体
 - ✅ morning-intel-refresh-0625 执行中
