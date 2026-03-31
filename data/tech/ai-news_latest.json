@@ -1,151 +1,30 @@
 {
-  "timestamp": "2026-03-31T06:46:00Z",
-  "source": "cn.bing.com + theaitrack.com + digitalapplied.com",
-  "news": [
-    {
-      "category": "OpenAI",
-      "items": [
-        {
-          "title": "OpenAI Signs Pentagon AI Deal",
-          "source": "theaitrack.com",
-          "date": "2026-03-28",
-          "summary": "OpenAI signs Pentagon AI deal for classified, cloud-only AI deployment with three redlines. Federal agencies move to phase out Anthropic over six months."
-        },
-        {
-          "title": "OpenAI Raises $110B in Funding Round Backed by Amazon and Nvidia",
-          "source": "theaitrack.com",
-          "date": "2026-03-27",
-          "summary": "OpenAI raises $110B from Amazon, Nvidia, and SoftBank, reaching a $730B pre-money valuation and expanding AWS distribution and Nvidia infrastructure capacity."
-        },
-        {
-          "title": "OpenAI plans to almost double its headcount this year",
-          "source": "fortune.com",
-          "date": "2026-03-22",
-          "summary": "OpenAI plans to almost double its headcount by the end of 2026 to fend off competition from Anthropic and Google."
-        },
-        {
-          "title": "OpenAI is throwing everything into building a fully automated researcher",
-          "source": "technologyreview.com",
-          "date": "2026-03-20",
-          "summary": "OpenAI refocuses research efforts on building an AI researcher - a fully automated research system."
-        },
-        {
-          "title": "OpenAI Release Notes - March 2026",
-          "source": "releasebot.io",
-          "date": "2026-03-26",
-          "summary": "Complete list of OpenAI latest updates for March 2026: GPT-5.4 launch (3 variants: Standard, Thinking, Pro)."
-        },
-        {
-          "title": "OpenAI is shutting down its Sora video app",
-          "source": "cnn.com",
-          "date": "2026-03-24",
-          "summary": "OpenAI winding down Sora video generation app months after launch, signaling shift away from consumer creative tools."
-        },
-        {
-          "title": "OpenAI secures extra $10B in record funding round",
-          "source": "cnbc.com",
-          "date": "2026-03-24",
-          "summary": "Fresh capital brings OpenAI's historic fundraise to $120B, exceeding initial target of $100B."
-        }
-      ]
-    },
-    {
-      "category": "DeepSeek",
-      "items": [
-        {
-          "title": "DeepSeek V3.2 正式版",
-          "source": "api-docs.deepseek.com",
-          "date": "2025-07-25",
-          "summary": "DeepSeek-V3.2首个将思考融入工具使用的模型，同时支持思考模式与非思考模式的工具调用。"
-        },
-        {
-          "title": "DeepSeek API Platform",
-          "source": "platform.deepseek.com",
-          "date": "ongoing",
-          "summary": "DeepSeek API平台持续运营，提供模型API、开发者资源和文档。"
-        }
-      ]
-    },
-    {
-      "category": "Quantum Computing",
-      "items": [
-        {
-          "title": "March 2026 AI Roundup - MCP crosses 97M installs",
-          "source": "digitalapplied.com",
-          "date": "2026-03-26",
-          "summary": "MCP (Model Context Protocol) crossed 97 million installs in March 2026, signaling permanent change in how AI agents are built."
-        },
-        {
-          "title": "NVIDIA GTC 2026 - Agentic AI Summit",
-          "source": "digitalapplied.com",
-          "date": "2026-03-10-14",
-          "summary": "NVIDIA GTC 2026 ran March 10-14, reframing enterprise AI conversation around agentic deployments. Fortune 500 production agentic deployments confirmed."
-        }
-      ]
-    },
-    {
-      "category": "Embodied AI / Robotics",
-      "items": [
-        {
-          "title": "Lumo-1: 端到端全身VLA模型",
-          "source": "zhihu.com",
-          "date": "2025-12-12",
-          "summary": "星尘智能发布Lumo-1，端到端全身VLA模型，超越了π0和π0.5，在具身智能领域取得突破。"
-        },
-        {
-          "title": "Wayve Raises $1.2B Series D",
-          "source": "theaitrack.com",
-          "date": "2026-02-25",
-          "summary": "Self-driving startup Wayve secured $1.2B in Series D at $8.6B valuation, targeting London public robotaxi trials in 2026."
-        },
-        {
-          "title": "Mistral Small 4 launched March 3",
-          "source": "digitalapplied.com",
-          "date": "2026-03-03",
-          "summary": "Mistral Small 4 launched March 3rd and immediately topped open-source reasoning benchmarks."
-        }
-      ]
-    },
-    {
-      "category": "March 2026 AI Summary",
-      "items": [
-        {
-          "title": "GPT-5.4, Gemini 3.1, Grok 4.20 launched in 23-day window",
-          "source": "digitalapplied.com",
-          "date": "2026-03-17-22",
-          "summary": "GPT-5.4 (3 variants), Gemini 3.1 Ultra, Grok 4.20, and Mistral Small 4 all launched in a 23-day window. Competitive gap compressed to weeks."
-        },
-        {
-          "title": "MCP Hits 97 Million Installs",
-          "source": "digitalapplied.com",
-          "date": "2026-03-25",
-          "summary": "MCP crossed 97 million installs. Google Workspace CLI hit #1 on Hacker News. Agentic tooling moved from experimental to standard practice."
-        },
-        {
-          "title": "EU AI Act enforcement issued first formal inquiries",
-          "source": "digitalapplied.com",
-          "date": "2026-03",
-          "summary": "EU AI Act enforcement issued first formal inquiries. Three US states passed AI transparency laws. UK AI Safety Institute published March model evaluations."
-        },
-        {
-          "title": "Anthropic computer use error rates reduced ~40%",
-          "source": "digitalapplied.com",
-          "date": "2026-03",
-          "summary": "Updated computer use capabilities reduced error rates on desktop application interactions by ~40%. Claude API got new streaming and batching endpoints."
-        },
-        {
-          "title": "Google Acquires ProducerAI",
-          "source": "theaitrack.com",
-          "date": "2026-02-24",
-          "summary": "ProducerAI joins Google Labs as Google expands Lyria 3 music creation in Gemini, starting with 30-second tracks and SynthID watermarking."
-        },
-        {
-          "title": "Meta and AMD Sign $60B AI Infrastructure Deal",
-          "source": "theaitrack.com",
-          "date": "2026-02-24",
-          "summary": "Meta and AMD formalize $60B AI chip partnership tied to 6 gigawatt GPU rollout and expanded multivendor compute strategy."
-        }
-      ]
-    }
-  ]
+  "timestamp": "2026-03-31T04:24:11Z",
+  "source": "Hacker News (news.ycombinator.com) + existing curated news",
+  "hackernews_top30": [
+    {"title": "Axios Compromised on NPM – Malicious Versions Drop Remote Access Trojan", "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan", "domain": "stepsecurity.io", "ai_related": false, "category": "Security"},
+    {"title": "Universal Claude.md – cut Claude output tokens by 63%", "url": "https://github.com/drona23/claude-token-efficient", "domain": "github.com", "ai_related": true, "category": "AI/ML"},
+    {"title": "Artemis II is not safe to fly", "url": "https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm", "domain": "idlewords.com", "ai_related": false, "category": "Space"},
+    {"title": "Fedware: Government apps that spy harder than the apps they ban", "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/", "domain": "sambent.com", "ai_related": false, "category": "Politics"},
+    {"title": "Semantic – Reducing LLM Agent Loops by 27.78% via AST Logic Graphs", "url": "https://github.com/concensure/Semantic", "domain": "github.com", "ai_related": true, "category": "AI/ML"},
+    {"title": "Do your own writing", "url": "https://alexhwoods.com/dont-let-ai-write-for-you/", "domain": "alexhwoods.com", "ai_related": false, "category": "Writing"},
+    {"title": "Android Developer Verification", "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html", "domain": "android-developers.googleblog.com", "ai_related": false, "category": "Android"},
+    {"title": "Incident March 30th, 2026 – Accidental CDN Caching", "url": "https://blog.railway.com/p/incident-report-march-30-2026-accidental-cdn-caching", "domain": "blog.railway.com", "ai_related": false, "category": "Infra"},
+    {"title": "Clojure: The Documentary, official trailer", "url": "https://www.youtube.com/watch?v=JJEyffSdBsk", "domain": "youtube.com", "ai_related": false, "category": "Documentary"},
+    {"title": "Turning a MacBook into a touchscreen with $1 of hardware", "url": "https://anishathalye.com/macbook-touchscreen/", "domain": "anishathalye.com", "ai_related": false, "category": "Hardware"},
+    {"title": "Ollama is now powered by MLX on Apple Silicon in preview", "url": "https://ollama.com/blog/mlx", "domain": "ollama.com", "ai_related": true, "category": "AI/ML"},
+    {"title": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent", "url": "https://github.com/virpo/pegboard", "domain": "github.com", "ai_related": true, "category": "AI/ML"},
+    {"title": "Agents of Chaos", "url": "https://agentsofchaos.baulab.info/report.html", "domain": "agentsofchaos.baulab.info", "ai_related": true, "category": "AI/ML"},
+    {"title": "Show HN: Coasts – Containerized Hosts for Agents", "url": "https://github.com/coast-guard/coasts", "domain": "github.com", "ai_related": true, "category": "AI/ML"},
+    {"title": "In math, rigor is vital, but are digitized proofs taking it too far?", "url": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/", "domain": "quantamagazine.org", "ai_related": false, "category": "Math"}
+  ],
+  "curated": {
+    "OpenAI": [
+      {"title": "OpenAI Signs Pentagon AI Deal", "source": "theaitrack.com", "date": "2026-03-28", "summary": "OpenAI signs Pentagon AI deal for classified, cloud-only AI deployment with three redlines."},
+      {"title": "OpenAI Raises $110B in Funding Round Backed by Amazon and Nvidia", "source": "theaitrack.com", "date": "2026-03-27", "summary": "OpenAI raises $110B from Amazon, Nvidia, and SoftBank, reaching $730B pre-money valuation."}
+    ],
+    "DeepSeek": [
+      {"title": "DeepSeek V3.2 正式版", "source": "api-docs.deepseek.com", "date": "2025-07-25", "summary": "DeepSeek-V3.2首个将思考融入工具使用的模型。"}
+    ]
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T06:47:00Z",
+  "timestamp": "2026-03-31T04:24:10Z",
   "source": "https://bgithub.xyz/trending",
   "repositories": [
     {
@@ -8,9 +8,9 @@
       "name": "VibeVoice",
       "description": "Open-Source Frontier Voice AI",
       "language": "Python",
-      "stars": 29888,
-      "forks": 3269,
-      "stars_today": 2509,
+      "stars": 31098,
+      "forks": 3446,
+      "stars_today": 2492,
       "url": "https://bgithub.xyz/microsoft/VibeVoice",
       "ai_related": true,
       "highlights": ["Microsoft开源", "语音AI", "前沿开源语音模型"]
@@ -19,30 +19,17 @@
       "rank": 2,
       "owner": "luongnv89",
       "name": "claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates",
       "language": "Python",
-      "stars": 9734,
-      "forks": 977,
-      "stars_today": 4150,
+      "stars": 10357,
+      "forks": 1042,
+      "stars_today": 4232,
       "url": "https://bgithub.xyz/luongnv89/claude-howto",
       "ai_related": true,
       "highlights": ["Claude Code教程", "多智能体", "AI编程工具"]
     },
     {
       "rank": 3,
-      "owner": "Yeachan-Heo",
-      "name": "oh-my-claudecode",
-      "description": "Teams-first Multi-agent orchestration for Claude Code",
-      "language": "TypeScript",
-      "stars": 17548,
-      "forks": 1224,
-      "stars_today": 1785,
-      "url": "https://bgithub.xyz/Yeachan-Heo/oh-my-claudecode",
-      "ai_related": true,
-      "highlights": ["Claude Code生态", "多智能体编排", "团队协作"]
-    },
-    {
-      "rank": 4,
       "owner": "shanraisshan",
       "name": "claude-code-best-practice",
       "description": "practice made claude perfect",
@@ -50,7 +37,7 @@
       "highlights": ["Claude Code最佳实践"]
     },
     {
-      "rank": 5,
+      "rank": 4,
       "owner": "hacksider",
       "name": "Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
@@ -58,7 +45,7 @@
       "highlights": ["实时换脸", "Deepfake工具"]
     },
     {
-      "rank": 6,
+      "rank": 5,
       "owner": "OpenBB-finance",
       "name": "OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents",
@@ -69,7 +56,7 @@
       "highlights": ["金融数据平台", "AI量化工具"]
     },
     {
-      "rank": 7,
+      "rank": 6,
       "owner": "freeCodeCamp",
       "name": "freeCodeCamp",
       "description": "freeCodeCamp.org's open-source codebase and curriculum",
@@ -80,7 +67,7 @@
       "highlights": ["编程学习", "开源课程"]
     },
     {
-      "rank": 8,
+      "rank": 7,
       "owner": "sherlock-project",
       "name": "sherlock",
       "description": "Hunt down social media accounts by username across social networks",
@@ -88,7 +75,7 @@
       "highlights": ["OSINT工具", "社媒调查"]
     },
     {
-      "rank": 9,
+      "rank": 8,
       "owner": "apache",
       "name": "superset",
       "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
@@ -99,31 +86,31 @@
       "highlights": ["数据可视化", "BI平台"]
     },
     {
-      "rank": 10,
+      "rank": 9,
       "owner": "fastfetch-cli",
       "name": "fastfetch",
       "description": "A maintained, feature-rich and performance oriented, neofetch like system information tool",
       "language": "C",
-      "stars": 21395,
+      "stars": 21449,
       "forks": 726,
-      "stars_today": 271,
+      "stars_today": 276,
       "url": "https://bgithub.xyz/fastfetch-cli/fastfetch",
       "ai_related": false,
       "highlights": ["系统信息工具", "Neofetch替代品"]
     },
     {
-      "rank": 11,
+      "rank": 10,
       "owner": "NousResearch",
       "name": "hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars": 18479,
-      "forks": 2240,
-      "stars_today": 1859,
+      "stars": 18916,
+      "forks": 2292,
+      "stars_today": 1851,
       "url": "https://bgithub.xyz/NousResearch/hermes-agent",
       "ai_related": true,
       "highlights": ["AI智能体", "开源Agent框架"]
     }
   ],
-  "summary": "Claude Code生态 dominating GitHub Trending. Top 4 projects all AI/agent related. Microsoft VibeVoice (voice AI) leading with 2509 stars today."
+  "summary": "Claude Code生态 dominating GitHub Trending. Microsoft VibeVoice (voice AI) leading with 2492 stars today. Top projects AI/agent related."
 }
