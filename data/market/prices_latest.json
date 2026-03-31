@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-03-31 12:24:09",
-  "timestamp_iso": "2026-03-31T04:24:09Z",
+  "timestamp": "2026-03-31 13:23:42",
+  "timestamp_iso": "2026-03-31T05:23:42Z",
   "collection_version": "v4",
   "crypto": {
     "BTC": {
-      "price": 67768.1,
-      "change_24h_pct": 0.57,
+      "price": 67524.2,
+      "change_24h_pct": -0.17,
       "high_24h": 68405.5,
       "low_24h": 66238.4,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T04:24:09Z",
-      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"67768.1\",\"change_percentage\":\"0.57\",\"high_24h\":\"68405.5\",\"low_24h\":\"66238.4\"}"
+      "timestamp": "2026-03-31T05:23:42Z",
+      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"67524.2\",\"change_percentage\":\"-0.17\",\"high_24h\":\"68405.5\",\"low_24h\":\"66238.4\"}"
     },
     "ETH": {
-      "price": 2069.33,
-      "change_24h_pct": 1.3,
+      "price": 2060.78,
+      "change_24h_pct": 0.36,
       "high_24h": 2091.99,
       "low_24h": 2013.53,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T04:24:09Z",
-      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2069.33\",\"change_percentage\":\"1.3\",\"high_24h\":\"2091.99\",\"low_24h\":\"2013.53\"}"
+      "timestamp": "2026-03-31T05:23:42Z",
+      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2060.78\",\"change_percentage\":\"0.36\",\"high_24h\":\"2091.99\",\"low_24h\":\"2013.53\"}"
     },
     "SOL": {
-      "price": 83.69,
-      "change_24h_pct": 0.29,
+      "price": 83.07,
+      "change_24h_pct": -0.88,
       "high_24h": 84.97,
       "low_24h": 81.98,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T04:24:09Z",
-      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"83.69\",\"change_percentage\":\"0.29\",\"high_24h\":\"84.97\",\"low_24h\":\"81.98\"}"
+      "timestamp": "2026-03-31T05:23:42Z",
+      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"83.07\",\"change_percentage\":\"-0.88\",\"high_24h\":\"84.97\",\"low_24h\":\"81.98\"}"
     }
   },
   "quality_report": {
