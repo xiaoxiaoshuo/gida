@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-03-31 20:21:13",
-  "timestamp_iso": "2026-03-31T12:21:13Z",
+  "timestamp": "2026-03-31 21:23:35",
+  "timestamp_iso": "2026-03-31T13:23:35Z",
   "collection_version": "v4",
   "crypto": {
     "BTC": {
-      "price": 66713.4,
-      "change_24h_pct": -1.7,
+      "price": 66788.9,
+      "change_24h_pct": -1.88,
       "high_24h": 68405.5,
       "low_24h": 65996.1,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T12:21:13Z",
-      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"66713.4\",\"change_percentage\":\"-1.7\",\"high_24h\":\"68405.5\",\"low_24h\":\"65996.1\"}"
+      "timestamp": "2026-03-31T13:23:34Z",
+      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"66788.9\",\"change_percentage\":\"-1.88\",\"high_24h\":\"68405.5\",\"low_24h\":\"65996.1\"}"
     },
     "ETH": {
-      "price": 2045.05,
-      "change_24h_pct": -1.25,
+      "price": 2057.97,
+      "change_24h_pct": -0.99,
       "high_24h": 2091.99,
       "low_24h": 2012.5,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T12:21:13Z",
-      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2045.05\",\"change_percentage\":\"-1.25\",\"high_24h\":\"2091.99\",\"low_24h\":\"2012.5\"}"
+      "timestamp": "2026-03-31T13:23:35Z",
+      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2057.97\",\"change_percentage\":\"-0.99\",\"high_24h\":\"2091.99\",\"low_24h\":\"2012.5\"}"
     },
     "SOL": {
-      "price": 80.67,
-      "change_24h_pct": -4.22,
-      "high_24h": 84.97,
+      "price": 80.95,
+      "change_24h_pct": -4.5,
+      "high_24h": 84.85,
       "low_24h": 80.1,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T12:21:13Z",
-      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"80.67\",\"change_percentage\":\"-4.22\",\"high_24h\":\"84.97\",\"low_24h\":\"80.1\"}"
+      "timestamp": "2026-03-31T13:23:36Z",
+      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"80.95\",\"change_percentage\":\"-4.5\",\"high_24h\":\"84.85\",\"low_24h\":\"80.1\"}"
     }
   },
   "quality_report": {
