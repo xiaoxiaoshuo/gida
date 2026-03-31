@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-03-31 22:23:32",
-  "timestamp_iso": "2026-03-31T14:23:32Z",
+  "timestamp": "2026-04-01 01:25:38",
+  "timestamp_iso": "2026-03-31T17:25:38Z",
   "collection_version": "v4",
   "crypto": {
     "BTC": {
-      "price": 67695,
-      "change_24h_pct": 0.36,
-      "high_24h": 68405.5,
+      "price": 68199.1,
+      "change_24h_pct": 2.04,
+      "high_24h": 68586,
       "low_24h": 65996.1,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T14:23:31Z",
-      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"67695\",\"change_percentage\":\"0.36\",\"high_24h\":\"68405.5\",\"low_24h\":\"65996.1\"}"
+      "timestamp": "2026-03-31T17:25:38Z",
+      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"68199.1\",\"change_percentage\":\"2.04\",\"high_24h\":\"68586\",\"low_24h\":\"65996.1\"}"
     },
     "ETH": {
-      "price": 2086.91,
-      "change_24h_pct": 1.32,
-      "high_24h": 2092.11,
+      "price": 2115.68,
+      "change_24h_pct": 3.55,
+      "high_24h": 2123.86,
       "low_24h": 2012.5,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T14:23:30Z",
-      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2086.91\",\"change_percentage\":\"1.32\",\"high_24h\":\"2092.11\",\"low_24h\":\"2012.5\"}"
+      "timestamp": "2026-03-31T17:25:38Z",
+      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2115.68\",\"change_percentage\":\"3.55\",\"high_24h\":\"2123.86\",\"low_24h\":\"2012.5\"}"
     },
     "SOL": {
-      "price": 82.31,
-      "change_24h_pct": -2.38,
-      "high_24h": 84.76,
+      "price": 83.24,
+      "change_24h_pct": -0.25,
+      "high_24h": 84.61,
       "low_24h": 80.1,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31T14:23:31Z",
-      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"82.31\",\"change_percentage\":\"-2.38\",\"high_24h\":\"84.76\",\"low_24h\":\"80.1\"}"
+      "timestamp": "2026-03-31T17:25:38Z",
+      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"83.24\",\"change_percentage\":\"-0.25\",\"high_24h\":\"84.61\",\"low_24h\":\"80.1\"}"
     }
   },
   "quality_report": {
