@@ -1,4 +1,35 @@
-===
+# Daily Briefings
+
+---
+
+[2026-04-01 04:30] 深度采集刷新 - ✅ 完成
+
+【价格】BTC $67,980 / ETH $2,104.04 / SOL $82.99（OKX_API，高质量）
+【F&G】11 极度恐慌（从8升至11，略有好转）
+【宏观】黄金 $4,673.1/oz / 原油 $101.84 WTI / VIX 11
+
+【GitHub Trending TOP】
+1. VibeVoice (Microsoft) - 开源语音AI，3862★/日
+2. claude-howto - Claude Code可视化指南，2390★/日
+3. oh-my-claudecode - 多智能体编排，1127★/日
+4. hermes-agent - 自我进化智能体，1909★/日
+
+【HN Top 5】
+- #3 Claude Code源码泄露（NPM map文件），1692★/853评论
+- #16 Axios NPM投毒事件，1706★/683评论
+- #27 Oracle裁员30k，755★/648评论
+- #2 Claude Code源码泄露深度分析，284★
+- #7 Solvespace浏览器CAD，229★
+
+【重大信号】
+- Claude Code生态爆炸：GitHub Trending 5个相关 + HN持续霸榜
+- VibeVoice (Microsoft) 3862★/日 — 语音AI开源战升温
+- KV Cache优化：300KB→69KB/token，推理成本革命信号
+- Oracle裁员30k — 科技就业寒冬持续
+
+【推送】待后台auto-push
+
+---
 
 [2026-03-31 05:17] 每日简报 - ✅ 采集完成
 
@@ -8,7 +39,7 @@
 【HN】AI新闻密度低，主要讨论AI社会影响  
 【推送】✅ 5fe2289 已推送
 
-===
+---
 
 [2026-03-31 06:48] 早间简报 - AI/科技/市场深度采集
 
@@ -34,7 +65,7 @@
 
 【推送】GitHub 06:44恢复，本子智能体06:45完成采集
 
-===
+---
 
 [2026-03-31 04:04] 每日简报 - 🚨 P0遗忘点紧急采集
 
@@ -54,7 +85,7 @@
 - github-trending-collector-0404: GitHub Trending 5天断档
 - market-refresh-0404: BTC/ETH/SOL + F&G
 
-===
+---
 
 [2026-03-27 01:01] 小时简报
 
@@ -73,4 +104,4 @@ BTC: 数据获取中 | ETH: 数据获取中 | 状态: 待更新
 
 【信号】AI领域继续深度整合，多智能体系统成为开源社区热点
 
-===
+---
