@@ -4,34 +4,34 @@
   "collection_version": "v4",
   "crypto": {
     "BTC": {
-      "price": 66877.9,
-      "change_24h_pct": 0.54,
-      "high_24h": 68172.9,
-      "low_24h": 66122.4,
+      "price": 68151.8,
+      "change_24h_pct": 2.26,
+      "high_24h": 68405.5,
+      "low_24h": 66238.4,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31 08:36:45",
-      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"66877.9\"}"
+      "timestamp": "2026-03-31 09:36:00",
+      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"68151.8\",\"change_percentage\":\"2.26\",\"high_24h\":\"68405.5\",\"low_24h\":\"66238.4\"}"
     },
     "ETH": {
-      "price": 2027.34,
-      "change_24h_pct": 1.11,
-      "high_24h": 2084.62,
-      "low_24h": 1991.88,
+      "price": 2079.79,
+      "change_24h_pct": 3.48,
+      "high_24h": 2091.99,
+      "low_24h": 2007,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31 08:36:45",
-      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2027.34\"}"
+      "timestamp": "2026-03-31 09:36:00",
+      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2079.79\",\"change_percentage\":\"3.48\",\"high_24h\":\"2091.99\",\"low_24h\":\"2007\"}"
     },
     "SOL": {
-      "price": 82.41,
-      "change_24h_pct": 0.41,
+      "price": 84.19,
+      "change_24h_pct": 1.94,
       "high_24h": 84.97,
-      "low_24h": 81.53,
+      "low_24h": 81.98,
       "confidence": "high",
       "source": "Gate.io_API",
-      "timestamp": "2026-03-31 08:36:45",
-      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"82.41\"}"
+      "timestamp": "2026-03-31 09:36:00",
+      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"84.19\",\"change_percentage\":\"1.94\",\"high_24h\":\"84.97\",\"low_24h\":\"81.98\"}"
     }
   },
   "quality_report": {
