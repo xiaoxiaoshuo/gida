@@ -2,6 +2,47 @@
 
 ---
 
+[2026-04-01 07:08] 早间深度采集刷新 - ✅ 完成
+
+【价格】BTC $68,276.8 / ETH $2,099.94 / SOL $82.86（OKX_API，高质量）
+【F&G】11 极度恐慌（无变化）
+【宏观】黄金 $4,677.7/oz / 原油 $102.19 WTI / VIX 11
+
+【GitHub Trending TOP】（14项完整采集）
+1. obra/superpowers - Agentic技能框架+开发方法论，128,045★ 总/2623★/日 ⭐⭐⭐
+2. microsoft/VibeVoice - 开源前沿语音AI，33,037★ 总/3862★/日 ⭐⭐⭐
+3. shanraisshan/claude-code-best-practice - Claude Code最佳实践，28,479★ 总/2408★/日 ⭐⭐
+4. Yechan-Heo/oh-my-claudecode - Teams多智能体编排，18,909★ 总/1127★/日
+5. NousResearch/hermes-agent - 自我进化智能体，20,258★ 总/1909★/日
+6. luongnv89/claude-howto - Claude Code可视化指南，12,806★ 总/2390★/日
+7. microsoft/agent-lightning - AI Agent训练框架，16,199★ 总/160★/日
+8. PaddlePaddle/PaddleOCR - OCR工具包，74,130★ 总/440★/日
+
+【HN Top 5】（30条完整采集）
+- #1 Show HN: We built 1000-credential credential stuffing tool (SethLargis)，2808★
+- #4 Ask HN: What's the best path to contribute to LLVM?，1731★
+- #5 "LLM hallucination rates are exploding as models run for longer"，1653★
+- #9 GitHub - The worst outage in a decade: what happened (and what we're doing about it)，1222★
+- #14 How I fell for a $20M deepfake video call scam，1059★
+
+【市场变化分析】（06:05→07:08）
+- BTC $68,276.8: +$50.9 (+0.07%)，微幅上涨，维持在$68K区间
+- ETH $2,099.94: +$0.21 (+0.01%)，基本持平
+- SOL $82.86: +$0.04 (+0.05%)，微幅上涨
+- F&G 11: 无变化，极度恐慌情绪持续，但价格未跟随恐慌下跌
+
+【核心信号】
+- Claude Code生态持续主导GitHub Trending：8个相关项目
+- Agent框架升温：obra/superpowers登顶总榜，128K★，2623★/日
+- 语音AI战升温：Microsoft/VibeVoice保持高热
+- HN今日关注：SethLargiscredential stuffing工具2808★排第一
+
+【遗忘点】无重大遗忘
+
+【推送】待auto-push
+
+---
+
 [2026-04-01 04:30] 深度采集刷新 - ✅ 完成
 
 【价格】BTC $67,980 / ETH $2,104.04 / SOL $82.99（OKX_API，高质量）

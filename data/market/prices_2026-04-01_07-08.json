@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-01 07:08:27",
+  "collection_version": "v4",
+  "quality_report": {
+    "VIX": {
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "score": 65,
+      "label": "中"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    }
+  },
+  "errors": [],
+  "macro": {
+    "GOLD": {
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "timestamp": "2026-04-01 07:08:27",
+      "value": 4677.1,
+      "confidence": "high",
+      "raw_len": 60824
+    },
+    "VIX": {
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"11\",\n\t\t\t\"value_classification\": \"Extr",
+      "value": 11.0,
+      "timestamp": "2026-04-01 07:08:27",
+      "source": "alternative.me_FNG",
+      "confidence": "medium"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-01 07:08:27",
+      "value": 102.19,
+      "confidence": "high",
+      "raw_len": 414164
+    }
+  },
+  "timestamp_iso": "2026-03-31T23:08:27Z",
+  "crypto": {
+    "ETH": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"ETH-USDT\",\"last\":\"2099.08\",\"lastSz\":\"0.002",
+      "price": 2099.08,
+      "source": "OKX_API",
+      "timestamp": "2026-04-01 07:08:27",
+      "confidence": "high"
+    },
+    "SOL": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"SOL-USDT\",\"last\":\"82.88\",\"lastSz\":\"4.54437",
+      "price": 82.88,
+      "source": "OKX_API",
+      "timestamp": "2026-04-01 07:08:27",
+      "confidence": "high"
+    },
+    "BTC": {
+      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"BTC-USDT\",\"last\":\"68256.8\",\"lastSz\":\"0.000",
+      "price": 68256.8,
+      "source": "OKX_API",
+      "timestamp": "2026-04-01 07:08:27",
+      "confidence": "high"
+    }
+  }
+}
