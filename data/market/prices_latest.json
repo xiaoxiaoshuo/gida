@@ -1,42 +1,51 @@
 {
-  "timestamp": "2026-03-31 07:05:29",
-  "timestamp_iso": "2026-03-30T23:05:29Z",
+  "timestamp": "2026-03-31 08:36:45",
+  "timestamp_iso": "2026-03-31T00:36:45Z",
   "collection_version": "v4",
   "crypto": {
-    "ETH": {
-      "price": 2017.95,
+    "BTC": {
+      "price": 66877.9,
+      "change_24h_pct": 0.54,
+      "high_24h": 68172.9,
+      "low_24h": 66122.4,
       "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-31 07:05:29",
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"ETH-USDT\",\"last\":\"2017.95\",\"lastSz\":\"0.005"
+      "source": "Gate.io_API",
+      "timestamp": "2026-03-31 08:36:45",
+      "raw": "{\"currency_pair\":\"BTC_USDT\",\"last\":\"66877.9\"}"
+    },
+    "ETH": {
+      "price": 2027.34,
+      "change_24h_pct": 1.11,
+      "high_24h": 2084.62,
+      "low_24h": 1991.88,
+      "confidence": "high",
+      "source": "Gate.io_API",
+      "timestamp": "2026-03-31 08:36:45",
+      "raw": "{\"currency_pair\":\"ETH_USDT\",\"last\":\"2027.34\"}"
     },
     "SOL": {
-      "price": 82.39,
+      "price": 82.41,
+      "change_24h_pct": 0.41,
+      "high_24h": 84.97,
+      "low_24h": 81.53,
       "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-31 07:05:29",
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"SOL-USDT\",\"last\":\"82.39\",\"lastSz\":\"0.01231"
-    },
-    "BTC": {
-      "price": 66477.4,
-      "confidence": "high",
-      "source": "OKX_API",
-      "timestamp": "2026-03-31 07:05:29",
-      "raw": "{\"code\":\"0\",\"msg\":\"\",\"data\":[{\"instType\":\"SPOT\",\"instId\":\"BTC-USDT\",\"last\":\"66477.4\",\"lastSz\":\"0.000"
+      "source": "Gate.io_API",
+      "timestamp": "2026-03-31 08:36:45",
+      "raw": "{\"currency_pair\":\"SOL_USDT\",\"last\":\"82.41\"}"
     }
   },
   "quality_report": {
-    "SOL": {
+    "BTC": {
       "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
       "label": "高",
       "score": 100
     },
-    "VIX": {
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中",
-      "score": 65
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
     },
-    "BTC": {
+    "SOL": {
       "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
       "label": "高",
       "score": 100
@@ -46,13 +55,13 @@
       "label": "中",
       "score": 65
     },
-    "ETH": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高",
-      "score": 100
-    },
     "OIL": {
       "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "VIX": {
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
       "label": "中",
       "score": 65
     }
@@ -78,9 +87,10 @@
     "VIX": {
       "confidence": "medium",
       "source": "alternative.me_FNG",
-      "timestamp": "2026-03-31 07:05:29",
-      "value": 8.0,
-      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"8\",\n\t\t\t\"value_classification\": \"Extre"
+      "timestamp": "2026-03-31 08:36:45",
+      "value": 11,
+      "classification": "Extreme Fear",
+      "raw": "{\"value\":\"11\",\"value_classification\":\"Extreme Fear\"}"
     }
   }
 }
