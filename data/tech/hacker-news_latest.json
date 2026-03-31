@@ -1,38 +1,207 @@
 {
-  "timestamp": "2026-03-31 07:08:00",
-  "timestamp_iso": "2026-03-30T23:08:00Z",
-  "source": "https://news.ycombinator.com/",
-  "item_count": 30,
-  "items": [
-    {"rank": 1, "title": "Show HN: 30u30.fyi – Is your startup founder on Forbes' most fraudulent list?", "url": "https://30u30.fyi", "points": 118, "author": "not-chatgpt", "ago": "56 minutes ago", "comments": 44, "id": "47580350"},
-    {"rank": 2, "title": "Fedware: Government apps that spy harder than the apps they ban", "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/", "points": 324, "author": "speckx", "ago": "4 hours ago", "comments": 101, "id": "47577761"},
-    {"rank": 3, "title": "Do your own writing", "url": "https://alexhwoods.com/dont-let-ai-write-for-you/", "points": 283, "author": "karimf", "ago": "5 hours ago", "comments": 87, "id": "47573519"},
-    {"rank": 4, "title": "Learn Claude Code by doing, not reading", "url": "https://claude.nagdy.me/", "points": 77, "author": "taubek", "ago": "2 hours ago", "comments": 42, "id": "47579229"},
-    {"rank": 5, "title": "Android Developer Verification", "url": "https://android-developers.googleblog.com/2026/03/android-developer-verification-rolling-out-to-all-developers.html", "points": 47, "author": "ingve", "ago": "1 hour ago", "comments": 21, "id": "47580297"},
-    {"rank": 6, "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)", "url": "https://anishathalye.com/macbook-touchscreen/", "points": 132, "author": "HughParry", "ago": "3 hours ago", "comments": 60, "id": "47578572"},
-    {"rank": 7, "title": "How to turn anything into a router", "url": "https://nbailey.ca/post/router/", "points": 543, "author": "yabones", "ago": "9 hours ago", "comments": 200, "id": "47574034"},
-    {"rank": 8, "title": "The stealthy startup that pitched brainless human clones", "url": "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/", "points": 36, "author": "joozio", "ago": "2 hours ago", "comments": 36, "id": "47572748"},
-    {"rank": 9, "title": "Agents of Chaos", "url": "https://agentsofchaos.baulab.info/report.html", "points": 41, "author": "luu", "ago": "2 hours ago", "comments": 2, "id": "47547843"},
-    {"rank": 10, "title": "Bird brains (2023)", "url": "https://www.dhanishsemar.com/writing/bird-brains", "points": 277, "author": "DiffTheEnder", "ago": "9 hours ago", "comments": 181, "id": "47573887"},
-    {"rank": 11, "title": "Cherri – programming language that compiles to an Apple Shortuct", "url": "https://github.com/electrikmilk/cherri", "points": 214, "author": "mihau", "ago": "7 hours ago", "comments": 44, "id": "47549824"},
-    {"rank": 12, "title": "Researchers find 3,500-year-old loom that reveals textile revolution", "url": "https://web.ua.es/en/actualidad-universitaria/2026/marzo2026/23-31/ua-researchers-find-3-500-year-old-loom-that-reveals-key-aspects-of-textile-revolution-in-the-bronze-age.html", "points": 42, "author": "geox", "ago": "4 hours ago", "comments": 1, "id": "47548164"},
-    {"rank": 13, "title": "Roulette Computers: Hidden Devices That Predict Spins", "url": "https://www.roulette-computers.com/", "points": 45, "author": "o4c", "ago": "4 hours ago", "comments": 9, "id": "47554493"},
-    {"rank": 14, "title": "Seeing Like a Spreadsheet", "url": "https://davidoks.blog/p/how-the-spreadsheet-reshaped-america", "points": 58, "author": "paulpauper", "ago": "4 hours ago", "comments": 17, "id": "47556063"},
-    {"rank": 15, "title": "William Blake, Remote by the Sea", "url": "https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea", "points": 40, "author": "occurrence", "ago": "3 hours ago", "comments": 1, "id": "47578464"},
-    {"rank": 16, "title": "OCR for construction documents does not work, we fixed it", "url": "https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors", "points": 112, "author": "wcisco17", "ago": "7 hours ago", "comments": 70, "id": "47576055"},
-    {"rank": 17, "title": "IronGlass Brings Legendary Soviet Cinema Lenses to Mirrorless Cameras", "url": "https://petapixel.com/2026/02/19/ironglass-brings-legendary-soviet-cinema-lenses-to-mirrorless-cameras/", "points": 7, "author": "PaulHoule", "ago": "1 hour ago", "comments": 0, "id": "47530449"},
-    {"rank": 18, "title": "A sea of sparks: Seeing radioactivity", "url": "https://maurycyz.com/projects/spinthariscope/", "points": 41, "author": "maurycyz", "ago": "4 hours ago", "comments": 16, "id": "47577979"},
-    {"rank": 19, "title": "Show HN: Coasts – Containerized Hosts for Agents", "url": "https://github.com/coast-guard/coasts", "points": 49, "author": "jsunderland323", "ago": "7 hours ago", "comments": 18, "id": "47575417"},
-    {"rank": 20, "title": "CodingFont: A game to help you pick a coding font", "url": "https://www.codingfont.com/", "points": 279, "author": "nvahalik", "ago": "7 hours ago", "comments": 165, "id": "47575403"},
-    {"rank": 21, "title": "Recover Apple Keychain", "url": "https://arkoinad.com/posts/apple_keychain_recovery.html", "points": 40, "author": "speckx", "ago": "5 hours ago", "comments": 13, "id": "47577120"},
-    {"rank": 22, "title": "In math, rigor is vital, but are digitized proofs taking it too far?", "url": "https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/", "points": 88, "author": "isaacfrond", "ago": "9 hours ago", "comments": 78, "id": "47528403"},
-    {"rank": 23, "title": "Build123d: A Python CAD programming library", "url": "https://github.com/gumyr/build123d", "points": 105, "author": "Ivoah", "ago": "8 hours ago", "comments": 43, "id": "47567242"},
-    {"rank": 24, "title": "I am definitely missing the pre-AI writing era", "url": "https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era", "points": 231, "author": "joozio", "ago": "16 hours ago", "comments": 183, "id": "47571279"},
-    {"rank": 25, "title": "Mathematical methods and human thought in the age of AI", "url": "https://arxiv.org/abs/2603.26524", "points": 186, "author": "zaikunzhang", "ago": "12 hours ago", "comments": 74, "id": "47572771"},
-    {"rank": 26, "title": "Take better notes, by hand", "url": "https://brianschrader.com/archive/take-better-notes-by-hand/", "points": 163, "author": "sonicrocketman", "ago": "6 hours ago", "comments": 76, "id": "47576317"},
-    {"rank": 27, "title": "I use Excalidraw to manage my diagrams for my blog", "url": "https://blog.lysk.tech/excalidraw-frame-export/", "points": 262, "author": "mlysk", "ago": "15 hours ago", "comments": 106, "id": "47571376"},
-    {"rank": 28, "title": "FTC action against Match and OkCupid for deceiving users, sharing personal data", "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-takes-action-against-match-okcupid-deceiving-users-sharing-personal-data-third-party", "points": 217, "author": "gnabgib", "ago": "7 hours ago", "comments": 111, "id": "47575616"},
-    {"rank": 29, "title": "Tickets Are Prompts", "url": "https://dheer.co/tickets-are-prompts/", "points": 12, "author": "bushido", "ago": "1 hour ago", "comments": 5, "id": "47579977"},
-    {"rank": 30, "title": "From Proxmox to FreeBSD and Sylve in our office lab", "url": "https://www.iptechnics.com/blogs/from-proxmox-to-freebsd-and-sylve-in-our-office-lab", "points": 66, "author": "arch1e", "ago": "9 hours ago", "comments": 55, "id": "47553910"}
+  "timestamp": "2026-04-01T04:30:00Z",
+  "fetched_at": "2026-03-31T20:30:44Z",
+  "source": "news.ycombinator.com (browser)",
+  "top_items": [
+    {
+      "rank": 1,
+      "title": "GitHub's Historic Uptime",
+      "url": "https://damrnelson.github.io/github-historical-uptime/",
+      "points": 197,
+      "author": "todsacerdoti",
+      "time_ago": "1 hour ago",
+      "comments": 46,
+      "domain": "damrnelson.github.io"
+    },
+    {
+      "rank": 2,
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "points": 284,
+      "author": "alex000kim",
+      "time_ago": "3 hours ago",
+      "comments": 126,
+      "domain": "alex000kim.com"
+    },
+    {
+      "rank": 3,
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "points": 1692,
+      "author": "treexs",
+      "time_ago": "11 hours ago",
+      "comments": 853,
+      "domain": "twitter.com/fried_rice"
+    },
+    {
+      "rank": 4,
+      "title": "Cohere Transcribe: Speech Recognition",
+      "url": "https://cohere.com/blog/transcribe",
+      "points": 112,
+      "author": "gmays",
+      "time_ago": "4 hours ago",
+      "comments": 41,
+      "domain": "cohere.com"
+    },
+    {
+      "rank": 5,
+      "title": "Slop is not necessarily the future",
+      "url": "https://www.greptile.com/blog/ai-slopware-future",
+      "points": 99,
+      "author": "dakshgupta",
+      "time_ago": "4 hours ago",
+      "comments": 179,
+      "domain": "greptile.com"
+    },
+    {
+      "rank": 6,
+      "title": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
+      "url": "https://github.com/timescale/pg_textsearch",
+      "points": 34,
+      "author": "tjgreen",
+      "time_ago": "2 hours ago",
+      "comments": 5,
+      "domain": "github.com/timescale"
+    },
+    {
+      "rank": 7,
+      "title": "Open source CAD in the browser (Solvespace)",
+      "url": "https://solvespace.com/webver.pl",
+      "points": 229,
+      "author": "phkahler",
+      "time_ago": "7 hours ago",
+      "comments": 71,
+      "domain": "solvespace.com"
+    },
+    {
+      "rank": 8,
+      "title": "Teenage Engineering's PO-32 acoustic modem and synth implementation",
+      "url": "https://github.com/ericlewis/libpo32",
+      "points": 27,
+      "author": "ericlewis",
+      "time_ago": "2 hours ago",
+      "comments": 4,
+      "domain": "github.com/ericlewis"
+    },
+    {
+      "rank": 9,
+      "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
+      "url": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
+      "points": 137,
+      "author": "whiteboardr",
+      "time_ago": "2 hours ago",
+      "comments": 31,
+      "domain": "arstechnica.com"
+    },
+    {
+      "rank": 10,
+      "title": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
+      "url": "https://github.com/jkool702/forkrun",
+      "points": 64,
+      "author": "jkool702",
+      "time_ago": "4 hours ago",
+      "comments": 10,
+      "domain": "github.com/jkool702"
+    },
+    {
+      "rank": 11,
+      "title": "Accelerating the Next Phase of AI",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "points": 14,
+      "author": "surprisetalk",
+      "time_ago": "21 minutes ago",
+      "comments": 14,
+      "domain": "openai.com"
+    },
+    {
+      "rank": 12,
+      "title": "A Primer on Long-Duration Life Support",
+      "url": "https://mceglowski.substack.com/p/a-primer-on-long-duration-life-support",
+      "points": 30,
+      "author": "zdw",
+      "time_ago": "3 hours ago",
+      "comments": 7,
+      "domain": "mceglowski.substack.com"
+    },
+    {
+      "rank": 13,
+      "title": "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem",
+      "url": "https://news.future-shock.ai/the-weight-of-remembering/",
+      "points": 41,
+      "author": "future-shock-ai",
+      "time_ago": "4 hours ago",
+      "comments": 5,
+      "domain": "future-shock.ai"
+    },
+    {
+      "rank": 14,
+      "title": "Accidentally created my first fork bomb with Claude Code",
+      "url": "https://www.droppedasbaby.com/posts/2602-01/",
+      "points": 32,
+      "author": "offbyone42",
+      "time_ago": "4 hours ago",
+      "comments": 5,
+      "domain": "droppedasbaby.com"
+    },
+    {
+      "rank": 15,
+      "title": "Nematophagous Fungus",
+      "url": "https://en.wikipedia.org/wiki/Nematophagous_fungus",
+      "points": 10,
+      "author": "lordgilman",
+      "time_ago": "1 hour ago",
+      "comments": 3,
+      "domain": "wikipedia.org"
+    },
+    {
+      "rank": 16,
+      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
+      "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+      "points": 1706,
+      "author": "mtud",
+      "time_ago": "17 hours ago",
+      "comments": 683,
+      "domain": "stepsecurity.io"
+    },
+    {
+      "rank": 17,
+      "title": "Audio tapes reveal mass rule-breaking in Milgram's obedience experiments",
+      "url": "https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/",
+      "points": 174,
+      "author": "lentoutcry",
+      "time_ago": "11 hours ago",
+      "comments": 103,
+      "domain": "psypost.org"
+    },
+    {
+      "rank": 18,
+      "title": "GitHub Monaspace Case Study",
+      "url": "https://lettermatic.com/custom/monaspace-case-study",
+      "points": 87,
+      "author": "homebrewer",
+      "time_ago": "5 hours ago",
+      "comments": 24,
+      "domain": "lettermatic.com"
+    },
+    {
+      "rank": 19,
+      "title": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
+      "url": "https://cerno.sh",
+      "points": 7,
+      "author": "plawlost",
+      "time_ago": "1 hour ago",
+      "comments": 15,
+      "domain": "cerno.sh"
+    },
+    {
+      "rank": 20,
+      "title": "Securing Elliptic Curve Cryptocurrencies Against Quantum Vulnerabilities",
+      "url": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf",
+      "points": 34,
+      "author": "jandrewrogers",
+      "time_ago": "4 hours ago",
+      "comments": 17,
+      "domain": "quantumai.google"
+    }
   ]
 }

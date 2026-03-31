@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-04-01T04:30:00Z",
+  "source": "Bing RSS (cn.bing.com/search?q=AI+ML+news+April+2026)",
+  "items": [
+    {
+      "title": "DeepSeek | 深度求索",
+      "link": "https://www.deepseek.com/",
+      "description": "深度求索（DeepSeek），成立于2023年，专注于研究世界领先的通用人工智能底层模型与技术，挑战人工智能前沿性难题。",
+      "pubDate": "Tue, 31 Mar 2026 10:56:00 GMT"
+    },
+    {
+      "title": "AI人工智能学习网站大全 | AI工具集",
+      "link": "https://ai-bot.cn/favorites/websites-to-learn-ai/",
+      "description": "AI工具集官网收录了国内外数百个AI工具，包括AI写作工具、AI图像生成和背景移除、AI视频制作等。",
+      "pubDate": "Tue, 31 Mar 2026 01:37:00 GMT"
+    },
+    {
+      "title": "百度AI开放平台",
+      "link": "https://ai.baidu.com/",
+      "description": "全球领先的人工智能服务平台，提供语音、图像、NLP等多项人工智能技术。",
+      "pubDate": "Tue, 31 Mar 2026 13:19:00 GMT"
+    },
+    {
+      "title": "Google AI",
+      "link": "https://developers.google.cn/ai/discover/our-models/",
+      "description": "Google AI - 让每个人都能从AI中受益",
+      "pubDate": "Mon, 30 Mar 2026 21:41:00 GMT"
+    },
+    {
+      "title": "讯飞星火-懂我的AI助手",
+      "link": "https://xinghuo.xfyun.cn/",
+      "description": "星火电脑版全新升级！聚焦垂直场景，全新升级AI写作、解题答疑、AI阅读、深度研究等实用功能。",
+      "pubDate": "Mon, 30 Mar 2026 21:20:00 GMT"
+    },
+    {
+      "title": "阿里云AI",
+      "link": "https://ai.aliyun.com/",
+      "description": "阿里云AI涵盖通义大模型系列（通义千问、通义万相）、人工智能平台PAI等全栈AI服务。",
+      "pubDate": "Mon, 30 Mar 2026 21:20:00 GMT"
+    },
+    {
+      "title": "必应AI日报 | 每日AI前沿资讯与大模型技术动态",
+      "link": "https://aivertical.chinacloudsites.cn/",
+      "description": "必应旗下AI资讯平台，每日精选全球人工智能领域最新进展、AGI技术突破及行业应用案例。",
+      "pubDate": "Tue, 31 Mar 2026 19:46:00 GMT"
+    }
+  ]
+}
