@@ -1,0 +1,80 @@
+﻿{
+    "source":  "bgithub.xyz/trending",
+    "projects":  [
+                     {
+                         "url":  "https://github.com/freeCodeCamp/freeCodeCamp",
+                         "language":  "TypeScript",
+                         "name":  "freeCodeCamp/freeCodeCamp",
+                         "stars":  440248,
+                         "description":  "freeCodeCamp.org\u0027s open-source codebase and curriculum. Learn math, programming, and computer science for free."
+                     },
+                     {
+                         "url":  "https://github.com/EbookFoundation/free-programming-books",
+                         "language":  "Python",
+                         "name":  "EbookFoundation/free-programming-books",
+                         "stars":  384758,
+                         "description":  ":books: Freely available programming books"
+                     },
+                     {
+                         "url":  "https://github.com/kamranahmedse/developer-roadmap",
+                         "language":  "TypeScript",
+                         "name":  "kamranahmedse/developer-roadmap",
+                         "stars":  351944,
+                         "description":  "Interactive roadmaps, guides and other educational content to help developers grow in their careers."
+                     },
+                     {
+                         "url":  "https://github.com/openclaw/openclaw",
+                         "language":  "TypeScript",
+                         "name":  "openclaw/openclaw",
+                         "stars":  343257,
+                         "description":  "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+                     },
+                     {
+                         "url":  "https://github.com/vinta/awesome-python",
+                         "language":  "Python",
+                         "name":  "vinta/awesome-python",
+                         "stars":  289964,
+                         "description":  "An opinionated list of Python frameworks, libraries, tools, and resources"
+                     },
+                     {
+                         "url":  "https://github.com/awesome-selfhosted/awesome-selfhosted",
+                         "language":  null,
+                         "name":  "awesome-selfhosted/awesome-selfhosted",
+                         "stars":  283210,
+                         "description":  "A list of Free Software network services and web applications which can be hosted on your own servers"
+                     },
+                     {
+                         "url":  "https://github.com/facebook/react",
+                         "language":  "JavaScript",
+                         "name":  "facebook/react",
+                         "stars":  244292,
+                         "description":  "The library for web and native user interfaces."
+                     },
+                     {
+                         "url":  "https://github.com/torvalds/linux",
+                         "language":  "C",
+                         "name":  "torvalds/linux",
+                         "stars":  226082,
+                         "description":  "Linux kernel source tree"
+                     },
+                     {
+                         "url":  "https://github.com/TheAlgorithms/Python",
+                         "language":  "Python",
+                         "name":  "TheAlgorithms/Python",
+                         "stars":  219174,
+                         "description":  "All Algorithms implemented in Python"
+                     },
+                     {
+                         "url":  "https://github.com/ossu/computer-science",
+                         "language":  "HTML",
+                         "name":  "ossu/computer-science",
+                         "stars":  202822,
+                         "description":  "🎓 Path to a free self-taught education in Computer Science!"
+                     }
+                 ],
+    "timestamp_iso":  "2026-04-01T09:59:58Z",
+    "errors":  [
+                   "Method1_failed"
+               ],
+    "timestamp":  "2026-04-01 09:59:58"
+}
