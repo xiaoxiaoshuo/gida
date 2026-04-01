@@ -1,207 +1,42 @@
 {
-  "timestamp": "2026-04-01T04:30:00Z",
-  "fetched_at": "2026-03-31T20:30:44Z",
+  "timestamp": "2026-04-01T00:55:00Z",
+  "fetched_at": "2026-04-01T00:55:00Z",
   "source": "news.ycombinator.com (browser)",
   "top_items": [
-    {
-      "rank": 1,
-      "title": "GitHub's Historic Uptime",
-      "url": "https://damrnelson.github.io/github-historical-uptime/",
-      "points": 197,
-      "author": "todsacerdoti",
-      "time_ago": "1 hour ago",
-      "comments": 46,
-      "domain": "damrnelson.github.io"
-    },
-    {
-      "rank": 2,
-      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
-      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
-      "points": 284,
-      "author": "alex000kim",
-      "time_ago": "3 hours ago",
-      "comments": 126,
-      "domain": "alex000kim.com"
-    },
-    {
-      "rank": 3,
-      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
-      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
-      "points": 1692,
-      "author": "treexs",
-      "time_ago": "11 hours ago",
-      "comments": 853,
-      "domain": "twitter.com/fried_rice"
-    },
-    {
-      "rank": 4,
-      "title": "Cohere Transcribe: Speech Recognition",
-      "url": "https://cohere.com/blog/transcribe",
-      "points": 112,
-      "author": "gmays",
-      "time_ago": "4 hours ago",
-      "comments": 41,
-      "domain": "cohere.com"
-    },
-    {
-      "rank": 5,
-      "title": "Slop is not necessarily the future",
-      "url": "https://www.greptile.com/blog/ai-slopware-future",
-      "points": 99,
-      "author": "dakshgupta",
-      "time_ago": "4 hours ago",
-      "comments": 179,
-      "domain": "greptile.com"
-    },
-    {
-      "rank": 6,
-      "title": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
-      "url": "https://github.com/timescale/pg_textsearch",
-      "points": 34,
-      "author": "tjgreen",
-      "time_ago": "2 hours ago",
-      "comments": 5,
-      "domain": "github.com/timescale"
-    },
-    {
-      "rank": 7,
-      "title": "Open source CAD in the browser (Solvespace)",
-      "url": "https://solvespace.com/webver.pl",
-      "points": 229,
-      "author": "phkahler",
-      "time_ago": "7 hours ago",
-      "comments": 71,
-      "domain": "solvespace.com"
-    },
-    {
-      "rank": 8,
-      "title": "Teenage Engineering's PO-32 acoustic modem and synth implementation",
-      "url": "https://github.com/ericlewis/libpo32",
-      "points": 27,
-      "author": "ericlewis",
-      "time_ago": "2 hours ago",
-      "comments": 4,
-      "domain": "github.com/ericlewis"
-    },
-    {
-      "rank": 9,
-      "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
-      "url": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
-      "points": 137,
-      "author": "whiteboardr",
-      "time_ago": "2 hours ago",
-      "comments": 31,
-      "domain": "arstechnica.com"
-    },
-    {
-      "rank": 10,
-      "title": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)",
-      "url": "https://github.com/jkool702/forkrun",
-      "points": 64,
-      "author": "jkool702",
-      "time_ago": "4 hours ago",
-      "comments": 10,
-      "domain": "github.com/jkool702"
-    },
-    {
-      "rank": 11,
-      "title": "Accelerating the Next Phase of AI",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai",
-      "points": 14,
-      "author": "surprisetalk",
-      "time_ago": "21 minutes ago",
-      "comments": 14,
-      "domain": "openai.com"
-    },
-    {
-      "rank": 12,
-      "title": "A Primer on Long-Duration Life Support",
-      "url": "https://mceglowski.substack.com/p/a-primer-on-long-duration-life-support",
-      "points": 30,
-      "author": "zdw",
-      "time_ago": "3 hours ago",
-      "comments": 7,
-      "domain": "mceglowski.substack.com"
-    },
-    {
-      "rank": 13,
-      "title": "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem",
-      "url": "https://news.future-shock.ai/the-weight-of-remembering/",
-      "points": 41,
-      "author": "future-shock-ai",
-      "time_ago": "4 hours ago",
-      "comments": 5,
-      "domain": "future-shock.ai"
-    },
-    {
-      "rank": 14,
-      "title": "Accidentally created my first fork bomb with Claude Code",
-      "url": "https://www.droppedasbaby.com/posts/2602-01/",
-      "points": 32,
-      "author": "offbyone42",
-      "time_ago": "4 hours ago",
-      "comments": 5,
-      "domain": "droppedasbaby.com"
-    },
-    {
-      "rank": 15,
-      "title": "Nematophagous Fungus",
-      "url": "https://en.wikipedia.org/wiki/Nematophagous_fungus",
-      "points": 10,
-      "author": "lordgilman",
-      "time_ago": "1 hour ago",
-      "comments": 3,
-      "domain": "wikipedia.org"
-    },
-    {
-      "rank": 16,
-      "title": "Axios compromised on NPM – Malicious versions drop remote access trojan",
-      "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
-      "points": 1706,
-      "author": "mtud",
-      "time_ago": "17 hours ago",
-      "comments": 683,
-      "domain": "stepsecurity.io"
-    },
-    {
-      "rank": 17,
-      "title": "Audio tapes reveal mass rule-breaking in Milgram's obedience experiments",
-      "url": "https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/",
-      "points": 174,
-      "author": "lentoutcry",
-      "time_ago": "11 hours ago",
-      "comments": 103,
-      "domain": "psypost.org"
-    },
-    {
-      "rank": 18,
-      "title": "GitHub Monaspace Case Study",
-      "url": "https://lettermatic.com/custom/monaspace-case-study",
-      "points": 87,
-      "author": "homebrewer",
-      "time_ago": "5 hours ago",
-      "comments": 24,
-      "domain": "lettermatic.com"
-    },
-    {
-      "rank": 19,
-      "title": "Show HN: Cerno – CAPTCHA that targets LLM reasoning, not human biology",
-      "url": "https://cerno.sh",
-      "points": 7,
-      "author": "plawlost",
-      "time_ago": "1 hour ago",
-      "comments": 15,
-      "domain": "cerno.sh"
-    },
-    {
-      "rank": 20,
-      "title": "Securing Elliptic Curve Cryptocurrencies Against Quantum Vulnerabilities",
-      "url": "https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf",
-      "points": 34,
-      "author": "jandrewrogers",
-      "time_ago": "4 hours ago",
-      "comments": 17,
-      "domain": "quantumai.google"
-    }
-  ]
+    {"rank": 1, "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode", "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/", "points": 707, "author": "alex000kim", "time_ago": "8 hours ago", "comments": 292, "domain": "alex000kim.com", "ai_related": true},
+    {"rank": 2, "title": "Ministack (Replacement for LocalStack)", "url": "https://ministack.org/", "points": 123, "author": "kerblang", "time_ago": "4 hours ago", "comments": 20, "domain": "ministack.org", "ai_related": false},
+    {"rank": 3, "title": "A dot a day keeps the clutter away", "url": "https://scottlawsonbc.com/post/dot-system", "points": 105, "author": "scottlawson", "time_ago": "3 hours ago", "comments": 34, "domain": "scottlawsonbc.com", "ai_related": false},
+    {"rank": 4, "title": "OpenAI closes funding round at an $852B valuation", "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html", "points": 299, "author": "surprisetalk", "time_ago": "4 hours ago", "comments": 267, "domain": "cnbc.com", "ai_related": true},
+    {"rank": 5, "title": "TinyLoRA – Learning to Reason in 13 Parameters", "url": "https://arxiv.org/abs/2602.04118", "points": 20, "author": "sorenjan", "time_ago": "2 hours ago", "comments": 0, "domain": "arxiv.org", "ai_related": true},
+    {"rank": 6, "title": "4D Doom", "url": "https://github.com/danieldugas/HYPERHELL", "points": 112, "author": "chronolitus", "time_ago": "4 hours ago", "comments": 24, "domain": "github.com/danieldugas", "ai_related": false},
+    {"rank": 7, "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs", "url": "https://prismml.com/", "points": 65, "author": "PrismML", "time_ago": "3 hours ago", "comments": 30, "domain": "prismml.com", "ai_related": true},
+    {"rank": 8, "title": "Slop is not necessarily the future", "url": "https://www.greptile.com/blog/ai-slopware-future", "points": 170, "author": "dakshgupta", "time_ago": "9 hours ago", "comments": 314, "domain": "greptile.com", "ai_related": true},
+    {"rank": 9, "title": "Cohere Transcribe: Speech Recognition", "url": "https://cohere.com/blog/transcribe", "points": 153, "author": "gmays", "time_ago": "8 hours ago", "comments": 49, "domain": "cohere.com", "ai_related": true},
+    {"rank": 10, "title": "Teenage Engineering's PO-32 acoustic modem and synth implementation", "url": "https://github.com/ericlewis/libpo32", "points": 78, "author": "ericlewis", "time_ago": "6 hours ago", "comments": 19, "domain": "github.com/ericlewis", "ai_related": false},
+    {"rank": 11, "title": "Open source CAD in the browser (Solvespace)", "url": "https://solvespace.com/webver.pl", "points": 278, "author": "phkahler", "time_ago": "12 hours ago", "comments": 92, "domain": "solvespace.com", "ai_related": false},
+    {"rank": 12, "title": "Ordinary Lab Gloves May Have Skewed Microplastic Data", "url": "https://nautil.us/ordinary-lab-gloves-may-have-skewed-microplastic-data-1279386", "points": 40, "author": "WaitWaitWha", "time_ago": "3 hours ago", "comments": 10, "domain": "nautil.us", "ai_related": false},
+    {"rank": 13, "title": "Learn Something Old Every Day, Part XVIII: How Does FPU Detection Work?", "url": "https://www.os2museum.com/wp/learn-something-old-every-day-part-xviii-how-does-fpu-detection-work/", "points": 18, "author": "kencausey", "time_ago": "2 hours ago", "comments": 0, "domain": "os2museum.com", "ai_related": false},
+    {"rank": 14, "title": "I Traced My Traffic Through a Home Tailscale Exit Node", "url": "https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/", "points": 64, "author": "stonecharioteer", "time_ago": "5 hours ago", "comments": 33, "domain": "stonecharioteer.com", "ai_related": false},
+    {"rank": 15, "title": "Back to FreeBSD – Part 2 – Jails", "url": "https://hypha.pub/back-to-freebsd-part-2", "points": 36, "author": "vermaden", "time_ago": "3 hours ago", "comments": 7, "domain": "hypha.pub", "ai_related": false},
+    {"rank": 16, "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says", "url": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/", "points": 335, "author": "whiteboardr", "time_ago": "6 hours ago", "comments": 76, "domain": "arstechnica.com", "ai_related": true},
+    {"rank": 17, "title": "Show HN: Forkrun – NUMA-aware shell parallelizer (50×–400× faster than parallel)", "url": "https://github.com/jkool702/forkrun", "points": 105, "author": "jkool702", "time_ago": "8 hours ago", "comments": 25, "domain": "github.com/jkool702", "ai_related": false},
+    {"rank": 18, "title": "Postgres extension for BM25 relevance-ranked full-text search", "url": "https://github.com/timescale/pg_textsearch", "points": 90, "author": "tjgreen", "time_ago": "6 hours ago", "comments": 30, "domain": "github.com/timescale", "ai_related": false},
+    {"rank": 19, "title": "GitHub's Historic Uptime", "url": "https://damrnelson.github.io/github-historical-uptime/", "points": 379, "author": "todsacerdoti", "time_ago": "5 hours ago", "comments": 100, "domain": "damrnelson.github.io", "ai_related": false},
+    {"rank": 20, "title": "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem", "url": "https://news.future-shock.ai/the-weight-of-remembering/", "points": 76, "author": "future-shock-ai", "time_ago": "8 hours ago", "comments": 5, "domain": "future-shock.ai", "ai_related": true},
+    {"rank": 21, "title": "Why the US Navy won't blast the Iranians and 'open' Strait of Hormuz", "url": "https://responsiblestatecraft.org/iran-strait-of-hormuz/", "points": 155, "author": "KoftaBob", "time_ago": "15 hours ago", "comments": 417, "domain": "responsiblestatecraft.org", "ai_related": false},
+    {"rank": 22, "title": "Nematophagous Fungus", "url": "https://en.wikipedia.org/wiki/Nematophagous_fungus", "points": 36, "author": "lordgilman", "time_ago": "5 hours ago", "comments": 5, "domain": "wikipedia.org", "ai_related": false},
+    {"rank": 23, "title": "Axios compromised on NPM – Malicious versions drop remote access trojan", "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan", "points": 1771, "author": "mtud", "time_ago": "21 hours ago", "comments": 714, "domain": "stepsecurity.io", "ai_related": false},
+    {"rank": 24, "title": "Super Micro Computer Investors Look for Exits", "url": "https://catenaa.com/markets/equities/super-micro-computer-investors-look-for-exits/", "points": 28, "author": "malindasp", "time_ago": "4 hours ago", "comments": 14, "domain": "catenaa.com", "ai_related": false},
+    {"rank": 25, "title": "Audio tapes reveal mass rule-breaking in Milgram's obedience experiments", "url": "https://www.psypost.org/audio-tapes-reveal-mass-rule-breaking-in-milgram-s-obedience-experiments-2026-03-26/", "points": 199, "author": "lentoutcry", "time_ago": "15 hours ago", "comments": 124, "domain": "psypost.org", "ai_related": false},
+    {"rank": 26, "title": "A Primer on Long-Duration Life Support", "url": "https://mceglowski.substack.com/p/a-primer-on-long-duration-life-support", "points": 67, "author": "zdw", "time_ago": "7 hours ago", "comments": 17, "domain": "mceglowski.substack.com", "ai_related": false},
+    {"rank": 27, "title": "Accidentally created my first fork bomb with Claude Code", "url": "https://www.droppedasbaby.com/posts/2602-01/", "points": 56, "author": "offbyone42", "time_ago": "8 hours ago", "comments": 15, "domain": "droppedasbaby.com", "ai_related": true},
+    {"rank": 28, "title": "GitHub Monaspace Case Study", "url": "https://lettermatic.com/custom/monaspace-case-study", "points": 110, "author": "homebrewer", "time_ago": "9 hours ago", "comments": 37, "domain": "lettermatic.com", "ai_related": false},
+    {"rank": 29, "title": "Combinators", "url": "https://tinyapl.rubenverg.com/docs/info/combinators", "points": 129, "author": "tosh", "time_ago": "13 hours ago", "comments": 39, "domain": "rubenverg.com", "ai_related": false},
+    {"rank": 30, "title": "Microsoft: Copilot is for entertainment purposes only", "url": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse", "points": 452, "author": "lpcvoid", "time_ago": "10 hours ago", "comments": 167, "domain": "microsoft.com", "ai_related": true}
+  ],
+  "summary": {
+    "total_items": 30,
+    "ai_related_count": 12,
+    "top_item": "The Claude Code Source Leak (707 points)"
+  }
 }
