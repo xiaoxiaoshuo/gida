@@ -141,20 +141,63 @@
 
 ---
 
-## 🚨 09:59 扫描 - fix-refresh-0959 执行中
+## 🚨 10:02 修复性采集完成 - fix-refresh-0959 ✅
 
-### ⚠️ 09:59 静默失败发现
+### 📊 系统状态（10:02 快照）
+| 项目 | 状态 | 详情 |
+|------|------|------|
+| **GitHub Push** | 🔴 待推送 | 51ef00a ahead by 1 (502阻断) |
+| **BTC/ETH/SOL** | ✅ 10:01 | $67,818.3 / $2,095.72 / $82.87 OKX_API高质量 |
+| **F&G指数** | ✅ 10:01 | 8（极度恐慌） |
+| **宏观数据** | ✅ 10:01 | GOLD=$4,693.6 / OIL=$103.01 |
+| **AI/ML新闻** | ✅ 10:02 | 8条手动Bing采集，静默失败已修复 |
+| **GitHub Trending** | ✅ 10:00 | 20项GitHub API备份采集 |
+| **遗忘点** | ✅ 10:02 | forgotten-items-2026-04-01.md已更新 |
+
+### 🔧 静默失败诊断
+**根因**: `collect-tech-news.ps1` 内部调用 `web-fetch` CLI工具，PWSH不识别，导致全部AI新闻采集静默失败
+- Bing搜索 → `ERROR: web-fetch: term not recognized`
+- DeepSeek/OpenAI/Google AI → 全部 `Fetch失败`
+- 输出到 `data/tech/` 而非 `data/ai/`，ai-news_latest.json未更新
+
+**修复**: 手动通过 web_fetch 工具直接写入 ai-news_latest.json
+
+### 价格变化（08:54→10:01）
+- **BTC $67,818.3**: -$442 (-0.65%)，横盘$67K区间
+- **ETH $2,095.72**: -$15.10 (-0.72%)，小幅下跌
+- **SOL $82.87**: -$0.51 (-0.61%)，小幅下跌
+- **F&G 8**: 无变化，极度恐慌持续
+- **GOLD $4,693.6**: -$25.1 (-0.53%)
+- **OIL $103.01**: +$0.79 (+0.77%)
+
+### 关键发现
+1. **加密货币全线下行**: BTC/ETH/SOL全线小幅下跌，但幅度可控
+2. **F&G极度恐慌**: 8持续，与$67K价格形成底背离信号
+3. **bgithub.xyz DNS失败**: GitHub Trending镜像不可用，改用GitHub API备用方案
+
+### 本次完成
+- ✅ AI新闻：8条(Bing聚合+官网)，静默失败已修复
+- ✅ GitHub Trending：20项(GitHub API备份)
+- ✅ 市场价格：OKX_API高质量，0错误
+- ✅ 遗忘点：forgotten-items-2026-04-01.md已更新
+- ✅ HEARTBEAT.md：10:02快照已添加
+- ⏳ Git Push：待GitHub 502恢复
+
+*最后更新：2026-04-01 10:02 GMT+8*
+
+---
+
+## 🚨 09:59 静默失败发现 - fix-refresh-0959
+
+### ⚠️ 09:59 静默失败诊断
 | 数据 | 子智能体报告 | 实际状态 |
 |------|-------------|---------|
 | HN | ✅ | 08:58 ✅ |
 | AI新闻 | ✅ | 04:31 🔴 5.5h未更新 |
 | GitHub Trending | ✅ | 04:31 🔴 5.5h未更新 |
 
-### 📊 09:59 快照
-| 项目 | 状态 |
-|------|------|
-| GitHub Push | 🔴 1 commit待推送（51ef00a, 502阻断）|
-| AI新闻 | 🔴 静默失败待修复 |
+**根因**: collect-tech-news.ps1 内部 `web-fetch` CLI工具调用失败(PWSH不识别)，静默失败
+**GitHub Trending**: bgithub.xyz DNS解析失败，API备用方案生效但数量减少
 
 *最后更新：2026-04-01 09:59 GMT+8*
 
