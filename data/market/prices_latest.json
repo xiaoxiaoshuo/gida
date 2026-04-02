@@ -1,17 +1,13 @@
 {
-  "timestamp": "2026-04-02T14:09:00Z",
+  "timestamp": "2026-04-03T01:34:00+08:00",
   "source": "OKX API",
   "crypto": {
-    "BTC": { "price": 66341.4, "currency": "USDT", "change_24h_pct": -2.71, "high_24h": 69176.3, "low_24h": 65701.7, "volume_24h_usd": 465063865.70 },
-    "ETH": { "price": 2038.06, "currency": "USDT", "change_24h_pct": -3.83, "high_24h": 2168.0, "low_24h": 2017.09, "volume_24h_usd": 347635837.87 },
-    "SOL": { "price": 77.94, "currency": "USDT", "change_24h_pct": -5.83, "high_24h": 86.62, "low_24h": 76.7, "volume_24h_usd": 113477882.19 }
+    "BTC": { "price": 67035.2, "unit": "USDT", "change24h": -1.90, "high24h": 68653.7, "low24h": 65701.7 },
+    "ETH": { "price": 2059.34, "unit": "USDT", "change24h": -3.58, "high24h": 2165.43, "low24h": 2017.09 },
+    "SOL": { "price": 79.21, "unit": "USDT", "change24h": -6.17, "high24h": 85.09, "low24h": 76.7 }
   },
   "commodities": {
-    "gold": { "price_per_oz": 4649.56, "currency": "USD", "change_pct": -2.84, "source": "goldprice.org" },
-    "oil": {
-      "WTI": { "price": 111.0, "currency": "USD/barrel", "change_pct": 10.82 },
-      "Brent": { "price": 108.3, "currency": "USD/barrel", "change_pct": 7.07 },
-      "Murban": { "price": 113.7, "currency": "USD/barrel", "change_pct": 9.72 }
-    }
+    "gold_oz": { "price": 4660.32, "unit": "USD/oz", "source": "Trading Economics", "note": "Brutal Thu drop -4%, Iran war signal" },
+    "oil_brent": { "price": 110.53, "unit": "USD/bbl", "source": "Trading Economics", "note": "Brent ~106 Thu; Iran-Oman strait monitoring deal talk" }
   }
 }
