@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-03T04:39:00+08:00",
+  "timestamp": "2026-04-03T05:43:00+08:00",
   "source": "github.com/trending (browser)",
   "items": [
-    { "repo": "siddharthvaddem/openscreen", "stars": "2,496" },
-    { "repo": "Yeachan-Heo/oh-my-codex", "stars": "2,852" },
-    { "repo": "asgeirtj/system_prompts_leaks", "stars": "323" },
-    { "repo": "sherlock-project/sherlock", "stars": "807" }
+    { "repo": "sherlock-project/sherlock", "stars": "77,131", "description": "Hunt down social media accounts by username across social networks", "language": "Python" },
+    { "repo": "asgeirtj/system_prompts_leaks", "stars": "36,211", "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.", "language": "" },
+    { "repo": "siddharthvaddem/openscreen", "stars": "15,577", "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.", "language": "TypeScript" },
+    { "repo": "Yeachan-Heo/oh-my-codex", "stars": "11,379", "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.", "language": "TypeScript" }
   ],
-  "note": "GitHub Trending page captured 4 repos; full page load may have been incomplete"
+  "note": "GitHub trending page returning limited results (4 repos). github.com trending page appears to be partially unavailable, scrolling does not load more items."
 }
