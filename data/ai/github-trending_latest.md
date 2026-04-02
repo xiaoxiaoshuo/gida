@@ -1,48 +1,23 @@
-# GitHub Trending - 2026-04-01
+# GitHub Trending 2026-04-02
 
-> 数据来源: bgithub.xyz/trending | 采集时间: 2026-03-31 20:30 UTC
+## Top 14 Starred Repos (pushed after 2026-03-30)
 
-## 🏆 今日TOP项目
+| # | Repo | Stars | Forks | Language | Description |
+|---|------|-------|-------|----------|-------------|
+| 1 | sindresorhus/awesome | 451K | 33.9K | - | Awesome lists about all kinds of interesting topics |
+| 2 | freeCodeCamp/freeCodeCamp | 440K | 43.9K | TypeScript | freeCodeCamp.org's open-source codebase and curriculum |
+| 3 | EbookFoundation/free-programming-books | 384K | 66K | Python | Freely available programming books |
+| 4 | kamranahmedse/developer-roadmap | 352K | 43.8K | TypeScript | Interactive roadmaps and educational content for developers |
+| 5 | **openclaw/openclaw** | 345K | 68.6K | TypeScript | Your own personal AI assistant. Any OS. Any Platform. |
+| 6 | vinta/awesome-python | 290K | 27.5K | Python | Opinionated list of Python frameworks and libraries |
+| 7 | facebook/react | 244K | 50.8K | JavaScript | The library for web and native user interfaces |
+| 8 | torvalds/linux | 226K | 61.3K | C | Linux kernel source tree |
+| 9 | TheAlgorithms/Python | 219K | 50.2K | Python | All Algorithms implemented in Python |
+| 10 | tensorflow/tensorflow | 194K | 75.2K | C++ | An Open Source Machine Learning Framework |
+| 11 | microsoft/vscode | 183K | 38.8K | TypeScript | Visual Studio Code |
+| 12 | Significant-Gravitas/AutoGPT | 183K | 46.2K | Python | Accessible AI for everyone |
+| 13 | n8n-io/n8n | 182K | 56.4K | TypeScript | Workflow automation platform with native AI capabilities |
+| 14 | flutter/flutter | 175K | 30.2K | Dart | Build beautiful apps for mobile and beyond |
 
-### 1. [claude-howto](https://github.com/luongnv89/claude-howto) ⭐12,597 | 🔱今日+2,390
-> A visual, example-driven guide to Claude Code — from basic concepts to advanced agents
-`Python`
-
-### 2. [VibeVoice](https://github.com/microsoft/VibeVoice) ⭐32,910 | 🔱今日+3,862
-> Open-Source Frontier Voice AI — Microsoft开源语音AI
-`Python`
-
-### 3. [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) ⭐18,731 | 🔱今日+1,127
-> Teams-first Multi-agent orchestration for Claude Code
-`TypeScript`
-
-### 4. [hermes-agent](https://github.com/NousResearch/hermes-agent) ⭐20,118 | 🔱今日+1,909
-> The agent that grows with you
-`Python`
-
-### 5. [superpowers](https://github.com/obra/superpowers) ⭐— | 🔱—
-> An agentic skills framework & software development methodology that works.
-
-### 6. [agent-lightning](https://github.com/microsoft/agent-lightning) ⭐—
-> The absolute trainer to light up AI agents. — Microsoft
-
-### 7. [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) ⭐— | 100+语言支持的PDF/图像OCR工具包
-
-### 8. [Skills](https://github.com/Dimillian/Skills) ⭐2,795 | 🔱今日+173
-> My Codex Skills `Shell`
-
-### 9. [TaxHacker](https://github.com/vas3k/TaxHacker) ⭐3,659 | 🔱今日+325
-> Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions
-`TypeScript`
-
-### 10. [neovim](https://github.com/neovim/neovim) ⭐97,893 | 🔱今日+95
-> Vim-fork focused on extensibility and usability `Vim Script`
-
-## 📊 趋势分析
-
-**AI编程工具主导今日热榜**：
-- Claude Code相关项目占据多个席位（#1 #3）
-- 多智能体编排框架受关注（oh-my-claudecode, hermes-agent, superpowers）
-- Microsoft同时推出VibeVoice和agent-lightning，AI Agent赛道升温
-
-**关键词**: Claude Code / Multi-agent / Voice AI / OCR
+---
+*Source: GitHub API | 采集时间: 2026-04-02 19:58 GMT+8*

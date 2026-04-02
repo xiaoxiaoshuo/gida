@@ -1,35 +1,18 @@
-# AI/ML 新闻 - 2026-04-01
+# AI/ML 最新新闻 2026-04-02
 
-> 数据来源: Bing搜索 (cn.bing.com) | 采集时间: 2026-03-31 20:30 UTC
+## OpenAI 动态
+1. **OpenAI 完成1220亿美元融资** (2026-03-31) - 估值达8520亿美元,创AI领域最大规模融资
+2. **OpenAI 收购 Astral** (2026-03-19) - 继续扩张生态系统
+3. **OpenAI 发布 Model Spec 方法论** (2026-03-25) - 模型规范方法论发布
+4. **OpenAI 启动安全漏洞赏金计划** (2026-03-25) - 鼓励安全研究者参与
+5. **OpenAI 内部编码Agent监控研究** (2026-03-19) - 监测内部编码Agent的错位问题
 
-## 今日热词
-
-暂无具体新闻条目（Bing RSS返回中国AI门户为主）
-
-## GitHub Trending AI热点（补充）
-
-基于GitHub Trending数据，AI/ML核心趋势：
-
-### Claude Code生态持续爆发
-- **Claude Code源码泄露**：NPM registry map文件导致源码曝光（HN #3, 1692★）
-- **oh-my-claudecode**: 多智能体编排框架登顶，1127★/日
-- **hermes-agent**: 自我进化智能体，1909★/日
-
-### Microsoft双线出击
-- **VibeVoice**: 开源前沿语音AI，3862★/日（今日最高增长）
-- **agent-lightning**: AI Agent训练框架
-
-### 技术风向
-- **KV Cache优化**: 从300KB压缩到69KB/token（HN #13）
-- **Cohere Transcribe**: 语音识别新方案（HN #4, 112★）
-- **Cerno CAPTCHA**: 针对LLM推理而非人类生物特征的验证码（HN #19）
-
-## 关键事件
-
-1. **Claude Code源码泄露** — 开发者社区热议，Anthropic尚未回应
-2. **Axios NPM投毒** — 恶意版本植入RAT，1706★热度居高
-3. **OpenAI新文章** — "Accelerating the Next Phase of AI"（HN #11）
-4. **Oracle裁员30k** — 科技就业市场持续承压（HN #27, 755★）
+## 行业重要新闻
+6. **Meta工程团队用AI优化水泥/混凝土生产** (2026-03-30) - AI应用于工业碳减排
+7. **Mercor遭网络攻击,关联LiteLLM开源项目被入侵** (2026-03-31) - AI平台供应链安全风险
+8. **量子计算真实突破** (2026-04-01) - 非愚人节玩笑,真正的量子进展
+9. **AI泡沫辩论持续** - 美国缩表+财政扩张背景下,AI资产泡沫担忧升温
+10. **Manus通用AI Agent发布** - 中国团队发布全球首款通用型AI Agent产品
 
 ---
-*注：AI新闻信源质量待提升，建议后续通过HackerNews/GoogleNews补充*
+*数据来源: OpenAI官网, TechCrunch, Bing搜索 | 采集时间: 2026-04-02 19:57 GMT+8*

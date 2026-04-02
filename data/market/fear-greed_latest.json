@@ -1,17 +1,13 @@
 {
-    "name": "Fear and Greed Index",
-    "data": [
-        {
-            "value": "8",
-            "value_classification": "Extreme Fear",
-            "timestamp": "1774828800",
-            "time_until_update": "5528"
-        }
-    ],
-    "metadata": {
-        "error": null
-    },
-    "fetched_at": "2026-03-30T22:27:00Z",
-    "source": "api.alternative.me",
-    "collection_method": "web_fetch JSON API"
+  "timestamp": "2026-04-02T11:56:00Z",
+  "source": "https://alternative.me/crypto/fear-and-greed-index/",
+  "data": {
+    "value": 12,
+    "classification": "Extreme Fear",
+    "comparison": {
+      "yesterday": 8,
+      "last_week": 10,
+      "last_month": 14
+    }
+  }
 }
