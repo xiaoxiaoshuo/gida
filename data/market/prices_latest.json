@@ -1,14 +1,17 @@
 {
-  "timestamp": "2026-04-02T11:57:00Z",
-  "source": "OKX API + Bing News",
+  "timestamp": "2026-04-02T14:09:00Z",
+  "source": "OKX API",
   "crypto": {
-    "BTC": { "usd": 66191.4, "change_24h_pct": -3.7, "high_24h": 69176.3, "low_24h": 66156.6 },
-    "ETH": { "usd": 2032.66, "change_24h_pct": -4.85, "high_24h": 2168, "low_24h": 2023.69 },
-    "SOL": { "usd": 78.34, "change_24h_pct": -6.06, "high_24h": 86.62, "low_24h": 78.31 }
+    "BTC": { "price": 66341.4, "currency": "USDT", "change_24h_pct": -2.71, "high_24h": 69176.3, "low_24h": 65701.7, "volume_24h_usd": 465063865.70 },
+    "ETH": { "price": 2038.06, "currency": "USDT", "change_24h_pct": -3.83, "high_24h": 2168.0, "low_24h": 2017.09, "volume_24h_usd": 347635837.87 },
+    "SOL": { "price": 77.94, "currency": "USDT", "change_24h_pct": -5.83, "high_24h": 86.62, "low_24h": 76.7, "volume_24h_usd": 113477882.19 }
   },
   "commodities": {
-    "gold_spot": { "usd_per_oz": 4705.98, "note": "2026-04-01 close, London fix, via Bing news" },
-    "wti_oil": { "usd_per_bbl": 98.54, "note": "2026-04-01, via Bing news" },
-    "brent_oil": { "usd_per_bbl": 100.48, "note": "2026-04-01, via Bing news" }
+    "gold": { "price_per_oz": 4649.56, "currency": "USD", "change_pct": -2.84, "source": "goldprice.org" },
+    "oil": {
+      "WTI": { "price": 111.0, "currency": "USD/barrel", "change_pct": 10.82 },
+      "Brent": { "price": 108.3, "currency": "USD/barrel", "change_pct": 7.07 },
+      "Murban": { "price": 113.7, "currency": "USD/barrel", "change_pct": 9.72 }
+    }
   }
 }

@@ -1,18 +1,47 @@
-# AI/ML 最新新闻 2026-04-02
+# AI/ML News — 2026-04-02
 
-## OpenAI 动态
-1. **OpenAI 完成1220亿美元融资** (2026-03-31) - 估值达8520亿美元,创AI领域最大规模融资
-2. **OpenAI 收购 Astral** (2026-03-19) - 继续扩张生态系统
-3. **OpenAI 发布 Model Spec 方法论** (2026-03-25) - 模型规范方法论发布
-4. **OpenAI 启动安全漏洞赏金计划** (2026-03-25) - 鼓励安全研究者参与
-5. **OpenAI 内部编码Agent监控研究** (2026-03-19) - 监测内部编码Agent的错位问题
-
-## 行业重要新闻
-6. **Meta工程团队用AI优化水泥/混凝土生产** (2026-03-30) - AI应用于工业碳减排
-7. **Mercor遭网络攻击,关联LiteLLM开源项目被入侵** (2026-03-31) - AI平台供应链安全风险
-8. **量子计算真实突破** (2026-04-01) - 非愚人节玩笑,真正的量子进展
-9. **AI泡沫辩论持续** - 美国缩表+财政扩张背景下,AI资产泡沫担忧升温
-10. **Manus通用AI Agent发布** - 中国团队发布全球首款通用型AI Agent产品
+> Top stories in AI/ML · Source: Bing + News APIs · Collected: 2026-04-02 22:10 GMT+8
 
 ---
-*数据来源: OpenAI官网, TechCrunch, Bing搜索 | 采集时间: 2026-04-02 19:57 GMT+8*
+
+### 1. Trump Administration AI Strategy and Action Plan
+The US administration releases its AI strategy, asserting US leadership in AI.
+🔗 [ai.gov](https://www.ai.gov/)
+
+### 2. Steam on Linux Usage Surpasses 5% for First Time
+Linux gaming market share on Steam exceeds 5% in March 2026, a historic milestone.
+🔗 [Phoronix](https://www.phoronix.com/news/Steam-On-Linux-Tops-5p)
+
+### 3. EmDash: Cloudflare's Spiritual Successor to WordPress
+Cloudflare launches EmDash as a modern WordPress alternative focused on solving plugin security.
+🔗 [Cloudflare Blog](https://blog.cloudflare.com/emdash-wordpress/)
+
+### 4. Artemis II Launch Day Updates
+NASA's Artemis II mission — the first crewed lunar mission since Apollo — launches.
+🔗 [NASA](https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/)
+
+### 5. IBM Announces Strategic Collaboration with Arm
+IBM and Arm form strategic collaboration to shape enterprise computing.
+🔗 [IBM Newsroom](https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing)
+
+### 6. Mercor Cyberattack Linked to LiteLLM Compromise
+AI recruiting platform Mercor confirms cyberattack tied to open-source LiteLLM project compromise.
+🔗 [TechCrunch](https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/)
+
+### 7. AI for American Cement and Concrete Production
+Meta engineering team discusses AI optimization for cement and concrete manufacturing.
+🔗 [Meta Engineering](https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/)
+
+### 8. Ollama Expands: Kimi-K2.5, GLM-5, MiniMax Support Added
+Ollama adds support for Kimi-K2.5, GLM-5, and MiniMax alongside DeepSeek, Qwen, Gemma.
+🔗 [GitHub](https://github.com/ollama/ollama)
+
+### 9. China AI 2026 Development Outlook (Tsinghua)
+Tsinghua University releases forward-looking analysis on China's AI trajectory.
+🔗 [Tsinghua](https://www.tsinghua.edu.cn/info/1182/124190.htm)
+
+### 10. Open Source AI: Why It Matters (CCTV Report)
+CCTV coverage of open-source AI's role in industry development.
+🔗 [CCTV](https://news.cctv.com/2026/03/30/ARTIto8D2omohFRg6tp67qRU260330.shtml)
+
+---

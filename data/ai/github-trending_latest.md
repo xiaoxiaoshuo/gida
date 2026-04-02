@@ -1,23 +1,30 @@
-# GitHub Trending 2026-04-02
+# GitHub Trending — 2026-04-02
 
-## Top 14 Starred Repos (pushed after 2026-03-30)
+> Top repositories by stars (stars:>1000, pushed:>2026-04-01) · Source: GitHub API
 
-| # | Repo | Stars | Forks | Language | Description |
-|---|------|-------|-------|----------|-------------|
-| 1 | sindresorhus/awesome | 451K | 33.9K | - | Awesome lists about all kinds of interesting topics |
-| 2 | freeCodeCamp/freeCodeCamp | 440K | 43.9K | TypeScript | freeCodeCamp.org's open-source codebase and curriculum |
-| 3 | EbookFoundation/free-programming-books | 384K | 66K | Python | Freely available programming books |
-| 4 | kamranahmedse/developer-roadmap | 352K | 43.8K | TypeScript | Interactive roadmaps and educational content for developers |
-| 5 | **openclaw/openclaw** | 345K | 68.6K | TypeScript | Your own personal AI assistant. Any OS. Any Platform. |
-| 6 | vinta/awesome-python | 290K | 27.5K | Python | Opinionated list of Python frameworks and libraries |
-| 7 | facebook/react | 244K | 50.8K | JavaScript | The library for web and native user interfaces |
-| 8 | torvalds/linux | 226K | 61.3K | C | Linux kernel source tree |
-| 9 | TheAlgorithms/Python | 219K | 50.2K | Python | All Algorithms implemented in Python |
-| 10 | tensorflow/tensorflow | 194K | 75.2K | C++ | An Open Source Machine Learning Framework |
-| 11 | microsoft/vscode | 183K | 38.8K | TypeScript | Visual Studio Code |
-| 12 | Significant-Gravitas/AutoGPT | 183K | 46.2K | Python | Accessible AI for everyone |
-| 13 | n8n-io/n8n | 182K | 56.4K | TypeScript | Workflow automation platform with native AI capabilities |
-| 14 | flutter/flutter | 175K | 30.2K | Dart | Build beautiful apps for mobile and beyond |
+## Top 20
 
----
-*Source: GitHub API | 采集时间: 2026-04-02 19:58 GMT+8*
+| # | Repo | Stars | Lang | Description |
+|---|------|------:|------|-------------|
+| 1 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 345.6k | TS | Your own personal AI assistant 🦞 |
+| 2 | [facebook/react](https://github.com/facebook/react) | 244.3k | JS | The library for web and native user interfaces |
+| 3 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 219.2k | Python | All Algorithms implemented in Python |
+| 4 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194.4k | C++ | An Open Source Machine Learning Framework |
+| 5 | [microsoft/vscode](https://github.com/microsoft/vscode) | 183.3k | TS | Visual Studio Code |
+| 6 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 183.1k | Python | Accessible AI for everyone |
+| 7 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 182.2k | TS | Workflow automation with native AI |
+| 8 | [flutter/flutter](https://github.com/flutter/flutter) | 175.8k | Dart | Beautiful apps for mobile and beyond |
+| 9 | [ollama/ollama](https://github.com/ollama/ollama) | 166.8k | Go | Run Kimi-K2.5, GLM-5, MiniMax, DeepSeek, Qwen, Gemma |
+| 10 | [huggingface/transformers](https://github.com/huggingface/transformers) | 158.7k | Python | State-of-the-art ML models (text, vision, audio) |
+| 11 | [f/prompts.chat](https://github.com/f/prompts.chat) | 156.6k | HTML | ChatGPT/DALL-E prompt community |
+| 12 | [langflow-ai/langflow](https://github.com/langflow-ai/langflow) | 146.5k | Python | AI agents & workflow builder |
+| 13 | [vercel/next.js](https://github.com/vercel/next.js) | 138.6k | JS | The React Framework |
+| 14 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 135.5k | TS | Open source coding agent |
+| 15 | [langgenius/dify](https://github.com/langgenius/dify) | 135.5k | TS | Agentic workflow development platform |
+| 16 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 440.5k | TS | Learn to code for free |
+| 17 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 290.3k | Python | Opinionated Python frameworks list |
+| 18 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 174.1k | MDX | HTML, CSS, JS framework |
+| 19 | [avelino/awesome-go](https://github.com/avelino/awesome-go) | 168.9k | Go | Awesome Go frameworks & libs |
+| 20 | [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) | 154.6k | Java | Java & backend interview guide |
+
+> Updated: 2026-04-02 22:09 GMT+8

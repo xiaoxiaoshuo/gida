@@ -1,13 +1,8 @@
 {
-  "timestamp": "2026-04-02T11:56:00Z",
-  "source": "https://alternative.me/crypto/fear-and-greed-index/",
-  "data": {
-    "value": 12,
-    "classification": "Extreme Fear",
-    "comparison": {
-      "yesterday": 8,
-      "last_week": 10,
-      "last_month": 14
-    }
-  }
+  "timestamp": "2026-04-02T14:09:00Z",
+  "source": "alternative.me API",
+  "index": "Crypto Fear & Greed Index",
+  "value": 12,
+  "classification": "Extreme Fear",
+  "time_until_update": "35413"
 }

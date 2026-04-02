@@ -1,70 +1,66 @@
 {
-  "timestamp": "2026-04-02T11:57:00Z",
-  "source": "OpenAI news + Bing search",
+  "timestamp": "2026-04-02T14:10:00Z",
+  "source": "Bing search + alternative.me",
   "news": [
     {
-      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
-      "source": "OpenAI",
-      "date": "2026-03-31",
-      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
-      "summary": "OpenAI完成1220亿美元融资,估值达8520亿美元,加速AI下一阶段发展"
+      "title": "Trump Administration AI Strategy and Action Plan",
+      "summary": "The US administration releases its AI strategy, asserting US leadership in AI and outlining action plans to maintain competitiveness.",
+      "source": "ai.gov",
+      "url": "https://www.ai.gov/"
     },
     {
-      "title": "Inside our approach to the Model Spec",
-      "source": "OpenAI Research",
-      "date": "2026-03-25",
-      "url": "https://openai.com/index/our-approach-to-the-model-spec/"
+      "title": "Steam on Linux Usage Surpasses 5% for First Time",
+      "summary": "Linux gaming market share on Steam has exceeded 5% in March 2026, marking a historic milestone for open-source gaming.",
+      "source": "Phoronix",
+      "url": "https://www.phoronix.com/news/Steam-On-Linux-Tops-5p"
     },
     {
-      "title": "Introducing the OpenAI Safety Bug Bounty program",
-      "source": "OpenAI Safety",
-      "date": "2026-03-25",
-      "url": "https://openai.com/index/safety-bug-bounty/"
+      "title": "EmDash: Cloudflare's Spiritual Successor to WordPress",
+      "summary": "Cloudflare launches EmDash as a modern WordPress alternative focused on solving plugin security issues.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emdash-wordpress/"
     },
     {
-      "title": "OpenAI to acquire Astral",
-      "source": "OpenAI",
-      "date": "2026-03-19",
-      "url": "https://openai.com/index/openai-to-acquire-astral/"
+      "title": "Artemis II Launch Day: NASA Mission Updates",
+      "summary": "NASA's Artemis II mission launch day updates — the first crewed lunar mission since Apollo.",
+      "source": "NASA",
+      "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/"
     },
     {
-      "title": "How we monitor internal coding agents for misalignment",
-      "source": "OpenAI Safety",
-      "date": "2026-03-19",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/"
+      "title": "DRAM Pricing Impact on Hobbyist Single-Board Computers",
+      "summary": "Rising DRAM prices are significantly affecting the hobbyist SBC market, making devices less affordable.",
+      "source": "Jeff Geerling",
+      "url": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/"
     },
     {
-      "title": "AI for American-produced cement and concrete",
-      "source": "Meta Engineering",
-      "date": "2026-03-30",
-      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
-      "summary": "Meta用AI优化美国水泥和混凝土生产,减少碳排放"
+      "title": "IBM Announces Strategic Collaboration with Arm",
+      "summary": "IBM announces strategic collaboration with Arm to shape the future of enterprise computing.",
+      "source": "IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing"
     },
     {
-      "title": "Mercor says it was hit by cyberattack tied to compromise of LiteLLM",
+      "title": "Mercor Cyberattack Linked to LiteLLM Compromise",
+      "summary": "AI recruiting platform Mercor confirms cyberattack connected to the compromise of open-source LiteLLM project.",
       "source": "TechCrunch",
-      "date": "2026-03-31",
-      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
-      "summary": "AI招聘平台Mercor遭网络攻击,关联LiteLLM开源项目被入侵"
+      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/"
     },
     {
-      "title": "量子计算重大突破 (Quantum computing breakthroughs that are not April Fools)",
-      "source": "Scott Aaronson Blog",
-      "date": "2026-04-01",
-      "url": "https://scottaaronson.blog/?p=9665",
-      "summary": "量子计算真实突破,非愚人节玩笑"
+      "title": "AI for American-Produced Cement and Concrete",
+      "summary": "Meta's engineering team discusses AI applications for optimizing American cement and concrete production.",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/"
     },
     {
-      "title": "AI泡沫讨论持续:美国缩表+财政扩张引发AI资产泡沫担忧",
-      "source": "知乎",
-      "date": "2026-03",
-      "summary": "AI泡沫是否会在一两年内破灭?美国流动性紧张与AI泡沫的关联分析"
+      "title": "Ollama Adds Kimi-K2.5, GLM-5, MiniMax Support",
+      "summary": "Ollama expands its model support to include Kimi-K2.5, GLM-5, and MiniMax alongside existing DeepSeek, Qwen, Gemma models.",
+      "source": "GitHub",
+      "url": "https://github.com/ollama/ollama"
     },
     {
-      "title": "Manus - 全球首款通用型AI Agent产品发布",
-      "source": "知乎",
-      "date": "2026-03",
-      "summary": "中国团队发布通用型AI Agent,自称可自主解决复杂任务"
+      "title": "China AI Development: Tsinghua University 2026 Outlook",
+      "summary": "Tsinghua University releases forward-looking analysis on China's AI development trajectory in 2026.",
+      "source": "Tsinghua University",
+      "url": "https://www.tsinghua.edu.cn/info/1182/124190.htm"
     }
   ]
 }
