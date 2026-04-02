@@ -1,66 +1,16 @@
 {
-  "timestamp": "2026-04-02T14:10:00Z",
-  "source": "Bing search + alternative.me",
-  "news": [
-    {
-      "title": "Trump Administration AI Strategy and Action Plan",
-      "summary": "The US administration releases its AI strategy, asserting US leadership in AI and outlining action plans to maintain competitiveness.",
-      "source": "ai.gov",
-      "url": "https://www.ai.gov/"
-    },
-    {
-      "title": "Steam on Linux Usage Surpasses 5% for First Time",
-      "summary": "Linux gaming market share on Steam has exceeded 5% in March 2026, marking a historic milestone for open-source gaming.",
-      "source": "Phoronix",
-      "url": "https://www.phoronix.com/news/Steam-On-Linux-Tops-5p"
-    },
-    {
-      "title": "EmDash: Cloudflare's Spiritual Successor to WordPress",
-      "summary": "Cloudflare launches EmDash as a modern WordPress alternative focused on solving plugin security issues.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/emdash-wordpress/"
-    },
-    {
-      "title": "Artemis II Launch Day: NASA Mission Updates",
-      "summary": "NASA's Artemis II mission launch day updates — the first crewed lunar mission since Apollo.",
-      "source": "NASA",
-      "url": "https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/"
-    },
-    {
-      "title": "DRAM Pricing Impact on Hobbyist Single-Board Computers",
-      "summary": "Rising DRAM prices are significantly affecting the hobbyist SBC market, making devices less affordable.",
-      "source": "Jeff Geerling",
-      "url": "https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/"
-    },
-    {
-      "title": "IBM Announces Strategic Collaboration with Arm",
-      "summary": "IBM announces strategic collaboration with Arm to shape the future of enterprise computing.",
-      "source": "IBM Newsroom",
-      "url": "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing"
-    },
-    {
-      "title": "Mercor Cyberattack Linked to LiteLLM Compromise",
-      "summary": "AI recruiting platform Mercor confirms cyberattack connected to the compromise of open-source LiteLLM project.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/"
-    },
-    {
-      "title": "AI for American-Produced Cement and Concrete",
-      "summary": "Meta's engineering team discusses AI applications for optimizing American cement and concrete production.",
-      "source": "Meta Engineering",
-      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/"
-    },
-    {
-      "title": "Ollama Adds Kimi-K2.5, GLM-5, MiniMax Support",
-      "summary": "Ollama expands its model support to include Kimi-K2.5, GLM-5, and MiniMax alongside existing DeepSeek, Qwen, Gemma models.",
-      "source": "GitHub",
-      "url": "https://github.com/ollama/ollama"
-    },
-    {
-      "title": "China AI Development: Tsinghua University 2026 Outlook",
-      "summary": "Tsinghua University releases forward-looking analysis on China's AI development trajectory in 2026.",
-      "source": "Tsinghua University",
-      "url": "https://www.tsinghua.edu.cn/info/1182/124190.htm"
-    }
+  "timestamp": "2026-04-03T04:38:00+08:00",
+  "source": "Bing Search + Tech News",
+  "items": [
+    { "title": "Google releases Gemma 4 open models", "source": "HN/DeepMind", "url": "https://deepmind.google/models/gemma/gemma-4/" },
+    { "title": "Qwen3.6-Plus: Towards real world agents", "source": "HN/Qwen", "url": "https://qwen.ai/blog?id=qwen3.6" },
+    { "title": "Cursor 3", "source": "HN/Cursor", "url": "https://cursor.com/blog/cursor-3" },
+    { "title": "OpenAI Acquires TBPN", "source": "HN/OpenAI", "url": "https://openai.com/index/openai-acquires-tbpn/" },
+    { "title": "AI dominated deal activity in Q1 2026, record fundraising", "source": "OilPrice", "url": "https://oilprice.com" },
+    { "title": "2026年3月AI变天：中国模型周调用量突破7.359万亿Token", "source": "腾讯云", "url": "https://cloud.tencent.com/developer/article/2648260" },
+    { "title": "Delve allegedly forked open-source tool and sold it as its own", "source": "TechCrunch", "url": "https://techcrunch.com/2026/04/01/the-reputation-of-troubled-yc-startup-delve-has-gotten-even-worse/" },
+    { "title": "Chipmakers Scramble as Helium Crunch Threatens AI Expansion", "source": "OilPrice", "url": "https://oilprice.com" },
+    { "title": "IBM Announces Strategic Collaboration with Arm", "source": "IBM News", "url": "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing" },
+    { "title": "The case for zero-error horizons in trustworthy LLMs", "source": "arXiv", "url": "https://arxiv.org/abs/2601.15714" }
   ]
 }

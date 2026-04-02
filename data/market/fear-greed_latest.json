@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-03T01:34:00+08:00",
-  "source": "alternative.me",
-  "now": { "value": 12, "label": "Extreme Fear" },
-  "yesterday": { "value": 8, "label": "Extreme Fear" },
-  "last_week": { "value": 10, "label": "Extreme Fear" },
-  "last_month": { "value": 14, "label": "Extreme Fear" }
+  "timestamp": "2026-04-03T04:36:00+08:00",
+  "source": "api.alternative.me",
+  "value": 12,
+  "value_classification": "Extreme Fear",
+  "timestamp_unix": 1775088000,
+  "time_until_update": 12218
 }

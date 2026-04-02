@@ -1,13 +1,19 @@
 {
-  "timestamp": "2026-04-03T01:34:00+08:00",
-  "source": "OKX API",
+  "timestamp": "2026-04-03T04:36:00+08:00",
+  "source": "OKX Web Browser",
   "crypto": {
-    "BTC": { "price": 67035.2, "unit": "USDT", "change24h": -1.90, "high24h": 68653.7, "low24h": 65701.7 },
-    "ETH": { "price": 2059.34, "unit": "USDT", "change24h": -3.58, "high24h": 2165.43, "low24h": 2017.09 },
-    "SOL": { "price": 79.21, "unit": "USDT", "change24h": -6.17, "high24h": 85.09, "low24h": 76.7 }
+    "BTC": { "price": 66982, "currency": "USD", "change24h_pct": -2.37, "source": "okx.com" },
+    "ETH": { "price": 2069, "currency": "USD", "change24h_pct": -3.67, "source": "okx.com" },
+    "SOL": { "price": 79.22, "currency": "USD", "change24h_pct": -6.57, "source": "okx.com" }
   },
   "commodities": {
-    "gold_oz": { "price": 4660.32, "unit": "USD/oz", "source": "Trading Economics", "note": "Brutal Thu drop -4%, Iran war signal" },
-    "oil_brent": { "price": 110.53, "unit": "USD/bbl", "source": "Trading Economics", "note": "Brent ~106 Thu; Iran-Oman strait monitoring deal talk" }
+    "GOLD": { "price": 4671.45, "unit": "oz", "currency": "USD", "change_pct": -2.38, "source": "goldprice.org" },
+    "WTI_OIL": { "price": 111.8, "unit": "barrel", "currency": "USD", "change_pct": 11.62, "source": "oilprice.com" },
+    "BRENT_OIL": { "price": 108.8, "unit": "barrel", "currency": "USD", "change_pct": 7.57, "source": "oilprice.com" }
+  },
+  "fear_greed": {
+    "value": 12,
+    "classification": "Extreme Fear",
+    "source": "api.alternative.me"
   }
 }
