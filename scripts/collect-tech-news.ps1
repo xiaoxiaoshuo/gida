@@ -32,12 +32,16 @@ function Write-Log {
 function Invoke-WebFetch {
     param([string]$Url, [int]$MaxChars = 5000)
     try {
-        $result = web-fetch --url $Url --maxChars $MaxChars 2>$null
-        if ($result -and $result.status -eq 200) {
-            return $result.text
+        $response = Invoke-WebRequest -Uri $Url -UseBasicParsing -TimeoutSec 15 -ErrorAction Stop
+        if ($response.StatusCode -eq 200) {
+            $text = $response.Content
+            if ($text.Length -gt $MaxChars) {
+                $text = $text.Substring(0, $MaxChars)
+            }
+            return $text
         }
     } catch {
-        Write-Log "Fetch失败: $Url - $_" "ERROR"
+        Write-Log "Fetch失败: $Url - $($_.Exception.Message.Substring(0,80))" "ERROR"
     }
     return $null
 }
@@ -47,11 +51,17 @@ function Invoke-BingSearch {
     $encoded = [System.Web.HttpUtility]::UrlEncode($Query)
     $url = "https://cn.bing.com/search?q=$encoded"
     try {
-        $result = web-fetch --url $url --maxChars $MaxChars 2>$null
-        if ($result -and $result.status -eq 200) {
-            return $result.text
+        $response = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 15 -ErrorAction Stop
+        if ($response.StatusCode -eq 200) {
+            $text = $response.Content
+            if ($text.Length -gt $MaxChars) {
+                $text = $text.Substring(0, $MaxChars)
+            }
+            return $text
         }
-    } catch {}
+    } catch {
+        Write-Log "Bing搜索失败: $Query - $($_.Exception.Message.Substring(0,80))" "ERROR"
+    }
     return $null
 }
 
