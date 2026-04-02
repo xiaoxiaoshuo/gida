@@ -1,8 +1,11 @@
 {
-  "timestamp": "2026-04-03T04:36:00+08:00",
-  "source": "api.alternative.me",
+  "timestamp": "2026-04-03T06:49:00+08:00",
+  "source": "https://api.alternative.me/fng/?limit=1",
   "value": 12,
   "value_classification": "Extreme Fear",
-  "timestamp_unix": 1775088000,
-  "time_until_update": 12218
+  "metadata": {
+    "error": null,
+    "timestamp_unix": 1775088000,
+    "time_until_update_seconds": 4277
+  }
 }
