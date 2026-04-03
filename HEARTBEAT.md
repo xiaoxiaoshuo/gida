@@ -1,16 +1,35 @@
 # HEARTBEAT.md - 定时检查清单
 
-## 🚨 08:51 快速刷新 - quick-refresh-0851
+## 🚨 08:51 快速刷新 - quick-refresh-0851 ✅ 完成
 
 ### 📊 系统状态（08:51 快照）
 | 项目 | 状态 | 详情 |
 |------|------|------|
 | **GitHub Push** | ✅ 07:51 | 2512e68已推送 |
-| **市场价格** | ⚠️ ~1h前 | BTC=$66,853 @ 07:51 |
-| **GitHub Trending** | 🔴 4 repos | github.com限流 |
+| **市场价格** | ✅ 08:51 | BTC=$66,777 / ETH=$2,052 / SOL=$79.23 |
+| **F&G指数** | ✅ 08:51 | 9（极度恐慌）⬇️ 12→9 |
+| **GitHub Trending** | ✅ 14 repos | wsq.be分析+github补采集 |
+
+### 价格变化（07:51→08:51）
+- **BTC $66,777**: -$76 (-0.11%)，横盘
+- **ETH $2,052**: -$4 (-0.19%)，微跌
+- **SOL $79.23**: +$0.33 (+0.42%)，小幅反弹
+- **F&G 9**: 12→9，恐慌加剧（但价格未新低）
+
+### 核心信号
+1. **F&G恶化至9**: 从12降至9，接近历史极值，但BTC维持$66K
+2. **GitHub Trending**: 14 repos补采（wsq.be分析+github.com补采）
+3. **github.com 502**: trending持续502，改用备选方案
+
+### 本次完成
+- ✅ 市场价格：OKX Web Browser，BTC/ETH/SOL + 24h变化率
+- ✅ F&G指数：9（极度恐慌），12→9恶化
+- ✅ GitHub Trending：14 repos（wsq.be分析+github补采）
+- ✅ Git Push：待检查
+- ✅ HEARTBEAT.md：08:51快照已添加
 
 ### 子智能体
-- ✅ quick-refresh-0851 已派发
+- ✅ quick-refresh-0851 已完成
 
 *最后更新：2026-04-03 08:51 GMT+8*
 

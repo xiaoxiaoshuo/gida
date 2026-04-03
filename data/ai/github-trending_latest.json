@@ -1,12 +1,26 @@
 {
-  "timestamp": "2026-04-03T06:50:00+08:00",
-  "source": "https://github.com/trending",
-  "count": 4,
+  "timestamp": "2026-04-03T08:51:00+08:00",
+  "source": "wsq.be trending analysis (2026-04-01) + github.com/trending",
+  "count": 14,
   "repos": [
-    { "name": "siddharthvaddem/openscreen", "lang": "TypeScript", "stars": "15,672", "desc": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio." },
-    { "name": "Yeachan-Heo/oh-my-codex", "lang": "TypeScript", "stars": "11,476", "desc": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more." },
-    { "name": "asgeirtj/system_prompts_leaks", "lang": null, "stars": "36,261", "desc": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly." },
-    { "name": "sherlock-project/sherlock", "lang": "Python", "stars": "77,183", "desc": "Hunt down social media accounts by username across social networks" }
+    { "name": "luongnv89/claude-howto", "lang": null, "stars": null, "desc": "面向 Claude Code 的可视化、示例驱动指南" },
+    { "name": "microsoft/VibeVoice", "lang": null, "stars": null, "desc": "微软开源语音AI项目，强调高质量声音生成" },
+    { "name": "Yeachan-Heo/oh-my-claudecode", "lang": null, "stars": null, "desc": "面向团队的 Claude Code 多代理编排项目" },
+    { "name": "shanraisshan/claude-code-best-practice", "lang": null, "stars": null, "desc": "围绕 Claude Code 的经验、规范和最佳实践整理" },
+    { "name": "NousResearch/hermes-agent", "lang": null, "stars": null, "desc": "强调成长性和可扩展性的 Agent 项目" },
+    { "name": "obra/superpowers", "lang": null, "stars": null, "desc": "面向软件开发的 agentic skills 框架和方法论" },
+    { "name": "microsoft/agent-lightning", "lang": null, "stars": null, "desc": "微软推出的 Agent 训练框架" },
+    { "name": "PaddlePaddle/PaddleOCR", "lang": null, "stars": null, "desc": "成熟的 OCR 工具链，可把 PDF 和图像文档转成结构化数据" },
+    { "name": "Dimillian/Skills", "lang": null, "stars": null, "desc": "围绕 Codex Skills 的技能集合" },
+    { "name": "sherlock-project/sherlock", "lang": "Python", "stars": "77,183", "desc": "通过用户名在多个社交网络中定位账号的 OSINT 工具" },
+    { "name": "asgeirtj/system_prompts_leaks", "lang": null, "stars": "36,261", "desc": "Extracted system prompts from major AI assistants" },
+    { "name": "siddharthvaddem/openscreen", "lang": "TypeScript", "stars": "15,672", "desc": "Create stunning demos for free" },
+    { "name": "Yeachan-Heo/oh-my-codex", "lang": "TypeScript", "stars": "11,476", "desc": "Oh My codeX: Your codex is not alone" },
+    { "name": "hacksider/Deep-Live-Cam", "lang": null, "stars": null, "desc": "实时换脸/深度伪造工具" }
   ],
-  "note": "Only 4 repos loaded (partial page load)"
+  "trends": [
+    "Claude Code生态从单助手向团队化、技能化演进",
+    "Agent热点向训练、编排和技能管理深化",
+    "OCR等结构化输入能力重新升温"
+  ]
 }

@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T07:51:00+08:00",
+  "timestamp": "2026-04-03T08:51:00+08:00",
   "source": "OKX Web Browser",
   "crypto": {
-    "BTC": { "price_usd": 66853.1, "price_change_24h_pct": -1.89, "source": "okx.com" },
-    "ETH": { "price_usd": 2056.4, "price_change_24h_pct": -4.23, "source": "okx.com" },
-    "SOL": { "price_usd": 78.9, "price_change_24h_pct": -5.55, "source": "okx.com" }
+    "BTC": { "price_usd": 66776.9, "price_change_24h_pct": -2.56, "source": "okx.com" },
+    "ETH": { "price_usd": 2052.29, "price_change_24h_pct": -4.63, "source": "okx.com" },
+    "SOL": { "price_usd": 79.23, "price_change_24h_pct": -3.00, "source": "okx.com" }
   },
-  "note": "BTC -1.89% (cross-ref from SOL page), ETH -4.23%, SOL -5.55%"
+  "note": "BTC -2.56% from ETH sidebar, ETH -4.63% from ETH page, SOL -3.00% from BTC sidebar"
 }

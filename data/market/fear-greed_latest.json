@@ -1,8 +1,7 @@
 {
-  "timestamp": "2026-04-03T07:51:00+08:00",
+  "timestamp": "2026-04-03T08:51:00+08:00",
   "source": "api.alternative.me",
-  "value": "12",
+  "value": 9,
   "value_classification": "Extreme Fear",
-  "previous_value": "12",
-  "change": "unchanged"
+  "change_from_previous": "12→9 (显著恶化)"
 }
