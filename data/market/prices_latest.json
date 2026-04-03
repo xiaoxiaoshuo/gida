@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T11:34:00+08:00",
+  "timestamp": "2026-04-03T12:44:00+08:00",
   "source": "OKX Web Browser",
   "prices": {
-    "BTC": { "usd": 66632, "change_24h": -1.87 },
-    "ETH": { "usd": 2052.6, "change_24h": -1.03 },
-    "SOL": { "usd": 79.2, "change_24h": -0.08 }
+    "BTC": { "usd": 66574, "change_24h": -0.91 },
+    "ETH": { "usd": 2050.29, "change_24h": 0.23 },
+    "SOL": { "usd": 79.16, "change_24h": 0.29 }
   },
   "fear_greed": {
     "value": 9,

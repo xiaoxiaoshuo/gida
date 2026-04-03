@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-04-03T11:34:00+08:00",
-  "source": "api.alternative.me",
-  "value": 9,
+  "timestamp": "2026-04-03T12:44:00+08:00",
+  "value": "9",
   "value_classification": "Extreme Fear",
-  "change_from_previous": "无变化 (持续极度恐慌)"
+  "timestamp_unix": "1775174400",
+  "time_until_update": "69319",
+  "source": "https://api.alternative.me/fng/?limit=1"
 }
