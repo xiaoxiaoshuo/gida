@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-04-03T08:04:00.000Z",
+  "timestamp": "2026-04-03T09:24:00.000Z",
   "source": "OKX Web Browser",
   "crypto": {
     "BTC": {
-      "price": 67048.8,
-      "change_24h_pct": 0.04,
+      "price": 66773.1,
+      "change_24h_pct": 0.18,
       "unit": "USD"
     },
     "ETH": {
-      "price": 2066.36,
-      "change_24h_pct": -0.15,
+      "price": 2058.37,
+      "change_24h_pct": 0.70,
       "unit": "USD"
     },
     "SOL": {
-      "price": 79.9,
-      "change_24h_pct": 0.08,
+      "price": 79.82,
+      "change_24h_pct": 0.94,
       "unit": "USD"
     }
   },
-  "note": "BTC/ETH/SOL from OKX price pages via browser snapshot at 16:04 CST"
+  "note": "BTC/ETH/SOL from OKX price pages via browser snapshot at 17:24 CST"
 }
