@@ -1,3 +1,18 @@
+# 市场简报 | 2026-04-04 17:00 GMT+8
+
+## 价格（傍晚快照）
+- BTC: $66,956 (-0.03%) | ETH: $2,054.54 (-0.57%) | SOL: $80.15 (+0.51%)
+- GOLD: ~$4,676/oz | WTI OIL: $111.5 (+11.41% 月度) | Brent: $109.0 (+7.78%)
+- 数据来源: Coingape (OKX/Binance均不可用降级采集)
+
+## 市场情绪
+Fear&Greed: 11（极度恐慌）/ yesterday 9 / last_week 12 / last_month 22
+
+## 傍晚简评
+BTC $66,956横盘整理(-0.03%)，较15:53微降约-$39。ETH微涨+$0.91，SOL基本持平。三大加密货币均处低位震荡，无明显方向。OKX/Binance直连全部失败，降级至Coingape采集。GitHub Trending无法采集(github.com ERR_CONNECTION_REFUSED, bgithub.xyz DNS fail)。F&G维持11极度恐慌，市场情绪与价格持续背离。
+
+---
+
 # 市场简报 | 2026-04-04 15:53 GMT+8
 
 ## 价格（午后快照）
