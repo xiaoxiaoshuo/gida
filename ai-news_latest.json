@@ -1,0 +1,48 @@
+{
+  "采集时间": "2026-04-07T02:27:00Z",
+  "来源": "Bing搜索(Last7Days) + HackerNews Firebase API + Anthropic官网",
+  "更新时间": "2026-04-07 10:27 GMT+8",
+  "Bing搜索": {
+    "关键词": "AI OR ML OR DeepSeek OR OpenAI OR Claude OR Grok (Last7Days)",
+    "结果数": "~50",
+    "说明": "Bing结果主要返回知乎/搜狗等国内内容，JS渲染导致国外原始结果无法提取"
+  },
+  "重大新闻": [
+    {
+      "来源": "Anthropic官网",
+      "标题": "Anthropic expands partnership with Google and Broadcom for next-gen compute",
+      "时间": "2026-04-07",
+      "关键数据": {
+        "ARR": "$300亿 (2025年底$90亿)",
+        "ARR增长率": "+233%",
+        "企业客户": "1000+家(年消费>$100万)",
+        "客户增速": "2个月内翻倍(从500+增至1000+)",
+        "TPU产能": "multiple gigawatts",
+        "上线时间": "2027年起",
+        "投资方": "Google + Broadcom"
+      }
+    }
+  ],
+  "HackerNews_Top20": [
+    {"id": 47627998, "title": "Netflix Void Model: Video Object and Interaction Deletion", "score": 50, "url": "github.com/Netflix/void-model"},
+    {"id": 47669337, "title": "Solod – A Subset of Go That Translates to C", "score": 25, "url": "github.com/solod-dev/solod"},
+    {"id": 47666024, "title": "Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS", "score": 242, "url": "github.com/matthartman/ghost-pepper"},
+    {"id": 47663147, "title": "Freestyle – Cloud for Coding Agents", "score": 207, "url": "freestyle.sh"},
+    {"id": 47662234, "title": "A cryptography engineer's perspective on quantum computing timelines", "score": 344, "url": "words.filippo.io/crqc-timeline/"},
+    {"id": 47667717, "title": "Anthropic expands partnership with Google and Broadcom for next-gen compute", "score": 145, "url": "anthropic.com/news"},
+    {"id": 47660954, "title": "German police name alleged leaders of GandCrab and REvil ransomware groups", "score": 264, "url": "krebsonsecurity.com"},
+    {"id": 47662945, "title": "Finding deals on government auction sites", "score": 220},
+    {"id": 47660925, "title": "Show HN: [Very Large Thread] PHP is finially fast (470 comments)", "score": 470},
+    {"id": 47667672, "title": "Show HN: Hippo, biologically inspired memory for AI agents", "score": 52, "url": "github.com/kitfunso/hippo-memory"},
+    {"id": 47668727, "title": "After 20 years I turned off Google Adsense for my websites", "score": 116},
+    {"id": 47627595, "title": "Porting Go's strings package to C", "score": 42},
+    {"id": 47660286, "title": "SQLite is not a database", "score": 184},
+    {"id": 47659135, "title": "The AI Trust Problem (334 comments)", "score": 334},
+    {"id": 47660853, "title": "Book review: There Is No Antimemetics Division", "score": 209}
+  ],
+  "分析": {
+    "AI相关": "Top20中有3个AI相关(Anthropic/Google, Hippo memory agents, Freestyle cloud coding agents)",
+    "非AI热点": "量子计算时间线(344分), PHP is finally fast(470分最高), SQLite非数据库讨论",
+    "趋势": "没有单一AI新闻主导HN，技术讨论更分散"
+  }
+}

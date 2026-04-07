@@ -1,4 +1,12 @@
-# HEARTBEAT.md - 定时检查清单
+# HEARTBEAT.md
+
+## 快照 | 2026-04-07 10:21 GMT+8
+- BTC: $68,550 (-0.93%) | ETH: $2,105 (-1.31%) | SOL: $79.77 (-3.20%)
+- F&G: 11 | 🔴断档65h后恢复采集 | GitHub: ✅已同步
+- AI重大: Anthropic ARR $300亿(+233%), Anthropic/Google/Broadcom合作TPU 2027
+- 任务: deep-intel-recovery-1021 执行中
+
+ - 定时检查清单
 
 ## 🚨 17:03 快速刷新 - quick-refresh-1659 ✅ 完成
 
