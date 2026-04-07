@@ -1,9 +1,16 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-08 05:12 GMT+8
+- ⏰ **05:12定时扫描**
+- GitHub: ✅ 已同步（origin/main=8a18114）
+- prices_latest.json: 05:06数据（6分钟前）
+- 采集管道: daily-collector✅ hourly-price-collector✅ setup-scheduled-tasks✅
+- **待执行**: 注册定时任务（管理员权限）
+
 ## 快照 | 2026-04-08 05:07 GMT+8
 - ⏰ **价格采集恢复！05:06新数据**
 - BTC: $69,688 | ETH: $2,128 | SOL: $82.36 | GOLD: $4,707 | OIL: $110.28 | F&G: 11
-- GitHub推送: ❌ 443持续失败
+- GitHub推送: ✅ 443已恢复
 - data/market/prices_latest.json: ✅ 更新成功
 
 ## 快照 | 2026-04-08 05:05 GMT+8
