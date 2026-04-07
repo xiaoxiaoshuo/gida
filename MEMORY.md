@@ -145,6 +145,24 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - **已集成到auto-push.ps1脚本开头**
 - **推送耗时**：2535ms（正常），推送成功
 
+### 2026-04-08 04:54 - 自我审查发现遗忘点
+- **时间**: 04:54 AM（凌晨低波动期）
+- **发现遗忘点**:
+  - prices_latest.json 断档5天（3/31后无更新）
+  - ai-news_latest.json 断档1个月（3/7后无更新）
+  - briefings.md 昨日17:03后未更新
+  - GitHub Trending历史数据库从未建立
+  - 黄金/原油宏观数据从未成功采集
+- **解决方案**: 派生3个子智能体并行采集
+  - ai-news-deep-collector → HN/GitHub/Google AI/Anthropic/DeepSeek
+  - macro-data-collector → 黄金(XAU)/原油(WTI)/F&G
+  - github-trending-archiver → GitHub Trending历史数据库
+- **采集结果**: 全部成功
+  - 黄金 $4,708.61/oz (+1.26%) via 新浪财经
+  - F&G 11 极度恐慌 via alternative.me
+  - GitHub Trending历史库起点: github-trending-history.json
+- **输出文件**: data/ai-news-2026-04-08.json, macro-2026-04-08.json, github-trending-2026-04-08.json, github-trending-history.json
+
 ### 2026-03-26 10:39 - Playwright MCP安装 + 定时自我审查
 - **Playwright MCP** 已安装（@playwright/mcp全局包 + Chromium v1208）
   - 浏览器路径：`C:\Users\Administrator\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe`

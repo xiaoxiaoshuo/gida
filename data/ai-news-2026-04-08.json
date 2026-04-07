@@ -1,0 +1,124 @@
+{
+  "date": "2026-04-08",
+  "sources": {
+    "hackernews": [
+      {
+        "title": "Ask HN: Is There a LeetCode for AI or Machine Learning?",
+        "url": "https://news.ycombinator.com/item?id=44484793",
+        "author": "NewUser76312",
+        "points": 3,
+        "num_comments": 1,
+        "created_at": "2025-07-06T22:43:15Z"
+      },
+      {
+        "title": "Common Lisp + Machine Learning Internship at Google (Mountain View, CA)",
+        "url": "https://news.ycombinator.com/item?id=401541",
+        "author": "moshe",
+        "points": 45,
+        "num_comments": 16,
+        "created_at": "2008-12-17T22:23:28Z"
+      },
+      {
+        "title": "Ask HN: For advice: I'm a mathematician looking for a plan B outside of academia",
+        "url": "https://news.ycombinator.com/item?id=36998936",
+        "author": "ginnungagap",
+        "points": 34,
+        "num_comments": 77,
+        "created_at": "2023-08-04T12:19:07Z"
+      },
+      {
+        "title": "Who's using AI/ML in Marketing?",
+        "url": "https://news.ycombinator.com/item?id=12116080",
+        "author": "hndude83",
+        "points": 9,
+        "num_comments": 9,
+        "created_at": "2016-07-18T16:28:10Z"
+      },
+      {
+        "title": "Should I major in computer systems or AI?",
+        "url": "https://news.ycombinator.com/item?id=31567065",
+        "author": "SneakyTornado29",
+        "points": 2,
+        "num_comments": 4,
+        "created_at": "2022-05-31T07:53:32Z"
+      },
+      {
+        "title": "Ask HN: What is the best book on AI?",
+        "url": "https://news.ycombinator.com/item?id=26511180",
+        "author": "Moody_10001",
+        "points": 2,
+        "num_comments": 1,
+        "created_at": "2021-03-19T08:39:32Z"
+      }
+    ],
+    "github_trending": [
+      {
+        "name": "openclaw/openclaw",
+        "full_name": "openclaw/openclaw",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+        "language": "TypeScript",
+        "stars": 351150,
+        "forks": 70603,
+        "url": "https://github.com/openclaw/openclaw",
+        "topics": ["ai", "assistant", "personal"]
+      },
+      {
+        "name": "tensorflow/tensorflow",
+        "full_name": "tensorflow/tensorflow",
+        "description": "An Open Source Machine Learning Framework for Everyone",
+        "language": "C++",
+        "stars": 194568,
+        "forks": 75259,
+        "url": "https://github.com/tensorflow/tensorflow",
+        "topics": ["deep-learning", "machine-learning", "tensorflow"]
+      },
+      {
+        "name": "Significant-Gravitas/AutoGPT",
+        "full_name": "Significant-Gravitas/AutoGPT",
+        "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.",
+        "language": "Python",
+        "stars": 183220,
+        "forks": 46213,
+        "url": "https://github.com/Significant-Gravitas/AutoGPT",
+        "topics": ["ai", "automation"]
+      }
+    ],
+    "google_ai": [
+      {
+        "title": "AI Impact Summit 2026: How we're partnering to make AI work for everyone",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-impact-summit-2026-india/",
+        "date": "2026-04-07",
+        "highlights": [
+          "Google宣布150亿美元投资印度AI基础设施",
+          "America-India Connect海底光缆项目",
+          "3000万美元Google.org AI政府创新挑战赛",
+          "3000万美元AI科学突破挑战赛",
+          "Google DeepMind与印度政府新合作",
+          "实时语音翻译支持70+语言，包括10种印度语言",
+          "Gemini SynthID验证功能已使用超2000万次",
+          "Circle to Search和Lens新增诈骗信息识别功能"
+        ]
+      }
+    ],
+    "anthropic": [
+      {
+        "title": "GlassWing Initiative - AI安全联盟",
+        "url": "https://www.anthropic.com/glasswing",
+        "date": "2026-04-07",
+        "highlights": [
+          "亚马逊、Anthropic、苹果、Broadcom、思科、CrowdStrike、Google、摩根大通、Linux基金会、微软、NVIDIA、Palo Alto Networks联合发起",
+          "目标：保护全球关键软件安全",
+          "跨行业合作应对AI安全挑战"
+        ]
+      }
+    ],
+    "deepseek": [
+      {
+        "title": "深度求索官网",
+        "url": "https://www.deepseek.com/",
+        "note": "官网未获取到具体新闻内容，仅获取到备案信息"
+      }
+    ]
+  },
+  "summary": "2026年4月8日AI/ML新闻摘要：\n\n1. Google AI动态：印度AI影响力峰会召开，Google宣布150亿美元投资印度AI基础设施，推出America-India Connect海底光缆项目，3000万美元AI政府创新挑战赛和3000万美元AI科学挑战赛，Gemini实时翻译扩展至70+语言。\n\n2. GitHub热榜：openclaw(35万星)、tensorflow(19万星)、AutoGPT(18万星)占据AI开源项目前三，TypeScript/Python为主流语言。\n\n3. Anthropic：联合12家科技巨头发起GlassWing Initiative安全联盟，聚焦全球关键软件安全。\n\n4. HackerNews：AI/ML讨论热度较高集中在职业规划、学习资源等领域。\n\n5. DeepSeek：网站内容未能抓取，仅获取备案信息。"
+}

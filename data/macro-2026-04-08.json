@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-08",
+  "gold_usd": 4708.61,
+  "gold_change_24h_pct": 1.26,
+  "wti_oil_usd": 110.544,
+  "wti_oil_change_24h_pct": 1.23,
+  "fear_greed": 11,
+  "fear_greed_classification": "Extreme Fear",
+  "sources": {
+    "gold": "sina",
+    "oil": "sina",
+    "fear_greed": "alternative.me"
+  },
+  "fetched_at": "2026-04-07T20:56:00Z"
+}
