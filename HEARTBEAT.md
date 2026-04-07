@@ -13,16 +13,15 @@
 - **发现**: data/prices/ 有历史快照(3/26-4/2)，但4/3后断档
 - **待验证**: hourly-price-collector.ps1 是否能恢复采集
 
-## 快照 | 2026-04-08 05:03 GMT+8
-- ⏰ **定时扫描 + 采集管道优化完成**
-- 派生子智能体: collection-pipeline-optimizer ✅
-- **新建脚本**:
-  - `scripts/daily-collector.ps1` - 每日采集（宏观+AINews+GitHub）
-  - `scripts/hourly-price-collector.ps1` - 每小时价格采集
-  - `scripts/setup-scheduled-tasks.ps1` - 一键注册定时任务
-  - `cron/daily-collection.conf` - 每日cron配置(08:00/20:00)
-  - `cron/hourly-price.conf` - 每小时cron配置
-- Git推送: ❌ 443连接失败，等待重试
+## 快照 | 2026-04-08 05:07 GMT+8
+- ⏰ **深度采集完成** - morning-deep-scan-0503 ✅
+- BTC: $69,609 (+0.42% 1h) | ETH: $2,127 (+0.54% 1h) | SOL: $82.14 (+0.27% 1h)
+- F&G: 11（极度恐慌）
+- vs 03:55: BTC +$527 (+0.76%)，凌晨持续反弹
+- HN Top1: Project Glasswing(515pts, +61% vs 03:55), Claude Mythos Preview(336pts), GLM-5.1(312pts)
+- 新脚本评估: daily-collector✅ / hourly-price-collector✅ / setup-scheduled-tasks⚠️(小问题)
+- Git推送: ✅ 30cd786 已推送
+- GitHub 443: 已恢复
 
 ## 快照 | 2026-04-08 05:00 GMT+8
 - ⏰ **定时扫描触发 - 05:00**
