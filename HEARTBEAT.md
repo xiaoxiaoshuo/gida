@@ -1,5 +1,16 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-08 05:03 GMT+8
+- ⏰ **定时扫描 + 采集管道优化完成**
+- 派生子智能体: collection-pipeline-optimizer ✅
+- **新建脚本**:
+  - `scripts/daily-collector.ps1` - 每日采集（宏观+AINews+GitHub）
+  - `scripts/hourly-price-collector.ps1` - 每小时价格采集
+  - `scripts/setup-scheduled-tasks.ps1` - 一键注册定时任务
+  - `cron/daily-collection.conf` - 每日cron配置(08:00/20:00)
+  - `cron/hourly-price.conf` - 每小时cron配置
+- Git推送: ❌ 443连接失败，等待重试
+
 ## 快照 | 2026-04-08 05:00 GMT+8
 - ⏰ **定时扫描触发 - 05:00**
 - GitHub推送: ✅ b7979de (04:58采集已完成)
