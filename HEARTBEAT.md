@@ -1,5 +1,14 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-07 20:18 GMT+8
+- BTC: $68,314 (-1.52%) | ETH: $2,084 (-2.79%) | SOL: $79.11 (-3.85%)
+- F&G: 11（极度恐慌，无变化）| 昨13/上周11/月12
+- vs 19:15: BTC -$31 (-0.05%)，基本持平，持续$68K区间
+- HN Top5: Sam Altman可信任吗?(1537pts/621c) / Claude Code Issue(1166pts/635c) / 量子计算时间线(500pts) / 被骗经历(425pts) / Ghost Pepper本地语音(410pts)
+- GitHub Trending: claw-code登顶(最近7天超100K★) / google-ai-edge/gallery / GitNexus
+- GitHub Push: ✅ 无更新，工作树干净
+- 采集方法: HN→Algolia API成功 / GitHub→API直连
+
 ## 快照 | 2026-04-07 19:15 GMT+8
 - BTC: $68,345 (-1.82%) | ETH: $2,090 (-2.88%) | SOL: $79.41 (-3.68%)
 - F&G: 11（极度恐慌，无变化）| 昨13/上周11/月12
