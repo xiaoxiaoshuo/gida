@@ -1,9 +1,9 @@
 ﻿{
-  "timestamp_iso": "2026-04-08T09:34:12Z",
-  "timestamp": "2026-04-08 17:34:12",
+  "timestamp_iso": "2026-04-08T10:35:15Z",
+  "timestamp": "2026-04-08 18:35:15",
   "crypto": {
-    "BTC": {"price": 71736.99, "timestamp": "2026-04-08 17:34:12", "confidence": "high", "source": "CryptoCompare_API"},
-    "ETH": {"price": 2252.64, "timestamp": "2026-04-08 17:34:12", "confidence": "high", "source": "CryptoCompare_API"},
-    "SOL": {"price": 84.76, "timestamp": "2026-04-08 17:34:12", "confidence": "high", "source": "CryptoCompare_API"}
+    "BTC": {"price": 71470.77, "timestamp": "2026-04-08 18:35:15", "confidence": "high", "source": "CryptoCompare_API"},
+    "ETH": {"price": 2244.01, "timestamp": "2026-04-08 18:35:15", "confidence": "high", "source": "CryptoCompare_API"},
+    "SOL": {"price": 84.53, "timestamp": "2026-04-08 18:35:15", "confidence": "high", "source": "CryptoCompare_API"}
   }
 }
