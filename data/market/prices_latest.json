@@ -1,9 +1,15 @@
 ﻿{
-  "timestamp_iso": "2026-04-08T19:41:23Z",
-  "timestamp": "2026-04-09 03:41:23",
-  "crypto": {
-    "BTC": {"price": 71228.97, "timestamp": "2026-04-09 03:41:23", "confidence": "high", "source": "CryptoCompare_API"},
-    "ETH": {"price": 2204.88, "timestamp": "2026-04-09 03:41:23", "confidence": "high", "source": "CryptoCompare_API"},
-    "SOL": {"price": 82.87, "timestamp": "2026-04-09 03:41:23", "confidence": "high", "source": "CryptoCompare_API"}
-  }
+    "timestamp":  "2026-04-09T04:46:46Z",
+    "btc_usd":  71312.58,
+    "eth_usd":  2207.7,
+    "sol_usd":  83.12,
+    "btc_24h_change":  2.88,
+    "eth_24h_change":  4.36,
+    "sol_24h_change":  1.47,
+    "fear_and_greed_value":  17,
+    "fear_and_greed_class":  "Extreme Fear",
+    "fear_and_greed_ts":  "1775606400",
+    "gold_usd":  "N/A",
+    "oil_wti_usd":  "N/A",
+    "note":  "BTC/ETH/SOL via CryptoCompare 04:45; F\u0026G via alternative.me; gold/oil=N/A(oilprice browser failed)"
 }

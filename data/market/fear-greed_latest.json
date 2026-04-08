@@ -1,8 +1,6 @@
-{
-  "url": "https://api.alternative.me/fng/?limit=1",
-  "fetchedAt": "2026-04-03T09:24:36.029Z",
-  "value": "9",
-  "value_classification": "Extreme Fear",
-  "timestamp_unix": "1775174400",
-  "time_until_update": "52524"
+﻿{
+    "value":  "17",
+    "value_classification":  "Extreme Fear",
+    "timestamp":  "1775606400",
+    "time_until_update":  "11640"
 }
