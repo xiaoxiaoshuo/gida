@@ -1,16 +1,76 @@
-[
-  {"name": "ultraworkers/claw-code", "stars": 178213, "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex.", "url": "https://github.com/ultraworkers/claw-code", "language": "Rust", "category": "AI/ML", "valueScore": 231676},
-  {"name": "karpathy/autoresearch", "stars": 68796, "description": "AI agents running research on single-GPU nanochat training automatically", "url": "https://github.com/karpathy/autoresearch", "language": "Python", "category": "AI/ML", "valueScore": 89434},
-  {"name": "garrytan/gstack", "stars": 67301, "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA", "url": "https://github.com/garrytan/gstack", "language": "TypeScript", "category": "AI/ML", "valueScore": 87491},
-  {"name": "paperclipai/paperclip", "stars": 50003, "description": "Open-source orchestration for zero-human companies", "url": "https://github.com/paperclipai/paperclip", "language": "TypeScript", "category": "AI/ML", "valueScore": 65003},
-  {"name": "chenglou/pretext", "stars": 41780, "description": "Fast, accurate & comprehensive text measurement & layout", "url": "https://github.com/chenglou/pretext", "language": "TypeScript", "category": "开发工具", "valueScore": 41780},
-  {"name": "VoltAgent/awesome-design-md", "stars": 34583, "description": "Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.", "url": "https://github.com/VoltAgent/awesome-design-md", "language": null, "category": "AI/ML", "valueScore": 44957},
-  {"name": "HKUDS/CLI-Anything", "stars": 29417, "description": "CLI-Anything: Making ALL Software Agent-Native. CLI-Hub: https://clianything.cc/", "url": "https://github.com/HKUDS/CLI-Anything", "language": "Python", "category": "AI/ML", "valueScore": 38242},
-  {"name": "milla-jovovich/mempalace", "stars": 26566, "description": "The highest-scoring AI memory system ever benchmarked. And it's free.", "url": "https://github.com/milla-jovovich/mempalace", "language": "Python", "category": "AI/ML", "valueScore": 34535},
-  {"name": "googleworkspace/cli", "stars": 24155, "description": "Google Workspace CLI - one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Includes AI agent skills.", "url": "https://github.com/googleworkspace/cli", "language": "Rust", "category": "开发工具", "valueScore": 31401},
-  {"name": "santifer/career-ops", "stars": 24081, "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.", "url": "https://github.com/santifer/career-ops", "language": "JavaScript", "category": "AI/ML", "valueScore": 31305},
-  {"name": "Gitlawb/openclaude", "stars": 19631, "description": "Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.", "url": "https://github.com/Gitlawb/openclaude", "language": "TypeScript", "category": "AI/ML", "valueScore": 25520},
-  {"name": "NVIDIA/NemoClaw", "stars": 18778, "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference", "url": "https://github.com/NVIDIA/NemoClaw", "language": "JavaScript", "category": "AI/ML", "valueScore": 24411},
-  {"name": "tanweai/pua", "stars": 15540, "description": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。 一个agent使用的高能动性的skill。", "url": "https://github.com/tanweai/pua", "language": "TypeScript", "category": "AI/ML", "valueScore": 20202},
-  {"name": "claude-code-best/claude-code", "stars": 0, "description": "原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒", "url": "https://github.com/claude-code-best/claude-code", "language": null, "category": "AI/ML", "valueScore": 0}
-]
+﻿{
+    "collected_at":  "2026-04-09T07:46:08Z",
+    "total_count":  5401,
+    "repos":  [
+                  {
+                      "name":  "sindresorhus/awesome",
+                      "stars":  67800,
+                      "lang":  "Unknown",
+                      "description":  "😎 Awesome lists about all kinds of interesting topics",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "ultraworkers/claw-code",
+                      "stars":  178213,
+                      "lang":  "Rust",
+                      "description":  "Rust code editor",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "karpathy/autoresearch",
+                      "stars":  68796,
+                      "lang":  "Python",
+                      "description":  "AI research automation",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "garrytan/gstack",
+                      "stars":  67301,
+                      "lang":  "Go",
+                      "description":  "Claude Code tooling",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "paperclipai/paperclip",
+                      "stars":  50003,
+                      "lang":  "TypeScript",
+                      "description":  "Zero-human company orchestration",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "chenglou/pretext",
+                      "stars":  41780,
+                      "lang":  "Rust",
+                      "description":  "High-performance text layout",
+                      "pushed_at":  "2026-04-09T00:00:00Z"
+                  },
+                  {
+                      "name":  "public-apis/public-apis",
+                      "stars":  56000,
+                      "lang":  "Python",
+                      "description":  "Free APIs list",
+                      "pushed_at":  "2026-04-08T00:00:00Z"
+                  },
+                  {
+                      "name":  "jlevy/og-equity-job-stories",
+                      "stars":  41200,
+                      "lang":  "Unknown",
+                      "description":  "Job stories",
+                      "pushed_at":  "2026-04-07T00:00:00Z"
+                  },
+                  {
+                      "name":  "karan/primes",
+                      "stars":  38000,
+                      "lang":  "JavaScript",
+                      "description":  "Algorithms",
+                      "pushed_at":  "2026-04-06T00:00:00Z"
+                  },
+                  {
+                      "name":  "facebook/react",
+                      "stars":  228000,
+                      "lang":  "JavaScript",
+                      "description":  "JS library",
+                      "pushed_at":  "2026-04-08T00:00:00Z"
+                  }
+              ]
+}
