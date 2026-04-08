@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-04-03T04:38:00+08:00",
-  "source": "Bing Search + Tech News",
+  "timestamp": "2026-04-09T05:09:00+08:00",
+  "source": "HN Algolia API + GitHub Trending",
   "items": [
-    { "title": "Google releases Gemma 4 open models", "source": "HN/DeepMind", "url": "https://deepmind.google/models/gemma/gemma-4/" },
-    { "title": "Qwen3.6-Plus: Towards real world agents", "source": "HN/Qwen", "url": "https://qwen.ai/blog?id=qwen3.6" },
-    { "title": "Cursor 3", "source": "HN/Cursor", "url": "https://cursor.com/blog/cursor-3" },
-    { "title": "OpenAI Acquires TBPN", "source": "HN/OpenAI", "url": "https://openai.com/index/openai-acquires-tbpn/" },
-    { "title": "AI dominated deal activity in Q1 2026, record fundraising", "source": "OilPrice", "url": "https://oilprice.com" },
-    { "title": "2026年3月AI变天：中国模型周调用量突破7.359万亿Token", "source": "腾讯云", "url": "https://cloud.tencent.com/developer/article/2648260" },
-    { "title": "Delve allegedly forked open-source tool and sold it as its own", "source": "TechCrunch", "url": "https://techcrunch.com/2026/04/01/the-reputation-of-troubled-yc-startup-delve-has-gotten-even-worse/" },
-    { "title": "Chipmakers Scramble as Helium Crunch Threatens AI Expansion", "source": "OilPrice", "url": "https://oilprice.com" },
-    { "title": "IBM Announces Strategic Collaboration with Arm", "source": "IBM News", "url": "https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing" },
-    { "title": "The case for zero-error horizons in trustworthy LLMs", "source": "arXiv", "url": "https://arxiv.org/abs/2601.15714" }
+    { "title": "Git commands I run before reading any code", "source": "HN", "url": "https://piechowski.io/post/git-commands-before-reading-code/", "points": 1562 },
+    { "title": "Veracrypt project update", "source": "HN", "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/", "points": 1033 },
+    { "title": "I ported Mac OS X to the Nintendo Wii", "source": "HN", "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html", "points": 882 },
+    { "title": "US cities are axing Flock Safety surveillance technology", "source": "HN/CNET", "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/", "points": 553 },
+    { "title": "Microsoft terminates VeraCrypt account, halting Windows updates", "source": "HN/404media", "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/", "points": 367 },
+    { "title": "MegaTrain: Full Precision Training of 100B+ Parameter LLMs on a Single GPU", "source": "HN/arXiv", "url": "https://arxiv.org/abs/2604.05091", "points": 231 },
+    { "title": "Google releases Gemma 4 open models", "source": "HN/DeepMind", "url": "https://deepmind.google/models/gemma/gemma-4/", "points": 0 },
+    { "title": "obra/superpowers — Agentic skills framework", "source": "GitHub Trending", "url": "https://github.com/obra/superpowers", "stars": "141,341" },
+    { "title": "virattt/ai-hedge-fund — AI Hedge Fund Team", "source": "GitHub Trending", "url": "https://github.com/virattt/ai-hedge-fund", "stars": "50,625" },
+    { "title": "GitNexus: Zero-Server Code Intelligence Engine", "source": "GitHub Trending", "url": "https://github.com/abhigyanpatwari/GitNexus", "stars": "25,228" }
   ]
 }

@@ -1,0 +1,6 @@
+{
+    "date": "2026-04-09",
+    "timestamp": "2026-04-09T05:05:00Z",
+    "gold_usd": "N/A",
+    "note": "Gold price unavailable - goldprice.org is JS-rendered (requires browser evaluate but browser stuck/timeout); alternative APIs (metals.live, goldprice.org API) failed; will retry next cycle"
+}
