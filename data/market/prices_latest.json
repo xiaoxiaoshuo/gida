@@ -1,15 +1,15 @@
-{
-    "timestamp": "2026-04-09T05:05:00Z",
-    "btc_usd": 71344.01,
-    "eth_usd": 2208.86,
-    "sol_usd": 83.20,
-    "btc_24h_change": 2.04,
-    "eth_24h_change": 2.97,
-    "sol_24h_change": 2.97,
-    "fear_and_greed_value": 17,
-    "fear_and_greed_class": "Extreme Fear",
-    "fear_and_greed_ts": "1775606400",
-    "gold_usd": "N/A",
-    "oil_wti_usd": 96.56,
-    "note": "BTC/ETH/SOL via CryptoCompare 05:05; F&G via alternative.me (17 Extreme Fear); oil WTI via oilprice.com ($96.56, -14.51%); gold=N/A (JS-rendered site, browser unavailable)"
+﻿{
+    "timestamp":  "2026-04-09T06:08:08Z",
+    "btc_usd":  71536.1901254441,
+    "eth_usd":  2214.02610101156,
+    "sol_usd":  83.2640662172149,
+    "btc_24h_change":  0.04,
+    "eth_24h_change":  -0.25,
+    "sol_24h_change":  -2.29,
+    "fear_and_greed_value":  17,
+    "fear_and_greed_class":  "Extreme Fear",
+    "fear_and_greed_ts":  "1775606400",
+    "gold_usd":  "N/A",
+    "oil_wti_usd":  "N/A",
+    "source":  "CryptoCompare+alternative.me"
 }
