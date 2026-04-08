@@ -39,10 +39,16 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## 🌐 网络访问配置
 
-### GitHub 镜像
-- **主力**: `https://bgithub.xyz/` — 替代 `github.com`，中国可访问
-- **备选**: `https://github.com/`（直连可能失败）
-- GitHub API 镜像: `https://api.bgithub.xyz/`（待验证）
+### GitHub 采集（重要更新 2026-04-09）
+> **关键发现**: curl.exe/Invoke-WebRequest/PowerShell 无法访问 api.github.com (SSL/TLS握手失败，443错误)
+> **解决方案**: Brave浏览器是访问GitHub API的唯一可靠方式
+
+- **GitHub API**: 通过 `browser tool` 访问 `https://api.github.com/search/repositories?q=...`
+  - 推荐查询: `https://api.github.com/search/repositories?q=stars:>1000+pushed:>2026-03-01&sort=stars&per_page=30`
+  - 浏览器返回完整JSON，可直接解析
+- **GitHub Trending页面**: 通过 `browser tool` 访问 `https://github.com/trending`
+- **bgithub.xyz 镜像**: web_fetch 失败（不可用）
+- **Gitee Trending**: `https://gitee.com/trending`（JS渲染，需browser）
 
 ### 加密货币数据源
 - **OKX API**: `https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT`
@@ -60,7 +66,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### AI/ML 新闻
 - **Hacker News**: `https://news.ycombinator.com/`（Brave 浏览器可访问）
-- **GitHub Trending**: `https://bgithub.xyz/trending`（推荐）
+- **GitHub Trending**: 通过 browser tool 访问 api.github.com（唯一可行方式）
 - **Bing 搜索**: `https://cn.bing.com/`
 
 ---
