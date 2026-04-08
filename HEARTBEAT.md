@@ -1,6 +1,18 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-09 06:10 GMT+8
+## 快照 | 2026-04-09 06:16 GMT+8
+- ⏰ **06:16最终状态**
+- GitHub Trending: ✅ 06:14采集成功（14 repos，claw-code 178K★）
+- GitHub Push: ❌ 443失败（9次），7ac5609等待推送
+- BTC: $71,539 | F&G: 17 | 简报: ✅ 06:09
+- gh-trending-v3.ps1: ✅ (TOOLS.md已同步更新)
+
+## 快照 | 2026-04-09 06:15 GMT+8
+- ⏰ **06:15定时扫描**
+- **GitHub Trending采集修复** ✅：browser访问GitHub API成功
+- **gh-trending-v3.ps1** ✅ 已生成(11KB)，多级降级
+- **GitHub Trending数据** ✅ 6:14 AM更新（14个repo，Top: claw-code 178K★）
+- GitHub Push: ❌ 443失败（8次），1da2825→7ac5609本地已提交
 - ⏰ **06:10定时扫描**
 - BTC: $71,539(6:05) | ETH: $2,214(+4.36%) | SOL: $83.27(+1.47%)
 - F&G: 17（极度恐慌）
