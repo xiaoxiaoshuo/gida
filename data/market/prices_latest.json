@@ -1,12 +1,1 @@
-﻿{
-    "timestamp_iso": "2026-04-08T07:29:54Z",
-    "timestamp": "2026-04-08 15:29:54",
-    "macro": {
-        "VIX": {"confidence": "medium", "timestamp": "2026-04-08 15:29:54", "value": 17, "source": "alternative.me_FNG"}
-    },
-    "crypto": {
-        "BTC": {"price": 71844.38, "timestamp": "2026-04-08 15:29:54", "raw": "{'USD':71844.38}", "confidence": "high", "source": "CryptoCompare_API"},
-        "ETH": {"price": 2257.75, "timestamp": "2026-04-08 15:29:54", "raw": "{'USD':2257.75}", "confidence": "high", "source": "CryptoCompare_API"},
-        "SOL": {"price": 84.62, "timestamp": "2026-04-08 15:29:54", "raw": "{'USD':84.62}", "confidence": "high", "source": "CryptoCompare_API"}
-    }
-}
+﻿{"timestamp_iso":"2026-04-08T08:32:13Z","timestamp":"2026-04-08 16:32:13","macro":{"VIX":{"confidence":"medium","timestamp":"2026-04-08 16:32:13","value":17,"source":"alternative.me_FNG"},"OIL":{"value":94.91,"source":"tradingeconomics.com","timestamp":"2026-04-08 14:27:07","confidence":"high","unit":"USD/barrel (WTI)"},"GOLD":{"value":4835.7,"source":"kitco.com","timestamp":"2026-04-08 14:27:07","confidence":"high","unit":"USD/oz"}},"crypto":{"BTC":{"price":71758.53,"timestamp":"2026-04-08 16:32:13","raw":"{""USD"":71758.53}","confidence":"high","source":"CryptoCompare_API"},"ETH":{"price":2256.51,"timestamp":"2026-04-08 16:32:13","raw":"{""USD"":2256.51}","confidence":"high","source":"CryptoCompare_API"},"SOL":{"price":84.6,"timestamp":"2026-04-08 16:32:13","raw":"{""USD"":84.6}","confidence":"high","source":"CryptoCompare_API"}}}
