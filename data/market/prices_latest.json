@@ -1,40 +1,31 @@
-{
-  "timestamp": "2026-04-09T04:46:00Z",
-  "source": "CryptoCompare API",
-  "prices": {
-    "BTC": {
-      "symbol": "BTC-USDT",
-      "price": 70884.17,
-      "change24h": -686.39,
-      "changePct24h": -0.96,
-      "open24h": 71570.56,
-      "high24h": 72853.64,
-      "low24h": 70462.97,
-      "volume24h": 64337.90,
-      "mktcap": 1418632072966.58
-    },
-    "ETH": {
-      "symbol": "ETH-USDT",
-      "price": 2179.85,
-      "change24h": -61.82,
-      "changePct24h": -2.76,
-      "open24h": 2241.66,
-      "high24h": 2270.40,
-      "low24h": 2162.41,
-      "volume24h": 1019027.90,
-      "mktcap": 263088085926.91
-    },
-    "SOL": {
-      "symbol": "SOL-USDT",
-      "price": 81.98,
-      "change24h": -2.53,
-      "changePct24h": -2.99,
-      "open24h": 84.51,
-      "high24h": 84.98,
-      "low24h": 81.71,
-      "volume24h": 5911824.89,
-      "mktcap": 51153669105.49
-    }
-  },
-  "note": "OKX API blocked by GFW. Used CryptoCompare as fallback."
+﻿{
+    "timestamp":  "2026-04-09T14:11:58Z",
+    "source":  "CryptoCompare+alternative.me",
+    "prices":  {
+                   "BTC":  {
+                               "open24h":  71730.34,
+                               "high24h":  72857.69,
+                               "low24h":  70472.93,
+                               "price":  71027.38,
+                               "changePct24h":  -0.98,
+                               "change24h":  -702.96
+                           },
+                   "ETH":  {
+                               "price":  2184.12,
+                               "changePct24h":  -2.75,
+                               "change24h":  -61.73
+                           },
+                   "SOL":  {
+                               "price":  82.24,
+                               "changePct24h":  -2.71,
+                               "change24h":  -2.30
+                           }
+               },
+    "fear_and_greed_value":  14,
+    "fear_and_greed_class":  "Extreme Fear",
+    "fear_and_greed_ts":  "1775692800",
+    "macro":  {
+                  "gold_usd":  "N/A",
+                  "oil_wti_usd":  "N/A"
+              }
 }
