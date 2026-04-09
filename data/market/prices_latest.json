@@ -1,31 +1,21 @@
 ﻿{
-    "timestamp":  "2026-04-09T14:11:58Z",
+    "timestamp":  "2026-04-09T16:04:48Z",
     "source":  "CryptoCompare+alternative.me",
     "prices":  {
                    "BTC":  {
-                               "open24h":  71730.34,
-                               "high24h":  72857.69,
-                               "low24h":  70472.93,
-                               "price":  71027.38,
-                               "changePct24h":  -0.98,
-                               "change24h":  -702.96
+                               "price":  71021.02,
+                               "changePct24h":  -1.08
                            },
                    "ETH":  {
-                               "price":  2184.12,
-                               "changePct24h":  -2.75,
-                               "change24h":  -61.73
+                               "price":  2183.88,
+                               "changePct24h":  -3.22
                            },
                    "SOL":  {
-                               "price":  82.24,
-                               "changePct24h":  -2.71,
-                               "change24h":  -2.30
+                               "price":  82.39,
+                               "changePct24h":  -2.91
                            }
                },
     "fear_and_greed_value":  14,
     "fear_and_greed_class":  "Extreme Fear",
-    "fear_and_greed_ts":  "1775692800",
-    "macro":  {
-                  "gold_usd":  "N/A",
-                  "oil_wti_usd":  "N/A"
-              }
+    "fear_and_greed_ts":  "1775692800"
 }
