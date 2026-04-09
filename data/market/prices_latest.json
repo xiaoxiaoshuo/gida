@@ -1,18 +1,18 @@
 ﻿{
-    "timestamp":  "2026-04-09T21:55:10Z",
+    "timestamp":  "2026-04-09T22:56:40Z",
     "source":  "Gate.io+alternative.me",
     "prices":  {
                    "BTC":  {
-                               "price":  70724.8
+                               "price":  71157.1
                            },
                    "ETH":  {
-                               "price":  2162.7
+                               "price":  2178.9
                            },
                    "SOL":  {
-                               "price":  81.73
+                               "price":  82.14
                            }
                },
     "fear_and_greed_value":  14,
     "fear_and_greed_class":  "Extreme Fear",
-    "fear_and_greed_ts":  "1775692800"
+    "fear_and_greed_ts":  "2026-04-09T22:00:00Z"
 }
