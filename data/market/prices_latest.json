@@ -1,18 +1,18 @@
 ﻿{
-    "timestamp":  "2026-04-09T19:44:22Z",
+    "timestamp":  "2026-04-09T20:44:25Z",
     "source":  "CryptoCompare+alternative.me",
     "prices":  {
                    "BTC":  {
-                               "price":  71171.50,
-                               "changePct24h":  -0.72
+                               "price":  71212.00,
+                               "changePct24h":  -1.20
                            },
                    "ETH":  {
-                               "price":  2180.45,
-                               "changePct24h":  -2.99
+                               "price":  2183.50,
+                               "changePct24h":  -3.21
                            },
                    "SOL":  {
-                               "price":  82.23,
-                               "changePct24h":  -2.65
+                               "price":  82.27,
+                               "changePct24h":  -2.69
                            }
                },
     "fear_and_greed_value":  14,
