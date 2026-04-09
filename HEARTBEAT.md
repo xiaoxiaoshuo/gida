@@ -26,6 +26,15 @@
 - GitHub Push: ❌ 443失败（eed5ce0等待）
 - 子智能体: macro-price-collector-1244 + ai-news-collector-1244 运行中
 
+## 快照 | 2026-04-10 02:25 GMT+8
+- ⏰ **02:25定时扫描**
+- BTC: $71,828 | ETH: $2,203 | SOL: $83.77 | F&G: 14
+- WTI: $114.58/桶 | Gold: 估算值
+- **🔴 发现**: HourlyPriceCollector停摆（20:45后未触发）
+- **原因**: 注册时用-Once而非-Once+-Repetition，只触发一次
+- **临时**: 手动执行macro-data-collector.ps1补缺口
+- GitHub: ❌ 443阻断，origin=1bc9ea3(23:33)
+
 ## 快照 | 2026-04-09 22:56 GMT+8
 - ⏰ **22:56定时扫描**
 - BTC: $71,157 (Gate.io) | ETH: $2,179 | SOL: $82.14 | F&G: 14
