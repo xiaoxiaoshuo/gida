@@ -1,117 +1,102 @@
-﻿{
-    "timestamp":  "2026-04-09T07:46:24Z",
-    "market":  {
-                   "btc_usd":  71080.18,
-                   "sol_change":  -3.52,
-                   "eth_change":  -2.33,
-                   "sol_usd":  82.55,
-                   "btc_change":  -1.16,
-                   "fng_class":  "Extreme Fear",
-                   "eth_usd":  2187.69,
-                   "fng_value":  17
-               },
-    "hn_top10":  [
-                     {
-                         "source":  "bryankeller.github.io",
-                         "title":  "I ported Mac OS X to the Nintendo Wii",
-                         "url":  "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
-                         "time":  "8h",
-                         "points":  1134
-                     },
-                     {
-                         "source":  "werwolv.net",
-                         "title":  "USB for Software Developers",
-                         "url":  "https://werwolv.net/posts/usb_for_sw_devs/",
-                         "time":  "4h",
-                         "points":  138
-                     },
-                     {
-                         "source":  "piechowski.io",
-                         "title":  "Git commands I run before reading any code",
-                         "url":  "https://piechowski.io/post/git-commands-before-reading-code/",
-                         "time":  "14h",
-                         "points":  1721
-                     },
-                     {
-                         "source":  "kalmanfilter.net",
-                         "title":  "Understanding the Kalman filter",
-                         "url":  "https://kalmanfilter.net",
-                         "time":  "6h",
-                         "points":  183
-                     },
-                     {
-                         "source":  "meta.com",
-                         "title":  "Muse Spark: Scaling towards personal superintelligence",
-                         "url":  "https://ai.meta.com/blog/introducing-muse-spark-msl/",
-                         "time":  "7h",
-                         "points":  237
-                     },
-                     {
-                         "source":  "swift.org",
-                         "title":  "Expanding Swift\u0027s IDE Support",
-                         "url":  "https://swift.org/blog/expanding-swift-ide-support/",
-                         "time":  "4h",
-                         "points":  65
-                     },
-                     {
-                         "source":  "terrybisson.com",
-                         "title":  "They\u0027re made out of meat (1991)",
-                         "url":  "http://www.terrybisson.com/theyre-made-out-of-meat-2/",
-                         "time":  "12h",
-                         "points":  373
-                     },
-                     {
-                         "source":  "sourceforge.net",
-                         "title":  "Veracrypt project update",
-                         "url":  "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
-                         "time":  "16h",
-                         "points":  1112
-                     },
-                     {
-                         "source":  "oseifert.ch",
-                         "title":  "Pgit: I Imported the Linux Kernel into PostgreSQL",
-                         "url":  "https://oseifert.ch/blog/linux-kernel-pgit",
-                         "time":  "4h",
-                         "points":  57
-                     },
-                     {
-                         "source":  "ishormuzopenyet.com",
-                         "title":  "Show HN: Is Hormuz open yet?",
-                         "url":  "https://www.ishormuzopenyet.com/",
-                         "time":  "2h",
-                         "points":  183
-                     }
-                 ],
-    "github_trending":  [
-                            {
-                                "lang":  "Rust",
-                                "name":  "ultraworkers/claw-code",
-                                "stars":  178213,
-                                "desc":  "Rust code editor"
-                            },
-                            {
-                                "lang":  "Python",
-                                "name":  "karpathy/autoresearch",
-                                "stars":  68796,
-                                "desc":  "AI research automation"
-                            },
-                            {
-                                "lang":  "Go",
-                                "name":  "garrytan/gstack",
-                                "stars":  67301,
-                                "desc":  "Claude Code tooling"
-                            },
-                            {
-                                "lang":  "TypeScript",
-                                "name":  "paperclipai/paperclip",
-                                "stars":  50003,
-                                "desc":  "Zero-human company orchestration"
-                            },
-                            {
-                                "lang":  "Rust",
-                                "name":  "chenglou/pretext",
-                                "stars":  41780,
-                                "desc":  "High-performance text layout"
-                            }
-                        ]
+{
+  "date": "2026-04-09",
+  "timestamp": "2026-04-09T11:44:00Z",
+  "market": {
+    "btc_usd": 71164,
+    "eth_usd": 2180,
+    "sol_usd": 82.22,
+    "fng_value": 14,
+    "fng_class": "Extreme Fear"
+  },
+  "highlights": [
+    {
+      "category": "AI/ML",
+      "title": "MegaTrain: Full Precision Training of 100B+ LLMs on a Single GPU",
+      "source": "arxiv.org",
+      "url": "https://arxiv.org/abs/2604.05091",
+      "significance": "突破单GPU训练百亿参数模型极限，降低大模型训练门槛"
+    },
+    {
+      "category": "AI/ML",
+      "title": "Muse Spark: Scaling towards personal superintelligence",
+      "source": "ai.meta.com",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "significance": "Meta发布个人超级智能研究方向，引发AGI讨论热潮（317pts）"
+    },
+    {
+      "category": "LLM",
+      "title": "ML promises to be profoundly weird",
+      "source": "aphyr.com",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "significance": "深度分析LLM固有怪异性质，453pts高热度讨论"
+    },
+    {
+      "category": "Crypto",
+      "title": "Who is Satoshi Nakamoto? NYTimes重磅调查",
+      "source": "nytimes.com",
+      "url": "https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html",
+      "significance": "404pts，Adam Back被指可能中本聪，BTC创世区块身份谜团再起"
+    },
+    {
+      "category": "Geopolitics",
+      "title": "Is Hormuz open yet?",
+      "source": "ishormuzopenyet.com",
+      "url": "https://www.ishormuzopenyet.com/",
+      "significance": "霍尔木兹海峡实时状态追踪，345pts，成为地缘风险关注焦点"
+    },
+    {
+      "category": "Privacy/Security",
+      "title": "LittleSnitch for Linux发布",
+      "source": "obdev.at",
+      "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+      "significance": "知名macOS防火墙LittleSnitch推出Linux版，网络监控工具开源生态扩展"
+    },
+    {
+      "category": "Crypto",
+      "title": "Polymarket伊朗停火合约引发争议",
+      "source": "theguardian.com",
+      "url": "https://www.theguardian.com/business/2026/apr/08/polymarket-trump-us-iran-ceasefire",
+      "significance": "新创建账户在伊朗停火押注中获暴利，Guardian调查预测市场操纵问题"
+    },
+    {
+      "category": "Right to Repair",
+      "title": "John Deere支付99M美元维修权和解金",
+      "source": "thedrive.com",
+      "url": "https://www.thedrive.com/news/john-deere-to-pay-99-million-in-monumental-right-to-repair-settlement",
+      "significance": "258pts，农业机械巨头承认维修权侵权，科技巨头售后垄断被打破"
+    },
+    {
+      "category": "AI/Agent",
+      "title": "Anthropic账单问题引发用户不满",
+      "source": "nickvecchioni.github.io",
+      "url": "https://nickvecchioni.github.io/thoughts/2026/04/08/anthropic-support-doesnt-exist/",
+      "significance": "329pts，用户报告等待一个月无回应，AI公司客服问题成行业痛点"
+    }
+  ],
+  "github_ai_trending": [
+    {"name": "openclaw/openclaw", "stars": 352867, "lang": "TypeScript", "desc": "Your own personal AI assistant"},
+    {"name": "Significant-Gravitas/AutoGPT", "stars": 183266, "lang": "Python", "desc": "Accessible AI for everyone"},
+    {"name": "ollama/ollama", "stars": 168288, "lang": "Go", "desc": "LLM推理框架（Kimi/GLM/MiniMax/DeepSeek等）"},
+    {"name": "huggingface/transformers", "stars": 159079, "lang": "Python", "desc": "SOTA ML模型框架"},
+    {"name": "Snailclimb/JavaGuide", "stars": 154787, "lang": "Java", "desc": "Java/后端面试指南（含AI应用开发）"},
+    {"name": "affaan-m/everything-claude-code", "stars": 147903, "lang": "JavaScript", "desc": "Claude Code性能优化系统"},
+    {"name": "langflow-ai/langflow", "stars": 146728, "lang": "Python", "desc": "AI工作流编排平台"}
+  ],
+  "hn_top10": [
+    {"rank": 1, "title": "I ported Mac OS X to the Nintendo Wii", "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html", "points": 1426, "comments": 243},
+    {"rank": 2, "title": "Git commands I run before reading any code", "url": "https://piechowski.io/post/git-commands-before-reading-code/", "points": 1935, "comments": 404},
+    {"rank": 3, "title": "Veracrypt project update", "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/", "points": 1182, "comments": 436},
+    {"rank": 4, "title": "They're made out of meat (1991)", "url": "http://www.terrybisson.com/theyre-made-out-of-meat-2/", "points": 479, "comments": 134},
+    {"rank": 5, "title": "US cities are axing Flock Safety surveillance technology", "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/", "points": 678, "comments": 396},
+    {"rank": 6, "title": "ML promises to be profoundly weird", "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess", "points": 453, "comments": 458},
+    {"rank": 7, "title": "Who is Satoshi Nakamoto? My quest to unmask Bitcoin's creator", "url": "https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html", "points": 404, "comments": 382},
+    {"rank": 8, "title": "Muse Spark: Scaling towards personal superintelligence", "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/", "points": 317, "comments": 319},
+    {"rank": 9, "title": "Ask HN: Any interesting niche hobbies?", "url": "https://news.ycombinator.com/item?id=47654062", "points": 318, "comments": 455},
+    {"rank": 10, "title": "Show HN: Is Hormuz open yet?", "url": "https://www.ishormuzopenyet.com/", "points": 345, "comments": 140}
+  ],
+  "market_signals": {
+    "btc": "BTC $71,164横盘整理，F&G极度恐慌(14)与BTC横盘形成背离",
+    "fng": "F&G 14（极度恐慌），持续极值区间，市场情绪极度压抑",
+    "notable": "霍尔木兹海峡局势持续牵动能源市场，WTI原油从前期高点回落"
+  }
 }
