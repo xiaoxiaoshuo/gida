@@ -69,7 +69,21 @@ if (Test-Path $priceScript) {
     Write-Log "collect-prices-simple.ps1 未找到" "ERROR"
 }
 
-# ---------- 2. 保存每小时快照 data/prices/YYYY-MM-DD-HH.json ----------
+# ---------- 2. 执行宏观数据专用采集 (黄金/原油/F&G) ----------
+Write-Log ">> 执行 macro-data-collector.ps1..."
+$macroScript = "$RepoRoot\scripts\macro-data-collector.ps1"
+if (Test-Path $macroScript) {
+    & $macroScript 2>&1 | ForEach-Object {
+        if ($_ -match '^\[INFO\]') { Write-Log $_ }
+        elseif ($_ -match '^\[WARN\]') { Write-Log $_ "WARN" }
+        elseif ($_ -match '^\[OK\]') { Write-Log $_ "OK" }
+        elseif ($_ -match '^\[ERROR\]') { Write-Log $_ "ERROR" }
+    }
+} else {
+    Write-Log "macro-data-collector.ps1 未找到" "ERROR"
+}
+
+# ---------- 3. 保存每小时快照 data/prices/YYYY-MM-DD-HH.json ----------
 $pricesDir = "$RepoRoot\data\prices"
 if (-not (Test-Path $pricesDir)) {
     New-Item -ItemType Directory -Path $pricesDir -Force | Out-Null
