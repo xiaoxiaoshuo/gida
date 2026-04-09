@@ -26,6 +26,14 @@
 - GitHub Push: ❌ 443失败（eed5ce0等待）
 - 子智能体: macro-price-collector-1244 + ai-news-collector-1244 运行中
 
+## 快照 | 2026-04-09 20:46 GMT+8
+- ⏰ **20:46定时扫描 + 定时任务修复**
+- BTC: $71,215 | F&G: 14
+- **🔴 发现遗忘**: HourlyPriceCollector/Daily从未注册成功！
+- **✅ 修复**: HourlyPriceCollector已注册(Ready)，Daily AM/PM已就绪
+- **⚠️ 待修**: 黄金API降级Substring错误，gold_latest=估算值
+- GitHub: ✅ 05c6c63已同步
+
 ## 快照 | 2026-04-09 17:07 GMT+8
 - ⏰ **17:07定时扫描**
 - BTC: $71,176 | ETH: $2,180 | SOL: $82.31 | F&G: 14（极度恐慌）
