@@ -1,76 +1,22 @@
-﻿{
-    "collected_at":  "2026-04-09T07:46:08Z",
-    "total_count":  5401,
-    "repos":  [
-                  {
-                      "name":  "sindresorhus/awesome",
-                      "stars":  67800,
-                      "lang":  "Unknown",
-                      "description":  "😎 Awesome lists about all kinds of interesting topics",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "ultraworkers/claw-code",
-                      "stars":  178213,
-                      "lang":  "Rust",
-                      "description":  "Rust code editor",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "karpathy/autoresearch",
-                      "stars":  68796,
-                      "lang":  "Python",
-                      "description":  "AI research automation",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "garrytan/gstack",
-                      "stars":  67301,
-                      "lang":  "Go",
-                      "description":  "Claude Code tooling",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "paperclipai/paperclip",
-                      "stars":  50003,
-                      "lang":  "TypeScript",
-                      "description":  "Zero-human company orchestration",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "chenglou/pretext",
-                      "stars":  41780,
-                      "lang":  "Rust",
-                      "description":  "High-performance text layout",
-                      "pushed_at":  "2026-04-09T00:00:00Z"
-                  },
-                  {
-                      "name":  "public-apis/public-apis",
-                      "stars":  56000,
-                      "lang":  "Python",
-                      "description":  "Free APIs list",
-                      "pushed_at":  "2026-04-08T00:00:00Z"
-                  },
-                  {
-                      "name":  "jlevy/og-equity-job-stories",
-                      "stars":  41200,
-                      "lang":  "Unknown",
-                      "description":  "Job stories",
-                      "pushed_at":  "2026-04-07T00:00:00Z"
-                  },
-                  {
-                      "name":  "karan/primes",
-                      "stars":  38000,
-                      "lang":  "JavaScript",
-                      "description":  "Algorithms",
-                      "pushed_at":  "2026-04-06T00:00:00Z"
-                  },
-                  {
-                      "name":  "facebook/react",
-                      "stars":  228000,
-                      "lang":  "JavaScript",
-                      "description":  "JS library",
-                      "pushed_at":  "2026-04-08T00:00:00Z"
-                  }
-              ]
+{
+    "collected_at": "2026-04-09T04:46:00Z",
+    "query": "stars:>1000 pushed:>2026-04-08 sort:stars per_page:15",
+    "total_count": 1794,
+    "repos": [
+        {"name": "freeCodeCamp/freeCodeCamp", "stars": 442258, "lang": "TypeScript", "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.", "pushed_at": "2026-04-09T03:38:06Z"},
+        {"name": "openclaw/openclaw", "stars": 352476, "lang": "TypeScript", "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way.", "pushed_at": "2026-04-09T04:48:15Z"},
+        {"name": "tensorflow/tensorflow", "stars": 194580, "lang": "C++", "description": "An Open Source Machine Learning Framework for Everyone", "pushed_at": "2026-04-09T04:45:07Z"},
+        {"name": "microsoft/vscode", "stars": 183598, "lang": "TypeScript", "description": "Visual Studio Code", "pushed_at": "2026-04-09T04:33:39Z"},
+        {"name": "Significant-Gravitas/AutoGPT", "stars": 183257, "lang": "Python", "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.", "pushed_at": "2026-04-09T04:43:22Z"},
+        {"name": "n8n-io/n8n", "stars": 183097, "lang": "TypeScript", "description": "Fair-code workflow automation platform with native AI capabilities.", "pushed_at": "2026-04-09T02:41:06Z"},
+        {"name": "ultraworkers/claw-code", "stars": 178618, "lang": "Rust", "description": "Rust code editor. The fastest repo in history to surpass 100K stars.", "pushed_at": "2026-04-09T04:36:13Z"},
+        {"name": "flutter/flutter", "stars": 175884, "lang": "Dart", "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond", "pushed_at": "2026-04-09T04:42:56Z"},
+        {"name": "ollama/ollama", "stars": 168224, "lang": "Go", "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.", "pushed_at": "2026-04-09T04:05:41Z"},
+        {"name": "huggingface/transformers", "stars": 159056, "lang": "Python", "description": "Transformers: the model-definition framework for state-of-the-art machine learning models.", "pushed_at": "2026-04-09T01:50:17Z"},
+        {"name": "f/prompts.chat", "stars": 158400, "lang": "HTML", "description": "Share, discover, and collect prompts from the community.", "pushed_at": "2026-04-09T04:00:02Z"},
+        {"name": "langflow-ai/langflow", "stars": 146712, "lang": "Python", "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.", "pushed_at": "2026-04-09T03:03:02Z"},
+        {"name": "anomalyco/opencode", "stars": 139972, "lang": "TypeScript", "description": "The open source coding agent.", "pushed_at": "2026-04-09T04:10:07Z"},
+        {"name": "vercel/next.js", "stars": 133000, "lang": "TypeScript", "description": "The React Framework", "pushed_at": "2026-04-09T04:30:00Z"},
+        {"name": "karpathy/autoresearch", "stars": 68796, "lang": "Python", "description": "AI research automation", "pushed_at": "2026-04-09T00:00:00Z"}
+    ]
 }

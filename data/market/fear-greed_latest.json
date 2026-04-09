@@ -1,10 +1,12 @@
 {
-    "value": "17",
-    "value_classification": "Extreme Fear",
-    "timestamp": "1775606400",
-    "time_until_update": "11640",
-    "yesterday": "11",
-    "last_week": "8",
-    "last_month": "8",
-    "fetched_at": "2026-04-09T05:05:00Z"
+  "timestamp": "2026-04-09T04:46:12Z",
+  "source": "alternative.me",
+  "index": 14,
+  "value": "Extreme Fear",
+  "yesterday": 17,
+  "yesterday_value": "Extreme Fear",
+  "last_week": 12,
+  "last_week_value": "Extreme Fear",
+  "last_month": 13,
+  "last_month_value": "Extreme Fear"
 }

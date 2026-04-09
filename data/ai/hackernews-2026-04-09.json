@@ -1,0 +1,15 @@
+{
+  "collected_at": "2026-04-09T04:46:00Z",
+  "items": [
+    {"rank": 1, "title": "Git commands I run before reading any code", "url": "https://piechowski.io/post/git-commands-before-reading-code/", "site": "piechowski.io", "points": 1887, "comments": 402, "author": "grepsedawk", "hours_ago": 19},
+    {"rank": 2, "title": "I ported Mac OS X to the Nintendo Wii", "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html", "site": "bryankeller.github.io", "points": 1375, "comments": 234, "author": "blkhp19", "hours_ago": 13},
+    {"rank": 3, "title": "They're made out of meat (1991)", "url": "http://www.terrybisson.com/theyre-made-out-of-meat-2/", "site": "terrybisson.com", "points": 452, "comments": 133, "author": "surprisetalk", "hours_ago": 17},
+    {"rank": 4, "title": "LittleSnitch for Linux", "url": "https://obdev.at/products/littlesnitch-linux/index.html", "site": "obdev.at", "points": 320, "comments": 118, "author": "pluc", "hours_ago": 4},
+    {"rank": 5, "title": "Muse Spark: Scaling towards personal superintelligence", "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/", "site": "meta.com", "points": 296, "comments": 306, "author": "chabons", "hours_ago": 12},
+    {"rank": 6, "title": "ML promises to be profoundly weird", "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess", "site": "aphyr.com", "points": 429, "comments": 446, "author": "pabs3", "hours_ago": 15},
+    {"rank": 7, "title": "App Store sees 84% surge in new apps as AI coding tools take off", "url": "https://9to5mac.com/2026/04/06/app-store-sees-84-surge-in-new-apps-as-ai-coding-tools-take-off/", "site": "9to5mac.com", "points": 311, "comments": 15, "author": "gardaani", "hours_ago": 1},
+    {"rank": 8, "title": "Ask HN: Any interesting niche hobbies?", "url": "https://news.ycombinator.com/item?id=47654062", "site": "news.ycombinator.com", "points": 294, "comments": 431, "author": "e-topy", "hours_ago": 16},
+    {"rank": 9, "title": "Understanding the Kalman filter with a simple radar example", "url": "https://kalmanfilter.net", "site": "kalmanfilter.net", "points": 268, "comments": 35, "author": "alex_be", "hours_ago": 11},
+    {"rank": 10, "title": "USB for Software Developers", "url": "https://werwolv.net/posts/usb_for_sw_devs/", "site": "werwolv.net", "points": 230, "comments": 29, "author": "WerWolv", "hours_ago": 9}
+  ]
+}
