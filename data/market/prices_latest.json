@@ -1,88 +1,21 @@
 ﻿{
-    "timestamp_iso":  "2026-04-09T09:23:49Z",
-    "timestamp":  "2026-04-09 17:23:49",
-    "macro":  {
-                  "VIX":  {
-                              "confidence":  "medium",
-                              "timestamp":  "2026-04-09 17:23:49",
-                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"14\",\n\t\t\t\"value_classification\": \"Extr",
-                              "source":  "alternative.me_FNG",
-                              "value":  14
-                          },
-                  "OIL":  {
-                              "value":  97.26,
-                              "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-04-09 17:23:49",
-                              "raw_len":  414802,
-                              "confidence":  "high",
-                              "unit":  "USD/barrel (WTI)"
-                          },
-                  "GOLD":  {
-                               "value":  4733,
-                               "source":  "kitco.com",
-                               "timestamp":  "2026-04-09 17:23:49",
-                               "raw_len":  60837,
-                               "confidence":  "high",
-                               "unit":  "USD/oz"
-                           }
-              },
-    "errors":  [
-
-               ],
-    "crypto":  {
+    "timestamp":  "2026-04-09T18:27:33Z",
+    "source":  "CryptoCompare+alternative.me",
+    "prices":  {
                    "BTC":  {
-                               "price":  71310.67,
-                               "timestamp":  "2026-04-09 17:23:49",
-                               "raw":  "{\"USD\":71310.67}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
+                               "price":  71463.47,
+                               "changePct24h":  -0.02
                            },
                    "ETH":  {
-                               "price":  2184.57,
-                               "timestamp":  "2026-04-09 17:23:49",
-                               "raw":  "{\"USD\":2184.57}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
+                               "price":  2193.74,
+                               "changePct24h":  -2.19
                            },
                    "SOL":  {
-                               "price":  82.45,
-                               "timestamp":  "2026-04-09 17:23:49",
-                               "raw":  "{\"USD\":82.45}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
+                               "price":  82.59,
+                               "changePct24h":  -2.27
                            }
                },
-    "quality_report":  {
-                           "SOL":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "VIX":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "OIL":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                   },
-                           "GOLD":  {
-                                        "label":  "中",
-                                        "score":  65,
-                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                    },
-                           "BTC":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "ETH":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   }
-                       },
-    "collection_version":  "v4"
+    "fear_and_greed_value":  14,
+    "fear_and_greed_class":  "Extreme Fear",
+    "fear_and_greed_ts":  "1775692800"
 }
