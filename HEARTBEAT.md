@@ -1,5 +1,15 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-09 18:27 GMT+8 - ✅ 晚间简报已生成
+- ⏰ **18:27定时扫描**
+- BTC: $71,463 (-0.02%) | ETH: $2,194 (-2.19%) | SOL: $82.59 (-2.27%)
+- F&G: 14（极度恐慌）
+- GOLD: $4,702/oz | WTI: $114.58/bbl
+- **简报**: ✅ briefings/2026-04-09.md 已生成（晚间完整版）
+- **GitHub Trending**: ✅ 04:46采集（Top5: freeCodeCamp/openclaw/tensorflow/vscode/AutoGPT）
+- **HN Top5**: Git commands(1887★) / Wii移植MacOSX(1375★) / 肉做的(452★) / LittleSnitch Linux(320★) / Muse Spark(296★)
+- GitHub Push: ❌ 443失败，commits堆积
+
 ## 快照 | 2026-04-09 12:50 GMT+8 - ✅ 全部完成
 - ⏰ **12:50定时扫描完成**
 - BTC: $70,884 | ETH: $2,180 | SOL: $81.98 — 回调
