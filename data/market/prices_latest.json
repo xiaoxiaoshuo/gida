@@ -1,15 +1,15 @@
 ﻿{
-    "timestamp":  "2026-04-10T01:24:28Z",
+    "timestamp":  "2026-04-10T02:24:19Z",
     "source":  "Gate.io+alternative.me",
     "prices":  {
                    "BTC":  {
-                               "price":  72360.2
+                               "price":  71826
                            },
                    "ETH":  {
-                               "price":  2216.06
+                               "price":  2203.42
                            },
                    "SOL":  {
-                               "price":  83.96
+                               "price":  83.77
                            }
                },
     "fear_and_greed_value":  14,
