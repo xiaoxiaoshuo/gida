@@ -1,12 +1,8 @@
-{
-  "timestamp": "2026-04-09T04:46:45Z",
-  "source": "goldprice.org (browser)",
-  "price_per_oz": 4721.17,
-  "change": -30.22,
-  "change_pct": -0.64,
-  "price_per_gram": 151.79,
-  "price_per_kg": 151789.03,
-  "currency": "USD",
-  "time_ny": "Apr 9th 2026, 12:46:45 am NY time",
-  "note": "Gold price slightly down after recent ceasefire news. 30d change: -8.13%. YTD: +9.8%."
+﻿{
+    "price_per_oz":  4711.73,
+    "currency":  "USD",
+    "source":  "estimated_from_last",
+    "timestamp":  "2026-04-09T17:22:09Z",
+    "note":  "估算值",
+    "collection_time":  "2026-04-09T17:22:09Z"
 }

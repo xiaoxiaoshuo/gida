@@ -1,32 +1,12 @@
-{
-  "timestamp": "2026-04-09T04:47:00Z",
-  "source": "oilprice.com (browser)",
-  "prices": {
-    "WTI_Crude": {
-      "price": 97.55,
-      "change": 3.14,
-      "change_pct": 3.33
-    },
-    "Brent_Crude": {
-      "price": 97.08,
-      "change": 2.33,
-      "change_pct": 2.46
-    },
-    "Murban_Crude": {
-      "price": 97.64,
-      "change": -21.62,
-      "change_pct": -18.13
-    },
-    "Natural_Gas": {
-      "price": 2.723,
-      "change": -0.001,
-      "change_pct": -0.04
-    },
-    "OPEC_Basket": {
-      "price": 123.9,
-      "change": 13.24,
-      "change_pct": 11.97
-    }
-  },
-  "note": "WTI surged +3.33% amid Middle East tensions (Iran attacked Saudi pipeline, Hormuz strait concerns). Trump Iran ceasefire news causing volatility."
+﻿{
+    "collection_time":  "2026-04-09T17:22:09Z",
+    "timestamp":  "2026-04-09T17:22:09Z",
+    "source":  "EIA_API",
+    "prices":  {
+                   "WTI_Crude":  {
+                                     "price":  114.58,
+                                     "change":  null,
+                                     "change_pct":  null
+                                 }
+               }
 }
