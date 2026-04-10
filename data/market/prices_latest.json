@@ -1,18 +1,15 @@
 ﻿{
-    "timestamp":  "2026-04-10T02:24:19Z",
-    "source":  "Gate.io+alternative.me",
-    "prices":  {
-                   "BTC":  {
-                               "price":  71826
-                           },
-                   "ETH":  {
-                               "price":  2203.42
-                           },
-                   "SOL":  {
-                               "price":  83.77
-                           }
-               },
-    "fear_and_greed_value":  14,
-    "fear_and_greed_class":  "Extreme Fear",
-    "fear_and_greed_ts":  "1775692800"
+    "collection_version":  "macro-playwright-v2",
+    "timestamp":  "2026-04-10 08:00:02",
+    "macro":  {
+                  "VIX":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-04-10 08:00:02",
+                              "source":  "CBOE.com (IE COM)",
+                              "value":  19.49
+                          }
+              },
+    "crypto":  {
+
+               }
 }

@@ -1,78 +1,87 @@
-{
-  "last_updated": "2026-04-08T04:55:00+08:00",
-  "days_collected": 1,
-  "history": [
+﻿[
     {
-      "date": "2026-04-08",
-      "repos": [
-        {
-          "name": "google-ai-edge / gallery",
-          "stars": 18673,
-          "stars_today": 899,
-          "language": "Kotlin",
-          "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
-        },
-        {
-          "name": "google-ai-edge / LiteRT-LM",
-          "stars": 2478,
-          "stars_today": 522,
-          "language": "C++",
-          "description": ""
-        },
-        {
-          "name": "NVIDIA / personaplex",
-          "stars": 7866,
-          "stars_today": 663,
-          "language": "Python",
-          "description": "PersonaPlex code."
-        },
-        {
-          "name": "abhigyanpatwari / GitNexus",
-          "stars": 24393,
-          "stars_today": 1174,
-          "language": "TypeScript",
-          "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
-        },
-        {
-          "name": "tobi / qmd",
-          "stars": 19470,
-          "stars_today": 859,
-          "language": "TypeScript",
-          "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
-        },
-        {
-          "name": "forrestchang / andrej-karpathy-skills",
-          "stars": 7970,
-          "stars_today": 42,
-          "language": "",
-          "description": ""
-        },
-        {
-          "name": "elebumm / RedditVideoMakerBot",
-          "stars": 9974,
-          "stars_today": 656,
-          "language": "Python",
-          "description": "Create Reddit Videos with just✨ one command ✨"
-        },
-        {
-          "name": "HKUDS / DeepTutor",
-          "stars": 12009,
-          "stars_today": 339,
-          "language": "Python",
-          "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
-        },
-        {
-          "name": "TheCraigHewitt / seomachine",
-          "stars": 3800,
-          "stars_today": 213,
-          "language": "Python",
-          "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
-        }
-      ]
+        "last_updated":  "2026-04-08T04:55:00+08:00",
+        "days_collected":  1,
+        "history":  [
+                        {
+                            "date":  "2026-04-08",
+                            "repos":  [
+                                          {
+                                              "name":  "google-ai-edge / gallery",
+                                              "stars":  18673,
+                                              "stars_today":  899,
+                                              "language":  "Kotlin",
+                                              "description":  "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
+                                          },
+                                          {
+                                              "name":  "google-ai-edge / LiteRT-LM",
+                                              "stars":  2478,
+                                              "stars_today":  522,
+                                              "language":  "C++",
+                                              "description":  ""
+                                          },
+                                          {
+                                              "name":  "NVIDIA / personaplex",
+                                              "stars":  7866,
+                                              "stars_today":  663,
+                                              "language":  "Python",
+                                              "description":  "PersonaPlex code."
+                                          },
+                                          {
+                                              "name":  "abhigyanpatwari / GitNexus",
+                                              "stars":  24393,
+                                              "stars_today":  1174,
+                                              "language":  "TypeScript",
+                                              "description":  "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
+                                          },
+                                          {
+                                              "name":  "tobi / qmd",
+                                              "stars":  19470,
+                                              "stars_today":  859,
+                                              "language":  "TypeScript",
+                                              "description":  "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
+                                          },
+                                          {
+                                              "name":  "forrestchang / andrej-karpathy-skills",
+                                              "stars":  7970,
+                                              "stars_today":  42,
+                                              "language":  "",
+                                              "description":  ""
+                                          },
+                                          {
+                                              "name":  "elebumm / RedditVideoMakerBot",
+                                              "stars":  9974,
+                                              "stars_today":  656,
+                                              "language":  "Python",
+                                              "description":  "Create Reddit Videos with just✨ one command ✨"
+                                          },
+                                          {
+                                              "name":  "HKUDS / DeepTutor",
+                                              "stars":  12009,
+                                              "stars_today":  339,
+                                              "language":  "Python",
+                                              "description":  "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
+                                          },
+                                          {
+                                              "name":  "TheCraigHewitt / seomachine",
+                                              "stars":  3800,
+                                              "stars_today":  213,
+                                              "language":  "Python",
+                                              "description":  "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
+                                          }
+                                      ]
+                        }
+                    ],
+        "legacy_snapshots":  [
+                                 "data/tech/github-trending-2026-04-01.json",
+                                 "data/tech/github-trending-2026-03-26.json"
+                             ]
+    },
+    {
+        "date":  "2026-04-10",
+        "timestamp":  "2026-04-10 08:01:11",
+        "data":  [
+
+                 ]
     }
-  ],
-  "legacy_snapshots": [
-    "data/tech/github-trending-2026-04-01.json",
-    "data/tech/github-trending-2026-03-26.json"
-  ]
-}
+]

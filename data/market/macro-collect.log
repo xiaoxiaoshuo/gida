@@ -1,0 +1,9 @@
+﻿[INFO] 08:00:02 - ========== 宏观数据采集 (Playwright) ==========
+[INFO] 08:00:02 - >> 采集黄金 (goldprice.org)...
+[INFO] 08:00:08 - >> 采集WTI原油 (oilprice.com)...
+[INFO] 08:00:13 - >> 采集VIX (CBOE.com)...
+[OK] 08:00:19 -   VIX = 19.49 [CBOE.com] OK
+[INFO] 08:00:19 -   合并已有数据: crypto保留 0 项, macro合并 1 项
+[INFO] 08:00:19 -   prices_latest.json 已更新
+[INFO] 08:00:19 - ========== 采集完成 ==========
+[INFO] 08:00:19 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_latest.json

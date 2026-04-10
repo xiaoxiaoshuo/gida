@@ -1,0 +1,48 @@
+[INFO] 08:00:19 - ========== 科技新闻采集开始 ==========
+[INFO] 08:00:19 - 采集时间: 2026-04-10 08:00:19
+[INFO] 08:00:19 - >> 采集GitHub Trending (v2)...
+[INFO] 08:00:19 - ========== GitHub Trending 采集 v2 开始 ==========
+[INFO] 08:00:19 - 日期: 2026-04-10
+[INFO] 08:00:19 - Token: 未配置（使用匿名模式）
+[INFO] 08:00:19 - >> 策略1: 通过 GitHub API 采集...
+[INFO] 08:00:19 -   查询: stars:>500 created:>2026-03-11
+[WARN] 08:00:20 -   API请求失败: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。
+[INFO] 08:00:22 -   查询: stars:>1000 pushed:>2026-03-11
+[WARN] 08:00:22 -   API请求失败: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。
+[INFO] 08:00:24 -   去重后: 0 个项目
+[WARN] 08:00:24 - API 采集失败，切换到镜像站策略...
+[INFO] 08:00:24 - >> 策略2: 通过镜像站采集...
+[INFO] 08:00:24 -   尝试: https://hub.fastgit.xyz
+[WARN] 08:00:39 -   镜像站失败: https://hub.fastgit.xyz - The operation has timed out.
+[INFO] 08:00:41 -   尝试: https://ghproxy.com
+[WARN] 08:00:56 -   镜像站失败: https://ghproxy.com - The operation has timed out.
+[ERROR] 08:00:58 -   所有镜像站均失败
+[ERROR] 08:00:58 - 所有采集策略均失败，生成空报告
+[INFO] 08:00:58 - Markdown报告: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-04-10.md
+[INFO] 08:00:58 - JSON数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-04-10.json
+[INFO] 08:00:58 - ========== 采集完成 ==========
+[INFO] 08:00:58 - 共采集: 0 个项目
+[WARN] 08:00:58 - GitHub Trending 采集返回空结果
+[INFO] 08:00:58 - >> 采集AI技术博客...
+[INFO] 08:00:58 -   DeepSeek Blog...
+[INFO] 08:00:59 -   DeepSeek采集成功 (长度: 8000)
+[INFO] 08:00:59 -   OpenAI News...
+[INFO] 08:00:59 -   OpenAI采集成功
+[INFO] 08:00:59 -   Google AI Blog...
+[INFO] 08:00:59 -   Google AI采集成功
+[INFO] 08:00:59 - >> 采集量子计算进展...
+[INFO] 08:00:59 -   查询: quantum computing breakthrough 2026
+[INFO] 08:00:59 -   采集成功 (长度: 5000)
+[INFO] 08:01:01 -   查询: IBM Google quantum qubit 2026
+[INFO] 08:01:02 -   采集成功 (长度: 5000)
+[INFO] 08:01:04 -   查询: 量子计算 突破 2026
+[INFO] 08:01:04 -   采集成功 (长度: 5000)
+[INFO] 08:01:06 - >> 采集芯片半导体行业动态...
+[INFO] 08:01:06 -   查询: semiconductor chip industry news 2026
+[INFO] 08:01:06 -   成功 (长度: 4000)
+[INFO] 08:01:08 -   查询: 芯片半导体 行业动态 2026
+[INFO] 08:01:09 -   成功 (长度: 4000)
+[INFO] 08:01:11 - ========== 采集完成 ==========
+[INFO] 08:01:11 - 数据文件: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\tech-news_2026-04-10_08-00.json
+[INFO] 08:01:11 - 错误数量: 1
+[WARN] 08:01:11 - 错误详情: GitHub trending returned empty

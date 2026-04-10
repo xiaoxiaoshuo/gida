@@ -1,0 +1,52 @@
+﻿{
+    "timestamp":  "2026-04-10 08:00:19",
+    "data":  {
+                 "deepseek_blog":  {
+                                       "raw_length":  8000,
+                                       "url":  "https://deepseek.com/blog",
+                                       "raw_snippet":  "\u003c!DOCTYPE html\u003e\u003chtml lang=\"zh-CN\" class=\"__className_f367f3\"\u003e\u003chead\u003e\u003cmeta charSet=\"utf-8\"/\u003e\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/\u003e\u003clink rel=\"preload\" href=\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\" as=\"font\" crossorigin=\"\" type=\"font/woff2\"/\u003e\u003clink rel=\"stylesheet\" href=\"/_next/static/css/4ed2fe305fed57cc.css\" crossorigin=\"\" data-precedence=\"next\"/\u003e\u003clink rel=\"stylesheet\" href=\"/_next/static/css/b794593e5feb2b94.css\" crossorigin=\"\" data-precedence=\"next\"/\u003e\u003clink rel=\"stylesheet\" href=\"/_next/static/css/2cbd522464c80da0.css\" crossorigin=\"\" data-precedence=\"next\"/\u003e\u003clink rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/webpack-2e06bec4baf15881.js\" crossorigin=\"\"/\u003e\u003cscript src=\"/_next/static/chunks/c56f180e-6001d5763de6082d.js\" async=\"\" crossorigin=\"\"\u003e\u003c/script\u003e\u003cscript src=\"/_next/static/chunks/6714-6422be53e1640400.js\" async=\"\" crossorigin=\"\"\u003e\u003c/script\u003e\u003cscript src=\"/_next/static/chunks/main-app-0138e63140c237ca.js\" async=\"\" crossorigin="
+                                   },
+                 "openai_news":  {
+                                     "raw_length":  5000,
+                                     "raw_snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"JFOlBcgzacg5AzFKJtm/1ZTzBsNdr1EzaNJPGqXgXEo=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003eOpenAI blog news 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"通过必应的智能搜索，可以更轻松地快速查找所需内容并获得奖励。\" /\u003e\u003cmeta property=\"og:site_name\" content=\"必应\" /\u003e\u003cmeta property=\"og:title\" content=\"OpenAI blog news 2026 - 必应\" /\u003e\u003cmeta property=\"og:url\" content=\"https://cn.bing.com/search?q=OpenAI+blog+news+2026\" /\u003e\u003cmeta property=\"fb:app_id\" content=\"3732605936979161\" /\u003e\u003cmeta property=\"og:image\" content=\"http://www.bing.com/sa/simg/facebook_sharing_5.png\" /\u003e\u003cmeta property=\"og:type\" content=\"website\" /\u003e\u003cmeta property=\"og:image:width\" content=\"600\" /\u003e\u003cmeta property=\"og:image:height\" content=\"315",
+                                     "source":  "cn.bing.com search"
+                                 },
+                 "chip_industry":  [
+                                       {
+                                           "query":  "semiconductor chip industry news 2026",
+                                           "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"+rnqEwtsfpduBok9EZXIQP74cnbnBJy9d7uBan/Cfg8=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003esemiconductor chip industry news 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content",
+                                           "raw_length":  4000
+                                       },
+                                       {
+                                           "query":  "芯片半导体 行业动态 2026",
+                                           "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"8tFjNKJwT5atA1v7zb9FUTLHfyLUEFDumT/Qy860hRY=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003e芯片半导体 行业动态 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"通过必应的智能搜索，可以更轻松地快速查找",
+                                           "raw_length":  4000
+                                       }
+                                   ],
+                 "google_ai":  {
+                                   "raw_length":  5000,
+                                   "raw_snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"rTQGHnO6Hh4wva4hfUOGxPQ+FeNWfy/+Qst0MFGvtTM=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003eGoogle AI deepmind research blog 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"通过必应的智能搜索，可以更轻松地快速查找所需内容并获得奖励。\" /\u003e\u003cmeta property=\"og:site_name\" content=\"必应\" /\u003e\u003cmeta property=\"og:title\" content=\"Google AI deepmind research blog 2026 - 必应\" /\u003e\u003cmeta property=\"og:url\" content=\"https://cn.bing.com/search?q=Google+AI+deepmind+research+blog+2026\" /\u003e\u003cmeta property=\"fb:app_id\" content=\"3732605936979161\" /\u003e\u003cmeta property=\"og:image\" content=\"http://www.bing.com/sa/simg/facebook_sharing_5.png\" /\u003e\u003cmeta property=\"og:type\" content=\"website\" /\u003e\u003cmeta property=\"og:image:width\" content=\"600\"",
+                                   "source":  "cn.bing.com search"
+                               },
+                 "quantum":  [
+                                 {
+                                     "query":  "quantum computing breakthrough 2026",
+                                     "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"hIL5d6eOGTY6tycz2aue4zSUZZk7ayOeY1Q/Slyw8Bg=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003equantum computing breakthrough 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"",
+                                     "raw_length":  5000
+                                 },
+                                 {
+                                     "query":  "IBM Google quantum qubit 2026",
+                                     "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"iPSmwaaeGYZLCf+fqExBYNkNTya3yPYabPInbpUcOdo=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003eIBM Google quantum qubit 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"通过必应的智",
+                                     "raw_length":  5000
+                                 },
+                                 {
+                                     "query":  "量子计算 突破 2026",
+                                     "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml dir=\"ltr\" lang=\"zh\" xml:lang=\"zh\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:Web=\"http://schemas.live.com/Web/\"\u003e\u003cscript type=\"text/javascript\" nonce=\"Sg08dw4WEl3Bs0laXJhc3EgMCPlwlIRKA0MQV+zx+Nw=\" \u003e//\u003c![CDATA[\r\nsi_ST=new Date\r\n//]]\u003e\u003c/script\u003e\u003chead\u003e\u003c!--pc--\u003e\u003ctitle\u003e量子计算 突破 2026 - 搜索\u003c/title\u003e\u003cmeta content=\"text/html; charset=utf-8\" http-equiv=\"content-type\" /\u003e\u003cmeta name=\"referrer\" content=\"origin-when-cross-origin\" /\u003e\u003cmeta property=\"og:description\" content=\"通过必应的智能搜索，可以更轻松地快速查找所需内",
+                                     "raw_length":  5000
+                                 }
+                             ]
+             },
+    "errors":  [
+                   "GitHub trending returned empty"
+               ]
+}
