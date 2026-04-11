@@ -1,19 +1,13 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "macro_prices": 1744358400,
-    "github_push": 1744360530
+    "macro_prices": 1744362731,
+    "github_push": 1744362731
   },
-  "lastHeartbeat": 1744360530,
-  "pendingTasks": [
-    "HN数据更新(最后:2026-04-03)",
-    "加密货币采集(空数据)",
-    "GitHub Push积压(已清除)"
-  ],
+  "lastHeartbeat": 1744362731,
+  "pendingTasks": [],
   "subagents": {
-    "heartbeat-collector-1710": "running",
-    "script-optimizer-1710": "running"
-  }
+    "heartbeat-collector-1710": "done",
+    "script-optimizer-1710": "done"
+  },
+  "notes": "17:00-17:12 完整恢复：crypto+macro全采集，脚本升至v8，晚间简报已生成并推送"
 }
