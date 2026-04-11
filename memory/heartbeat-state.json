@@ -1,13 +1,17 @@
 {
   "lastChecks": {
-    "macro_prices": 1744362731,
-    "github_push": 1744362731
+    "macro_prices": 1744362331,
+    "github_push": 1744362831
   },
-  "lastHeartbeat": 1744362731,
-  "pendingTasks": [],
+  "lastHeartbeat": 1744362900,
+  "pendingTasks": [
+    "DailyCollector_AM DLL错误待修复(0xC0000135)"
+  ],
   "subagents": {
     "heartbeat-collector-1710": "done",
-    "script-optimizer-1710": "done"
+    "script-optimizer-1710": "done",
+    "evening-batch-catchup-1734": "done",
+    "cron-diagnostic-1734": "done"
   },
-  "notes": "17:00-17:12 完整恢复：crypto+macro全采集，脚本升至v8，晚间简报已生成并推送"
+  "notes": "17:38完成: HEARTBEAT归档+精简, GitHub全部同步(595e917+04998e4), 20:00 cron待触发"
 }
