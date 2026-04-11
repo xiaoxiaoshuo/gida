@@ -71,30 +71,7 @@ function Extract-PriceValue {
 function Get-CryptoPrice {
     param([string]$Symbol, [string]$Pair = "BTC-USDT")
 
-    # --- 策略1: OKX API (最稳定) ---
-    $okxUrls = @{
-        "BTC" = "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT"
-        "ETH" = "https://www.okx.com/api/v5/market/ticker?instId=ETH-USDT"
-        "SOL" = "https://www.okx.com/api/v5/market/ticker?instId=SOL-USDT"
-    }
-    if ($okxUrls[$Symbol]) {
-        $r = Invoke-SafeFetch -Url $okxUrls[$Symbol] -Timeout 8
-        if ($r.ok -and $r.len -gt 10) {
-            try {
-                $json = $r.content | ConvertFrom-Json
-                if ($json.code -eq "0" -and $json.data[0].last) {
-                    $price = [double]$json.data[0].last
-                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(100, $r.len)) } else { "" }
-                    return @{
-                        price = $price; source = "OKX_API"; confidence = "high"
-                        raw = $raw; timestamp = $DateStr
-                    }
-                }
-            } catch { Write-Log "OKX $Symbol JSON解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
-        }
-    }
-
-    # --- 策略2: CryptoCompare API ---
+    # --- 策略1: CryptoCompare API (最稳定，GFW可访问) ---
     $ccUrls = @{
         "BTC" = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD"
         "ETH" = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD"
@@ -117,7 +94,7 @@ function Get-CryptoPrice {
         }
     }
 
-    # --- 策略3: Gate.io API ---
+    # --- 策略2: Gate.io API (备用) ---
     $gateUrls = @{
         "BTC" = "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT"
         "ETH" = "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT"
@@ -140,7 +117,7 @@ function Get-CryptoPrice {
         }
     }
 
-    # --- 策略4: Bing搜索摘要 (最低置信度) ---
+    # --- 策略3: Bing搜索摘要 (最低置信度) ---
     Write-Log "  $Symbol API全部失败，降级到Bing搜索..." "WARN"
     $queries = @{
         "BTC" = "Bitcoin BTC price USD 今日最新"
@@ -167,8 +144,11 @@ function Get-CryptoPrice {
 }
 
 # ========== VIX专项采集 (Yahoo Finance API) ==========
+# 注意: VIX和Fear&Greed是不同指标，不要混淆
+# VIX正常范围: 10-80 (恐慌指数)
+# F&G范围: 0-100 (加密市场情绪)
 function Get-VIXPrice {
-    # Yahoo Finance 非官方CSV接口
+    # 策略1: Yahoo Finance VIX API
     $yahooUrl = "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d"
     $r = Invoke-SafeFetch -Url $yahooUrl -Timeout 10
     if ($r.ok -and $r.status -eq 200) {
@@ -178,13 +158,13 @@ function Get-VIXPrice {
             if ($vixVal -and [double]$vixVal -gt 0) {
                 $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(100, $r.len)) } else { "" }
                 return @{
-                    value = [double]$vixVal; source = "Yahoo_Finance_API"; confidence = "high"
+                    value = [double]$vixVal; source = "Yahoo_Finance_VIX"; confidence = "high"
                     raw = $raw; timestamp = $DateStr
                 }
             }
         } catch { Write-Log "VIX Yahoo Finance JSON解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
     }
-    # 降级1: 查询2个替代代码
+    # 降级1: Yahoo Finance ^VIXN (VIX短期期权指数)
     foreach ($sym in @("^VIX", "^VIXN")) {
         $url2 = "https://query1.finance.yahoo.com/v8/finance/chart/$sym?interval=1d&range=1d"
         $r2 = Invoke-SafeFetch -Url $url2 -Timeout 10
@@ -195,52 +175,33 @@ function Get-VIXPrice {
                 if ($vixVal2 -and [double]$vixVal2 -gt 0) {
                     $raw = if ($r2.len -gt 0) { $r2.content.Substring(0, [Math]::Min(100, $r2.len)) } else { "" }
                     return @{
-                        value = [double]$vixVal2; source = "Yahoo_Finance_API"; confidence = "high"
+                        value = [double]$vixVal2; source = "Yahoo_Finance_VIX"; confidence = "high"
                         raw = $raw; timestamp = $DateStr
                     }
                 }
             } catch {}
         }
     }
-    # 降级2: CNN Fear & Greed
-    $cnnR = Invoke-SafeFetch -Url "https://api.cnn.com/edge/v1/pulse/feargreed/indicator" -Timeout 10
-    if ($cnnR.ok -and $cnnR.status -eq 200) {
-        try {
-            $cnnJson = $cnnR.content | ConvertFrom-Json
-            if ($cnnJson.fearGreedScore -and [double]$cnnJson.fearGreedScore -gt 0) {
-                return @{
-                    value = [double]$cnnJson.fearGreedScore; source = "CNN_FearGreed"; confidence = "medium"
-                    raw_len = $cnnR.len; timestamp = $DateStr
-                }
-            }
-        } catch { Write-Log "CNN Fear&Greed解析失败" "WARN" }
-    }
-    # 降级3: alternative.me Fear&Greed Index (无需认证)
+    # 降级3: alternative.me Fear&Greed (这是F&G不是VIX! F&G:0-100, VIX:10-80)
+    # 注意: 仅当VIX(Yahoo Finance)全部失败时降级到F&G作为替代情绪指标
+    Write-Log "VIX Yahoo Finance API全部失败，降级到F&G(alternative.me)..." "WARN"
     $fngR = Invoke-SafeFetch -Url "https://api.alternative.me/fng/" -Timeout 10
     if ($fngR.ok -and $fngR.status -eq 200) {
         try {
             $fngJson = $fngR.content | ConvertFrom-Json
-            if ($fngJson.data[0].value -and [double]$fngJson.data[0].value -gt 0) {
-                $fngVal = [double]$fngJson.data[0].value
+            if ($fngJson.data[0].value) {
+                $fngVal = [int]$fngJson.data[0].value
+                $fngClass = $fngJson.data[0].value_classification
                 $raw = if ($fngR.len -gt 0) { $fngR.content.Substring(0, [Math]::Min(100, $fngR.len)) } else { "" }
+                Write-Log "  F&G = $fngVal ($fngClass) [alternative.me 降级替代VIX]" "WARN"
                 return @{
                     value = $fngVal; source = "alternative.me_FNG"; confidence = "medium"
                     raw = $raw; timestamp = $DateStr
+                    note = "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标"
+                    value_classification = $fngClass
                 }
             }
         } catch { Write-Log "alternative.me FNG解析失败" "WARN" }
-    }
-    # 降级4: Bing搜索兜底 (最低置信度)
-    Write-Log "VIX API全部失败，降级到Bing搜索兜底..." "WARN"
-    $bingR = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode('VIX恐慌指数 今日') )" -Timeout 12
-    if ($bingR.ok) {
-        $price = Extract-PriceValue -Text $bingR.content -Symbol "VIX"
-        if ($price -and $price -gt 0) {
-            return @{
-                value = $price; source = "cn.bing.com"; confidence = "low"
-                raw_len = $bingR.len; timestamp = $DateStr
-            }
-        }
     }
     return $null
 }
@@ -438,13 +399,13 @@ function Get-DataQualityScore {
 }
 
 # ========== 主程序 ==========
-Write-Log "========== 价格采集开始 (v4 多源降级) =========="
+Write-Log "========== 价格采集开始 (v8 多源降级) =========="
 Write-Log "时间: $DateStr"
 
 $result = @{
     timestamp = $DateStr
     timestamp_iso = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-    collection_version = "v4"
+    collection_version = "v8"
     crypto = @{}
     macro = @{}
     quality_report = @{}

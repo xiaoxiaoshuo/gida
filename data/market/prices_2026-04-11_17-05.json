@@ -1,0 +1,76 @@
+﻿{
+    "errors":  [
+                   "VIX : failed"
+               ],
+    "timestamp":  "2026-04-11 17:05:53",
+    "collection_version":  "v4",
+    "quality_report":  {
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "BTC":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "GOLD":  {
+                               "value":  4749.2,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-04-11 17:05:53",
+                               "raw_len":  60254,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           },
+                  "OIL":  {
+                              "value":  95.63,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-04-11 17:05:53",
+                              "raw_len":  360799,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          }
+              },
+    "crypto":  {
+                   "BTC":  {
+                               "price":  72681.73,
+                               "timestamp":  "2026-04-11 17:05:53",
+                               "raw":  "{\"USD\":72681.73}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "ETH":  {
+                               "price":  2233.71,
+                               "timestamp":  "2026-04-11 17:05:53",
+                               "raw":  "{\"USD\":2233.71}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  84.22,
+                               "timestamp":  "2026-04-11 17:05:53",
+                               "raw":  "{\"USD\":84.22}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "timestamp_iso":  "2026-04-11T09:05:53Z"
+}
