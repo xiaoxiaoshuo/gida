@@ -94,3 +94,46 @@
 [INFO] 20:01:11 - 数据文件: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\tech-news_2026-04-10_20-00.json
 [INFO] 20:01:11 - 错误数量: 1
 [WARN] 20:01:11 - 错误详情: GitHub trending returned empty
+[INFO] 08:00:23 - ========== 科技新闻采集开始 ==========
+[INFO] 08:00:23 - 采集时间: 2026-04-11 08:00:23
+[INFO] 08:00:23 - >> 采集GitHub Trending (v2)...
+[INFO] 08:00:23 - ========== GitHub Trending 采集 v2 开始 ==========
+[INFO] 08:00:23 - 日期: 2026-04-11
+[INFO] 08:00:23 - Token: 未配置（使用匿名模式）
+[INFO] 08:00:23 - >> 策略1: 通过 GitHub API 采集...
+[INFO] 08:00:23 -   查询: stars:>500 created:>2026-03-12
+[WARN] 08:00:23 -   API请求失败: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。
+[INFO] 08:00:25 -   查询: stars:>1000 pushed:>2026-03-12
+[WARN] 08:00:25 -   API请求失败: 基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。
+[INFO] 08:00:27 -   去重后: 0 个项目
+[WARN] 08:00:27 - API 采集失败，切换到镜像站策略...
+[INFO] 08:00:27 - >> 策略2: 通过镜像站采集...
+[INFO] 08:00:27 -   尝试: https://hub.fastgit.xyz
+[WARN] 08:00:42 -   镜像站失败: https://hub.fastgit.xyz - The operation has timed out.
+[INFO] 08:00:44 -   尝试: https://ghproxy.com
+[WARN] 08:00:59 -   镜像站失败: https://ghproxy.com - The operation has timed out.
+[ERROR] 08:01:01 -   所有镜像站均失败
+[ERROR] 08:01:01 - 所有采集策略均失败，生成空报告
+[INFO] 08:01:02 - Markdown报告: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-04-11.md
+[INFO] 08:01:02 - JSON数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\tech\github-trending-2026-04-11.json
+[INFO] 08:01:02 - ========== 采集完成 ==========
+[INFO] 08:01:02 - 共采集: 0 个项目
+[WARN] 08:01:02 - GitHub Trending 采集返回空结果
+[INFO] 08:01:02 - >> 采集AI技术博客...
+[INFO] 08:01:02 -   DeepSeek Blog...
+[INFO] 08:01:02 -   DeepSeek采集成功 (长度: 8000)
+[INFO] 08:01:02 -   OpenAI News...
+[INFO] 08:01:02 -   OpenAI采集成功
+[INFO] 08:01:02 -   Google AI Blog...
+[INFO] 08:01:02 -   Google AI采集成功
+[INFO] 08:01:02 - >> 采集量子计算进展...
+[INFO] 08:01:02 -   查询: quantum computing breakthrough 2026
+[INFO] 08:01:03 -   采集成功 (长度: 5000)
+[INFO] 08:01:05 -   查询: IBM Google quantum qubit 2026
+[INFO] 08:01:05 -   采集成功 (长度: 5000)
+[INFO] 08:01:07 -   查询: 量子计算 突破 2026
+[INFO] 08:01:07 -   采集成功 (长度: 5000)
+[INFO] 08:01:09 - >> 采集芯片半导体行业动态...
+[INFO] 08:01:09 -   查询: semiconductor chip industry news 2026
+[INFO] 08:01:09 -   成功 (长度: 4000)
+[INFO] 08:01:11 -   查询: 芯片半导体 行业动态 2026
