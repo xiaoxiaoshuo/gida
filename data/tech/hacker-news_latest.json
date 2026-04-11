@@ -1,28 +1,188 @@
 {
-  "timestamp": "2026-04-03T06:51:00+08:00",
-  "source": "https://news.ycombinator.com/",
-  "count": 29,
-  "items": [
-    { "rank": 1, "title": "Google releases Gemma 4 open models (deepmind.google)" },
-    { "rank": 2, "title": "Tailscale's new macOS home (tailscale.com)" },
-    { "rank": 3, "title": "Cursor 3 (cursor.com)" },
-    { "rank": 4, "title": "Artemis II's toilet is a moon mission milestone (scientificamerican.com)" },
-    { "rank": 5, "title": "George Goble has died (legacy.com)" },
-    { "rank": 6, "title": "Qwen3.6-Plus: Towards real world agents (qwen.ai)" },
-    { "rank": 8, "title": "Decisions that eroded trust in Azure – by a former Azure Core engineer (isolveproblems.substack.com)" },
-    { "rank": 9, "title": "Good ideas do not need lots of lies in order to gain public acceptance (2008) (danieldavies.com)" },
-    { "rank": 10, "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU (lemonade-server.ai)" },
-    { "rank": 11, "title": "The Australian government has announced gambling advertising reforms (bbc.com)" },
-    { "rank": 12, "title": "LinkedIn is searching your browser extensions (browsergate.eu)" },
-    { "rank": 13, "title": "JSON Canvas Spec (2024) (jsoncanvas.org)" },
-    { "rank": 14, "title": "Significant progress made on Xbox 360 recompilation (readonlymemo.com)" },
-    { "rank": 15, "title": "The IDE Is Dead. Long Live the ADE (lanes.sh)" },
-    { "rank": 16, "title": "OpenAI Acquires TBPN (openai.com)" },
-    { "rank": 17, "title": "Prefer do notation over Applicative operators when assembling records (2024) (haskellforall.com)" },
-    { "rank": 18, "title": "Memo: A language that remembers only the last 12 lines of code (danieltemkin.com)" },
-    { "rank": 19, "title": "Inside Nepal's Fake Rescue Racket (kathmandupost.com)" },
-    { "rank": 20, "title": "Significant raise of reports (lwn.net)" },
-    { "rank": 21, "title": "Artemis computer running two instances of MS outlook; they can't figure out why (bsky.app)" }
-  ],
-  "note": "29 items total, rank 7 appears to be a job posting"
+  "collection_version": "v1",
+  "timestamp": "2026-04-11 17:00:00",
+  "source": "Hacker News Firebase API",
+  "count": 20,
+  "stories": [
+    {
+      "id": 47724352,
+      "title": "Ask HN: Who is hiring? (April 2026)",
+      "url": null,
+      "score": 1168,
+      "descendants": 383,
+      "by": "normanvalentine",
+      "time": 1775858193
+    },
+    {
+      "id": 47698455,
+      "title": "Starfling: A one-tap endless orbital slingshot game in a single HTML file",
+      "url": "https://playstarfling.com",
+      "score": 141,
+      "descendants": 42,
+      "by": "iceberger2001",
+      "time": 1775699567
+    },
+    {
+      "id": 47719740,
+      "title": "1D Chess",
+      "url": "https://rowan441.github.io/1dchess/chess.html",
+      "score": 798,
+      "descendants": 142,
+      "by": "burnt-resistor",
+      "time": 1775835448
+    },
+    {
+      "id": 47725583,
+      "title": "Artemis II safely splashes down",
+      "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
+      "score": 861,
+      "descendants": 273,
+      "by": "areoform",
+      "time": 1775866251
+    },
+    {
+      "id": 47724118,
+      "title": "Installing every* Firefox extension",
+      "url": "https://jack.cab/blog/every-firefox-extension",
+      "score": 371,
+      "descendants": 45,
+      "by": "RohanAdwankar",
+      "time": 1775858193
+    },
+    {
+      "id": 47722333,
+      "title": "Chimpanzees in Uganda locked in eight-year 'civil war', say researchers",
+      "url": "https://www.bbc.com/news/articles/cr71lkzv49po",
+      "score": 326,
+      "descendants": 183,
+      "by": "neversaydie",
+      "time": 1775848222
+    },
+    {
+      "id": 47687443,
+      "title": "Volunteers turn a fan's recordings of 10K concerts into an online treasure trove",
+      "url": "https://apnews.com/article/aadam-jacobs-collection-concerts-internet-archive-chicago-b1c9c4466a2db409a83523ad84b79d62",
+      "score": 42,
+      "descendants": 1,
+      "by": "geox",
+      "time": 1775639470
+    },
+    {
+      "id": 47727575,
+      "title": "Great at gaming? US air traffic control wants you to apply",
+      "url": "https://www.bbc.com/news/articles/ce84rvx0e6do",
+      "score": 30,
+      "descendants": 38,
+      "by": "1659447091",
+      "time": 1775883857
+    },
+    {
+      "id": 47719942,
+      "title": "WireGuard makes new Windows release following Microsoft signing resolution",
+      "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
+      "score": 469,
+      "descendants": 136,
+      "by": "zx2c4",
+      "time": 1775836192
+    },
+    {
+      "id": 47695213,
+      "title": "Optimal Strategy for Connect 4",
+      "url": "https://2swap.github.io/WeakC4/explanation/",
+      "score": 6,
+      "descendants": 2,
+      "by": "marvinborner",
+      "time": 1775677070
+    },
+    {
+      "id": 47721953,
+      "title": "AI assistance when contributing to the Linux kernel",
+      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
+      "score": 310,
+      "descendants": 204,
+      "by": "hmokiguess",
+      "time": 1775846121
+    },
+    {
+      "id": 47727711,
+      "title": "20 years on AWS and never not my job",
+      "url": "https://www.daemonology.net/blog/2026-04-11-20-years-on-AWS-and-never-not-my-job.html",
+      "score": 130,
+      "descendants": 19,
+      "by": "cperciva",
+      "time": 1775885470
+    },
+    {
+      "id": 47720419,
+      "title": "Industrial design files for Keychron keyboards and mice",
+      "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
+      "score": 368,
+      "descendants": 111,
+      "by": "stingraycharles",
+      "time": 1775838146
+    },
+    {
+      "id": 47698111,
+      "title": "Bevy game development tutorials and in-depth resources",
+      "url": "https://taintedcoders.com/",
+      "score": 79,
+      "descendants": 14,
+      "by": "GenericCanadian",
+      "time": 1775696327
+    },
+    {
+      "id": 47693960,
+      "title": "Flashback to a time when government reports were works of art",
+      "url": "https://www.chicagotribune.com/2026/04/08/transportation-library-northwestern/",
+      "score": 19,
+      "descendants": 5,
+      "by": "NaOH",
+      "time": 1775671436
+    },
+    {
+      "id": 47727659,
+      "title": "Productive Procrastination",
+      "url": "https://www.maxvanijsselmuiden.nl/blog/productive-procrastination/",
+      "score": 16,
+      "descendants": 6,
+      "by": "maxvij",
+      "time": 1775884881
+    },
+    {
+      "id": 47700556,
+      "title": "A practical guide for setting up Zettelkasten method in Obsidian",
+      "url": "https://desktopcommander.app/blog/zettelkasten-obsidian/",
+      "score": 49,
+      "descendants": 23,
+      "by": "rkrizanovskis",
+      "time": 1775721480
+    },
+    {
+      "id": 47717847,
+      "title": "CPU-Z and HWMonitor compromised",
+      "url": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
+      "score": 321,
+      "descendants": 90,
+      "by": "pashadee",
+      "time": 1775827760
+    },
+    {
+      "id": 47721946,
+      "title": "JSON formatter Chrome plugin now closed and injecting adware",
+      "url": "https://github.com/callumlocke/json-formatter",
+      "score": 213,
+      "descendants": 109,
+      "by": "jkl5xx",
+      "time": 1775846095
+    },
+    {
+      "id": 47719274,
+      "title": "Helium is hard to replace",
+      "url": "https://www.construction-physics.com/p/helium-is-hard-to-replace",
+      "score": 307,
+      "descendants": 210,
+      "by": "JumpCrisscross",
+      "time": 1775833611
+    }
+  ]
 }

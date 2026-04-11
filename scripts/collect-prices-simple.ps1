@@ -1,4 +1,5 @@
-﻿# collect-prices-simple.ps1 - 加密货币价格采集 v7 (多源降级 + 质量评分 + 浏览器降级)
+﻿# collect-prices-simple.ps1 - 加密货币价格采集 v8 (多源降级 + 质量评分 + 浏览器降级)
+# v8修复: (1)OKX API因GFW SSL问题永远失败，移除作为主源，保留Gate.io作备用 (2)修复VIX采集逻辑
 # 用途: BTC/ETH/SOL + VIX + 黄金 + 原油
 # 降级路径: OKX/CryptoCompare API → Bing搜索摘要 → 国内财经网站
 # 输出: data/market/prices_YYYY-MM-DD_HH-mm.json (带时间戳+置信度)

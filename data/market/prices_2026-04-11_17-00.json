@@ -1,0 +1,88 @@
+﻿{
+    "timestamp_iso":  "2026-04-11T09:00:08Z",
+    "timestamp":  "2026-04-11 17:00:08",
+    "macro":  {
+                  "VIX":  {
+                              "confidence":  "medium",
+                              "timestamp":  "2026-04-11 17:00:08",
+                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"15\",\n\t\t\t\"value_classification\": \"Extr",
+                              "source":  "alternative.me_FNG",
+                              "value":  15
+                          },
+                  "OIL":  {
+                              "value":  95.63,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-04-11 17:00:08",
+                              "raw_len":  360801,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4749.2,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-04-11 17:00:08",
+                               "raw_len":  60254,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "errors":  [
+
+               ],
+    "crypto":  {
+                   "BTC":  {
+                               "price":  72704.53,
+                               "timestamp":  "2026-04-11 17:00:08",
+                               "raw":  "{\"USD\":72704.53}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "ETH":  {
+                               "price":  2233.59,
+                               "timestamp":  "2026-04-11 17:00:08",
+                               "raw":  "{\"USD\":2233.59}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  84.2,
+                               "timestamp":  "2026-04-11 17:00:08",
+                               "raw":  "{\"USD\":84.2}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "quality_report":  {
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "VIX":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "BTC":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "collection_version":  "v4"
+}

@@ -1,15 +1,51 @@
-﻿{
-    "collection_version":  "macro-playwright-v2",
-    "timestamp":  "2026-04-11 08:00:06",
-    "macro":  {
-                  "VIX":  {
-                              "confidence":  "high",
-                              "timestamp":  "2026-04-11 08:00:06",
-                              "source":  "CBOE.com (IE COM)",
-                              "value":  19.23
-                          }
-              },
-    "crypto":  {
-
-               }
+{
+  "collection_version": "heartbeat-recovery-v1",
+  "timestamp": "2026-04-11 17:00:00",
+  "timestamp_unix": 1775899200,
+  "crypto": {
+    "BTC": {
+      "price": 72711.88,
+      "currency": "USD",
+      "change_24h_pct": null,
+      "source": "CryptoCompare API",
+      "note": "via min-api.cryptocompare.com"
+    },
+    "ETH": {
+      "price": 2234.34,
+      "currency": "USD",
+      "change_24h_pct": null,
+      "source": "CryptoCompare API"
+    },
+    "SOL": {
+      "price": 84.23,
+      "currency": "USD",
+      "change_24h_pct": 1.56,
+      "source": "CryptoCompare API"
+    }
+  },
+  "macro": {
+    "fear_greed": {
+      "value": null,
+      "classification": null,
+      "source": "alternative.me - page load failed",
+      "note": "web_fetch returned empty content, browser extraction failed"
+    },
+    "gold": {
+      "price": null,
+      "currency": "USD",
+      "source": "goldprice.org - page load failed",
+      "note": "JS-rendered page, browser snapshots returned empty"
+    },
+    "oil": {
+      "wti_price": 95.81,
+      "brent_price": 95.20,
+      "currency": "USD",
+      "source": "oilprice.com",
+      "note": "WTI -2.1%, Brent -0.75% in last 11-10 hours"
+    },
+    "VIX": {
+      "value": null,
+      "source": "Not collected - requires CBOE API or broker"
+    }
+  }
 }

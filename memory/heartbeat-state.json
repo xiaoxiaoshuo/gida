@@ -1,0 +1,19 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "macro_prices": 1744358400,
+    "github_push": 1744360530
+  },
+  "lastHeartbeat": 1744360530,
+  "pendingTasks": [
+    "HN数据更新(最后:2026-04-03)",
+    "加密货币采集(空数据)",
+    "GitHub Push积压(已清除)"
+  ],
+  "subagents": {
+    "heartbeat-collector-1710": "running",
+    "script-optimizer-1710": "running"
+  }
+}
