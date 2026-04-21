@@ -1,0 +1,52 @@
+﻿{
+    "timestamp":  "2026-04-22 05:30:30",
+    "source":  "hourly-price-collector",
+    "macro":  {
+                  "OIL":  {
+                              "unit":  "USD/barrel (WTI)",
+                              "timestamp":  "2026-04-22 05:30:10",
+                              "value":  90.18,
+                              "source":  "tradingeconomics.com",
+                              "confidence":  "high",
+                              "raw_len":  414837
+                          },
+                  "VIX":  {
+                              "source":  "Yahoo_Finance_VIX",
+                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "value":  19.5,
+                              "timestamp":  "2026-04-22 05:30:10",
+                              "confidence":  "high"
+                          },
+                  "GOLD":  {
+                               "unit":  "USD/oz",
+                               "timestamp":  "2026-04-22 05:30:10",
+                               "value":  4721.1,
+                               "source":  "kitco.com",
+                               "confidence":  "high",
+                               "raw_len":  60252
+                           }
+              },
+    "crypto":  {
+                   "SOL":  {
+                               "source":  "CryptoCompare_API",
+                               "price":  85.17,
+                               "raw":  "{\"USD\":85.17}",
+                               "timestamp":  "2026-04-22 05:30:10",
+                               "confidence":  "high"
+                           },
+                   "BTC":  {
+                               "source":  "CryptoCompare_API",
+                               "price":  75583.7,
+                               "raw":  "{\"USD\":75583.7}",
+                               "timestamp":  "2026-04-22 05:30:10",
+                               "confidence":  "high"
+                           },
+                   "ETH":  {
+                               "source":  "CryptoCompare_API",
+                               "price":  2313.98,
+                               "raw":  "{\"USD\":2313.98}",
+                               "timestamp":  "2026-04-22 05:30:10",
+                               "confidence":  "high"
+                           }
+               }
+}
