@@ -12,6 +12,31 @@ $RetryDelay = 30
 $DateStamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 $LogFile = "$RepoRoot\memory\$(Get-Date -Format 'yyyy-MM-dd').md"
 
+# ========== 速率控制函数 ==========
+function Check-RateLimit {
+    $MinPushIntervalMinutes = 10  # 至少10分钟才允许新的推送
+    $RateLimitFile = "$RepoRoot\.last_push_time"
+    
+    if (Test-Path $RateLimitFile) {
+        $LastPushTime = Get-Content $RateLimitFile -Raw
+        if ($LastPushTime.Trim()) {
+            $LastTime = [DateTime]::ParseExact($LastPushTime, "yyyy-MM-dd HH:mm", $null)
+            $Now = Get-Date
+            $ElapsedMinutes = ($Now - $LastTime).TotalMinutes
+            
+            if ($ElapsedMinutes -lt $MinPushIntervalMinutes) {
+                Write-Log "速率限制：上次推送在$LastPushTime，距离现在${ElapsedMinutes:F1}分钟（最少需要${MinPushIntervalMinutes}分钟），跳过本次推送"
+                exit 0
+            }
+        }
+    }
+    
+    # 记录当前时间作为下次限制起点
+    $CurrentTime = Get-Date -Format "yyyy-MM-dd HH:mm"
+    Set-Content -Path $RateLimitFile -Value $CurrentTime -Force
+    Write-Log "速率限制检查通过，允许推送"
+}
+
 function Write-Log {
     param($msg)
     $entry = "$(Get-Date -Format 'HH:mm:ss') - $msg"
@@ -28,6 +53,9 @@ git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
 # curl/Git SSL验证被Fortinet/企业防火墙阻断，导致push失败
 # 解决方案：禁用SSL验证（仅对GitHub，敏感操作需注意）
 git config --global http.sslVerify false
+
+# ========== 速率控制检查 ==========
+Check-RateLimit
 
 Set-Location $RepoRoot
 
