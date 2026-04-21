@@ -1,17 +1,30 @@
 {
   "lastChecks": {
-    "macro_prices": 1744362331,
-    "github_push": 1744362831
+    "macro_prices": 1745205000,
+    "github_push": null,
+    "ai_news": 1745205000,
+    "briefing": 1745205000,
+    "hn采集": null,
+    "github_trending": null
   },
-  "lastHeartbeat": 1744362900,
+  "lastHeartbeat": 1745205000,
   "pendingTasks": [
-    "DailyCollector_AM DLL错误待修复(0xC0000135)"
+    "数据断档10天紧急补采中",
+    "需要检查cron定时任务状态",
+    "补采AI新闻(最后04-11)",
+    "补采HN数据(最后04-09)",
+    "补采GitHub Trending(最后04-09)"
   ],
   "subagents": {
-    "heartbeat-collector-1710": "done",
-    "script-optimizer-1710": "done",
-    "evening-batch-catchup-1734": "done",
-    "cron-diagnostic-1734": "done"
+    "price-refresh-urgent": "completed",
+    "ai-news-deep-collector": "interrupted",
+    "briefing-generator": "completed"
   },
-  "notes": "17:38完成: HEARTBEAT归档+精简, GitHub全部同步(595e917+04998e4), 20:00 cron待触发"
+  "dataStatus": {
+    "prices": "✅ 实时(04-21 10:28)",
+    "ai_news": "⚠️ 旧(04-11, 10天前)",
+    "hn": "⚠️ 旧(04-09, 12天前)",
+    "github_trending": "⚠️ 旧(04-09, 12天前)"
+  },
+  "notes": "紧急补采简报生成完成。价格数据实时，AI/HN/GitHub数据均断档10天，需检查cron任务。"
 }

@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-04-21T02:30:00Z",
+  "source": "aitoolly.com + llm-stats.com",
+  "description": "GitHub Trending AI/Open Source Projects - April 2026",
+  "confidence": "high",
+  "articles": [
+    {
+      "title": "DeepGEMM - DeepSeek-AI High-Performance FP8 GEMM Library for LLMs",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "stars": "N/A",
+      "description": "A specialized library for optimizing General Matrix Multiplication (GEMM) operations for LLMs with efficient FP8 kernels",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "OpenAI Agents SDK - Lightweight Python Framework for Multi-Agent Workflows",
+      "url": "https://github.com/openai/openai-agents-python",
+      "stars": "N/A",
+      "description": "Official OpenAI SDK for building multi-agent workflows in Python, available via PyPI",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Thunderbolt - Thunderbird's User-Controlled AI Platform",
+      "url": "https://github.com/Thunderbird/thunderbolt",
+      "stars": "N/A",
+      "description": "Open-source initiative allowing users to choose AI models, own their data, and avoid vendor lock-in",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Evolver - Self-Evolution Engine for AI Agents Based on Genome Evolution Protocol",
+      "url": "https://github.com/EvoMap/Evolver",
+      "stars": "N/A",
+      "description": "Framework where AI agents undergo iterative improvement using bio-inspired genomic principles",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Omi AI - Open-Source Second Brain That Sees Your Screen",
+      "url": "https://github.com/BasedHardware/omi",
+      "stars": "N/A",
+      "description": "Personal AI assistant that monitors screen and conversations to provide proactive guidance",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "claude-desktop-debian - Claude Desktop for Debian Linux",
+      "url": "https://github.com/aaddrick/claude-desktop-debian",
+      "stars": "N/A",
+      "description": "Build scripts to repackage Claude Windows app for Debian-based Linux distributions",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Dive into LLMs (动手学大模型) - Comprehensive LLM Programming Tutorial",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "stars": "N/A",
+      "description": "Hands-on programming tutorial series for mastering Large Language Models",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Holos - QEMU/KVM with Compose-style YAML",
+      "url": "https://github.com/zeroecco/holos",
+      "stars": "N/A",
+      "description": "Compose-style runtime on QEMU/KVM with GPU passthrough, health checks, and cloud-init support",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "awawausb - WebUSB Extension for Firefox",
+      "url": "https://github.com/ArcaneNibble/awawausb",
+      "stars": "N/A",
+      "description": "Firefox extension enabling WebUSB API support",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Soul Player C64 - Transformer on Commodore 64",
+      "url": "https://github.com/gizmo64k/soulplayer-c64",
+      "stars": "N/A",
+      "description": "Real transformer neural network running on a 1 MHz Commodore 64",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    }
+  ]
+}
