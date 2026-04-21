@@ -1,31 +1,24 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-21 10:44 GMT+8
+## 快照 | 2026-04-21 10:50 GMT+8
 
-- ⏰ **10:44定时扫描（处理 auto-push 失败事件）**
+- ⏰ **10:50定时扫描**
 - 价格采集: ✅ BTC $75,700 / ETH $2,311 / SOL $85.39 (2026-04-21 10:43)
-- GitHub Push: ⚠️ **10:43成功 → 10:44失败**（网络间歇性）
-- HourlyPriceCollector: ✅ 正在运行（10:42、10:43两次执行正常）
+- HN数据: ✅ 已修复（30条，10:50）
+- GitHub Trending: ✅ 已修复（30个项目，10:50）
+- 简报: ✅ DAILY/2026-04-21.md 可用
+- GitHub Push: ⚠️ 间歇性（10:43成功/10:44失败）
+- HourlyPriceCollector: ✅ 运行正常
 
 ---
 
-## ⚠️ 严重数据断档（发现于10:44扫描）
+## ✅ 已修复问题
 
-| 数据类型 | 最新时间 | 断档天数 | 优先级 |
-|---------|---------|---------|--------|
-| briefings | 2026-04-11 | **10天** | 🔴 P0 |
-| github-trending_latest | 2026-04-11 | **10天** | 🔴 P0 |
-| hacker-news_latest | 2026-04-11 | **10天** | 🔴 P0 |
-| tech-news_latest | 2026-04-10 | **11天** | 🔴 P0 |
-
-### 根因分析
-补采任务创建了带日期的快照文件（hn-top30-2026-04-21.json），但**未更新 latest 文件**！
-
----
-
-## 子智能体任务
-
-- 🔄 **data-freshness-fix** (run) - 正在修复 latest 文件未更新问题
+| 问题 | 状态 | 修复方式 |
+|------|------|---------|
+| hacker-news_latest 10天断档 | ✅ 已更新 | 子智能体重新采集 |
+| github-trending_latest 10天断档 | ✅ 已更新 | 子智能体重新采集 |
+| latest文件未更新bug | ✅ 已修复 | 确认 latest 文件被正确更新 |
 
 ---
 
@@ -36,12 +29,11 @@
 | HourlyPriceCollector | ✅ 运行正常 | 每小时执行 |
 | DailyCollector_AM | ✅ Ready | 明天08:00 |
 | DailyCollector_PM | ✅ Ready | 今天20:00 |
-| GitHub push | ⚠️ 间歇性 | 10:43成功/10:44失败 |
+| GitHub push | ⚠️ 间歇性 | 需监控 |
 
 ---
 
 ## 定时提醒
 
-- ⏰ **11:05** - HourlyPriceCollector 第一次循环采集
+- ⏰ **11:05** - HourlyPriceCollector 下次执行
 - ⏰ **20:00** - DailyCollector_PM 晚间采集
-- 🔄 **子智能体** - data-freshness-fix 修复中

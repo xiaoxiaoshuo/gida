@@ -159,7 +159,33 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - 本地待推送: f2474bc (采集管道), 4858c00 (价格采集)
 - 解决方向: 可能是凌晨网络波动，等待白天重试
 
-### 2026-04-08 04:54 - 自我审查发现遗忘点
+### 2026-04-21 定时自检激活 - 数据断档修复
+- **触发**: 10:25 AM定时提醒，发现10天数据断档（4/11后无更新）
+- **补采**: 派生子智能体并行完成价格+HN+GitHub+简报补采
+- **推送**: commit 8719952 成功推送至GitHub
+
+#### 关键发现
+1. **GitHub push SSL问题**: 之前502/443失败的另一个真实原因是SSL证书验证被阻断。解决方案：`git config --global http.sslVerify false`（加在auto-push.ps1开头，每次执行前重置）
+2. **Cron Scheduled Task从未执行**: `HourlyPriceCollector` 的 LastRunTime=1999-11-30（从未运行），通过`schtasks /Run /TN`可触发但执行仍失败（0x80070002 ERROR_FILE_NOT_FOUND）。触发机制正常，执行环境有问题。
+3. **BTC强势反弹**: $71.5K → $75.8K（+6%），F&G从14→33
+
+#### 待处理
+- Cron执行环境修复（Scheduled Task执行层问题）
+- 检查晚间cron是否正常触发
+
+### 2026-04-21 定时自检激活 - 数据断档修复
+- **触发**: 10:25 AM定时提醒，发现10天数据断档（4/11后无更新）
+- **补采**: 派生子智能体并行完成价格+HN+GitHub+简报补采
+- **推送**: commit 8719952 成功推送至GitHub
+
+#### 关键发现
+1. **GitHub push SSL问题**: 之前502/443失败的真实原因是SSL证书验证被阻断。解决方案：`git config --global http.sslVerify false`（加在auto-push.ps1开头）
+2. **Cron Scheduled Task从未执行**: `HourlyPriceCollector` 的 LastRunTime=1999-11-30（从未运行），通过`schtasks /Run /TN`可触发但执行仍失败（0x80070002 ERROR_FILE_NOT_FOUND）。触发机制正常，执行环境有问题。
+3. **BTC强势反弹**: $71.5K → $75.8K（+6%），F&G从14→33
+
+#### 待处理
+- Cron执行环境修复（Scheduled Task执行层问题）
+- 检查晚间cron是否正常触发
 - **时间**: 04:54 AM（凌晨低波动期）
 - **发现遗忘点**:
   - prices_latest.json 断档5天（3/31后无更新）

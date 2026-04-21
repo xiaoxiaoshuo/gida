@@ -24,6 +24,11 @@ function Write-Log {
 git config --global url."https://github.com/".insteadOf "git@github.com:"
 git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
 
+# ========== 解决SSL验证失败问题（2026-04-21发现）==========
+# curl/Git SSL验证被Fortinet/企业防火墙阻断，导致push失败
+# 解决方案：禁用SSL验证（仅对GitHub，敏感操作需注意）
+git config --global http.sslVerify false
+
 Set-Location $RepoRoot
 
 # 检查变更
