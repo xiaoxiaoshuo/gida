@@ -20,7 +20,7 @@ function Check-RateLimit {
     if (Test-Path $RateLimitFile) {
         $LastPushTime = Get-Content $RateLimitFile -Raw
         if ($LastPushTime.Trim()) {
-            $LastTime = [DateTime]::ParseExact($LastPushTime, "yyyy-MM-dd HH:mm", $null)
+            $LastTime = [DateTime]::Parse($LastPushTime.Trim())
             $Now = Get-Date
             $ElapsedMinutes = ($Now - $LastTime).TotalMinutes
             
