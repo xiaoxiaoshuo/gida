@@ -1,39 +1,78 @@
 {
-  "collection_version": "v1",
-  "timestamp": "2026-04-11T09:36:00Z",
-  "date": "2026-04-11",
-  "source": "bing-search-aggregated",
-  "stories": [
+  "timestamp": "2026-04-21T02:30:00Z",
+  "source": "Latest AI News Collection",
+  "description": "Latest AI/Tech News from multiple sources",
+  "confidence": "high",
+  "articles": [
     {
-      "title": "OpenAI 总裁 Greg Brockman 透露新模型「Spud」(GPT-6?) 已完成预训练",
-      "source": "zhihu/bing",
-      "url": "https://www.zhihu.com/question/2023418999518568617",
-      "published": "2026-04-09"
+      "title": "John Ternus to become Apple CEO (Apple Newsroom)",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "score": 1221,
+      "publishedAt": "2026-04-20",
+      "source": "Apple Newsroom"
     },
     {
-      "title": "OpenAI 发布基于 GPT-5.2 的 Prism，专注科研领域的AI协作工作空间",
-      "source": "zhihu/bing",
-      "url": "https://www.zhihu.com/question/1999888901490304692",
-      "published": "2026-04-08"
+      "title": "Kimi K2.6: Advancing open-source coding",
+      "url": "https://www.kimi.com/blog/kimi-k2-6",
+      "score": 578,
+      "publishedAt": "2026-04-20",
+      "source": "Moonshot AI / Kimi"
     },
     {
-      "title": "OpenAI 内部实验模型已达到IMO金牌水平",
-      "source": "zhihu/bing",
-      "url": "https://www.zhihu.com/question/1929974654866527480",
-      "published": "2026-03-28"
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+      "score": 545,
+      "publishedAt": "2026-04-20",
+      "source": "Alibaba Qwen"
     },
     {
-      "title": "OpenAI Codex App 桌面版发布，定位智能体指挥中心",
-      "source": "zhihu/bing",
-      "url": "https://www.zhihu.com/question/2001978391264502048",
-      "published": "2026-04-10"
+      "title": "All phones sold in the EU to have replaceable batteries from 2027",
+      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+      "score": 976,
+      "publishedAt": "2026-04-20",
+      "source": "Hacker News"
     },
     {
-      "title": "Linux 内核正式引入 AI assistance 贡献工具",
-      "source": "HN/hacker-news",
-      "url": "https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst",
-      "published": "2026-04-11"
+      "title": "DeepGEMM - High-Performance FP8 GEMM Library for LLMs",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "stars": "N/A",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "OpenAI Agents SDK - Lightweight Python Framework for Multi-Agent Workflows",
+      "url": "https://github.com/openai/openai-agents-python",
+      "stars": "N/A",
+      "publishedAt": "2026-04-20",
+      "source": "GitHub Trending"
+    },
+    {
+      "title": "Codex for (almost) everything",
+      "url": "https://openai.com/index/codex-for-almost-everything/",
+      "score": null,
+      "publishedAt": "2026-04-16",
+      "source": "OpenAI"
+    },
+    {
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "url": "https://www.anthropic.com/news",
+      "score": null,
+      "publishedAt": "2026-04-17",
+      "source": "Anthropic"
+    },
+    {
+      "title": "Project Glasswing - Industry Coalition for Software Security",
+      "url": "https://www.anthropic.com/news",
+      "score": null,
+      "publishedAt": "2026-04-07",
+      "source": "Anthropic"
+    },
+    {
+      "title": "What 81,000 people want from AI - Claude.ai User Study",
+      "url": "https://www.anthropic.com/news",
+      "score": null,
+      "publishedAt": "2026-04-07",
+      "source": "Anthropic"
     }
-  ],
-  "notes": "AI新闻通过Bing聚合采集，以知乎讨论为主；OpenAI官方博客直接访问受限"
+  ]
 }
