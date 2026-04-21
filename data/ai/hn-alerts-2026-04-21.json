@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-04-21T12:34:00+08:00",
+  "status": "error",
+  "reason": "Unable to connect to news.ycombinator.com - connection timed out (ERR_CONNECTION_TIMED_OUT)",
+  "note": "HN site may be blocked in current network environment. No alerts processed.",
+  "alerts_checked": false
+}
