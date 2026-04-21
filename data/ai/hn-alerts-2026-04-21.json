@@ -1,7 +1,78 @@
 {
-  "timestamp": "2026-04-21T12:34:00+08:00",
-  "status": "error",
-  "reason": "Unable to connect to news.ycombinator.com - connection timed out (ERR_CONNECTION_TIMED_OUT)",
-  "note": "HN site may be blocked in current network environment. No alerts processed.",
-  "alerts_checked": false
+  "date": "2026-04-21",
+  "time": "17:30 GMT+8",
+  "check_type": "HN Major News (>500 points)",
+  "major_news_found": true,
+  "articles": [
+    {
+      "rank": 27,
+      "title": "All phones sold in the EU to have replaceable batteries from 2027",
+      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+      "points": 1246,
+      "age": "19 hours ago",
+      "comments": 1045,
+      "category": "policy",
+      "site": "theolivepress.es"
+    },
+    {
+      "rank": 1,
+      "title": "John Ternus to become Apple CEO",
+      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+      "points": 1783,
+      "age": "12 hours ago",
+      "comments": 936,
+      "category": "business",
+      "site": "apple.com"
+    },
+    {
+      "rank": 2,
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "points": 181,
+      "age": "5 hours ago",
+      "comments": 103,
+      "category": "ai",
+      "site": "openclaw.ai"
+    }
+  ],
+  "ai_tech_crypto_alerts": [
+    {
+      "rank": 2,
+      "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "points": 181,
+      "age": "5 hours ago",
+      "category": "ai",
+      "site": "openclaw.ai"
+    },
+    {
+      "rank": 8,
+      "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+      "url": "https://mediator.ai/",
+      "points": 60,
+      "age": "5 hours ago",
+      "category": "ai",
+      "site": "mediator.ai"
+    },
+    {
+      "rank": 9,
+      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+      "points": 622,
+      "age": "19 hours ago",
+      "category": "ai",
+      "site": "qwen.ai"
+    },
+    {
+      "rank": 13,
+      "title": "Kimi vendor verifier – verify accuracy of inference providers",
+      "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
+      "points": 255,
+      "age": "14 hours ago",
+      "category": "ai",
+      "site": "kimi.com"
+    }
+  ],
+  "total_articles_scanned": 30,
+  "source": "https://news.ycombinator.com/"
 }
