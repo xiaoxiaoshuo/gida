@@ -1,6 +1,6 @@
 ﻿{
-    "timestamp_iso":  "2026-04-21T23:45:57Z",
-    "timestamp":  "2026-04-22 07:45:57",
+    "timestamp":  "2026-04-22 07:46:27",
+    "source":  "hourly-price-collector",
     "macro":  {
                   "VIX":  {
                               "confidence":  "high",
@@ -26,9 +26,6 @@
                                "unit":  "USD/oz"
                            }
               },
-    "errors":  [
-
-               ],
     "crypto":  {
                    "BTC":  {
                                "price":  76235.09,
@@ -51,38 +48,5 @@
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            }
-               },
-    "quality_report":  {
-                           "SOL":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "VIX":  {
-                                       "label":  "高",
-                                       "score":  80,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "OIL":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                   },
-                           "GOLD":  {
-                                        "label":  "中",
-                                        "score":  65,
-                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                    },
-                           "BTC":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "ETH":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   }
-                       },
-    "collection_version":  "v8"
+               }
 }

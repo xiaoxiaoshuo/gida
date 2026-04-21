@@ -1,13 +1,13 @@
-{
-  "yesterday": null,
-  "last_week": null,
-  "collection_time": "2026-04-22T05:30:10Z",
-  "last_week_value": null,
-  "timestamp": "2026-04-21T00:00:00Z",
-  "last_month": null,
-  "source": "alternative.me",
-  "last_month_value": null,
-  "yesterday_value": null,
-  "index": 33,
-  "value": "Fear"
+﻿{
+    "source":  "alternative.me",
+    "yesterday":  null,
+    "last_week_value":  null,
+    "last_month":  null,
+    "value":  "Fear",
+    "timestamp":  "2026-04-21T00:00:00Z",
+    "index":  33,
+    "yesterday_value":  null,
+    "last_week":  null,
+    "last_month_value":  null,
+    "collection_time":  "2026-04-22T07:46:04Z"
 }
