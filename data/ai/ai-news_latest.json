@@ -1,17 +1,44 @@
-﻿{
-    "timestamp":  "2026-04-21 10:47:50",
-    "sources":  [
-                    {
-                        "status":  "accessible",
-                        "url":  "https://openai.com/blog",
-                        "name":  "OpenAI Blog",
-                        "last_checked":  "2026-04-21 10:45:00"
-                    },
-                    {
-                        "status":  "accessible",
-                        "url":  "https://www.deepseek.com/",
-                        "name":  "DeepSeek",
-                        "last_checked":  "2026-04-21 10:46:00"
-                    }
-                ]
+{
+  "采集时间": "2026-04-21T11:00:00Z",
+  "sources": [
+    {
+      "status": "accessible",
+      "url": "https://openai.com/blog",
+      "name": "OpenAI Blog",
+      "content_snippet": "Codex：全能型助手 (2026-04-16) | GPT-Rosalind：生命科学研究 (2026-04-16) | Agents SDK更新 (2026-04-15)",
+      "last_checked": "2026-04-21 10:45:00"
+    },
+    {
+      "status": "accessible",
+      "url": "https://www.deepseek.com/",
+      "name": "DeepSeek",
+      "content_snippet": "DeepSeek-V3.2 正式版发布，强化 Agent 能力，融入思考推理 (2026-04-21)",
+      "last_checked": "2026-04-21 10:46:00"
+    },
+    {
+      "status": "accessible",
+      "url": "https://anthropic.com/news",
+      "name": "Anthropic News",
+      "content_snippet": "Claude Opus 4.7 (产品, 2026-04-16) | Claude Design (产品, 2026-04-17) | Project Glasswing (公告, 2026-04-07) | 81k用户调研 (2026-03-18)",
+      "last_checked": "2026-04-21 11:00:00"
+    }
+  ],
+  "items": [
+    {"source": "OpenAI", "title": "Codex：全能型助手", "date": "2026-04-16", "url": "https://openai.com/blog"},
+    {"source": "OpenAI", "title": "GPT-Rosalind：开启生命科学研究新纪元", "date": "2026-04-16", "url": "https://openai.com/blog"},
+    {"source": "OpenAI", "title": "The next evolution of the Agents SDK", "date": "2026-04-15", "url": "https://openai.com/blog"},
+    {"source": "DeepSeek", "title": "DeepSeek-V3.2 正式版发布，强化 Agent 能力和思考推理", "date": "2026-04-21", "url": "https://www.deepseek.com/"},
+    {"source": "Anthropic", "title": "Introducing Claude Opus 4.7", "date": "2026-04-16", "url": "https://anthropic.com/news/claude-opus-4-7"},
+    {"source": "Anthropic", "title": "Introducing Claude Design by Anthropic Labs", "date": "2026-04-17", "url": "https://anthropic.com/news/claude-design-anthropic-labs"},
+    {"source": "Anthropic", "title": "Project Glasswing (AWS/Google/Apple/NVIDIA等安全联盟)", "date": "2026-04-07", "url": "https://anthropic.com/glasswing"},
+    {"source": "Anthropic", "title": "What 81,000 people want from AI (最大多语言AI用户调研)", "date": "2026-03-18", "url": "https://anthropic.com/81k-interviews"},
+    {"source": "Anthropic", "title": "Claude remains ad-free (广告与AI助手不相容)", "date": "2026-02-04", "url": "https://anthropic.com/news/claude-is-a-space-to-think"},
+    {"source": "Anthropic", "title": "Anthropic invests $100M into Claude Partner Network", "date": "2026-03-12", "url": "https://anthropic.com/news/claude-partner-network"}
+  ],
+  "blocked_sources": [
+    {"url": "https://huggingface.co/blog", "reason": "ERR_CONNECTION_REFUSED (被墙)"},
+    {"url": "https://deepmind.google/blog/", "reason": "tab not found (被墙)"},
+    {"url": "https://x.ai/blog", "reason": "fetch failed (被墙)"}
+  ],
+  "summary": "成功采集3个源：OpenAI(3条)、DeepSeek(1条)、Anthropic(6条)。HuggingFace/DeepMind/x.ai被GFW封锁无法访问。Claude Opus 4.7于4/16发布，Claude Design于4/17发布。"
 }
