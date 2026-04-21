@@ -1,39 +1,21 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-21 10:50 GMT+8
+## 快照 | 2026-04-21 10:53 GMT+8
 
-- ⏰ **10:50定时扫描**
-- 价格采集: ✅ BTC $75,700 / ETH $2,311 / SOL $85.39 (2026-04-21 10:43)
-- HN数据: ✅ 已修复（30条，10:50）
-- GitHub Trending: ✅ 已修复（30个项目，10:50）
-- 简报: ✅ DAILY/2026-04-21.md 可用
-- GitHub Push: ⚠️ 间歇性（10:43成功/10:44失败）
-- HourlyPriceCollector: ✅ 运行正常
-
----
-
-## ✅ 已修复问题
-
-| 问题 | 状态 | 修复方式 |
-|------|------|---------|
-| hacker-news_latest 10天断档 | ✅ 已更新 | 子智能体重新采集 |
-| github-trending_latest 10天断档 | ✅ 已更新 | 子智能体重新采集 |
-| latest文件未更新bug | ✅ 已修复 | 确认 latest 文件被正确更新 |
-
----
+- ⏰ **10:53定时扫描 - 系统正常运行**
+- 价格采集: ✅ 自动采集中（10:43 BTC $75,700 / GOLD $4,807 / OIL $86.6 / F&G 33）
+- AI新闻: ✅ 补采完成（10:47 更新）
+- HN/GitHub: ✅ 10:31补采成功
+- GitHub推送: ✅ a242a24 已推送
+- Cron状态: ✅ OpenClaw cron正常工作
+- Windows Scheduled Task: ⚠️ 仍失败（不影响，系统通过OpenClaw cron运行）
+- SSL bypass: ✅ 已修复（git config http.sslVerify false）
 
 ## 系统状态
+- 数据断档：✅ 已修复（10天补采完成）
+- 僵尸子智能体：✅ 已清理（2个11天旧任务）
+- GitHub推送：✅ 全部推送成功
 
-| 项目 | 状态 | 备注 |
-|------|------|------|
-| HourlyPriceCollector | ✅ 运行正常 | 每小时执行 |
-| DailyCollector_AM | ✅ Ready | 明天08:00 |
-| DailyCollector_PM | ✅ Ready | 今天20:00 |
-| GitHub push | ⚠️ 间歇性 | 需监控 |
-
----
-
-## 定时提醒
-
-- ⏰ **11:05** - HourlyPriceCollector 下次执行
-- ⏰ **20:00** - DailyCollector_PM 晚间采集
+## 待观察
+- 11:05 cron是否会正常触发
+- AI新闻持续更新状态
