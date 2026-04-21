@@ -2,12 +2,51 @@
 
 ## 快照 | 2026-04-21 10:32 GMT+8
 
-- ⏰ **10:32定时扫描（紧急补采完成）**
-- 价格采集: ✅ BTC $75,776 / ETH $2,311 / SOL $85.35 / GOLD $4,807 / OIL $86.52 / F&G 33
-- HN数据: ✅ 补采成功(2026-04-21 10:31)
-- GitHub Trending: ✅ 补采成功(2026-04-21 10:31)
-- AI新闻: ⚠️ 仍为旧数据(04-09~11)
-- 简报: ✅ briefings/2026-04-21.md + DAILY/2026-04-21.md 已生成
-- GitHub Push: 🔄 待推送
-- **关键事件**: 数据断档10天紧急补采，子智能体并行完成
-- **待处理**: 检查cron定时任务状态 / 清理2个僵尸子智能体(已kill)
+- ⏰ **10:32定时扫描（自我审查+修复）**
+- 价格采集: ✅ 实时(2026-04-21 10:28)
+- AI新闻采集: ✅ 补采成功(2026-04-21 10:30)
+- HN采集: ✅ 补采成功(2026-04-21 10:30)
+- GitHub采集: ✅ 补采成功(2026-04-21 10:30)
+- 简报生成: ✅ 完成(2026-04-21 10:28)
+- 数据断档: ✅ 已补采（10天数据已恢复）
+
+---
+
+## 重大发现（补采内容）
+
+| 事件 | 来源 | 日期 | 重要性 |
+|------|------|------|--------|
+| Apple CEO换届：Tim Cook→John Ternus | HN #1 (1221分) | 04-20 | 🔴 高 |
+| Kimi K2.6 开源编程模型 | HN #3 (578分) | 04-20 | 🟡 中 |
+| Qwen3.6-Max-Preview 发布 | HN #4 (545分) | 04-20 | 🟡 中 |
+| Claude Opus 4.7 (1M token, 87.6% SWE-bench) | ai-news | 04-16 | 🟡 中 |
+| EU 2027年手机可更换电池法规 | HN #2 (976分) | 04-20 | 🟡 中 |
+
+---
+
+## cron任务状态
+
+| 任务 | 状态 | NextRunTime | 备注 |
+|------|------|-------------|------|
+| HourlyPriceCollector | ✅ 修复完成 | 11:05 (今天) | 365天Duration循环 |
+| DailyCollector_AM | ✅ Ready | 08:00 明天 | - |
+| DailyCollector_PM | ✅ Ready | 20:00 今天 | - |
+
+---
+
+## 待处理
+
+- [ ] GitHub push失败（443网络问题），本地待推送文件：
+  - HEARTBEAT.md (modified)
+  - data/ai/ai-news_latest.json (modified)
+  - data/ai/github-trending_latest.json (modified)
+  - data/ai/ai-news-2026-04-21.json (new)
+  - data/ai/hacker-news_latest.json (new)
+- [ ] 简报更新（加入Apple CEO换届等重大事件）
+
+---
+
+## 提醒
+
+- **定时任务已修复**：HourlyPriceCollector之前配置为-Once（单次），已修复为365天循环
+- **GitHub网络问题**：443端口持续失败，可能是临时网络波动或GFW问题

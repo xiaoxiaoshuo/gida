@@ -5,15 +5,15 @@
     "ai_news": 1745206260,
     "briefing": 1745206200
   },
-  "lastHeartbeat": 1745206320,
+  "lastHeartbeat": 1745207520,
   "pendingTasks": [
-    "AI新闻仍断档(04-09~11)，需补采",
-    "cron定时任务需检查是否正常运行"
+    "GitHub push失败（443网络问题），本地有pending commits",
+    "HourlyPriceCollector已修复为真正循环（NextRunTime: 11:05）"
   ],
   "subagents": {
     "price-refresh-urgent": "done",
-    "ai-news-deep-collector": "timeout",
+    "ai-news-deep-collector": "done",
     "briefing-generator": "done"
   },
-  "notes": "紧急补采完成：价格+HN+GitHub已更新，AI新闻仍旧。清理僵尸子智能体(2个运行11天的旧任务)。"
+  "notes": "10:30补采完成。重大发现：Apple CEO换届(Tim Cook→John Ternus)，Kimi K2.6/Qwen3.6发布，Claude Opus 4.7发布。cron已修复。GitHub 443持续失败需人工介入。"
 }
