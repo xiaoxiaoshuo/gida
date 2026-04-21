@@ -1,136 +1,20 @@
-{
-  "timestamp": "2026-04-21T02:30:00Z",
-  "source": "Multiple AI Blog Sources",
-  "description": "AI/Tech News from Major Labs - April 2026",
-  "confidence": "high",
-  "articles": [
-    {
-      "title": "John Ternus to become Apple CEO (Apple Newsroom)",
-      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
-      "score": 1221,
-      "publishedAt": "2026-04-20",
-      "source": "Apple Newsroom",
-      "summary": "Tim Cook becomes Apple Executive Chairman, John Ternus appointed as new CEO - major leadership transition"
-    },
-    {
-      "title": "Kimi K2.6: Advancing open-source coding",
-      "url": "https://www.kimi.com/blog/kimi-k2-6",
-      "score": 578,
-      "publishedAt": "2026-04-20",
-      "source": "Moonshot AI / Kimi",
-      "summary": "Kimi K2.6 open-source coding model released, advancing AI coding capabilities"
-    },
-    {
-      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
-      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
-      "score": 545,
-      "publishedAt": "2026-04-20",
-      "source": "Alibaba Qwen",
-      "summary": "Alibaba releases Qwen3.6-Max-Preview, new flagship model in Qwen3 series"
-    },
-    {
-      "title": "Claude Opus 4.7 Launch - Benchmarks, Pricing, Context & What's New",
-      "url": "https://llm-stats.com/blog/research/claude-opus-4-7-launch",
-      "score": null,
-      "publishedAt": "2026-04-16",
-      "source": "Anthropic / LLM Stats",
-      "summary": "Claude Opus 4.7 scores 87.6% on SWE-bench Verified, 94.2% on GPQA, 1M token context"
-    },
-    {
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "url": "https://www.anthropic.com/news",
-      "score": null,
-      "publishedAt": "2026-04-17",
-      "source": "Anthropic",
-      "summary": "New Anthropic product for collaborating with Claude to create visual work like designs, prototypes, slides"
-    },
-    {
-      "title": "Project Glasswing - Industry Coalition for Software Security",
-      "url": "https://www.anthropic.com/news",
-      "score": null,
-      "publishedAt": "2026-04-07",
-      "source": "Anthropic",
-      "summary": "AWS, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Microsoft, NVIDIA, Palo Alto Networks unite to secure critical software"
-    },
-    {
-      "title": "What 81,000 people want from AI - Claude.ai User Study",
-      "url": "https://www.anthropic.com/news",
-      "score": null,
-      "publishedAt": "2026-04-07",
-      "source": "Anthropic",
-      "summary": "Largest multilingual qualitative AI study - 81,000 Claude.ai users shared how they use and want from AI"
-    },
-    {
-      "title": "Codex for (almost) everything",
-      "url": "https://openai.com/index/codex-for-almost-everything/",
-      "score": null,
-      "publishedAt": "2026-04-16",
-      "source": "OpenAI",
-      "summary": "OpenAI releases Codex for broad coding automation"
-    },
-    {
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "url": "https://openai.com/index/introducing-gpt-rosalind/",
-      "score": null,
-      "publishedAt": "2026-04-16",
-      "source": "OpenAI",
-      "summary": "New GPT model specialized for life sciences research"
-    },
-    {
-      "title": "The next evolution of the Agents SDK",
-      "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/",
-      "score": null,
-      "publishedAt": "2026-04-15",
-      "source": "OpenAI",
-      "summary": "OpenAI releases next-generation Agents SDK for multi-agent workflows"
-    },
-    {
-      "title": "Accelerating the cyber defense ecosystem",
-      "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/",
-      "score": null,
-      "publishedAt": "2026-04-16",
-      "source": "OpenAI",
-      "summary": "OpenAI security initiative for cyber defense"
-    },
-    {
-      "title": "Introducing the Child Safety Blueprint",
-      "url": "https://openai.com/index/introducing-child-safety-blueprint/",
-      "score": null,
-      "publishedAt": "2026-04-08",
-      "source": "OpenAI",
-      "summary": "OpenAI safety framework for child protection"
-    },
-    {
-      "title": "DeepGEMM - High-Performance FP8 GEMM Library for LLMs",
-      "url": "https://github.com/deepseek-ai/DeepGEMM",
-      "score": null,
-      "publishedAt": "2026-04-20",
-      "source": "DeepSeek-AI",
-      "summary": "Optimized library for General Matrix Multiplication operations in LLMs using FP8 kernels"
-    },
-    {
-      "title": "Even 'uncensored' models can't say what they want",
-      "url": "https://morgin.ai/articles/even-uncensored-models-cant-say-what-they-want.html",
-      "score": 98,
-      "publishedAt": "2026-04-20",
-      "source": "Morgin AI",
-      "summary": "Research showing even uncensored AI models face limitations in expressing certain content"
-    },
-    {
-      "title": "OpenAI ad partner now selling ChatGPT ad placements based on \"prompt relevance\"",
-      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
-      "score": 179,
-      "publishedAt": "2026-04-20",
-      "source": "AdWeek",
-      "summary": "Leaked deck reveals how OpenAI's advertising partner sells ChatGPT ad placements based on prompt relevance"
-    },
-    {
-      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
-      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
-      "score": 301,
-      "publishedAt": "2026-04-20",
-      "source": "TechCrunch",
-      "summary": "Music streaming service reports nearly half of daily uploads are AI-generated music"
-    }
-  ]
+﻿{
+    "sources":  [
+                    {
+                        "status":  "accessible",
+                        "url":  "https://openai.com/blog",
+                        "name":  "OpenAI Blog",
+                        "content_snippet":  "Codex：全能型助手 - 产品 - 2026年4月16日, GPT-Rosalind：开启生命科学研究新纪元 - 研究 - 2026年4月16日, The next evolution of the Agents SDK - 产品 - 2026年4月15日",
+                        "last_checked":  "2026-04-21 10:45:00"
+                    },
+                    {
+                        "status":  "accessible",
+                        "url":  "https://www.deepseek.com/",
+                        "name":  "DeepSeek",
+                        "content_snippet":  "DeepSeek-V3.2 正式版发布，强化 Agent 能力，融入思考推理，在网页端、APP 和 API 全面上线",
+                        "last_checked":  "2026-04-21 10:46:00"
+                    }
+                ],
+    "timestamp":  "2026-04-21 10:47:47",
+    "summary":  "主要AI新闻：OpenAI发布Codex全能型助手和GPT-Rosalind生命科学模型，DeepSeek发布V3.2版本强化Agent能力和思考推理。"
 }
