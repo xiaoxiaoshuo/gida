@@ -1,87 +1,147 @@
-﻿[
-    {
-        "last_updated":  "2026-04-08T04:55:00+08:00",
-        "days_collected":  1,
-        "history":  [
-                        {
-                            "date":  "2026-04-08",
-                            "repos":  [
-                                          {
-                                              "name":  "google-ai-edge / gallery",
-                                              "stars":  18673,
-                                              "stars_today":  899,
-                                              "language":  "Kotlin",
-                                              "description":  "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
-                                          },
-                                          {
-                                              "name":  "google-ai-edge / LiteRT-LM",
-                                              "stars":  2478,
-                                              "stars_today":  522,
-                                              "language":  "C++",
-                                              "description":  ""
-                                          },
-                                          {
-                                              "name":  "NVIDIA / personaplex",
-                                              "stars":  7866,
-                                              "stars_today":  663,
-                                              "language":  "Python",
-                                              "description":  "PersonaPlex code."
-                                          },
-                                          {
-                                              "name":  "abhigyanpatwari / GitNexus",
-                                              "stars":  24393,
-                                              "stars_today":  1174,
-                                              "language":  "TypeScript",
-                                              "description":  "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
-                                          },
-                                          {
-                                              "name":  "tobi / qmd",
-                                              "stars":  19470,
-                                              "stars_today":  859,
-                                              "language":  "TypeScript",
-                                              "description":  "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
-                                          },
-                                          {
-                                              "name":  "forrestchang / andrej-karpathy-skills",
-                                              "stars":  7970,
-                                              "stars_today":  42,
-                                              "language":  "",
-                                              "description":  ""
-                                          },
-                                          {
-                                              "name":  "elebumm / RedditVideoMakerBot",
-                                              "stars":  9974,
-                                              "stars_today":  656,
-                                              "language":  "Python",
-                                              "description":  "Create Reddit Videos with just✨ one command ✨"
-                                          },
-                                          {
-                                              "name":  "HKUDS / DeepTutor",
-                                              "stars":  12009,
-                                              "stars_today":  339,
-                                              "language":  "Python",
-                                              "description":  "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
-                                          },
-                                          {
-                                              "name":  "TheCraigHewitt / seomachine",
-                                              "stars":  3800,
-                                              "stars_today":  213,
-                                              "language":  "Python",
-                                              "description":  "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
-                                          }
-                                      ]
-                        }
-                    ],
-        "legacy_snapshots":  [
-                                 "data/tech/github-trending-2026-04-01.json",
-                                 "data/tech/github-trending-2026-03-26.json"
-                             ]
-    },
-    {
-        "date":  "2026-04-10",
-        "timestamp":  "2026-04-10 20:01:11",
-        "data":  [
-
-                 ]
-    }
+[
+  {
+    "last_updated": "2026-04-08T04:55:00+08:00",
+    "days_collected": 1,
+    "history": [
+      {
+        "date": "2026-04-08",
+        "repos": [
+          {
+            "name": "google-ai-edge / gallery",
+            "stars": 18673,
+            "stars_today": 899,
+            "language": "Kotlin",
+            "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
+          },
+          {
+            "name": "google-ai-edge / LiteRT-LM",
+            "stars": 2478,
+            "stars_today": 522,
+            "language": "C++",
+            "description": ""
+          },
+          {
+            "name": "NVIDIA / personaplex",
+            "stars": 7866,
+            "stars_today": 663,
+            "language": "Python",
+            "description": "PersonaPlex code."
+          },
+          {
+            "name": "abhigyanpatwari / GitNexus",
+            "stars": 24393,
+            "stars_today": 1174,
+            "language": "TypeScript",
+            "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
+          },
+          {
+            "name": "tobi / qmd",
+            "stars": 19470,
+            "stars_today": 859,
+            "language": "TypeScript",
+            "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
+          },
+          {
+            "name": "forrestchang / andrej-karpathy-skills",
+            "stars": 7970,
+            "stars_today": 42,
+            "language": "",
+            "description": ""
+          },
+          {
+            "name": "elebumm / RedditVideoMakerBot",
+            "stars": 9974,
+            "stars_today": 656,
+            "language": "Python",
+            "description": "Create Reddit Videos with just✨ one command ✨"
+          },
+          {
+            "name": "HKUDS / DeepTutor",
+            "stars": 12009,
+            "stars_today": 339,
+            "language": "Python",
+            "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
+          },
+          {
+            "name": "TheCraigHewitt / seomachine",
+            "stars": 3800,
+            "stars_today": 213,
+            "language": "Python",
+            "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
+          }
+        ]
+      }
+    ],
+    "legacy_snapshots": [
+      "data/tech/github-trending-2026-04-01.json",
+      "data/tech/github-trending-2026-03-26.json"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "timestamp": "2026-04-10 20:01:11",
+    "data": []
+  },
+  {
+    "date": "2026-04-22",
+    "timestamp": "2026-04-22 04:30:32",
+    "data": [
+      {
+        "name": "Fincept-Corporation / FinceptTerminal",
+        "stars": 11389,
+        "stars_today": 2595,
+        "language": "Python",
+        "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools."
+      },
+      {
+        "name": "thunderbird / thunderbolt",
+        "stars": 3392,
+        "stars_today": 591,
+        "language": "TypeScript",
+        "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in."
+      },
+      {
+        "name": "zilliztech / claude-context",
+        "stars": 6488,
+        "stars_today": 259,
+        "language": "TypeScript",
+        "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
+      },
+      {
+        "name": "ruvnet / RuView",
+        "stars": 48811,
+        "stars_today": 828,
+        "language": "Rust",
+        "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation."
+      },
+      {
+        "name": "microsoft / ai-agents-for-beginners",
+        "stars": 57543,
+        "stars_today": 131,
+        "language": "Jupyter Notebook",
+        "description": "12 Lessons to Get Started Building AI Agents"
+      },
+      {
+        "name": "dayanch96 / YTLite",
+        "stars": 4789,
+        "stars_today": 43,
+        "language": "Logos",
+        "description": "A flexible enhancer for YouTube on iOS"
+      },
+      {
+        "name": "HKUDS / RAG-Anything",
+        "stars": 16760,
+        "stars_today": 256,
+        "language": "Python",
+        "description": "RAG-Anything: All-in-One RAG Framework"
+      },
+      {
+        "name": "sansan0 / TrendRadar",
+        "stars": 53554,
+        "stars_today": 584,
+        "language": "Python",
+        "description": "AI-driven public opinion and trend monitor with multi-platform aggregation."
+      }
+    ]
+  }
 ]
