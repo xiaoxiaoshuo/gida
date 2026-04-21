@@ -1,7 +1,8 @@
+# collect-ai-news-rss.ps1 - AI新闻多源RSS采集（修复版）
 $ErrorActionPreference = "SilentlyContinue"
 $WorkDir = "C:\Users\Administrator\clawd\agents\workspace-gid"
 
-# 尝试多个RSS源获取AI新闻
+# RSS源配置
 $sources = @(
     @{name="TechCrunch AI"; url="https://techcrunch.com/category/artificial-intelligence/feed/"},
     @{name="MIT Technology Review"; url="https://www.technologyreview.com/feed/"},
@@ -12,23 +13,51 @@ $sources = @(
 $allItems = @()
 $sourceResults = @()
 
+function Get-SafeTitle {
+    param($item)
+    $title = $item.title
+    if ($title -is [array]) { return $title[0] }
+    if ($title -is [System.Xml.XmlElement]) { return $title.'#text' }
+    return [string]$title
+}
+
+function Get-SafeLink {
+    param($item)
+    $link = $item.link
+    if ($link -is [array]) { return $link[0] }
+    if ($link -is [System.Xml.XmlElement]) { return $link.'#text' }
+    return [string]$link
+}
+
 foreach ($src in $sources) {
     try {
         $rss = Invoke-RestMethod $src.url -TimeoutSec 15
         if ($rss -and $rss.Count -gt 0) {
             $count = 0
             foreach ($item in $rss | Select-Object -First 10) {
-                $allItems += @{
-                    source = $src.name
-                    title = $item.title
-                    url = $item.link
-                    date = $item.pubDate
-                    desc = if ($item.description) { $item.description -replace '<[^>]+>', '' -replace '\s+', ' ' } else { "" }
+                $title = Get-SafeTitle $item
+                $link = Get-SafeLink $item
+                $desc = ""
+                if ($item.description) {
+                    if ($item.description -is [string]) {
+                        $desc = $item.description -replace '<[^>]+>', '' -replace '\s+', ' '
+                    } elseif ($item.description.'#text') {
+                        $desc = $item.description.'#text' -replace '<[^>]+>', '' -replace '\s+', ' '
+                    }
                 }
-                $count++
+                if ($title -and $title -ne "" -and $title -ne "System.String[]") {
+                    $allItems += @{
+                        source = $src.name
+                        title = $title
+                        url = $link
+                        date = $item.pubDate
+                        desc = $desc
+                    }
+                    $count++
+                }
             }
             $sourceResults += @{name=$src.name; status="ok"; count=$count}
-            Write-Host "[OK] $($src.name): $($count)条"
+            Write-Host "[OK] $($src.name): $count 条"
         }
     } catch {
         $sourceResults += @{name=$src.name; status="fail"; error=$_.Exception.Message}
@@ -36,7 +65,6 @@ foreach ($src in $sources) {
     }
 }
 
-# 保存结果
 $output = @{
     timestamp = (Get-Date -Format "yyyy-MM-ddTHH:mm:ssZ")
     sources = $sourceResults
@@ -45,11 +73,12 @@ $output = @{
 }
 
 $OutputFile = "$WorkDir\data\ai\ai-news_latest.json"
+$BackupFile = "$WorkDir\data\ai\ai-news-$(Get-Date -Format 'yyyy-MM-dd').json"
 $output | ConvertTo-Json -Depth 5 | Out-File $OutputFile -Encoding UTF8
+Copy-Item $OutputFile $BackupFile -Force
 
-# 备份
-$backup = "$WorkDir\data\ai\ai-news-$(Get-Date -Format 'yyyy-MM-dd').json"
-Copy-Item $OutputFile $backup -Force
+# 同步markdown版本
+& "$WorkDir\scripts\sync-ai-news-md.ps1"
 
-Write-Host "`n[OK] 共采集 $($allItems.Count) 条新闻"
-Write-Host "[OK] 保存到 $OutputFile"
+Write-Host "[OK] 共 $($allItems.Count) 条新闻已保存"
+exit 0
