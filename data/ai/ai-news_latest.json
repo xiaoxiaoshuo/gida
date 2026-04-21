@@ -1,400 +1,187 @@
 {
-  "count": 67,
-  "sources": [
-    {
-      "count": 10,
-      "name": "TechCrunch AI",
-      "path": "rss.channel.item",
-      "status": "ok"
+  "date": "2026-04-21",
+  "time": "17:35 GMT+8",
+  "sources": {
+    "openai": {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/news/",
+      "articles": [
+        {
+          "title": "Codex for (almost) everything",
+          "category": "Product",
+          "date": "Apr 16, 2026",
+          "url": "https://openai.com/index/codex-for-almost-everything/"
+        },
+        {
+          "title": "Introducing GPT-Rosalind for life sciences research",
+          "category": "Research",
+          "date": "Apr 16, 2026",
+          "url": "https://openai.com/index/introducing-gpt-rosalind/"
+        },
+        {
+          "title": "Accelerating the cyber defense ecosystem that protects us all",
+          "category": "Security",
+          "date": "Apr 16, 2026",
+          "url": "https://openai.com/index/accelerating-cyber-defense-ecosystem/"
+        },
+        {
+          "title": "The next evolution of the Agents SDK",
+          "category": "Product",
+          "date": "Apr 15, 2026",
+          "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk/"
+        },
+        {
+          "title": "Trusted access for the next era of cyber defense",
+          "category": "Security",
+          "date": "Apr 14, 2026",
+          "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/"
+        },
+        {
+          "title": "Our response to the Axios developer tool compromise",
+          "category": "Security",
+          "date": "Apr 10, 2026",
+          "url": "https://openai.com/index/axios-developer-tool-compromise/"
+        },
+        {
+          "title": "The next phase of enterprise AI",
+          "category": "Company",
+          "date": "Apr 8, 2026",
+          "url": "https://openai.com/index/next-phase-of-enterprise-ai/"
+        },
+        {
+          "title": "Introducing the Child Safety Blueprint",
+          "category": "Safety",
+          "date": "Apr 8, 2026",
+          "url": "https://openai.com/index/introducing-child-safety-blueprint/"
+        },
+        {
+          "title": "Introducing the OpenAI Safety Fellowship",
+          "category": "Safety",
+          "date": "Apr 6, 2026",
+          "url": "https://openai.com/index/introducing-openai-safety-fellowship/"
+        }
+      ],
+      "count": 9
     },
-    {
-      "count": 10,
-      "name": "MIT Technology Review",
-      "path": "rss.channel.item",
-      "status": "ok"
+    "anthropic": {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "articles": [
+        {
+          "title": "Introducing Claude Opus 4.7",
+          "category": "Model Release",
+          "date": "4 days ago (Apr 16-17, 2026)",
+          "url": "https://www.anthropic.com/news/claude-opus-4-7",
+          "notes": "Notable improvement on Opus 4.6 in advanced software engineering, agentic coding, high-resolution vision, and long-horizon autonomous tasks. Anthropic says it's 'less broadly capable' than its predecessor Mythos."
+        },
+        {
+          "title": "Anthropic Releases Claude Opus 4.7: A Major Upgrade for Agentic Coding",
+          "category": "Model Release",
+          "date": "Apr 18, 2026",
+          "source": "MarkTechPost",
+          "notes": "Claude Opus 4.7 brings gains in software engineering, vision resolution, and instruction following, plus automated cybersecurity safeguards."
+        },
+        {
+          "title": "Anthropic Debuts Claude Design for Creating Prototypes",
+          "category": "Product",
+          "date": "Apr 17, 2026",
+          "source": "MacRumors",
+          "notes": "Claude Design for realistic prototypes, wireframes, mockups, design explorations, pitch decks, presentations, social media assets."
+        },
+        {
+          "title": "Anthropic Releases Claude Mythos Preview with Cybersecurity Improvements",
+          "category": "Model Release",
+          "date": "Apr 13, 2026",
+          "source": "InfoQ",
+          "notes": "Most capable frontier model to date, with dramatic improvements in reasoning, coding, and cybersecurity."
+        },
+        {
+          "title": "Claude was down — outage April 15, 2026",
+          "category": "Incident",
+          "date": "Apr 15, 2026",
+          "source": "TechRadar",
+          "notes": "Active disruption causing 'Elevated errors on Claude.ai, API, Claude Code.'"
+        }
+      ],
+      "count": 5
     },
-    {
-      "count": 7,
-      "name": "VentureBeat AI",
-      "path": "rss.channel.item",
-      "status": "ok"
+    "hackernews": {
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "ai_tech_alerts": [
+        {
+          "title": "John Ternus to become Apple CEO",
+          "points": 1783,
+          "comments": 936,
+          "age": "12 hours ago",
+          "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
+          "priority": "HIGH",
+          "category": "leadership"
+        },
+        {
+          "title": "All phones sold in the EU to have replaceable batteries from 2027",
+          "points": 1246,
+          "comments": 1045,
+          "age": "19 hours ago",
+          "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
+          "priority": "HIGH",
+          "category": "policy"
+        },
+        {
+          "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
+          "points": 622,
+          "comments": 330,
+          "age": "19 hours ago",
+          "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
+          "priority": "HIGH",
+          "category": "ai"
+        },
+        {
+          "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+          "points": 142,
+          "comments": 66,
+          "age": "5 hours ago",
+          "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+          "priority": "MEDIUM",
+          "category": "infrastructure"
+        },
+        {
+          "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+          "points": 60,
+          "comments": 26,
+          "age": "5 hours ago",
+          "url": "https://mediator.ai/",
+          "priority": "LOW",
+          "category": "ai"
+        },
+        {
+          "title": "Anthropic says OpenClaw-style Claude CLI usage is allowed again",
+          "points": 181,
+          "comments": 103,
+          "age": "5 hours ago",
+          "url": "https://docs.openclaw.ai/providers/anthropic",
+          "priority": "MEDIUM",
+          "category": "ai_policy"
+        }
+      ],
+      "count": 6
     },
-    {
-      "count": 10,
-      "name": "The Verge",
-      "path": "feed.entry",
-      "status": "ok"
-    },
-    {
-      "count": 10,
-      "name": "Ars Technica",
-      "path": "rss.channel.item",
-      "status": "ok"
-    },
-    {
-      "count": 10,
-      "name": "Wired Science",
-      "path": "rss.channel.item",
-      "status": "ok"
-    },
-    {
-      "count": 10,
-      "name": "Slashdot",
-      "path": "RDF.Item",
-      "status": "ok"
+    "crypto": {
+      "name": "Crypto Prices",
+      "prices": {
+        "BTC": { "USD": 76233.22, "source": "CryptoCompare", "time": "2026-04-21T09:35:10Z" },
+        "ETH": { "USD": 2322.07, "source": "CryptoCompare", "time": "2026-04-21T09:35:10Z" }
+      }
     }
+  },
+  "total_items": 20,
+  "key_findings": [
+    "Claude Opus 4.7 发布（4月16日）：软件工程、视觉、代理编码重大升级，但Anthropic称其比Mythos"能力更窄"",
+    "OpenAI 密集发布期（4月6-16日）：9篇博客，重点在安全(网络防御)、Agents SDK、企业AI",
+    "Apple CEO换届：John Ternus接任Tim Cook担任CEO（HN 1783分）",
+    "EU新规：2027年起所有在欧销售手机须可换电池（HN 1246分）",
+    "Qwen3.6-Max-Preview发布：阿里通义千问新版本（HN 622分）",
+    "BTC强势反弹：$76,233（+0.4%），市场情绪持续修复"
   ],
-  "items": [
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-      "date": "",
-      "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
-      "date": "",
-      "title": "Google rolls out Gemini in Chrome in 7 new countries",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
-      "date": "",
-      "title": "It’s not just one thing — it’s another thing",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
-      "date": "",
-      "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
-      "date": "",
-      "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-      "date": "",
-      "title": "OpenAI’s existential questions",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
-      "date": "",
-      "title": "The 12-month window",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
-      "date": "",
-      "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
-      "date": "",
-      "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
-      "desc": ""
-    },
-    {
-      "source": "TechCrunch AI",
-      "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
-      "date": "",
-      "title": "Tesla brings its robotaxi service to Dallas and Houston",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
-      "date": "",
-      "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
-      "date": "",
-      "title": "Colossal Biosciences said it cloned red wolves. Is it for real?",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-      "date": "",
-      "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/17/1136121/pie-day-links/",
-      "date": "",
-      "title": "Pie Day 2026",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
-      "date": "",
-      "title": "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
-      "date": "",
-      "title": "The case for fixing everything",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
-      "date": "",
-      "title": "How robots learn: A brief, contemporary history",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
-      "date": "",
-      "title": "Making AI operational in constrained public sector environments",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-      "date": "",
-      "title": "Treating enterprise AI as an operating layer",
-      "desc": ""
-    },
-    {
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/04/16/1136034/the-download-cyberscammers-banking-bypasses-microsoft-carbon-removal-troubles/",
-      "date": "",
-      "title": "The Download: cyberscammers’ banking bypasses, and carbon removal troubles",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "VentureBeat AI",
-      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
-      "date": "",
-      "title": "System.Xml.XmlElement",
-      "desc": ""
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T20:31:04-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T19:17:42-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T20:50:06-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T17:57:53-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T17:15:12-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T17:42:41-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T16:39:51-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T16:19:49-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T16:12:23-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "The Verge",
-      "url": "System.Xml.XmlElement",
-      "date": "2026-04-20T16:02:58-04:00",
-      "title": "System.Xml.XmlElement",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
-      "date": "",
-      "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/",
-      "date": "",
-      "title": "Recent advances push Big Tech closer to the Q-Day danger zone",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/",
-      "date": "",
-      "title": "“Negative” views of Broadcom driving thousands of VMware migrations, rival says",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
-      "date": "",
-      "title": "Iran-linked hackers disrupt operations at US critical infrastructure sites",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
-      "date": "",
-      "title": "Thousands of consumer routers hacked by Russia's military",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-      "date": "",
-      "title": "OpenClaw gives users yet another reason to be freaked out about security",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
-      "date": "",
-      "title": "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
-      "date": "",
-      "title": "Quantum computers need vastly fewer resources than thought to break vital encryption",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/",
-      "date": "",
-      "title": "Google bumps up Q Day deadline to 2029, far sooner than previously thought",
-      "desc": ""
-    },
-    {
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
-      "date": "",
-      "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
-      "desc": ""
-    },
-    {
-      "source": "Wired Science",
-      "url": "https://www.wired.com/story/theres-new-evidence-for-how-loneliness-affects-memory-in-old-age/",
-      "date": "",
-      "title": "There’s New Evidence for How Loneliness Affects Memory in Old Age",
-      "desc": ""
-    },
-    {
-      "source": "Wired Science",
-      "url": "https://www.wired.com/story/the-lonely-runner-problem-only-appears-simple/",
-      "date": "",
-      "title": "The ‘Lonely Runner’ Problem Only Appears Simple",
-      "desc": ""
-    },
-    {
-      "source": "Wired Science",
-      "url": "https://www.wired.com/story/how-can-astronauts-tell-how-fast-theyre-going/",
-      "date": "",
-      "title": "How Can Astronauts Tell How Fast They’re Going?",
-      "desc": ""
-    }
-  ],
-  "timestamp": "2026-04-21T11:40:03Z"
+  "source": "Multi-source aggregation: OpenAI blog, Anthropic news, Hacker News, CryptoCompare"
 }
