@@ -10,7 +10,7 @@ $sources = @(
     @{name="VentureBeat AI"; url="https://venturebeat.com/category/ai/feed/"},
     @{name="The Verge"; url="https://www.theverge.com/rss/index.xml"},
     @{name="Ars Technica"; url="https://feeds.arstechnica.com/arstechnica/technology-lab"},
-    @{name="TechRadar"; url="https://www.techradar.com/rss"},
+    # TechRadar: 暂移除 - Invoke-WebRequest异常(curl可访问但.POWERSHELL内部状态问题)
     @{name="Wired Science"; url="https://www.wired.com/feed/category/science/latest/rss"},
     @{name="Slashdot"; url="https://rss.slashdot.org/Slashdot/slashdotMain"}
 )
