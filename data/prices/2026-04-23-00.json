@@ -1,5 +1,4 @@
 {
-  "timestamp_iso": "2026-04-22T16:06:26Z",
   "crypto": {
     "ETH": {
       "raw": "{\"USD\":2412.99}",
@@ -23,41 +22,7 @@
       "confidence": "high"
     }
   },
-  "timestamp": "2026-04-23 00:06:26",
-  "errors": [],
-  "quality_report": {
-    "ETH": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "SOL": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "VIX": {
-      "label": "高",
-      "score": 80,
-      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "OIL": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "BTC": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "GOLD": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    }
-  },
-  "collection_version": "v8",
+  "source": "hourly-price-collector",
   "macro": {
     "VIX": {
       "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
@@ -82,5 +47,6 @@
       "raw_len": 414911,
       "value": 93.09
     }
-  }
+  },
+  "timestamp": "2026-04-23 00:06:55"
 }
