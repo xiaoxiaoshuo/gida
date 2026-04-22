@@ -1,16 +1,18 @@
 {
-  "timestamp": "2026-04-22T04:45:00Z",
+  "timestamp": "2026-04-22T07:55:00Z",
   "source": "https://github.com/trending",
   "period": "today",
+  "description": "GitHub Trending - Fresh scrape via browser 2026-04-22",
+  "confidence": "high",
   "repositories": [
-    {"rank": 1, "name": "Fincept-Corporation/FinceptTerminal", "stars": 11947, "stars_today": 2548, "forks": 1559, "language": "Python", "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools"},
-    {"rank": 2, "name": "thunderbird/thunderbolt", "stars": 3553, "stars_today": 596, "forks": 208, "language": "TypeScript", "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in."},
-    {"rank": 3, "name": "zilliztech/claude-context", "stars": 6779, "stars_today": 169, "forks": 578, "language": "TypeScript", "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."},
-    {"rank": 4, "name": "ruvnet/RuView", "stars": 48998, "stars_today": 824, "forks": 6523, "language": "Rust", "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection"},
-    {"rank": 5, "name": "microsoft/ai-agents-for-beginners", "stars": 57967, "stars_today": 200, "forks": 19897, "language": "Jupyter Notebook", "description": "12 Lessons to Get Started Building AI Agents"},
-    {"rank": 6, "name": "dayanch96/YTLite", "stars": 4867, "stars_today": 55, "forks": 20152, "language": "Logos", "description": "A flexible enhancer for YouTube on iOS"},
-    {"rank": 7, "name": "HKUDS/RAG-Anything", "stars": 17055, "stars_today": 162, "forks": 2013, "language": "Python", "description": "RAG-Anything: All-in-One RAG Framework"},
-    {"rank": 8, "name": "sansan0/TrendRadar", "stars": 53881, "stars_today": 534, "forks": 23571, "language": "Python", "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts"},
-    {"rank": 9, "name": "VoltAgent/awesome-agent-skills", "stars": 16982, "stars_today": 139, "forks": 1841, "language": null, "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more."}
+    {"rank": 1, "name": "Fincept-Corporation/FinceptTerminal", "stars": 12234, "stars_today": 2548, "forks": 1597, "language": "Python", "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools"},
+    {"rank": 2, "name": "thunderbird/thunderbolt", "stars": 3602, "stars_today": 596, "forks": 213, "language": "TypeScript", "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in."},
+    {"rank": 3, "name": "zilliztech/claude-context", "stars": 6907, "stars_today": 169, "forks": 584, "language": "TypeScript", "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."},
+    {"rank": 4, "name": "ruvnet/RuView", "stars": 49082, "stars_today": 824, "forks": 6526, "language": "Rust", "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection"},
+    {"rank": 5, "name": "microsoft/ai-agents-for-beginners", "stars": 58134, "stars_today": 200, "forks": 19923, "language": "Jupyter Notebook", "description": "12 Lessons to Get Started Building AI Agents"},
+    {"rank": 6, "name": "dayanch96/YTLite", "stars": 4893, "stars_today": 55, "forks": 20162, "language": "Logos", "description": "A flexible enhancer for YouTube on iOS"},
+    {"rank": 7, "name": "HKUDS/RAG-Anything", "stars": 17160, "stars_today": 162, "forks": 2021, "language": "Python", "description": "RAG-Anything: All-in-One RAG Framework"},
+    {"rank": 8, "name": "sansan0/TrendRadar", "stars": 54020, "stars_today": 534, "forks": 23600, "language": "Python", "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts"},
+    {"rank": 9, "name": "VoltAgent/awesome-agent-skills", "stars": 17190, "stars_today": 139, "forks": 1851, "language": null, "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more."}
   ]
 }

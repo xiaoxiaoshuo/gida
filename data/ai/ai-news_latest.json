@@ -1,16 +1,57 @@
 {
-  "timestamp": "2026-04-22T04:45:00Z",
-  "source": "Hacker News (news.ycombinator.com)",
-  "items": [
-    {"rank": 1, "title": "Making RAM at Home [video]", "points": 77, "comments": 17, "url": "https://www.youtube.com/watch?v=h6GWikWlAQA", "domain": "youtube.com", "time_ago": "2 hours ago"},
-    {"rank": 2, "title": "ChatGPT Images 2.0", "points": 601, "comments": 503, "url": "https://openai.com/index/introducing-chatgpt-images-2-0/", "domain": "openai.com", "time_ago": "9 hours ago"},
-    {"rank": 3, "title": "Diverse organic molecules on Mars revealed by the first SAM TMAH experiment", "points": 21, "comments": 0, "url": "https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/", "domain": "courthousenews.com", "time_ago": "2 hours ago"},
-    {"rank": 4, "title": "Acetaminophen vs. ibuprofen", "points": 101, "comments": 36, "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet", "domain": "asteriskmag.com", "time_ago": "5 hours ago"},
-    {"rank": 5, "title": "SpaceX says it has agreement to acquire Cursor for $60B", "points": 415, "comments": 526, "url": "https://twitter.com/spacex/status/2046713419978453374", "domain": "twitter.com/spacex", "time_ago": "5 hours ago"},
-    {"rank": 6, "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables", "points": 289, "comments": 105, "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html", "domain": "trendmicro.com", "time_ago": "11 hours ago"},
-    {"rank": 7, "title": "Drunk Post: Things I've Learned as a Senior Engineer", "points": 65, "comments": 24, "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as", "domain": "luminousmen.substack.com", "time_ago": "4 hours ago"},
-    {"rank": 8, "title": "Laws of Software Engineering", "points": 885, "comments": 443, "url": "https://lawsofsoftwareengineering.com", "domain": "lawsofsoftwareengineering.com", "time_ago": "17 hours ago"},
-    {"rank": 9, "title": "A printing press for biological data", "points": 7, "comments": 0, "url": "https://www.owlposting.com/p/the-printing-press-for-biological", "domain": "owlposting.com", "time_ago": "1 hour ago"},
-    {"rank": 10, "title": "Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica", "points": 248, "comments": 93, "url": "https://britannica11.org/", "domain": "britannica11.org", "time_ago": "11 hours ago"}
+  "timestamp": "2026-04-22T07:56:00Z",
+  "source": "multi-rss",
+  "description": "AI News aggregated from VentureBeat, The Verge, MIT Tech Review, AI News - 2026-04-22",
+  "confidence": "high",
+  "articles": [
+    {
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "summary": "Railway获1亿美元B轮融资，估值超10亿美元，挑战AWS传统云基础设施。Railway自称'AI云原生'，提供秒级部署（vs AWS的2-3分钟），帮助AI编程助手快速迭代。已自建数据中心，不依赖Google Cloud。30人团队实现数千万美元年收入。",
+      "publishedAt": "2026-01-22T14:00:00Z",
+      "source": "VentureBeat"
+    },
+    {
+      "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "summary": "SpaceX宣布可能以600亿美元收购AI编程工具Cursor，或支付100亿美元违约金。在SpaceX/xAI IPO前夕，此举旨在增强xAI的AI编程能力，对抗Anthropic等竞争对手。",
+      "publishedAt": "2026-04-21T18:45:37Z",
+      "source": "The Verge"
+    },
+    {
+      "title": "AI backlash is coming for elections",
+      "url": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
+      "summary": "美国民众对AI担忧日益加剧，数据中心建设遭多地抵制，社交媒体上对AI公司和高管的批评言论极端化。",
+      "publishedAt": "2026-04-21T15:00:05Z",
+      "source": "The Verge"
+    },
+    {
+      "title": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
+      "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
+      "summary": "MIT EmTech AI大会上发布2026年AI领域10大关键技术趋势和新兴方向，包括LLM大规模监控能力、AI代理应用等。",
+      "publishedAt": "2026-04-21T22:09:25Z",
+      "source": "MIT Technology Review"
+    },
+    {
+      "title": "How LLMs could supercharge mass surveillance in the US",
+      "url": "https://www.technologyreview.com/2026/04/21/1135919/ai-surveillance-privacy-llms-bulk-data/",
+      "summary": "MIT报告：LLM可能大幅增强美国大规模监控能力，涉及隐私争议。",
+      "publishedAt": "2026-04-21T22:09:25Z",
+      "source": "MIT Technology Review"
+    },
+    {
+      "title": "The era of AI malaise",
+      "url": "https://www.technologyreview.com/2026/04/21/1135921/ai-malaise-artificial-intelligence-public-sentiment/",
+      "summary": "MIT报告：公众对AI情绪进入低迷期，AI疲劳和信任危机显现。",
+      "publishedAt": "2026-04-21T22:09:25Z",
+      "source": "MIT Technology Review"
+    },
+    {
+      "title": "The role of AI in modern forex bot development",
+      "url": "https://www.artificialintelligence-news.com/news/the-role-of-ai-in-modern-forex-bot-development/",
+      "summary": "AI驱动的外汇交易机器人从规则自动化进化到智能系统，使用ML、NLP、深度学习和强化学习。AI不仅分析价格模式，还通过NLP扫描新闻和央行公告判断情绪。",
+      "publishedAt": "2026-04-22T07:34:01Z",
+      "source": "AI News"
+    }
   ]
 }
