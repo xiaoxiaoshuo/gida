@@ -81,34 +81,47 @@ function Get-GoldPrice-Browser {
         $ie = New-Object -ComObject InternetExplorer.Application
         $ie.Visible = $false; $ie.Silent = $true
         $ie.Navigate("https://www.kitco.com/charts/livegold.html")
-        Start-Sleep -Seconds 6
+        Start-Sleep -Seconds 8
         if ($ie.ReadyState -eq 4 -and $null -ne $ie.Document) {
             $bodyText = $ie.Document.body.innerText
-            if ($bodyText -match 'Bid\s*\n\s*([0-9,]+\.[0-9]{2})\s*\n\s*USD') {
-                $price = [double]($matches[1] -replace ',', '')
-                if ($price -gt 1500 -and $price -lt 10000) {
-                    $change = $null; $changePct = $null
-                    if ($bodyText -match '([+-][0-9,]+\.[0-9]{2})\s*\n\s*\(([+-][0-9.]+%)\)') {
-                        $change = [double]($matches[1] -replace ',', '')
-                        $changePct = [double]($matches[2] -replace '%', '')
-                    }
-                    $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
-                    $result = @{
-                        timestamp = $Timestamp; source = "kitco.com (IE COM)"
-                        price_per_oz = $price; change = $change; change_pct = $changePct
-                        price_per_gram = [Math]::Round($price / 31.1035, 2)
-                        price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
-                        currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
-                    }
-                    Write-Log "  GOLD = $$price/oz [kitco.com]" "OK"
-                    $ie.Quit(); return $result
+            # 尝试多种正则模式
+            $patterns = @(
+                'Bid\s*\n\s*([0-9,]+\.[0-9]{2})\s*\n\s*USD',
+                'Bid\s*([0-9,]+\.[0-9]{2})\s*\n',
+                '([0-9,]+\.[0-9]{2})\s*\n\s*USD.*Bid'
+            )
+            $price = $null
+            foreach ($pat in $patterns) {
+                if ($bodyText -match $pat) {
+                    $candidate = [double]($matches[1] -replace ',', '')
+                    if ($candidate -gt 1500 -and $candidate -lt 10000) { $price = $candidate; break }
                 }
             }
-            Write-Log "  Kitco正则匹配失败: $($bt = $bodyText; $bt.Length -le 150 ? $bt : $bt.Substring(0,150))" "WARN"
+            if ($price -and $price -gt 1500 -and $price -lt 10000) {
+                $change = $null; $changePct = $null
+                if ($bodyText -match '([+-][0-9,]+\.[0-9]{2})\s*\n\s*\(([+-][0-9.]+%)\)') {
+                    $change = [double]($matches[1] -replace ',', '')
+                    $changePct = [double]($matches[2] -replace '%', '')
+                }
+                $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
+                $result = @{
+                    timestamp = $Timestamp; source = "kitco.com (IE COM)"
+                    price_per_oz = $price; change = $change; change_pct = $changePct
+                    price_per_gram = [Math]::Round($price / 31.1035, 2)
+                    price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
+                    currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
+                }
+                Write-Log "  GOLD = $$price/oz [kitco.com]" "OK"
+                $ie.Quit(); return $result
+            }
+            $btShort = if ($bodyText.Length -le 120) { $bodyText } else { $bodyText.Substring(0, 120) }
+            Write-Log "  Kitco正则匹配失败: $btShort" "WARN"
         }
         $ie.Quit()
     } catch {
-        Write-Log "  GOLD 浏览器失败: $($e = $_.Exception.Message; $e.Length -le 80 ? $e : $e.Substring(0,80))" "WARN"
+        $eMsg = $_.Exception.Message
+        if ($eMsg.Length -gt 80) { $eMsg = $eMsg.Substring(0, 80) }
+        Write-Log "  GOLD 浏览器失败: $eMsg" "WARN"
         try { $ie.Quit() } catch {}
     }
     return $null
