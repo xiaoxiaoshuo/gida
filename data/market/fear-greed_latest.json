@@ -1,13 +1,14 @@
 {
-  "last_week": null,
-  "timestamp": "2026-04-22T00:00:00Z",
   "source": "alternative.me",
   "index": 32,
-  "last_month": null,
-  "yesterday_value": null,
-  "last_month_value": null,
-  "yesterday": null,
   "value": "Fear",
-  "last_week_value": null,
-  "collection_time": "2026-04-23T04:06:30Z"
+  "timestamp": "2026-04-23T00:00:00Z",
+  "collection_time": "2026-04-23T05:01:00 GMT+8",
+  "yesterday": 33,
+  "yesterday_value": "Fear",
+  "last_week": 23,
+  "last_week_value": "Extreme Fear",
+  "last_month": 8,
+  "last_month_value": "Extreme Fear",
+  "note": "web_fetch成功提取，数据新鲜"
 }
