@@ -1,86 +1,82 @@
 {
   "crypto": {
+    "BTC": {
+      "timestamp": "2026-04-23 04:00:00",
+      "price": 78855,
+      "change_pct_24h": 3.86,
+      "source": "OKX_Web",
+      "raw": {
+        "price_usd": 78855,
+        "change_24h": 3472.69,
+        "change_pct_24h": 3.86,
+        "ath": 126200,
+        "ath_date": "2025-10-07",
+        "market_cap_usd": "1.58万亿",
+        "volume_24h_usd": "515.87亿"
+      },
+      "confidence": "high"
+    },
     "ETH": {
-      "timestamp": "2026-04-23 03:06:24",
-      "price": 2393.16,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":2393.16}",
+      "timestamp": "2026-04-23 04:00:00",
+      "price": 2397.73,
+      "change_pct_24h": 4.31,
+      "source": "OKX_Web",
+      "raw": {
+        "price_usd": 2397.73,
+        "change_pct_24h": 4.31
+      },
       "confidence": "high"
     },
     "SOL": {
-      "timestamp": "2026-04-23 03:06:24",
-      "price": 87.58,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":87.58}",
-      "confidence": "high"
-    },
-    "BTC": {
-      "timestamp": "2026-04-23 03:06:24",
-      "price": 78831.04,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":78831.04}",
+      "timestamp": "2026-04-23 04:00:00",
+      "price": 87.38,
+      "change_pct_24h": 3.31,
+      "source": "OKX_Web",
+      "raw": {
+        "price_usd": 87.38,
+        "change_pct_24h": 3.31
+      },
       "confidence": "high"
     }
   },
-  "timestamp": "2026-04-23 03:06:24",
+  "timestamp": "2026-04-23 04:00:00",
+  "collection_time": "2026-04-23T04:00:00+08:00",
+  "collection_version": "v9-browser-snapshot",
   "quality_report": {
-    "OIL": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "VIX": {
-      "label": "高",
-      "score": 80,
-      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "GOLD": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
     "BTC": {
       "label": "高",
       "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+      "factors": "OKX Web实时价格 + 来源标注 + 时间戳"
     },
     "ETH": {
       "label": "高",
       "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+      "factors": "OKX Web实时价格 + 来源标注 + 时间戳"
     },
     "SOL": {
       "label": "高",
       "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+      "factors": "OKX Web实时价格 + 来源标注 + 时间戳"
     }
   },
-  "errors": [],
-  "collection_version": "v8",
   "macro": {
     "OIL": {
-      "value": 92.89,
-      "source": "tradingeconomics.com",
+      "value": 91.06,
+      "source": "EIA_API",
       "unit": "USD/barrel (WTI)",
       "confidence": "high",
-      "raw_len": 414908,
-      "timestamp": "2026-04-23 03:06:24"
+      "timestamp": "2026-04-23T03:06:31Z",
+      "is_estimated": false
     },
     "GOLD": {
-      "value": 4742.9,
-      "source": "kitco.com",
+      "value": 4401.68,
+      "source": "estimated_from_last",
       "unit": "USD/oz",
-      "confidence": "high",
-      "raw_len": 60797,
-      "timestamp": "2026-04-23 03:06:24"
-    },
-    "VIX": {
-      "timestamp": "2026-04-23 03:06:24",
-      "source": "Yahoo_Finance_VIX",
-      "value": 19.04,
-      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
-      "confidence": "high"
+      "confidence": "low",
+      "timestamp": "2026-04-23T03:06:31Z",
+      "note": "估算值（浏览器采集失败）",
+      "is_estimated": true
     }
   },
-  "timestamp_iso": "2026-04-22T19:06:24Z"
+  "errors": []
 }
