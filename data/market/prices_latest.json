@@ -1,86 +1,25 @@
 {
-  "timestamp_iso": "2026-04-22T04:19:22Z",
-  "crypto": {
-    "BTC": {
-      "timestamp": "2026-04-22 12:19:21",
-      "price": 77482.92,
-      "confidence": "high",
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":77482.92}"
+  "timestamp": "2026-04-22T04:45:00Z",
+  "source": "OKX Web",
+  "prices": {
+    "BTC-USDT": {
+      "price": 77565.4,
+      "change_24h_usd": 1808.5,
+      "change_24h_pct": 2.33,
+      "currency": "USD"
     },
-    "SOL": {
-      "timestamp": "2026-04-22 12:19:21",
-      "price": 87.17,
-      "confidence": "high",
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":87.17}"
+    "ETH-USDT": {
+      "price": 2366.34,
+      "change_24h_pct": 2.47,
+      "currency": "USD"
     },
-    "ETH": {
-      "timestamp": "2026-04-22 12:19:21",
-      "price": 2361.56,
-      "confidence": "high",
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":2361.56}"
+    "SOL-USDT": {
+      "price": 87.27,
+      "change_24h_pct": 2.50,
+      "currency": "USD"
     }
   },
-  "quality_report": {
-    "BTC": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "ETH": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "GOLD": {
-      "score": 65,
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "SOL": {
-      "score": 100,
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "VIX": {
-      "score": 80,
-      "label": "高",
-      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "OIL": {
-      "score": 65,
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    }
-  },
-  "collection_version": "v8",
-  "errors": [],
-  "macro": {
-    "VIX": {
-      "confidence": "high",
-      "timestamp": "2026-04-22 12:19:21",
-      "source": "Yahoo_Finance_VIX",
-      "value": 19.5,
-      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
-    },
-    "OIL": {
-      "timestamp": "2026-04-22 12:19:21",
-      "confidence": "high",
-      "source": "tradingeconomics.com",
-      "raw_len": 414983,
-      "value": 89.26,
-      "unit": "USD/barrel (WTI)"
-    },
-    "GOLD": {
-      "timestamp": "2026-04-22 12:19:21",
-      "confidence": "high",
-      "source": "kitco.com",
-      "raw_len": 60798,
-      "value": 4756.8,
-      "unit": "USD/oz"
-    }
-  },
-  "timestamp": "2026-04-22 12:19:21"
+  "btc_all_time_high": 126200,
+  "btc_ath_date": "2025-10-07",
+  "market_cap_btc_trillion": 1.55
 }

@@ -1,133 +1,16 @@
 {
-  "timestamp": "2026-04-22T01:56:00Z",
-  "count": 30,
-  "sources": [
-    {
-      "name": "Hacker News",
-      "count": 30,
-      "status": "ok"
-    }
-  ],
+  "timestamp": "2026-04-22T04:45:00Z",
+  "source": "Hacker News (news.ycombinator.com)",
   "items": [
-    {
-      "title": "ChatGPT Images 2.0",
-      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
-      "source": "Hacker News",
-      "points": 432,
-      "comments": 420,
-      "age": "7 hours ago"
-    },
-    {
-      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
-      "url": "https://twitter.com/spacex/status/2046713419978453374",
-      "source": "Hacker News",
-      "points": 256,
-      "comments": 351,
-      "age": "2 hours ago"
-    },
-    {
-      "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables",
-      "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
-      "source": "Hacker News",
-      "points": 262,
-      "comments": 98,
-      "age": "8 hours ago"
-    },
-    {
-      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
-      "url": "https://www.brex.com/crabtrap",
-      "source": "Hacker News",
-      "points": 77,
-      "comments": 15,
-      "age": "4 hours ago"
-    },
-    {
-      "title": "Laws of Software Engineering",
-      "url": "https://lawsofsoftwareengineering.com",
-      "source": "Hacker News",
-      "points": 828,
-      "comments": 418,
-      "age": "14 hours ago"
-    },
-    {
-      "title": "Framework Laptop 13 Pro",
-      "url": "https://frame.work/laptop13pro",
-      "source": "Hacker News",
-      "points": 927,
-      "comments": 514,
-      "age": "7 hours ago"
-    },
-    {
-      "title": "Cal.diy: open-source community edition of cal.com",
-      "url": "https://github.com/calcom/cal.diy",
-      "source": "Hacker News",
-      "points": 148,
-      "comments": 39,
-      "age": "7 hours ago"
-    },
-    {
-      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
-      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
-      "source": "Hacker News",
-      "points": 332,
-      "comments": 288,
-      "age": "8 hours ago"
-    },
-    {
-      "title": "Changes to GitHub Copilot individual plans",
-      "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
-      "source": "Hacker News",
-      "points": 321,
-      "comments": 103,
-      "age": "21 hours ago"
-    },
-    {
-      "title": "Zindex – Diagram Infrastructure for Agents",
-      "url": "https://zindex.ai/",
-      "source": "Hacker News",
-      "points": 34,
-      "comments": 12,
-      "age": "5 hours ago"
-    },
-    {
-      "title": "Show HN: GoModel – an open-source AI gateway in Go",
-      "url": "https://github.com/ENTERPILOT/GOModel/",
-      "source": "Hacker News",
-      "points": 160,
-      "comments": 61,
-      "age": "11 hours ago"
-    },
-    {
-      "title": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
-      "url": "https://vidstudio.app/video-editor",
-      "source": "Hacker News",
-      "points": 246,
-      "comments": 80,
-      "age": "13 hours ago"
-    },
-    {
-      "title": "Tim Cook's Impeccable Timing",
-      "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
-      "source": "Hacker News",
-      "points": 302,
-      "comments": 381,
-      "age": "14 hours ago"
-    },
-    {
-      "title": "Windows Server 2025 Runs Better on ARM",
-      "url": "https://jasoneckert.github.io/myblog/server-2025-arm64/",
-      "source": "Hacker News",
-      "points": 32,
-      "comments": 16,
-      "age": "2 hours ago"
-    },
-    {
-      "title": "I'm Sick of AI Everything",
-      "url": "https://news.ycombinator.com/item?id=47857461",
-      "source": "Hacker News",
-      "points": 13,
-      "comments": 4,
-      "age": "35 minutes ago"
-    }
+    {"rank": 1, "title": "Making RAM at Home [video]", "points": 77, "comments": 17, "url": "https://www.youtube.com/watch?v=h6GWikWlAQA", "domain": "youtube.com", "time_ago": "2 hours ago"},
+    {"rank": 2, "title": "ChatGPT Images 2.0", "points": 601, "comments": 503, "url": "https://openai.com/index/introducing-chatgpt-images-2-0/", "domain": "openai.com", "time_ago": "9 hours ago"},
+    {"rank": 3, "title": "Diverse organic molecules on Mars revealed by the first SAM TMAH experiment", "points": 21, "comments": 0, "url": "https://www.courthousenews.com/preserved-for-billions-of-years-organic-compounds-found-on-mars/", "domain": "courthousenews.com", "time_ago": "2 hours ago"},
+    {"rank": 4, "title": "Acetaminophen vs. ibuprofen", "points": 101, "comments": 36, "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet", "domain": "asteriskmag.com", "time_ago": "5 hours ago"},
+    {"rank": 5, "title": "SpaceX says it has agreement to acquire Cursor for $60B", "points": 415, "comments": 526, "url": "https://twitter.com/spacex/status/2046713419978453374", "domain": "twitter.com/spacex", "time_ago": "5 hours ago"},
+    {"rank": 6, "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables", "points": 289, "comments": 105, "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html", "domain": "trendmicro.com", "time_ago": "11 hours ago"},
+    {"rank": 7, "title": "Drunk Post: Things I've Learned as a Senior Engineer", "points": 65, "comments": 24, "url": "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as", "domain": "luminousmen.substack.com", "time_ago": "4 hours ago"},
+    {"rank": 8, "title": "Laws of Software Engineering", "points": 885, "comments": 443, "url": "https://lawsofsoftwareengineering.com", "domain": "lawsofsoftwareengineering.com", "time_ago": "17 hours ago"},
+    {"rank": 9, "title": "A printing press for biological data", "points": 7, "comments": 0, "url": "https://www.owlposting.com/p/the-printing-press-for-biological", "domain": "owlposting.com", "time_ago": "1 hour ago"},
+    {"rank": 10, "title": "Britannica11.org – a structured edition of the 1911 Encyclopædia Britannica", "points": 248, "comments": 93, "url": "https://britannica11.org/", "domain": "britannica11.org", "time_ago": "11 hours ago"}
   ]
 }
