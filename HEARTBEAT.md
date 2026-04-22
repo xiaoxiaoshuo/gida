@@ -1,37 +1,50 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-22 12:18 GMT+8
+## 快照 | 2026-04-22 13:45 GMT+8
 
-- ⏰ **12:18 午间定时扫描**
-- ⚠️ Cron失败：macro-data-collector.ps1 Substring bug
-- 价格断档：最后07:50（4.5小时前）
-- 派生子智能体2个：
-  1. **price-fix-1218** - 价格采集 + 脚本修复
-  2. **briefing-noon-1218** - 午间简报生成
+- ⏰ **13:45 定时扫描**
+- 🔴 GitHub GFW封锁持续（所有镜像TCP超时）
+- 📝 简报为12:18午间版，需要下午更新
+- 🤖 已派发2个子智能体:
+  1. **afternoon-briefing-1345** - 下午采集+简报更新
+  2. **github-push-fixer-1345** - GitHub推送修复尝试
 
-### 数据状态（07:50 UTC快照）
-- BTC $76,313 / ETH $2,327 / SOL $85.95
-- VIX 19.5 / GOLD $4,721 / OIL $90.18
-- F&G 33 Fear
+### 数据状态（12:45 午间快照）
+- BTC $77,565 / ETH $2,366.34 / SOL $87.27
+- VIX 19.5 / F&G 32 (Fear)
+- GOLD 估算 $4,760 / OIL 估算 $89.33
 
-### ⚠️ Cron失败链
+### ⚠️ 关键问题
+
+#### 1. GitHub GFW封锁
 ```
-collect-prices-simple.ps1 → 成功
-     ↓
-macro-data-collector.ps1 → Substring(0,80) 异常
-     ↓
-snapshot保存失败 → 11.json不存在
+github.com:443 - TCP超时
+fastgit.xyz:443 - TCP超时
+ghproxy.com:443 - TCP超时
 ```
+**持续时间**: 约45分钟（12:47→13:45）
+**影响**: 推送失败，增量归档已执行
 
-### 🔧 待修复
-- [ ] macro-data-collector.ps1 第37行 Substring 边界检查
-- [ ] hourly-price-collector.ps1 添加错误处理
+#### 2. 黄金/原油采集失败
+- **Kitco**: iframe反爬，正则匹配失败 → estPrice估算
+- **oilprice.com**: 正则失败 → estPrice估算
+**现状**: 数据为估算值，非真实采集
 
-## 🚀 BTC午间横盘
-$76,313整理，VIX 19.5低波动
-市场等待美国开盘（14:30 GMT+8）
+#### 3. 简报状态
+- 当前: 12:18 午间版（v9）
+- 需更新: 13:45 下午版（v10）
 
-## 市场信号
-- VIX 19.5（机构偏多）
-- F&G 33 Fear（散户恐惧）
-- 分歧持续 = 牛市初期特征
+### 🔧 待处理
+
+- [ ] GitHub推送等待GFW松动或代理配置
+- [ ] 下午简报生成（派发子智能体处理中）
+- [ ] macro-data-collector.ps1 Substring边界bug修复
+- [ ] 黄金/原油采集脚本优化（浏览器方案或新源）
+
+### 📊 下午市场关注
+
+- BTC 能否守住 $77K？
+- F&G 是否从32修复？（当前32 Fear）
+- 原油 $89 关口支撑
+
+*子智能体状态: 8a5cdc14（采集）、860e5031（推送修复）运行中*
