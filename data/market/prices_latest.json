@@ -1,25 +1,24 @@
 {
-  "timestamp": "2026-04-22T04:45:00Z",
+  "timestamp": "2026-04-22T05:46:50Z",
   "source": "OKX Web",
   "prices": {
     "BTC-USDT": {
-      "price": 77565.4,
-      "change_24h_usd": 1808.5,
-      "change_24h_pct": 2.33,
+      "price": 78078,
+      "change_24h_pct": 2.48,
       "currency": "USD"
     },
     "ETH-USDT": {
-      "price": 2366.34,
-      "change_24h_pct": 2.47,
+      "price": 2397.17,
+      "change_24h_pct": 3.56,
       "currency": "USD"
     },
     "SOL-USDT": {
-      "price": 87.27,
-      "change_24h_pct": 2.50,
+      "price": 88.02,
+      "change_24h_pct": 2.71,
       "currency": "USD"
     }
   },
   "btc_all_time_high": 126200,
   "btc_ath_date": "2025-10-07",
-  "market_cap_btc_trillion": 1.55
+  "market_cap_btc_trillion": 1.56
 }
