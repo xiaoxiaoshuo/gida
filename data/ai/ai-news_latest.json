@@ -1,400 +1,133 @@
 {
-  "timestamp": "2026-04-22T04:28:28Z",
-  "count": 67,
+  "timestamp": "2026-04-22T01:56:00Z",
+  "count": 30,
   "sources": [
     {
-      "status": "ok",
-      "count": 10,
-      "path": "rss.channel.item",
-      "name": "TechCrunch AI"
-    },
-    {
-      "status": "ok",
-      "count": 10,
-      "path": "rss.channel.item",
-      "name": "MIT Technology Review"
-    },
-    {
-      "status": "ok",
-      "count": 7,
-      "path": "rss.channel.item",
-      "name": "VentureBeat AI"
-    },
-    {
-      "status": "ok",
-      "count": 10,
-      "path": "feed.entry",
-      "name": "The Verge"
-    },
-    {
-      "status": "ok",
-      "count": 10,
-      "path": "rss.channel.item",
-      "name": "Ars Technica"
-    },
-    {
-      "status": "ok",
-      "count": 10,
-      "path": "rss.channel.item",
-      "name": "Wired Science"
-    },
-    {
-      "status": "ok",
-      "count": 10,
-      "path": "RDF.Item",
-      "name": "Slashdot"
+      "name": "Hacker News",
+      "count": 30,
+      "status": "ok"
     }
   ],
   "items": [
     {
-      "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
-      "url": "https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "ChatGPT Images 2.0",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-0/",
+      "source": "Hacker News",
+      "points": 432,
+      "comments": 420,
+      "age": "7 hours ago"
     },
     {
-      "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
-      "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "SpaceX says it has agreement to acquire Cursor for $60B",
+      "url": "https://twitter.com/spacex/status/2046713419978453374",
+      "source": "Hacker News",
+      "points": 256,
+      "comments": 351,
+      "age": "2 hours ago"
     },
     {
-      "title": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text",
-      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "The Vercel breach: OAuth attack exposes risk in platform environment variables",
+      "url": "https://www.trendmicro.com/en_us/research/26/d/vercel-breach-oauth-supply-chain.html",
+      "source": "Hacker News",
+      "points": 262,
+      "comments": 98,
+      "age": "8 hours ago"
     },
     {
-      "title": "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’",
-      "url": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "CrabTrap: An LLM-as-a-judge HTTP proxy to secure agents in production",
+      "url": "https://www.brex.com/crabtrap",
+      "source": "Hacker News",
+      "points": 77,
+      "comments": 15,
+      "age": "4 hours ago"
     },
     {
-      "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
-      "url": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Laws of Software Engineering",
+      "url": "https://lawsofsoftwareengineering.com",
+      "source": "Hacker News",
+      "points": 828,
+      "comments": 418,
+      "age": "14 hours ago"
     },
     {
-      "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
-      "url": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Framework Laptop 13 Pro",
+      "url": "https://frame.work/laptop13pro",
+      "source": "Hacker News",
+      "points": 927,
+      "comments": 514,
+      "age": "7 hours ago"
     },
     {
-      "title": "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit",
-      "url": "https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Cal.diy: open-source community edition of cal.com",
+      "url": "https://github.com/calcom/cal.diy",
+      "source": "Hacker News",
+      "points": 148,
+      "comments": 39,
+      "age": "7 hours ago"
     },
     {
-      "title": "YouTube expands its AI likeness detection technology to celebrities",
-      "url": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+      "source": "Hacker News",
+      "points": 332,
+      "comments": 288,
+      "age": "8 hours ago"
     },
     {
-      "title": "GRAI believes AI can make music more social, not replace artists",
-      "url": "https://techcrunch.com/2026/04/21/grai-believes-ai-can-make-music-more-social-not-replace-artists/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Changes to GitHub Copilot individual plans",
+      "url": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+      "source": "Hacker News",
+      "points": 321,
+      "comments": 103,
+      "age": "21 hours ago"
     },
     {
-      "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-      "source": "TechCrunch AI",
-      "date": "",
-      "desc": ""
+      "title": "Zindex – Diagram Infrastructure for Agents",
+      "url": "https://zindex.ai/",
+      "source": "Hacker News",
+      "points": 34,
+      "comments": 12,
+      "age": "5 hours ago"
     },
     {
-      "title": "Building agent-first governance and security",
-      "url": "https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-security/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
+      "title": "Show HN: GoModel – an open-source AI gateway in Go",
+      "url": "https://github.com/ENTERPILOT/GOModel/",
+      "source": "Hacker News",
+      "points": 160,
+      "comments": 61,
+      "age": "11 hours ago"
     },
     {
-      "title": "The Download: turning down human noise, and LA’s stunning subway upgrade",
-      "url": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
+      "title": "Show HN: VidStudio, a browser based video editor that doesn't upload your files",
+      "url": "https://vidstudio.app/video-editor",
+      "source": "Hacker News",
+      "points": 246,
+      "comments": 80,
+      "age": "13 hours ago"
     },
     {
-      "title": "Digging for clues about the North Pole’s past",
-      "url": "https://www.technologyreview.com/2026/04/21/1135231/digging-for-truth-north-pole-past-seabed/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
+      "title": "Tim Cook's Impeccable Timing",
+      "url": "https://stratechery.com/2026/tim-cooks-impeccable-timing/",
+      "source": "Hacker News",
+      "points": 302,
+      "comments": 381,
+      "age": "14 hours ago"
     },
     {
-      "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
-      "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
+      "title": "Windows Server 2025 Runs Better on ARM",
+      "url": "https://jasoneckert.github.io/myblog/server-2025-arm64/",
+      "source": "Hacker News",
+      "points": 32,
+      "comments": 16,
+      "age": "2 hours ago"
     },
     {
-      "title": "Colossal Biosciences said it cloned red wolves. Is it for real?",
-      "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Chinese tech workers are starting to train their AI doubles—and pushing back",
-      "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Pie Day 2026",
-      "url": "https://www.technologyreview.com/2026/04/17/1136121/pie-day-links/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
-      "url": "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "The case for fixing everything",
-      "url": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "How robots learn: A brief, contemporary history",
-      "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
-      "source": "MIT Technology Review",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
-      "source": "VentureBeat AI",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T16:12:02-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T15:02:45-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T15:00:05-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T15:29:41-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T16:26:47-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T14:57:09-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T16:26:30-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T14:07:29-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T14:06:32-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "System.Xml.XmlElement",
-      "url": "System.Xml.XmlElement",
-      "source": "The Verge",
-      "date": "2026-04-21T13:49:35-04:00",
-      "desc": "System.Xml.XmlElement"
-    },
-    {
-      "title": "Contrary to popular superstition, AES 128 is just fine in a post-quantum world",
-      "url": "https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
-      "url": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Recent advances push Big Tech closer to the Q-Day danger zone",
-      "url": "https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "“Negative” views of Broadcom driving thousands of VMware migrations, rival says",
-      "url": "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Iran-linked hackers disrupt operations at US critical infrastructure sites",
-      "url": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Thousands of consumer routers hacked by Russia's military",
-      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "OpenClaw gives users yet another reason to be freaked out about security",
-      "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "New Rowhammer attacks give complete control of machines running Nvidia GPUs",
-      "url": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Quantum computers need vastly fewer resources than thought to break vital encryption",
-      "url": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "Google bumps up Q Day deadline to 2029, far sooner than previously thought",
-      "url": "https://arstechnica.com/security/2026/03/google-bumps-up-q-day-estimate-to-2029-far-sooner-than-previously-thought/",
-      "source": "Ars Technica",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "How to Watch the 2026 Lyrids Meteor Shower at Its Peak",
-      "url": "https://www.wired.com/story/how-to-watch-the-lyrids-meteor-shower-at-its-peak-2026/",
-      "source": "Wired Science",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "There’s New Evidence for How Loneliness Affects Memory in Old Age",
-      "url": "https://www.wired.com/story/theres-new-evidence-for-how-loneliness-affects-memory-in-old-age/",
-      "source": "Wired Science",
-      "date": "",
-      "desc": ""
-    },
-    {
-      "title": "The ‘Lonely Runner’ Problem Only Appears Simple",
-      "url": "https://www.wired.com/story/the-lonely-runner-problem-only-appears-simple/",
-      "source": "Wired Science",
-      "date": "",
-      "desc": ""
+      "title": "I'm Sick of AI Everything",
+      "url": "https://news.ycombinator.com/item?id=47857461",
+      "source": "Hacker News",
+      "points": 13,
+      "comments": 4,
+      "age": "35 minutes ago"
     }
   ]
 }

@@ -1,39 +1,34 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-22 09:54 GMT+8（更新）
+## 快照 | 2026-04-22 10:00 GMT+8（更新）
 
-- ⏰ **09:54 定时扫描 - Git推送持续失败**
+- ⏰ **10:00 上午采集完成**
 - 价格采集: ✅ 07:50成功（每30分钟自动采集）
-- AI新闻: ⚠️ 07:46更新后1小时未刷新
-- GitHub Push: 🔴 持续失败（Could not connect to server）
-- 简报: ⚠️ 05:31后未更新（4小时断档）
+- AI新闻: ✅ 09:56已更新（30条HN）
+- GitHub Trending: ✅ 09:56已更新
+- GitHub Push: ✅ 09:57成功（5867511）
+- 简报: ✅ 09:56已生成（上午版）
 
-### 📊 数据新鲜度（09:54）
+### 📊 数据新鲜度（10:00）
 | 文件 | 状态 | 最后更新 |
 |------|------|----------|
 | prices_latest.json | ✅ | 07:50 |
-| fear-greed_latest.json | ✅ | 07:50 |
-| gold_latest.json | ✅ | 07:50 |
-| oil_latest.json | ✅ | 07:50 |
-| ai-news_latest.json | ⚠️ | 07:46 (1h+) |
-| ai-news_latest.md | ⚠️ | 07:46 (1h+) |
-| github-trending_latest.json | ⚠️ | 待查 |
-| DAILY/2026-04-22.md | 🔴 | 05:31 (4h断档) |
+| ai-news_latest.json | ✅ | 09:56 (HN 30条) |
+| github-trending_latest.json | ✅ | 09:56 |
+| DAILY/2026-04-22.md | ✅ | 09:56 |
 
-### 📈 市场信号（07:50）
-- BTC $75,583.7 / ETH $2,314 / SOL $85.17
-- VIX 19.5（低波动）
-- GOLD $4,721 / OIL $90.18 / F&G 33 (Fear)
-- **信号**：BTC横盘整理，VIX低波动，市场等待美国开盘
+### 📈 市场信号
+- BTC $76,313 / ETH $2,327 / SOL $85.95 / VIX 19.5 / F&G 33
+- **VIX低波动 vs F&G Fear 分歧显著**（机构vs散户情绪差）
 
-### 🚨 待处理
-- [P0] Git推送网络问题（持续4分钟）→ 等待自动恢复
-- [P0] 上午简报生成（4小时断档）→ 已派发子智能体
-- [P1] AI新闻刷新 → 子智能体同步执行
-- [P2] Cron诊断
+### 🔥 今日重大事件
+1. SpaceX $60B收购Cursor（AI编程赛道最大收购）
+2. Vercel OAuth漏洞公开
+3. ChatGPT Images 2.0发布
 
-### 🤖 子智能体
-- morning-intel-collector-0422：AI新闻+GitHub Trending+简报生成
+### 🚨 监控项
+- [P2] Cron诊断（ERROR_FILE_NOT_FOUND）
+- [P3] Vercel OAuth漏洞自查
 
 ---
 
