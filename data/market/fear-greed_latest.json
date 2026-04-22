@@ -1,22 +1,13 @@
 {
-  "timestamp": "2026-04-23T07:00:51+08:00",
+  "last_week_value": null,
+  "value": "Fear",
+  "yesterday_value": null,
+  "last_month_value": null,
+  "last_week": null,
+  "timestamp": "2026-04-22T00:00:00Z",
+  "last_month": null,
+  "yesterday": null,
+  "collection_time": "2026-04-23T07:06:30Z",
   "source": "alternative.me",
-  "fear_greed_index": {
-    "now": {
-      "value": 32,
-      "classification": "Fear"
-    },
-    "yesterday": {
-      "value": 33,
-      "classification": "Fear"
-    },
-    "last_week": {
-      "value": 23,
-      "classification": "Extreme Fear"
-    },
-    "last_month": {
-      "value": 8,
-      "classification": "Extreme Fear"
-    }
-  }
+  "index": 32
 }
