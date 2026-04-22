@@ -19,3 +19,24 @@
 [INFO] 11:17:58 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-04-22_11-17.json
 [INFO] 11:17:58 - 质量: 高 (平均分 85)
 [INFO] 11:17:58 - 错误: 0 项
+[INFO] 12:19:22 - ========== 价格采集开始 (v8 多源降级) ==========
+[INFO] 12:19:22 - 时间: 2026-04-22 12:19:21
+[INFO] 12:19:22 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 12:19:22 -   采集 BTC ...
+[OK] 12:19:23 -   BTC = 77482.92 [CryptoCompare_API] 质量:高
+[INFO] 12:19:23 -   采集 ETH ...
+[OK] 12:19:23 -   ETH = 2361.56 [CryptoCompare_API] 质量:高
+[INFO] 12:19:23 -   采集 SOL ...
+[OK] 12:19:24 -   SOL = 87.17 [CryptoCompare_API] 质量:高
+[INFO] 12:19:24 - >> 采集VIX恐慌指数...
+[OK] 12:19:25 -   VIX = 19.5 [Yahoo_Finance_VIX] 质量:高
+[INFO] 12:19:25 - >> 采集黄金价格...
+[INFO] 12:19:26 -   GOLD Kitco字体样式正则成功: 4756.8
+[OK] 12:19:26 -   GOLD = 4756.8 [kitco.com] 质量:中
+[INFO] 12:19:26 - >> 采集原油价格...
+[INFO] 12:19:27 -   OIL TradingEconomics抓取成功: 89.26
+[OK] 12:19:28 -   OIL = 89.26 [tradingeconomics.com] 质量:中
+[INFO] 12:19:28 - ========== 采集完成 ==========
+[INFO] 12:19:28 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-04-22_12-19.json
+[INFO] 12:19:28 - 质量: 高 (平均分 85)
+[INFO] 12:19:28 - 错误: 0 项
