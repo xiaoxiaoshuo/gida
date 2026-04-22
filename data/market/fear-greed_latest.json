@@ -1,13 +1,13 @@
 {
+  "last_week": null,
+  "last_month_value": null,
+  "yesterday_value": null,
+  "timestamp": "2026-04-22T00:00:00Z",
   "index": 32,
-  "value": "Fear",
-  "timestamp": "2026-04-23T06:00:00Z",
-  "collection_time": "2026-04-23T06:00:00Z",
   "source": "alternative.me",
-  "yesterday_value": 33,
-  "last_week": 23,
-  "last_week_value": "Extreme Fear",
-  "last_month": 8,
-  "last_month_value": "Extreme Fear",
-  "notes": "早间快照 - F&G Index 32 (Fear)"
+  "collection_time": "2026-04-23T06:06:29Z",
+  "last_week_value": null,
+  "value": "Fear",
+  "yesterday": null,
+  "last_month": null
 }

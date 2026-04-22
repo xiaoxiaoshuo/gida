@@ -1,13 +1,8 @@
 {
   "currency": "USD",
-  "source": "kitco.com",
-  "timestamp": "2026-04-22T18:01:00Z",
-  "collection_time": "2026-04-23T06:00:00Z",
-  "price_per_oz": 4738.90,
-  "bid": 4738.90,
-  "ask": 4740.90,
-  "day_range_low": 4714.80,
-  "day_range_high": 4772.90,
-  "update_time_ny": "Apr 22, 2026 - 18:01 NY Time",
-  "notes": "早间快照 - Kitco浏览器实时采集"
+  "source": "estimated_from_last",
+  "timestamp": "2026-04-23T06:06:29Z",
+  "note": "估算值",
+  "price_per_oz": 4729.42,
+  "collection_time": "2026-04-23T06:06:29Z"
 }
