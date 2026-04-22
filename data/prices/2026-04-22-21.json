@@ -1,4 +1,5 @@
 {
+  "source": "hourly-price-collector",
   "crypto": {
     "ETH": {
       "source": "Gateio_API",
@@ -8,6 +9,7 @@
       "confidence": "high"
     }
   },
+  "timestamp": "2026-04-22 21:08:56",
   "macro": {
     "GOLD": {
       "confidence": "high",
@@ -24,30 +26,5 @@
       "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
       "confidence": "high"
     }
-  },
-  "timestamp": "2026-04-22 21:06:24",
-  "collection_version": "v8",
-  "quality_report": {
-    "VIX": {
-      "label": "高",
-      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
-      "score": 80
-    },
-    "ETH": {
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100
-    },
-    "GOLD": {
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "score": 65
-    }
-  },
-  "errors": [
-    "BTC : all sources failed",
-    "SOL : all sources failed",
-    "OIL : failed"
-  ],
-  "timestamp_iso": "2026-04-22T13:06:24Z"
+  }
 }
