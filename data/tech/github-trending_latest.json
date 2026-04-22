@@ -1,7 +1,14 @@
 [
-  {"rank": 1, "name": "freeCodeCamp/freeCodeCamp", "stars": 443375, "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.", "language": "TypeScript", "url": "https://github.com/freeCodeCamp/freeCodeCamp"},
-  {"rank": 2, "name": "openclaw/openclaw", "stars": 362362, "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞", "language": "TypeScript", "url": "https://github.com/openclaw/openclaw"},
-  {"rank": 3, "name": "kamranahmedse/developer-roadmap", "stars": 353391, "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.", "language": "TypeScript", "url": "https://github.com/kamranahmedse/developer-roadmap"},
-  {"rank": 4, "name": "vinta/awesome-python", "stars": 293811, "description": "An opinionated list of Python frameworks, libraries, tools, and resources", "language": "Python", "url": "https://github.com/vinta/awesome-python"},
-  {"rank": 5, "name": "facebook/react", "stars": null, "description": "The library for web and native user interfaces.", "language": "JavaScript", "url": "https://github.com/facebook/react"}
+  {"rank":1,"name":"zilliztech/claude-context","stars":7435,"today_stars":873,"description":"Code search MCP for Claude Code. Make entire codebase the context for any coding agent.","language":"TypeScript"},
+  {"rank":2,"name":"Fincept-Corporation/FinceptTerminal","stars":12991,"today_stars":1737,"description":"FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools.","language":"Python"},
+  {"rank":3,"name":"koala73/worldmonitor","stars":51479,"today_stars":449,"description":"Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking.","language":"TypeScript"},
+  {"rank":4,"name":"langfuse/langfuse","stars":25559,"today_stars":160,"description":"Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets.","language":"TypeScript"},
+  {"rank":5,"name":"KeygraphHQ/shannon","stars":39505,"today_stars":346,"description":"Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs.","language":"TypeScript"},
+  {"rank":6,"name":"open-metadata/OpenMetadata","stars":12113,"today_stars":609,"description":"OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance.","language":"TypeScript"},
+  {"rank":7,"name":"ruvnet/RuView","stars":49348,"today_stars":551,"description":"WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection.","language":"Rust"},
+  {"rank":8,"name":"HKUDS/RAG-Anything","stars":17485,"today_stars":770,"description":"RAG-Anything: All-in-One RAG Framework","language":"Python"},
+  {"rank":9,"name":"sansan0/TrendRadar","stars":54387,"today_stars":932,"description":"AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.","language":"Python"},
+  {"rank":10,"name":"AIDC-AI/Pixelle-Video","stars":5487,"today_stars":237,"description":"AI Fully Automated Short Video Engine","language":"Python"},
+  {"rank":11,"name":"Z4nzu/hackingtool","stars":59549,"today_stars":720,"description":"ALL IN ONE Hacking Tool For Hackers","language":"Python"},
+  {"rank":12,"name":"vercel-labs/skills","stars":15412,"today_stars":317,"description":"The open agent skills tool - npx skills","language":"TypeScript"}
 ]
