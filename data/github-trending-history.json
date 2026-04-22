@@ -84,63 +84,91 @@
   },
   {
     "date": "2026-04-22",
-    "timestamp": "2026-04-22 04:30:32",
+    "timestamp": "2026-04-22 20:05:00",
     "data": [
       {
-        "name": "Fincept-Corporation / FinceptTerminal",
-        "stars": 11389,
-        "stars_today": 2595,
-        "language": "Python",
-        "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools."
-      },
-      {
-        "name": "thunderbird / thunderbolt",
-        "stars": 3392,
-        "stars_today": 591,
-        "language": "TypeScript",
-        "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in."
-      },
-      {
         "name": "zilliztech / claude-context",
-        "stars": 6488,
-        "stars_today": 259,
+        "stars": 7062,
+        "stars_today": 169,
         "language": "TypeScript",
         "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
       },
       {
+        "name": "Fincept-Corporation / FinceptTerminal",
+        "stars": 12537,
+        "stars_today": 2548,
+        "language": "Python",
+        "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools"
+      },
+      {
+        "name": "koala73 / worldmonitor",
+        "stars": 51063,
+        "stars_today": 1187,
+        "language": "TypeScript",
+        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking"
+      },
+      {
+        "name": "langfuse / langfuse",
+        "stars": 25371,
+        "stars_today": 67,
+        "language": "TypeScript",
+        "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management"
+      },
+      {
+        "name": "KeygraphHQ / shannon",
+        "stars": 39239,
+        "stars_today": 346,
+        "language": "TypeScript",
+        "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs"
+      },
+      {
+        "name": "open-metadata / OpenMetadata",
+        "stars": 11875,
+        "stars_today": 609,
+        "language": "TypeScript",
+        "description": "OpenMetadata is a unified metadata platform for data discovery and data governance"
+      },
+      {
         "name": "ruvnet / RuView",
-        "stars": 48811,
-        "stars_today": 828,
+        "stars": 49171,
+        "stars_today": 824,
         "language": "Rust",
-        "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation."
-      },
-      {
-        "name": "microsoft / ai-agents-for-beginners",
-        "stars": 57543,
-        "stars_today": 131,
-        "language": "Jupyter Notebook",
-        "description": "12 Lessons to Get Started Building AI Agents"
-      },
-      {
-        "name": "dayanch96 / YTLite",
-        "stars": 4789,
-        "stars_today": 43,
-        "language": "Logos",
-        "description": "A flexible enhancer for YouTube on iOS"
+        "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation and vital sign monitoring"
       },
       {
         "name": "HKUDS / RAG-Anything",
-        "stars": 16760,
-        "stars_today": 256,
+        "stars": 17275,
+        "stars_today": 162,
         "language": "Python",
         "description": "RAG-Anything: All-in-One RAG Framework"
       },
       {
         "name": "sansan0 / TrendRadar",
-        "stars": 53554,
-        "stars_today": 584,
+        "stars": 54167,
+        "stars_today": 534,
         "language": "Python",
-        "description": "AI-driven public opinion and trend monitor with multi-platform aggregation."
+        "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts"
+      },
+      {
+        "name": "AIDC-AI / Pixelle-Video",
+        "stars": 5165,
+        "stars_today": 237,
+        "language": "Python",
+        "description": "AI全自动短视频引擎 | AI Fully Automated Short Video Engine"
+      },
+      {
+        "name": "Z4nzu / hackingtool",
+        "stars": 59022,
+        "stars_today": 509,
+        "language": "Python",
+        "description": "ALL IN ONE Hacking Tool For Hackers"
+      },
+      {
+        "name": "vercel-labs / skills",
+        "stars": 15180,
+        "stars_today": 317,
+        "language": "TypeScript",
+        "description": "The open agent skills tool - npx skills"
       }
     ]
   }

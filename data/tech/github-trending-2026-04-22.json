@@ -1,82 +1,21 @@
-[
-  {
-    "starsToday": 131,
-    "url": "https://github.com/microsoft/ai-agents-for-beginners",
-    "name": "microsoft/ai-agents-for-beginners",
-    "description": "12 Lessons to Get Started Building AI Agents",
-    "valueScore": 74806.0,
-    "category": "AI/ML",
-    "stars": 57543,
-    "language": "Jupyter Notebook"
-  },
-  {
-    "starsToday": 584,
-    "url": "https://github.com/sansan0/TrendRadar",
-    "name": "sansan0/TrendRadar",
-    "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.",
-    "valueScore": 69620.0,
-    "category": "AI/ML",
-    "stars": 53554,
-    "language": "Python"
-  },
-  {
-    "starsToday": 828,
-    "url": "https://github.com/ruvnet/RuView",
-    "name": "ruvnet/RuView",
-    "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "valueScore": 48811.0,
-    "category": "开发工具",
-    "stars": 48811,
-    "language": "Rust"
-  },
-  {
-    "starsToday": 256,
-    "url": "https://github.com/HKUDS/RAG-Anything",
-    "name": "HKUDS/RAG-Anything",
-    "description": "RAG-Anything: All-in-One RAG Framework",
-    "valueScore": 21788.0,
-    "category": "AI/ML",
-    "stars": 16760,
-    "language": "Python"
-  },
-  {
-    "starsToday": 2595,
-    "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-    "name": "Fincept-Corporation/FinceptTerminal",
-    "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
-    "valueScore": 11389.0,
-    "category": "开发工具",
-    "stars": 11389,
-    "language": "Python"
-  },
-  {
-    "starsToday": 259,
-    "url": "https://github.com/zilliztech/claude-context",
-    "name": "zilliztech/claude-context",
-    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
-    "valueScore": 8434.0,
-    "category": "AI/ML",
-    "stars": 6488,
-    "language": "TypeScript"
-  },
-  {
-    "starsToday": 43,
-    "url": "https://github.com/dayanch96/YTLite",
-    "name": "dayanch96/YTLite",
-    "description": "A flexible enhancer for YouTube on iOS",
-    "valueScore": 4789.0,
-    "category": "其他",
-    "stars": 4789,
-    "language": "Logos"
-  },
-  {
-    "starsToday": 591,
-    "url": "https://github.com/thunderbird/thunderbolt",
-    "name": "thunderbird/thunderbolt",
-    "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
-    "valueScore": 4410.0,
-    "category": "AI/ML",
-    "stars": 3392,
-    "language": "TypeScript"
-  }
-]
+{
+  "timestamp": "2026-04-22T12:05:00Z",
+  "source": "https://github.com/trending",
+  "period": "today",
+  "description": "GitHub Trending - Fresh scrape via browser 2026-04-22 20:05 CST",
+  "confidence": "high",
+  "repositories": [
+    {"rank": 1, "name": "zilliztech/claude-context", "stars": 7062, "stars_today": 169, "forks": 593, "language": "TypeScript", "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."},
+    {"rank": 2, "name": "Fincept-Corporation/FinceptTerminal", "stars": 12537, "stars_today": 2548, "forks": 1645, "language": "Python", "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools"},
+    {"rank": 3, "name": "koala73/worldmonitor", "stars": 51063, "stars_today": 1187, "forks": 8254, "language": "TypeScript", "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking"},
+    {"rank": 4, "name": "langfuse/langfuse", "stars": 25371, "stars_today": 67, "forks": 2575, "language": "TypeScript", "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management"},
+    {"rank": 5, "name": "KeygraphHQ/shannon", "stars": 39239, "stars_today": 346, "forks": 4333, "language": "TypeScript", "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs"},
+    {"rank": 6, "name": "open-metadata/OpenMetadata", "stars": 11875, "stars_today": 609, "forks": 1972, "language": "TypeScript", "description": "OpenMetadata is a unified metadata platform for data discovery and data governance"},
+    {"rank": 7, "name": "ruvnet/RuView", "stars": 49171, "stars_today": 824, "forks": 6534, "language": "Rust", "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation and vital sign monitoring"},
+    {"rank": 8, "name": "HKUDS/RAG-Anything", "stars": 17275, "stars_today": 162, "forks": 2035, "language": "Python", "description": "RAG-Anything: All-in-One RAG Framework"},
+    {"rank": 9, "name": "sansan0/TrendRadar", "stars": 54167, "stars_today": 534, "forks": 23627, "language": "Python", "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts"},
+    {"rank": 10, "name": "AIDC-AI/Pixelle-Video", "stars": 5165, "stars_today": 237, "forks": 854, "language": "Python", "description": "AI全自动短视频引擎 | AI Fully Automated Short Video Engine"},
+    {"rank": 11, "name": "Z4nzu/hackingtool", "stars": 59022, "stars_today": 509, "forks": 6664, "language": "Python", "description": "ALL IN ONE Hacking Tool For Hackers"},
+    {"rank": 12, "name": "vercel-labs/skills", "stars": 15180, "stars_today": 317, "forks": 1256, "language": "TypeScript", "description": "The open agent skills tool - npx skills"}
+  ]
+}
