@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-04-22T13:46:00+08:00",
-  "source": "alternative.me (browser)",
-  "value": 32,
-  "classification": "Fear",
-  "timestamp_unix": 1776816000,
-  "time_until_update_seconds": 65541,
-  "previous": {
-    "yesterday": {"value": 33, "classification": "Fear"},
-    "last_week": {"value": 23, "classification": "Extreme Fear"},
-    "last_month": {"value": 8, "classification": "Extreme Fear"}
-  }
+  "collection_time": "2026-04-22T14:52:20Z",
+  "last_week": null,
+  "index": 32,
+  "value": "Fear",
+  "source": "alternative.me",
+  "timestamp": "2026-04-22T00:00:00Z",
+  "last_week_value": null,
+  "last_month": null,
+  "yesterday_value": null,
+  "yesterday": null,
+  "last_month_value": null
 }

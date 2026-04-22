@@ -1,4 +1,6 @@
 {
+  "timestamp": "2026-04-22 14:52:42",
+  "source": "hourly-price-collector",
   "crypto": {
     "ETH": {
       "timestamp": "2026-04-22 14:52:14",
@@ -22,9 +24,6 @@
       "raw": "{\"USD\":87.89}"
     }
   },
-  "errors": [],
-  "timestamp": "2026-04-22 14:52:14",
-  "collection_version": "v8",
   "macro": {
     "VIX": {
       "timestamp": "2026-04-22 14:52:14",
@@ -48,39 +47,6 @@
       "value": 4767.2,
       "timestamp": "2026-04-22 14:52:14",
       "unit": "USD/oz"
-    }
-  },
-  "timestamp_iso": "2026-04-22T06:52:15Z",
-  "quality_report": {
-    "BTC": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100,
-      "label": "高"
-    },
-    "OIL": {
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "score": 65,
-      "label": "中"
-    },
-    "SOL": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100,
-      "label": "高"
-    },
-    "ETH": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100,
-      "label": "高"
-    },
-    "VIX": {
-      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
-      "score": 80,
-      "label": "高"
-    },
-    "GOLD": {
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "score": 65,
-      "label": "中"
     }
   }
 }
