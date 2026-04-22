@@ -1,6 +1,23 @@
 {
   "history": [
     {
+      "date": "2026-04-23",
+      "projects": [
+        "zilliztech/claude-context",
+        "Fincept-Corporation/FinceptTerminal",
+        "koala73/worldmonitor",
+        "langfuse/langfuse",
+        "KeygraphHQ/shannon",
+        "open-metadata/OpenMetadata",
+        "ruvnet/RuView",
+        "HKUDS/RAG-anything",
+        "sansan0/TrendRadar",
+        "AIDC-AI/Pixelle-Video",
+        "Z4nzu/hackingtool",
+        "vercel-labs/skills"
+      ]
+    },
+    {
       "date": "2026-04-11",
       "projects": [
         "sindresorhus/awesome",
