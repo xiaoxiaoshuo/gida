@@ -62,7 +62,7 @@ function Get-FearGreed {
                 Write-Log "  F&G = $val ($valClass) [alternative.me API]" "OK"
                 return $result
             }
-        } catch { Write-Log "  F&G JSON解析失败: $($_.Exception.Message.Substring(0,60))" "WARN" }
+        } catch { Write-Log "  F&G JSON解析失败: $($e = $_.Exception.Message; $e.Length -le 60 ? $e : $e.Substring(0,60))" "WARN" }
     }
     Write-Log "  F&G API失败，降级到Bing..." "WARN"
     $bingR = Invoke-SafeFetch -Url "https://cn.bing.com/search?q=$( [System.Web.HttpUtility]::UrlEncode('Fear and Greed Index') )" -Timeout 12
@@ -104,11 +104,11 @@ function Get-GoldPrice-Browser {
                     $ie.Quit(); return $result
                 }
             }
-            Write-Log "  Kitco正则匹配失败: $($bodyText.Substring(0,150))" "WARN"
+            Write-Log "  Kitco正则匹配失败: $($bt = $bodyText; $bt.Length -le 150 ? $bt : $bt.Substring(0,150))" "WARN"
         }
         $ie.Quit()
     } catch {
-        Write-Log "  GOLD 浏览器失败: $($_.Exception.Message.Substring(0,80))" "WARN"
+        Write-Log "  GOLD 浏览器失败: $($e = $_.Exception.Message; $e.Length -le 80 ? $e : $e.Substring(0,80))" "WARN"
         try { $ie.Quit() } catch {}
     }
     return $null
@@ -150,7 +150,7 @@ function Get-OilPrice-Browser {
         }
         $ie.Quit()
     } catch {
-        Write-Log "  OIL 浏览器失败: $($_.Exception.Message.Substring(0,80))" "WARN"
+        Write-Log "  OIL 浏览器失败: $($e = $_.Exception.Message; $e.Length -le 80 ? $e : $e.Substring(0,80))" "WARN"
         try { $ie.Quit() } catch {}
     }
     return $null
