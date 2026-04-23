@@ -1,0 +1,86 @@
+{
+  "errors": [],
+  "quality_report": {
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "VIX": {
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "timestamp": "2026-04-23 09:04:59",
+      "source": "CryptoCompare_API",
+      "price": 2368.73,
+      "raw": "{\"USD\":2368.73}",
+      "confidence": "high"
+    },
+    "BTC": {
+      "timestamp": "2026-04-23 09:04:59",
+      "source": "CryptoCompare_API",
+      "price": 78339.13,
+      "raw": "{\"USD\":78339.13}",
+      "confidence": "high"
+    },
+    "SOL": {
+      "timestamp": "2026-04-23 09:04:59",
+      "source": "Gateio_API",
+      "price": 86.71,
+      "raw": "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"86.71\",\"lowest_ask\":\"86.71\",\"lowest_size\":\"",
+      "confidence": "high"
+    }
+  },
+  "timestamp_iso": "2026-04-23T01:04:59Z",
+  "collection_version": "v8",
+  "timestamp": "2026-04-23 09:04:59",
+  "macro": {
+    "GOLD": {
+      "value": 4747.3,
+      "raw_len": 60742,
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "timestamp": "2026-04-23 09:04:59",
+      "confidence": "high"
+    },
+    "OIL": {
+      "value": 93.01,
+      "raw_len": 414078,
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-23 09:04:59",
+      "confidence": "high"
+    },
+    "VIX": {
+      "timestamp": "2026-04-23 09:04:59",
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.92
+    }
+  }
+}

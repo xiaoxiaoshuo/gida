@@ -1,0 +1,23 @@
+{
+  "macro": {
+    "OIL": {
+      "confidence": "high",
+      "value": 91.06,
+      "raw_len": 854,
+      "unit": "USD/barrel (WTI)",
+      "source": "EIA_API",
+      "timestamp": "2026-04-23 09:06:24"
+    }
+  },
+  "timestamp": "2026-04-23 09:08:25",
+  "crypto": {
+    "ETH": {
+      "confidence": "high",
+      "timestamp": "2026-04-23 09:06:24",
+      "raw": "{\"USD\":2369.55}",
+      "price": 2369.55,
+      "source": "CryptoCompare_API"
+    }
+  },
+  "source": "hourly-price-collector"
+}

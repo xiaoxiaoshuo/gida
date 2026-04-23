@@ -1,29 +1,32 @@
 {
   "crypto": {
     "ETH": {
-      "price": 2375.37,
-      "raw": "{\"USD\":2375.37}",
-      "timestamp": "2026-04-23 08:06:24",
+      "price": 2369.73,
+      "change_24h_pct": 1.85,
+      "raw": "{\"USD\":2369.73}",
+      "timestamp": "2026-04-23 09:00:00",
       "confidence": "high",
-      "source": "CryptoCompare_API"
+      "source": "CoinGecko_API"
     },
     "BTC": {
-      "price": 78346.36,
-      "raw": "{\"USD\":78346.36}",
-      "timestamp": "2026-04-23 08:06:24",
+      "price": 78367.98,
+      "change_24h_pct": 2.58,
+      "raw": "{\"USD\":78367.98}",
+      "timestamp": "2026-04-23 09:00:00",
       "confidence": "high",
-      "source": "CryptoCompare_API"
+      "source": "CoinGecko_API"
     },
     "SOL": {
-      "price": 86.92,
-      "raw": "{\"USD\":86.92}",
-      "timestamp": "2026-04-23 08:06:24",
+      "price": 86.71,
+      "change_24h_pct": 0.41,
+      "raw": "{\"USD\":86.71}",
+      "timestamp": "2026-04-23 09:00:00",
       "confidence": "high",
-      "source": "CryptoCompare_API"
+      "source": "CoinGecko_API"
     }
   },
   "errors": [],
-  "timestamp_iso": "2026-04-23T00:06:24Z",
+  "timestamp_iso": "2026-04-23T01:00:00Z",
   "macro": {
     "VIX": {
       "timestamp": "2026-04-23 08:06:24",
@@ -49,7 +52,7 @@
       "value": 4724.1
     }
   },
-  "timestamp": "2026-04-23 08:06:24",
+  "timestamp": "2026-04-23 09:00:00",
   "collection_version": "v8",
   "quality_report": {
     "SOL": {
