@@ -1,0 +1,56 @@
+{
+  "source": "https://github.com/deepseek-ai",
+  "fetched_at": "2026-04-23T00:00:00Z",
+  "note": "DeepSeek官网news页面JS渲染无内容，使用GitHub组织页作为替代信源",
+  "recent_repos": [
+    {
+      "name": "DeepGEMM",
+      "description": "Clean and efficient FP8 GEMM kernels with fine-grained scaling",
+      "stars": 6930,
+      "forks": 916,
+      "language": "Cuda",
+      "updated": "Apr 22, 2026",
+      "url": "https://github.com/deepseek-ai/DeepGEMM"
+    },
+    {
+      "name": "DeepEP",
+      "description": "An efficient expert-parallel communication library",
+      "stars": 9152,
+      "forks": 1161,
+      "language": "Cuda",
+      "updated": "Apr 16, 2026",
+      "url": "https://github.com/deepseek-ai/DeepEP"
+    },
+    {
+      "name": "FlashMLA",
+      "description": "Efficient Multi-head Latent Attention Kernels",
+      "stars": 12560,
+      "forks": 1011,
+      "language": "C++",
+      "updated": "Apr 7, 2026",
+      "url": "https://github.com/deepseek-ai/FlashMLA"
+    }
+  ],
+  "pinned_repos": [
+    {
+      "name": "DeepSeek-V3",
+      "stars": "103k",
+      "forks": "16.7k"
+    },
+    {
+      "name": "DeepSeek-R1",
+      "stars": "92k",
+      "forks": "11.7k"
+    },
+    {
+      "name": "awesome-deepseek-integration",
+      "stars": "36.3k",
+      "forks": "4k"
+    },
+    {
+      "name": "DeepSeek-VL2",
+      "stars": "5.3k",
+      "forks": "1.8k"
+    }
+  ]
+}

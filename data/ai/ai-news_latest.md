@@ -66,5 +66,25 @@ Apple 修复了执法部门用来提取已删除聊天记录的漏洞
 - **Claude Context MCP**: 为Claude Code提供全代码库上下文
 - **TrendRadar**: AI舆情监控聚合多平台热点，中国开发者开源项目
 
+## 📮 官方博客
+
+### Anthropic (2026-04-23)
+
+| 文章 | 日期 | 摘要 |
+|------|------|------|
+| [Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs) | Apr 17 | 新产品，支持与Claude协作创建设计、原型、幻灯片等视觉作品 |
+| [Introducing Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7) | Apr 16 | 最新Opus模型，coding/agents/vision/多步任务性能提升 |
+| [Project Glasswing](https://www.anthropic.com/glasswing) | Apr 7 | 与AWS/Google/Microsoft/NVIDIA等共建安全开源软件倡议 |
+
+### DeepSeek (2026-04-23)
+
+| 项目 | 描述 | Stars |
+|------|------|-------|
+| [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | 高效FP8 GEMM内核，15小时前更新 | 6,930 |
+| [FlashMLA](https://github.com/deepseek-ai/FlashMLA) | 高效多头潜在注意力内核 | 12,560 |
+| [DeepEP](https://github.com/deepseek-ai/DeepEP) | 专家并行通信库 | 9,152 |
+
+> 注：DeepSeek官网news页面JS渲染无法抓取，以GitHub组织页作为替代信源
+
 ---
 *数据来源: Hacker News, GitHub Trending | 采集时间: 2026-04-23 06:00 GMT+8*
