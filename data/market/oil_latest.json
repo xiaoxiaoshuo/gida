@@ -3,10 +3,10 @@
   "prices": {
     "WTI_Crude": {
       "change_pct": null,
-      "change": null,
-      "price": 91.06
+      "price": 91.06,
+      "change": null
     }
   },
-  "timestamp": "2026-04-24T10:06:32Z",
-  "collection_time": "2026-04-24T10:06:32Z"
+  "collection_time": "2026-04-24T11:06:34Z",
+  "timestamp": "2026-04-24T11:06:34Z"
 }
