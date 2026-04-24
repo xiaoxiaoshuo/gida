@@ -1,14 +1,8 @@
 {
-  "collection_time": "2026-04-24T13:56:00Z",
-  "source": "kitco.com/charts/livegold.html (web_fetch)",
-  "timestamp": "2026-04-24T13:56:00Z",
-  "note": "",
+  "note": "估算值",
   "currency": "USD",
-  "price_per_oz": 4682.4,
-  "change": -9.4,
-  "change_pct": -0.2,
-  "bid": 4682.4,
-  "ask": 4684.4,
-  "day_low": 4657.7,
-  "day_high": 4712.0
+  "price_per_oz": 4673.04,
+  "source": "estimated_from_last",
+  "timestamp": "2026-04-24T14:06:31Z",
+  "collection_time": "2026-04-24T14:06:31Z"
 }
