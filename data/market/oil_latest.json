@@ -1,12 +1,17 @@
 {
-  "collection_time": "2026-04-24T11:32:08Z",
+  "collection_time": "2026-04-24T11:42:37Z",
+  "source": "oilprice.com (fetch)",
   "prices": {
+    "Brent_Crude": {
+      "change_pct": 0.57,
+      "price": 105.67,
+      "change": 0.6
+    },
     "WTI_Crude": {
-      "change_pct": null,
-      "change": null,
-      "price": 91.06
+      "change_pct": 0.57,
+      "price": 105.67,
+      "change": 0.6
     }
   },
-  "source": "EIA_API",
-  "timestamp": "2026-04-24T11:32:08Z"
+  "timestamp": "2026-04-24T11:42:37Z"
 }

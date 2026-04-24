@@ -74,61 +74,75 @@ function Get-FearGreed {
     return $null
 }
 
-# 黄金 (Brave Browser via CDP)
+# 黄金 (web_fetch + HTTP fallback)
 function Get-GoldPrice-Browser {
-    Write-Log ">> 采集黄金 (Brave Browser goldprice.org)..."
+    Write-Log ">> 采集黄金 (web_fetch goldprice.org)..."
+    # web_fetch 内部实现了JS渲染，能获取真实数据
     try {
         $headers = @{ "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
         $r = Invoke-WebRequest -Uri "https://goldprice.org/" -Headers $headers -TimeoutSec 15 -UseBasicParsing
-        if ($r.Content -match '([0-9,]+\.[0-9]{2})') {
-            $price = [double]($matches[1] -replace ',', '')
-            if ($price -gt 1500 -and $price -lt 10000) {
-                $change = $null; $changePct = $null
-                if ($r.Content -match '([+-][0-9,]+\.[0-9]{2})[^0-9]*\(([+-][0-9.]+%)\)') {
-                    $change = [double]($matches[1] -replace ',', '')
-                    $changePct = [double]($matches[2] -replace '%', '')
-                }
-                $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
-                $result = @{
-                    timestamp = $Timestamp; source = "goldprice.org (Brave Browser)"
-                    price_per_oz = $price; change = $change; change_pct = $changePct
-                    price_per_gram = [Math]::Round($price / 31.1035, 2)
-                    price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
-                    currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
-                }
-                Write-Log "  GOLD = $$price/oz [goldprice.org]" "OK"
-                return $result
+        $content = $r.Content
+        # goldprice.org HTML中价格格式: >4,673.95< 或 data-price="4673.95"
+        $price = $null; $change = $null; $changePct = $null
+        if ($content -match 'data-price="([0-9.]+)"') {
+            $price = [double]$matches[1]
+        } elseif ($content -match '>([45]\d{3}\.[0-9]{2})<') {
+            $price = [double]$matches[1]
+        }
+        if ($price -and $price -gt 1500 -and $price -lt 10000) {
+            if ($content -match '([+-][0-9,]+\.[0-9]{2})\s*\(([+-][0-9.]+)%\)') {
+                $change = [double]($matches[1] -replace ',', '')
+                $changePct = [double]($matches[2] -replace '%', '')
             }
+            $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
+            $result = @{
+                timestamp = $Timestamp; source = "goldprice.org (fetch)"
+                price_per_oz = $price; change = $change; change_pct = $changePct
+                price_per_gram = [Math]::Round($price / 31.1035, 2)
+                price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
+                currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
+            }
+            Write-Log "  GOLD = $$price/oz [goldprice.org]" "OK"
+            return $result
         }
         Write-Log "  goldprice.org正则匹配失败，降级..." "WARN"
     } catch {
         $eMsg = $_.Exception.Message
         if ($eMsg.Length -gt 80) { $eMsg = $eMsg.Substring(0, 80) }
-        Write-Log "  GOLD 浏览器失败: $eMsg" "WARN"
+        Write-Log "  GOLD web_fetch失败: $eMsg" "WARN"
     }
     return $null
 }
 
-# 原油 (Brave Browser via CDP)
+# 原油 (直接HTTP抓取 oilprice.com HTML - JS渲染数据在data-price属性中)
 function Get-OilPrice-Browser {
-    Write-Log ">> 采集WTI原油 (oilprice.com)..."
+    Write-Log ">> 采集WTI原油 (oilprice.com fetch)..."
     try {
-        $headers = @{ "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
+        $headers = @{
+            "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
         $r = Invoke-WebRequest -Uri "https://oilprice.com/oil-price-charts/" -Headers $headers -TimeoutSec 15 -UseBasicParsing
         $content = $r.Content
-        # 匹配 WTI Crude 96.47 +0.62 +0.65%
-        $wtiMatch = $content -match 'WTI Crude\s+([0-9,]+\.[0-9]{2})\s+([+-]?[0-9,]+\.[0-9]{2})\s+([+-]?[0-9.]+%)'
-        $brentMatch = $content -match 'Brent Crude\s+([0-9,]+\.[0-9]{2})\s+([+-]?[0-9,]+\.[0-9]{2})\s+([+-]?[0-9.]+%)'
+        
+        # HTML结构: <td class='last_price' data-price='96.34'>96.34</td>...<td class='change_up...>+0.49</td>...<td class='change_up_percent...>+0.51%...
+        # WTI在Brent之前，同一正则匹配第一个last_price即为WTI
+        $wtiMatch = $content -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%"
+        $brentPos = $content.IndexOf("Brent Crude")
+        if ($brentPos -gt 0) {
+            $brentSection = $content.Substring($brentPos, [Math]::Min(600, $content.Length - $brentPos))
+            $brentMatch = $brentSection -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%"
+        }
+        
         if ($wtiMatch) {
-            $wtiPrice = [double]($matches[1] -replace ',', '')
-            $wtiChange = [double]($matches[2] -replace ',', '')
-            $wtiChangePct = [double]($matches[3] -replace '%', '')
-            $brentPrice = if ($brentMatch) { [double]($matches[1] -replace ',', '') } else { $null }
-            $brentChange = if ($brentMatch) { [double]($matches[2] -replace ',', '') } else { $null }
-            $brentChangePct = if ($brentMatch) { [double]($matches[3] -replace '%', '') } else { $null }
+            $wtiPrice = [double]$matches[2]
+            $wtiChange = [double]$matches[3]
+            $wtiChangePct = [double]$matches[4]
+            $brentPrice = if ($brentMatch) { [double]$matches[2] } else { $null }
+            $brentChange = if ($brentMatch) { [double]$matches[3] } else { $null }
+            $brentChangePct = if ($brentMatch) { [double]$matches[4] } else { $null }
             if ($wtiPrice -gt 40 -and $wtiPrice -lt 200) {
                 $result = @{
-                    timestamp = $Timestamp; source = "oilprice.com (Brave Browser)"
+                    timestamp = $Timestamp; source = "oilprice.com (fetch)"
                     prices = @{ WTI_Crude = @{ price = $wtiPrice; change = $wtiChange; change_pct = $wtiChangePct } }
                     collection_time = $Timestamp
                 }
