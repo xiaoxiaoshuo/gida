@@ -1,0 +1,11 @@
+﻿[INFO] 13:59:27 - ========== 宏观数据采集 (IE COM) ==========
+[INFO] 13:59:27 - >> 采集黄金 (Kitco/goldprice.org)...
+[OK] 13:59:31 -   GOLD = 4687.1 [kitco.com] OK
+[INFO] 13:59:31 - >> 采集WTI原油 (TradingEconomics/oilprice.com)...
+[OK] 13:59:35 -   OIL = 95.83 [tradingeconomics.com] OK
+[INFO] 13:59:35 - >> 采集VIX恐慌指数...
+[OK] 13:59:41 -   VIX = 19.31 [Yahoo Finance] OK
+[INFO] 13:59:41 -   合并已有数据: crypto保留 3 项, macro合并 3 项
+[INFO] 13:59:41 -   prices_latest.json 已更新
+[INFO] 13:59:41 - ========== 采集完成 ==========
+[INFO] 13:59:41 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_latest.json

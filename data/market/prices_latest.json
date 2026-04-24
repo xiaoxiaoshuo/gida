@@ -1,88 +1,49 @@
-{
-  "macro": {
-    "VIX": {
-      "value_classification": "Fear",
-      "value": 39,
-      "source": "alternative.me_FNG",
-      "timestamp": "2026-04-24 13:06:26",
-      "confidence": "medium",
-      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
-      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"39\",\n\t\t\t\"value_classification\": \"Fear"
-    },
-    "GOLD": {
-      "unit": "USD/oz",
-      "value": 4675.2,
-      "source": "kitco.com",
-      "timestamp": "2026-04-24 13:06:26",
-      "confidence": "high",
-      "raw_len": 60749
-    },
-    "OIL": {
-      "unit": "USD/barrel (WTI)",
-      "value": 95.94,
-      "source": "tradingeconomics.com",
-      "timestamp": "2026-04-24 13:06:26",
-      "confidence": "high",
-      "raw_len": 415089
-    }
-  },
-  "errors": [],
-  "timestamp": "2026-04-24 13:06:26",
-  "quality_report": {
-    "ETH": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高",
-      "score": 100
-    },
-    "OIL": {
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中",
-      "score": 65
-    },
-    "GOLD": {
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中",
-      "score": 65
-    },
-    "SOL": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高",
-      "score": 100
-    },
-    "VIX": {
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中",
-      "score": 65
-    },
-    "BTC": {
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高",
-      "score": 100
-    }
-  },
-  "timestamp_iso": "2026-04-24T05:06:26Z",
-  "collection_version": "v8",
-  "crypto": {
-    "SOL": {
-      "raw": "{\"USD\":85.2}",
-      "timestamp": "2026-04-24 13:06:26",
-      "source": "CryptoCompare_API",
-      "price": 85.2,
-      "confidence": "high"
-    },
-    "ETH": {
-      "raw": "{\"USD\":2304.33}",
-      "timestamp": "2026-04-24 13:06:26",
-      "source": "CryptoCompare_API",
-      "price": 2304.33,
-      "confidence": "high"
-    },
-    "BTC": {
-      "raw": "{\"USD\":77628.9}",
-      "timestamp": "2026-04-24 13:06:26",
-      "source": "CryptoCompare_API",
-      "price": 77628.9,
-      "confidence": "high"
-    }
-  }
+﻿{
+    "collection_version":  "macro-playwright-v2",
+    "timestamp":  "2026-04-24 13:59:27",
+    "macro":  {
+                  "GOLD":  {
+                               "confidence":  "high",
+                               "timestamp":  "2026-04-24 13:59:27",
+                               "unit":  "USD/oz",
+                               "source":  "kitco.com (fetch)",
+                               "value":  4687.1
+                           },
+                  "OIL":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-04-24 13:59:27",
+                              "unit":  "USD/barrel (WTI)",
+                              "source":  "tradingeconomics.com (fetch)",
+                              "value":  95.83
+                          },
+                  "VIX":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-04-24 13:59:27",
+                              "source":  "Yahoo_Finance_VIX (fetch)",
+                              "value":  19.31
+                          }
+              },
+    "crypto":  {
+                   "BTC":  {
+                               "raw":  "{\"USD\":77628.9}",
+                               "timestamp":  "2026-04-24 13:06:26",
+                               "source":  "CryptoCompare_API",
+                               "price":  77628.9,
+                               "confidence":  "high"
+                           },
+                   "SOL":  {
+                               "raw":  "{\"USD\":85.2}",
+                               "timestamp":  "2026-04-24 13:06:26",
+                               "source":  "CryptoCompare_API",
+                               "price":  85.2,
+                               "confidence":  "high"
+                           },
+                   "ETH":  {
+                               "raw":  "{\"USD\":2304.33}",
+                               "timestamp":  "2026-04-24 13:06:26",
+                               "source":  "CryptoCompare_API",
+                               "price":  2304.33,
+                               "confidence":  "high"
+                           }
+               }
 }
