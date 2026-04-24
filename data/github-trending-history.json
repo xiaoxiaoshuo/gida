@@ -1,184 +1,180 @@
-﻿[
-    {
-        "last_updated":  "2026-04-08T04:55:00+08:00",
-        "days_collected":  1,
-        "history":  [
-                        {
-                            "date":  "2026-04-08",
-                            "repos":  [
-                                          {
-                                              "name":  "google-ai-edge / gallery",
-                                              "stars":  18673,
-                                              "stars_today":  899,
-                                              "language":  "Kotlin",
-                                              "description":  "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
-                                          },
-                                          {
-                                              "name":  "google-ai-edge / LiteRT-LM",
-                                              "stars":  2478,
-                                              "stars_today":  522,
-                                              "language":  "C++",
-                                              "description":  ""
-                                          },
-                                          {
-                                              "name":  "NVIDIA / personaplex",
-                                              "stars":  7866,
-                                              "stars_today":  663,
-                                              "language":  "Python",
-                                              "description":  "PersonaPlex code."
-                                          },
-                                          {
-                                              "name":  "abhigyanpatwari / GitNexus",
-                                              "stars":  24393,
-                                              "stars_today":  1174,
-                                              "language":  "TypeScript",
-                                              "description":  "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
-                                          },
-                                          {
-                                              "name":  "tobi / qmd",
-                                              "stars":  19470,
-                                              "stars_today":  859,
-                                              "language":  "TypeScript",
-                                              "description":  "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
-                                          },
-                                          {
-                                              "name":  "forrestchang / andrej-karpathy-skills",
-                                              "stars":  7970,
-                                              "stars_today":  42,
-                                              "language":  "",
-                                              "description":  ""
-                                          },
-                                          {
-                                              "name":  "elebumm / RedditVideoMakerBot",
-                                              "stars":  9974,
-                                              "stars_today":  656,
-                                              "language":  "Python",
-                                              "description":  "Create Reddit Videos with just✨ one command ✨"
-                                          },
-                                          {
-                                              "name":  "HKUDS / DeepTutor",
-                                              "stars":  12009,
-                                              "stars_today":  339,
-                                              "language":  "Python",
-                                              "description":  "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
-                                          },
-                                          {
-                                              "name":  "TheCraigHewitt / seomachine",
-                                              "stars":  3800,
-                                              "stars_today":  213,
-                                              "language":  "Python",
-                                              "description":  "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
-                                          }
-                                      ]
-                        }
-                    ],
-        "legacy_snapshots":  [
-                                 "data/tech/github-trending-2026-04-01.json",
-                                 "data/tech/github-trending-2026-03-26.json"
-                             ]
-    },
-    {
-        "date":  "2026-04-10",
-        "timestamp":  "2026-04-10 20:01:11",
-        "data":  [
-
-                 ]
-    },
-    {
-        "date":  "2026-04-22",
-        "timestamp":  "2026-04-22 20:05:00",
-        "data":  [
-                     {
-                         "name":  "zilliztech / claude-context",
-                         "stars":  7062,
-                         "stars_today":  169,
-                         "language":  "TypeScript",
-                         "description":  "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
-                     },
-                     {
-                         "name":  "Fincept-Corporation / FinceptTerminal",
-                         "stars":  12537,
-                         "stars_today":  2548,
-                         "language":  "Python",
-                         "description":  "Modern finance application offering advanced market analytics, investment research, and economic data tools"
-                     },
-                     {
-                         "name":  "koala73 / worldmonitor",
-                         "stars":  51063,
-                         "stars_today":  1187,
-                         "language":  "TypeScript",
-                         "description":  "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking"
-                     },
-                     {
-                         "name":  "langfuse / langfuse",
-                         "stars":  25371,
-                         "stars_today":  67,
-                         "language":  "TypeScript",
-                         "description":  "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management"
-                     },
-                     {
-                         "name":  "KeygraphHQ / shannon",
-                         "stars":  39239,
-                         "stars_today":  346,
-                         "language":  "TypeScript",
-                         "description":  "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs"
-                     },
-                     {
-                         "name":  "open-metadata / OpenMetadata",
-                         "stars":  11875,
-                         "stars_today":  609,
-                         "language":  "TypeScript",
-                         "description":  "OpenMetadata is a unified metadata platform for data discovery and data governance"
-                     },
-                     {
-                         "name":  "ruvnet / RuView",
-                         "stars":  49171,
-                         "stars_today":  824,
-                         "language":  "Rust",
-                         "description":  "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation and vital sign monitoring"
-                     },
-                     {
-                         "name":  "HKUDS / RAG-Anything",
-                         "stars":  17275,
-                         "stars_today":  162,
-                         "language":  "Python",
-                         "description":  "RAG-Anything: All-in-One RAG Framework"
-                     },
-                     {
-                         "name":  "sansan0 / TrendRadar",
-                         "stars":  54167,
-                         "stars_today":  534,
-                         "language":  "Python",
-                         "description":  "AI-driven public opinion \u0026 trend monitor with multi-platform aggregation, RSS, and smart alerts"
-                     },
-                     {
-                         "name":  "AIDC-AI / Pixelle-Video",
-                         "stars":  5165,
-                         "stars_today":  237,
-                         "language":  "Python",
-                         "description":  "AI全自动短视频引擎 | AI Fully Automated Short Video Engine"
-                     },
-                     {
-                         "name":  "Z4nzu / hackingtool",
-                         "stars":  59022,
-                         "stars_today":  509,
-                         "language":  "Python",
-                         "description":  "ALL IN ONE Hacking Tool For Hackers"
-                     },
-                     {
-                         "name":  "vercel-labs / skills",
-                         "stars":  15180,
-                         "stars_today":  317,
-                         "language":  "TypeScript",
-                         "description":  "The open agent skills tool - npx skills"
-                     }
-                 ]
-    },
-    {
-        "date":  "2026-04-24",
-        "timestamp":  "2026-04-24 14:00:05",
-        "data":  [
-
-                 ]
-    }
+[
+  {
+    "last_updated": "2026-04-08T04:55:00+08:00",
+    "days_collected": 1,
+    "history": [
+      {
+        "date": "2026-04-08",
+        "repos": [
+          {
+            "name": "google-ai-edge / gallery",
+            "stars": 18673,
+            "stars_today": 899,
+            "language": "Kotlin",
+            "description": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally."
+          },
+          {
+            "name": "google-ai-edge / LiteRT-LM",
+            "stars": 2478,
+            "stars_today": 522,
+            "language": "C++",
+            "description": ""
+          },
+          {
+            "name": "NVIDIA / personaplex",
+            "stars": 7866,
+            "stars_today": 663,
+            "language": "Python",
+            "description": "PersonaPlex code."
+          },
+          {
+            "name": "abhigyanpatwari / GitNexus",
+            "stars": 24393,
+            "stars_today": 1174,
+            "language": "TypeScript",
+            "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration"
+          },
+          {
+            "name": "tobi / qmd",
+            "stars": 19470,
+            "stars_today": 859,
+            "language": "TypeScript",
+            "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local"
+          },
+          {
+            "name": "forrestchang / andrej-karpathy-skills",
+            "stars": 7970,
+            "stars_today": 42,
+            "language": "",
+            "description": ""
+          },
+          {
+            "name": "elebumm / RedditVideoMakerBot",
+            "stars": 9974,
+            "stars_today": 656,
+            "language": "Python",
+            "description": "Create Reddit Videos with just✨ one command ✨"
+          },
+          {
+            "name": "HKUDS / DeepTutor",
+            "stars": 12009,
+            "stars_today": 339,
+            "language": "Python",
+            "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
+          },
+          {
+            "name": "TheCraigHewitt / seomachine",
+            "stars": 3800,
+            "stars_today": 213,
+            "language": "Python",
+            "description": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience."
+          }
+        ]
+      }
+    ],
+    "legacy_snapshots": [
+      "data/tech/github-trending-2026-04-01.json",
+      "data/tech/github-trending-2026-03-26.json"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "timestamp": "2026-04-10 20:01:11",
+    "data": []
+  },
+  {
+    "date": "2026-04-22",
+    "timestamp": "2026-04-22 20:05:00",
+    "data": [
+      {
+        "name": "zilliztech / claude-context",
+        "stars": 7062,
+        "stars_today": 169,
+        "language": "TypeScript",
+        "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent."
+      },
+      {
+        "name": "Fincept-Corporation / FinceptTerminal",
+        "stars": 12537,
+        "stars_today": 2548,
+        "language": "Python",
+        "description": "Modern finance application offering advanced market analytics, investment research, and economic data tools"
+      },
+      {
+        "name": "koala73 / worldmonitor",
+        "stars": 51063,
+        "stars_today": 1187,
+        "language": "TypeScript",
+        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking"
+      },
+      {
+        "name": "langfuse / langfuse",
+        "stars": 25371,
+        "stars_today": 67,
+        "language": "TypeScript",
+        "description": "Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management"
+      },
+      {
+        "name": "KeygraphHQ / shannon",
+        "stars": 39239,
+        "stars_today": 346,
+        "language": "TypeScript",
+        "description": "Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs"
+      },
+      {
+        "name": "open-metadata / OpenMetadata",
+        "stars": 11875,
+        "stars_today": 609,
+        "language": "TypeScript",
+        "description": "OpenMetadata is a unified metadata platform for data discovery and data governance"
+      },
+      {
+        "name": "ruvnet / RuView",
+        "stars": 49171,
+        "stars_today": 824,
+        "language": "Rust",
+        "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation and vital sign monitoring"
+      },
+      {
+        "name": "HKUDS / RAG-Anything",
+        "stars": 17275,
+        "stars_today": 162,
+        "language": "Python",
+        "description": "RAG-Anything: All-in-One RAG Framework"
+      },
+      {
+        "name": "sansan0 / TrendRadar",
+        "stars": 54167,
+        "stars_today": 534,
+        "language": "Python",
+        "description": "AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts"
+      },
+      {
+        "name": "AIDC-AI / Pixelle-Video",
+        "stars": 5165,
+        "stars_today": 237,
+        "language": "Python",
+        "description": "AI全自动短视频引擎 | AI Fully Automated Short Video Engine"
+      },
+      {
+        "name": "Z4nzu / hackingtool",
+        "stars": 59022,
+        "stars_today": 509,
+        "language": "Python",
+        "description": "ALL IN ONE Hacking Tool For Hackers"
+      },
+      {
+        "name": "vercel-labs / skills",
+        "stars": 15180,
+        "stars_today": 317,
+        "language": "TypeScript",
+        "description": "The open agent skills tool - npx skills"
+      }
+    ]
+  },
+  {
+    "date": "2026-04-24",
+    "timestamp": "2026-04-24 20:00:53",
+    "data": []
+  }
 ]

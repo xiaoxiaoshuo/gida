@@ -1,0 +1,86 @@
+{
+  "errors": [],
+  "quality_report": {
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    }
+  },
+  "timestamp": "2026-04-24 15:06:24",
+  "macro": {
+    "GOLD": {
+      "unit": "USD/oz",
+      "timestamp": "2026-04-24 15:06:24",
+      "value": 4675.2,
+      "raw_len": 60750,
+      "source": "kitco.com",
+      "confidence": "high"
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 19.31,
+      "confidence": "high",
+      "timestamp": "2026-04-24 15:06:24",
+      "source": "Yahoo_Finance_VIX"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-24 15:06:24",
+      "value": 96.5,
+      "raw_len": 415114,
+      "source": "tradingeconomics.com",
+      "confidence": "high"
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2312.87}",
+      "confidence": "high",
+      "timestamp": "2026-04-24 15:06:24",
+      "price": 2312.87,
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "raw": "{\"USD\":85.52}",
+      "confidence": "high",
+      "timestamp": "2026-04-24 15:06:24",
+      "price": 85.52,
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "raw": "{\"USD\":77835.36}",
+      "confidence": "high",
+      "timestamp": "2026-04-24 15:06:24",
+      "price": 77835.36,
+      "source": "CryptoCompare_API"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-24T07:06:24Z"
+}

@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "price": 78099.83,
+      "raw": "{\"USD\":78099.83}",
+      "timestamp": "2026-04-24 19:06:24",
+      "confidence": "high"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "price": 2325.69,
+      "raw": "{\"USD\":2325.69}",
+      "timestamp": "2026-04-24 19:06:24",
+      "confidence": "high"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "price": 85.95,
+      "raw": "{\"USD\":85.95}",
+      "timestamp": "2026-04-24 19:06:24",
+      "confidence": "high"
+    }
+  },
+  "errors": [],
+  "macro": {
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "value": 19.18,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-24 19:06:24",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "value": 4690.4,
+      "raw_len": 60808,
+      "unit": "USD/oz",
+      "confidence": "high",
+      "timestamp": "2026-04-24 19:06:24",
+      "source": "kitco.com"
+    },
+    "OIL": {
+      "value": 96.93,
+      "raw_len": 415068,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "timestamp": "2026-04-24 19:06:24",
+      "source": "tradingeconomics.com"
+    }
+  },
+  "timestamp_iso": "2026-04-24T11:06:24Z",
+  "collection_version": "v8",
+  "timestamp": "2026-04-24 19:06:24"
+}

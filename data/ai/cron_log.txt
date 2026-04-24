@@ -1,1 +1,4 @@
 Starting AI News Collector at 14:12:43,35 
+HN Done at 14:13:22,25, Exit: 0 
+GH Done at 14:13:22,73, Exit: 0 
+All Done at 14:13:22,73 
