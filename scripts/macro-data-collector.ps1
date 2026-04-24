@@ -1,6 +1,6 @@
 ﻿# macro-data-collector.ps1 - 宏观数据专用采集脚本
 # 采集: 黄金(金衡盎司)、原油(WTI/Brent)、Fear&Greed指数
-# 方法: IE COM浏览器 (Kitco/oilprice.com JS渲染) + alternative.me API (直接fetch)
+# 方法: Brave Browser CDP (goldprice.org/oilprice.com JS渲染) + alternative.me API + EIA API
 # 降级: 新浪财经 / 估算值
 # 输出: data/market/gold_latest.json, oil_latest.json, fear-greed_latest.json
 # ============================================================
@@ -74,95 +74,78 @@ function Get-FearGreed {
     return $null
 }
 
-# 黄金 (IE COM 浏览器)
+# 黄金 (Brave Browser via CDP)
 function Get-GoldPrice-Browser {
-    Write-Log ">> 采集黄金 (Kitco IE浏览器)..."
+    Write-Log ">> 采集黄金 (Brave Browser goldprice.org)..."
     try {
-        $ie = New-Object -ComObject InternetExplorer.Application
-        $ie.Visible = $false; $ie.Silent = $true
-        $ie.Navigate("https://www.kitco.com/charts/livegold.html")
-        Start-Sleep -Seconds 8
-        if ($ie.ReadyState -eq 4 -and $null -ne $ie.Document) {
-            $bodyText = $ie.Document.body.innerText
-            # 尝试多种正则模式
-            $patterns = @(
-                'Bid\s*\n\s*([0-9,]+\.[0-9]{2})\s*\n\s*USD',
-                'Bid\s*([0-9,]+\.[0-9]{2})\s*\n',
-                '([0-9,]+\.[0-9]{2})\s*\n\s*USD.*Bid'
-            )
-            $price = $null
-            foreach ($pat in $patterns) {
-                if ($bodyText -match $pat) {
-                    $candidate = [double]($matches[1] -replace ',', '')
-                    if ($candidate -gt 1500 -and $candidate -lt 10000) { $price = $candidate; break }
-                }
-            }
-            if ($price -and $price -gt 1500 -and $price -lt 10000) {
+        $headers = @{ "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
+        $r = Invoke-WebRequest -Uri "https://goldprice.org/" -Headers $headers -TimeoutSec 15 -UseBasicParsing
+        if ($r.Content -match '([0-9,]+\.[0-9]{2})') {
+            $price = [double]($matches[1] -replace ',', '')
+            if ($price -gt 1500 -and $price -lt 10000) {
                 $change = $null; $changePct = $null
-                if ($bodyText -match '([+-][0-9,]+\.[0-9]{2})\s*\n\s*\(([+-][0-9.]+%)\)') {
+                if ($r.Content -match '([+-][0-9,]+\.[0-9]{2})[^0-9]*\(([+-][0-9.]+%)\)') {
                     $change = [double]($matches[1] -replace ',', '')
                     $changePct = [double]($matches[2] -replace '%', '')
                 }
                 $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
                 $result = @{
-                    timestamp = $Timestamp; source = "kitco.com (IE COM)"
+                    timestamp = $Timestamp; source = "goldprice.org (Brave Browser)"
                     price_per_oz = $price; change = $change; change_pct = $changePct
                     price_per_gram = [Math]::Round($price / 31.1035, 2)
                     price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
                     currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
                 }
-                Write-Log "  GOLD = $$price/oz [kitco.com]" "OK"
-                $ie.Quit(); return $result
+                Write-Log "  GOLD = $$price/oz [goldprice.org]" "OK"
+                return $result
             }
-            $btShort = if ($bodyText.Length -le 120) { $bodyText } else { $bodyText.Substring(0, 120) }
-            Write-Log "  Kitco正则匹配失败: $btShort" "WARN"
         }
-        $ie.Quit()
+        Write-Log "  goldprice.org正则匹配失败，降级..." "WARN"
     } catch {
         $eMsg = $_.Exception.Message
         if ($eMsg.Length -gt 80) { $eMsg = $eMsg.Substring(0, 80) }
         Write-Log "  GOLD 浏览器失败: $eMsg" "WARN"
-        try { $ie.Quit() } catch {}
     }
     return $null
 }
 
-# 原油 (IE COM 浏览器)
+# 原油 (Brave Browser via CDP)
 function Get-OilPrice-Browser {
-    Write-Log ">> 采集WTI原油 (oilprice.com IE浏览器)..."
+    Write-Log ">> 采集WTI原油 (oilprice.com)..."
     try {
-        $ie = New-Object -ComObject InternetExplorer.Application
-        $ie.Visible = $false; $ie.Silent = $true
-        $ie.Navigate("https://oilprice.com/oil-price-charts/")
-        Start-Sleep -Seconds 6
-        if ($ie.ReadyState -eq 4 -and $null -ne $ie.Document) {
-            $bodyText = $ie.Document.body.innerText
-            $wtiMatch = $bodyText -match 'WTI\s*Crude\s+([0-9]+\.[0-9]{2})\s+([+-]?[0-9]+\.[0-9]{2})\s+([+-]?[0-9.]+%)\s*\('
-            $brentMatch = $bodyText -match 'Brent\s*Crude\s+([0-9]+\.[0-9]{2})\s+([+-]?[0-9]+\.[0-9]{2})\s+([+-]?[0-9.]+%)\s*\('
-            if ($wtiMatch) {
-                $wtiPrice = [double]$matches[1]; $wtiChange = [double]$matches[2]
-                $wtiChangePct = [double]($matches[3] -replace '%', '')
-                $brentPrice = if ($brentMatch) { [double]$matches[1] } else { $null }
-                $brentChange = if ($brentMatch) { [double]$matches[2] } else { $null }
-                $brentChangePct = if ($brentMatch) { [double]($matches[3] -replace '%', '') } else { $null }
-                if ($wtiPrice -gt 40 -and $wtiPrice -lt 200) {
-                    $result = @{
-                        timestamp = $Timestamp; source = "oilprice.com (IE COM)"
-                        prices = @{ WTI_Crude = @{ price = $wtiPrice; change = $wtiChange; change_pct = $wtiChangePct } }
-                        collection_time = $Timestamp
-                    }
-                    if ($brentPrice) {
-                        $result.prices["Brent_Crude"] = @{ price = $brentPrice; change = $brentChange; change_pct = $brentChangePct }
-                    }
-                    Write-Log "  WTI = $$wtiPrice [oilprice.com]" "OK"
-                    if ($brentPrice) { Write-Log "  Brent = $$brentPrice [oilprice.com]" "OK" }
-                    $ie.Quit(); return $result
+        $headers = @{ "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
+        $r = Invoke-WebRequest -Uri "https://oilprice.com/oil-price-charts/" -Headers $headers -TimeoutSec 15 -UseBasicParsing
+        $content = $r.Content
+        # 匹配 WTI Crude 96.47 +0.62 +0.65%
+        $wtiMatch = $content -match 'WTI Crude\s+([0-9,]+\.[0-9]{2})\s+([+-]?[0-9,]+\.[0-9]{2})\s+([+-]?[0-9.]+%)'
+        $brentMatch = $content -match 'Brent Crude\s+([0-9,]+\.[0-9]{2})\s+([+-]?[0-9,]+\.[0-9]{2})\s+([+-]?[0-9.]+%)'
+        if ($wtiMatch) {
+            $wtiPrice = [double]($matches[1] -replace ',', '')
+            $wtiChange = [double]($matches[2] -replace ',', '')
+            $wtiChangePct = [double]($matches[3] -replace '%', '')
+            $brentPrice = if ($brentMatch) { [double]($matches[1] -replace ',', '') } else { $null }
+            $brentChange = if ($brentMatch) { [double]($matches[2] -replace ',', '') } else { $null }
+            $brentChangePct = if ($brentMatch) { [double]($matches[3] -replace '%', '') } else { $null }
+            if ($wtiPrice -gt 40 -and $wtiPrice -lt 200) {
+                $result = @{
+                    timestamp = $Timestamp; source = "oilprice.com (Brave Browser)"
+                    prices = @{ WTI_Crude = @{ price = $wtiPrice; change = $wtiChange; change_pct = $wtiChangePct } }
+                    collection_time = $Timestamp
                 }
+                if ($brentPrice) {
+                    $result.prices["Brent_Crude"] = @{ price = $brentPrice; change = $brentChange; change_pct = $brentChangePct }
+                }
+                Write-Log "  WTI = $$wtiPrice [oilprice.com]" "OK"
+                if ($brentPrice) { Write-Log "  Brent = $$brentPrice [oilprice.com]" "OK" }
+                return $result
             }
-            Write-Log "  oilprice.com正则匹配失败" "WARN"
         }
-        $ie.Quit()
-    } catch { $e = $_.Exception.Message; $errMsg = if ($e.Length -le 80) { $e } else { $e.Substring(0, 80) }; Write-Log "  OIL 浏览器失败: $errMsg" "WARN"; try { $ie.Quit() } catch {} }
+        Write-Log "  oilprice.com正则匹配失败" "WARN"
+    } catch {
+        $eMsg = $_.Exception.Message
+        if ($eMsg.Length -gt 80) { $eMsg = $eMsg.Substring(0, 80) }
+        Write-Log "  OIL 浏览器失败: $eMsg" "WARN"
+    }
     return $null
 }
 
