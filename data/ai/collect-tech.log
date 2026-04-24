@@ -1,0 +1,7 @@
+[INFO] 13:57:40 - ========== GitHub Trending 采集 v3 ==========
+[INFO] 13:57:40 - 日期: 2026-04-24
+[INFO] 13:57:40 - 发现已有数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\github-trending_latest.json
+[INFO] 13:57:40 - 加载了  个项目
+[INFO] 13:57:40 - ========== 采集完成 ==========
+[INFO] 13:57:40 - 项目总数: 
+[INFO] 13:57:40 - GitHub API URL (browser模式): https://api.github.com/search/repositories?q=stars%3A%3E1000+pushed%3A%3E2026-03-25&sort=stars&order=desc&per_page=30

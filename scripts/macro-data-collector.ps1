@@ -76,36 +76,43 @@ function Get-FearGreed {
 
 # 黄金 (web_fetch + HTTP fallback)
 function Get-GoldPrice-Browser {
-    Write-Log ">> 采集黄金 (web_fetch goldprice.org)..."
+    Write-Log ">> 采集黄金 (web_fetch kitco.com)..."
     # web_fetch 内部实现了JS渲染，能获取真实数据
     try {
         $headers = @{ "User-Agent" = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
-        $r = Invoke-WebRequest -Uri "https://goldprice.org/" -Headers $headers -TimeoutSec 15 -UseBasicParsing
+        $r = Invoke-WebRequest -Uri "https://www.kitco.com/charts/livegold.html" -Headers $headers -TimeoutSec 15 -UseBasicParsing
         $content = $r.Content
-        # goldprice.org HTML中价格格式: >4,673.95< 或 data-price="4673.95"
+        # kitco.com 实时价格: Bid ### 4,682.40 -9.40 (-0.20%)
         $price = $null; $change = $null; $changePct = $null
-        if ($content -match 'data-price="([0-9.]+)"') {
+        if ($content -match 'Bid\s+[\n\r\s]*###\s*([0-9,]+\.[0-9]+)') {
+            $price = [double]($matches[1] -replace ',', '')
+        } elseif ($content -match 'data-price="([0-9.]+)"') {
             $price = [double]$matches[1]
-        } elseif ($content -match '>([45]\d{3}\.[0-9]{2})<') {
+        }
+        if (-not $price -and $content -match '>([45]\d{3}\.[0-9]{2})<') {
             $price = [double]$matches[1]
         }
         if ($price -and $price -gt 1500 -and $price -lt 10000) {
-            if ($content -match '([+-][0-9,]+\.[0-9]{2})\s*\(([+-][0-9.]+)%\)') {
+            if ($content -match '\(([+-]?[0-9.]+)%\)\s*$') {
+                $changePct = [double]($matches[1] -replace '%', '')
+            } elseif ($content -match '\(([+-][0-9.]+)%\)') {
+                $changePct = [double]($matches[1] -replace '%', '')
+            }
+            if ($content -match '([+-]?[0-9,]+\.[0-9]+)\s*\([+-]?[0-9.]+%\)') {
                 $change = [double]($matches[1] -replace ',', '')
-                $changePct = [double]($matches[2] -replace '%', '')
             }
             $nyTime = "$(Get-Date -Format 'MMM dd, yyyy'), $(Get-Date -Format 'hh:mm:ss') NY time"
             $result = @{
-                timestamp = $Timestamp; source = "goldprice.org (fetch)"
+                timestamp = $Timestamp; source = "kitco.com/charts/livegold.html (fetch)"
                 price_per_oz = $price; change = $change; change_pct = $changePct
                 price_per_gram = [Math]::Round($price / 31.1035, 2)
                 price_per_kg = [Math]::Round($price / 31.1035 * 1000, 2)
                 currency = "USD"; time_ny = $nyTime; collection_time = $Timestamp
             }
-            Write-Log "  GOLD = $$price/oz [goldprice.org]" "OK"
+            Write-Log "  GOLD = $$price/oz [kitco.com]" "OK"
             return $result
         }
-        Write-Log "  goldprice.org正则匹配失败，降级..." "WARN"
+        Write-Log "  kitco.com正则匹配失败，降级..." "WARN"
     } catch {
         $eMsg = $_.Exception.Message
         if ($eMsg.Length -gt 80) { $eMsg = $eMsg.Substring(0, 80) }
@@ -126,11 +133,18 @@ function Get-OilPrice-Browser {
         
         # HTML结构: <td class='last_price' data-price='96.34'>96.34</td>...<td class='change_up...>+0.49</td>...<td class='change_up_percent...>+0.51%...
         # WTI在Brent之前，同一正则匹配第一个last_price即为WTI
-        $wtiMatch = $content -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%"
+        # WTI: find "WTI Crude" section, extract price from that row
+        $wtiSection = if ($content -match '(WTI Crude[^<]*?<td[^>]*last_price[^>]*data-price=''([0-9.]+)''[^>]*>([0-9.]+)<)') { $matches[0] } else { $content }
+        if ($wtiSection -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%") {
+            $wtiPrice = [double]$matches[2]; $wtiChange = [double]$matches[3]; $wtiChangePct = [double]$matches[4]
+        }
+        # Brent: find "Brent Crude" section specifically (after "Brent Crude" marker)
         $brentPos = $content.IndexOf("Brent Crude")
         if ($brentPos -gt 0) {
-            $brentSection = $content.Substring($brentPos, [Math]::Min(600, $content.Length - $brentPos))
-            $brentMatch = $brentSection -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%"
+            $brentSection = $content.Substring($brentPos, [Math]::Min(800, $content.Length - $brentPos))
+            if ($brentSection -match "last_price'[^>]*data-price='([0-9.]+)'[^>]*>([0-9.]+)<.*?change_up[^>]*>([+-]?[0-9.]+)<.*?percent_change_cell[^>]*>([+-]?[0-9.]+)%") {
+                $brentPrice = [double]$matches[2]; $brentChange = [double]$matches[3]; $brentChangePct = [double]$matches[4]
+            }
         }
         
         if ($wtiMatch) {

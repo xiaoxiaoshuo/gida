@@ -1,17 +1,17 @@
 {
-  "collection_time": "2026-04-24T13:06:33Z",
+  "collection_time": "2026-04-24T13:56:00Z",
   "prices": {
     "WTI_Crude": {
-      "change_pct": 0.64,
-      "change": 0.67,
-      "price": 105.74
+      "price": 95.83,
+      "change": -0.02,
+      "change_pct": -0.02
     },
     "Brent_Crude": {
-      "change_pct": 0.64,
-      "change": 0.67,
-      "price": 105.74
+      "price": 105.23,
+      "change": 0.16,
+      "change_pct": 0.15
     }
   },
-  "timestamp": "2026-04-24T13:06:33Z",
-  "source": "oilprice.com (fetch)"
+  "timestamp": "2026-04-24T13:56:00Z",
+  "source": "oilprice.com/oil-price-charts/ (web_fetch)"
 }
