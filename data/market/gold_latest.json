@@ -1,12 +1,8 @@
 {
-  "timestamp": "2026-04-24T11:30:00Z",
-  "source": "goldprice.org (Brave Browser CDP)",
-  "price_per_oz": 4673.95,
-  "change": -60.9,
-  "change_pct": -1.29,
-  "price_per_gram": 150.29,
-  "price_per_kg": 150289.47,
+  "collection_time": "2026-04-24T12:06:31Z",
+  "note": "估算值",
+  "price_per_oz": 4664.6,
   "currency": "USD",
-  "time_ny": "Apr 24, 2026, 11:30:00 NY time",
-  "collection_time": "2026-04-24T11:30:00Z"
+  "timestamp": "2026-04-24T12:06:31Z",
+  "source": "estimated_from_last"
 }
