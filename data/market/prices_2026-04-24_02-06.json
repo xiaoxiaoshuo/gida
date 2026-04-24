@@ -1,0 +1,88 @@
+{
+  "macro": {
+    "VIX": {
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "value": 46,
+      "timestamp": "2026-04-24 02:06:24",
+      "value_classification": "Fear",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "confidence": "medium",
+      "source": "alternative.me_FNG"
+    },
+    "GOLD": {
+      "unit": "USD/oz",
+      "value": 4715.8,
+      "timestamp": "2026-04-24 02:06:24",
+      "raw_len": 60765,
+      "confidence": "high",
+      "source": "kitco.com"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "value": 96.11,
+      "timestamp": "2026-04-24 02:06:24",
+      "raw_len": 414208,
+      "confidence": "high",
+      "source": "tradingeconomics.com"
+    }
+  },
+  "quality_report": {
+    "VIX": {
+      "score": 65,
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "label": "中"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    }
+  },
+  "timestamp": "2026-04-24 02:06:24",
+  "timestamp_iso": "2026-04-23T18:06:24Z",
+  "errors": [],
+  "collection_version": "v8",
+  "crypto": {
+    "ETH": {
+      "price": 2315.29,
+      "timestamp": "2026-04-24 02:06:24",
+      "raw": "{\"USD\":2315.29}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "price": 85.57,
+      "timestamp": "2026-04-24 02:06:24",
+      "raw": "{\"USD\":85.57}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "price": 77971.84,
+      "timestamp": "2026-04-24 02:06:24",
+      "raw": "{\"USD\":77971.84}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    }
+  }
+}

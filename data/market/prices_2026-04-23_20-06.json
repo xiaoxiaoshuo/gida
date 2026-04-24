@@ -1,0 +1,88 @@
+{
+  "collection_version": "v8",
+  "timestamp": "2026-04-23 20:06:24",
+  "timestamp_iso": "2026-04-23T12:06:24Z",
+  "crypto": {
+    "BTC": {
+      "raw": "{\"USD\":77784.83}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 20:06:24",
+      "price": 77784.83
+    },
+    "SOL": {
+      "raw": "{\"USD\":85.99}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 20:06:24",
+      "price": 85.99
+    },
+    "ETH": {
+      "raw": "{\"USD\":2330.98}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 20:06:24",
+      "price": 2330.98
+    }
+  },
+  "errors": [],
+  "macro": {
+    "GOLD": {
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "confidence": "high",
+      "raw_len": 60750,
+      "timestamp": "2026-04-23 20:06:24",
+      "value": 4731.4
+    },
+    "VIX": {
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "source": "alternative.me_FNG",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "timestamp": "2026-04-23 20:06:24",
+      "confidence": "medium",
+      "value_classification": "Fear",
+      "value": 46
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "raw_len": 414057,
+      "timestamp": "2026-04-23 20:06:24",
+      "value": 93.32
+    }
+  },
+  "quality_report": {
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "VIX": {
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "score": 65,
+      "label": "中"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "errors": [],
+  "crypto": {
+    "BTC": {
+      "price": 78248.36,
+      "confidence": "high",
+      "timestamp": "2026-04-24 07:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":78248.36}"
+    },
+    "SOL": {
+      "price": 85.98,
+      "confidence": "high",
+      "timestamp": "2026-04-24 07:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":85.98}"
+    },
+    "ETH": {
+      "price": 2332.64,
+      "confidence": "high",
+      "timestamp": "2026-04-24 07:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2332.64}"
+    }
+  },
+  "timestamp_iso": "2026-04-23T23:06:24Z",
+  "collection_version": "v8",
+  "macro": {
+    "GOLD": {
+      "source": "kitco.com",
+      "confidence": "high",
+      "value": 4695.7,
+      "raw_len": 60746,
+      "timestamp": "2026-04-24 07:06:24",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "value": 97.06,
+      "raw_len": 414145,
+      "timestamp": "2026-04-24 07:06:24",
+      "unit": "USD/barrel (WTI)"
+    },
+    "VIX": {
+      "source": "alternative.me_FNG",
+      "confidence": "medium",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "value": 46,
+      "value_classification": "Fear",
+      "timestamp": "2026-04-24 07:06:24"
+    }
+  },
+  "timestamp": "2026-04-24 07:06:24",
+  "quality_report": {
+    "VIX": {
+      "label": "中",
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "score": 65
+    },
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "macro": {
+    "VIX": {
+      "source": "alternative.me_FNG",
+      "value": 46,
+      "timestamp": "2026-04-24 00:06:24",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "value_classification": "Fear",
+      "confidence": "medium"
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "value": 94.32,
+      "timestamp": "2026-04-24 00:06:24",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 414196,
+      "confidence": "high"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "value": 4718.8,
+      "timestamp": "2026-04-24 00:06:24",
+      "unit": "USD/oz",
+      "raw_len": 60755,
+      "confidence": "high"
+    }
+  },
+  "errors": [],
+  "timestamp_iso": "2026-04-23T16:06:24Z",
+  "timestamp": "2026-04-24 00:06:24",
+  "collection_version": "v8",
+  "crypto": {
+    "SOL": {
+      "price": 86.35,
+      "timestamp": "2026-04-24 00:06:24",
+      "raw": "{\"USD\":86.35}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "price": 78466.38,
+      "timestamp": "2026-04-24 00:06:24",
+      "raw": "{\"USD\":78466.38}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "price": 2332.17,
+      "timestamp": "2026-04-24 00:06:24",
+      "raw": "{\"USD\":2332.17}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "quality_report": {
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "VIX": {
+      "score": 65,
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "label": "中"
+    }
+  }
+}

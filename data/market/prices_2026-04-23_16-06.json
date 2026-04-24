@@ -1,0 +1,78 @@
+{
+  "crypto": {
+    "ETH": {
+      "timestamp": "2026-04-23 16:06:24",
+      "source": "Gateio_API",
+      "raw": "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"2339.95\",\"lowest_ask\":\"2339.95\",\"lowest_siz",
+      "confidence": "high",
+      "price": 2339.95
+    },
+    "SOL": {
+      "timestamp": "2026-04-23 16:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":85.85}",
+      "confidence": "high",
+      "price": 85.85
+    }
+  },
+  "quality_report": {
+    "VIX": {
+      "score": 65,
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "label": "中"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    }
+  },
+  "timestamp": "2026-04-23 16:06:24",
+  "timestamp_iso": "2026-04-23T08:06:24Z",
+  "errors": [
+    "BTC : all sources failed"
+  ],
+  "collection_version": "v8",
+  "macro": {
+    "GOLD": {
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "value": 4721.8,
+      "confidence": "high",
+      "timestamp": "2026-04-23 16:06:24",
+      "raw_len": 60770
+    },
+    "VIX": {
+      "source": "alternative.me_FNG",
+      "value": 46,
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "confidence": "medium",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "timestamp": "2026-04-23 16:06:24",
+      "value_classification": "Fear"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "value": 93.52,
+      "confidence": "high",
+      "timestamp": "2026-04-23 16:06:24",
+      "raw_len": 414132
+    }
+  }
+}

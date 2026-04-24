@@ -1,0 +1,88 @@
+{
+  "errors": [],
+  "crypto": {
+    "BTC": {
+      "price": 77890.99,
+      "timestamp": "2026-04-24 05:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":77890.99}",
+      "confidence": "high"
+    },
+    "ETH": {
+      "price": 2326.24,
+      "timestamp": "2026-04-24 05:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2326.24}",
+      "confidence": "high"
+    },
+    "SOL": {
+      "price": 85.61,
+      "timestamp": "2026-04-24 05:06:24",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":85.61}",
+      "confidence": "high"
+    }
+  },
+  "macro": {
+    "GOLD": {
+      "timestamp": "2026-04-24 05:06:24",
+      "value": 4693.8,
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "confidence": "high",
+      "raw_len": 60739
+    },
+    "VIX": {
+      "value_classification": "Fear",
+      "value": 46,
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "source": "alternative.me_FNG",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
+      "confidence": "medium",
+      "timestamp": "2026-04-24 05:06:24"
+    },
+    "OIL": {
+      "timestamp": "2026-04-24 05:06:24",
+      "value": 96.95,
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "raw_len": 414147
+    }
+  },
+  "timestamp_iso": "2026-04-23T21:06:24Z",
+  "collection_version": "v8",
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "中",
+      "score": 65,
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    }
+  },
+  "timestamp": "2026-04-24 05:06:24"
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-04-24 04:06:55",
+  "crypto": {
+    "ETH": {
+      "confidence": "high",
+      "raw": "{\"USD\":2325.16}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 04:06:24",
+      "price": 2325.16
+    },
+    "SOL": {
+      "confidence": "high",
+      "raw": "{\"USD\":85.62}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 04:06:24",
+      "price": 85.62
+    },
+    "BTC": {
+      "confidence": "high",
+      "raw": "{\"USD\":77904.2}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 04:06:24",
+      "price": 77904.2
+    }
+  },
+  "source": "hourly-price-collector",
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-24 04:06:24",
+      "value": 96.32,
+      "raw_len": 414216,
+      "confidence": "high"
+    },
+    "VIX": {
+      "source": "alternative.me_FNG",
+      "timestamp": "2026-04-24 04:06:24",
+      "value": 46,
+      "value_classification": "Fear",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "confidence": "medium",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "timestamp": "2026-04-24 04:06:24",
+      "value": 4697.9,
+      "raw_len": 60722,
+      "confidence": "high"
+    }
+  }
+}

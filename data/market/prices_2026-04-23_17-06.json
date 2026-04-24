@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-04-23 17:06:24",
+  "collection_version": "v8",
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "label": "中",
+      "score": 65,
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "confidence": "high",
+      "price": 85.56,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 17:06:24",
+      "raw": "{\"USD\":85.56}"
+    },
+    "ETH": {
+      "confidence": "high",
+      "price": 2329.84,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 17:06:24",
+      "raw": "{\"USD\":2329.84}"
+    },
+    "BTC": {
+      "confidence": "high",
+      "price": 77678.36,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-23 17:06:24",
+      "raw": "{\"USD\":77678.36}"
+    }
+  },
+  "timestamp_iso": "2026-04-23T09:06:24Z",
+  "macro": {
+    "VIX": {
+      "timestamp": "2026-04-23 17:06:24",
+      "source": "alternative.me_FNG",
+      "value": 46,
+      "value_classification": "Fear",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "confidence": "medium",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear"
+    },
+    "GOLD": {
+      "timestamp": "2026-04-23 17:06:24",
+      "source": "kitco.com",
+      "value": 4698.0,
+      "raw_len": 60825,
+      "confidence": "high",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "timestamp": "2026-04-23 17:06:24",
+      "source": "tradingeconomics.com",
+      "value": 94.81,
+      "raw_len": 414079,
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)"
+    }
+  },
+  "errors": []
+}
