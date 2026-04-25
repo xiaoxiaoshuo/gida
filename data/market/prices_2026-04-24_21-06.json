@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-24 21:06:24",
+  "crypto": {
+    "BTC": {
+      "price": 78443.67,
+      "raw": "{\"USD\":78443.67}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 21:06:24"
+    },
+    "SOL": {
+      "price": 86.57,
+      "raw": "{\"USD\":86.57}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 21:06:24"
+    },
+    "ETH": {
+      "price": 2330.75,
+      "raw": "{\"USD\":2330.75}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-24 21:06:24"
+    }
+  },
+  "quality_report": {
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    }
+  },
+  "timestamp_iso": "2026-04-24T13:06:24Z",
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "value": 95.97,
+      "timestamp": "2026-04-24 21:06:24",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 415171,
+      "confidence": "high"
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.99,
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-04-24 21:06:24"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "value": 4699.8,
+      "timestamp": "2026-04-24 21:06:24",
+      "unit": "USD/oz",
+      "raw_len": 60791,
+      "confidence": "high"
+    }
+  },
+  "errors": [],
+  "collection_version": "v8"
+}

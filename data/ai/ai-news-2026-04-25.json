@@ -1,0 +1,98 @@
+{
+  "source": "github.com",
+  "query": "stars:>1000 pushed:>2026-04-22",
+  "collection_time": "2026-04-23T03:12:00Z",
+  "total_count": 1325,
+  "repos": [
+    {
+      "rank": 1,
+      "name": "openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "stars": 362501,
+      "forks": 74045,
+      "language": "TypeScript",
+      "pushed_at": "2026-04-23T03:05:33Z"
+    },
+    {
+      "rank": 2,
+      "name": "tensorflow/tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "stars": 194834,
+      "forks": 75278,
+      "language": "C++",
+      "pushed_at": "2026-04-23T03:08:08Z"
+    },
+    {
+      "rank": 3,
+      "name": "ultraworkers/claw-code",
+      "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Built in Rust using oh-my-codex.",
+      "stars": 187568,
+      "forks": 109141,
+      "language": "Rust",
+      "pushed_at": "2026-04-23T00:24:27Z"
+    },
+    {
+      "rank": 4,
+      "name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 185190,
+      "forks": 57041,
+      "language": "TypeScript",
+      "pushed_at": "2026-04-23T02:30:49Z"
+    },
+    {
+      "rank": 5,
+      "name": "microsoft/vscode",
+      "description": "Visual Studio Code",
+      "stars": 184162,
+      "forks": 39358,
+      "language": "TypeScript",
+      "pushed_at": "2026-04-23T02:57:19Z"
+    },
+    {
+      "rank": 6,
+      "name": "Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.",
+      "stars": 183678,
+      "forks": 46222,
+      "language": "Python",
+      "pushed_at": "2026-04-23T02:55:03Z"
+    },
+    {
+      "rank": 7,
+      "name": "flutter/flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "stars": 176080,
+      "forks": 30269,
+      "language": "Dart",
+      "pushed_at": "2026-04-23T02:35:04Z"
+    },
+    {
+      "rank": 8,
+      "name": "ollama/ollama",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "stars": 169734,
+      "forks": 15742,
+      "language": "Go",
+      "pushed_at": "2026-04-23T03:06:56Z"
+    },
+    {
+      "rank": 9,
+      "name": "affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 164395,
+      "forks": 25514,
+      "language": "JavaScript",
+      "pushed_at": "2026-04-23T02:46:16Z"
+    },
+    {
+      "rank": 10,
+      "name": "huggingface/transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "stars": 159773,
+      "forks": 32980,
+      "language": "Python",
+      "pushed_at": "2026-04-23T01:50:52Z"
+    }
+  ]
+}

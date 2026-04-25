@@ -1,0 +1,86 @@
+{
+  "macro": {
+    "GOLD": {
+      "value": 4712.5,
+      "confidence": "high",
+      "timestamp": "2026-04-25 04:06:24",
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "raw_len": 60810
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-25 04:06:24",
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX",
+      "value": 18.57
+    },
+    "OIL": {
+      "value": 94.67,
+      "confidence": "high",
+      "timestamp": "2026-04-25 04:06:24",
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "raw_len": 415089
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-25 04:06:24",
+      "confidence": "high",
+      "price": 77618.68,
+      "raw": "{\"USD\":77618.68}"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-25 04:06:24",
+      "confidence": "high",
+      "price": 86.55,
+      "raw": "{\"USD\":86.55}"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-25 04:06:24",
+      "confidence": "high",
+      "price": 2321.92,
+      "raw": "{\"USD\":2321.92}"
+    }
+  },
+  "errors": [],
+  "timestamp": "2026-04-25 04:06:24",
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-24T20:06:24Z"
+}

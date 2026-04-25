@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "VIX": {
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    }
+  },
+  "macro": {
+    "VIX": {
+      "timestamp": "2026-04-25 03:06:24",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "value": 18.6
+    },
+    "GOLD": {
+      "timestamp": "2026-04-25 03:06:24",
+      "value": 4724.6,
+      "unit": "USD/oz",
+      "confidence": "high",
+      "raw_len": 60811,
+      "source": "kitco.com"
+    },
+    "OIL": {
+      "timestamp": "2026-04-25 03:06:24",
+      "value": 94.2,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "raw_len": 415126,
+      "source": "tradingeconomics.com"
+    }
+  },
+  "timestamp": "2026-04-25 03:06:24",
+  "collection_version": "v8",
+  "errors": [],
+  "timestamp_iso": "2026-04-24T19:06:24Z",
+  "crypto": {
+    "SOL": {
+      "price": 86.38,
+      "timestamp": "2026-04-25 03:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":86.38}"
+    },
+    "BTC": {
+      "price": 77658.29,
+      "timestamp": "2026-04-25 03:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":77658.29}"
+    },
+    "ETH": {
+      "price": 2321.62,
+      "timestamp": "2026-04-25 03:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":2321.62}"
+    }
+  }
+}
