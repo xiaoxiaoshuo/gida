@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "value": 94.88,
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 361481,
+      "timestamp": "2026-04-25 15:06:23"
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.71,
+      "timestamp": "2026-04-25 15:06:23",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "confidence": "high",
+      "value": 4710.8,
+      "unit": "USD/oz",
+      "raw_len": 60291,
+      "timestamp": "2026-04-25 15:06:23"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-25T07:06:23Z",
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2315.3}",
+      "timestamp": "2026-04-25 15:06:23",
+      "price": 2315.3,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "SOL": {
+      "raw": "{\"USD\":86.33}",
+      "timestamp": "2026-04-25 15:06:23",
+      "price": 86.33,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "BTC": {
+      "raw": "{\"USD\":77498.57}",
+      "timestamp": "2026-04-25 15:06:23",
+      "price": 77498.57,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-04-25 15:06:23",
+  "errors": []
+}

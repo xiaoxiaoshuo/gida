@@ -1,50 +1,50 @@
 {
-  "collection_version": "macro-playwright-v2",
+  "timestamp": "2026-04-25 20:00:02",
   "macro": {
     "OIL": {
-      "confidence": "high",
-      "timestamp": "2026-04-25 08:00:02",
-      "value": 94.88,
       "source": "tradingeconomics.com (fetch)",
-      "unit": "USD/barrel (WTI)"
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-25 20:00:02",
+      "value": 94.88,
+      "confidence": "high"
     },
     "GOLD": {
-      "timestamp": "2026-04-25 07:06:24",
-      "raw_len": 60291,
-      "source": "kitco.com",
-      "unit": "USD/oz",
       "confidence": "high",
-      "value": 4710.8
+      "unit": "USD/oz",
+      "timestamp": "2026-04-25 19:06:23",
+      "source": "kitco.com",
+      "value": 4710.8,
+      "raw_len": 60291
     },
     "VIX": {
-      "confidence": "high",
-      "timestamp": "2026-04-25 08:00:02",
+      "source": "Yahoo_Finance_VIX (fetch)",
+      "timestamp": "2026-04-25 20:00:02",
       "value": 18.71,
-      "source": "Yahoo_Finance_VIX (fetch)"
+      "confidence": "high"
     }
   },
-  "timestamp": "2026-04-25 08:00:02",
+  "collection_version": "macro-playwright-v2",
   "crypto": {
-    "BTC": {
-      "confidence": "high",
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":77384.33}",
-      "price": 77384.33,
-      "timestamp": "2026-04-25 07:06:24"
-    },
     "ETH": {
-      "confidence": "high",
+      "timestamp": "2026-04-25 19:06:23",
       "source": "CryptoCompare_API",
-      "raw": "{\"USD\":2313.97}",
-      "price": 2313.97,
-      "timestamp": "2026-04-25 07:06:24"
+      "price": 2319.37,
+      "confidence": "high",
+      "raw": "{\"USD\":2319.37}"
     },
     "SOL": {
-      "confidence": "high",
+      "timestamp": "2026-04-25 19:06:23",
       "source": "CryptoCompare_API",
-      "raw": "{\"USD\":86.22}",
-      "price": 86.22,
-      "timestamp": "2026-04-25 07:06:24"
+      "price": 86.49,
+      "confidence": "high",
+      "raw": "{\"USD\":86.49}"
+    },
+    "BTC": {
+      "timestamp": "2026-04-25 19:06:23",
+      "source": "CryptoCompare_API",
+      "price": 77791.23,
+      "confidence": "high",
+      "raw": "{\"USD\":77791.23}"
     }
   }
 }

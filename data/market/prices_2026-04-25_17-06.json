@@ -1,0 +1,88 @@
+{
+  "quality_report": {
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "VIX": {
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
+      "label": "中",
+      "score": 65
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    }
+  },
+  "timestamp": "2026-04-25 17:06:23",
+  "errors": [],
+  "timestamp_iso": "2026-04-25T09:06:23Z",
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-25 17:06:23",
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 361480,
+      "source": "tradingeconomics.com",
+      "value": 94.88
+    },
+    "VIX": {
+      "timestamp": "2026-04-25 17:06:23",
+      "confidence": "medium",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"31\",\n\t\t\t\"value_classification\": \"Fear",
+      "source": "alternative.me_FNG",
+      "value_classification": "Fear",
+      "value": 31
+    },
+    "GOLD": {
+      "timestamp": "2026-04-25 17:06:23",
+      "confidence": "high",
+      "unit": "USD/oz",
+      "raw_len": 60291,
+      "source": "kitco.com",
+      "value": 4710.8
+    }
+  },
+  "collection_version": "v8",
+  "crypto": {
+    "BTC": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":77642.28}",
+      "price": 77642.28,
+      "timestamp": "2026-04-25 17:06:23"
+    },
+    "ETH": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2319.24}",
+      "price": 2319.24,
+      "timestamp": "2026-04-25 17:06:23"
+    },
+    "SOL": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":86.63}",
+      "price": 86.63,
+      "timestamp": "2026-04-25 17:06:23"
+    }
+  }
+}

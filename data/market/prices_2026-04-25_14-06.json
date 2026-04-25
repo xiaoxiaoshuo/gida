@@ -1,0 +1,86 @@
+{
+  "collection_version": "v8",
+  "errors": [],
+  "quality_report": {
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "timestamp": "2026-04-25 14:06:26",
+  "crypto": {
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":2317.63}",
+      "timestamp": "2026-04-25 14:06:26",
+      "price": 2317.63
+    },
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":77569.4}",
+      "timestamp": "2026-04-25 14:06:26",
+      "price": 77569.4
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":86.3}",
+      "timestamp": "2026-04-25 14:06:26",
+      "price": 86.3
+    }
+  },
+  "timestamp_iso": "2026-04-25T06:06:26Z",
+  "macro": {
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "value": 18.71,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-25 14:06:26"
+    },
+    "OIL": {
+      "confidence": "high",
+      "timestamp": "2026-04-25 14:06:26",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 361482,
+      "value": 94.88,
+      "source": "tradingeconomics.com"
+    },
+    "GOLD": {
+      "confidence": "high",
+      "timestamp": "2026-04-25 14:06:26",
+      "unit": "USD/oz",
+      "raw_len": 60291,
+      "value": 4710.8,
+      "source": "kitco.com"
+    }
+  }
+}

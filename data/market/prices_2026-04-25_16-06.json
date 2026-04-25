@@ -1,0 +1,86 @@
+{
+  "crypto": {
+    "SOL": {
+      "timestamp": "2026-04-25 16:06:24",
+      "price": 86.45,
+      "raw": "{\"USD\":86.45}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "timestamp": "2026-04-25 16:06:24",
+      "price": 2318.18,
+      "raw": "{\"USD\":2318.18}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "timestamp": "2026-04-25 16:06:24",
+      "price": 77556.13,
+      "raw": "{\"USD\":77556.13}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "timestamp": "2026-04-25 16:06:24",
+  "quality_report": {
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    }
+  },
+  "timestamp_iso": "2026-04-25T08:06:24Z",
+  "macro": {
+    "GOLD": {
+      "value": 4710.8,
+      "source": "kitco.com",
+      "timestamp": "2026-04-25 16:06:24",
+      "raw_len": 60291,
+      "unit": "USD/oz",
+      "confidence": "high"
+    },
+    "VIX": {
+      "timestamp": "2026-04-25 16:06:24",
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high",
+      "value": 18.71
+    },
+    "OIL": {
+      "value": 94.88,
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-25 16:06:24",
+      "raw_len": 361480,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high"
+    }
+  },
+  "errors": [],
+  "collection_version": "v8"
+}

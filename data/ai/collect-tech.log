@@ -45,3 +45,19 @@
 [INFO] 06:00:30 - ========== 采集完成 ==========
 [INFO] 06:00:30 - 项目总数: 1
 [INFO] 06:00:30 - GitHub API URL (browser模式): https://api.github.com/search/repositories?q=stars%3A%3E1000+pushed%3A%3E2026-03-26&sort=stars&order=desc&per_page=30
+[INFO] 12:00:34 - ========== GitHub Trending 采集 v3 ==========
+[INFO] 12:00:34 - 日期: 2026-04-25
+[INFO] 12:00:34 - 发现已有数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\github-trending_latest.json
+[INFO] 12:00:34 - 加载了 1 个项目
+[INFO] 12:00:34 - Markdown报告: C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\github-trending-2026-04-25.md
+[INFO] 12:00:34 - ========== 采集完成 ==========
+[INFO] 12:00:35 - 项目总数: 1
+[INFO] 12:00:35 - GitHub API URL (browser模式): https://api.github.com/search/repositories?q=stars%3A%3E1000+pushed%3A%3E2026-03-26&sort=stars&order=desc&per_page=30
+[INFO] 18:00:37 - ========== GitHub Trending 采集 v3 ==========
+[INFO] 18:00:37 - 日期: 2026-04-25
+[INFO] 18:00:37 - 发现已有数据: C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\github-trending_latest.json
+[INFO] 18:00:37 - 加载了 1 个项目
+[INFO] 18:00:37 - Markdown报告: C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\github-trending-2026-04-25.md
+[INFO] 18:00:37 - ========== 采集完成 ==========
+[INFO] 18:00:37 - 项目总数: 1
+[INFO] 18:00:37 - GitHub API URL (browser模式): https://api.github.com/search/repositories?q=stars%3A%3E1000+pushed%3A%3E2026-03-26&sort=stars&order=desc&per_page=30

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-25 12:06:23",
+  "crypto": {
+    "ETH": {
+      "confidence": "high",
+      "raw": "{\"USD\":2318.86}",
+      "timestamp": "2026-04-25 12:06:23",
+      "price": 2318.86,
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "confidence": "high",
+      "raw": "{\"USD\":77680.94}",
+      "timestamp": "2026-04-25 12:06:23",
+      "price": 77680.94,
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "confidence": "high",
+      "raw": "{\"USD\":86.46}",
+      "timestamp": "2026-04-25 12:06:23",
+      "price": 86.46,
+      "source": "CryptoCompare_API"
+    }
+  },
+  "timestamp_iso": "2026-04-25T04:06:23Z",
+  "quality_report": {
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "OIL": {
+      "raw_len": 361479,
+      "timestamp": "2026-04-25 12:06:23",
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "value": 94.88,
+      "source": "tradingeconomics.com"
+    },
+    "GOLD": {
+      "raw_len": 60291,
+      "timestamp": "2026-04-25 12:06:23",
+      "unit": "USD/oz",
+      "confidence": "high",
+      "value": 4710.8,
+      "source": "kitco.com"
+    },
+    "VIX": {
+      "value": 18.71,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-25 12:06:23",
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX"
+    }
+  },
+  "errors": []
+}
