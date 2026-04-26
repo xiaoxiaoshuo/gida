@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-26 00:06:23",
+  "quality_report": {
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-26 00:06:23",
+      "value": 91.06,
+      "confidence": "high",
+      "source": "EIA_API",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 854
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX",
+      "value": 18.71,
+      "timestamp": "2026-04-26 00:06:23",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "timestamp": "2026-04-26 00:06:23",
+      "value": 4710.8,
+      "confidence": "high",
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "raw_len": 60291
+    }
+  },
+  "errors": [],
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2307.88}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-26 00:06:23",
+      "price": 2307.88,
+      "confidence": "high"
+    },
+    "BTC": {
+      "raw": "{\"USD\":77424.33}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-26 00:06:23",
+      "price": 77424.33,
+      "confidence": "high"
+    },
+    "SOL": {
+      "raw": "{\"USD\":86.23}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-26 00:06:23",
+      "price": 86.23,
+      "confidence": "high"
+    }
+  },
+  "timestamp_iso": "2026-04-25T16:06:23Z"
+}

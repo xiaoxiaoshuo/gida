@@ -1,0 +1,86 @@
+{
+  "macro": {
+    "OIL": {
+      "value": 94.4,
+      "raw_len": 361490,
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23"
+    },
+    "GOLD": {
+      "value": 4710.8,
+      "raw_len": 60291,
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23"
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.71,
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23",
+      "source": "Yahoo_Finance_VIX"
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2309.55}",
+      "price": 2309.55,
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "raw": "{\"USD\":77327.34}",
+      "price": 77327.34,
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23",
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "raw": "{\"USD\":85.65}",
+      "price": 85.65,
+      "confidence": "high",
+      "timestamp": "2026-04-26 04:06:23",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "timestamp_iso": "2026-04-25T20:06:23Z",
+  "errors": [],
+  "collection_version": "v8",
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "timestamp": "2026-04-26 04:06:23"
+}

@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-25 20:06:23",
+  "timestamp_iso": "2026-04-25T12:06:23Z",
+  "crypto": {
+    "ETH": {
+      "timestamp": "2026-04-25 20:06:23",
+      "price": 2315.0,
+      "confidence": "high",
+      "raw": "{\"USD\":2315}",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "timestamp": "2026-04-25 20:06:23",
+      "price": 77693.29,
+      "confidence": "high",
+      "raw": "{\"USD\":77693.29}",
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "timestamp": "2026-04-25 20:06:23",
+      "price": 86.34,
+      "confidence": "high",
+      "raw": "{\"USD\":86.34}",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "macro": {
+    "GOLD": {
+      "timestamp": "2026-04-25 20:06:23",
+      "confidence": "high",
+      "value": 4710.8,
+      "raw_len": 60291,
+      "source": "kitco.com",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "timestamp": "2026-04-25 20:06:23",
+      "confidence": "high",
+      "value": 94.88,
+      "raw_len": 361485,
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)"
+    },
+    "VIX": {
+      "timestamp": "2026-04-25 20:06:23",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.71
+    }
+  },
+  "errors": [],
+  "quality_report": {
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    }
+  },
+  "collection_version": "v8"
+}
