@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-26 13:06:23",
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-26T05:06:23Z",
+  "quality_report": {
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "timestamp": "2026-04-26 13:06:23",
+      "raw": "{\"USD\":2318.34}",
+      "price": 2318.34,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "SOL": {
+      "timestamp": "2026-04-26 13:06:23",
+      "raw": "{\"USD\":86.3}",
+      "price": 86.3,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "BTC": {
+      "timestamp": "2026-04-26 13:06:23",
+      "raw": "{\"USD\":77752.31}",
+      "price": 77752.31,
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    }
+  },
+  "macro": {
+    "GOLD": {
+      "value": 4710.8,
+      "raw_len": 60291,
+      "unit": "USD/oz",
+      "timestamp": "2026-04-26 13:06:23",
+      "confidence": "high",
+      "source": "kitco.com"
+    },
+    "OIL": {
+      "value": 94.4,
+      "raw_len": 361486,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-26 13:06:23",
+      "confidence": "high",
+      "source": "tradingeconomics.com"
+    },
+    "VIX": {
+      "timestamp": "2026-04-26 13:06:23",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.71,
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high"
+    }
+  },
+  "errors": []
+}
