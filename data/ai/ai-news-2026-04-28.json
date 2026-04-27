@@ -1,30 +1,400 @@
-{
-  "date": "2026-04-25",
-  "total_count": 2,
-  "repos": [
-    {
-      "language": "TypeScript",
-      "starsToday": 700,
-      "stars": 30658,
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "valueScore": 39855,
-      "category": "开发工具",
-      "name": "abhigyanpatwari/GitNexus",
-      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
-      "rank": 1
-    },
-    {
-      "language": "Shell",
-      "starsToday": 2519,
-      "stars": 26485,
-      "url": "https://github.com/mattpocock/skills",
-      "valueScore": 34430,
-      "category": "AI/ML",
-      "name": "mattpocock/skills",
-      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
-      "rank": 1
-    }
-  ],
-  "timestamp": "2026-04-25 18:00:00",
-  "source": "GitHub Trending (浏览器采集)"
+﻿{
+    "items":  [
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+                      "title":  "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+                      "title":  "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+                      "title":  "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+                      "title":  "China blocks Meta’s $2B Manus deal after months-long probe",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+                      "title":  "OpenAI could be making a phone with AI agents replacing apps",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+                      "title":  "Meta inks deal for solar power at night, beamed from space",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+                      "title":  "To buy this Bay Area home, you’ll need Anthropic equity",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+                      "title":  "Anthropic created a test marketplace for agent-on-agent commerce",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+                      "title":  "Maine’s governor vetoes data center moratorium",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "TechCrunch AI",
+                      "url":  "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+                      "title":  "OpenAI CEO apologizes to Tumbler Ridge community",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+                      "title":  "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+                      "title":  "The missing step between hype and profit",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+                      "title":  "Rebuilding the data stack for AI",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/",
+                      "title":  "The Download: DeepSeek’s latest AI breakthrough, and the race to build world models",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+                      "title":  "Three reasons why DeepSeek’s new model matters",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+                      "title":  "The Download: supercharged scams and studying AI healthcare",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+                      "title":  "Health-care AI is here. We don’t know if it actually helps patients.",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/",
+                      "title":  "The Download: introducing the Nature issue",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/",
+                      "title":  "Will fusion power get cheap? Don’t count on it.",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "MIT Technology Review",
+                      "url":  "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/",
+                      "title":  "The Download: introducing the 10 Things That Matter in AI Right Now",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+                      "title":  "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+                      "title":  "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+                      "title":  "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+                      "title":  "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+                      "title":  "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+                      "title":  "Nous Research\u0027s NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "VentureBeat AI",
+                      "url":  "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+                      "title":  "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-04-27T16:47:45-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features",
+                      "title":  "Canonical lays out a plan for AI in Ubuntu Linux",
+                      "desc":  "One of the most popular Linux distributions is about to get an influx of AI features. As reported by Phoronix, Jon Seager, VP of engineering at Ubuntu developer Canonical, shared a blog post on Monday detailing plans to add AI features to the Linux distro over the next year. As the post states, the AI [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T14:19:17-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc",
+                      "title":  "Trump demands ABC fire Jimmy Kimmel",
+                      "desc":  "President Donald Trump is calling for Disney to fire Jimmy Kimmel. On Thursday, Kimmel joked that Melania Trump had looked like an \"expectant widow\" in a skit about the upcoming White House Correspondents\u0027 Dinner. The skit aired days before an armed gunman made an assassination attempt at the event, which President Trump and Melania Trump [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T14:30:33-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter",
+                      "title":  "Google employees ask Sundar Pichai to say no to classified military AI use",
+                      "desc":  "Over 600 Google employees signed a letter to CEO Sundar Pichai demanding that Google block the Pentagon from using its AI models for classified purposes, reports the The Washington Post. Its organizers claim many of the signers work in Google\u0027s DeepMind AI lab, and include more than 20 principals, directors, and vice presidents. According to [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T13:11:44-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/news/919244/whcd-shooting-trump-social-media-conspiracy-theories",
+                      "title":  "Conspiracy theories are swirling about the White House Correspondents’ Dinner shooting",
+                      "desc":  "On Saturday evening, a room full of journalists, media personalities, and senior members of Donald Trump\u0027s administration descended into chaos as gunshots rang out at the White House Correspondents\u0027 Dinner. Nobody was hurt, and the suspect was taken into custody - but it didn\u0027t take long for a narrative of doubt to take hold online. [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T17:12:21-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/tech/918115/steam-controller-2026-pc-deck-machine-hands-on-features",
+                      "title":  "Why the Steam Controller is (and isn’t) a big deal",
+                      "desc":  "Most PC gamers already have a controller they love using with Steam - a Sony DualSense, a 8BitDo Ultimate, a Nintendo Switch Pro, or something else. Part of that love comes from Steam treating them like \"native\" controllers. They can do the things that made the first Steam Controller worth buying. Namely, they offer a [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T17:11:40-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/games/918610/valve-steam-controller-review",
+                      "title":  "Valve’s new Steam Controller isn’t perfect, but I’m buying one anyway",
+                      "desc":  "After my brief hands-on last year with Valve\u0027s new Steam Controller, I said it might be my dream controller. I\u0027ve been looking for a controller with the customization and sheer function available on Valve\u0027s Steam Deck while I\u0027m playing games on the TV. You, me, and a lot of other people have been waiting for [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T13:24:04-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/games/918622/valve-steam-controller-price-release-date-steam-machine-delay",
+                      "title":  "Valve launches the Steam Controller without the Steam Machine",
+                      "desc":  "Last November, Valve introduced the world to its new vision of living room gaming: the Steam Machine and Steam Controller. Then, RAMageddon. Memory shortages forced Valve to delay all its hardware and reset expectations. Now, Valve is releasing the Steam Controller without the Steam Machine. The Steam Controller is officially going on sale May 4th [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T13:27:12-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/games/919157/valve-steam-controller-ask-us-anything-ama",
+                      "title":  "We reviewed Valve’s new Steam Controller, ask us anything",
+                      "desc":  "Hey hey, it\u0027s Jay Peters, senior reporter at The Verge. Today, Valve finally announced that the second version of the Steam Controller - and the first piece of Valve\u0027s slate of new gaming hardware set to launch this year - is finally going on sale for $99 on May 4th. My colleague Cameron Faulkner and [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T12:25:51-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/gadgets/919189/samsung-galaxy-glasses-leaked-images",
+                      "title":  "Samsung\u0026#8217;s first smart glasses have leaked",
+                      "desc":  "The upcoming Samsung Galaxy Glasses look nearly identical to Meta\u0027s Ray-Ban smart glasses in leaked images from Android Headlines. The glasses, which could be announced at Google I/O next month, are code-named \"Jinju\" and will reportedly cost between $379 and $499, on par with the display-free Ray-Ban Meta Gen 2. They\u0027ll reportedly include a Qualcomm [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "2026-04-27T12:15:47-04:00",
+                      "source":  "The Verge",
+                      "url":  "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+                      "title":  "Microsoft and OpenAI’s famed AGI agreement is dead",
+                      "desc":  "OpenAI and Microsoft\u0027s partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI\u0027s \"primary cloud partner, and\u0026#8239;OpenAI\u0026#8239;products\u0026#8239;will ship first [\u0026#8230;]"
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/",
+                      "title":  "Open source package with 1 million monthly downloads stole user credentials",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+                      "title":  "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+                      "title":  "In a first, a ransomware family is confirmed to be quantum-safe",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/",
+                      "title":  "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/",
+                      "title":  "Contrary to popular superstition, AES 128 is just fine in a post-quantum world",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
+                      "title":  "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/",
+                      "title":  "Recent advances push Big Tech closer to the Q-Day danger zone",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/",
+                      "title":  "“Negative” views of Broadcom driving thousands of VMware migrations, rival says",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
+                      "title":  "Iran-linked hackers disrupt operations at US critical infrastructure sites",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Ars Technica",
+                      "url":  "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
+                      "title":  "Thousands of consumer routers hacked by Russia\u0027s military",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Wired Science",
+                      "url":  "https://www.wired.com/story/a-brain-implant-for-depression-is-about-to-be-tested-in-humans/",
+                      "title":  "A Brain Implant for Depression Is About to Be Tested in Humans",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Wired Science",
+                      "url":  "https://www.wired.com/story/war-on-iran-unseen-impact-on-environment/",
+                      "title":  "The Iran War Is Impacting the Environment in Unseen Ways",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "",
+                      "source":  "Wired Science",
+                      "url":  "https://www.wired.com/story/wired-health-2026-how-ai-is-powering-drug-discovery-max-jaderberg/",
+                      "title":  "AI-Designed Drugs by a DeepMind Spinoff Are Headed to Human Trials",
+                      "desc":  ""
+                  }
+              ],
+    "count":  50,
+    "sources":  [
+                    {
+                        "count":  10,
+                        "name":  "TechCrunch AI",
+                        "path":  "rss.channel.item",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  10,
+                        "name":  "MIT Technology Review",
+                        "path":  "rss.channel.item",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  7,
+                        "name":  "VentureBeat AI",
+                        "path":  "rss.channel.item",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  10,
+                        "name":  "The Verge",
+                        "path":  "feed.entry",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  10,
+                        "name":  "Ars Technica",
+                        "path":  "rss.channel.item",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  10,
+                        "name":  "Wired Science",
+                        "path":  "rss.channel.item",
+                        "status":  "ok"
+                    },
+                    {
+                        "count":  10,
+                        "name":  "Slashdot",
+                        "path":  "RDF.Item",
+                        "status":  "ok"
+                    }
+                ],
+    "timestamp":  "2026-04-28T07:34:26Z"
 }

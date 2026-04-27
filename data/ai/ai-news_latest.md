@@ -1,9 +1,17 @@
-﻿# AI/ML News — 2026-04-28
+# AI/ML News — 2026-04-28
 
-> Top stories in AI/ML · Source: Multi-RSS · Updated: 04/28/2026 06:30:44
+> Top stories in AI/ML · Source: Multi-RSS · Updated: 04/28/2026 07:34:26
 
 ---
-### 1. DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data
+### 1. OpenAI ends Microsoft legal peril over its $50B Amazon deal
+
+🔗 [Source](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
+
+*来源: TechCrunch AI*
+
+---\
+
+### 2. DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data
 
 🔗 [Source](https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/)
 
@@ -11,7 +19,7 @@
 
 ---\
 
-### 2. Investors back Skye’s AI home screen app for iPhone ahead of launch
+### 3. Investors back Skye’s AI home screen app for iPhone ahead of launch
 
 🔗 [Source](https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/)
 
@@ -19,7 +27,7 @@
 
 ---\
 
-### 3. China blocks Meta’s $2B Manus deal after months-long probe
+### 4. China blocks Meta’s $2B Manus deal after months-long probe
 
 🔗 [Source](https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/)
 
@@ -27,7 +35,7 @@
 
 ---\
 
-### 4. OpenAI could be making a phone with AI agents replacing apps
+### 5. OpenAI could be making a phone with AI agents replacing apps
 
 🔗 [Source](https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/)
 
@@ -35,7 +43,7 @@
 
 ---\
 
-### 5. Meta inks deal for solar power at night, beamed from space
+### 6. Meta inks deal for solar power at night, beamed from space
 
 🔗 [Source](https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/)
 
@@ -43,7 +51,7 @@
 
 ---\
 
-### 6. To buy this Bay Area home, you’ll need Anthropic equity
+### 7. To buy this Bay Area home, you’ll need Anthropic equity
 
 🔗 [Source](https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/)
 
@@ -51,7 +59,7 @@
 
 ---\
 
-### 7. Anthropic created a test marketplace for agent-on-agent commerce
+### 8. Anthropic created a test marketplace for agent-on-agent commerce
 
 🔗 [Source](https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/)
 
@@ -59,7 +67,7 @@
 
 ---\
 
-### 8. Maine’s governor vetoes data center moratorium
+### 9. Maine’s governor vetoes data center moratorium
 
 🔗 [Source](https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/)
 
@@ -67,7 +75,7 @@
 
 ---\
 
-### 9. OpenAI CEO apologizes to Tumbler Ridge community
+### 10. OpenAI CEO apologizes to Tumbler Ridge community
 
 🔗 [Source](https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/)
 
@@ -75,15 +83,15 @@
 
 ---\
 
-### 10. Why Cohere is merging with Aleph Alpha
+### 11. Elon Musk and Sam Altman are going to court over OpenAI’s future
 
-🔗 [Source](https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/)
+🔗 [Source](https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/)
 
-*来源: TechCrunch AI*
+*来源: MIT Technology Review*
 
 ---\
 
-### 11. The missing step between hype and profit
+### 12. The missing step between hype and profit
 
 🔗 [Source](https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/)
 
@@ -91,7 +99,7 @@
 
 ---\
 
-### 12. Rebuilding the data stack for AI
+### 13. Rebuilding the data stack for AI
 
 🔗 [Source](https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/)
 
@@ -99,7 +107,7 @@
 
 ---\
 
-### 13. The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
+### 14. The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
 
 🔗 [Source](https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/)
 
@@ -107,7 +115,7 @@
 
 ---\
 
-### 14. Three reasons why DeepSeek’s new model matters
+### 15. Three reasons why DeepSeek’s new model matters
 
 🔗 [Source](https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/)
 
@@ -115,7 +123,7 @@
 
 ---\
 
-### 15. The Download: supercharged scams and studying AI healthcare
+### 16. The Download: supercharged scams and studying AI healthcare
 
 🔗 [Source](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/)
 
@@ -123,7 +131,7 @@
 
 ---\
 
-### 16. Health-care AI is here. We don’t know if it actually helps patients.
+### 17. Health-care AI is here. We don’t know if it actually helps patients.
 
 🔗 [Source](https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/)
 
@@ -131,7 +139,7 @@
 
 ---\
 
-### 17. The Download: introducing the Nature issue
+### 18. The Download: introducing the Nature issue
 
 🔗 [Source](https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/)
 
@@ -139,7 +147,7 @@
 
 ---\
 
-### 18. Will fusion power get cheap? Don’t count on it.
+### 19. Will fusion power get cheap? Don’t count on it.
 
 🔗 [Source](https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/)
 
@@ -147,17 +155,9 @@
 
 ---\
 
-### 19. The Download: introducing the 10 Things That Matter in AI Right Now
+### 20. The Download: introducing the 10 Things That Matter in AI Right Now
 
 🔗 [Source](https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 20. AI needs a strong data fabric to deliver business value
-
-🔗 [Source](https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/)
 
 *来源: MIT Technology Review*
 
@@ -219,7 +219,37 @@
 
 ---\
 
-### 28. Conspiracy theories are swirling about the White House Correspondents’ Dinner shooting
+### 28. Canonical lays out a plan for AI in Ubuntu Linux
+
+One of the most popular Linux distributions is about to get an influx of AI features. As reported by Phoronix, Jon Seager, VP of engineering at Ubuntu developer Canonical, shared a blog post on Monday detailing plans to add AI features to the Linux distro over the next year. As the post states, the AI [&#8230;]
+
+🔗 [Source](https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features)
+
+*来源: The Verge*
+
+---\
+
+### 29. Trump demands ABC fire Jimmy Kimmel
+
+President Donald Trump is calling for Disney to fire Jimmy Kimmel. On Thursday, Kimmel joked that Melania Trump had looked like an "expectant widow" in a skit about the upcoming White House Correspondents' Dinner. The skit aired days before an armed gunman made an assassination attempt at the event, which President Trump and Melania Trump [&#8230;]
+
+🔗 [Source](https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc)
+
+*来源: The Verge*
+
+---\
+
+### 30. Google employees ask Sundar Pichai to say no to classified military AI use
+
+Over 600 Google employees signed a letter to CEO Sundar Pichai demanding that Google block the Pentagon from using its AI models for classified purposes, reports the The Washington Post. Its organizers claim many of the signers work in Google's DeepMind AI lab, and include more than 20 principals, directors, and vice presidents. According to [&#8230;]
+
+🔗 [Source](https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter)
+
+*来源: The Verge*
+
+---\
+
+### 31. Conspiracy theories are swirling about the White House Correspondents’ Dinner shooting
 
 On Saturday evening, a room full of journalists, media personalities, and senior members of Donald Trump's administration descended into chaos as gunshots rang out at the White House Correspondents' Dinner. Nobody was hurt, and the suspect was taken into custody - but it didn't take long for a narrative of doubt to take hold online. [&#8230;]
 
@@ -229,7 +259,7 @@ On Saturday evening, a room full of journalists, media personalities, and senior
 
 ---\
 
-### 29. Why the Steam Controller is (and isn’t) a big deal
+### 32. Why the Steam Controller is (and isn’t) a big deal
 
 Most PC gamers already have a controller they love using with Steam - a Sony DualSense, a 8BitDo Ultimate, a Nintendo Switch Pro, or something else. Part of that love comes from Steam treating them like "native" controllers. They can do the things that made the first Steam Controller worth buying. Namely, they offer a [&#8230;]
 
@@ -239,7 +269,7 @@ Most PC gamers already have a controller they love using with Steam - a Sony Dua
 
 ---\
 
-### 30. Valve’s new Steam Controller isn’t perfect, but I’m buying one anyway
+### 33. Valve’s new Steam Controller isn’t perfect, but I’m buying one anyway
 
 After my brief hands-on last year with Valve's new Steam Controller, I said it might be my dream controller. I've been looking for a controller with the customization and sheer function available on Valve's Steam Deck while I'm playing games on the TV. You, me, and a lot of other people have been waiting for [&#8230;]
 
@@ -249,7 +279,7 @@ After my brief hands-on last year with Valve's new Steam Controller, I said it m
 
 ---\
 
-### 31. Valve launches the Steam Controller without the Steam Machine
+### 34. Valve launches the Steam Controller without the Steam Machine
 
 Last November, Valve introduced the world to its new vision of living room gaming: the Steam Machine and Steam Controller. Then, RAMageddon. Memory shortages forced Valve to delay all its hardware and reset expectations. Now, Valve is releasing the Steam Controller without the Steam Machine. The Steam Controller is officially going on sale May 4th [&#8230;]
 
@@ -259,7 +289,7 @@ Last November, Valve introduced the world to its new vision of living room gamin
 
 ---\
 
-### 32. We reviewed Valve’s new Steam Controller, ask us anything
+### 35. We reviewed Valve’s new Steam Controller, ask us anything
 
 Hey hey, it's Jay Peters, senior reporter at The Verge. Today, Valve finally announced that the second version of the Steam Controller - and the first piece of Valve's slate of new gaming hardware set to launch this year - is finally going on sale for $99 on May 4th. My colleague Cameron Faulkner and [&#8230;]
 
@@ -269,7 +299,7 @@ Hey hey, it's Jay Peters, senior reporter at The Verge. Today, Valve finally ann
 
 ---\
 
-### 33. Samsung&#8217;s first smart glasses have leaked
+### 36. Samsung&#8217;s first smart glasses have leaked
 
 The upcoming Samsung Galaxy Glasses look nearly identical to Meta's Ray-Ban smart glasses in leaked images from Android Headlines. The glasses, which could be announced at Google I/O next month, are code-named "Jinju" and will reportedly cost between $379 and $499, on par with the display-free Ray-Ban Meta Gen 2. They'll reportedly include a Qualcomm [&#8230;]
 
@@ -279,7 +309,7 @@ The upcoming Samsung Galaxy Glasses look nearly identical to Meta's Ray-Ban smar
 
 ---\
 
-### 34. Microsoft and OpenAI’s famed AGI agreement is dead
+### 37. Microsoft and OpenAI’s famed AGI agreement is dead
 
 OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI's "primary cloud partner, and&#8239;OpenAI&#8239;products&#8239;will ship first [&#8230;]
 
@@ -289,37 +319,15 @@ OpenAI and Microsoft's partnership-turned-situationship just got even less commi
 
 ---\
 
-### 35. The Philips Hue Sync Box 8K is 30 percent off
+### 38. Open source package with 1 million monthly downloads stole user credentials
 
-The Philips Hue Play HDMI Sync Box 8K is a great gadget to buy if you want to put your Hue lights to good use while watching a movie or playing video games. It syncs with your lights to mirror the colors on your TV, and it’s steeply discounted right now to a slightly more [&#8230;]
+🔗 [Source](https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/)
 
-🔗 [Source](https://www.theverge.com/gadgets/918999/philips-hue-8k-hdmi-sync-box-logitech-g435-gaming-headset-deal-sale)
-
-*来源: The Verge*
+*来源: Ars Technica*
 
 ---\
 
-### 36. Elon Musk and Sam Altman’s court battle over the future of OpenAI
-
-Sam Altman and Elon Musk are set to face off in a high-stakes trial that could alter the future of tech’s leading AI startup, OpenAI. The trial begins with jury selection on April 27th, as Musk pushes forward his 2024 lawsuit that accuses OpenAI of abandoning its founding mission of developing AI to benefit humanity [&#8230;]
-
-🔗 [Source](https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit)
-
-*来源: The Verge*
-
----\
-
-### 37. The Verge’s 2026 Mother’s Day gift guide
-
-Whether it's managing a busy home or looking out for everyone around them, moms spend a lot of time every day caring for others. Mother's Day, May 10th, is an opportunity to return the favor, so we've rounded up practical gadgets and little luxuries that can lighten her load. This year's picks are designed to [&#8230;]
-
-🔗 [Source](https://www.theverge.com/gadgets/907032/best-mothers-day-gift-ideas-2026-mom-tech-gadgets)
-
-*来源: The Verge*
-
----\
-
-### 38. Why are top university websites serving porn? It comes down to shoddy housekeeping.
+### 39. Why are top university websites serving porn? It comes down to shoddy housekeeping.
 
 🔗 [Source](https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/)
 
@@ -327,7 +335,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 39. In a first, a ransomware family is confirmed to be quantum-safe
+### 40. In a first, a ransomware family is confirmed to be quantum-safe
 
 🔗 [Source](https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/)
 
@@ -335,7 +343,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 40. Microsoft issues emergency update for macOS and Linux ASP.NET threat
+### 41. Microsoft issues emergency update for macOS and Linux ASP.NET threat
 
 🔗 [Source](https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/)
 
@@ -343,7 +351,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 41. Contrary to popular superstition, AES 128 is just fine in a post-quantum world
+### 42. Contrary to popular superstition, AES 128 is just fine in a post-quantum world
 
 🔗 [Source](https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/)
 
@@ -351,7 +359,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 42. US-sanctioned currency exchange says $15 million heist done by "unfriendly states"
+### 43. US-sanctioned currency exchange says $15 million heist done by "unfriendly states"
 
 🔗 [Source](https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/)
 
@@ -359,7 +367,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 43. Recent advances push Big Tech closer to the Q-Day danger zone
+### 44. Recent advances push Big Tech closer to the Q-Day danger zone
 
 🔗 [Source](https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/)
 
@@ -367,7 +375,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 44. “Negative” views of Broadcom driving thousands of VMware migrations, rival says
+### 45. “Negative” views of Broadcom driving thousands of VMware migrations, rival says
 
 🔗 [Source](https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/)
 
@@ -375,7 +383,7 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 45. Iran-linked hackers disrupt operations at US critical infrastructure sites
+### 46. Iran-linked hackers disrupt operations at US critical infrastructure sites
 
 🔗 [Source](https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/)
 
@@ -383,17 +391,9 @@ Whether it's managing a busy home or looking out for everyone around them, moms 
 
 ---\
 
-### 46. Thousands of consumer routers hacked by Russia's military
+### 47. Thousands of consumer routers hacked by Russia's military
 
 🔗 [Source](https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/)
-
-*来源: Ars Technica*
-
----\
-
-### 47. OpenClaw gives users yet another reason to be freaked out about security
-
-🔗 [Source](https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/)
 
 *来源: Ars Technica*
 
