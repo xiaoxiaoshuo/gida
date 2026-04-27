@@ -1,5 +1,52 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-27 19:58 GMT+8
+
+- ⏰ **晚间简报生成**
+- ✅ **数据已更新**: `data/market/prices_latest.json`, `data/market/fear-greed_latest.json`, `data/ai/ai-news_latest.json`, `data/ai/github-trending-2026-04-27.json`
+- ✅ **简报已生成**: `briefings/2026-04-27-evening.md`
+- 🧹 **垃圾文件已清理**: debug-rss*.ps1, final-check.ps1, verify-output*.ps1, scripts/FIX_GH_TRENDING.md 等
+
+### 数据状态（19:58 UTC快照）
+| 品种 | 价格 | 置信度 |
+|------|------|--------|
+| BTC | $77,840.55 | 🟢 高 |
+| ETH | $2,320.99 | 🟢 高 |
+| SOL | $85.15 | 🟢 高 |
+| GOLD | $4,707.2/oz | 🟡 中 |
+| WTI OIL | $95.45/桶 | 🟡 中 |
+| F&G指数 | 47 (Neutral) | 🟡 中 |
+
+### Fear & Greed Index
+- **Index**: 47 (Neutral)
+- **状态**: 中性区间，情绪无显著波动
+
+### 📈 市场信号
+- BTC $77,840（横盘整理）
+- ETH $2,320（横盘整理）
+- SOL $85.15（横盘整理）
+- F&G 47 (Neutral)，VIX 47 — 波动率低位运行
+- 黄金 $4,707 — 高位震荡
+- 原油 $95.45 — 高位，对通胀预期保持关注
+
+### 🤖 AI/ML 热点
+- DeepSeek V4 发布（MIT TechReview三问解读）
+- Anthropic 推出 Cowork 桌面代理 + Agent间商务测试市场
+- Cohere 与 Aleph Alpha 合并
+- Nous Research NousCoder-14B 开源编程模型
+- Meta 签署太空太阳能夜间供电协议
+
+### ⚠️ 风险预警
+1. 勒索软件首次采用后量子密码学（Ars Technica）
+2. 伊朗关联黑客已渗透美国关键基础设施（Ars Technica）
+
+### 📝 备注
+- 晚间简报已生成（briefings/2026-04-27-evening.md）
+- GitHub Trending 数据已更新（data/ai/github-trending-2026-04-27.md/json）
+- 临时脚本文件已清理
+
+---
+
 ## 快照 | 2026-04-23 13:00 GMT+8
 
 - ⏰ **13:00 整点数据刷新**
