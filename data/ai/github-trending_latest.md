@@ -1,43 +1,32 @@
-# GitHub Trending - Latest
+﻿# GitHub Trending 热榜 | 2026-04-28
 
-> Last Updated: 2026-04-28 12:30:00
+**采集时间**: 2026-04-28 05:35:21 GMT+8
+**数据源**: github.com/trending (Playwright 浏览器采集)
+**项目数量**: 13
 
-## Top 30 Trending Repositories
+---
 
-| # | Repository | Stars | Language | Description |
-|---|------------|-------|----------|-------------|
-| 1 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 443.7k | TypeScript | freeCodeCamp.org's open-source codebase and curriculum |
-| 2 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 386.3k | Python | :books: Freely available programming books |
-| 3 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 365.3k | TypeScript | Your own personal AI assistant |
-| 4 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 353.8k | TypeScript | Interactive roadmaps for developers |
-| 5 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 294.7k | Python | An opinionated list of Python frameworks and libraries |
-| 6 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 288.5k | - | Free Software network services |
-| 7 | [facebook/react](https://github.com/facebook/react) | 244.7k | JavaScript | The library for web and native user interfaces |
-| 8 | [torvalds/linux](https://github.com/torvalds/linux) | 231.0k | C | Linux kernel source tree |
-| 9 | [ossu/computer-science](https://github.com/ossu/computer-science) | 203.3k | HTML | Path to a free self-taught education in CS |
-| 10 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194.9k | C++ | An Open Source Machine Learning Framework |
-| 11 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 188.8k | Rust | The fastest repo to surpass 100K stars |
-| 12 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 186.5k | Shell | Community-driven zsh configuration framework |
-| 13 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | 185.8k | TypeScript | Workflow automation with AI capabilities |
-| 14 | [microsoft/vscode](https://github.com/microsoft/vscode) | 163.2k | TypeScript | Visual Studio Code |
-| 15 | [agentics/user](https://github.com/agentics/user) | 180.2k | Python | User-programmable AI agents |
-| 16 | [denoland/deno](https://github.com/denoland/deno) | 100.2k | Rust | A modern runtime for JS/TS |
-| 17 | [microsoft/TypeScript](https://github.com/microsoft/TypeScript) | 102.5k | TypeScript | TypeScript compiler |
-| 18 | [ollama/ollama](https://github.com/ollama/ollama) | 98.5k | Go | Run Llama, Mistral models locally |
-| 19 | [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp) | 76.8k | C | Port of OpenAI's Whisper model |
-| 20 | [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) | 72.3k | Python | Web Application Security payloads |
-| 21 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 75.0k | Python | Building applications with LLMs |
-| 22 | [piryopt/pien](https://github.com/piryopt/pien) | 68.9k | Rust | Low-latency desktop automation |
-| 23 | [gradio-app/gradio](https://github.com/gradio-app/gradio) | 53.2k | Python | Build web apps from Jupyter notebooks |
-| 24 | [exaloop/codon](https://github.com/exaloop/codon) | 19.7k | Python | High-performance Python compiler |
-| 25 | [mistralai/mistral-finetune](https://github.com/mistralai/mistral-finetune) | 12.8k | Python | Fine-tuning of Mistral models |
-| 26 | [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook) | 8.5k | Jupyter Notebook | Recipes for building with Anthropic models |
-| 27 | [sysprog21/shecc](https://github.com/sysprog21/shecc) | 8.9k | C | Self-hosting C compiler |
-| 28 | [phildl/remix-validity](https://github.com/phildl/remix-validity) | 7.2k | TypeScript | Form validity for Remix |
-| 29 | [kaiwu/app-structured](https://github.com/kaiwu/app-structured) | 6.7k | Python | Structured output for LLM Applications |
-| 30 | [piryopt/pien](https://github.com/piryopt/pien) | 68.9k | Rust | Low-latency desktop automation |
+## 🤖 AI/ML (共10个)
 
-## Notes
-- Data source: GitHub API (sorted by stars, >1000 stars, pushed >2026-04-20)
-- Historical data: `data/github-trending-history.json`
-- Archive: `data/ai/github-trending-2026-04-28.md`
+| 项目 | ★ | 今日↑ | 语言 | 描述 |
+|------|---|------|------|------|
+| **mattpocock / skills** | 29519 | +5551 | Shell | Skills for Real Engineers. Straight from my .claude directory. |
+| **abhigyanpatwari / GitNexus** | 31390 | +1074 | TypeScript | GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration |
+| **ComposioHQ / awesome-codex-skills** | 2699 | +637 | Python | A curated list of practical Codex skills for automating workflows across the Codex CLI and API. |
+| **Alishahryar1 / free-claude-code** | 15921 | +2973 | Python | Use claude-code for free in the terminal, VSCode extension or via discord like openclaw |
+| **gastownhall / beads** | 22137 | +485 | Go | Beads - A memory upgrade for your coding agent |
+| **davila7 / claude-code-templates** | 25758 | +181 | Python | CLI tool for configuring and monitoring Claude Code |
+| **microsoft / VibeVoice** | 42952 | +771 | Python | Open-Source Frontier Voice AI |
+| **TauricResearch / TradingAgents** | 53663 | +183 | Python | TradingAgents: Multi-Agents LLM Financial Trading Framework |
+| **CJackHwang / ds2api** | 1809 | +144 | Go | Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats. |
+| **deepseek-ai / DeepSeek-V3** | 103067 | +60 | Python |  |
+
+## 🔧 开发工具 (共2个)
+
+| 项目 | ★ | 今日↑ | 语言 | 描述 |
+|------|---|------|------|------|
+| **penpot / penpot** | 46535 | +283 | Clojure | Penpot: The open-source design tool for design and code collaboration |
+| **Z4nzu / hackingtool** | 66970 | +1839 | Python | ALL IN ONE Hacking Tool For Hackers |
+
+*来源: github.com/trending 自动采集 (v5 - Playwright浏览器模式) | 2026-04-28 05:35:21*
+
