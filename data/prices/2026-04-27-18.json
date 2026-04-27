@@ -26,41 +26,6 @@
       "unit": "USD/oz"
     }
   },
-  "errors": [],
-  "quality_report": {
-    "BTC": {
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100
-    },
-    "OIL": {
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "score": 65
-    },
-    "ETH": {
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100
-    },
-    "VIX": {
-      "label": "中",
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "score": 65
-    },
-    "SOL": {
-      "label": "高",
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "score": 100
-    },
-    "GOLD": {
-      "label": "中",
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "score": 65
-    }
-  },
-  "collection_version": "v8",
-  "timestamp": "2026-04-27 18:06:24",
   "crypto": {
     "BTC": {
       "timestamp": "2026-04-27 18:06:24",
@@ -84,5 +49,6 @@
       "price": 85.36
     }
   },
-  "timestamp_iso": "2026-04-27T10:06:24Z"
+  "source": "hourly-price-collector",
+  "timestamp": "2026-04-27 18:07:02"
 }
