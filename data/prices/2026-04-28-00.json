@@ -1,0 +1,54 @@
+{
+  "crypto": {
+    "ETH": {
+      "confidence": "high",
+      "raw": "{\"USD\":2276.98}",
+      "source": "CryptoCompare_API",
+      "price": 2276.98,
+      "timestamp": "2026-04-28 00:06:24"
+    },
+    "SOL": {
+      "confidence": "high",
+      "raw": "{\"USD\":84.18}",
+      "source": "CryptoCompare_API",
+      "price": 84.18,
+      "timestamp": "2026-04-28 00:06:24"
+    },
+    "BTC": {
+      "confidence": "high",
+      "raw": "{\"USD\":76796.32}",
+      "source": "CryptoCompare_API",
+      "price": 76796.32,
+      "timestamp": "2026-04-28 00:06:24"
+    }
+  },
+  "source": "hourly-price-collector",
+  "macro": {
+    "OIL": {
+      "raw_len": 414992,
+      "confidence": "high",
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-28 00:06:24",
+      "value": 96.13,
+      "unit": "USD/barrel (WTI)"
+    },
+    "VIX": {
+      "timestamp": "2026-04-28 00:06:24",
+      "confidence": "medium",
+      "source": "alternative.me_FNG",
+      "value_classification": "Neutral",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"47\",\n\t\t\t\"value_classification\": \"Neut",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "value": 47
+    },
+    "GOLD": {
+      "raw_len": 60767,
+      "confidence": "high",
+      "source": "kitco.com",
+      "timestamp": "2026-04-28 00:06:24",
+      "value": 4670.8,
+      "unit": "USD/oz"
+    }
+  },
+  "timestamp": "2026-04-28 00:06:53"
+}
