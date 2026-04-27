@@ -1,0 +1,63 @@
+{
+  "repos": [
+    {
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "language": "Python",
+      "category": "AI/ML",
+      "description": "DeepSeek-V3",
+      "valueScore": 133834,
+      "stars": 102949,
+      "starsToday": 60,
+      "rank": 1
+    },
+    {
+      "url": "https://github.com/penpot/penpot",
+      "name": "penpot/penpot",
+      "language": "Clojure",
+      "category": "其他",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "valueScore": 46279,
+      "stars": 46279,
+      "starsToday": 283,
+      "rank": 1
+    },
+    {
+      "url": "https://github.com/microsoft/VibeVoice",
+      "name": "microsoft/VibeVoice",
+      "language": "Python",
+      "category": "AI/ML",
+      "description": "Open-Source Frontier Voice AI",
+      "valueScore": 54893,
+      "stars": 42225,
+      "starsToday": 771,
+      "rank": 1
+    },
+    {
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "name": "abhigyanpatwari/GitNexus",
+      "language": "TypeScript",
+      "category": "开发工具",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+      "valueScore": 39855,
+      "stars": 30658,
+      "starsToday": 700,
+      "rank": 1
+    },
+    {
+      "url": "https://github.com/mattpocock/skills",
+      "name": "mattpocock/skills",
+      "language": "Shell",
+      "category": "AI/ML",
+      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+      "valueScore": 34430,
+      "stars": 26485,
+      "starsToday": 2519,
+      "rank": 1
+    }
+  ],
+  "date": "2026-04-27",
+  "source": "GitHub Trending (浏览器采集)",
+  "total_count": 5,
+  "timestamp": "2026-04-27 19:06:02"
+}

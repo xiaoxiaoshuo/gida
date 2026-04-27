@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-25",
+  "count": 2,
+  "projects": [
+    {
+      "name": "mattpocock/skills",
+      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "valueScore": 34430,
+      "url": "https://github.com/mattpocock/skills",
+      "category": "AI/ML",
+      "stars": 26485
+    },
+    {
+      "name": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+      "language": "TypeScript",
+      "valueScore": 39855,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "category": "开发工具",
+      "stars": 30658
+    }
+  ],
+  "time": "2026-04-25 18:00:00"
+}

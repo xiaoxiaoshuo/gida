@@ -1,13 +1,12 @@
 {
-  "collection_time": "2026-04-27T18:06:33Z",
-  "source": "estimated_from_last",
-  "timestamp": "2026-04-27T18:06:33Z",
-  "note": "估算值",
   "prices": {
     "WTI_Crude": {
+      "change": null,
       "change_pct": null,
-      "price": 90.97,
-      "change": null
+      "price": 91.06
     }
-  }
+  },
+  "source": "EIA_API",
+  "collection_time": "2026-04-27T19:06:36Z",
+  "timestamp": "2026-04-27T19:06:36Z"
 }

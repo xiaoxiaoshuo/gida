@@ -1,0 +1,41 @@
+{
+  "source": "GitHub Trending (浏览器采集)",
+  "total_count": 3,
+  "timestamp": "2026-04-26 18:01:01",
+  "repos": [
+    {
+      "category": "AI/ML",
+      "language": "Python",
+      "starsToday": 60,
+      "name": "deepseek-ai/DeepSeek-V3",
+      "valueScore": 133834,
+      "stars": 102949,
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "description": "DeepSeek-V3",
+      "rank": 1
+    },
+    {
+      "category": "其他",
+      "language": "Clojure",
+      "starsToday": 283,
+      "name": "penpot/penpot",
+      "valueScore": 46279,
+      "stars": 46279,
+      "url": "https://github.com/penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "rank": 1
+    },
+    {
+      "category": "AI/ML",
+      "language": "Python",
+      "starsToday": 771,
+      "name": "microsoft/VibeVoice",
+      "valueScore": 54893,
+      "stars": 42225,
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "rank": 1
+    }
+  ],
+  "date": "2026-04-26"
+}

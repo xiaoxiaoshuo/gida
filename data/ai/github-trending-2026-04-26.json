@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-26",
+  "count": 3,
+  "time": "2026-04-26 18:01:01",
+  "projects": [
+    {
+      "valueScore": 46279,
+      "category": "其他",
+      "language": "Clojure",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "name": "penpot/penpot",
+      "url": "https://github.com/penpot/penpot",
+      "stars": 46279
+    },
+    {
+      "valueScore": 54893,
+      "category": "AI/ML",
+      "language": "Python",
+      "description": "Open-Source Frontier Voice AI",
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "stars": 42225
+    },
+    {
+      "valueScore": 133834,
+      "category": "AI/ML",
+      "language": "Python",
+      "description": "DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "stars": 102949
+    }
+  ]
+}

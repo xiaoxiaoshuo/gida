@@ -1,13 +1,13 @@
 # ============================================================
 # gh-trending-v3.ps1 - GitHub Trending 采集脚本 v3
-# 
+#
 # 关键发现 (2026-04-09):
 #   - curl.exe / Invoke-WebRequest / PowerShell 无法访问 api.github.com (SSL/TLS握手失败)
 #   - 但 Brave浏览器 (browser tool) 可以完美访问 api.github.com
 #   - 解决方案: 浏览器是访问GitHub API的唯一可靠方式
 #
 # 使用方式:
-#   1. 直接运行此脚本 (会用Bing/镜像策略，可能数据不完整)
+#   1. 直接运行此脚本 (会用Bing/镜像策略,可能数据不完整)
 #   2. 配合browser tool使用API采集 (推荐)
 # ============================================================
 
@@ -38,27 +38,27 @@ function Write-Log {
 # ============================================================
 function Get-GithubTrendingViaBing {
     Write-Log ">> 策略A: Bing搜索回退"
-    
+
     $queries = @(
         "site:github.com trending 2026 stars",
         "GitHub popular repositories this week AI",
         "github.com trending Python JavaScript today"
     )
-    
+
     $projects = @()
     $seen = @{}
-    
+
     foreach ($q in $queries) {
         Write-Log "  搜索: $q"
         try {
             $encoded = [System.Web.HttpUtility]::UrlEncode($q)
             $url = "https://cn.bing.com/search?q=$encoded"
             $response = Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 15 -UserAgent "Mozilla/5.0"
-            
+
             if ($response.StatusCode -eq 200) {
                 $content = $response.Content
                 $ghMatches = [regex]::Matches($content, 'github\.com/([\w\-\.]+/[\w\-\.]+)')
-                
+
                 foreach ($match in $ghMatches) {
                     $proj = $match.Groups[1].Value
                     if (-not $seen.ContainsKey($proj) -and $proj -notmatch "login|settings|orgs|topics|explore|trending") {
@@ -82,7 +82,7 @@ function Get-GithubTrendingViaBing {
         }
         Start-Sleep -Seconds 3
     }
-    
+
     return $projects
 }
 
@@ -96,18 +96,18 @@ function Get-BrowserApiUrl {
     $url = "https://api.github.com/search/repositories?q=stars%3A%3E$($MinStars)+pushed%3A%3E$sinceDate&sort=stars&order=desc&per_page=$PerPage"
     return @{
         url = $url
-        description = "用 browser tool 打开此URL，获取JSON响应后调用 Save-GithubData 保存"
+        description = "用 browser tool 打开此URL,获取JSON响应后调用 Save-GithubData 保存"
     }
 }
 
 function Save-GithubData {
     # 从browser工具获取JSON后保存
     param([string]$JsonContent, [string]$DataDir)
-    
+
     try {
         $data = $JsonContent | ConvertFrom-Json
         $items = $data.items
-        
+
         $projects = @()
         foreach ($item in $items) {
             $desc = if ($item.description) { $item.description } else { "" }
@@ -124,7 +124,7 @@ function Save-GithubData {
                 valueScore = Get-Score $item.stargazers_count $desc
             }
         }
-        
+
         # 去重
         $seen = @{}
         $unique = @()
@@ -134,16 +134,16 @@ function Save-GithubData {
                 $unique += $p
             }
         }
-        
+
         # 排序
         $unique = $unique | Sort-Object -Property valueScore -Descending | Select-Object -First 30
-        
+
         # 保存
         $dateFile = "$DataDir\github-trending-$DateStr.json"
         $latestFile = "$DataDir\github-trending_latest.json"
         $unique | ConvertTo-Json -Depth 5 | Out-File -FilePath $dateFile -Encoding UTF8
         $unique | ConvertTo-Json -Depth 5 | Out-File -FilePath $latestFile -Encoding UTF8
-        
+
         Write-Log "已保存 $($unique.Count) 个项目到 $dateFile"
         return $unique
     } catch {
@@ -188,16 +188,16 @@ function New-MarkdownReport {
     [void]$sb.AppendLine("**项目数量**: $($Projects.Count)")
     [void]$sb.AppendLine("")
     [void]$sb.AppendLine("---")
-    
+
     $cats = @{
         "AI/ML" = ($Projects | Where-Object { $_.category -eq "AI/ML" } | Sort-Object -Property valueScore -Descending)
         "开发工具" = ($Projects | Where-Object { $_.category -eq "开发工具" } | Sort-Object -Property valueScore -Descending)
         "其他" = ($Projects | Where-Object { $_.category -notin @("AI/ML","开发工具") } | Sort-Object -Property valueScore -Descending)
     }
-    
+
     $catNames = @("AI/ML", "开发工具", "其他")
     $catIcons = @{ "AI/ML" = "🔴"; "开发工具" = "🔧"; "其他" = "📊" }
-    
+
     foreach ($cat in $catNames) {
         $items = $cats[$cat]
         if ($items.Count -gt 0) {
@@ -212,7 +212,7 @@ function New-MarkdownReport {
             }
         }
     }
-    
+
     [void]$sb.AppendLine("")
     [void]$sb.AppendLine("*来源: GitHub API 自动采集 (v3 - 浏览器模式)*")
     return $sb.ToString()
@@ -224,19 +224,77 @@ function New-MarkdownReport {
 Write-Log "========== GitHub Trending 采集 v3 =========="
 Write-Log "日期: $DateStr"
 
-# 如果没有JSON数据文件，使用Bing回退
+# 如果没有JSON数据文件,使用Bing回退
 $dataFile = "$DataDir\github-trending-$DateStr.json"
 $latestFile = "$DataDir\github-trending_latest.json"
 
+# 检查是否有最新数据文件
 if ((Test-Path $latestFile) -and (Get-Content $latestFile -Raw | ConvertFrom-Json)) {
     Write-Log "发现已有数据: $latestFile"
-    $projects = Get-Content $latestFile -Raw | ConvertFrom-Json | ForEach-Object { $_ }
-    Write-Log "加载了 $($projects.Count) 个项目"
+    
+    try {
+        $jsonData = Get-Content $latestFile -Raw | ConvertFrom-Json
+        
+        # 处理不同格式的JSON数据
+        if ($jsonData.projects -is [Array]) {
+            # v3格式：直接是projects数组
+            $projects = $jsonData.projects
+            Write-Log "加载了 $($projects.Count) 个项目 (v3格式)"
+        } elseif ($jsonData.top_repositories -is [Array]) {
+            # 旧v2格式：从top_repositories转换
+            Write-Log "检测到旧v2格式，转换为v3格式..."
+            $projects = @()
+            foreach ($repo in $jsonData.top_repositories) {
+                $projects += @{
+                    name = $repo.name
+                    stars = $repo.stars
+                    description = $repo.description
+                    url = "https://github.com/$($repo.name)"
+                    language = $repo.language
+                    category = Get-Category $repo.name $repo.description $repo.language
+                    valueScore = Get-Score $repo.stars $repo.description
+                }
+            }
+            Write-Log "从旧格式转换: $($projects.Count) 个项目"
+            
+            # 保存为新的v3格式以便后续使用
+            $projects | ConvertTo-Json -Depth 5 | Out-File -FilePath $latestFile -Encoding UTF8
+        } elseif ($jsonData.repos -is [Array]) {
+            # tech目录格式：从repos转换
+            Write-Log "检测到tech格式，转换为v3格式..."
+            $projects = @()
+            foreach ($repo in $jsonData.repos) {
+                $projects += @{
+                    name = $repo.name
+                    stars = $repo.stars
+                    description = $repo.description
+                    url = $repo.url
+                    language = $repo.language
+                    category = $repo.category
+                    valueScore = $repo.valueScore
+                }
+            }
+            Write-Log "从tech格式转换: $($projects.Count) 个项目"
+            
+            # 保存为新的v3格式以便后续使用
+            $projects | ConvertTo-Json -Depth 5 | Out-File -FilePath $latestFile -Encoding UTF8
+        } else {
+            # 未知格式，尝试作为单个对象处理
+            $projects = @($jsonData)
+            Write-Log "未知格式，作为单个项目处理"
+        }
+        
+    } catch {
+        Write-Log "解析JSON失败: $($_.Exception.Message)" "ERROR"
+        Write-Log "使用Bing搜索回退..."
+        $projects = Get-GithubTrendingViaBing
+        Write-Log "Bing搜索到 $($projects.Count) 个项目"
+    }
 } else {
     Write-Log "使用Bing搜索回退..."
     $projects = Get-GithubTrendingViaBing
     Write-Log "Bing搜索到 $($projects.Count) 个项目"
-    
+
     if ($projects.Count -gt 0) {
         # 保存
         $projects | ConvertTo-Json -Depth 5 | Out-File -FilePath $dataFile -Encoding UTF8
