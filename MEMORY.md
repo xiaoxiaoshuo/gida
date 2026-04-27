@@ -234,3 +234,57 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - cron调度：price-refresh-hourly（每小时）最关键，不可中断
 - **GitHub push的PowerShell退出码1是假阳性**：当使用 `command 2>&1` 时，即使push成功PowerShell也可能返回exit code 1。真正要看的是输出中的 `old..new branch -> branch` 确认行
 - **Bing搜索无法可靠采集黄金/原油价格**：搜索结果摘要通常不含价格数字，导致正则提取到错误值（如页面元素ID "20"）。替代方案：直接抓 goldprice.org / oilprice.com / 新浪财经API
+
+### 2026-04-23 - BTC强势反弹，市场情绪修复
+- **BTC强势反弹**: $71.5K → $75.8K（+6%），F&G从14→33（极度恐慌→恐惧）
+- Fear & Greed Index 14→33，市场情绪从"极度恐慌"修复至"恐惧"区间
+- 每日采集正常：宏观数据+AI新闻+GitHub Trending历史归档
+
+### 2026-04-24~27 - 采集管道稳定运行
+- **每小时采集稳定**: collect-prices-simple.ps1 + macro-data-collector.ps1 持续运行
+- **GitHub推送正常**: HTTPS/443方案持续有效
+- **F&G观察**: 24日39→25日31→26-27日33→47（中性区间）
+- 晚间简报生成正常（briefings/2026-04-24.md等）
+- GitHub Trending历史库持续追加（共7条记录）
+
+### 2026-04-27 - 晚间简报生成 + 黄金BUG子智能体修复
+- **晚间简报**: briefings/2026-04-27-evening.md 生成
+- **子智能体修复黄金BUG**: prices_latest.json回源方案确认
+  - 黄金降级链：浏览器采集失败 → web_fetch失败 → **prices_latest.json回源**
+  - 原油降级链：浏览器采集失败 → 正则匹配失败 → EIA API降级
+- **新脚本**: collect-ai-news-rss.ps1（RSS方案测试）
+
+### 2026-04-28 - GitHub历史库补采 + Oil数据诊断
+- **GitHub历史库补采**: github-trending-history.json 持续追加
+- **Oil数据诊断**: oilprice.com正则匹配持续失败，已稳定降级到EIA API
+- **宏观数据采集**: 04:25时成功使用 `prices_latest.json macro.GOLD` 回源
+- **GitHub推送间歇性失败**: 02:22-02:23两次推送失败（2/3重试后成功）
+
+### 2026-04-21~28 技术决策汇总
+
+#### GitHub Push
+- **问题**: SSL/GFW阻断导致502/443
+- **解决**: `git config --global http.sslVerify false` + HTTPS/443
+- **状态**: 已稳定，间歇性网络波动时会失败重试
+
+#### 黄金采集降级链
+1. Brave浏览器 goldprice.org → 403 Forbidden
+2. web_fetch kitco.com → "Operation is not valid" / Timeout
+3. **prices_latest.json macro.GOLD回源** → 成功（4/28确认）
+- 黄金价格持续用估算值（estPrice），数据置信度低
+
+#### 原油采集降级链
+1. oilprice.com浏览器/正则 → 匹配失败/SSL错误
+2. EIA API → 成功（稳定）
+- WTI原油通过EIA API稳定获取
+
+#### GitHub Trending采集
+- 浏览器方案（gh-trending-v4.ps1）替代Bing搜索
+- 历史库github-trending-history.json持续追加
+- 共7条记录（截至4/27）
+
+### 待处理问题（2026-04-28）
+1. **黄金价格数据质量**: 持续估算值，需确认prices_latest.json回源是否真正拿到真实价格
+2. **Oil正则匹配**: oilprice.com页面结构变化，正则失效，依赖EIA API降级
+3. **GitHub推送间歇性失败**: 网络波动时偶发02/03次重试
+4. **F&G波动**: 31→33→47（4/25-4/27），需观察是否趋势性修复
