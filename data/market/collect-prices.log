@@ -123,3 +123,16 @@
 [INFO] 22:32:23 -   采集 SOL ...
 [OK] 22:32:24 -   SOL = 85.26 [CryptoCompare_API] 质量:高
 [INFO] 22:32:24 - >> 采集VIX恐慌指数...
+[WARN] 22:32:27 - VIX Yahoo Finance API全部失败，降级到F&G(alternative.me)...
+[WARN] 22:32:28 -   F&G = 47 (Neutral) [alternative.me 降级替代VIX]
+[OK] 22:32:28 -   VIX = 47 [alternative.me_FNG] 质量:中
+[INFO] 22:32:28 - >> 采集黄金价格...
+[INFO] 22:32:31 -   GOLD Kitco字体样式正则成功: 4687.9
+[OK] 22:32:31 -   GOLD = 4687.9 [kitco.com] 质量:中
+[INFO] 22:32:31 - >> 采集原油价格...
+[INFO] 22:32:38 -   OIL TradingEconomics抓取成功: 96.15
+[OK] 22:32:38 -   OIL = 96.15 [tradingeconomics.com] 质量:中
+[INFO] 22:32:38 - ========== 采集完成 ==========
+[INFO] 22:32:38 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-04-27_22-32.json
+[INFO] 22:32:38 - 质量: 高 (平均分 82.5)
+[INFO] 22:32:38 - 错误: 0 项
