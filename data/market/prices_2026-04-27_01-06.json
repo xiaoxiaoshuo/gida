@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "raw": "{\"USD\":78006.28}",
+      "price": 78006.28,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 01:06:23"
+    },
+    "ETH": {
+      "raw": "{\"USD\":2345.1}",
+      "price": 2345.1,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 01:06:23"
+    },
+    "SOL": {
+      "raw": "{\"USD\":86.42}",
+      "price": 86.42,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 01:06:23"
+    }
+  },
+  "macro": {
+    "VIX": {
+      "timestamp": "2026-04-27 01:06:23",
+      "source": "Yahoo_Finance_VIX",
+      "value": 18.71,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "value": 4710.8,
+      "raw_len": 60291,
+      "unit": "USD/oz",
+      "timestamp": "2026-04-27 01:06:23",
+      "confidence": "high",
+      "source": "kitco.com"
+    },
+    "OIL": {
+      "value": 94.4,
+      "raw_len": 360905,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-27 01:06:23",
+      "confidence": "high",
+      "source": "tradingeconomics.com"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp": "2026-04-27 01:06:23",
+  "errors": [],
+  "timestamp_iso": "2026-04-26T17:06:23Z"
+}

@@ -1,0 +1,86 @@
+{
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "raw_len": 414478,
+      "timestamp": "2026-04-27 06:06:23",
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)",
+      "value": 95.84
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "raw_len": 60657,
+      "timestamp": "2026-04-27 06:06:23",
+      "confidence": "high",
+      "unit": "USD/oz",
+      "value": 4698.0
+    },
+    "VIX": {
+      "value": 18.71,
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "timestamp": "2026-04-27 06:06:23",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "quality_report": {
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "collection_version": "v8",
+  "errors": [],
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "price": 78510.72,
+      "confidence": "high",
+      "timestamp": "2026-04-27 06:06:23",
+      "raw": "{\"USD\":78510.72}"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "price": 86.92,
+      "confidence": "high",
+      "timestamp": "2026-04-27 06:06:23",
+      "raw": "{\"USD\":86.92}"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "price": 2368.67,
+      "confidence": "high",
+      "timestamp": "2026-04-27 06:06:23",
+      "raw": "{\"USD\":2368.67}"
+    }
+  },
+  "timestamp": "2026-04-27 06:06:23",
+  "timestamp_iso": "2026-04-26T22:06:23Z"
+}

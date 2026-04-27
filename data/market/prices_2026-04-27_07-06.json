@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-04-27 07:06:24",
+  "timestamp_iso": "2026-04-26T23:06:24Z",
+  "quality_report": {
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "score": 65,
+      "label": "中",
+      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "errors": [],
+  "macro": {
+    "GOLD": {
+      "timestamp": "2026-04-27 07:06:24",
+      "value": 4682.4,
+      "confidence": "high",
+      "raw_len": 60709,
+      "unit": "USD/oz",
+      "source": "kitco.com"
+    },
+    "VIX": {
+      "timestamp": "2026-04-27 07:06:24",
+      "value_classification": "Fear",
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"33\",\n\t\t\t\"value_classification\": \"Fear",
+      "value": 33,
+      "confidence": "medium",
+      "source": "alternative.me_FNG",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标"
+    },
+    "OIL": {
+      "timestamp": "2026-04-27 07:06:24",
+      "value": 96.09,
+      "confidence": "high",
+      "raw_len": 414475,
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com"
+    }
+  },
+  "collection_version": "v8",
+  "crypto": {
+    "BTC": {
+      "timestamp": "2026-04-27 07:06:24",
+      "price": 78366.08,
+      "raw": "{\"USD\":78366.08}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "SOL": {
+      "timestamp": "2026-04-27 07:06:24",
+      "price": 86.71,
+      "raw": "{\"USD\":86.71}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "ETH": {
+      "timestamp": "2026-04-27 07:06:24",
+      "price": 2359.62,
+      "raw": "{\"USD\":2359.62}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    }
+  }
+}

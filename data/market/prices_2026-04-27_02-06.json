@@ -1,0 +1,86 @@
+{
+  "errors": [],
+  "timestamp_iso": "2026-04-26T18:06:24Z",
+  "quality_report": {
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high",
+      "value": 18.71,
+      "timestamp": "2026-04-27 02:06:24"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "timestamp": "2026-04-27 02:06:24",
+      "raw_len": 60291,
+      "value": 4710.8,
+      "unit": "USD/oz",
+      "confidence": "high"
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-27 02:06:24",
+      "raw_len": 360905,
+      "value": 94.4,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "raw": "{\"USD\":78017.05}",
+      "confidence": "high",
+      "timestamp": "2026-04-27 02:06:24",
+      "source": "CryptoCompare_API",
+      "price": 78017.05
+    },
+    "SOL": {
+      "raw": "{\"USD\":86.49}",
+      "confidence": "high",
+      "timestamp": "2026-04-27 02:06:24",
+      "source": "CryptoCompare_API",
+      "price": 86.49
+    },
+    "ETH": {
+      "raw": "{\"USD\":2349.08}",
+      "confidence": "high",
+      "timestamp": "2026-04-27 02:06:24",
+      "source": "CryptoCompare_API",
+      "price": 2349.08
+    }
+  },
+  "timestamp": "2026-04-27 02:06:24"
+}

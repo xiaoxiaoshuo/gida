@@ -1,0 +1,41 @@
+{
+  "macro": {
+    "VIX": {
+      "confidence": "high",
+      "value": 18.71,
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-04-26 23:06:23",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "errors": [
+    "BTC : all sources failed",
+    "SOL : all sources failed",
+    "GOLD : failed",
+    "OIL : failed"
+  ],
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-26T15:06:23Z",
+  "quality_report": {
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    }
+  },
+  "crypto": {
+    "ETH": {
+      "price": 2345.21,
+      "confidence": "high",
+      "source": "Gateio_API",
+      "timestamp": "2026-04-26 23:06:23",
+      "raw": "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"2345.21\",\"lowest_ask\":\"2345.13\",\"lowest_siz"
+    }
+  },
+  "timestamp": "2026-04-26 23:06:23"
+}
