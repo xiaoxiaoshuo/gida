@@ -133,11 +133,11 @@ if (Test-Path $ghLatest) {
         $todayEntry = @{
             date = $DateStr
             timestamp = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
-            data = @()
+            repos = @()
         }
         $ghJson = Get-Content $ghLatest -Raw | ConvertFrom-Json
         if ($ghJson.projects) {
-            $todayEntry.data = $ghJson.projects
+            $todayEntry.repos = $ghJson.projects
         }
 
         # 读取或创建历史记录
@@ -162,7 +162,7 @@ if (Test-Path $ghLatest) {
         foreach ($item in $history) {
             if ($item.date -eq $DateStr) {
                 $item.timestamp = $todayEntry.timestamp
-                $item.data = $todayEntry.data
+                $item.repos = $todayEntry.repos
                 $alreadyExists = $true
                 break
             }

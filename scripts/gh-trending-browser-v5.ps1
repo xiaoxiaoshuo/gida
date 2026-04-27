@@ -189,6 +189,11 @@ function Save-Results {
     $historyList = @()
     if ($rawHistory -and $rawHistory.history) {
         foreach ($item in $rawHistory.history) {
+            # 对没有 repos 但有 data 的条目进行转换（兼容旧格式）
+            if ($item.repos -eq $null -and $item.data -ne $null) {
+                $item.repos = $item.data
+                $item.PSObject.Properties.Remove('data')
+            }
             # 跳过无效条目（没有 date 或 repos 为空/空数组）
             if (-not $item.date) { continue }
             if ($item.repos -eq $null -or ($item.repos -is [System.Array] -and $item.repos.Count -eq 0)) { continue }

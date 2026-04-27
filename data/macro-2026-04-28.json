@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-04-28 07:31:49",
+  "date": "2026-04-28",
+  "data": {
+    "VIX": {
+      "timestamp": "2026-04-28 07:31:35",
+      "value": 47,
+      "value_classification": "Neutral",
+      "confidence": "medium",
+      "source": "alternative.me (F&G降级)",
+      "note": "实际采集的是Fear&Greed指数，不是VIX"
+    },
+    "GOLD": {
+      "confidence": "high",
+      "timestamp": "2026-04-28 07:06:24",
+      "value": 4689.7,
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "raw_len": 60774
+    },
+    "OIL": {
+      "confidence": "high",
+      "value": 96.66,
+      "timestamp": "2026-04-28 07:31:35",
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com (fetch)"
+    }
+  }
+}
