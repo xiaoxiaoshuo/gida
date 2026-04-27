@@ -1,5 +1,4 @@
 {
-  "errors": [],
   "macro": {
     "VIX": {
       "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"47\",\n\t\t\t\"value_classification\": \"Neut",
@@ -27,7 +26,6 @@
       "source": "tradingeconomics.com"
     }
   },
-  "timestamp_iso": "2026-04-27T22:06:24Z",
   "crypto": {
     "SOL": {
       "price": 84.31,
@@ -51,38 +49,6 @@
       "source": "CryptoCompare_API"
     }
   },
-  "collection_version": "v8",
-  "timestamp": "2026-04-28 06:06:24",
-  "quality_report": {
-    "VIX": {
-      "score": 65,
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中"
-    },
-    "BTC": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "GOLD": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "SOL": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "OIL": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "ETH": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    }
-  }
+  "timestamp": "2026-04-28 06:06:40",
+  "source": "hourly-price-collector"
 }
