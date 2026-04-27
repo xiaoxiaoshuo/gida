@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-04-28T01:06:31Z",
-  "collection_time": "2026-04-28T01:06:31Z",
+  "source": "EIA_API",
+  "timestamp": "2026-04-28T02:06:30Z",
+  "collection_time": "2026-04-28T02:06:30Z",
   "prices": {
     "WTI_Crude": {
       "price": 91.06,
       "change": null,
       "change_pct": null
     }
-  },
-  "source": "EIA_API"
+  }
 }
