@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "errors": [],
+  "timestamp": "2026-04-27 12:06:24",
+  "collection_version": "v8",
+  "crypto": {
+    "SOL": {
+      "price": 87.69,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":87.69}",
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "price": 2393.45,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":2393.45}",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "price": 79082.68,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":79082.68}",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "macro": {
+    "GOLD": {
+      "value": 4726.1,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "unit": "USD/oz",
+      "raw_len": 60797,
+      "source": "kitco.com"
+    },
+    "VIX": {
+      "value": 18.71,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX"
+    },
+    "OIL": {
+      "value": 95.4,
+      "timestamp": "2026-04-27 12:06:24",
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 414693,
+      "source": "tradingeconomics.com"
+    }
+  },
+  "timestamp_iso": "2026-04-27T04:06:24Z"
+}

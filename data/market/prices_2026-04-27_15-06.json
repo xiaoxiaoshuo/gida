@@ -1,0 +1,86 @@
+{
+  "collection_version": "v8",
+  "crypto": {
+    "SOL": {
+      "timestamp": "2026-04-27 15:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 85.66,
+      "raw": "{\"USD\":85.66}"
+    },
+    "ETH": {
+      "timestamp": "2026-04-27 15:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 2320.17,
+      "raw": "{\"USD\":2320.17}"
+    },
+    "BTC": {
+      "timestamp": "2026-04-27 15:06:24",
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 77593.7,
+      "raw": "{\"USD\":77593.7}"
+    }
+  },
+  "timestamp_iso": "2026-04-27T07:06:24Z",
+  "macro": {
+    "GOLD": {
+      "confidence": "high",
+      "source": "kitco.com",
+      "value": 4716.3,
+      "timestamp": "2026-04-27 15:06:24",
+      "raw_len": 60789,
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "confidence": "high",
+      "source": "tradingeconomics.com",
+      "value": 96.07,
+      "timestamp": "2026-04-27 15:06:24",
+      "raw_len": 414980,
+      "unit": "USD/barrel (WTI)"
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "value": 18.71,
+      "confidence": "high",
+      "timestamp": "2026-04-27 15:06:24",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "timestamp": "2026-04-27 15:06:24",
+  "quality_report": {
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    }
+  },
+  "errors": []
+}

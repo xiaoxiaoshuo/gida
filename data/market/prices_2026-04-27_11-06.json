@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "confidence": "high",
+      "price": 79184.74,
+      "raw": "{\"USD\":79184.74}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 11:06:28"
+    },
+    "SOL": {
+      "confidence": "high",
+      "price": 87.85,
+      "raw": "{\"USD\":87.85}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 11:06:28"
+    },
+    "ETH": {
+      "confidence": "high",
+      "price": 2393.76,
+      "raw": "{\"USD\":2393.76}",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-27 11:06:28"
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "VIX": {
+      "confidence": "high",
+      "value": 18.71,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-04-27 11:06:28"
+    },
+    "OIL": {
+      "confidence": "high",
+      "value": 95.27,
+      "raw_len": 414622,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-27 11:06:28",
+      "source": "tradingeconomics.com"
+    },
+    "GOLD": {
+      "confidence": "high",
+      "value": 4722.2,
+      "raw_len": 60726,
+      "unit": "USD/oz",
+      "timestamp": "2026-04-27 11:06:28",
+      "source": "kitco.com"
+    }
+  },
+  "timestamp_iso": "2026-04-27T03:06:28Z",
+  "timestamp": "2026-04-27 11:06:28",
+  "errors": []
+}
