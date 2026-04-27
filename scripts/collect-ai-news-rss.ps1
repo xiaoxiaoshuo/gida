@@ -22,6 +22,13 @@ function Get-Text {
     param($obj)
     if ($null -eq $obj) { return "" }
     if ($obj -is [string]) { return $obj.Trim() }
+    # Handle XmlElement - extract InnerText or first child text
+    if ($obj -is [System.Xml.XmlElement]) {
+        if ($obj.InnerText) { return $obj.InnerText.Trim() }
+        if ($obj.FirstChild -and $obj.FirstChild.'#text') { return $obj.FirstChild.'#text'.Trim() }
+        if ($obj.FirstChild -and $obj.FirstChild.Value) { return $obj.FirstChild.Value.Trim() }
+        return ""
+    }
     if ($obj.'#text') { return $obj.'#text'.Trim() }
     return [string]$obj
 }
@@ -74,7 +81,7 @@ foreach ($src in $sources) {
                 $title = Get-Text $item.title
                 $link = Get-Text $item.link
                 $desc = (Get-Text $item.summary) ?? (Get-Text $item.description) ?? (Get-Text $item.content)
-                $date = (Get-Text $item.updated) ?? (Get-Text $item.pubDate)
+                $date = (Get-Text $item.updated) ?? (Get-Text $item.published) ?? (Get-Text $item.pubDate)
                 # Handle link as attribute href for Atom
                 if (-not $link -and $item.link.href) { $link = $item.link.href }
                 if (-not $link -and $item.link -is [string] -and $item.link -match '^https?://') { $link = $item.link }

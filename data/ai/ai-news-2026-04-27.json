@@ -1,98 +1,400 @@
 {
-  "source": "github.com",
-  "query": "stars:>1000 pushed:>2026-04-22",
-  "collection_time": "2026-04-23T03:12:00Z",
-  "total_count": 1325,
-  "repos": [
+  "count": 67,
+  "timestamp": "2026-04-27T19:02:26Z",
+  "items": [
     {
-      "rank": 1,
-      "name": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
-      "stars": 362501,
-      "forks": 74045,
-      "language": "TypeScript",
-      "pushed_at": "2026-04-23T03:05:33Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+      "title": "Meta inks deal for solar power at night, beamed from space",
+      "desc": ""
     },
     {
-      "rank": 2,
-      "name": "tensorflow/tensorflow",
-      "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 194834,
-      "forks": 75278,
-      "language": "C++",
-      "pushed_at": "2026-04-23T03:08:08Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+      "desc": ""
     },
     {
-      "rank": 3,
-      "name": "ultraworkers/claw-code",
-      "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Built in Rust using oh-my-codex.",
-      "stars": 187568,
-      "forks": 109141,
-      "language": "Rust",
-      "pushed_at": "2026-04-23T00:24:27Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+      "desc": ""
     },
     {
-      "rank": 4,
-      "name": "n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 185190,
-      "forks": 57041,
-      "language": "TypeScript",
-      "pushed_at": "2026-04-23T02:30:49Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+      "title": "Maine’s governor vetoes data center moratorium",
+      "desc": ""
     },
     {
-      "rank": 5,
-      "name": "microsoft/vscode",
-      "description": "Visual Studio Code",
-      "stars": 184162,
-      "forks": 39358,
-      "language": "TypeScript",
-      "pushed_at": "2026-04-23T02:57:19Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "desc": ""
     },
     {
-      "rank": 6,
-      "name": "Significant-Gravitas/AutoGPT",
-      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on.",
-      "stars": 183678,
-      "forks": 46222,
-      "language": "Python",
-      "pushed_at": "2026-04-23T02:55:03Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "desc": ""
     },
     {
-      "rank": 7,
-      "name": "flutter/flutter",
-      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-      "stars": 176080,
-      "forks": 30269,
-      "language": "Dart",
-      "pushed_at": "2026-04-23T02:35:04Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+      "title": "Why Tokyo is the most important tech destination of 2026",
+      "desc": ""
     },
     {
-      "rank": 8,
-      "name": "ollama/ollama",
-      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-      "stars": 169734,
-      "forks": 15742,
-      "language": "Go",
-      "pushed_at": "2026-04-23T03:06:56Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+      "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+      "desc": ""
     },
     {
-      "rank": 9,
-      "name": "affaan-m/everything-claude-code",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 164395,
-      "forks": 25514,
-      "language": "JavaScript",
-      "pushed_at": "2026-04-23T02:46:16Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+      "title": "Meta’s loss is Thinking Machines’ gain",
+      "desc": ""
     },
     {
-      "rank": 10,
-      "name": "huggingface/transformers",
-      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-      "stars": 159773,
-      "forks": 32980,
-      "language": "Python",
-      "pushed_at": "2026-04-23T01:50:52Z"
+      "source": "TechCrunch AI",
+      "date": "",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+      "title": "The Download: supercharged scams and studying AI healthcare",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+      "title": "Health-care AI is here. We don’t know if it actually helps patients.",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/",
+      "title": "The Download: introducing the Nature issue",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/",
+      "title": "Will fusion power get cheap? Don’t count on it.",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/",
+      "title": "The Download: introducing the 10 Things That Matter in AI Right Now",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+      "title": "AI needs a strong data fabric to deliver business value",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/22/1135423/3-things-michelle-kim/",
+      "title": "3 things Michelle Kim is into right now",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/22/1135430/california-town-scheme-get-rid-geese/",
+      "title": "One town’s scheme to get rid of its geese",
+      "desc": ""
+    },
+    {
+      "source": "MIT Technology Review",
+      "date": "",
+      "url": "https://www.technologyreview.com/2026/04/22/1135440/editors-letter-may-2026/",
+      "title": "There is no nature anymore",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in",
+      "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+      "desc": ""
+    },
+    {
+      "source": "VentureBeat AI",
+      "date": "",
+      "url": "https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are",
+      "title": "The creator of Claude Code just revealed his workflow, and developers are losing their minds",
+      "desc": ""
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-24T14:47:48-04:00",
+      "url": "https://www.theverge.com/transportation/918411/gm-ai-car-design-nissan-neural-concept",
+      "title": "The AI-designed car is taking shape",
+      "desc": "The auto design world is full of advanced 3D visualization tools and VR sculpting platforms, but your average new car still enters the world as a sketch. Those sketches traditionally see endless iteration and refinement from all angles before being turned into 3D models by hand, some dying in the digital world, others sculpted into [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-27T06:10:30-04:00",
+      "url": "https://www.theverge.com/gadgets/918919/turtle-beach-mc7-gaming-mouse-touchscreen-command-series",
+      "title": "This touchscreen mouse is my over-engineering nightmare",
+      "desc": "Turtle Beach's latest collection of PC peripherals are so focused around touchscreen displays that the company even slapped one on a gaming mouse. The $160 wireless Command Series MC7 features a 2.25-inch touch display bar on the left side of the mouse, which seems to be located in just the right position for users to [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-26T14:34:26-04:00",
+      "url": "https://www.theverge.com/tech/918852/googles-new-gradient-icon-design-is-coming-to-more-apps",
+      "title": "Google’s new gradient icon design is coming to more apps",
+      "desc": "In late 2025, Google started rolling out new icons with a gradient design. Now it seems the new look is coming to the rest of Google's apps. 9to5Google got its hands on images of the new icons that ditch the uniform circle design that tries to cram in every color of the Google logo. In [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-26T12:18:02-04:00",
+      "url": "https://www.theverge.com/policy/918843/trump-whcd-attack-white-house-ballroom",
+      "title": "Trump turns the WHCD shooting into a pitch for the White House ballroom",
+      "desc": "Within hours of an armed gunman's attempt to enter the White House Correspondents Dinner, attended by top administration officials and hundreds of journalists, President Donald Trump did what he does best: use the assassination attempt to defend his ballroom project. During a White House press conference just hours after he and several cabinet members were [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-26T16:16:16-04:00",
+      "url": "https://www.theverge.com/entertainment/918826/tomora-come-closer-review-90s-dance-music",
+      "title": "Tomora’s Come Closer is an ecstatic love letter to 90s dance music",
+      "desc": "Before Coachella, Tomora wasn't on my radar at all. It's actually only by chance that I stumbled upon them - I opened the wrong stream because my TV was lagging like a MFer. I paused for a few moments, entranced by the two ethereal Nordic women banging on giant drums to a techno beat. I [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-26T10:05:03-04:00",
+      "url": "https://www.theverge.com/gadgets/918544/skylight-15-inch-smart-calendar-2-mothers-day-deal-2026-sale",
+      "title": "Skylight’s 15-inch smart calendar is down to its lowest price to date",
+      "desc": "When you’re juggling more than just your own calendar, staying organized can be overwhelming. Fortunately, the Skylight Calendar 2 can help simplify things by syncing multiple calendars in a single spot, and now through May 7th, it’s available directly from Skylight for $259.99 ($40 off), its best price to date. Skylight’s 15-inch smart calendar improves [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-25T21:57:19-04:00",
+      "url": "https://www.theverge.com/tech/918797/switched-to-linux-dont-miss-windows",
+      "title": "After three months on Linux, I don’t miss Windows at all",
+      "desc": "In January I finally made good on my threat/promise to install Linux on my desktop. I wanted to see how far I could get using a Linux PC as my main computer without doing a bunch of research beforehand or troubleshooting afterwards. Since then I have booted into Windows exactly twice: once to scan a [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-24T15:49:55-04:00",
+      "url": "https://www.theverge.com/column/918079/david-zaslav-warner-bros-discovery-coyote-v-acme-batgirl-tax-writeoffs",
+      "title": "The plan to quietly kill Coyote v. Acme blew up in David Zaslav&#8217;s face",
+      "desc": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Hollywood trends and streaming culture, follow Charles Pulliam-Moore. The Stepback arrives in our subscribers' inboxes on Sundays at 8AM ET. Opt in for The Stepback here. How it started Under David Zaslav's leadership, WBD got very [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-25T18:29:03-04:00",
+      "url": "https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board",
+      "title": "Trump fires the entire National Science Board",
+      "desc": "Multiple sources are reporting that the Trump administration has dismissed the entire National Science Board (NSB). The NSB advises the president and Congress on the National Science Foundation (NSF), which has already been funding research at historically low levels and has seen significant delays in doling out that funding. The NSF has been fundamental in [&#8230;]"
+    },
+    {
+      "source": "The Verge",
+      "date": "2026-04-25T14:25:23-04:00",
+      "url": "https://www.theverge.com/tech/918765/an-influx-of-used-evs-could-drive-down-prices",
+      "title": "An influx of used EVs could drive down prices",
+      "desc": "Part of what has held back electric cars has been the cost. But an influx of used vehicles over the next three years could bring prices down dramatically. In 2025, just 123,000 leases on EVs expired. That is expected to more than double to 300,000 in 2026, and double again to 600,000 in 2027 and [&#8230;]"
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+      "title": "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/",
+      "title": "In a first, a ransomware family is confirmed to be quantum-safe",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/",
+      "title": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/",
+      "title": "Contrary to popular superstition, AES 128 is just fine in a post-quantum world",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/",
+      "title": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/",
+      "title": "Recent advances push Big Tech closer to the Q-Day danger zone",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/",
+      "title": "“Negative” views of Broadcom driving thousands of VMware migrations, rival says",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/",
+      "title": "Iran-linked hackers disrupt operations at US critical infrastructure sites",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/",
+      "title": "Thousands of consumer routers hacked by Russia's military",
+      "desc": ""
+    },
+    {
+      "source": "Ars Technica",
+      "date": "",
+      "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+      "title": "OpenClaw gives users yet another reason to be freaked out about security",
+      "desc": ""
+    },
+    {
+      "source": "Wired Science",
+      "date": "",
+      "url": "https://www.wired.com/story/war-on-iran-unseen-impact-on-environment/",
+      "title": "The Iran War Is Impacting the Environment in Unseen Ways",
+      "desc": ""
+    },
+    {
+      "source": "Wired Science",
+      "date": "",
+      "url": "https://www.wired.com/story/wired-health-2026-how-ai-is-powering-drug-discovery-max-jaderberg/",
+      "title": "AI-Designed Drugs by a DeepMind Spinoff Are Headed to Human Trials",
+      "desc": ""
+    },
+    {
+      "source": "Wired Science",
+      "date": "",
+      "url": "https://www.wired.com/story/designer-baby-companies-are-in-turmoil/",
+      "title": "Designer Baby Companies Are in Turmoil",
+      "desc": ""
+    }
+  ],
+  "sources": [
+    {
+      "name": "TechCrunch AI",
+      "path": "rss.channel.item",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "MIT Technology Review",
+      "path": "rss.channel.item",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "VentureBeat AI",
+      "path": "rss.channel.item",
+      "count": 7,
+      "status": "ok"
+    },
+    {
+      "name": "The Verge",
+      "path": "feed.entry",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "Ars Technica",
+      "path": "rss.channel.item",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "Wired Science",
+      "path": "rss.channel.item",
+      "count": 10,
+      "status": "ok"
+    },
+    {
+      "name": "Slashdot",
+      "path": "RDF.Item",
+      "count": 10,
+      "status": "ok"
     }
   ]
 }
