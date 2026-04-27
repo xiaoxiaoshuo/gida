@@ -1,40 +1,5 @@
 {
-  "collection_version": "v8",
-  "errors": [],
-  "timestamp": "2026-04-27 23:06:24",
-  "quality_report": {
-    "GOLD": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "ETH": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "SOL": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "VIX": {
-      "score": 65,
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中"
-    },
-    "OIL": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "BTC": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    }
-  },
-  "timestamp_iso": "2026-04-27T15:06:24Z",
+  "timestamp": "2026-04-27 23:07:03",
   "crypto": {
     "SOL": {
       "raw": "{\"USD\":84.84}",
@@ -84,5 +49,6 @@
       "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
       "timestamp": "2026-04-27 23:06:24"
     }
-  }
+  },
+  "source": "hourly-price-collector"
 }

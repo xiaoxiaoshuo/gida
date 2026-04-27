@@ -1,8 +1,8 @@
 {
-  "collection_time": "2026-04-27T22:06:35Z",
-  "price_per_oz": 4669.75,
-  "timestamp": "2026-04-27T22:06:35Z",
+  "currency": "USD",
+  "timestamp": "2026-04-27T23:06:39Z",
   "source": "estimated_from_last",
   "note": "估算值",
-  "currency": "USD"
+  "collection_time": "2026-04-27T23:06:39Z",
+  "price_per_oz": 4660.41
 }
