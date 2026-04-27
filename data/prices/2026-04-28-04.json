@@ -26,6 +26,7 @@
       "raw_len": 60665
     }
   },
+  "source": "hourly-price-collector",
   "crypto": {
     "BTC": {
       "price": 76972.09,
@@ -49,40 +50,5 @@
       "timestamp": "2026-04-28 04:06:24"
     }
   },
-  "quality_report": {
-    "OIL": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "VIX": {
-      "label": "中",
-      "score": 65,
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "GOLD": {
-      "label": "中",
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳"
-    },
-    "ETH": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "SOL": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    },
-    "BTC": {
-      "label": "高",
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-    }
-  },
-  "timestamp_iso": "2026-04-27T20:06:24Z",
-  "collection_version": "v8",
-  "errors": [],
-  "timestamp": "2026-04-28 04:06:24"
+  "timestamp": "2026-04-28 04:06:50"
 }
