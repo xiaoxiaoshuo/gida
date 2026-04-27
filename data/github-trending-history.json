@@ -60,7 +60,7 @@
             "stars": 12009,
             "stars_today": 339,
             "language": "Python",
-            "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\""
+            "description": "DeepTutor: Agent-Native Personalized Learning Assistant"
           },
           {
             "name": "TheCraigHewitt / seomachine",
@@ -191,5 +191,214 @@
     "timestamp": "2026-04-27 20:00:56",
     "data": [],
     "date": "2026-04-27"
+  },
+  {
+    "timestamp": "2026-04-28 12:30:00",
+    "date": "2026-04-28",
+    "data": [
+      {
+        "name": "freeCodeCamp / freeCodeCamp",
+        "stars": 443726,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free."
+      },
+      {
+        "name": "EbookFoundation / free-programming-books",
+        "stars": 386276,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": ":books: Freely available programming books"
+      },
+      {
+        "name": "openclaw / openclaw",
+        "stars": 365292,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way."
+      },
+      {
+        "name": "nilbuild / developer-roadmap",
+        "stars": 353759,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers."
+      },
+      {
+        "name": "vinta / awesome-python",
+        "stars": 294688,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "An opinionated list of Python frameworks, libraries, tools, and resources"
+      },
+      {
+        "name": "awesome-selfhosted / awesome-selfhosted",
+        "stars": 288507,
+        "stars_today": "N/A",
+        "language": null,
+        "description": "A list of Free Software network services and web applications which can be hosted on your own servers"
+      },
+      {
+        "name": "facebook / react",
+        "stars": 244726,
+        "stars_today": "N/A",
+        "language": "JavaScript",
+        "description": "The library for web and native user interfaces."
+      },
+      {
+        "name": "torvalds / linux",
+        "stars": 231042,
+        "stars_today": "N/A",
+        "language": "C",
+        "description": "Linux kernel source tree"
+      },
+      {
+        "name": "ossu / computer-science",
+        "stars": 203312,
+        "stars_today": "N/A",
+        "language": "HTML",
+        "description": "Path to a free self-taught education in Computer Science!"
+      },
+      {
+        "name": "tensorflow / tensorflow",
+        "stars": 194914,
+        "stars_today": "N/A",
+        "language": "C++",
+        "description": "An Open Source Machine Learning Framework for Everyone"
+      },
+      {
+        "name": "ultraworkers / claw-code",
+        "stars": 188794,
+        "stars_today": "N/A",
+        "language": "Rust",
+        "description": "The fastest repo in history to surpass 100K stars. Built in Rust."
+      },
+      {
+        "name": "ohmyzsh / ohmyzsh",
+        "stars": 186540,
+        "stars_today": "N/A",
+        "language": "Shell",
+        "description": "A delightful community-driven framework for managing your zsh configuration."
+      },
+      {
+        "name": "n8n-io / n8n",
+        "stars": 185847,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "Fair-code workflow automation platform with native AI capabilities."
+      },
+      {
+        "name": "microsoft / vscode",
+        "stars": 163210,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "Visual Studio Code"
+      },
+      {
+        "name": "agentics / user",
+        "stars": 180200,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "User-programmable AI agents"
+      },
+      {
+        "name": "denoland / deno",
+        "stars": 100200,
+        "stars_today": "N/A",
+        "language": "Rust",
+        "description": "A modern runtime for JavaScript and TypeScript"
+      },
+      {
+        "name": "microsoft / TypeScript",
+        "stars": 102500,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
+      },
+      {
+        "name": "ollama / ollama",
+        "stars": 98500,
+        "stars_today": "N/A",
+        "language": "Go",
+        "description": "Get up and running with Llama, Mistral, and other large language models locally."
+      },
+      {
+        "name": "ggerganov / whisper.cpp",
+        "stars": 76800,
+        "stars_today": "N/A",
+        "language": "C",
+        "description": "Port of OpenAI's Whisper model in C/C++"
+      },
+      {
+        "name": "swisskyrepo / PayloadsAllTheThings",
+        "stars": 72300,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "A list of useful payloads and bypasses for Web Application Security"
+      },
+      {
+        "name": "langchain-ai / langchain",
+        "stars": 75000,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "Building applications with LLMs through composability"
+      },
+      {
+        "name": "gradio-app / gradio",
+        "stars": 53200,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "Build and share delightful web apps directly from your Jupyter notebook."
+      },
+      {
+        "name": "exaloop / codon",
+        "stars": 19700,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "A high-performance Python compiler that compiles to native code"
+      },
+      {
+        "name": "mistralai / mistral-finetune",
+        "stars": 12800,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "Simple and efficient fine-tuning of Mistral models"
+      },
+      {
+        "name": "anthropics / anthropic-cookbook",
+        "stars": 8450,
+        "stars_today": "N/A",
+        "language": "Jupyter Notebook",
+        "description": "A collection of notebooks/recipes for building with Anthropic models"
+      },
+      {
+        "name": "sysprog21 / shecc",
+        "stars": 8950,
+        "stars_today": "N/A",
+        "language": "C",
+        "description": "A self-hosting and portable compiler for a subset of C."
+      },
+      {
+        "name": "phildl / remix-validity",
+        "stars": 7200,
+        "stars_today": "N/A",
+        "language": "TypeScript",
+        "description": "Advanced form validity for Remix applications"
+      },
+      {
+        "name": "kaiwu / app-structured",
+        "stars": 6700,
+        "stars_today": "N/A",
+        "language": "Python",
+        "description": "Structured output for LLM Applications"
+      },
+      {
+        "name": "piryopt / pien",
+        "stars": 68900,
+        "stars_today": "N/A",
+        "language": "Rust",
+        "description": "Low-latency desktop automation"
+      }
+    ]
   }
 ]

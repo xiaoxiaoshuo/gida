@@ -196,13 +196,34 @@ function Get-GoldPrice-API {
             return @{ timestamp = $Timestamp; source = "sina.com.cn"; price_per_oz = [double]$parts[0]; currency = "USD"; collection_time = $Timestamp }
         }
     }
+    # Fallback: 从 prices_latest.json 读取宏观数据中的GOLD（kitco.com已采集）
+    $pricesFile = "$RepoRoot\data\market\prices_latest.json"
+    if (Test-Path $pricesFile) {
+        try {
+            $pricesJson = Get-Content $pricesFile -Raw | ConvertFrom-Json
+            if ($pricesJson.macro.GOLD.value -and $pricesJson.macro.GOLD.source -match "kitco") {
+                $price = [double]$pricesJson.macro.GOLD.value
+                if ($price -gt 1500 -and $price -lt 10000) {
+                    Write-Log "  GOLD = $$price [prices_latest.json macro.GOLD]" "OK"
+                    return @{ timestamp = $Timestamp; source = "prices_latest.json (macro.GOLD)"; price_per_oz = $price; currency = "USD"; collection_time = $Timestamp }
+                }
+            }
+        } catch { Write-Log "  prices_latest.json读取失败: $($_.Exception.Message.Substring(0,60))" "WARN" }
+    }
+    # 最后 fallback: 基于 gold_latest.json 估算
     $lastFile = "$RepoRoot\data\market\gold_latest.json"
     if (Test-Path $lastFile) {
         try {
             $last = Get-Content $lastFile -Raw | ConvertFrom-Json
-            $estPrice = [Math]::Round($last.price_per_oz * 0.998, 2)
-            Write-Log "  GOLD = $$estPrice (估算)" "WARN"
-            return @{ timestamp = $Timestamp; source = "estimated_from_last"; price_per_oz = $estPrice; currency = "USD"; note = "估算值"; collection_time = $Timestamp }
+            if ($last.price_per_oz -and $last.source -notmatch "estimated") {
+                $estPrice = [Math]::Round($last.price_per_oz * 0.998, 2)
+                Write-Log "  GOLD = $$estPrice (基于上次真实数据估算)" "WARN"
+                return @{ timestamp = $Timestamp; source = "estimated_from_last"; price_per_oz = $estPrice; currency = "USD"; note = "估算值"; collection_time = $Timestamp }
+            } elseif ($last.price_per_oz) {
+                $estPrice = [Math]::Round($last.price_per_oz * 0.998, 2)
+                Write-Log "  GOLD = $$estPrice (估算)" "WARN"
+                return @{ timestamp = $Timestamp; source = "estimated_from_last"; price_per_oz = $estPrice; currency = "USD"; note = "估算值"; collection_time = $Timestamp }
+            }
         } catch {}
     }
     Write-Log "  GOLD 全部降级失败" "ERROR"
