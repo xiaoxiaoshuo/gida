@@ -1,36 +1,5 @@
 {
-  "quality_report": {
-    "ETH": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "SOL": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "VIX": {
-      "score": 65,
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中"
-    },
-    "OIL": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "BTC": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "GOLD": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    }
-  },
+  "timestamp": "2026-04-27 22:06:47",
   "crypto": {
     "BTC": {
       "confidence": "high",
@@ -81,8 +50,5 @@
       "value": 95.74
     }
   },
-  "timestamp": "2026-04-27 22:06:24",
-  "timestamp_iso": "2026-04-27T14:06:24Z",
-  "collection_version": "v8",
-  "errors": []
+  "source": "hourly-price-collector"
 }

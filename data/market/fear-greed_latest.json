@@ -1,13 +1,13 @@
 {
-  "yesterday": null,
-  "last_week_value": null,
   "last_month": null,
-  "last_week": null,
-  "collection_time": "2026-04-27T21:06:36Z",
-  "timestamp": "2026-04-27T00:00:00Z",
+  "collection_time": "2026-04-27T22:06:35Z",
   "index": 47,
-  "value": "Neutral",
-  "last_month_value": null,
+  "timestamp": "2026-04-27T00:00:00Z",
   "source": "alternative.me",
-  "yesterday_value": null
+  "yesterday": null,
+  "last_week": null,
+  "last_week_value": null,
+  "yesterday_value": null,
+  "last_month_value": null,
+  "value": "Neutral"
 }
