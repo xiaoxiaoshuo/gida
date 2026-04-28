@@ -54,6 +54,12 @@ git config --global url."https://github.com/".insteadOf "ssh://git@github.com/"
 # 解决方案：禁用SSL验证（仅对GitHub，敏感操作需注意）
 git config --global http.sslVerify false
 
+# ========== 清除失效的代理配置（2026-04-28发现）==========
+# 之前配置的代理服务(Clash等)可能已停止运行
+# 若代理指向127.0.0.1:7890且服务未运行，会导致"Could not connect to server At 127.0.0.1"
+git config --global --unset http.proxy 2>$null
+git config --global --unset https.proxy 2>$null
+
 # ========== 速率控制检查 ==========
 Check-RateLimit
 
