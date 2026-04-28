@@ -254,11 +254,20 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
   - 原油降级链：浏览器采集失败 → 正则匹配失败 → EIA API降级
 - **新脚本**: collect-ai-news-rss.ps1（RSS方案测试）
 
-### 2026-04-28 - GitHub历史库补采 + Oil数据诊断
+### 2026-04-28 - GitHub历史库补采 + Oil数据诊断 + Git代理BUG修复
 - **GitHub历史库补采**: github-trending-history.json 持续追加
 - **Oil数据诊断**: oilprice.com正则匹配持续失败，已稳定降级到EIA API
 - **宏观数据采集**: 04:25时成功使用 `prices_latest.json macro.GOLD` 回源
 - **GitHub推送间歇性失败**: 02:22-02:23两次推送失败（2/3重试后成功）
+
+### 2026-04-28 11:33 - Git代理配置BUG（关键）
+- **触发**: auto-push.ps1 第90行报错 `Could not connect to server At 127.0.0.1 after 2118 ms`
+- **根因**: Git全局配置了 `http.proxy=http://127.0.0.1:7890` 和 `https.proxy=http://127.0.0.1:7890`
+  - 之前配置的代理服务(Clash等)已停止运行，但git代理配置仍指向已失效的本地代理
+  - 导致所有Git请求被重定向到不存在的127.0.0.1:7890
+- **修复**: `git config --global --unset http.proxy` + `git config --global --unset https.proxy`
+- **预防**: auto-push.ps1已添加失效代理清除逻辑（每次执行前清除）
+- **教训**: PowerShell `2>&1` 重定向会导致成功输出返回exit code 1，需看实际输出判断成功与否
 
 ### 2026-04-21~28 技术决策汇总
 
