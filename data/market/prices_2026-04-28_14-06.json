@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    }
+  },
+  "timestamp_iso": "2026-04-28T06:06:27Z",
+  "collection_version": "v8",
+  "crypto": {
+    "ETH": {
+      "price": 2289.94,
+      "raw": "{\"USD\":2289.94}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-28 14:06:26"
+    },
+    "BTC": {
+      "price": 77007.67,
+      "raw": "{\"USD\":77007.67}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-28 14:06:26"
+    },
+    "SOL": {
+      "price": 84.25,
+      "raw": "{\"USD\":84.25}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-28 14:06:26"
+    }
+  },
+  "macro": {
+    "OIL": {
+      "value": 98.17,
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "raw_len": 414915,
+      "timestamp": "2026-04-28 14:06:26"
+    },
+    "GOLD": {
+      "value": 4631.5,
+      "confidence": "high",
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "raw_len": 60716,
+      "timestamp": "2026-04-28 14:06:26"
+    },
+    "VIX": {
+      "value": 18.02,
+      "timestamp": "2026-04-28 14:06:26",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX"
+    }
+  },
+  "errors": [],
+  "timestamp": "2026-04-28 14:06:26"
+}

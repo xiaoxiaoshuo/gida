@@ -1,12 +1,12 @@
 {
+  "timestamp": "2026-04-28T19:07:51Z",
   "prices": {
     "WTI_Crude": {
-      "price": 96.66,
       "change": null,
+      "price": 96.66,
       "change_pct": null
     }
   },
-  "collection_time": "2026-04-28T11:06:36Z",
-  "timestamp": "2026-04-28T11:06:36Z",
-  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))"
+  "collection_time": "2026-04-28T19:07:51Z",
+  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))))))))))"
 }

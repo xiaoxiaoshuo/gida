@@ -1,0 +1,86 @@
+{
+  "collection_version": "v8",
+  "timestamp": "2026-04-28 15:06:24",
+  "macro": {
+    "VIX": {
+      "timestamp": "2026-04-28 15:06:24",
+      "confidence": "high",
+      "value": 18.02,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX"
+    },
+    "GOLD": {
+      "timestamp": "2026-04-28 15:06:24",
+      "raw_len": 60699,
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "value": 4640.0,
+      "confidence": "high"
+    },
+    "OIL": {
+      "timestamp": "2026-04-28 15:06:24",
+      "raw_len": 414968,
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "value": 98.43,
+      "confidence": "high"
+    }
+  },
+  "errors": [],
+  "crypto": {
+    "SOL": {
+      "price": 83.95,
+      "confidence": "high",
+      "timestamp": "2026-04-28 15:06:24",
+      "raw": "{\"USD\":83.95}",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "price": 76686.73,
+      "confidence": "high",
+      "timestamp": "2026-04-28 15:06:24",
+      "raw": "{\"USD\":76686.73}",
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "price": 2278.65,
+      "confidence": "high",
+      "timestamp": "2026-04-28 15:06:24",
+      "raw": "{\"USD\":2278.65}",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "timestamp_iso": "2026-04-28T07:06:24Z",
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    }
+  }
+}

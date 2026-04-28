@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "GOLD": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "score": 80,
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "errors": [],
+  "timestamp": "2026-04-28 19:06:27",
+  "timestamp_iso": "2026-04-28T11:06:27Z",
+  "crypto": {
+    "BTC": {
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "raw": "{\"USD\":76541.45}",
+      "price": 76541.45,
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "raw": "{\"USD\":83.75}",
+      "price": 83.75,
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "raw": "{\"USD\":2280.05}",
+      "price": 2280.05,
+      "source": "CryptoCompare_API"
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "GOLD": {
+      "source": "kitco.com",
+      "raw_len": 60740,
+      "unit": "USD/oz",
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "value": 4605.7
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "raw_len": 414967,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "value": 99.68
+    },
+    "VIX": {
+      "confidence": "high",
+      "timestamp": "2026-04-28 19:06:27",
+      "value": 18.44,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX"
+    }
+  }
+}

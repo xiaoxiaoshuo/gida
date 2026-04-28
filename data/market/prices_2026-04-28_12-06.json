@@ -1,0 +1,16 @@
+{
+  "macro": {},
+  "quality_report": {},
+  "crypto": {},
+  "collection_version": "v8",
+  "errors": [
+    "BTC : all sources failed",
+    "ETH : all sources failed",
+    "SOL : all sources failed",
+    "VIX : failed",
+    "GOLD : failed",
+    "OIL : failed"
+  ],
+  "timestamp_iso": "2026-04-28T04:06:24Z",
+  "timestamp": "2026-04-28 12:06:24"
+}
