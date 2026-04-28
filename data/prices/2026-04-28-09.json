@@ -1,36 +1,5 @@
 {
-  "quality_report": {
-    "VIX": {
-      "score": 65,
-      "factors": "Bing摘要 + 来源标注 + 时间戳 + 原始数据",
-      "label": "中"
-    },
-    "OIL": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "GOLD": {
-      "score": 65,
-      "factors": "API权威来源 + 来源标注 + 时间戳",
-      "label": "中"
-    },
-    "ETH": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "BTC": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    },
-    "SOL": {
-      "score": 100,
-      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
-      "label": "高"
-    }
-  },
+  "timestamp": "2026-04-28 09:06:45",
   "crypto": {
     "BTC": {
       "source": "CryptoCompare_API",
@@ -54,10 +23,6 @@
       "price": 84.8
     }
   },
-  "timestamp_iso": "2026-04-28T01:06:24Z",
-  "timestamp": "2026-04-28 09:06:24",
-  "collection_version": "v8",
-  "errors": [],
   "macro": {
     "OIL": {
       "timestamp": "2026-04-28 09:06:24",
@@ -84,5 +49,6 @@
       "confidence": "high",
       "source": "kitco.com"
     }
-  }
+  },
+  "source": "hourly-price-collector"
 }
