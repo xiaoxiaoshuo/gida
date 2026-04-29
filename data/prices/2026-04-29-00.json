@@ -1,0 +1,52 @@
+{
+  "crypto": {
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 00:06:24",
+      "price": 83.51,
+      "raw": "{\"USD\":83.51}",
+      "confidence": "high"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 00:06:24",
+      "price": 2278.75,
+      "raw": "{\"USD\":2278.75}",
+      "confidence": "high"
+    },
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 00:06:24",
+      "price": 76036.69,
+      "raw": "{\"USD\":76036.69}",
+      "confidence": "high"
+    }
+  },
+  "source": "hourly-price-collector",
+  "timestamp": "2026-04-29 00:07:40",
+  "macro": {
+    "OIL": {
+      "confidence": "high",
+      "value": 99.85,
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 414995,
+      "timestamp": "2026-04-29 00:06:24",
+      "source": "tradingeconomics.com"
+    },
+    "GOLD": {
+      "confidence": "high",
+      "value": 4584.9,
+      "unit": "USD/oz",
+      "raw_len": 60734,
+      "timestamp": "2026-04-29 00:06:24",
+      "source": "kitco.com"
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-04-29 00:06:24",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.67,
+      "confidence": "high"
+    }
+  }
+}

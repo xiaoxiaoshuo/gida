@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-04-28 23:08:28",
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-28 23:06:24",
+      "raw_len": 854,
+      "value": 91.06,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "source": "EIA_API"
+    }
+  },
+  "source": "hourly-price-collector",
+  "crypto": {
+    "SOL": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":83.35}",
+      "source": "CryptoCompare_API",
+      "price": 83.35
+    },
+    "ETH": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":2273.78}",
+      "source": "CryptoCompare_API",
+      "price": 2273.78
+    },
+    "BTC": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":75956.19}",
+      "source": "CryptoCompare_API",
+      "price": 75956.19
+    }
+  }
+}

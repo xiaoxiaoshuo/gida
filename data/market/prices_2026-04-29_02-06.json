@@ -1,0 +1,86 @@
+{
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "price": 76237.43,
+      "timestamp": "2026-04-29 02:06:24",
+      "raw": "{\"USD\":76237.43}",
+      "confidence": "high"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "price": 83.7,
+      "timestamp": "2026-04-29 02:06:24",
+      "raw": "{\"USD\":83.7}",
+      "confidence": "high"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "price": 2292.85,
+      "timestamp": "2026-04-29 02:06:24",
+      "raw": "{\"USD\":2292.85}",
+      "confidence": "high"
+    }
+  },
+  "macro": {
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "value": 18.28,
+      "timestamp": "2026-04-29 02:06:24",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "unit": "USD/oz",
+      "timestamp": "2026-04-29 02:06:24",
+      "value": 4594.8,
+      "source": "kitco.com",
+      "raw_len": 60729,
+      "confidence": "high"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-29 02:06:24",
+      "value": 100.2,
+      "source": "tradingeconomics.com",
+      "raw_len": 416603,
+      "confidence": "high"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp": "2026-04-29 02:06:24",
+  "errors": [],
+  "timestamp_iso": "2026-04-28T18:06:24Z",
+  "quality_report": {
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    }
+  }
+}

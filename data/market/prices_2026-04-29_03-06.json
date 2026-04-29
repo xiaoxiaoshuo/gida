@@ -1,0 +1,86 @@
+{
+  "errors": [],
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 03:06:24",
+      "raw": "{\"USD\":76161.59}",
+      "price": 76161.59
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 03:06:24",
+      "raw": "{\"USD\":2294.77}",
+      "price": 2294.77
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 03:06:24",
+      "raw": "{\"USD\":83.8}",
+      "price": 83.8
+    }
+  },
+  "timestamp": "2026-04-29 03:06:24",
+  "macro": {
+    "OIL": {
+      "value": 100.06,
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-29 03:06:24",
+      "raw_len": 416600,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "value": 4596.4,
+      "source": "kitco.com",
+      "timestamp": "2026-04-29 03:06:24",
+      "raw_len": 60721,
+      "unit": "USD/oz",
+      "confidence": "high"
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "timestamp": "2026-04-29 03:06:24",
+      "value": 18.21,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "quality_report": {
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 80
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高",
+      "score": 100
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中",
+      "score": 65
+    }
+  },
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-28T19:06:24Z"
+}

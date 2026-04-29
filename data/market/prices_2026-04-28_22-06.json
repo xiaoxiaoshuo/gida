@@ -1,0 +1,86 @@
+{
+  "timestamp": "2026-04-28 22:06:24",
+  "timestamp_iso": "2026-04-28T14:06:24Z",
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-28 22:06:24",
+      "source": "tradingeconomics.com",
+      "raw_len": 414932,
+      "value": 99.51,
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)"
+    },
+    "GOLD": {
+      "timestamp": "2026-04-28 22:06:24",
+      "source": "kitco.com",
+      "raw_len": 60746,
+      "value": 4571.6,
+      "confidence": "high",
+      "unit": "USD/oz"
+    },
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 18.6,
+      "timestamp": "2026-04-28 22:06:24",
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX"
+    }
+  },
+  "errors": [],
+  "collection_version": "v8",
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2275.14}",
+      "price": 2275.14,
+      "timestamp": "2026-04-28 22:06:24",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "raw": "{\"USD\":83.47}",
+      "price": 83.47,
+      "timestamp": "2026-04-28 22:06:24",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "BTC": {
+      "raw": "{\"USD\":76161.27}",
+      "price": 76161.27,
+      "timestamp": "2026-04-28 22:06:24",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "quality_report": {
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    }
+  }
+}

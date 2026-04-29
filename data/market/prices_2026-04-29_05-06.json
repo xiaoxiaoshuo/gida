@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "VIX": {
+      "score": 80,
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "OIL": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "price": 76478.69,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 05:06:24",
+      "raw": "{\"USD\":76478.69}"
+    },
+    "ETH": {
+      "price": 2295.23,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 05:06:24",
+      "raw": "{\"USD\":2295.23}"
+    },
+    "SOL": {
+      "price": 83.87,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-29 05:06:24",
+      "raw": "{\"USD\":83.87}"
+    }
+  },
+  "errors": [],
+  "timestamp": "2026-04-29 05:06:24",
+  "timestamp_iso": "2026-04-28T21:06:24Z",
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-29 05:06:24",
+      "confidence": "high",
+      "raw_len": 416627,
+      "value": 99.58,
+      "unit": "USD/barrel (WTI)"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "timestamp": "2026-04-29 05:06:24",
+      "confidence": "high",
+      "raw_len": 60819,
+      "value": 4596.9,
+      "unit": "USD/oz"
+    },
+    "VIX": {
+      "timestamp": "2026-04-29 05:06:24",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "value": 17.83
+    }
+  },
+  "collection_version": "v8"
+}

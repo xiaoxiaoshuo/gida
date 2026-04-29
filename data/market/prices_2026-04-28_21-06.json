@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-28 21:06:24",
+  "errors": [
+    "SOL : all sources failed",
+    "VIX : failed",
+    "GOLD : failed"
+  ],
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "collection_version": "v8",
+  "timestamp_iso": "2026-04-28T13:06:24Z",
+  "crypto": {
+    "ETH": {
+      "raw": "{\"USD\":2273.84}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "price": 2273.84,
+      "timestamp": "2026-04-28 21:06:24"
+    },
+    "BTC": {
+      "raw": "{\"USD\":76280.11}",
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "price": 76280.11,
+      "timestamp": "2026-04-28 21:06:24"
+    }
+  },
+  "macro": {
+    "OIL": {
+      "confidence": "high",
+      "source": "tradingeconomics.com",
+      "raw_len": 415062,
+      "value": 99.58,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-28 21:06:24"
+    }
+  }
+}

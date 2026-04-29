@@ -1,0 +1,64 @@
+{
+  "timestamp_iso": "2026-04-28T15:06:24Z",
+  "errors": [
+    "VIX : failed",
+    "GOLD : failed"
+  ],
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    }
+  },
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-28 23:06:24",
+      "raw_len": 854,
+      "value": 91.06,
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "source": "EIA_API"
+    }
+  },
+  "collection_version": "v8",
+  "crypto": {
+    "SOL": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":83.35}",
+      "source": "CryptoCompare_API",
+      "price": 83.35
+    },
+    "ETH": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":2273.78}",
+      "source": "CryptoCompare_API",
+      "price": 2273.78
+    },
+    "BTC": {
+      "timestamp": "2026-04-28 23:06:24",
+      "confidence": "high",
+      "raw": "{\"USD\":75956.19}",
+      "source": "CryptoCompare_API",
+      "price": 75956.19
+    }
+  },
+  "timestamp": "2026-04-28 23:06:24"
+}

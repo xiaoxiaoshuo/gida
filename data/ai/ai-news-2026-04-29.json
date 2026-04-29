@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-25",
+  "total_count": 2,
+  "repos": [
+    {
+      "language": "TypeScript",
+      "starsToday": 700,
+      "stars": 30658,
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "valueScore": 39855,
+      "category": "开发工具",
+      "name": "abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
+      "rank": 1
+    },
+    {
+      "language": "Shell",
+      "starsToday": 2519,
+      "stars": 26485,
+      "url": "https://github.com/mattpocock/skills",
+      "valueScore": 34430,
+      "category": "AI/ML",
+      "name": "mattpocock/skills",
+      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+      "rank": 1
+    }
+  ],
+  "timestamp": "2026-04-25 18:00:00",
+  "source": "GitHub Trending (浏览器采集)"
+}

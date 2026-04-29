@@ -1,0 +1,86 @@
+{
+  "collection_version": "v8",
+  "quality_report": {
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    }
+  },
+  "timestamp_iso": "2026-04-28T23:06:26Z",
+  "timestamp": "2026-04-29 07:06:26",
+  "macro": {
+    "VIX": {
+      "value": 17.83,
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 416609,
+      "value": 99.5,
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "tradingeconomics.com",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "unit": "USD/oz",
+      "raw_len": 60762,
+      "value": 4594.6,
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "kitco.com",
+      "confidence": "high"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "confidence": "high",
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":76223.16}",
+      "price": 76223.16
+    },
+    "ETH": {
+      "confidence": "high",
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2286.4}",
+      "price": 2286.4
+    },
+    "SOL": {
+      "confidence": "high",
+      "timestamp": "2026-04-29 07:06:26",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":83.77}",
+      "price": 83.77
+    }
+  },
+  "errors": []
+}
