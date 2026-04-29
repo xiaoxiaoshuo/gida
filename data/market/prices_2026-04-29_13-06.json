@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "VIX": {
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    }
+  },
+  "timestamp_iso": "2026-04-29T05:06:26Z",
+  "macro": {
+    "VIX": {
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-04-29 13:06:26",
+      "value": 17.83,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    },
+    "OIL": {
+      "raw_len": 415909,
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-29 13:06:26",
+      "value": 99.59
+    },
+    "GOLD": {
+      "raw_len": 60798,
+      "source": "kitco.com",
+      "confidence": "high",
+      "unit": "USD/oz",
+      "timestamp": "2026-04-29 13:06:26",
+      "value": 4608.3
+    }
+  },
+  "collection_version": "v8",
+  "timestamp": "2026-04-29 13:06:26",
+  "crypto": {
+    "SOL": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 13:06:26",
+      "price": 84.77,
+      "raw": "{\"USD\":84.77}"
+    },
+    "BTC": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 13:06:26",
+      "price": 77258.69,
+      "raw": "{\"USD\":77258.69}"
+    },
+    "ETH": {
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-29 13:06:26",
+      "price": 2328.22,
+      "raw": "{\"USD\":2328.22}"
+    }
+  },
+  "errors": []
+}

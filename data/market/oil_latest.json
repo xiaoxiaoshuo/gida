@@ -1,12 +1,12 @@
 {
-  "collection_time": "2026-04-29T07:06:32Z",
-  "timestamp": "2026-04-29T07:06:32Z",
-  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))))))))))))))))))))))",
+  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))))))))))))))))))))))))))))))))))",
   "prices": {
     "WTI_Crude": {
+      "price": 96.66,
       "change": null,
-      "change_pct": null,
-      "price": 96.66
+      "change_pct": null
     }
-  }
+  },
+  "timestamp": "2026-04-29T19:06:34Z",
+  "collection_time": "2026-04-29T19:06:34Z"
 }

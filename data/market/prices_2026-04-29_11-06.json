@@ -1,0 +1,86 @@
+{
+  "collection_version": "v8",
+  "quality_report": {
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    }
+  },
+  "errors": [],
+  "timestamp_iso": "2026-04-29T03:06:24Z",
+  "crypto": {
+    "ETH": {
+      "price": 2288.18,
+      "timestamp": "2026-04-29 11:06:24",
+      "raw": "{\"USD\":2288.18}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "SOL": {
+      "price": 84.07,
+      "timestamp": "2026-04-29 11:06:24",
+      "raw": "{\"USD\":84.07}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    },
+    "BTC": {
+      "price": 76521.61,
+      "timestamp": "2026-04-29 11:06:24",
+      "raw": "{\"USD\":76521.61}",
+      "source": "CryptoCompare_API",
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-04-29 11:06:24",
+  "macro": {
+    "OIL": {
+      "raw_len": 415981,
+      "value": 99.25,
+      "confidence": "high",
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-29 11:06:24"
+    },
+    "GOLD": {
+      "raw_len": 60758,
+      "value": 4595.5,
+      "confidence": "high",
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "timestamp": "2026-04-29 11:06:24"
+    },
+    "VIX": {
+      "value": 17.83,
+      "timestamp": "2026-04-29 11:06:24",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high"
+    }
+  }
+}

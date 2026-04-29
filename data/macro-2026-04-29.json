@@ -1,27 +1,27 @@
 {
+  "date": "2026-04-29",
   "data": {
-    "VIX": {
-      "source": "Yahoo_Finance_VIX (fetch)",
-      "timestamp": "2026-04-29 08:00:02",
-      "confidence": "high",
-      "value": 17.83
-    },
     "OIL": {
-      "source": "tradingeconomics.com (fetch)",
-      "timestamp": "2026-04-29 08:00:02",
-      "confidence": "high",
       "unit": "USD/barrel (WTI)",
-      "value": 99.4
+      "source": "tradingeconomics.com (fetch)",
+      "confidence": "high",
+      "value": 102.87,
+      "timestamp": "2026-04-29 20:00:02"
+    },
+    "VIX": {
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX (fetch)",
+      "value": 17.97,
+      "timestamp": "2026-04-29 20:00:02"
     },
     "GOLD": {
+      "timestamp": "2026-04-29 19:06:26",
+      "value": 4568.6,
       "unit": "USD/oz",
-      "raw_len": 60762,
-      "value": 4594.6,
-      "timestamp": "2026-04-29 07:06:26",
       "source": "kitco.com",
-      "confidence": "high"
+      "confidence": "high",
+      "raw_len": 60752
     }
   },
-  "timestamp": "2026-04-29 08:00:20",
-  "date": "2026-04-29"
+  "timestamp": "2026-04-29 20:01:01"
 }

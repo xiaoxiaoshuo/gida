@@ -1,0 +1,86 @@
+{
+  "errors": [],
+  "crypto": {
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "price": 2324.84,
+      "confidence": "high",
+      "raw": "{\"USD\":2324.84}",
+      "timestamp": "2026-04-29 15:06:24"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "price": 84.68,
+      "confidence": "high",
+      "raw": "{\"USD\":84.68}",
+      "timestamp": "2026-04-29 15:06:24"
+    },
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "price": 77034.69,
+      "confidence": "high",
+      "raw": "{\"USD\":77034.69}",
+      "timestamp": "2026-04-29 15:06:24"
+    }
+  },
+  "timestamp_iso": "2026-04-29T07:06:24Z",
+  "timestamp": "2026-04-29 15:06:24",
+  "collection_version": "v8",
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-29 15:06:24",
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 415920,
+      "value": 100.47,
+      "confidence": "high"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "timestamp": "2026-04-29 15:06:24",
+      "unit": "USD/oz",
+      "raw_len": 60755,
+      "value": 4589.3,
+      "confidence": "high"
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "timestamp": "2026-04-29 15:06:24",
+      "value": 17.83,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "quality_report": {
+    "GOLD": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "OIL": {
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "label": "中"
+    },
+    "BTC": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "VIX": {
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "ETH": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    },
+    "SOL": {
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "label": "高"
+    }
+  }
+}

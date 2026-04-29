@@ -1,0 +1,86 @@
+{
+  "macro": {
+    "OIL": {
+      "timestamp": "2026-04-29 19:06:26",
+      "value": 103.27,
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "raw_len": 415876
+    },
+    "VIX": {
+      "value": 17.94,
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high",
+      "timestamp": "2026-04-29 19:06:26"
+    },
+    "GOLD": {
+      "timestamp": "2026-04-29 19:06:26",
+      "value": 4568.6,
+      "unit": "USD/oz",
+      "source": "kitco.com",
+      "confidence": "high",
+      "raw_len": 60752
+    }
+  },
+  "collection_version": "v8",
+  "timestamp": "2026-04-29 19:06:26",
+  "quality_report": {
+    "OIL": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "VIX": {
+      "score": 80,
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "price": 85.12,
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":85.12}",
+      "confidence": "high",
+      "timestamp": "2026-04-29 19:06:26"
+    },
+    "ETH": {
+      "price": 2333.59,
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2333.59}",
+      "confidence": "high",
+      "timestamp": "2026-04-29 19:06:26"
+    },
+    "BTC": {
+      "price": 77649.71,
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":77649.71}",
+      "confidence": "high",
+      "timestamp": "2026-04-29 19:06:26"
+    }
+  },
+  "timestamp_iso": "2026-04-29T11:06:26Z",
+  "errors": []
+}

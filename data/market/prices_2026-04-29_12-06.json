@@ -1,0 +1,86 @@
+{
+  "timestamp_iso": "2026-04-29T04:06:24Z",
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "raw_len": 415967,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-04-29 12:06:24",
+      "value": 99.32,
+      "confidence": "high"
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "raw_len": 60823,
+      "unit": "USD/oz",
+      "timestamp": "2026-04-29 12:06:24",
+      "value": 4599.0,
+      "confidence": "high"
+    },
+    "VIX": {
+      "value": 17.83,
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-29 12:06:24"
+    }
+  },
+  "collection_version": "v8",
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 76943.82,
+      "raw": "{\"USD\":76943.82}",
+      "timestamp": "2026-04-29 12:06:24"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 2310.49,
+      "raw": "{\"USD\":2310.49}",
+      "timestamp": "2026-04-29 12:06:24"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "price": 84.49,
+      "raw": "{\"USD\":84.49}",
+      "timestamp": "2026-04-29 12:06:24"
+    }
+  },
+  "timestamp": "2026-04-29 12:06:24",
+  "errors": []
+}

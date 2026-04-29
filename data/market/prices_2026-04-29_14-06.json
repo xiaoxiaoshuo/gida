@@ -1,0 +1,86 @@
+{
+  "timestamp_iso": "2026-04-29T06:06:27Z",
+  "timestamp": "2026-04-29 14:06:27",
+  "quality_report": {
+    "GOLD": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "OIL": {
+      "score": 65,
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "SOL": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "BTC": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "score": 80,
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "score": 100,
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "collection_version": "v8",
+  "macro": {
+    "GOLD": {
+      "source": "kitco.com",
+      "timestamp": "2026-04-29 14:06:27",
+      "raw_len": 60817,
+      "value": 4598.4,
+      "confidence": "high",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-29 14:06:27",
+      "raw_len": 415924,
+      "value": 99.84,
+      "confidence": "high",
+      "unit": "USD/barrel (WTI)"
+    },
+    "VIX": {
+      "value": 17.83,
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-04-29 14:06:27"
+    }
+  },
+  "crypto": {
+    "BTC": {
+      "price": 77317.28,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":77317.28}",
+      "timestamp": "2026-04-29 14:06:27"
+    },
+    "SOL": {
+      "price": 84.93,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":84.93}",
+      "timestamp": "2026-04-29 14:06:27"
+    },
+    "ETH": {
+      "price": 2334.43,
+      "confidence": "high",
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2334.43}",
+      "timestamp": "2026-04-29 14:06:27"
+    }
+  },
+  "errors": []
+}
