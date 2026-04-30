@@ -1,17 +1,21 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-30 16:15 GMT+8 (08:15 UTC)
+## 快照 | 2026-04-30 16:16 GMT+8 (08:16 UTC)
 
-> ⚠️ **GitHub网络中断（已持续约1小时）** | ✅ OIL BUG已修复 | ✅ 简报已生成
+> ✅ **GitHub网络已恢复** | 🔄 AI新闻/GitHub Trending补采中 | ✅ OIL BUG已修复
 
 ### 关键发现
-- **GitHub Push**: 🔴 TCP 443连接github.com超时（21秒），推送失败
-  - 堆积commits: `45f4ef2` (16:10) - OIL BUG修复
-  - 代理配置已清除（4/28修复），问题为真实网络中断（非代理）
-- **OIL/GOLD BUG**: ✅ 已修复
-  - 修复内容: 移除oil_latest.json循环引用，OIL回源到prices_latest.json
-  - 修复时间: 16:10 UTC+8
-- **简报**: ✅ 4/30简报已生成（briefings/2026-04-30.md）
+- **GitHub Push**: ✅ **已恢复！** `curl.exe` exit:0，`git push` 成功 (e35aa72→7d45abb)
+  - 4/30 08:00每日采集已推送失败（GitHub中断约1小时），堆积已合并推送
+- **OIL BUG**: ✅ 已修复（16:10，子智能体）
+  - 根因: oil_latest.json source字段递归污染
+  - 修复: 移除该降级链，OIL回源到prices_latest.json macro.OIL
+- **数据空档**: 🔄 子智能体补采中
+  - ai-news-2026-04-29.json ❌ (陈旧4/27)
+  - ai-news-2026-04-30.json ❌ (陈旧4/27)
+  - github-trending-2026-04-29.json ❌ (缺失)
+  - github-trending-2026-04-30.json ❌ (缺失)
+- **简报**: 4/29简报未生成，4/30简报待确认
 
 ### 数据状态（16:12 UTC / 00:12 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
@@ -31,9 +35,12 @@
 - VIX 18.62低位，无恐慌
 
 ### 📝 待处理
-- [P0] GitHub网络恢复后推送（45f4ef2待推送）
-- [P1] AI News 4/29-4/30补采
-- [P1] GitHub Trending历史库4/29-4/30补采
+- [P0] GitHub推送已成功 ✅
+- [P0] AI News + GitHub Trending补采（子智能体运行中，~2分钟）
+- [P1] 生成4/29简报
+- [P1] 检查4/30简报是否存在
+- [P2] GOLD API循环引用隐患（同OIL结构，待重构）
+- [P2] 4月份数据归档整理
 
 ---
 
