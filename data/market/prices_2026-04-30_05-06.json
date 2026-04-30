@@ -1,0 +1,86 @@
+{
+  "macro": {
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "timestamp": "2026-04-30 05:06:24",
+      "confidence": "high",
+      "raw_len": 415863,
+      "unit": "USD/barrel (WTI)",
+      "value": 108.45
+    },
+    "GOLD": {
+      "source": "kitco.com",
+      "timestamp": "2026-04-30 05:06:24",
+      "confidence": "high",
+      "raw_len": 60742,
+      "unit": "USD/oz",
+      "value": 4544.9
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"WCB\",\"fullExchangeName",
+      "timestamp": "2026-04-30 05:06:24",
+      "value": 18.81,
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-04-30 05:06:24",
+  "errors": [],
+  "timestamp_iso": "2026-04-29T21:06:24Z",
+  "collection_version": "v8",
+  "quality_report": {
+    "VIX": {
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80,
+      "label": "高"
+    },
+    "OIL": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "BTC": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "SOL": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    },
+    "GOLD": {
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65,
+      "label": "中"
+    },
+    "ETH": {
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100,
+      "label": "高"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":82.6}",
+      "price": 82.6,
+      "timestamp": "2026-04-30 05:06:24",
+      "confidence": "high"
+    },
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":75645.88}",
+      "price": 75645.88,
+      "timestamp": "2026-04-30 05:06:24",
+      "confidence": "high"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "raw": "{\"USD\":2242.35}",
+      "price": 2242.35,
+      "timestamp": "2026-04-30 05:06:24",
+      "confidence": "high"
+    }
+  }
+}

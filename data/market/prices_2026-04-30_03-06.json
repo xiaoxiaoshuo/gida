@@ -1,0 +1,86 @@
+{
+  "timestamp_iso": "2026-04-29T19:06:24Z",
+  "collection_version": "v8",
+  "crypto": {
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "price": 75397.21,
+      "raw": "{\"USD\":75397.21}"
+    },
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "price": 2229.77,
+      "raw": "{\"USD\":2229.77}"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "price": 82.12,
+      "raw": "{\"USD\":82.12}"
+    }
+  },
+  "errors": [],
+  "quality_report": {
+    "ETH": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "BTC": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    },
+    "OIL": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "GOLD": {
+      "label": "中",
+      "factors": "API权威来源 + 来源标注 + 时间戳",
+      "score": 65
+    },
+    "VIX": {
+      "label": "高",
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据",
+      "score": 80
+    },
+    "SOL": {
+      "label": "高",
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据",
+      "score": 100
+    }
+  },
+  "macro": {
+    "GOLD": {
+      "source": "kitco.com",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "value": 4539.1,
+      "unit": "USD/oz",
+      "raw_len": 60723
+    },
+    "OIL": {
+      "source": "tradingeconomics.com",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "value": 106.79,
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 415878
+    },
+    "VIX": {
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "timestamp": "2026-04-30 03:06:24",
+      "value": 18.65,
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName"
+    }
+  },
+  "timestamp": "2026-04-30 03:06:24"
+}

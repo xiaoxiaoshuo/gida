@@ -1,5 +1,4 @@
 {
-  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))))))))))))))))))))))))))))))))))",
   "prices": {
     "WTI_Crude": {
       "price": 96.66,
@@ -7,6 +6,7 @@
       "change_pct": null
     }
   },
-  "timestamp": "2026-04-29T19:06:34Z",
-  "collection_time": "2026-04-29T19:06:34Z"
+  "source": "oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (oil_latest.json (prices_latest.json macro.OIL (tradingeconomics.com)))))))))))))))))))))))))))))))))))))))))))))))))))",
+  "collection_time": "2026-04-30T07:06:32Z",
+  "timestamp": "2026-04-30T07:06:32Z"
 }

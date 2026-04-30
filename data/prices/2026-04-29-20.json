@@ -1,0 +1,54 @@
+{
+  "source": "hourly-price-collector",
+  "macro": {
+    "GOLD": {
+      "timestamp": "2026-04-29 20:06:24",
+      "raw_len": 60749,
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "confidence": "high",
+      "value": 4564.6
+    },
+    "OIL": {
+      "timestamp": "2026-04-29 20:06:24",
+      "raw_len": 415900,
+      "source": "tradingeconomics.com",
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "value": 103.41
+    },
+    "VIX": {
+      "timestamp": "2026-04-29 20:06:24",
+      "source": "alternative.me_FNG",
+      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
+      "confidence": "medium",
+      "value_classification": "Fear",
+      "value": 26,
+      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"26\",\n\t\t\t\"value_classification\": \"Fear"
+    }
+  },
+  "timestamp": "2026-04-29 20:07:09",
+  "crypto": {
+    "ETH": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":2325.73}",
+      "price": 2325.73,
+      "timestamp": "2026-04-29 20:06:24"
+    },
+    "BTC": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":77489.29}",
+      "price": 77489.29,
+      "timestamp": "2026-04-29 20:06:24"
+    },
+    "SOL": {
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "raw": "{\"USD\":84.63}",
+      "price": 84.63,
+      "timestamp": "2026-04-29 20:06:24"
+    }
+  }
+}

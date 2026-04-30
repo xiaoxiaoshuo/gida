@@ -1,50 +1,50 @@
 {
-  "macro": {
-    "OIL": {
-      "unit": "USD/barrel (WTI)",
-      "source": "tradingeconomics.com (fetch)",
-      "confidence": "high",
-      "value": 102.87,
-      "timestamp": "2026-04-29 20:00:02"
-    },
-    "VIX": {
-      "confidence": "high",
-      "source": "Yahoo_Finance_VIX (fetch)",
-      "value": 17.97,
-      "timestamp": "2026-04-29 20:00:02"
-    },
-    "GOLD": {
-      "timestamp": "2026-04-29 19:06:26",
-      "value": 4568.6,
-      "unit": "USD/oz",
-      "source": "kitco.com",
-      "confidence": "high",
-      "raw_len": 60752
-    }
-  },
   "crypto": {
-    "BTC": {
-      "price": 77649.71,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":77649.71}",
+    "ETH": {
       "confidence": "high",
-      "timestamp": "2026-04-29 19:06:26"
+      "price": 2253.35,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-30 07:06:24",
+      "raw": "{\"USD\":2253.35}"
     },
     "SOL": {
-      "price": 85.12,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":85.12}",
       "confidence": "high",
-      "timestamp": "2026-04-29 19:06:26"
+      "price": 82.95,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-30 07:06:24",
+      "raw": "{\"USD\":82.95}"
     },
-    "ETH": {
-      "price": 2333.59,
-      "source": "CryptoCompare_API",
-      "raw": "{\"USD\":2333.59}",
+    "BTC": {
       "confidence": "high",
-      "timestamp": "2026-04-29 19:06:26"
+      "price": 75855.39,
+      "source": "CryptoCompare_API",
+      "timestamp": "2026-04-30 07:06:24",
+      "raw": "{\"USD\":75855.39}"
     }
   },
-  "timestamp": "2026-04-29 20:00:02",
+  "macro": {
+    "GOLD": {
+      "timestamp": "2026-04-30 07:06:24",
+      "value": 4554.2,
+      "raw_len": 60746,
+      "source": "kitco.com",
+      "unit": "USD/oz",
+      "confidence": "high"
+    },
+    "VIX": {
+      "value": 18.81,
+      "source": "Yahoo_Finance_VIX (fetch)",
+      "timestamp": "2026-04-30 08:00:04",
+      "confidence": "high"
+    },
+    "OIL": {
+      "value": 107.98,
+      "timestamp": "2026-04-30 08:00:04",
+      "source": "tradingeconomics.com (fetch)",
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high"
+    }
+  },
+  "timestamp": "2026-04-30 08:00:04",
   "collection_version": "macro-playwright-v2"
 }
