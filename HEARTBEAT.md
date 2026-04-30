@@ -1,17 +1,19 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-30 16:16 GMT+8 (08:16 UTC)
+## 快照 | 2026-04-30 16:28 GMT+8 (08:28 UTC)
 
-> ✅ **GitHub Push恢复后又中断** | 🔄 4/29简报生成中 | ✅ OIL BUG已修复 | ✅ GitHub Trending已补采
+> 🔴 **GitHub Push持续中断** | ✅ 4/29简报已生成 | ✅ OIL BUG已修复
 
 ### 关键发现
-- **GitHub Push**: 🔴 又断了（443 timeout 21s），16:16恢复是短暂反弹
-  - 堆积commits: `b3c19f7` (16:25) - GitHub Trending补采数据
-  - 16:16-16:25之间约9分钟窗口期，成功推送过e35aa72→7d45abb
-- **GitHub Trending**: ✅ 已补采（github-trending-2026-04-29.json, 16:21采集）
-- **4/29简报**: 🔄 子智能体生成中（generate-20260429-briefing，运行1分钟）
-- **AI新闻**: ⚠️ ai-news_latest.json陈旧（4/28），待子智能体完成后刷新
-- **GitHub Trending历史库**: ✅ github-trending-history.json已更新（4/29记录）
+- **GitHub Push**: 🔴 443 timeout (21s)，16:16短暂恢复后再次中断
+  - 堆积commits: `b3c19f7` (16:25), `3a71d52` (16:28) - 共2个待推
+  - 16:16曾成功推送e35aa72→7d45abb，窗口期极短
+  - **判断：GitHub网络极不稳定，断续连接**
+- **4/29简报**: ✅ 已生成（briefings/2026-04-29.md，16:27，2605字节）
+- **4/29 AI新闻**: ✅ 已更新（ai-news-2026-04-29.json，16:27，4462字节）
+- **GitHub Trending**: ✅ 已补采（github-trending-2026-04-29.json 4/30）
+- **Tech News**: ✅ 已刷新（20条，16:27）
+- **OIL BUG**: ✅ 已修复（16:10）
 
 ### 数据状态（16:12 UTC / 00:12 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
@@ -31,9 +33,7 @@
 - VIX 18.62低位，无恐慌
 
 ### 📝 待处理
-- [P0] GitHub网络完全恢复后推送 `b3c19f7`
-- [P0] 4/29简报生成中（子智能体 ~1分钟）
-- [P1] 刷新 ai-news_latest.json（4/28陈旧）
+- [P0] GitHub网络恢复后推送 `b3c19f7` + `3a71d52`
 - [P2] GOLD API循环引用隐患（同OIL结构，待重构）
 - [P2] 4月份数据归档整理
 

@@ -85,19 +85,15 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - 理念："我就是我的角色"——身份不由名字定义，由使命和方法论定义
 - 态度：冷静、严谨、批判，拒绝模糊结论
 
-### 2026-03-25 - 网络问题排查与修复（15:22）
-- **根因** 注意网络访问时GWF 问题，同时也不能减少国外信源，可以搜Google等镜像网站
-- **修复**：将WLAN DNS改为 8.8.8.8 / 1.1.1.1
-- **实测结果**：
-  - ✅ DNS解析：google.com 正常
-  - ✅ wttr.in天气API：正常
-
-- **结论**：DNS已修复，但外部金融API因地理限制不可达 注意网络访问时GWF 问题，同时也不能减少国外信源，可以搜Google等镜像网站
-- **建议**：配置代理 或 切换国内数据源（新浪/腾讯财经）
-- 已更新今日简报：DAILY/2026-03-25.md
-- 数据采集策略：cn.bing.com 搜索聚合（可稳定获取） + CoinMarketCap（BTC/SOL价格）
-- 今日关键情报：
-  - 美联储3月维持利率3.50%-3.75%，第二次连续暂停
+### 2026-04-30 - OIL BUG修复 + GitHub网络不稳定
+- **OIL循环引用BUG**: `macro-data-collector.ps1` 的 `Get-OilPrice-API()` 第一降级读 `oil_latest.json`，但该文件 source 字段已包含递归字符串，形成无限循环
+- **修复方案**: 移除 oil_latest.json 降级链，OIL 直接回源到 prices_latest.json macro.OIL（数据干净: 108.38）
+- **GitHub Push**: 网络极不稳定，443端口间歇性超时（21s），16:16短暂恢复后再次中断
+  - 堆积 commits: b3c19f7, 3a71d52（待推送）
+  - curl.exe 测试成功但 git push 失败，判断为网络抖动
+- **数据补采**: 4/29 GitHub Trending 已补采（github-trending-2026-04-29.json，16:21）
+- **4/29简报**: 已生成（briefings/2026-04-29.md）
+- **GOLD同样隐患**: `Get-GoldPrice-API()` 结构相同，需后续重构
   - BTC $70,591 / SOL $90.17（CoinMarketCap实时）
   - IBM 433量子位 + Google 1000量子位Willow系统 2026商业化
   - Majorana量子位读取突破（抗噪声路线）
