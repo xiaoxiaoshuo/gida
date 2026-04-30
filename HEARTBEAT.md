@@ -1,5 +1,42 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-30 16:15 GMT+8 (08:15 UTC)
+
+> ⚠️ **GitHub网络中断（已持续约1小时）** | ✅ OIL BUG已修复 | ✅ 简报已生成
+
+### 关键发现
+- **GitHub Push**: 🔴 TCP 443连接github.com超时（21秒），推送失败
+  - 堆积commits: `45f4ef2` (16:10) - OIL BUG修复
+  - 代理配置已清除（4/28修复），问题为真实网络中断（非代理）
+- **OIL/GOLD BUG**: ✅ 已修复
+  - 修复内容: 移除oil_latest.json循环引用，OIL回源到prices_latest.json
+  - 修复时间: 16:10 UTC+8
+- **简报**: ✅ 4/30简报已生成（briefings/2026-04-30.md）
+
+### 数据状态（16:12 UTC / 00:12 GMT+8）
+| 品种 | 价格 | 置信度 | 备注 |
+|------|------|--------|------|
+| BTC | $76,069.32 | 🟢 高 | CryptoCompare_API |
+| ETH | $2,260.23 | 🟢 高 | CryptoCompare_API |
+| SOL | $83.26 | 🟢 高 | CryptoCompare_API |
+| GOLD | $4,621.1 | 🟢 高 | kitco.com |
+| OIL | $108.38 | 🟢 高 | tradingeconomics.com（修复后正常）|
+| F&G | 29 (Fear) | 🟡 中 | alternative.me |
+| VIX | 18.62 | 🟢 高 | Yahoo_Finance_VIX |
+
+### 📈 市场信号
+- BTC $76,069：从4/29晚$77,489继续回落，$77,500阻力强
+- F&G 29 (Fear)：维持（无恶化，暗示底部支撑）
+- OIL $108.38：从$103升至$108（4日内+4.8%），能源压力显著
+- VIX 18.62低位，无恐慌
+
+### 📝 待处理
+- [P0] GitHub网络恢复后推送（45f4ef2待推送）
+- [P1] AI News 4/29-4/30补采
+- [P1] GitHub Trending历史库4/29-4/30补采
+
+---
+
 ## 快照 | 2026-04-30 16:04 GMT+8 (08:04 UTC)
 
 > ⚠️ **GitHub网络中断** | 🔴 OIL循环引用BUG发现
