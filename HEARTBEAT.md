@@ -1,40 +1,37 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-04-30 16:36 GMT+8 (08:36 UTC)
+## 快照 | 2026-04-30 16:39 GMT+8 (08:39 UTC)
 
-> ✅ **GitHub Push已恢复** | ✅ OIL BUG已修复 | ✅ 4/29简报已生成 | 数据已全同步
+> ✅ **全系统正常** | ✅ OIL BUG已修复 | ✅ 数据已同步
 
 ### 关键发现
-- **GitHub Push**: ✅ **已恢复！** `7d45abb..3c922d6` 全部4个commits推送成功
-  - 网络在16:34-16:36窗口期恢复（21s超时限制内完成）
-- **4/29简报**: ✅ 已生成（briefings/2026-04-29.md，16:27）
-- **4/29 AI新闻**: ✅ 已更新（ai-news-2026-04-29.json，16:27，4462字节）
-- **GitHub Trending**: ✅ 已补采（github-trending-2026-04-29.json 4/30）
-- **Tech News**: ✅ 已刷新（20条，16:27）
-- **OIL BUG**: ✅ 已修复（16:10）
-- **MEMORY.md**: ✅ 已更新（4/30重要事件）
+- **GitHub Push**: ✅ 两次推送均成功（3c922d6 + 4aa4002）
+- **价格采集**: ✅ BTC $76,068 / ETH $2,258 / SOL $83.11（16:37）
+- **宏观数据**: ✅ GOLD $4,618 / OIL $108.03 / F&G 29 / VIX 18.62
+- **OIL BUG**: ✅ 已修复（16:10），无递归，source链干净
+- **4/30简报**: ✅ 已更新（16:39，含AI/ML热点）
+- **Tech News**: ✅ 20条（16:37）
 
-### 数据状态（16:12 UTC / 00:12 GMT+8）
+### 数据状态（16:37 UTC / 00:37 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
 |------|------|--------|------|
-| BTC | $76,069.32 | 🟢 高 | CryptoCompare_API |
-| ETH | $2,260.23 | 🟢 高 | CryptoCompare_API |
-| SOL | $83.26 | 🟢 高 | CryptoCompare_API |
-| GOLD | $4,621.1 | 🟢 高 | kitco.com |
-| OIL | $108.38 | 🟢 高 | tradingeconomics.com（修复后正常）|
+| BTC | $76,068.36 | 🟢 高 | CryptoCompare_API |
+| ETH | $2,258.53 | 🟢 高 | CryptoCompare_API |
+| SOL | $83.11 | 🟢 高 | CryptoCompare_API |
+| GOLD | $4,618/oz | 🟡 中 | kitco.com |
+| OIL | $108.03 | 🟡 中 | tradingeconomics.com（修复后正常）|
 | F&G | 29 (Fear) | 🟡 中 | alternative.me |
 | VIX | 18.62 | 🟢 高 | Yahoo_Finance_VIX |
 
 ### 📈 市场信号
-- BTC $76,069：从4/29晚$77,489继续回落，$77,500阻力强
+- BTC $76,068：横盘（16:37 vs 16:12），$76,000心理支撑守住
 - F&G 29 (Fear)：维持（无恶化，暗示底部支撑）
-- OIL $108.38：从$103升至$108（4日内+4.8%），能源压力显著
+- OIL $108.03：$108高位整理，能源成本压力持续
 - VIX 18.62低位，无恐慌
 
-### 堆积待推commit（均因443 timeout失败）
-- `b3c19f7` (16:25) - GitHub Trending补采数据
-- `3a71d52` (16:28) - 4/29简报+AI新闻
-- `4fd3963` (16:30) - MEMORY.md更新
+### 待处理
+- [P2] GOLD API循环引用隐患（同OIL结构，待重构）
+- [P2] 4月份数据归档整理
 
 ---
 
