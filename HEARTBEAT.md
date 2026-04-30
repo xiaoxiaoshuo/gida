@@ -2,20 +2,16 @@
 
 ## 快照 | 2026-04-30 16:16 GMT+8 (08:16 UTC)
 
-> ✅ **GitHub网络已恢复** | 🔄 AI新闻/GitHub Trending补采中 | ✅ OIL BUG已修复
+> ✅ **GitHub Push恢复后又中断** | 🔄 4/29简报生成中 | ✅ OIL BUG已修复 | ✅ GitHub Trending已补采
 
 ### 关键发现
-- **GitHub Push**: ✅ **已恢复！** `curl.exe` exit:0，`git push` 成功 (e35aa72→7d45abb)
-  - 4/30 08:00每日采集已推送失败（GitHub中断约1小时），堆积已合并推送
-- **OIL BUG**: ✅ 已修复（16:10，子智能体）
-  - 根因: oil_latest.json source字段递归污染
-  - 修复: 移除该降级链，OIL回源到prices_latest.json macro.OIL
-- **数据空档**: 🔄 子智能体补采中
-  - ai-news-2026-04-29.json ❌ (陈旧4/27)
-  - ai-news-2026-04-30.json ❌ (陈旧4/27)
-  - github-trending-2026-04-29.json ❌ (缺失)
-  - github-trending-2026-04-30.json ❌ (缺失)
-- **简报**: 4/29简报未生成，4/30简报待确认
+- **GitHub Push**: 🔴 又断了（443 timeout 21s），16:16恢复是短暂反弹
+  - 堆积commits: `b3c19f7` (16:25) - GitHub Trending补采数据
+  - 16:16-16:25之间约9分钟窗口期，成功推送过e35aa72→7d45abb
+- **GitHub Trending**: ✅ 已补采（github-trending-2026-04-29.json, 16:21采集）
+- **4/29简报**: 🔄 子智能体生成中（generate-20260429-briefing，运行1分钟）
+- **AI新闻**: ⚠️ ai-news_latest.json陈旧（4/28），待子智能体完成后刷新
+- **GitHub Trending历史库**: ✅ github-trending-history.json已更新（4/29记录）
 
 ### 数据状态（16:12 UTC / 00:12 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
@@ -35,10 +31,9 @@
 - VIX 18.62低位，无恐慌
 
 ### 📝 待处理
-- [P0] GitHub推送已成功 ✅
-- [P0] AI News + GitHub Trending补采（子智能体运行中，~2分钟）
-- [P1] 生成4/29简报
-- [P1] 检查4/30简报是否存在
+- [P0] GitHub网络完全恢复后推送 `b3c19f7`
+- [P0] 4/29简报生成中（子智能体 ~1分钟）
+- [P1] 刷新 ai-news_latest.json（4/28陈旧）
 - [P2] GOLD API循环引用隐患（同OIL结构，待重构）
 - [P2] 4月份数据归档整理
 

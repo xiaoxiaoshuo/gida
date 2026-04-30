@@ -1,30 +1,118 @@
 {
-  "date": "2026-04-25",
-  "total_count": 2,
-  "repos": [
+  "date": "2026-04-29",
+  "total_count": 10,
+  "items": [
     {
-      "language": "TypeScript",
-      "starsToday": 700,
-      "stars": 30658,
-      "url": "https://github.com/abhigyanpatwari/GitNexus",
-      "valueScore": 39855,
-      "category": "开发工具",
-      "name": "abhigyanpatwari/GitNexus",
-      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser.",
-      "rank": 1
+      "title": "Warp - AI驱动的终端开发环境",
+      "repo": "warpdotdev/warp",
+      "stars": 46373,
+      "stars_today": 12822,
+      "category": "AI/ML",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "url": "https://github.com/warpdotdev/warp",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
     },
     {
-      "language": "Shell",
-      "starsToday": 2519,
-      "stars": 26485,
-      "url": "https://github.com/mattpocock/skills",
-      "valueScore": 34430,
+      "title": "Skills for Real Engineers - Agent技能框架",
+      "repo": "mattpocock/skills",
+      "stars": 46670,
+      "stars_today": 7280,
       "category": "AI/ML",
-      "name": "mattpocock/skills",
-      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
-      "rank": 1
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "VibeVoice - 微软开源前沿语音AI",
+      "repo": "microsoft/VibeVoice",
+      "stars": 45894,
+      "stars_today": 1690,
+      "category": "AI/ML",
+      "description": "Open-Source Frontier Voice AI",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "awesome-codex-skills - Codex CLI工作流自动化技能集",
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "stars": 5025,
+      "stars_today": 1177,
+      "category": "AI/ML",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "jcode - Coding Agent Harness",
+      "repo": "1jehuang/jcode",
+      "stars": 1608,
+      "stars_today": 411,
+      "category": "AI/ML",
+      "description": "Coding Agent Harness",
+      "url": "https://github.com/1jehuang/jcode",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "ds2api - Deepseek to API中间件",
+      "repo": "CJackHwang/ds2api",
+      "stars": 2845,
+      "stars_today": 465,
+      "category": "AI/ML",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation.",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "superpowers - Agentic技能框架",
+      "repo": "obra/superpowers",
+      "stars": 173751,
+      "stars_today": 1653,
+      "category": "AI/ML",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "GitNexus - 零服务端代码智能引擎",
+      "repo": "abhigyanpatwari/GitNexus",
+      "stars": 33543,
+      "stars_today": 774,
+      "category": "AI/ML",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - A client-side knowledge graph creator that runs entirely in your browser.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "daily_stock_analysis - LLM驱动的股票分析系统",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "stars": 33240,
+      "stars_today": 294,
+      "category": "AI/ML",
+      "description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
+    },
+    {
+      "title": "maigret - 用户名情报收集工具",
+      "repo": "soxoj/maigret",
+      "stars": 20479,
+      "stars_today": 79,
+      "category": "AI/ML",
+      "description": "Collect a dossier on a person by username from 3000+ sites",
+      "url": "https://github.com/soxoj/maigret",
+      "source": "GitHub Trending",
+      "timestamp": "2026-04-29 16:21:00"
     }
   ],
-  "timestamp": "2026-04-25 18:00:00",
-  "source": "GitHub Trending (浏览器采集)"
+  "summary": "AI/ML项目主导GitHub热榜，Warp(终端AI开发环境)、skills(Agent技能框架)、VibeVoice(微软语音AI)占据前三。",
+  "timestamp": "2026-04-29 20:01:30"
 }
