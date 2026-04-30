@@ -231,24 +231,11 @@ function Get-GoldPrice-API {
 }
 
 # API降级: 原油
-# 优先级: 1)oil_latest.json(已采集的实时数据) 2)prices_latest.json(tradingeconomics.com) 3)sina 4)估算
+# 优先级: 1)prices_latest.json(tradingeconomics.com) 2)tradingeconomics.com 3)EIA 4)sina 5)估算
 function Get-OilPrice-API {
     Write-Log ">> 采集WTI原油 (API降级)..."
 
-    # 第一降级: 从 oil_latest.json 读取（已通过Browser/oilprice.com采集的最新数据）
-    $lastFile = "$RepoRoot\data\market\oil_latest.json"
-    if (Test-Path $lastFile) {
-        try {
-            $last = Get-Content $lastFile -Raw | ConvertFrom-Json
-            $lastPrice = $last.prices.WTI_Crude.price
-            if ($lastPrice -and $lastPrice -gt 40 -and $lastPrice -lt 200) {
-                Write-Log "  WTI = $$lastPrice [oil_latest.json → $($last.source)]" "OK"
-                return @{ timestamp = $Timestamp; source = "oil_latest.json ($($last.source))"; prices = @{ WTI_Crude = @{ price = $lastPrice; change = $null; change_pct = $null } }; collection_time = $Timestamp }
-            }
-        } catch { Write-Log "  oil_latest.json读取失败: $($_.Exception.Message.Substring(0,60))" "WARN" }
-    }
-
-    # 第二降级: 从 prices_latest.json 读取 tradingeconomics.com 的 OIL（最可靠的实时数据）
+    # 第一降级: 从 prices_latest.json 读取 tradingeconomics.com 的 OIL（最可靠的实时数据）
     $pricesFile = "$RepoRoot\data\market\prices_latest.json"
     if (Test-Path $pricesFile) {
         try {
@@ -263,7 +250,7 @@ function Get-OilPrice-API {
         } catch { Write-Log "  prices_latest.json读取失败: $($_.Exception.Message.Substring(0,60))" "WARN" }
     }
 
-    # 第三降级: 直接抓取 tradingeconomics.com（已确认有效，2026-04-28验证WTI=$96.68）
+    # 第二降级: 直接抓取 tradingeconomics.com（已确认有效，2026-04-28验证WTI=$96.68）
     $teR = Invoke-SafeFetch -Url "https://tradingeconomics.com/commodity/crude-oil" -Timeout 15
     if ($teR.ok -and $teR.content -match 'class="row"[^>]*>.*?Crude Oil.*?(\d+\.\d{2})') {
         $price = [double]$matches[1]
@@ -281,7 +268,7 @@ function Get-OilPrice-API {
         }
     }
 
-    # 第四降级: EIA API（DEMO_KEY可能滞后，仅作参考）
+    # 第三降级: EIA API（DEMO_KEY可能滞后，仅作参考）
     $eiaUrl = "https://api.eia.gov/v2/petroleum/pri/spt/data/?api_key=DEMO_KEY&frequency=daily&data[0]=value&facets[product][]=EPCWTI&sort[0][column]=period&sort[0][direction]=desc&length=1"
     $eia = Invoke-SafeFetch -Url $eiaUrl -Timeout 15
     if ($eia.ok) {
@@ -307,12 +294,14 @@ function Get-OilPrice-API {
         }
     }
 
-    # 第五降级: 基于上次数据估算
+    # 第五降级: 基于上次数据估算（使用 oil_latest.json，但需校验 source 无递归污染）
+    $lastFile = "$RepoRoot\data\market\oil_latest.json"
     if (Test-Path $lastFile) {
         try {
             $last = Get-Content $lastFile -Raw | ConvertFrom-Json
             $lastPrice = $last.prices.WTI_Crude.price
-            if ($lastPrice) {
+            # 校验: source 不应包含自身文件名（防递归污染）
+            if ($lastPrice -and $last.source -notmatch "oil_latest\.json.*oil_latest\.json" -and $lastPrice -gt 40 -and $lastPrice -lt 200) {
                 $estPrice = [Math]::Round($lastPrice * 0.999, 2)
                 Write-Log "  WTI = $$estPrice (基于上次数据估算)" "WARN"
                 return @{ timestamp = $Timestamp; source = "estimated_from_last"; prices = @{ WTI_Crude = @{ price = $estPrice; change = $null; change_pct = $null } }; note = "估算值"; collection_time = $Timestamp }

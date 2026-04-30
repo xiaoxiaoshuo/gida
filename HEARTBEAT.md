@@ -1,5 +1,44 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-04-30 16:04 GMT+8 (08:04 UTC)
+
+> ⚠️ **GitHub网络中断** | 🔴 OIL循环引用BUG发现
+
+### 关键发现
+- **GitHub Push**: 🔴 TCP 443连接github.com超时（21秒），推送失败
+  - 堆积commits: `9e5443f` (16:03), `e35aa72` (08:00)
+  - 代理配置已清除（4/28修复），问题为真实网络中断
+- **OIL/GOLD BUG**: 🔴 `macro-data-collector.ps1` 降级逻辑存在循环引用
+  - OIL降级回源到 `oil_latest.json` 形成无限递归
+  - GOLD降级回源到 `prices_latest.json macro.GOLD`（有效）
+  - **实际价格以 prices_latest.json 为准** ✅
+- **简报断档**: 🔴 4/29、4/30简报未生成
+
+### 数据状态（16:06 UTC / 00:06 GMT+8）
+| 品种 | 价格 | 置信度 | 备注 |
+|------|------|--------|------|
+| BTC | $76,127.32 | 🟢 高 | CryptoCompare_API |
+| ETH | $2,259.97 | 🟢 高 | CryptoCompare_API |
+| SOL | $83.30 | 🟢 高 | CryptoCompare_API |
+| GOLD | $4,608.3 | 🟢 高 | prices_latest.json macro.GOLD（回源有效）|
+| OIL | $108.38 | 🟢 高 | prices_latest.json macro.OIL（正确值）|
+| F&G | 29 (Fear) | 🟡 中 | alternative.me |
+| VIX | 18.65 | 🟢 高 | Yahoo_Finance_VIX |
+
+### 📈 市场信号
+- BTC $76,127：从4/28的$76,779继续回落，$77K关口失守
+- F&G 29 (Fear)：从4/28的33→26→29，情绪持续低迷
+- OIL $108.38：持续走强（vs 4/28的$97.38），能源成本压力显著
+- VIX 18.65：低波动环境
+
+### 📝 待处理
+- [P0] GitHub网络恢复后推送堆积commits
+- [P0] macro-data-collector.ps1 OIL循环引用BUG修复（子智能体处理中）
+- [P1] 生成4/29、4/30简报
+- [P1] 4月份数据归档整理
+
+---
+
 ## 快照 | 2026-04-28 11:33 GMT+8 (19:33)
 
 > ⚠️ **11:00 UTC快照更新** | GitHub推送问题已确认为误报（假阳性）
