@@ -1,7 +1,13 @@
 {
-  "source": "cn.bing.com (降级)",
-  "timestamp": "2026-05-06T09:15:54Z",
-  "value": "greed",
-  "index": 2,
-  "collection_time": "2026-05-06T09:15:54Z"
+  "yesterday_value": null,
+  "last_month_value": null,
+  "last_week": null,
+  "last_month": null,
+  "index": 46,
+  "timestamp": "2026-05-06T00:00:00Z",
+  "source": "alternative.me",
+  "last_week_value": null,
+  "yesterday": null,
+  "value": "Fear",
+  "collection_time": "2026-05-06T10:06:31Z"
 }
