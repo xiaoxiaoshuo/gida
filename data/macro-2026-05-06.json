@@ -1,31 +1,27 @@
 {
+  "timestamp": "2026-05-06 20:00:14",
+  "date": "2026-05-06",
   "data": {
-    "OIL": {
-      "value": 100.86,
-      "unit": "USD/barrel (WTI)",
-      "raw_len": 416242,
-      "confidence": "high",
-      "source": "tradingeconomics.com",
-      "timestamp": "2026-05-06 09:15:20"
-    },
     "GOLD": {
-      "value": 4612.1,
-      "unit": "USD/oz",
-      "raw_len": 60806,
-      "confidence": "high",
+      "value": 4712.9,
       "source": "kitco.com",
-      "timestamp": "2026-05-06 09:15:20"
+      "timestamp": "2026-05-06 19:35:44",
+      "raw_len": 60817,
+      "confidence": "high",
+      "unit": "USD/oz"
     },
     "VIX": {
-      "value": 46,
-      "raw": "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"46\",\n\t\t\t\"value_classification\": \"Fear",
-      "value_classification": "Fear",
-      "confidence": "medium",
-      "note": "降级: VIX(Yahoo Finance)失败，采集F&G作为替代情绪指标",
-      "source": "alternative.me_FNG",
-      "timestamp": "2026-05-06 09:15:20"
+      "confidence": "high",
+      "timestamp": "2026-05-06 20:00:02",
+      "value": 16.33,
+      "source": "Yahoo_Finance_VIX (fetch)"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "confidence": "high",
+      "timestamp": "2026-05-06 20:00:02",
+      "value": 91.99,
+      "source": "tradingeconomics.com (fetch)"
     }
-  },
-  "timestamp": "2026-05-06 09:15:53",
-  "date": "2026-05-06"
+  }
 }
