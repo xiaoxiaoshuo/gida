@@ -1,12 +1,12 @@
-{
-  "timestamp": "2026-05-06T20:27:11Z",
-  "source": "prices_latest.json macro.OIL (tradingeconomics.com)",
-  "prices": {
-    "WTI_Crude": {
-      "price": 95.93,
-      "change_pct": null,
-      "change": null
-    }
-  },
-  "collection_time": "2026-05-06T20:27:11Z"
+﻿{
+    "collection_time":  "2026-05-06T21:20:28Z",
+    "timestamp":  "2026-05-06T21:20:28Z",
+    "source":  "prices_latest.json macro.OIL (tradingeconomics.com)",
+    "prices":  {
+                   "WTI_Crude":  {
+                                     "price":  96.28,
+                                     "change":  null,
+                                     "change_pct":  null
+                                 }
+               }
 }

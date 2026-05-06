@@ -1,7 +1,12 @@
-{
-  "timestamp": "2026-05-06T20:27:11Z",
-  "source": "prices_latest.json (macro.GOLD)",
-  "collection_time": "2026-05-06T20:27:11Z",
-  "price_per_oz": 4682.6,
-  "currency": "USD"
+﻿{
+    "source":  "kitco.com/charts/livegold.html (fetch)",
+    "change":  null,
+    "price_per_gram":  146.14,
+    "time_ny":  "5月 06, 2026, 09:20:31 NY time",
+    "change_pct":  null,
+    "timestamp":  "2026-05-06T21:20:28Z",
+    "price_per_oz":  4545.4,
+    "price_per_kg":  146137.89,
+    "collection_time":  "2026-05-06T21:20:28Z",
+    "currency":  "USD"
 }
