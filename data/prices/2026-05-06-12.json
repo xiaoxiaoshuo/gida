@@ -1,0 +1,52 @@
+{
+  "crypto": {
+    "BTC": {
+      "raw": "{\"USD\":81561.97}",
+      "price": 81561.97,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-05-06 12:06:24"
+    },
+    "SOL": {
+      "raw": "{\"USD\":87.35}",
+      "price": 87.35,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-05-06 12:06:24"
+    },
+    "ETH": {
+      "raw": "{\"USD\":2376.76}",
+      "price": 2376.76,
+      "source": "CryptoCompare_API",
+      "confidence": "high",
+      "timestamp": "2026-05-06 12:06:24"
+    }
+  },
+  "timestamp": "2026-05-06 12:06:36",
+  "source": "hourly-price-collector",
+  "macro": {
+    "VIX": {
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "timestamp": "2026-05-06 12:06:24",
+      "source": "Yahoo_Finance_VIX",
+      "confidence": "high",
+      "value": 17.38
+    },
+    "GOLD": {
+      "value": 4645.8,
+      "source": "kitco.com",
+      "raw_len": 60821,
+      "confidence": "high",
+      "timestamp": "2026-05-06 12:06:24",
+      "unit": "USD/oz"
+    },
+    "OIL": {
+      "value": 100.58,
+      "source": "tradingeconomics.com",
+      "raw_len": 416205,
+      "confidence": "high",
+      "timestamp": "2026-05-06 12:06:24",
+      "unit": "USD/barrel (WTI)"
+    }
+  }
+}
