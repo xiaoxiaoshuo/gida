@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-06T10:06:31Z",
-  "collection_time": "2026-05-06T10:06:31Z",
+  "timestamp": "2026-05-06T11:06:31Z",
+  "source": "prices_latest.json (macro.GOLD)",
   "currency": "USD",
-  "price_per_oz": 4629.8,
-  "source": "prices_latest.json (macro.GOLD)"
+  "price_per_oz": 4642.2,
+  "collection_time": "2026-05-06T11:06:31Z"
 }

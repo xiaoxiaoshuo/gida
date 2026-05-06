@@ -1,13 +1,13 @@
 {
-  "yesterday_value": null,
-  "last_month_value": null,
+  "index": 46,
+  "source": "alternative.me",
+  "value": "Fear",
+  "last_week_value": null,
   "last_week": null,
   "last_month": null,
-  "index": 46,
-  "timestamp": "2026-05-06T00:00:00Z",
-  "source": "alternative.me",
-  "last_week_value": null,
   "yesterday": null,
-  "value": "Fear",
-  "collection_time": "2026-05-06T10:06:31Z"
+  "collection_time": "2026-05-06T11:06:31Z",
+  "last_month_value": null,
+  "timestamp": "2026-05-06T00:00:00Z",
+  "yesterday_value": null
 }
