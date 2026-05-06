@@ -1,426 +1,69 @@
-# AI/ML News — 2026-04-28
-
-> Top stories in AI/ML · Source: Multi-RSS · Updated: 04/28/2026 07:34:26
-
----
-### 1. OpenAI ends Microsoft legal peril over its $50B Amazon deal
-
-🔗 [Source](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 2. DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data
-
-🔗 [Source](https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 3. Investors back Skye’s AI home screen app for iPhone ahead of launch
-
-🔗 [Source](https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 4. China blocks Meta’s $2B Manus deal after months-long probe
-
-🔗 [Source](https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 5. OpenAI could be making a phone with AI agents replacing apps
-
-🔗 [Source](https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 6. Meta inks deal for solar power at night, beamed from space
-
-🔗 [Source](https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 7. To buy this Bay Area home, you’ll need Anthropic equity
-
-🔗 [Source](https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 8. Anthropic created a test marketplace for agent-on-agent commerce
-
-🔗 [Source](https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 9. Maine’s governor vetoes data center moratorium
-
-🔗 [Source](https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 10. OpenAI CEO apologizes to Tumbler Ridge community
-
-🔗 [Source](https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/)
-
-*来源: TechCrunch AI*
-
----\
-
-### 11. Elon Musk and Sam Altman are going to court over OpenAI’s future
-
-🔗 [Source](https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 12. The missing step between hype and profit
-
-🔗 [Source](https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 13. Rebuilding the data stack for AI
-
-🔗 [Source](https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 14. The Download: DeepSeek’s latest AI breakthrough, and the race to build world models
-
-🔗 [Source](https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 15. Three reasons why DeepSeek’s new model matters
-
-🔗 [Source](https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 16. The Download: supercharged scams and studying AI healthcare
-
-🔗 [Source](https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 17. Health-care AI is here. We don’t know if it actually helps patients.
-
-🔗 [Source](https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 18. The Download: introducing the Nature issue
-
-🔗 [Source](https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 19. Will fusion power get cheap? Don’t count on it.
-
-🔗 [Source](https://www.technologyreview.com/2026/04/23/1136329/fusion-power-cost/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 20. The Download: introducing the 10 Things That Matter in AI Right Now
-
-🔗 [Source](https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/)
-
-*来源: MIT Technology Review*
-
----\
-
-### 21. Railway secures $100 million to challenge AWS with AI-native cloud infrastructure
-
-🔗 [Source](https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud)
-
-*来源: VentureBeat AI*
-
----\
-
-### 22. Claude Code costs up to $200 a month. Goose does the same thing for free.
-
-🔗 [Source](https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free)
-
-*来源: VentureBeat AI*
-
----\
-
-### 23. Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews
-
-🔗 [Source](https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai)
-
-*来源: VentureBeat AI*
-
----\
-
-### 24. Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI
-
-🔗 [Source](https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and)
-
-*来源: VentureBeat AI*
-
----\
-
-### 25. Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required
-
-🔗 [Source](https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no)
-
-*来源: VentureBeat AI*
-
----\
-
-### 26. Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment
-
-🔗 [Source](https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in)
-
-*来源: VentureBeat AI*
-
----\
-
-### 27. The creator of Claude Code just revealed his workflow, and developers are losing their minds
-
-🔗 [Source](https://venturebeat.com/technology/the-creator-of-claude-code-just-revealed-his-workflow-and-developers-are)
-
-*来源: VentureBeat AI*
-
----\
-
-### 28. Canonical lays out a plan for AI in Ubuntu Linux
-
-One of the most popular Linux distributions is about to get an influx of AI features. As reported by Phoronix, Jon Seager, VP of engineering at Ubuntu developer Canonical, shared a blog post on Monday detailing plans to add AI features to the Linux distro over the next year. As the post states, the AI [&#8230;]
-
-🔗 [Source](https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features)
-
-*来源: The Verge*
-
----\
-
-### 29. Trump demands ABC fire Jimmy Kimmel
-
-President Donald Trump is calling for Disney to fire Jimmy Kimmel. On Thursday, Kimmel joked that Melania Trump had looked like an "expectant widow" in a skit about the upcoming White House Correspondents' Dinner. The skit aired days before an armed gunman made an assassination attempt at the event, which President Trump and Melania Trump [&#8230;]
-
-🔗 [Source](https://www.theverge.com/policy/919337/president-trump-jimmy-kimmel-fire-abc)
-
-*来源: The Verge*
-
----\
-
-### 30. Google employees ask Sundar Pichai to say no to classified military AI use
-
-Over 600 Google employees signed a letter to CEO Sundar Pichai demanding that Google block the Pentagon from using its AI models for classified purposes, reports the The Washington Post. Its organizers claim many of the signers work in Google's DeepMind AI lab, and include more than 20 principals, directors, and vice presidents. According to [&#8230;]
-
-🔗 [Source](https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter)
-
-*来源: The Verge*
-
----\
-
-### 31. Conspiracy theories are swirling about the White House Correspondents’ Dinner shooting
-
-On Saturday evening, a room full of journalists, media personalities, and senior members of Donald Trump's administration descended into chaos as gunshots rang out at the White House Correspondents' Dinner. Nobody was hurt, and the suspect was taken into custody - but it didn't take long for a narrative of doubt to take hold online. [&#8230;]
-
-🔗 [Source](https://www.theverge.com/news/919244/whcd-shooting-trump-social-media-conspiracy-theories)
-
-*来源: The Verge*
-
----\
-
-### 32. Why the Steam Controller is (and isn’t) a big deal
-
-Most PC gamers already have a controller they love using with Steam - a Sony DualSense, a 8BitDo Ultimate, a Nintendo Switch Pro, or something else. Part of that love comes from Steam treating them like "native" controllers. They can do the things that made the first Steam Controller worth buying. Namely, they offer a [&#8230;]
-
-🔗 [Source](https://www.theverge.com/tech/918115/steam-controller-2026-pc-deck-machine-hands-on-features)
-
-*来源: The Verge*
-
----\
-
-### 33. Valve’s new Steam Controller isn’t perfect, but I’m buying one anyway
-
-After my brief hands-on last year with Valve's new Steam Controller, I said it might be my dream controller. I've been looking for a controller with the customization and sheer function available on Valve's Steam Deck while I'm playing games on the TV. You, me, and a lot of other people have been waiting for [&#8230;]
-
-🔗 [Source](https://www.theverge.com/games/918610/valve-steam-controller-review)
-
-*来源: The Verge*
-
----\
-
-### 34. Valve launches the Steam Controller without the Steam Machine
-
-Last November, Valve introduced the world to its new vision of living room gaming: the Steam Machine and Steam Controller. Then, RAMageddon. Memory shortages forced Valve to delay all its hardware and reset expectations. Now, Valve is releasing the Steam Controller without the Steam Machine. The Steam Controller is officially going on sale May 4th [&#8230;]
-
-🔗 [Source](https://www.theverge.com/games/918622/valve-steam-controller-price-release-date-steam-machine-delay)
-
-*来源: The Verge*
-
----\
-
-### 35. We reviewed Valve’s new Steam Controller, ask us anything
-
-Hey hey, it's Jay Peters, senior reporter at The Verge. Today, Valve finally announced that the second version of the Steam Controller - and the first piece of Valve's slate of new gaming hardware set to launch this year - is finally going on sale for $99 on May 4th. My colleague Cameron Faulkner and [&#8230;]
-
-🔗 [Source](https://www.theverge.com/games/919157/valve-steam-controller-ask-us-anything-ama)
-
-*来源: The Verge*
-
----\
-
-### 36. Samsung&#8217;s first smart glasses have leaked
-
-The upcoming Samsung Galaxy Glasses look nearly identical to Meta's Ray-Ban smart glasses in leaked images from Android Headlines. The glasses, which could be announced at Google I/O next month, are code-named "Jinju" and will reportedly cost between $379 and $499, on par with the display-free Ray-Ban Meta Gen 2. They'll reportedly include a Qualcomm [&#8230;]
-
-🔗 [Source](https://www.theverge.com/gadgets/919189/samsung-galaxy-glasses-leaked-images)
-
-*来源: The Verge*
-
----\
-
-### 37. Microsoft and OpenAI’s famed AGI agreement is dead
-
-OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped. On Monday morning, Microsoft announced a handful of big changes to its long-standing OpenAI deal. Microsoft will remain OpenAI's "primary cloud partner, and&#8239;OpenAI&#8239;products&#8239;will ship first [&#8230;]
-
-🔗 [Source](https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract)
-
-*来源: The Verge*
-
----\
-
-### 38. Open source package with 1 million monthly downloads stole user credentials
-
-🔗 [Source](https://arstechnica.com/security/2026/04/open-source-package-with-1-million-monthly-downloads-stole-user-credentials/)
-
-*来源: Ars Technica*
-
----\
-
-### 39. Why are top university websites serving porn? It comes down to shoddy housekeeping.
-
-🔗 [Source](https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/)
-
-*来源: Ars Technica*
-
----\
-
-### 40. In a first, a ransomware family is confirmed to be quantum-safe
-
-🔗 [Source](https://arstechnica.com/security/2026/04/now-even-ransomware-is-using-post-quantum-cryptography/)
-
-*来源: Ars Technica*
-
----\
-
-### 41. Microsoft issues emergency update for macOS and Linux ASP.NET threat
-
-🔗 [Source](https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/)
-
-*来源: Ars Technica*
-
----\
-
-### 42. Contrary to popular superstition, AES 128 is just fine in a post-quantum world
-
-🔗 [Source](https://arstechnica.com/security/2026/04/contrary-to-popular-superstition-aes-128-is-just-fine-in-a-post-quantum-world/)
-
-*来源: Ars Technica*
-
----\
-
-### 43. US-sanctioned currency exchange says $15 million heist done by "unfriendly states"
-
-🔗 [Source](https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/)
-
-*来源: Ars Technica*
-
----\
-
-### 44. Recent advances push Big Tech closer to the Q-Day danger zone
-
-🔗 [Source](https://arstechnica.com/security/2026/04/while-some-big-tech-players-accelerate-pqc-readiness-others-stay-the-course/)
-
-*来源: Ars Technica*
-
----\
-
-### 45. “Negative” views of Broadcom driving thousands of VMware migrations, rival says
-
-🔗 [Source](https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers/)
-
-*来源: Ars Technica*
-
----\
-
-### 46. Iran-linked hackers disrupt operations at US critical infrastructure sites
-
-🔗 [Source](https://arstechnica.com/security/2026/04/iran-linked-hackers-disrupt-operations-at-us-critical-infrastructure-sites/)
-
-*来源: Ars Technica*
-
----\
-
-### 47. Thousands of consumer routers hacked by Russia's military
-
-🔗 [Source](https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/)
-
-*来源: Ars Technica*
-
----\
-
-### 48. A Brain Implant for Depression Is About to Be Tested in Humans
-
-🔗 [Source](https://www.wired.com/story/a-brain-implant-for-depression-is-about-to-be-tested-in-humans/)
-
-*来源: Wired Science*
-
----\
-
-### 49. The Iran War Is Impacting the Environment in Unseen Ways
-
-🔗 [Source](https://www.wired.com/story/war-on-iran-unseen-impact-on-environment/)
-
-*来源: Wired Science*
-
----\
-
-### 50. AI-Designed Drugs by a DeepMind Spinoff Are Headed to Human Trials
-
-🔗 [Source](https://www.wired.com/story/wired-health-2026-how-ai-is-powering-drug-discovery-max-jaderberg/)
-
-*来源: Wired Science*
-
----\
-
+# AI News Latest
+
+**更新时间**: 05/06/2026 04:54:00 | **总计**: 45 条
+
+## Hacker News Top 30
+
+1. [John Ternus to become Apple CEO](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/) (Hacker News · 04/20/2026 20:39:32)
+2. [How to make a fast dynamic language interpreter](https://zef-lang.dev/implementation) (Hacker News · 04/21/2026 00:48:07)
+3. [Jujutsu megamerges for fun and profit](https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit) (Hacker News · 04/20/2026 21:32:10)
+4. [KV Cache Compression 900000x Beyond TurboQuant and Per-Vector Shannon Limit](https://arxiv.org/abs/2604.15356) (Hacker News · 04/21/2026 02:11:14)
+5. [Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving](https://qwen.ai/blog?id=qwen3.6-max-preview) (Hacker News · 04/20/2026 14:05:34)
+6. [Kimi vendor verifier – verify accuracy of inference providers](https://www.kimi.com/blog/kimi-vendor-verifier) (Hacker News · 04/20/2026 18:39:53)
+7. [Ternary Bonsai: Top Intelligence at 1.58 Bits](https://prismml.com/news/ternary-bonsai) (Hacker News · 04/18/2026 02:51:34)
+8. [Soul Player C64 – A real transformer running on a 1 MHz Commodore 64](https://github.com/gizmo64k/soulplayer-c64) (Hacker News · 04/20/2026 19:51:07)
+9. [ggsql: A Grammar of Graphics for SQL](https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/) (Hacker News · 04/20/2026 12:51:20)
+10. [Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys](https://words.filippo.io/128-bits/) (Hacker News · 04/20/2026 16:37:48)
+11. [OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”](https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/) (Hacker News · 04/20/2026 21:20:52)
+12. [Japan's cherry blossom database, 1,200 years old, has a new keeper](https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html) (Hacker News · 04/17/2026 23:22:38)
+13. [All phones sold in the EU to have replaceable batteries from 2027](https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/) (Hacker News · 04/20/2026 13:41:25)
+14. [Modern Rendering Culling Techniques](https://krupitskas.com/posts/modern_culling_techniques/) (Hacker News · 04/19/2026 07:54:11)
+15. [Brussels launched an age checking app. Hackers took 2 minutes to break it](https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/) (Hacker News · 04/20/2026 08:49:22)
+16. [Kefir C17/C23 Compiler](https://sr.ht/~jprotopopov/kefir/) (Hacker News · 04/17/2026 22:12:59)
+17. [Deezer says 44% of songs uploaded to its platform daily are AI-generated](https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/) (Hacker News · 04/20/2026 15:41:02)
+18. [Monero Community Crowdfunding System](https://ccs.getmonero.org/ideas/) (Hacker News · 04/20/2026 21:33:15)
+19. [WebUSB Extension for Firefox](https://github.com/ArcaneNibble/awawausb) (Hacker News · 04/20/2026 11:51:04)
+20. [Year of the IPv6 Overlay Network](https://www.defined.net/blog/year-of-the-ipv6-overlay-network/) (Hacker News · 04/17/2026 18:58:36)
+21. [M 7.4 earthquake – 100 km ENE of Miyako, Japan](https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/) (Hacker News · 04/20/2026 10:04:40)
+22. [Real-Time Visualization of Human Finger Joint Cavitation (2015)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119470) (Hacker News · 04/19/2026 12:22:45)
+23. [F-35 is built for the wrong war](https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/) (Hacker News · 04/20/2026 20:07:35)
+24. [10 years ago, someone wrote a test for Servo that included an expiry in 2026](https://mastodon.social/@jdm_/116429380667467307) (Hacker News · 04/19/2026 19:19:48)
+25. [Zero-Copy Pages in Rust: Or How I Learned to Stop Worrying and Love Lifetimes](https://redixhumayun.github.io/databases/2026/04/14/zero-copy-pages-in-rust.html) (Hacker News · 04/16/2026 06:11:40)
+26. [Bloom (YC P26) Is Hiring](https://www.ycombinator.com/companies/trybloom/jobs) (Hacker News · 04/20/2026 17:00:45)
+27. [Writing string.h functions using string instructions in asm x86-64 (2025)](https://pmasschelier.github.io/x86_64_strings/) (Hacker News · 04/17/2026 16:22:36)
+28. [Atlassian enables default data collection to train AI](https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8) (Hacker News · 04/20/2026 12:23:39)
+29. [Sauna effect on heart rate](https://tryterra.co/research/sauna-effect-on-heart-rate) (Hacker News · 04/20/2026 13:40:28)
+30. [Kimi K2.6: Advancing open-source coding](https://www.kimi.com/blog/kimi-k2-6) (Hacker News · 04/20/2026 15:28:13)
+
+## GitHub Trending (2026-05-06)
+
+- **[Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI)** ⭐ 8.5k | Today: +2434 — Coding agent for DeepSeek models that runs in your terminal
+- **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** ⭐ 43.9k | Today: +2432 — The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems.
+- **[virattt/dexter](https://github.com/virattt/dexter)** ⭐ 23.9k | Today: +659 — An autonomous agent for deep financial research
+- **[docusealco/docuseal](https://github.com/docusealco/docuseal)** ⭐ 14.1k | Today: +927 — Open source DocuSign alternative. Create, fill, and sign digital documents ✍️
+- **[bwya77/vscode-dark-islands](https://github.com/bwya77/vscode-dark-islands)** ⭐ 7.9k | Today: +321 — VSCode theme based off the easemate IDE and Jetbrains islands theme
+- **[mksglu/context-mode](https://github.com/mksglu/context-mode)** ⭐ 13.1k | Today: +276 — Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms
+- **[cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex)** ⭐ 8.4k | Today: +438 — Incremental engine for long horizon agents 🌟 Star if you like it!
+- **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** ⭐ 93.8k | Today: +1218 — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.
+- **[jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)** ⭐ 345.9k | Today: +366 — A complete computer science study plan to become a software engineer.
+- **[Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)** ⭐ 11.4k | Today: +211 — A collection of projects showcasing RAG, agents, workflows, and other AI use cases
+- **[AIDC-AI/Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video)** ⭐ 11.9k | Today: +691 — AI 全自动短视频引擎 | AI Fully Automated Short Video Engine
+- **[LearningCircuit/local-deep-research](https://github.com/LearningCircuit/local-deep-research)** ⭐ 5.2k | Today: +197 — ~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines.
+- **[browserbase/skills](https://github.com/browserbase/skills)** ⭐ 2.4k | Today: +311 — Claude Agent SDK with a web browsing tool
+- **[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)** ⭐ 114.3k | Today: +2409 — A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- **[PriorLabs/TabPFN](https://github.com/PriorLabs/TabPFN)** ⭐ 6.4k | Today: +57 — TabPFN: Foundation Model for Tabular Data ⚡
+
+## Sources
+
+| 来源 | 状态 |
+|------|------|
+| TechCrunch AI | ok |
+| MIT Technology Review | ok |
+| VentureBeat AI | ok |
+| The Verge | ok |
+| Ars Technica | ok |
+| Wired Science | ok |
+| Anthropic Blog |  |
+
+*自动生成于 05/06/2026 04:54:00*
 
