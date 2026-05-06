@@ -1,5 +1,34 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-05-06 13:06 GMT+8 (05:06 UTC)
+
+> ✅ 13:06自检完成 | GitHub 443重置 | AI新闻中断确认
+
+### 关键发现
+- **GitHub Push**: ⚠️ 443持续重置，commit堆积 8a6136c
+- **GitHub Trending**: ✅ 确认15条Repo结构正确
+- **COLLECTION_STATUS.md**: ✅ v8+已更新
+- **AI新闻中断**: 🔴 tech-news_latest.json 4/28后中断8天（已修复为ai-news_latest.json）
+- **废弃脚本**: ~20个旧脚本待清理（gh-trending-v2/v3/bgithub, debug-*, fix-*等）
+
+### 数据状态（13:06 UTC / 21:06 GMT+8）
+| 品种 | 价格 | 置信度 | 备注 |
+|------|------|--------|------|
+| BTC | $81,561 | 🟢 高 | CryptoCompare_API |
+| ETH | $2,376.76 | 🟢 高 | CryptoCompare_API |
+| SOL | $87.35 | 🟢 高 | CryptoCompare_API |
+| GOLD | $4,645.8 | 🟢 高 | kitco.com |
+| OIL | $100.58 | 🟢 高 | tradingeconomics.com |
+| VIX | 17.38 | 🟢 高 | Yahoo_Finance_VIX |
+| F&G | 46 (Fear) | 🟡 中 | alternative.me |
+
+### 待处理
+- [P1] GitHub Push恢复后推送堆积commits
+- [P2] ~20个废弃脚本清理（scripts/目录）
+- [P2] 4月份数据归档整理
+
+---
+
 ## 快照 | 2026-05-06 11:11 GMT+8 (03:11 UTC)
 
 > ✅ **全系统修复完成** | ✅ 3个子智能体全部成功 | ✅ GitHub推送成功
