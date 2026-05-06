@@ -1,13 +1,7 @@
 {
-  "last_month_value": null,
-  "source": "alternative.me",
-  "index": 29,
-  "value": "Fear",
-  "yesterday": null,
-  "last_week": null,
-  "yesterday_value": null,
-  "timestamp": "2026-04-30T00:00:00Z",
-  "last_week_value": null,
-  "collection_time": "2026-04-30T17:06:37Z",
-  "last_month": null
+  "source": "cn.bing.com (降级)",
+  "timestamp": "2026-05-06T09:15:54Z",
+  "value": "greed",
+  "index": 2,
+  "collection_time": "2026-05-06T09:15:54Z"
 }
