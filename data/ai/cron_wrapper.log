@@ -4,3 +4,10 @@
 2026-05-06 12:00:27 - Running gh-trending-v3.ps1
 2026-05-06 12:00:27 - GH completed, exit: 
 2026-05-06 12:00:27 - Wrapper finished
+2026-05-06 18:00:02 - Wrapper started
+2026-05-06 18:00:02 - Running fetch-hn-top30.ps1
+2026-05-06 18:00:02 - HN completed, exit: 
+2026-05-06 18:00:24 - Running gh-trending-v3.ps1
+2026-05-06 18:00:24 - GH error: The term 'C:\Users\Administrator\clawd\agents\workspace-gid\scripts\gh-trending-v3.ps1' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2026-05-06 18:00:24 - Wrapper finished
