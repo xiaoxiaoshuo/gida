@@ -1,42 +1,28 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-05-08 05:02 GMT+8 (21:02 UTC)
+## 快照 | 2026-05-08 06:05 GMT+8 (22:05 UTC)
 
-> ✅ **早间数据刷新完成** | ✅ AI新闻采集完成 | ✅ 简报已生成 | ✅ GitHub Push成功
+> ✅ **整点数据刷新** | ✅ GitHub Push成功
 
-### 关键发现
-- **遗忘点**: AI新闻数据混淆（ai-news_latest.json存的是GH Trending repos）
-- **遗忘点**: AI新闻采集断档10天（HN最后4/21，Tech News最后4/28）
-- **遗忘点**: 5/8简报空缺
-- **触发**: 定时自检（04:53 UTC）→ 派出3个子智能体
-- **修复**: 子智能体重建HN/GH/Anthropic/OpenAI采集管道
-- **GitHub Push**: 05:03 UTC推送成功（网络恢复）
-
-### 数据状态（05:02 UTC / 13:02 GMT+8）
+### 数据状态（06:05 UTC / 14:05 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
 |------|------|--------|------|
-| BTC | $79,858.5 | 🟢 高 | OKX_API |
-| ETH | $2,290.7 | 🟢 高 | OKX_API |
-| SOL | $88.12 | 🟢 高 | OKX_API |
+| BTC | $79,609.7 | 🟢 高 | OKX_API |
+| ETH | $2,283.43 | 🟢 高 | OKX_API |
+| SOL | $87.72 | 🟢 高 | OKX_API |
 | GOLD | $4,735/oz | 🟢 高 | kitco.com |
 | OIL | $92.8/barrel | 🟢 高 | tradingeconomics.com |
 | VIX | 17.44 | 🟢 高 | Yahoo_Finance |
 | F&G | 47 (Neutral) | 🟡 中 | alternative.me |
 
 ### 📈 市场信号
-- BTC $79,858：跌破$80K（-$1,200 / -1.5%）
-- ETH $2,291：同步回调
-- SOL $88.12：跟随回调
-- F&G 47 (Neutral)：无变化
-- BTC从$81K回落至$79,858，$80K关口失守
-
-### AI/ML热点
-- **DeepSeek-TUI**爆发：18.5k★，今日+5,787★（终端Coding Agent）
-- **OpenAI GPT-5.5 Instant** 发布，语音智能新模型
-- **Anthropic Claude Design** 发布，AI可视化协作工具
+- BTC $79,609：从$79,858继续回落，$80K下方整理（-$248 / -0.3%）
+- ETH $2,283：同步回调
+- SOL $87.72：跟随回调
+- 加密市场整体偏弱，$80K支撑已转为阻力
 
 ### GitHub Push
-- 推送成功（f64a33f，05:03 UTC）
+- 推送成功（6db1f36，06:05 UTC）
 
 ---
 
