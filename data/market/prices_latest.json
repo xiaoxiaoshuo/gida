@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08 06:05:00",
+  "timestamp": "2026-05-08 07:07:00",
   "macro": {
     "OIL": {
       "confidence": "high",
@@ -24,23 +24,23 @@
   },
   "crypto": {
     "SOL": {
-      "price": 87.72,
-      "timestamp": "2026-05-08 06:05:00",
-      "raw": "{\"USD\":87.72}",
+      "price": 88.26,
+      "timestamp": "2026-05-08 07:07:00",
+      "raw": "{\"USD\":88.26}",
       "confidence": "high",
       "source": "OKX_API"
     },
     "BTC": {
-      "price": 79609.7,
-      "timestamp": "2026-05-08 06:05:00",
-      "raw": "{\"USD\":79609.7}",
+      "price": 79980.3,
+      "timestamp": "2026-05-08 07:07:00",
+      "raw": "{\"USD\":79980.3}",
       "confidence": "high",
       "source": "OKX_API"
     },
     "ETH": {
-      "price": 2283.43,
-      "timestamp": "2026-05-08 06:05:00",
-      "raw": "{\"USD\":2283.43}",
+      "price": 2289.61,
+      "timestamp": "2026-05-08 07:07:00",
+      "raw": "{\"USD\":2289.61}",
       "confidence": "high",
       "source": "OKX_API"
     }
