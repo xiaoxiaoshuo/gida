@@ -1,88 +1,50 @@
-﻿{
-    "timestamp_iso":  "2026-05-06T13:20:23Z",
-    "timestamp":  "2026-05-06 21:20:23",
-    "macro":  {
-                  "VIX":  {
-                              "confidence":  "high",
-                              "timestamp":  "2026-05-06 21:20:23",
-                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
-                              "source":  "Yahoo_Finance_VIX",
-                              "value":  16.77
-                          },
-                  "OIL":  {
-                              "value":  96.28,
-                              "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-05-06 21:20:23",
-                              "raw_len":  416697,
-                              "confidence":  "high",
-                              "unit":  "USD/barrel (WTI)"
-                          },
-                  "GOLD":  {
-                               "value":  4685.6,
-                               "source":  "kitco.com",
-                               "timestamp":  "2026-05-06 21:20:23",
-                               "raw_len":  60777,
-                               "confidence":  "high",
-                               "unit":  "USD/oz"
-                           }
-              },
-    "errors":  [
-
-               ],
-    "crypto":  {
-                   "BTC":  {
-                               "price":  81981.19,
-                               "timestamp":  "2026-05-06 21:20:23",
-                               "raw":  "{\"USD\":81981.19}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           },
-                   "ETH":  {
-                               "price":  2386.55,
-                               "timestamp":  "2026-05-06 21:20:23",
-                               "raw":  "{\"USD\":2386.55}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           },
-                   "SOL":  {
-                               "price":  88.62,
-                               "timestamp":  "2026-05-06 21:20:23",
-                               "raw":  "{\"USD\":88.62}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           }
-               },
-    "quality_report":  {
-                           "SOL":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "VIX":  {
-                                       "label":  "高",
-                                       "score":  80,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "OIL":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                   },
-                           "GOLD":  {
-                                        "label":  "中",
-                                        "score":  65,
-                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                    },
-                           "BTC":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "ETH":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   }
-                       },
-    "collection_version":  "v8"
+{
+  "crypto": {
+    "BTC": {
+      "price": 81981.19,
+      "timestamp": "2026-05-06 21:20:23",
+      "raw": "{\"USD\":81981.19}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "ETH": {
+      "price": 2386.55,
+      "timestamp": "2026-05-06 21:20:23",
+      "raw": "{\"USD\":2386.55}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    },
+    "SOL": {
+      "price": 88.62,
+      "timestamp": "2026-05-06 21:20:23",
+      "raw": "{\"USD\":88.62}",
+      "confidence": "high",
+      "source": "CryptoCompare_API"
+    }
+  },
+  "timestamp": "2026-05-07 09:14:09",
+  "macro": {
+    "GOLD": {
+      "value": 4685.6,
+      "source": "kitco.com",
+      "timestamp": "2026-05-06 21:20:23",
+      "raw_len": 60777,
+      "confidence": "high",
+      "unit": "USD/oz"
+    },
+    "VIX": {
+      "value": 17.39,
+      "timestamp": "2026-05-07 09:14:09",
+      "source": "Yahoo_Finance_VIX (fetch)",
+      "confidence": "high"
+    },
+    "OIL": {
+      "value": 96.16,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-05-07 09:14:09",
+      "source": "tradingeconomics.com (fetch)",
+      "confidence": "high"
+    }
+  },
+  "collection_version": "macro-playwright-v2"
 }
