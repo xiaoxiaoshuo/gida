@@ -1,15 +1,35 @@
 # HEARTBEAT.md
 
-## 快照 | 2026-05-06 13:06 GMT+8 (05:06 UTC)
+## 快照 | 2026-05-07 18:21 GMT+8 (10:21 UTC)
 
-> ✅ 13:06自检完成 | GitHub 443重置 | AI新闻中断确认
+> ✅ **晚间数据刷新完成** | ✅ 简报已生成 | ✅ GitHub Push成功
 
 ### 关键发现
-- **GitHub Push**: ⚠️ 443持续重置，commit堆积 8a6136c
-- **GitHub Trending**: ✅ 确认15条Repo结构正确
-- **COLLECTION_STATUS.md**: ✅ v8+已更新
-- **AI新闻中断**: 🔴 tech-news_latest.json 4/28后中断8天（已修复为ai-news_latest.json）
-- **废弃脚本**: ~20个旧脚本待清理（gh-trending-v2/v3/bgithub, debug-*, fix-*等）
+- **遗忘点**: 价格数据超过18小时未刷新 (最后14:06 5/6 → 18:21 5/7)
+- **遗忘点**: 5/7晚间简报未在18:00前生成
+- **触发**: auto-push.ps1报错触发定时自检
+- **修复**: 派生2个子智能体并行执行 (简报+市场价格)
+
+### 数据状态（18:21 UTC / 18:21 GMT+8）
+| 品种 | 价格 | 置信度 | 备注 |
+|------|------|--------|------|
+| BTC | $80,912.74 | 🟢 高 | CryptoCompare_API |
+| ETH | $2,327.8 | 🟢 高 | CryptoCompare_API |
+| SOL | $89.22 | 🟢 高 | CryptoCompare_API |
+| GOLD | $4,735/oz | 🟢 高 | kitco.com (新高) |
+| OIL | $92.8/barrel | 🟢 高 | tradingeconomics.com |
+| VIX | 17.52 | 🟢 高 | Yahoo_Finance |
+| F&G | 47 (Neutral) | 🟡 中 | alternative.me |
+
+### 📈 市场信号
+- BTC $80,912：从$81,056回落，测试$81K支撑
+- GOLD $4,735：突破新高，避险需求强
+- OIL $92.8：从$100高位明显回落，能源压力缓解
+- SOL $89.22：逆势走强+1.6%
+
+### 待处理
+- [P2] ~20个废弃脚本清理（scripts/目录）
+- [P2] 4月份数据归档整理
 
 ### 数据状态（13:06 UTC / 21:06 GMT+8）
 | 品种 | 价格 | 置信度 | 备注 |
