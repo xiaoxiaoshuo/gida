@@ -1,392 +1,55 @@
 {
-  "repos": [
-    {
-      "forks": 0,
-      "description": "Coding agent for DeepSeek models that runs in your terminal",
-      "url": "https://github.com/Hmbown///DeepSeek-TUI",
-      "rank": 1,
-      "stars": 9368,
-      "built_by": [],
-      "today_stars": 2434,
-      "repo": "Hmbown///DeepSeek-TUI"
+  "collected_at": "2026-05-08T04:58:00Z",
+  "sources": {
+    "hacker_news": {
+      "url": "https://news.ycombinator.com/",
+      "file": "data/ai/hacker-news_latest.json",
+      "top_stories": [
+        {"title": "The Burning Man MOOP Map", "score": 460, "url": "https://www.not-ship.com/burning-man-moop/"},
+        {"title": "Chrome removes claim of On-device Al not sending data to Google Servers", "score": 326, "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/"},
+        {"title": "Permacomputing Principles", "score": 241, "url": "https://permacomputing.net/principles/"},
+        {"title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields", "score": 207, "url": "https://deepmind.google/blog/alphaevolve-impact/"},
+        {"title": "Agents need control flow, not more prompts", "score": 191, "url": "https://bsuh.bearblog.dev/agents-need-control-flow/"},
+        {"title": "DeepSeek 4 Flash local inference engine for Metal", "score": 188, "url": "https://github.com/antirez/ds4"},
+        {"title": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI", "score": 196, "url": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse"}
+      ]
     },
-    {
-      "forks": 0,
-      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-      "url": "https://github.com/ruvnet///ruflo",
-      "rank": 2,
-      "stars": 44151,
-      "built_by": [],
-      "today_stars": 2432,
-      "repo": "ruvnet///ruflo"
+    "anthropic_blog": {
+      "url": "https://www.anthropic.com/news",
+      "file": "data/ai/anthropic-blog_latest.json",
+      "posts": [
+        {"title": "Introducing Claude Design", "date": "Apr 17, 2026", "description": "New Anthropic Labs product for collaborative visual work"},
+        {"title": "Project Glasswing", "date": "Apr 7, 2026", "description": "Multi-company initiative to secure critical software"},
+        {"title": "What 81,000 people want from AI", "date": "Mar 18, 2026", "description": "Largest multilingual qualitative AI study"}
+      ]
     },
-    {
-      "forks": 0,
-      "description": "An autonomous agent for deep financial research",
-      "url": "https://github.com/virattt///dexter",
-      "rank": 3,
-      "stars": 23950,
-      "built_by": [],
-      "today_stars": 659,
-      "repo": "virattt///dexter"
+    "openai_blog": {
+      "url": "https://openai.com/blog",
+      "file": "data/ai/openai-blog_latest.json",
+      "posts": [
+        {"title": "Advancing voice intelligence with new models in the API", "date": "May 7, 2026"},
+        {"title": "GPT-5.5 Instant: smarter, clearer, and more personalized", "date": "May 5, 2026"},
+        {"title": "Testing ads in ChatGPT", "date": "May 7, 2026"}
+      ]
     },
-    {
-      "forks": 0,
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "url": "https://github.com/docusealco///docuseal",
-      "rank": 4,
-      "stars": 14169,
-      "built_by": [],
-      "today_stars": 927,
-      "repo": "docusealco///docuseal"
+    "deepseek_blog": {
+      "url": "https://www.deepseek.com/",
+      "file": "data/ai/deepseek-blog_latest.json",
+      "note": "主站内容受CDN限制无法抓取"
     },
-    {
-      "forks": 0,
-      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
-      "url": "https://github.com/bwya77///vscode-dark-islands",
-      "rank": 5,
-      "stars": 7960,
-      "built_by": [],
-      "today_stars": 321,
-      "repo": "bwya77///vscode-dark-islands"
-    },
-    {
-      "forks": 0,
-      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
-      "url": "https://github.com/mksglu///context-mode",
-      "rank": 6,
-      "stars": 13256,
-      "built_by": [],
-      "today_stars": 276,
-      "repo": "mksglu///context-mode"
-    },
-    {
-      "forks": 0,
-      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
-      "url": "https://github.com/cocoindex-io///cocoindex",
-      "rank": 7,
-      "stars": 8491,
-      "built_by": [],
-      "today_stars": 438,
-      "repo": "cocoindex-io///cocoindex"
-    },
-    {
-      "forks": 0,
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "url": "https://github.com/msitarzewski///agency-agents",
-      "rank": 8,
-      "stars": 93905,
-      "built_by": [],
-      "today_stars": 1218,
-      "repo": "msitarzewski///agency-agents"
-    },
-    {
-      "forks": 0,
-      "description": "A complete computer science study plan to become a software engineer.",
-      "url": "https://github.com/jwasham///coding-interview-university",
-      "rank": 9,
-      "stars": 345990,
-      "built_by": [],
-      "today_stars": 366,
-      "repo": "jwasham///coding-interview-university"
-    },
-    {
-      "forks": 0,
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "url": "https://github.com/D4Vinci///Scrapling",
-      "rank": 10,
-      "stars": 45337,
-      "built_by": [],
-      "today_stars": 914,
-      "repo": "D4Vinci///Scrapling"
-    },
-    {
-      "forks": 0,
-      "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
-      "url": "https://github.com/Arindam200///awesome-ai-apps",
-      "rank": 11,
-      "stars": 11560,
-      "built_by": [],
-      "today_stars": 211,
-      "repo": "Arindam200///awesome-ai-apps"
-    },
-    {
-      "forks": 0,
-      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
-      "url": "https://github.com/AIDC-AI///Pixelle-Video",
-      "rank": 12,
-      "stars": 12142,
-      "built_by": [],
-      "today_stars": 691,
-      "repo": "AIDC-AI///Pixelle-Video"
-    },
-    {
-      "forks": 0,
-      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
-      "url": "https://github.com/LearningCircuit///local-deep-research",
-      "rank": 13,
-      "stars": 5297,
-      "built_by": [],
-      "today_stars": 197,
-      "repo": "LearningCircuit///local-deep-research"
-    },
-    {
-      "forks": 0,
-      "description": "Claude Agent SDK with a web browsing tool",
-      "url": "https://github.com/browserbase///skills",
-      "rank": 14,
-      "stars": 2461,
-      "built_by": [],
-      "today_stars": 311,
-      "repo": "browserbase///skills"
-    },
-    {
-      "forks": 0,
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "url": "https://github.com/forrestchang///andrej-karpathy-skills",
-      "rank": 15,
-      "stars": 114781,
-      "built_by": [],
-      "today_stars": 2409,
-      "repo": "forrestchang///andrej-karpathy-skills"
-    },
-    {
-      "forks": 0,
-      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
-      "url": "https://github.com/PriorLabs///TabPFN",
-      "rank": 16,
-      "stars": 6417,
-      "built_by": [],
-      "today_stars": 57,
-      "repo": "PriorLabs///TabPFN"
+    "google_ai_blog": {
+      "url": "https://ai.googleblog.com/",
+      "file": "data/ai/google-ai-blog_latest.json",
+      "note": "已重定向到 research.google/blog"
     }
-  ],
-  "timestamp": "2026-05-06T11:39:05Z",
-  "sources": [
-    {
-      "name": "Hacker News",
-      "status": "ok",
-      "path": "items",
-      "count": 30
-    },
-    {
-      "name": "GitHub Trending",
-      "status": "ok",
-      "path": "repos",
-      "count": 16
-    }
-  ],
-  "count": 46,
-  "items": [
-    {
-      "title": "John Ternus to become Apple CEO",
-      "desc": "",
-      "date": "2026-04-20T20:39:32Z",
-      "url": "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "How to make a fast dynamic language interpreter",
-      "desc": "",
-      "date": "2026-04-21T00:48:07Z",
-      "url": "https://zef-lang.dev/implementation",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Jujutsu megamerges for fun and profit",
-      "desc": "",
-      "date": "2026-04-20T21:32:10Z",
-      "url": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
-      "source": "Hacker News"
-    },
-    {
-      "title": "KV Cache Compression 900000x Beyond TurboQuant and Per-Vector Shannon Limit",
-      "desc": "",
-      "date": "2026-04-21T02:11:14Z",
-      "url": "https://arxiv.org/abs/2604.15356",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Qwen3.6-Max-Preview: Smarter, Sharper, Still Evolving",
-      "desc": "",
-      "date": "2026-04-20T14:05:34Z",
-      "url": "https://qwen.ai/blog?id=qwen3.6-max-preview",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Kimi vendor verifier – verify accuracy of inference providers",
-      "desc": "",
-      "date": "2026-04-20T18:39:53Z",
-      "url": "https://www.kimi.com/blog/kimi-vendor-verifier",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Ternary Bonsai: Top Intelligence at 1.58 Bits",
-      "desc": "",
-      "date": "2026-04-18T02:51:34Z",
-      "url": "https://prismml.com/news/ternary-bonsai",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "desc": "",
-      "date": "2026-04-20T19:51:07Z",
-      "url": "https://github.com/gizmo64k/soulplayer-c64",
-      "source": "Hacker News"
-    },
-    {
-      "title": "ggsql: A Grammar of Graphics for SQL",
-      "desc": "",
-      "date": "2026-04-20T12:51:20Z",
-      "url": "https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Quantum Computers Are Not a Threat to 128-Bit Symmetric Keys",
-      "desc": "",
-      "date": "2026-04-20T16:37:48Z",
-      "url": "https://words.filippo.io/128-bits/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "OpenAI ad partner now selling ChatGPT ad placements based on “prompt relevance”",
-      "desc": "",
-      "date": "2026-04-20T21:20:52Z",
-      "url": "https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Japan's cherry blossom database, 1,200 years old, has a new keeper",
-      "desc": "",
-      "date": "2026-04-17T23:22:38Z",
-      "url": "https://www.nytimes.com/2026/04/17/climate/japan-cherry-blossom-database-scientist.html",
-      "source": "Hacker News"
-    },
-    {
-      "title": "All phones sold in the EU to have replaceable batteries from 2027",
-      "desc": "",
-      "date": "2026-04-20T13:41:25Z",
-      "url": "https://www.theolivepress.es/spain-news/2026/04/20/eu-to-force-replaceable-batteries-in-phones-and-tablets-from-2027/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Modern Rendering Culling Techniques",
-      "desc": "",
-      "date": "2026-04-19T07:54:11Z",
-      "url": "https://krupitskas.com/posts/modern_culling_techniques/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Brussels launched an age checking app. Hackers took 2 minutes to break it",
-      "desc": "",
-      "date": "2026-04-20T08:49:22Z",
-      "url": "https://www.politico.eu/article/eu-brussels-launched-age-checking-app-hackers-say-took-them-2-minutes-break-it/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Kefir C17/C23 Compiler",
-      "desc": "",
-      "date": "2026-04-17T22:12:59Z",
-      "url": "https://sr.ht/~jprotopopov/kefir/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
-      "desc": "",
-      "date": "2026-04-20T15:41:02Z",
-      "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Monero Community Crowdfunding System",
-      "desc": "",
-      "date": "2026-04-20T21:33:15Z",
-      "url": "https://ccs.getmonero.org/ideas/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "WebUSB Extension for Firefox",
-      "desc": "",
-      "date": "2026-04-20T11:51:04Z",
-      "url": "https://github.com/ArcaneNibble/awawausb",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Year of the IPv6 Overlay Network",
-      "desc": "",
-      "date": "2026-04-17T18:58:36Z",
-      "url": "https://www.defined.net/blog/year-of-the-ipv6-overlay-network/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "M 7.4 earthquake – 100 km ENE of Miyako, Japan",
-      "desc": "",
-      "date": "2026-04-20T10:04:40Z",
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sri7/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Real-Time Visualization of Human Finger Joint Cavitation (2015)",
-      "desc": "",
-      "date": "2026-04-19T12:22:45Z",
-      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0119470",
-      "source": "Hacker News"
-    },
-    {
-      "title": "F-35 is built for the wrong war",
-      "desc": "",
-      "date": "2026-04-20T20:07:35Z",
-      "url": "https://warontherocks.com/cogs-of-war/the-f-35-is-a-masterpiece-built-for-the-wrong-war/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "10 years ago, someone wrote a test for Servo that included an expiry in 2026",
-      "desc": "",
-      "date": "2026-04-19T19:19:48Z",
-      "url": "https://mastodon.social/@jdm_/116429380667467307",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Zero-Copy Pages in Rust: Or How I Learned to Stop Worrying and Love Lifetimes",
-      "desc": "",
-      "date": "2026-04-16T06:11:40Z",
-      "url": "https://redixhumayun.github.io/databases/2026/04/14/zero-copy-pages-in-rust.html",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Bloom (YC P26) Is Hiring",
-      "desc": "",
-      "date": "2026-04-20T17:00:45Z",
-      "url": "https://www.ycombinator.com/companies/trybloom/jobs",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Writing string.h functions using string instructions in asm x86-64 (2025)",
-      "desc": "",
-      "date": "2026-04-17T16:22:36Z",
-      "url": "https://pmasschelier.github.io/x86_64_strings/",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Atlassian enables default data collection to train AI",
-      "desc": "",
-      "date": "2026-04-20T12:23:39Z",
-      "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Sauna effect on heart rate",
-      "desc": "",
-      "date": "2026-04-20T13:40:28Z",
-      "url": "https://tryterra.co/research/sauna-effect-on-heart-rate",
-      "source": "Hacker News"
-    },
-    {
-      "title": "Kimi K2.6: Advancing open-source coding",
-      "desc": "",
-      "date": "2026-04-20T15:28:13Z",
-      "url": "https://www.kimi.com/blog/kimi-k2-6",
-      "source": "Hacker News"
-    }
-  ]
+  },
+  "highlights": {
+    "ai_news": [
+      "OpenAI发布GPT-5.5 Instant及语音智能新模型",
+      "Anthropic发布Claude Design可视化协作产品",
+      "DeepSeek-TUI持续爆发，今日+5,787★",
+      "Google AlphaEvolve展示Gemini驱动的编程Agent成果",
+      "Chrome悄悄移除\"本地AI不向Google发送数据\"的声明"
+    ]
+  }
 }

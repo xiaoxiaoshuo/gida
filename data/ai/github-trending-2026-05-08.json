@@ -1,0 +1,21 @@
+{
+  "repos": [
+    {"name": "anthropics / financial-services", "stars": 11296, "stars_today": 1367, "language": "Python", "description": ""},
+    {"name": "Hmbown / DeepSeek-TUI", "stars": 18485, "stars_today": 5787, "language": "Rust", "description": "Coding agent for DeepSeek models that runs in your terminal"},
+    {"name": "z-lab / dflash", "stars": 3436, "stars_today": 654, "language": "Python", "description": "DFlash: Block Diffusion for Flash Speculative Decoding"},
+    {"name": "InsForge / InsForge", "stars": 8806, "stars_today": 459, "language": "TypeScript", "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents."},
+    {"name": "LearningCircuit / local-deep-research", "stars": 6168, "stars_today": 564, "language": "Python", "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs."},
+    {"name": "addyosmani / agent-skills", "stars": 32759, "stars_today": 3058, "language": "Shell", "description": "Production-grade engineering skills for AI coding agents."},
+    {"name": "VectifyAI / PageIndex", "stars": 29463, "stars_today": 953, "language": "Python", "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"},
+    {"name": "vercel-labs / open-agents", "stars": 5003, "stars_today": 160, "language": "TypeScript", "description": "An open source template for building cloud agents."},
+    {"name": "docusealco / docuseal", "stars": 15527, "stars_today": 899, "language": "Ruby", "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"},
+    {"name": "decolua / 9router", "stars": 4431, "stars_today": 249, "language": "JavaScript", "description": "🆓 Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers."},
+    {"name": "PriorLabs / TabPFN", "stars": 6761, "stars_today": 233, "language": "Python", "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡"},
+    {"name": "aaif-goose / goose", "stars": 44439, "stars_today": 431, "language": "Rust", "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"},
+    {"name": "Augani / openreel-video", "stars": 1584, "stars_today": 208, "language": "TypeScript", "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative."}
+  ],
+  "date": "2026-05-08",
+  "timestamp": "2026-05-08 04:57:00Z",
+  "source": "https://github.com/trending",
+  "collection_method": "browser"
+}

@@ -1,13 +1,6 @@
-﻿{
-    "source":  "alternative.me",
-    "yesterday":  null,
-    "last_week_value":  null,
-    "last_month":  null,
-    "value":  "Neutral",
-    "timestamp":  "2026-05-07T00:00:00Z",
-    "index":  47,
-    "yesterday_value":  null,
-    "last_week":  null,
-    "last_month_value":  null,
-    "collection_time":  "2026-05-07T18:17:45Z"
+{
+  "timestamp": "2026-05-08 04:59:00",
+  "value": 47,
+  "status": "Neutral",
+  "source": "alternative.me (browser)"
 }

@@ -1,37 +1,36 @@
-[
-  {
-    "title": "Introducing Claude Design by Anthropic Labs",
-    "url": "https://www.anthropic.com/news/introducing-claude-design",
-    "date": "Apr 17, 2026",
-    "category": "Product",
-    "summary": "Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more."
-  },
-  {
-    "title": "Project Glasswing",
-    "url": "https://www.anthropic.com/news/project-glasswing",
-    "date": "Apr 7, 2026",
-    "category": "Announcements",
-    "summary": "A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software."
-  },
-  {
-    "title": "What 81,000 people want from AI",
-    "url": "https://www.anthropic.com/news/what-81000-people-want-from-ai",
-    "date": "Mar 18, 2026",
-    "category": "Research",
-    "summary": "We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind."
-  },
-  {
-    "title": "Claude is a space to think",
-    "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-    "date": "Feb 4, 2026",
-    "category": "Announcements",
-    "summary": "Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust."
-  },
-  {
-    "title": "Agents for financial services and insurance",
-    "url": "https://www.anthropic.com/news/finance-agents",
-    "date": "2026-05-05",
-    "category": "Research",
-    "summary": "Anthropic's research on deploying Claude agents in financial services and insurance industries, currently trending on Hacker News with 211 points."
-  }
-]
+{
+  "posts": [
+    {
+      "title": "Introducing Claude Design",
+      "url": "https://www.anthropic.com/news",
+      "date": "Apr 17, 2026",
+      "description": "A new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more."
+    },
+    {
+      "title": "Project Glasswing",
+      "url": "https://www.anthropic.com/news",
+      "date": "Apr 7, 2026",
+      "description": "A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software."
+    },
+    {
+      "title": "What 81,000 people want from AI",
+      "url": "https://www.anthropic.com/news",
+      "date": "Mar 18, 2026",
+      "description": "We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind."
+    },
+    {
+      "title": "Claude is a space to think",
+      "url": "https://www.anthropic.com/news",
+      "date": "Feb 4, 2026",
+      "description": "We've made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust."
+    },
+    {
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "date": "2026-05-08 (HN mention)",
+      "description": "Research on encoding Claude's internal thoughts into text - mentioned on Hacker News today."
+    }
+  ],
+  "collected_at": "2026-05-08T04:56:00Z",
+  "source": "https://www.anthropic.com/news"
+}

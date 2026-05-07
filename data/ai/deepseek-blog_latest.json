@@ -1,98 +1,13 @@
-[
-  {
-    "title": "DeepSeek-V4 预览版本发布",
-    "url": "https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg",
-    "date": "2026-05-06",
-    "type": "announcement",
-    "summary": "DeepSeek-V4 预览版本发布，具备世界顶级推理性能，Agent 能力大幅提高，已在网页端、APP 和 API 上线",
-    "source": "deepseek.com 首页横幅"
-  },
-  {
-    "title": "awesome-deepseek-integration",
-    "url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
-    "stars": 37105,
-    "forks": 4087,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Integrate the DeepSeek API into popular software"
-  },
-  {
-    "title": "DeepSeek-OCR",
-    "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
-    "stars": 23064,
-    "forks": 2133,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Contexts Optical Compression"
-  },
-  {
-    "title": "DeepSeek-V3 / DeepSeek-R1",
-    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Flagship models - latest versions on GitHub"
-  },
-  {
-    "title": "FlashMLA",
-    "url": "https://github.com/deepseek-ai/FlashMLA",
-    "stars": 12629,
-    "forks": 1023,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Efficient Multi-head Latent Attention Kernels"
-  },
-  {
-    "title": "3FS",
-    "url": "https://github.com/deepseek-ai/3FS",
-    "stars": 9856,
-    "forks": 1042,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "A high-performance distributed file system designed to address the challenges of AI training and inference workloads."
-  },
-  {
-    "title": "DeepEP",
-    "url": "https://github.com/deepseek-ai/DeepEP",
-    "stars": 9597,
-    "forks": 1222,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "DeepEP: an efficient expert-parallel communication library"
-  },
-  {
-    "title": "DeepGEMM",
-    "url": "https://github.com/deepseek-ai/DeepGEMM",
-    "stars": 7183,
-    "forks": 963,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Clean and efficient FP8 GEMM kernels with fine-grained scaling"
-  },
-  {
-    "title": "DualPipe",
-    "url": "https://github.com/deepseek-ai/DualPipe",
-    "stars": 2950,
-    "forks": 324,
-    "date": "2026-01-14",
-    "type": "github_repo",
-    "summary": "A bidirectional pipeline parallelism algorithm for computation-communication overlap in DeepSeek V3/R1 training."
-  },
-  {
-    "title": "DeepSeek-OCR-2",
-    "url": "https://github.com/deepseek-ai/DeepSeek-OCR-2",
-    "stars": 2799,
-    "forks": 239,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "Visual Causal Flow"
-  },
-  {
-    "title": "TileKernels",
-    "url": "https://github.com/deepseek-ai/TileKernels",
-    "stars": 1443,
-    "forks": 120,
-    "date": "2026-05-06",
-    "type": "github_repo",
-    "summary": "A kernel library written in tilelang"
-  }
-]
+{
+  "posts": [
+    {
+      "title": "DeepSeek official website",
+      "url": "https://www.deepseek.com/",
+      "date": "2026-05-08",
+      "description": "Official DeepSeek site - minimal content via web_fetch, main content likely behind JS/china-cdn restrictions. Follow updates via GitHub: github.com/deepseek-ai"
+    }
+  ],
+  "collected_at": "2026-05-08T04:56:00Z",
+  "source": "https://www.deepseek.com/",
+  "note": "DeepSeek主站受中国大陆CDN限制，内容无法直接抓取。最新发布建议关注GitHub: https://github.com/deepseek-ai"
+}
