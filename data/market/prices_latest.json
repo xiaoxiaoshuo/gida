@@ -1,50 +1,49 @@
-{
-  "crypto": {
-    "BTC": {
-      "price": 81056.3,
-      "timestamp": "2026-05-07 14:03:00",
-      "raw": "{\"USD\":81056.3}",
-      "confidence": "high",
-      "source": "OKX_API"
-    },
-    "ETH": {
-      "price": 2330.04,
-      "timestamp": "2026-05-07 14:03:00",
-      "raw": "{\"USD\":2330.04}",
-      "confidence": "high",
-      "source": "OKX_API"
-    },
-    "SOL": {
-      "price": 88.66,
-      "timestamp": "2026-05-07 14:03:00",
-      "raw": "{\"USD\":88.66}",
-      "confidence": "high",
-      "source": "OKX_API"
-    }
-  },
-  "timestamp": "2026-05-07 14:03:00",
-  "macro": {
-    "GOLD": {
-      "value": 4705.51,
-      "source": "goldprice.org (browser)",
-      "timestamp": "2026-05-07 06:06:26",
-      "raw_len": 0,
-      "confidence": "high",
-      "unit": "USD/oz"
-    },
-    "VIX": {
-      "value": 17.39,
-      "timestamp": "2026-05-07 06:06:26",
-      "source": "Yahoo_Finance_VIX (fetch)",
-      "confidence": "high"
-    },
-    "OIL": {
-      "value": 95.121,
-      "unit": "USD/barrel (WTI)",
-      "timestamp": "2026-05-07 06:06:26",
-      "source": "tradingeconomics.com (browser)",
-      "confidence": "high"
-    }
-  },
-  "collection_version": "macro-playwright-v2"
+﻿{
+    "collection_version":  "macro-playwright-v2",
+    "timestamp":  "2026-05-07 18:20:52",
+    "macro":  {
+                  "GOLD":  {
+                               "confidence":  "high",
+                               "timestamp":  "2026-05-07 18:20:52",
+                               "unit":  "USD/oz",
+                               "source":  "kitco.com (fetch)",
+                               "value":  4735
+                           },
+                  "OIL":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-05-07 18:20:52",
+                              "unit":  "USD/barrel (WTI)",
+                              "source":  "tradingeconomics.com (fetch)",
+                              "value":  92.8
+                          },
+                  "VIX":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-05-07 18:20:52",
+                              "source":  "Yahoo_Finance_VIX (fetch)",
+                              "value":  17.52
+                          }
+              },
+    "crypto":  {
+                   "BTC":  {
+                               "price":  80912.74,
+                               "timestamp":  "2026-05-07 18:17:45",
+                               "raw":  "{\"USD\":80912.74}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "ETH":  {
+                               "price":  2327.8,
+                               "timestamp":  "2026-05-07 18:17:45",
+                               "raw":  "{\"USD\":2327.8}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  89.22,
+                               "timestamp":  "2026-05-07 18:17:45",
+                               "raw":  "{\"USD\":89.22}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               }
 }
