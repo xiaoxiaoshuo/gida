@@ -1,36 +1,13 @@
 {
-  "crypto": {
-    "ETH": {
-      "price": 2289.61,
-      "timestamp": "2026-05-08 07:07:00",
-      "raw": "{\"USD\":2289.61}",
-      "confidence": "high",
-      "source": "OKX_API"
-    },
-    "BTC": {
-      "price": 79980.3,
-      "timestamp": "2026-05-08 07:07:00",
-      "raw": "{\"USD\":79980.3}",
-      "confidence": "high",
-      "source": "OKX_API"
-    },
-    "SOL": {
-      "price": 88.26,
-      "timestamp": "2026-05-08 07:07:00",
-      "raw": "{\"USD\":88.26}",
-      "confidence": "high",
-      "source": "OKX_API"
-    }
-  },
+  "timestamp": "2026-05-08 08:10:00",
   "collection_version": "macro-playwright-v2",
-  "timestamp": "2026-05-08 08:00:02",
   "macro": {
-    "GOLD": {
+    "OIL": {
+      "source": "tradingeconomics.com (fetch)",
       "confidence": "high",
-      "timestamp": "2026-05-07 18:20:52",
-      "unit": "USD/oz",
-      "source": "kitco.com (fetch)",
-      "value": 4735
+      "value": 97.16,
+      "unit": "USD/barrel (WTI)",
+      "timestamp": "2026-05-08 08:00:02"
     },
     "VIX": {
       "source": "Yahoo_Finance_VIX (fetch)",
@@ -38,12 +15,35 @@
       "value": 17.08,
       "timestamp": "2026-05-08 08:00:02"
     },
-    "OIL": {
-      "source": "tradingeconomics.com (fetch)",
+    "GOLD": {
       "confidence": "high",
-      "value": 97.16,
-      "unit": "USD/barrel (WTI)",
-      "timestamp": "2026-05-08 08:00:02"
+      "timestamp": "2026-05-07 18:20:52",
+      "unit": "USD/oz",
+      "source": "kitco.com (fetch)",
+      "value": 4735
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "price": 88.62,
+      "timestamp": "2026-05-08 08:10:00",
+      "raw": "{\"USD\":88.62}",
+      "confidence": "high",
+      "source": "OKX_API"
+    },
+    "BTC": {
+      "price": 80082.6,
+      "timestamp": "2026-05-08 08:10:00",
+      "raw": "{\"USD\":80082.6}",
+      "confidence": "high",
+      "source": "OKX_API"
+    },
+    "ETH": {
+      "price": 2293.36,
+      "timestamp": "2026-05-08 08:10:00",
+      "raw": "{\"USD\":2293.36}",
+      "confidence": "high",
+      "source": "OKX_API"
     }
   }
 }
