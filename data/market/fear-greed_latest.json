@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-05-08 04:59:00",
-  "value": 47,
-  "status": "Neutral",
-  "source": "alternative.me (browser)"
+  "timestamp": "2026-05-09 06:08:00",
+  "value": 38,
+  "value_classification": "Fear",
+  "previous_value": 47,
+  "previous_classification": "Neutral",
+  "last_week": 26,
+  "last_week_classification": "Fear",
+  "last_month": 17,
+  "last_month_classification": "Extreme Fear",
+  "source": "alternative.me API (web_fetch)",
+  "confidence": "high",
+  "time_until_update": 6682
 }

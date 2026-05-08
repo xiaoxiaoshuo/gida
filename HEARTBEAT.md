@@ -1,5 +1,46 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-05-09 14:06 GMT+8 (06:06 UTC)
+
+> ⚠️ **自检触发** | ⏰ 定时提醒 | 🔴 GitHub Push失败(GFW Reset) | 🤖 子智能体已派发
+
+### 🔴 GitHub Push失败（GFW间歇性干扰）
+- **症状**: `git push` → `Recv failure: Connection was reset`
+- **诊断**: `Test-NetConnection github.com -Port 443` = True（但实际HTTPS被RESET）
+- **根因**: GFW在TCP层间歇性阻断github.com 443连接
+- **历史**: 4/28首次发现，5/9再次发生，共2次
+- **堆积**: 1 commit待推送（7c635bc）
+- **规避策略**: 需建立网络稳定性监控，降低push频率
+
+### 🤖 子智能体状态
+- **morning-intel-collector** (bf8177a4) — ✅ 已完成
+  - 结果：市场价格 ✅ / AI新闻 ✅(HN✅ GH❌) / 简报 ✅ / GitHub Push ❌
+- **macro-refresh-agent** (f71ec2aa) — ✅ 已完成
+  - 结果：F&G 38 ✅ / VIX 17.19 ✅ / 宏观数据已更新
+
+### 📦 待推送堆积
+- **Commit**: `73ecba1` (chore: 每日简报更新 2026-05-09 14:05)
+- **状态**: 本地已创建，等待网络恢复
+
+### 🔴 数据新鲜度警报
+- fear-greed_latest.json：May 8 05:00 UTC（**21小时前过期**）- **已修复** ✅
+- AI news（HN/GitHub等）：May 8 04:57 UTC（**21小时前过期**）- **已修复** ✅
+- prices_latest.json：May 9 06:05 UTC（新鲜，🟢 OK）
+
+### ⚠️ 遗忘点（历史）
+- 简报断档5/7-8（已修复 ✅）
+- 价格过期20h（已修复 ✅）
+- F&G缺失（已修复 ✅）
+- GitHub Push GFW干扰（持续性问题，未根本解决）
+
+### 待处理
+- [P0] GitHub Push — 需监控网络状态，间歇性重试
+- [P1] GFW监控脚本开发
+- [P2] ~20个废弃脚本清理（scripts/目录）
+- [P2] 4月份数据归档整理
+
+---
+
 ## 快照 | 2026-05-09 13:06 GMT+8 (05:06 UTC)
 
 > ✅ **整点数据刷新** | ✅ 3子智能体全部完成 | ✅ 系统自检触发
