@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-08 09:43:00",
+  "timestamp": "2026-05-08 11:54:00",
   "collection_version": "macro-playwright-v2",
   "macro": {
     "OIL": {
@@ -25,23 +25,23 @@
   },
   "crypto": {
     "SOL": {
-      "price": 88.46,
-      "timestamp": "2026-05-08 09:43:00",
-      "raw": "{\"USD\":88.46}",
+      "price": 88.67,
+      "timestamp": "2026-05-08 11:54:00",
+      "raw": "{\"USD\":88.67}",
       "confidence": "high",
       "source": "OKX_API"
     },
     "BTC": {
-      "price": 79860,
-      "timestamp": "2026-05-08 09:43:00",
-      "raw": "{\"USD\":79860}",
+      "price": 80255.1,
+      "timestamp": "2026-05-08 11:54:00",
+      "raw": "{\"USD\":80255.1}",
       "confidence": "high",
       "source": "OKX_API"
     },
     "ETH": {
-      "price": 2285.62,
-      "timestamp": "2026-05-08 09:43:00",
-      "raw": "{\"USD\":2285.62}",
+      "price": 2295.17,
+      "timestamp": "2026-05-08 11:54:00",
+      "raw": "{\"USD\":2295.17}",
       "confidence": "high",
       "source": "OKX_API"
     }
