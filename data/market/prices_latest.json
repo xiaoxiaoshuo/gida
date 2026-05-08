@@ -2,58 +2,61 @@
   "macro": {
     "GOLD": {
       "confidence": "high",
-      "timestamp": "2026-05-09 05:06:45",
+      "timestamp": "2026-05-09 06:05:00",
       "unit": "USD/oz",
-      "source": "goldprice.org + Yahoo Finance (playwright)",
-      "value": 4715.6
+      "source": "Yahoo Finance GC=F (browser)",
+      "value": 4723.70,
+      "change_pct": 0.27
     },
     "VIX": {
-      "source": "Yahoo Finance ^VIX (playwright)",
-      "timestamp": "2026-05-09 05:06:45",
+      "source": "Yahoo Finance ^VIX (browser)",
+      "timestamp": "2026-05-09 06:05:00",
       "value": 17.19,
+      "change_pct": 0.64,
       "confidence": "high"
     },
     "OIL": {
-      "timestamp": "2026-05-09 05:06:45",
-      "source": "Yahoo Finance CL=F (playwright)",
+      "timestamp": "2026-05-09 06:05:00",
+      "source": "Yahoo Finance CL=F (browser)",
       "unit": "USD/barrel (WTI)",
       "value": 94.68,
+      "change_pct": -0.14,
       "confidence": "high"
     }
   },
   "fear_and_greed": {
     "value": 38,
     "value_classification": "Fear",
-    "timestamp": "2026-05-09 05:00:00",
-    "source": "alternative.me (browser)",
+    "timestamp": "2026-05-09 06:00:00",
+    "source": "alternative.me (web_fetch)",
     "confidence": "high"
   },
-  "collection_version": "macro-playwright-v3",
-  "timestamp": "2026-05-09 05:06:45",
+  "collection_version": "browser-yahoo-finance-v1",
+  "timestamp": "2026-05-09 06:05:00",
   "crypto": {
     "BTC": {
-      "price": 80188.95,
-      "change_pct": 0.60,
-      "timestamp": "2026-05-09 05:06:45",
-      "raw": "Yahoo Finance BTC-USD",
+      "price": 80300.29,
+      "change_pct": 0.49,
+      "timestamp": "2026-05-09 06:05:00",
+      "raw": "Yahoo Finance BTC-USD (browser)",
       "confidence": "high",
-      "source": "Yahoo_Finance (playwright)"
+      "source": "Yahoo_Finance (browser)"
     },
     "ETH": {
-      "price": 2308.68,
-      "change_pct": 0.93,
-      "timestamp": "2026-05-09 05:06:45",
-      "raw": "Yahoo Finance ETH-USD",
+      "price": 2315.45,
+      "change_pct": 1.25,
+      "timestamp": "2026-05-09 06:05:00",
+      "raw": "Yahoo Finance ETH-USD (browser)",
       "confidence": "high",
-      "source": "Yahoo_Finance (playwright)"
+      "source": "Yahoo_Finance (browser)"
     },
     "SOL": {
-      "price": 92.21,
-      "change_pct": 4.84,
-      "timestamp": "2026-05-09 05:06:45",
-      "raw": "Yahoo Finance SOL-USD",
+      "price": 92.50,
+      "change_pct": 5.01,
+      "timestamp": "2026-05-09 06:05:00",
+      "raw": "Yahoo Finance SOL-USD (browser)",
       "confidence": "high",
-      "source": "Yahoo_Finance (playwright)"
+      "source": "Yahoo_Finance (browser)"
     }
   }
 }
