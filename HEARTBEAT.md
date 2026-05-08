@@ -1,5 +1,42 @@
 # HEARTBEAT.md
 
+## 快照 | 2026-05-09 13:06 GMT+8 (05:06 UTC)
+
+> ✅ **整点数据刷新** | ✅ 3子智能体全部完成 | ✅ 系统自检触发
+> ⚠️ **遗忘点**: 简报断档5/7-8(已修复)、价格过期20h(已修复)、F&G缺失(已修复)
+
+### 数据状态（05:06 UTC / 13:06 GMT+8）
+| 品种 | 价格 | 24h变化 | 置信度 | 备注 |
+|------|------|---------|--------|------|
+| BTC | $80,188.95 | +0.60% | 🟢 高 | Yahoo Finance |
+| ETH | $2,308.68 | +0.93% | 🟢 高 | Yahoo Finance |
+| SOL | $92.21 | +4.84% | 🟢 高 | Yahoo Finance |
+| GOLD | $4,715.60/oz | +$16.14 | 🟢 高 | goldprice.org |
+| OIL | $94.68/barrel | -0.14% | 🟢 高 | Yahoo Finance |
+| VIX | 17.19 | +0.64% | 🟢 高 | Yahoo Finance |
+| F&G | 38 (Fear) | 🟡 中 | alternative.me | 从47→38，情绪转弱 |
+
+### 📈 市场信号
+- BTC $80,188：守住$80K，+0.6%小幅反弹
+- SOL $92.21：强势+4.84%，领涨主流币
+- F&G 38：从47(Neutral)回落至38(Fear)，情绪转弱
+- OIL $94.68：较前日$95.12小幅回落
+
+### 🔧 修复记录
+- ✅ 简报断档修复（3个子智能体并行）
+- ✅ 价格数据过期修复（20h → 新鲜数据）
+- ✅ GitHub Trending历史追加（05/07-08）
+
+### 📁 输出文件
+- `briefings/2026-05-08.md` ✅ 重写
+- `briefings/2026-05-08-evening.md` ✅ 新建
+- `briefings/2026-05-09.md` ✅ 新建
+- `data/market/prices_latest.json` ✅ 更新
+- `data/market/prices_2026-05-09.json` ✅ 快照
+- `data/github-trending-history.json` ✅ 追加
+
+---
+
 ## 快照 | 2026-05-08 17:43 GMT+8 (09:43 UTC)
 
 > ✅ **整点数据刷新** | ✅ GitHub Push成功
