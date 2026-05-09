@@ -1,0 +1,91 @@
+{
+  "date": "2026-05-09",
+  "collected_at": "2026-05-09T11:26:00+08:00",
+  "source": "github.com/trending",
+  "repos": [
+    {
+      "name": "anthropics / financial-services",
+      "stars": 15528,
+      "stars_today": 3660,
+      "language": "Python",
+      "description": ""
+    },
+    {
+      "name": "addyosmani / agent-skills",
+      "stars": 35762,
+      "stars_today": 1893,
+      "language": "Shell",
+      "description": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "name": "Hmbown / DeepSeek-TUI",
+      "stars": 22077,
+      "stars_today": 3731,
+      "language": "Rust",
+      "description": "Coding agent for DeepSeek models that runs in your terminal"
+    },
+    {
+      "name": "z-lab / dflash",
+      "stars": 3879,
+      "stars_today": 379,
+      "language": "Python",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding"
+    },
+    {
+      "name": "decolua / 9router",
+      "stars": 5720,
+      "stars_today": 1052,
+      "language": "JavaScript",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits."
+    },
+    {
+      "name": "CloakHQ / CloakBrowser",
+      "stars": 3201,
+      "stars_today": 526,
+      "language": "Python",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed."
+    },
+    {
+      "name": "awslabs / aidlc-workflows",
+      "stars": 1804,
+      "stars_today": 58,
+      "language": "Python",
+      "description": "AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents"
+    },
+    {
+      "name": "HKUDS / AI-Trader",
+      "stars": 14751,
+      "stars_today": 202,
+      "language": "Python",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\""
+    },
+    {
+      "name": "LearningCircuit / local-deep-research",
+      "stars": 6782,
+      "stars_today": 559,
+      "language": "Python",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted."
+    },
+    {
+      "name": "lobehub / lobehub",
+      "stars": 76559,
+      "stars_today": 125,
+      "language": "TypeScript",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "name": "datawhalechina / hello-agents",
+      "stars": 44818,
+      "stars_today": 667,
+      "language": "Python",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程"
+    },
+    {
+      "name": "flutter / skills",
+      "stars": 1726,
+      "stars_today": 118,
+      "language": "Dart",
+      "description": ""
+    }
+  ]
+}
