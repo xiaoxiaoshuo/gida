@@ -44,3 +44,15 @@
 [WARN] 08:00:36 -   本次无有效宏观数据采集，跳过 prices_latest.json 更新（保留已有数据）
 [INFO] 08:00:36 - ========== 采集完成 ==========
 [INFO] 08:00:36 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_latest.json
+[INFO] 20:00:02 - ========== 宏观数据采集 (IE COM) ==========
+[INFO] 20:00:02 - >> 采集黄金 (Kitco/goldprice.org)...
+[WARN] 20:00:03 -   GOLD 采集失败，尝试IE浏览器...
+[WARN] 20:00:10 -   GOLD 所有方法失败
+[INFO] 20:00:10 - >> 采集WTI原油 (TradingEconomics/oilprice.com)...
+[OK] 20:00:11 -   OIL = 97.86 [tradingeconomics.com] OK
+[INFO] 20:00:11 - >> 采集VIX恐慌指数...
+[OK] 20:00:13 -   VIX = 18.14 [Yahoo Finance] OK
+[INFO] 20:00:13 -   合并已有数据: crypto保留 3 项, macro合并 3 项
+[INFO] 20:00:13 -   prices_latest.json 已更新
+[INFO] 20:00:13 - ========== 采集完成 ==========
+[INFO] 20:00:13 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_latest.json
