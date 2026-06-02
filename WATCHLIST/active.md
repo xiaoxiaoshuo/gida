@@ -1,94 +1,157 @@
 # 监控清单 | 活跃状态
 
-> 建立时间：2026-03-25
-> 状态：🟢 已填充（2026-05-06 19:35 更新）
-> 数据来源：OKX API / cn.bing.com / alternative.me / Federal Reserve / CryptoCompare
+> 🔴 **2026-06-02 19:15 紧急重建** (上次更新 2026-05-06, 断档 27 天)
+> 当前重大行情: F&G 23 (极度恐慌) / BTC -13.5% / 日本 7.4 地震 / AI 资本战争
+> 数据来源: CryptoCompare / Binance / Gate.io / alternative.me / Yahoo Finance / TechCrunch / GitHub Trending
+
+---
+
+## 🚨 紧急状态
+
+### 🔴 关键警报已触发
+- [x] **F&G 23 (Extreme Fear)** — 24h 恶化 15 点, 过去 90 天最低 10% 区间
+- [x] **BTC < $70K** — 24d 累计 -13.4%, 测试 $65K 关键支撑
+- [x] **日本 7.4 级地震** — 半导体供应链风险 (信越/SUMCO/村田)
+- [x] **AI 资本战争升级** — Anthropic IPO + Alphabet $80B + Nvidia CPU 联盟
 
 ---
 
 ## 科技变量
-- [ ] **GPU/TPU供货周期与价格指数**
-  - 英伟达H100/H200：数据待采集（2026-03记录：H100约$25,000-30,000/张）
-- [ ] **量子计算论文/专利发布动态**
-  - IBM量子位突破：数据待采集
-  - 室温超导：数据待采集
-- [x] **低轨卫星（Starlink/OneWeb）部署进度**
-  - Starlink：截至2026年5月，用户超500万，服务覆盖全球主要地区
-- [ ] **室温超导研究进展**
-  - 数据待采集（2026年暂无重大突破报道）
+
+### GPU/AI 算力
+- [x] **GPU/TPU 供货周期与价格指数**
+  - **Nvidia 追击 $200B CPU 市场** (AI Agent PC 联盟 + Microsoft/Dell/HP) — 6/1 重大事件
+  - **Alphabet $80B AI 投入** (6/1) — 单家公司 = 全球 AI 投资 1/3
+  - H100/H200: 数据待采集
+- [x] **AI 模型发布动态**
+  - **Anthropic 申请 IPO** (6/1 16:36 UTC) — 估值锚定窗口即将打开
+  - DeepSeek V4 (5/6 上线)
+  - Kimi K2.6 (4/20, HN 710 pts)
+  - Qwen3.6-Max-Preview (4/20, HN 705 pts)
+  - Claude Design (4/17)
+  - Claude Finance Agents (5/5, HN 211 pts)
+
+### 量子计算
+- [ ] IBM 量子位突破: 数据待采集
+- [ ] 室温超导: 数据待采集 (2026 暂无重大突破)
+
+### 低轨卫星
+- [x] Starlink: 截至 5月, 用户超 500 万
+
+---
 
 ## 政策变量
-- [ ] **美联储FOMC声明与点阵图**
-  - 2026年FOMC会议日期（来源：federalreserve.gov）：
-    - ~~3月17-18日 ✅（已结束）~~
-    - ~~4月28-29日 ✅（已结束）~~
-    - 6月16-17日
-    - 7月28-29日
-    - 9月15-16日
-    - 10月27-28日
-    - 12月8-9日
-- [ ] 芯片出口管制政策更新
-- [ ] 中国宏观经济政策（央行/财政部）
-- [ ] 欧盟碳边境税进展
+
+### 美联储 FOMC 2026
+- [ ] **6月16-17日** (下次) ← 近期关注
+- [ ] 7月28-29日
+- [ ] 9月15-16日
+- [ ] 10月27-28日
+- [ ] 12月8-9日
+
+### AI 监管
+- [x] **佛罗里达起诉 OpenAI/Sam Altman** (6/1 20:03 UTC) — 首例州级 AI 安全诉讼
+- [ ] 欧盟 AI Act 实施进展
+- [ ] 中国 AI 监管动态
+
+### 芯片出口管制
+- [ ] 美国对华芯片出口管制更新
+- [ ] EUV/H100 出口限制
+
+---
 
 ## 市场变量
-- [x] **英伟达/AMD股价与期权隐含波动率**
-  - 采集方式：cn.bing.com Bing搜索摘要
-- [x] **比特币价格与机构持仓变化**
-  - BTC = **$82,710**（来源：CryptoCompare API，高置信度）
-  - ETH = **$2,417**（来源：CryptoCompare API，高置信度）
-  - SOL = **$89.66**（来源：CryptoCompare API，高置信度）
-  - 数据时间：2026-05-06 19:35:44
-- [x] **VIX恐慌指数**
-  - VIX = **16.32**（来源：Yahoo Finance，高置信度）
-  - Fear&Greed Index = **46（Fear）**（来源：alternative.me）
-  - 更新时间：2026-05-06 19:35
-- [x] **黄金/原油价格走势**
-  - 黄金 ≈ **$4,713/oz**（来源：Kitco，高置信度）
-  - WTI原油 ≈ **$90.6/barrel**（来源：TradingEconomics，高置信度）
-  - 更新时间：2026-05-06 19:35
+
+### 加密货币 (🔴 24d -13.5%)
+- [x] **BTC = $69,584** (6/2 18:26, vs 5/9 $80,300 = **-13.4%**)
+- [x] **ETH = $1,975.75** (vs 5/9 $2,308 = **-14.4%**)
+- [x] **SOL = $79.25** (vs 5/9 $92.21 = **-14.0%**)
+- [x] **F&G = 23 (Extreme Fear)** (24h 恶化 15 点)
+- [ ] BTC ETF 资金流 (Farside Investors)
+- [ ] BTC 交易所余额
+- [ ] 稳定币市值变化 (USDT/USDC)
+
+### 传统市场
+- [x] **VIX = 16.15** (Yahoo Finance, 高置信)
+- [x] **黄金 = $4,527/oz** (Kitco, 中置信, 5/6 比 -4.0%)
+- [x] **原油 WTI = $91.27/barrel** (tradingeconomics, 5/6 比 -10.0%)
+
+### 科技股
+- [ ] Nvidia 股价 (Alphabet 80B + CPU 联盟双重催化)
+- [ ] Microsoft (Agent PC 联盟核心)
+- [ ] Dell / HP (PC 联盟受益)
+- [ ] AMD / Intel (CPU 市场份额受压)
+
+---
 
 ## 地缘变量
-- [ ] 中美科技摩擦事件（每周更新）
-- [ ] 台海/南海情势评估
-- [ ] 俄乌/中东局势对能源冲击
-- [ ] 台湾半导体产能变动
+
+### 🔴 日本地震
+- [x] **宫城县近海 7.4 级地震** (6/2 13:00 UTC)
+- [ ] 信越化学 / SUMCO 工厂状态
+- [ ] 村田 / MDK / 太阳诱电 被动元件产能
+- [ ] 半导体设备 (TEL/Disco/Lasertec) 影响
+
+### 中美科技摩擦
+- [ ] 出口管制更新
+- [ ] 实体清单变化
+
+### 台海/南海
+- [ ] 情势评估 (每周更新)
+- [ ] 台湾半导体产能 (TSMC 2nm/3nm 进度)
+
+### 俄乌/中东
+- [ ] 能源走廊稳定
+- [ ] 油价影响 (已部分消化)
 
 ---
 
-## LLM大模型动态（2026年5月）
+## LLM 大模型动态 (2026)
 
-### 🏆 近期重大发布
-
-| 模型 | 发布日期 | 亮点 | HN热度 |
-|------|----------|------|--------|
-| **DeepSeek V4** | 2026-05-06 | 世界顶级推理性能，Agent能力大幅提升，已上线网页端/APP/API | 新发布 |
-| **Kimi K2.6** | 2026-04-20 | 推进开源编码，HN 710分 | 710 pts |
-| **Qwen3.6-Max-Preview** | 2026-04-20 | 阿里通义千问最新预览版，HN 705分 | 705 pts |
-| **Claude Design** | 2026-04-17 | Anthropic设计工具，支持原型/幻灯片/一页纸文档 | 新产品 |
-| **Claude Finance Agents** | 2026-05-05 | 金融服务和保险Agent研究，HN 211分 | 211 pts |
-
-### 📊 开源生态热度
-
-| 项目 | Stars | 今日⭐ | 分类 | 备注 |
-|------|-------|--------|------|------|
-| jwasham/coding-interview-university | 345,990 | +366 | 其他 | 编程学习 |
-| forrestchang/andrej-karpathy-skills | 114,781 | +2,409 | AI/ML | Karpathy的CLAUDE.md技巧 |
-| ruvnet/ruflo | 44,151 | +2,432 | AI/ML | Claude多智能体编排平台 |
-| D4Vinci/Scrapling | 45,337 | +914 | Python | 自适应Web爬虫框架 |
-| msitarzewski/agency-agents | 93,905 | +1,218 | Shell | AI代理工具箱 |
-| virattt/dexter | 23,950 | +659 | TypeScript | 金融深度研究Agent |
-| AIDC-AI/Pixelle-Video | 12,142 | +691 | Python | AI全自动短视频引擎 |
-| Hmbown/DeepSeek-TUI | 9,368 | +2,434 | Rust | DeepSeek终端编码Agent |
-| cocoindex-io/cocoindex | 8,491 | +438 | Python | 长周期Agent增量引擎 |
-| LearningCircuit/local-deep-research | 5,297 | +197 | Python | 本地深度研究（Qwen3.6-27B） |
+### 🏆 最新发布 (按时间)
+| 模型 | 发布日期 | 亮点 | 状态 |
+|------|----------|------|------|
+| **Anthropic IPO 申请** | 2026-06-01 | 估值锚定窗口打开 | 重大事件 |
+| **Alphabet $80B AI 投入** | 2026-06-01 | 单家公司历史最大 | 重大事件 |
+| **Kimi K2.6** | 2026-04-20 | 开源编码, HN 710 | 已发布 |
+| **Qwen3.6-Max-Preview** | 2026-04-20 | 阿里旗舰, HN 705 | 已发布 |
+| **DeepSeek V4** | 2026-05-06 | 顶级推理+Agent | 已发布 |
+| **Claude Design** | 2026-04-17 | 设计工具 | 已发布 |
+| **Claude Finance Agents** | 2026-05-05 | 金融 Agent | 已发布 |
 
 ---
 
-## AI/ML开源项目热度（来源：GitHub Trending via API）
+## GitHub Trending 今日亮点 (2026-06-02)
 
-> 注：AI Coding Agent赛道持续火热，DeepSeek-TUI、ruflo等工具快速增长
+| Repo | Stars | Today | 含义 |
+|------|-------|-------|------|
+| **Hmbown/DeepSeek-TUI** | 15.1K | **+6,175** | 终端编码 Agent, DeepSeek 生态 |
+| **ruvnet/ruflo** | 45.4K | +2,192 | Claude 多 Agent 编排 |
+| **D4Vinci/Scrapling** | 46.5K | +1,125 | 自适应爬虫 (采集关键) |
+| **addyosmani/agent-skills** | 31.0K | +800 | 谷歌 AI Agent 实践 |
+| **virattt/dexter** | 24.4K | +666 | **金融研究 Agent** |
+| **anthropics/financial-services** | 9.3K | +641 | **Anthropic 官方金融模板** |
+| **shiyu-coder/Kronos** | 23.2K | +234 | **K 线时序 LLM** |
+| **PriorLabs/TabPFN** | 6.6K | +218 | 表格数据基础模型 |
+
+### 关键信号
+- **金融 AI 化爆发**: dexter + financial-services + Kronos 三金融项目同进 Trending
+- **多 Agent 编排成主流**: ruflo (swarm), deer-flow (super-agent)
+- **Anthropic IPO 前的生态布局显性化**
 
 ---
 
-*最后更新：2026-05-06 19:35 GMT+8*
+## 📊 风险等级
+
+| 维度 | 等级 | 时间窗口 |
+|------|------|----------|
+| 加密市场 | 🔴 CRITICAL | 1-7d |
+| AI 资本 | 🟡 MEDIUM | 1-3月 |
+| 半导体供应链 | 🟠 HIGH | 1-2周 |
+| AI 监管 | 🟡 MEDIUM | 1-3月 |
+| 地缘 (台海) | 🟡 MEDIUM | 持续 |
+
+---
+
+*最后更新: 2026-06-02 19:15 GMT+8 | 下次更新: 6h 后*
+*责任人: 元规划者 gida | 数据置信: 价格🟢/F&G🟢/黄金🟡/原油🟡/VIX🟢*
