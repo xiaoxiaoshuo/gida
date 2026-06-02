@@ -243,4 +243,157 @@
 | **AMZN** | +3~8% (Bedrock 加速) | 正面 | 🟢 70% | Q2 Q3 Bedrock 收入 |
 | **NVDA** | +1~3% (净增需求) | 中性偏正 | 🟢 60% | 多云 = 多 GPU 部署 |
 | **GOOGL** | 待定 | 不确定 | 🟡 50% | $80B 融资真伪 + Gemini 3 表现 |
-| **CRWV** | -5~15% (客户结构恶化) | 负面 | 🟡
+| **CRWV** | -5~15% (客户结构恶化) | 负面 | 🟡 60% | 财报客户集中度 |
+| **Anthropic** (私营) | 估值 +10~20% (多云战略溢价) | 正面 | 🟢 70% | IPO 估值 / 2027 上市预期 |
+| **xAI** (私营) | +5~10% (Colossus 模板扩散) | 正面 | 🟡 60% | SpaceX-Anthropic 范式复制 |
+| **Oracle** (ORCL) | +2~5% (Stargate 锁定) | 正面 | 🟢 65% | OpenAI-R2 部署进度 |
+
+### 3.3 三角关系重定价的核心叙事变化
+
+**旧叙事 (2024-2025)**:
+> MSFT 是 OpenAI 的"独家算力赞助商" → MSFT 锁定 AI 算力未来
+
+**新叙事 (post-2026-06-01)**:
+> "算力赞助商" 概念消失。MSFT 退化为 **OpenAI 的一个供应商**,与 AWS / Oracle / Google 并列。MSFT 的护城河从"独家关系" → "客户深度 + Maia 芯片 + 工具链 (Copilot)"
+
+**对股价的传导路径**:
+1. **MSFT 短期**: -1~3% (叙事破坏)
+2. **MSFT 中期**: 看 Maia 200 商业化进展。如成功 → 修复到中性 (🟡 55%)
+3. **AMZN 短期**: +2~4% (Bedrock 加速)
+4. **NVDA 长期受益**: 多云部署 = 多 GPU 需求 → +5~10% over 24 个月
+
+---
+
+## 4. Anthropic / Google 应对策略预测
+
+### 4.1 Anthropic 应对 (3-6 个月行动)
+
+**预期动作 (概率分布)**:
+
+| 行动 | 概率 | 紧迫度 | 影响 |
+|---|---|---|---|
+| **🔴 加速 IPO 准备** | 🟢 80% | 高 | 公开市场融资降低 SpaceX/$45B 现金压力 |
+| **🟡 推 Claude 4.5 (Code agent)** | 🟡 65% | 中 | 抵御 Codex 入侵 |
+| **🟢 加码 AWS Trainium 部署** | 🟢 75% | 高 | 锁定 AWS 关系,利用 Trainium 折扣 |
+| **🟡 推 Bedrock 专属 SKU** | 🟡 55% | 中 | "Bedrock-first" 路径对标 OpenAI |
+| **🔴 缩减 SpaceX 规模** | 🔴 30% | 低 | 如果融资到位,可分阶段 |
+
+**核心策略预判** (12-18 个月):
+- **路线 1 (🟡 60%)**: "Boring Infra Play" — 安静做 4 朵云,推 Claude Code 4.x 维护编程 agent 龙头
+- **路线 2 (🟡 30%)**: "Enterprise moat Play" — 押注 GovCloud / 金融 / 医疗的合规护城河
+- **路线 3 (🔴 10%)**: "Compute play" — 收购或自建数据中心 (类似 Stargate 反向操作)
+
+📌 **最可能**: 路线 1 + 路线 2 并行
+
+### 4.2 Google (Alphabet) 应对 (3-6 个月行动)
+
+**核心问题**: Alphabet 在 2026-06 这个时点的"算力护城河"是什么?
+
+**Alphabet 的潜在动作**:
+
+| 行动 | 概率 | 紧迫度 |
+|---|---|---|
+| **🟢 加大对 Anthropic 的 TPU 折扣** | 🟢 70% | 高 |
+| **🟡 推出 Gemini 3 + Bedrock 联合营销** | 🟡 55% | 中 |
+| **🟡 TPU 自营云 (反 CoreWeave)** | 🟡 50% | 中 |
+| **🔴 $80B 融资** | 🟡 50% (如属实) | 低 (如真) |
+| **🟢 大力推 Vertex AI "One-Click Multi-Cloud"** | 🟡 65% | 中 |
+
+**Google 真正的差异化武器**: **TPU + 自有模型 + 自有数据 + 内部需求** → 闭环。但 OpenAI 走 AWS 路径意味着 **Google 也失去 OpenAI 算力订单**。
+
+**关键判断**: 🟡 **Alphabet 需要在 12 个月内做 1-2 个大胆动作** (如真融资 $80B),否则在 2027 frontier lab 算力争夺中掉队。
+
+### 4.3 第三方变数
+
+- **NVIDIA**: 不受影响反而受益 (多云 = 多 GPU)。2026 GTC / Blackwell 节奏是核心
+- **TSMC**: 不受影响
+- **SK Hynix / Samsung HBM**: 需求增长不变
+- **CoreWeave / Lambda**: 见 Q5
+- **Together / Fireworks / Anyscale**: 推理优化层 = 受益方 🟢
+
+---
+
+## 5. 算力市场结构性影响 (6-24 个月)
+
+### 5.1 价格曲线 (按 GPU-hour USD)
+
+| 时期 | AWS p5.48xlarge (H100) | AWS p6 (B200) 估 | CoreWeave H100 | Lambda H100 |
+|---|---|---|---|---|
+| 2025-Q4 | $10-12 | N/A | $7-9 | $6-8 |
+| 2026-Q1 (post-Anthropic-AWS) | $10-12 | N/A | $7-9 | $6-8 |
+| 2026-Q2 (post-OpenAI-AWS) | **$9-11** (估) | $15-18 (估) | $6-8 | $5-7 |
+| 2026-Q4 (预期) | $8-10 | $13-16 | $5-7 | $4-6 |
+| 2027-Q2 (预期) | $7-9 | $11-14 | $4-6 | $3-5 |
+
+**驱动因素**:
+- 供给端: Blackwell 量产 + Trainium / TPU / Maia 替代
+- 需求端: frontier lab 算力需求 +5~10x (Anthropic / OpenAI / Google)
+
+### 5.2 市场结构变化 (Tier-1 算力市场份额)
+
+**2025 vs 2027 估**:
+
+| 云 / 供应商 | 2025 份额 | 2027 份额 (估) | 变化 |
+|---|---|---|---|
+| **AWS** | 30% | 32-35% | ↑ |
+| **Azure** | 25% | 22-25% | → / ↓ |
+| **Google Cloud** | 12% | 12-14% | → / ↑ |
+| **Oracle Cloud** | 3% | 5-7% | ↑↑ (Stargate) |
+| **SpaceX Colossus** (private) | 0% | 4-6% | ↑↑↑ (新) |
+| **CoreWeave** | 8% | 5-7% | ↓ |
+| **Lambda / 其他 neocloud** | 4% | 2-4% | ↓ |
+| **其他** | 18% | 15-18% | → |
+
+### 5.3 结构性影响 3 条
+
+1. **新云形态崛起 (🟢 70%)**: SpaceX Colossus 范式 (火箭发射 + 数据中心) 会引发新进入者。xAI (自有)、Anthropic (租用)、OpenAI (观望) 是首批客户
+2. **自研芯片扩散 (🟢 80%)**: Trainium / TPU / Maia 三家进入"非 NVIDIA" 主流。云厂商算力成本下降 20-40%
+3. **GPU 期货市场 (🟡 45%)**: 算力稀缺性 → 出现类似能源期货的 "GPU-hour forward" 衍生品 (类似 2021 集装箱运价指数)
+
+---
+
+## 6. 待办与盲点 (HANDOFF)
+
+### 6.1 本次未独立验证的关键点
+
+| 假设 | 状态 | 需要补充 |
+|---|---|---|
+| Alphabet $80B 融资 | ❌ HN 0 hits | 需要 Bloomberg / Reuters 独立信源 |
+| OpenAI × AWS 合同金额 | ❌ 未披露 | 需要 The Information 付费文章 |
+| Bedrock OpenAI 定价细节 | ⚠️ 估 +10% | 需要 aws.amazon.com/bedrock/pricing 实测 |
+| CoreWeave MSFT+OpenAI 收入占比 | ❌ 未公开 | 等待 Q3 2026 财报 |
+| Anthropic 2026 ARR 数字 | ⚠️ 估 $5-8B | 需要 The Information 披露 |
+
+### 6.2 建议下一步 (如有人接手)
+
+- [ ] 抓 The Information 关于 OpenAI-AWS 合同的付费摘要
+- [ ] 查 aws.amazon.com/bedrock/pricing 的 OpenAI 模型定价明细
+- [ ] 监控 MSFT / AMZN / GOOGL 6/3 之后的股价反应
+- [ ] 验证 $80B 数字 — 查 SEC EDGAR 8-K filings
+- [ ] 跟踪 Anthropic 6-7 月是否提交 IPO S-1
+
+---
+
+## 7. 关键时间线 (Next 90 Days Watchpoints)
+
+| 日期 | 事件 | 监测指标 |
+|---|---|---|
+| **2026-06-09** | Apple WWDC 2026 (Siri AI 升级) | Apple-OpenAI 续约信号 |
+| **2026-06-23** | Amazon Prime Day (前哨) | AWS Bedrock 订单 |
+| **2026-07 下旬** | GOOGL Q2 财报 | capex 指引 / TPU 对外营收 |
+| **2026-07 下旬** | MSFT Q4 FY26 财报 | Azure AI 增速 / Maia 200 客户数 |
+| **2026-07-30** | AMZN Q2 财报 | Bedrock ARR / 客户数 |
+| **2026-08-12** | NVDA Q2 FY27 财报 | 数据中心营收 / HBM 订单 |
+| **2026-08 月底** | OpenAI / Anthropic 融资消息 | 估值锚定 |
+| **2026-09 月** | 苹果秋季发布会 (iPhone 18 + AI) | Apple-OpenAI 关系 |
+
+---
+
+## 8. 一句话总结 (TL;DR)
+
+> **OpenAI × AWS 不是云合作,是 frontier 算力市场的"反锁定"**。Anthropic 是当前最稳的 frontier lab,AWS 是最大赢家,NVDA 全程不亏,MSFT 失去叙事但保留工具链护城河,CoreWeave 等 neocloud 承受最直接的份额压力。Bedrock 客户从今天起 = 无锁定 multi-model 时代。
+
+---
+
+*数据截止: 2026-06-03 04:50 GMT+8*
+*下次更新建议: 2026-06-10 (跟踪 MSFT / AMZN 早期市场反应 + 是否有新信源验证 $80B)*
