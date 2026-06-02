@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-15",
+  "timestamp": "2026-05-15 08:00:30",
+  "data": {
+    "VIX": {
+      "value": 17.26,
+      "confidence": "high",
+      "source": "Yahoo_Finance_VIX (fetch)",
+      "timestamp": "2026-05-15 08:00:05"
+    },
+    "OIL": {
+      "confidence": "high",
+      "value": 100.43,
+      "unit": "USD/barrel (WTI)",
+      "source": "tradingeconomics.com (fetch)",
+      "timestamp": "2026-05-14 20:00:02"
+    },
+    "GOLD": {
+      "confidence": "high",
+      "timestamp": "2026-05-09 06:05:00",
+      "unit": "USD/oz",
+      "source": "Yahoo Finance GC=F (browser)",
+      "value": 4723.7,
+      "change_pct": 0.27
+    }
+  }
+}

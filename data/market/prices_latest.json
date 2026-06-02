@@ -1,14 +1,28 @@
 {
-  "timestamp": "2026-05-11 20:00:02",
-  "crypto": {
-    "ETH": {
-      "price": 2315.45,
-      "change_pct": 1.25,
-      "timestamp": "2026-05-09 06:05:00",
-      "raw": "Yahoo Finance ETH-USD (browser)",
+  "macro": {
+    "GOLD": {
       "confidence": "high",
-      "source": "Yahoo_Finance (browser)"
+      "timestamp": "2026-05-09 06:05:00",
+      "unit": "USD/oz",
+      "source": "Yahoo Finance GC=F (browser)",
+      "value": 4723.7,
+      "change_pct": 0.27
     },
+    "VIX": {
+      "confidence": "high",
+      "timestamp": "2026-05-20 20:00:03",
+      "value": 17.99,
+      "source": "Yahoo_Finance_VIX (fetch)"
+    },
+    "OIL": {
+      "confidence": "high",
+      "timestamp": "2026-05-20 20:00:03",
+      "unit": "USD/barrel (WTI)",
+      "value": 102.13,
+      "source": "tradingeconomics.com (fetch)"
+    }
+  },
+  "crypto": {
     "SOL": {
       "price": 92.5,
       "change_pct": 5.01,
@@ -24,30 +38,16 @@
       "raw": "Yahoo Finance BTC-USD (browser)",
       "confidence": "high",
       "source": "Yahoo_Finance (browser)"
+    },
+    "ETH": {
+      "price": 2315.45,
+      "change_pct": 1.25,
+      "timestamp": "2026-05-09 06:05:00",
+      "raw": "Yahoo Finance ETH-USD (browser)",
+      "confidence": "high",
+      "source": "Yahoo_Finance (browser)"
     }
   },
-  "collection_version": "macro-playwright-v2",
-  "macro": {
-    "OIL": {
-      "unit": "USD/barrel (WTI)",
-      "timestamp": "2026-05-11 20:00:02",
-      "source": "tradingeconomics.com (fetch)",
-      "value": 97.86,
-      "confidence": "high"
-    },
-    "VIX": {
-      "confidence": "high",
-      "timestamp": "2026-05-11 20:00:02",
-      "source": "Yahoo_Finance_VIX (fetch)",
-      "value": 18.14
-    },
-    "GOLD": {
-      "confidence": "high",
-      "timestamp": "2026-05-09 06:05:00",
-      "unit": "USD/oz",
-      "source": "Yahoo Finance GC=F (browser)",
-      "value": 4723.7,
-      "change_pct": 0.27
-    }
-  }
+  "timestamp": "2026-05-20 20:00:03",
+  "collection_version": "macro-playwright-v2"
 }
