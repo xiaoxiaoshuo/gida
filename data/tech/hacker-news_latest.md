@@ -1,4 +1,4 @@
-﻿# Hacker News Top 30 — 2026-06-02 20:26 GMT+8
+﻿# Hacker News Top 30 — 2026-06-02 23:03 GMT+8
 
 > **采集时间**: 2026-06-02T20:25:22Z | **数量**: 30 | **来源**: HN Front Page
 > **链接**: https://news.ycombinator.com/

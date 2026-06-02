@@ -318,12 +318,19 @@ function Get-MacroPrice {
                 $eiaJson = $eia.content | ConvertFrom-Json
                 if ($eiaJson.response.data.Count -gt 0) {
                     $price = [double]$eiaJson.response.data[0].value
-                    if ($price -gt 40 -and $price -lt 200) {
-                        Write-Log "  OIL EIA官方API抓取成功: $price" "INFO"
+                    $eiaPeriod = $eiaJson.response.data[0].period
+                    # 🆕 修复 (2026-06-02): 添加时间戳验证 - EIA DEMO_KEY 频率限制时会返回 stale 数据 (如 5/21)
+                    $eiaDate = [DateTime]::ParseExact($eiaPeriod, "yyyy-MM-dd", $null)
+                    $today = Get-Date
+                    $daysOld = ($today - $eiaDate).TotalDays
+                    if ($price -gt 40 -and $price -lt 200 -and $daysOld -le 3) {
+                        Write-Log "  OIL EIA官方API抓取成功: $price (period: $eiaPeriod, $daysOld days ago)" "INFO"
                         return @{
                             value = $price; source = "EIA_API"; confidence = "high"
                             unit = "USD/barrel (WTI)"; raw_len = $eia.len; timestamp = $DateStr
                         }
+                    } elseif ($daysOld -gt 3) {
+                        Write-Log "  OIL EIA数据过期 ($daysOld days old, period=$eiaPeriod), 跳过" "WARN"
                     }
                 }
             } catch { Write-Log "  OIL EIA JSON解析失败" "WARN" }
