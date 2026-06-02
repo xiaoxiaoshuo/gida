@@ -1,14 +1,15 @@
 {
-  "timestamp": "2026-05-09 06:08:00",
-  "value": 38,
-  "value_classification": "Fear",
-  "previous_value": 47,
-  "previous_classification": "Neutral",
-  "last_week": 26,
+  "timestamp": "2026-06-02 17:19:00",
+  "value": 23,
+  "value_classification": "Extreme Fear",
+  "previous_value": 38,
+  "previous_classification": "Fear",
+  "last_week": 38,
   "last_week_classification": "Fear",
   "last_month": 17,
   "last_month_classification": "Extreme Fear",
   "source": "alternative.me API (web_fetch)",
   "confidence": "high",
-  "time_until_update": 6682
+  "time_until_update": 52692,
+  "note": "重采：上次更新 5/9 38(Fear) → 当前 23(Extreme Fear)，恶化 15 点"
 }

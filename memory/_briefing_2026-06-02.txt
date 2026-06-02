@@ -1,0 +1,29 @@
+﻿=== 系统状态 ===
+TODAY: 2026-06-02
+TIMESTAMP: 2026-06-02 17:18:57
+
+=== 价格（实时） ===
+BTC: $69478  (vs 5/9: $80300 → -13.5%)
+ETH: $1970  (vs 5/9: $2315 → -14.9%)
+SOL: $79  (vs 5/9: $92.5 → -14.6%)
+GOLD: $4534.4/oz
+OIL: $90.63/bbl
+VIX: 16.19
+F&G: 38 (Fear) — 数据5/9
+
+=== HN Top 5（按 score） ===
+
+=== GitHub Trending Top 5（按 stars_today） ===
+Hmbown / DeepSeek-TUI | ★15123 (today +6175) | Rust
+ruvnet / ruflo | ★45414 (today +2192) | TypeScript
+D4Vinci / Scrapling | ★46466 (today +1125) | Python
+addyosmani / agent-skills | ★31003 (today +800) | Shell
+docusealco / docuseal | ★15007 (today +774) | Ruby
+
+=== Tech News Top 5 ===
+Alphabet plans to raise $80B to pay for AI buildout (Mon, 01 Jun 2026 22:55:09 +0000)
+Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP (Mon, 01 Jun 2026 21:35:00 +0000)
+Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents (Mon, 01 Jun 2026 20:03:40 +0000)
+Water access is now a risk factor in SpaceX’s IPO (Mon, 01 Jun 2026 18:19:53 +0000)
+Anthropic files to go public (Mon, 01 Jun 2026 16:36:55 +0000)
+
