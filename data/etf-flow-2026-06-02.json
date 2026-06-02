@@ -1,0 +1,546 @@
+{
+  "metadata": {
+    "report_date_us_trading": "2026-06-02",
+    "report_date_latest_published": "2026-06-01",
+    "data_source": "Coinglass.com (https://www.coinglass.com/etf/bitcoin, https://www.coinglass.com/etf/ethereum)",
+    "fetch_time_gmt8": "2026-06-03 03:26:00",
+    "data_currency": "USD",
+    "last_update_coinglass_utc": "2026-06-02 11:50",
+    "note": "The 6/2 row in Coinglass shows dash meaning data not yet released. Per task expectation, 6/2 daily data will be published at ~04:00 GMT+8 (~20:00 UTC). 5/30 and 5/31 周末休市."
+  },
+  "btc_etf": {
+    "summary_cards": {
+      "total_net_inflow_usd": "+$55.62B",
+      "total_net_inflow_btc": "+701.81K BTC",
+      "daily_total_net_inflow_usd": "-$483.80M (this is 6/1, the latest PUBLISHED trading day)",
+      "daily_total_net_inflow_btc": "-6,568.63 BTC",
+      "daily_trading_volume_usd": "$4.51B",
+      "total_net_assets_usd": "$105.06B"
+    },
+    "daily_breakdown_usd_M": {
+      "2026-06-02": {
+        "status": "not_yet_published",
+        "total_usd_m": null,
+        "total_btc": null,
+        "comment": "row shown as all '-' / 0; data expected at 04:00 GMT+8"
+      },
+      "2026-06-01": {
+        "GBTC": 0,
+        "IBIT": -440.3,
+        "FBTC": -37.3,
+        "ARKB": -12.3,
+        "BITB": 0,
+        "BTCO": 0,
+        "HODL": 0,
+        "BRRR": 0,
+        "EZBC": 0,
+        "BTCW": 0,
+        "BTC": 0,
+        "MSBT": 6.1,
+        "Total_USD_M": -483.8,
+        "Total_BTC": -6568.63
+      },
+      "2026-05-29": {
+        "GBTC": -2.9,
+        "IBIT": -68.2,
+        "FBTC": -31.9,
+        "ARKB": -7.3,
+        "BTC": -9.7,
+        "MSBT": -5.3,
+        "Total_USD_M": -125.3
+      },
+      "2026-05-28": {
+        "GBTC": -26.2,
+        "IBIT": -177.9,
+        "FBTC": -19.2,
+        "Total_USD_M": -223.3
+      },
+      "2026-05-27": {
+        "GBTC": -104.8,
+        "IBIT": -527.8,
+        "FBTC": -60.3,
+        "ARKB": -17.4,
+        "BITB": -17.5,
+        "BTC": -9.9,
+        "MSBT": 4.3,
+        "Total_USD_M": -733.4
+      },
+      "2026-05-26": {
+        "GBTC": -41.3,
+        "IBIT": -192.4,
+        "FBTC": -57.7,
+        "BITB": -28.8,
+        "BTC": -13.4,
+        "Total_USD_M": -333.6
+      }
+    },
+    "five_day_cumulative_usd": {
+      "trading_days": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01"
+      ],
+      "sum_usd_millions": -1899.4,
+      "sum_usd_billions": -1.9,
+      "direction": "net_outflow"
+    },
+    "leader_table": [
+      {
+        "rank": 1,
+        "ticker": "IBIT",
+        "issuer": "BlackRock",
+        "price": 37.99,
+        "change_pct": -6.17,
+        "volume_usd": "$2.14B",
+        "aum_usd": "$66.57B",
+        "market_cap_usd": "$54.78B",
+        "shares_M": 1440.0,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 2,
+        "ticker": "FBTC",
+        "issuer": "Fidelity",
+        "price": 58.3788,
+        "change_pct": -6.14,
+        "volume_usd": "$320.60M",
+        "aum_usd": "$14.16B",
+        "market_cap_usd": "$12.51B",
+        "shares_M": 214.3,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 3,
+        "ticker": "GBTC",
+        "issuer": "Grayscale",
+        "price": 52.0501,
+        "change_pct": -6.18,
+        "volume_usd": "$145.43M",
+        "aum_usd": "$10.46B",
+        "market_cap_usd": "$9.81B",
+        "shares_M": 188.39,
+        "expense_ratio": "1.50%"
+      },
+      {
+        "rank": 4,
+        "ticker": "BTC",
+        "issuer": "Grayscale Mini",
+        "price": 29.6515,
+        "change_pct": -6.2,
+        "volume_usd": "$71.68M",
+        "aum_usd": "$3.93B",
+        "market_cap_usd": "$3.49B",
+        "shares_M": 117.81,
+        "expense_ratio": "0.15%"
+      },
+      {
+        "rank": 5,
+        "ticker": "BITB",
+        "issuer": "Bitwise",
+        "price": 36.41,
+        "change_pct": -6.18,
+        "volume_usd": "$73.09M",
+        "aum_usd": "$2.64B",
+        "market_cap_usd": "$2.48B",
+        "shares_M": 68.03,
+        "expense_ratio": "0.20%"
+      },
+      {
+        "rank": 6,
+        "ticker": "ARKB",
+        "issuer": "ARK 21Shares",
+        "price": 22.245,
+        "change_pct": -6.18,
+        "volume_usd": "$62.01M",
+        "aum_usd": "$2.43B",
+        "market_cap_usd": "$2.23B",
+        "shares_M": 100.42,
+        "expense_ratio": "0.21%"
+      },
+      {
+        "rank": 7,
+        "ticker": "BITO",
+        "issuer": "ProShares",
+        "price": 9.1375,
+        "change_pct": -6.19,
+        "volume_usd": "$2.00B",
+        "aum_usd": "$1.94B",
+        "market_cap_usd": "$1.71B",
+        "shares_M": 187.01,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 8,
+        "ticker": "HODL",
+        "issuer": "VanEck",
+        "price": 18.96,
+        "change_pct": -6.19,
+        "volume_usd": "$30.48M",
+        "aum_usd": "$1.19B",
+        "market_cap_usd": "$1.12B",
+        "shares_M": 58.87,
+        "expense_ratio": "0.00%"
+      },
+      {
+        "rank": 9,
+        "ticker": "BTCO",
+        "issuer": "Invesco Galaxy",
+        "price": 66.725,
+        "change_pct": -6.15,
+        "volume_usd": "$6.22M",
+        "aum_usd": "$505.72M",
+        "market_cap_usd": "$449.73M",
+        "shares_M": 6.74,
+        "expense_ratio": "0.39%"
+      },
+      {
+        "rank": 10,
+        "ticker": "BRRR",
+        "issuer": "Coinshares",
+        "price": 18.91,
+        "change_pct": -6.15,
+        "volume_usd": "$5.61M",
+        "aum_usd": "$424.32M",
+        "market_cap_usd": "$398.40M",
+        "shares_M": 21.07,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 11,
+        "ticker": "EZBC",
+        "issuer": "Franklin",
+        "price": 38.73,
+        "change_pct": -6.2,
+        "volume_usd": "$10.03M",
+        "aum_usd": "$414.90M",
+        "market_cap_usd": "$389.27M",
+        "shares_M": 10.05,
+        "expense_ratio": "0.19%"
+      },
+      {
+        "rank": 12,
+        "ticker": "BTCW",
+        "issuer": "WisdomTree",
+        "price": 70.9582,
+        "change_pct": -6.08,
+        "volume_usd": "$560.03K",
+        "aum_usd": "$177.28M",
+        "market_cap_usd": "$150.43M",
+        "shares_M": 2.12,
+        "expense_ratio": "0.30%"
+      },
+      {
+        "rank": 13,
+        "ticker": "BITS",
+        "issuer": "Global X",
+        "price": 67.245,
+        "change_pct": -3.57,
+        "volume_usd": "$240.76K",
+        "aum_usd": "$55.09M",
+        "market_cap_usd": "$34.77M",
+        "shares_M": 0.52,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 14,
+        "ticker": "BITC",
+        "issuer": "Bitwise Trendwise",
+        "price": 38.995,
+        "change_pct": 0.03,
+        "volume_usd": "$72.64K",
+        "aum_usd": "$4.55M",
+        "market_cap_usd": "$12.45M",
+        "shares_M": 0.32,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 15,
+        "ticker": "BTF",
+        "issuer": "Valkyrie BTC+ETH",
+        "price": 18.04,
+        "change_pct": -5.55,
+        "volume_usd": "$98.34K",
+        "aum_usd": "$14.23M",
+        "market_cap_usd": "$13.44M",
+        "shares_M": 0.75,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 16,
+        "ticker": "DEFI",
+        "issuer": "Hashdex",
+        "price": 76.14,
+        "change_pct": -6.05,
+        "volume_usd": "$57.30K",
+        "aum_usd": "$5.00M",
+        "market_cap_usd": "$10.66M",
+        "shares_M": 0.14,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 17,
+        "ticker": "BETH",
+        "issuer": "ProShares BTC+ETH",
+        "price": 37.29,
+        "change_pct": -5.8,
+        "volume_usd": "$56.47K",
+        "aum_usd": "$16.35M",
+        "market_cap_usd": "$7.83M",
+        "shares_M": 0.21,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 18,
+        "ticker": "BETE",
+        "issuer": "ProShares BTC+ETH EW",
+        "price": 31.47,
+        "change_pct": -5.5,
+        "volume_usd": "$77.73K",
+        "aum_usd": "$7.78M",
+        "market_cap_usd": "$3.78M",
+        "shares_M": 0.12,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 19,
+        "ticker": "BITW",
+        "issuer": "Bitwise 10 Crypto",
+        "price": 43.28,
+        "change_pct": -5.95,
+        "volume_usd": "$4.18M",
+        "aum_usd": "",
+        "market_cap_usd": "$645.82M",
+        "shares_M": 14.92,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 20,
+        "ticker": "MSBT",
+        "issuer": "Morgan Stanley",
+        "price": 19.24,
+        "change_pct": -6.19,
+        "volume_usd": "$16.72M",
+        "aum_usd": "-",
+        "market_cap_usd": "-",
+        "shares_M": 0.87,
+        "expense_ratio": ""
+      }
+    ]
+  },
+  "eth_etf": {
+    "summary_cards": {
+      "total_volume_usd": "$706.88M",
+      "total_cap_usd": "$11.02B",
+      "total_aum_usd": "$13.74B",
+      "historical_total_net_inflow_usd": "+$11.33B (since 2024-07-23)"
+    },
+    "daily_breakdown_usd_M": {
+      "2026-06-02": {
+        "status": "not_yet_published",
+        "total_usd_m": null,
+        "comment": "row shown as all '-'"
+      },
+      "2026-06-01": {
+        "ETHE_Grayscale": 0,
+        "ETH_Grayscale_Mini": 0,
+        "ETHA_BlackRock": -35.0,
+        "ETHB_BlackRock_Staked": 0,
+        "ETHW_Bitwise": 0,
+        "FETH_Fidelity": -9.5,
+        "ETHV_VanEck": 0,
+        "EZET_Franklin": 0,
+        "TETH_21Shares": 0,
+        "QETH_Invesco": 0,
+        "Total_USD_M": -44.5,
+        "Total_ETH_K": -22.18
+      },
+      "2026-05-29": {
+        "ETHA": -40.7,
+        "FETH": 9.3,
+        "ETHW": 1.4,
+        "ETHV": 10.5,
+        "TETH": 1.5,
+        "Total_USD_M": -18.0
+      },
+      "2026-05-28": {
+        "ETHE": -21.4,
+        "ETH": -7.6,
+        "ETHA": -80.4,
+        "FETH": 3.1,
+        "ETHV": -15.1,
+        "Total_USD_M": -121.4
+      },
+      "2026-05-27": {
+        "ETHA": -65.1,
+        "FETH": -2.0,
+        "Total_USD_M": -67.1
+      },
+      "2026-05-26": {
+        "ETHE": -7.9,
+        "ETH": -8.3,
+        "ETHA": -1.9,
+        "ETHV": -17.0,
+        "Total_USD_M": -35.1
+      }
+    },
+    "five_day_cumulative_usd": {
+      "trading_days": [
+        "2026-05-26",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29",
+        "2026-06-01"
+      ],
+      "sum_usd_millions": -286.1,
+      "direction": "net_outflow"
+    },
+    "leader_table": [
+      {
+        "rank": 1,
+        "ticker": "ETHA",
+        "issuer": "BlackRock",
+        "price": 14.395,
+        "change_pct": -4.73,
+        "volume_usd": "$475.44M",
+        "aum_usd": "$7.21B",
+        "market_cap_usd": "$5.97B",
+        "shares_M": 414.52,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 2,
+        "ticker": "ETHE",
+        "issuer": "Grayscale",
+        "price": 15.44,
+        "change_pct": -4.75,
+        "volume_usd": "$54.62M",
+        "aum_usd": "$3.46B",
+        "market_cap_usd": "$2.41B",
+        "shares_M": 156.09,
+        "expense_ratio": "2.50%"
+      },
+      {
+        "rank": 3,
+        "ticker": "ETH",
+        "issuer": "Grayscale Mini",
+        "price": 18.115,
+        "change_pct": -4.71,
+        "volume_usd": "$76.54M",
+        "aum_usd": "$1.27B",
+        "market_cap_usd": "$917.90M",
+        "shares_M": 50.67,
+        "expense_ratio": "0.15%"
+      },
+      {
+        "rank": 4,
+        "ticker": "FETH",
+        "issuer": "Fidelity",
+        "price": 19.005,
+        "change_pct": -4.74,
+        "volume_usd": "$63.92M",
+        "aum_usd": "$1.34B",
+        "market_cap_usd": "$790.61M",
+        "shares_M": 41.6,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 5,
+        "ticker": "ETHW",
+        "issuer": "Bitwise",
+        "price": 13.64,
+        "change_pct": -4.75,
+        "volume_usd": "$9.63M",
+        "aum_usd": "$213.33M",
+        "market_cap_usd": "$203.65M",
+        "shares_M": 14.93,
+        "expense_ratio": "0.20%"
+      },
+      {
+        "rank": 6,
+        "ticker": "ETHV",
+        "issuer": "VanEck",
+        "price": 27.89,
+        "change_pct": -4.65,
+        "volume_usd": "$2.45M",
+        "aum_usd": "$101.45M",
+        "market_cap_usd": "$96.92M",
+        "shares_M": 3.48,
+        "expense_ratio": "0.20%"
+      },
+      {
+        "rank": 7,
+        "ticker": "EZET",
+        "issuer": "Franklin",
+        "price": 14.46,
+        "change_pct": -4.62,
+        "volume_usd": "$735.39K",
+        "aum_usd": "$40.87M",
+        "market_cap_usd": "$39.03M",
+        "shares_M": 2.7,
+        "expense_ratio": "0.19%"
+      },
+      {
+        "rank": 8,
+        "ticker": "QETH",
+        "issuer": "Invesco Galaxy",
+        "price": 18.96,
+        "change_pct": -4.77,
+        "volume_usd": "$524.31K",
+        "aum_usd": "$42.50M",
+        "market_cap_usd": "$17.82M",
+        "shares_M": 0.94,
+        "expense_ratio": "0.25%"
+      },
+      {
+        "rank": 9,
+        "ticker": "TETH",
+        "issuer": "21Shares",
+        "price": 9.52,
+        "change_pct": -4.75,
+        "volume_usd": "$6.68M",
+        "aum_usd": "$17.66M",
+        "market_cap_usd": "$16.85M",
+        "shares_M": 1.77,
+        "expense_ratio": "0.21%"
+      },
+      {
+        "rank": 10,
+        "ticker": "EETH",
+        "issuer": "ProShares",
+        "price": 23.355,
+        "change_pct": -4.76,
+        "volume_usd": "$626.00K",
+        "aum_usd": "$51.78M",
+        "market_cap_usd": "$27.24M",
+        "shares_M": 1.17,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 11,
+        "ticker": "AETH",
+        "issuer": "Bitwise Trendwise",
+        "price": 32.5872,
+        "change_pct": -0.07,
+        "volume_usd": "$5.18K",
+        "aum_usd": "$2.09M",
+        "market_cap_usd": "$2.02M",
+        "shares_M": 0.062,
+        "expense_ratio": ""
+      },
+      {
+        "rank": 12,
+        "ticker": "ETHB",
+        "issuer": "BlackRock Staked",
+        "price": 24.52,
+        "change_pct": -4.78,
+        "volume_usd": "$15.70M",
+        "aum_usd": "-",
+        "market_cap_usd": "$530.61M",
+        "shares_M": 21.64,
+        "expense_ratio": ""
+      }
+    ]
+  }
+}
