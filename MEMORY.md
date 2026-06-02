@@ -293,3 +293,78 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 2. **Oil正则匹配**: oilprice.com页面结构变化，正则失效，依赖EIA API降级
 3. **GitHub推送间歇性失败**: 网络波动时偶发02/03次重试
 4. **F&G波动**: 31→33→47（4/25-4/27），需观察是否趋势性修复
+
+---
+
+### 2026-05-09 - 系统全面修复 + 简报断档4天
+- **遗忘点**: 简报断档5/7-8 (4天) + 价格过期20h + F&G缺失
+- **修复**: 3子智能体并行 (morning-intel-collector + macro-refresh-agent + 简报补采)
+- **GFW干扰**: GitHub push再次失败（4/28后第2次，21s超时）
+- **关键**: AINewsCollector_6h cron状态变化（Healthy → Disabled），需后续修复
+- **数据状态**: BTC $80,188 / ETH $2,308 / SOL $92.21 / F&G 38 / VIX 17.19
+
+### 2026-05-09 ~ 06-01 - 系统断档 23 天
+- **断档根因**: AINewsCollector_6h + DailyCollector_2 cron 被 disable (5/20)
+- **数据断档**: prices_latest.json 18:26 (6/2) 实际是 6/2 17:23 修复后才更新
+- **简报断档**: 5/10-6/1 (23天) 无简报
+- **AI 新闻断档**: data/ai/hacker-news_latest.json 5/9 后无更新 (24天)
+
+### 2026-06-02 17:00-19:00 - 系统恢复 (2小时全量)
+- **触发**: 17:00 auto-push.ps1 报错 → 17:22 简报重写
+- **修复**: 派生采集智能体 (3个) + 价格重采 + F&G 重采 + 简报生成
+- **关键信号**: 
+  - F&G 38 → 23 (Extreme Fear, 单日 -15点)
+  - BTC 24d -13.4% ($80,300 → $69,584)
+  - 黄金 $4,527 跌, VIX 16.15 低 (非系统性)
+- **历史教训**: 简报中"日本 7.4 级地震"在 USGS/JMA 未确认 — 单一来源不能生成 ALERT
+
+### 2026-06-02 19:15 - 心跳触发 + 4 子智能体派发
+- **触发**: 19:12 auto-push 失败（GFW 21s超时）
+- **P0 完成**: 
+  - F&G 23 ALERT (ALERTS/2026-06-02-1915.md)
+  - WATCHLIST 重建 (WATCHLIST/active.md, 27天断档后)
+  - auto-push v2 优化 (jittered retry + --no-verify fallback)
+- **P1 派发 4 子智能体**:
+  - agent-A: BTC 暴跌归因 → 独家发现 ETF 13d -$3.45B, USDC 30d -1.74%, 稳定币轮动
+  - agent-B: Anthropic IPO 深度 → timeout, 元规划者手动重写
+  - agent-C: 日本地震核查 → **拒绝伪造**, USGS/JMA 未确认 6/2 宫城 M7.4
+  - agent-D: AI 资本战争 → Alphabet $80B + Anthropic IPO + Nvidia CPU 联盟
+- **关键发现**: 
+  - **Anthropic 6/1 申请 IPO**: $965B 估值 (反超 OpenAI $852B), $47B ARR
+  - **Anthropic 算力战略**: AWS + Google + SpaceX (3云 + $1.25B/月 SpaceX)
+  - **公开市场第一次给纯 LLM 公司定价** — 重定价 MSFT/NVDA/GOOGL 三角关系
+  - **HN #21 "M 7.4 Miyako"** — 用户未验证提交, USGS/JMA 不存在该事件
+  - **agent-C 严谨救场**: 拒绝基于不存在的地震生成 ALERT
+
+### 2026-06-02 20:17 - 第2次心跳 (本轮)
+- **扫描发现**:
+  - prices_latest.json 18:26 (1h51min 老化) — **重采 20:22 → BTC $69,253.63 (-0.5%)**
+  - HN 实时拉取 20:25 (30条新数据) — **关键: HN #13 "OpenAI frontier models and Codex are now available on AWS"** — 二阶影响
+  - AINewsCollector_6h cron: 仍是 Disabled — **已修复 → Ready, NextRun=6/3 00:00**
+  - HN 6/2 20:25 重大新信号: Alphabet $80B 融资 (HN #28) + OpenAI x AWS (HN #13) + MSFT-NVDA Surface (HN #19) + YC P26 Expanse 闲置 GPU 市场 (HN #23)
+- **清理**: 9 个根目录过期文件 → data/archive/root-cleanup-2026-06-02/
+- **修复脚本**: scripts/fetch-hn-top30-v2.ps1 (实时拉取,不是硬编码ID)
+- **新增脚本**: scripts/sync-hn-md.ps1 (HN JSON → Markdown)
+- **派发 2 子智能体**:
+  - **agent-E**: BTC ETF + 稳定币追踪 (6/2 是否有反转?)
+  - **agent-F**: OpenAI x AWS 二阶影响 (Anthropic IPO 后的连锁反应)
+  - (注: agent-B/C/D 是 19:15 那轮的标识,新轮用 E/F 区分)
+- **MEMORY.md 4/30 后无更新 → 本轮补全**
+
+### 关键方法论教训 (累积)
+1. **拒绝单一来源生成 ALERT** (HN 标题 ≠ 真实事件) — agent-C 救场
+2. **跨境数据交叉验证** (USGS + JMA + Bing 三方核实)
+3. **F&G 单日 -15 点是强力信号** (38 → 23) — 量化情绪警报
+4. **稳定币结构性轮动** (USDC -1.74%, alt-stables +15%) — 区分杠杆清算 vs 资金迁移
+5. **AI 格局已变**: OpenAI 6/1 突破 MSFT 独家接入 AWS — 削弱微软护城河
+6. **PBC 治理是软护城河** (Anthropic > OpenAI 稳定性)
+
+### 当前工作状态 (6/2 20:18)
+- ✅ 系统已恢复 (17:22 简报 + 19:15 ALERT + 20:17 HN 实时)
+- ✅ 价格 20:22 重采 (BTC $69,253, 继续阴跌)
+- ✅ HN 20:25 实时拉取 (30 条新数据)
+- ✅ AINewsCollector_6h cron 已修复 (NextRun 6/3 00:00)
+- ✅ 9 个过期根目录文件已归档
+- 🔄 子智能体 agent-E / agent-F 运行中 (预计 5-10 分钟)
+- 📊 Token: ~80K/200K (40%) — 健康
+- 🕒 时间: 2026-06-02 20:18 GMT+8
