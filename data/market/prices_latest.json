@@ -1,88 +1,51 @@
-﻿{
-    "timestamp_iso":  "2026-06-02T18:03:45Z",
-    "timestamp":  "2026-06-03 02:03:45",
+{
+    "collection_version":  "v8",
+    "timestamp":  "2026-06-03 03:11:32",
+    "note":  "ETH 03:11 采集失败，使用 BTC-ETH 0.95 相关性估算",
     "macro":  {
                   "VIX":  {
                               "confidence":  "high",
-                              "timestamp":  "2026-06-03 02:03:45",
-                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "timestamp":  "2026-06-03 03:11:32",
                               "source":  "Yahoo_Finance_VIX",
-                              "value":  15.97
+                              "value":  15.79
                           },
                   "OIL":  {
-                              "value":  93.78,
-                              "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-03 02:03:45",
-                              "raw_len":  417220,
                               "confidence":  "high",
+                              "timestamp":  "2026-06-03 03:11:32",
+                              "source":  "tradingeconomics.com",
+                              "value":  93.89,
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4487.4,
-                               "source":  "kitco.com",
-                               "timestamp":  "2026-06-03 02:03:45",
-                               "raw_len":  65381,
                                "confidence":  "high",
+                               "timestamp":  "2026-06-03 03:11:32",
+                               "source":  "kitco.com",
+                               "value":  4489.6,
                                "unit":  "USD/oz"
                            }
               },
-    "errors":  [
-
-               ],
     "crypto":  {
-                   "BTC":  {
-                               "price":  67416.8,
-                               "timestamp":  "2026-06-03 02:03:45",
-                               "raw":  "{\"USD\":67416.8}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           },
                    "ETH":  {
-                               "price":  1923.26,
-                               "timestamp":  "2026-06-03 02:03:45",
-                               "raw":  "{\"USD\":1923.26}",
+                               "confidence":  "medium",
+                               "source":  "estimated_BTC_ETH_correlation",
+                               "timestamp":  "2026-06-03 03:11:32",
+                               "price":  1916.69,
+                               "raw":  "estimated_from_BTC_correlation_0.95",
+                               "change_pct":  -0.25
+                           },
+                   "BTC":  {
+                               "price":  67215.22,
+                               "timestamp":  "2026-06-03 03:11:32",
                                "confidence":  "high",
+                               "raw":  "{\"USD\":67215.22}",
                                "source":  "CryptoCompare_API"
                            },
                    "SOL":  {
-                               "price":  76.79,
-                               "timestamp":  "2026-06-03 02:03:45",
-                               "raw":  "{\"USD\":76.79}",
+                               "price":  75.99,
+                               "timestamp":  "2026-06-03 03:11:32",
                                "confidence":  "high",
+                               "raw":  "{\"USD\":75.99}",
                                "source":  "CryptoCompare_API"
                            }
-               },
-    "quality_report":  {
-                           "SOL":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "VIX":  {
-                                       "label":  "高",
-                                       "score":  80,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "OIL":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                   },
-                           "GOLD":  {
-                                        "label":  "中",
-                                        "score":  65,
-                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                    },
-                           "BTC":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "ETH":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   }
-                       },
-    "collection_version":  "v8"
+               }
 }

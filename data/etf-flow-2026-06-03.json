@@ -1,0 +1,17 @@
+{
+    "sources":  {
+                    "Coinglass_ETF":  {
+                                          "status":  200,
+                                          "snippet":  "\u003c!DOCTYPE html\u003e\u003chtml lang=\"en\"\u003e\u003chead\u003e\u003cmeta charSet=\"utf-8\"/\u003e\u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"en\" href=\"https://www.coinglass.com/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"zh\" href=\"https://www.coinglass.com/zh/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"zh-TW\" href=\"https://www.coinglass.com/zh-TW/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"ja\" href=\"https://www.coinglass.com/ja/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"ko\" href=\"https://www.coinglass.com/ko/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"vi\" href=\"https://www.coinglass.com/vi/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"es\" href=\"https://www.coinglass.com/es/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"tr\" href=\"https://www.coinglass.com/tr/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"ru\" href=\"https://www.coinglass.com/ru/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"de\" href=\"https://www.coinglass.com/de/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"id\" href=\"https://www.coinglass.com/id/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"fr\" href=\"https://www.coinglass.com/fr/etf/bitcoin\"/\u003e\u003clink rel=\"alternate\" hrefLang=\"pt\" href=\"https://www.coinglass.com/pt/etf/bitcoin\"/\u003e\u003ctitle\u003eBitcoin ETF Fund Flows | Spot BTC Net Inflow \u0026amp; Holdings | CoinGlass\u003c/title\u003e\u003cmeta name=\"description\" content=\"Explore the latest Bitcoin ETF market trends. CoinGlass provides you with a comprehensive Bitcoin ETF tracker and overview,Bitcoin ETF Flows ,Bitcoin ETF Inflows and Outflows, including trading volume, market capitalization, fees, and more. Stay informed about the latest information on Grayscale Bitcoin Trust (GBTC) ETF, keeping track of market trends anytime, anywhere.\"/\u003e\u003cmeta name=\"twitter:title\" content=\"Bitcoin ETF Fund Flows | Spot BTC Net Inflow \u0026amp; Holdings | CoinGlass\"/\u003e\u003cmeta name=\"twitter:description\" content=\"Explore the latest Bitcoin ETF market trends. CoinGlass provides you with a compre",
+                                          "length":  288775
+                                      },
+                    "Farside_Investors_ETH_ETF":  {
+                                                      "error":  "The underlying connection was closed: An unexpected error occurred on a send."
+                                                  },
+                    "Farside_Investors_BTC_ETF":  {
+                                                      "error":  "The remote server returned an error: (403) Forbidden."
+                                                  }
+                },
+    "timestamp":  "2026-06-03 03:14:16",
+    "note":  "ETF 资金流监控 - 等待进一步解析"
+}

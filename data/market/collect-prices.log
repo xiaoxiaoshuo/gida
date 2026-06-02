@@ -201,3 +201,26 @@
 [INFO] 02:04:03 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-03_02-03.json
 [INFO] 02:04:03 - 质量: 高 (平均分 85)
 [INFO] 02:04:03 - 错误: 0 项
+[INFO] 03:11:32 - ========== 价格采集开始 (v8 多源降级) ==========
+[INFO] 03:11:32 - 时间: 2026-06-03 03:11:32
+[INFO] 03:11:32 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 03:11:32 -   采集 BTC ...
+[OK] 03:11:33 -   BTC = 67215.22 [CryptoCompare_API] 质量:高
+[INFO] 03:11:33 -   采集 ETH ...
+[WARN] 03:11:53 -   ETH API全部失败，降级到Bing搜索...
+[ERROR] 03:11:59 -   ETH 采集失败
+[INFO] 03:11:59 -   采集 SOL ...
+[OK] 03:12:00 -   SOL = 75.99 [CryptoCompare_API] 质量:高
+[INFO] 03:12:00 - >> 采集VIX恐慌指数...
+[OK] 03:12:00 -   VIX = 15.79 [Yahoo_Finance_VIX] 质量:高
+[INFO] 03:12:00 - >> 采集黄金价格...
+[INFO] 03:12:01 -   GOLD Kitco字体样式正则成功: 4489.6
+[OK] 03:12:01 -   GOLD = 4489.6 [kitco.com] 质量:中
+[INFO] 03:12:01 - >> 采集原油价格...
+[INFO] 03:12:03 -   OIL TradingEconomics抓取成功: 93.89
+[OK] 03:12:03 -   OIL = 93.89 [tradingeconomics.com] 质量:中
+[INFO] 03:12:03 - ========== 采集完成 ==========
+[INFO] 03:12:03 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-03_03-11.json
+[INFO] 03:12:03 - 质量: 高 (平均分 82)
+[INFO] 03:12:03 - 错误: 1 项
+[WARN] 03:12:03 - 失败详情: ETH : all sources failed

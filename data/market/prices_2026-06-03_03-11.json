@@ -1,0 +1,76 @@
+﻿{
+    "errors":  [
+                   "ETH : all sources failed"
+               ],
+    "timestamp":  "2026-06-03 03:11:32",
+    "collection_version":  "v8",
+    "quality_report":  {
+                           "VIX":  {
+                                       "label":  "高",
+                                       "score":  80,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "BTC":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "VIX":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-06-03 03:11:32",
+                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "source":  "Yahoo_Finance_VIX",
+                              "value":  15.79
+                          },
+                  "OIL":  {
+                              "value":  93.89,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-03 03:11:32",
+                              "raw_len":  417255,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4489.6,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-03 03:11:32",
+                               "raw_len":  65418,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "crypto":  {
+                   "SOL":  {
+                               "price":  75.99,
+                               "timestamp":  "2026-06-03 03:11:32",
+                               "raw":  "{\"USD\":75.99}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "BTC":  {
+                               "price":  67215.22,
+                               "timestamp":  "2026-06-03 03:11:32",
+                               "raw":  "{\"USD\":67215.22}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "timestamp_iso":  "2026-06-02T19:11:32Z"
+}
