@@ -188,3 +188,9 @@
 [INFO] 20:00:22 -   prices_latest.json 已更新
 [INFO] 20:00:22 - ========== 采集完成 ==========
 [INFO] 20:00:22 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_latest.json
+[INFO] 17:36:26 - ========== 宏观数据采集 (IE COM) ==========
+[INFO] 17:36:26 - >> 采集黄金 (Kitco/goldprice.org)...
+[OK] 17:36:30 -   GOLD = 4443.1 [kitco.com] OK
+[INFO] 17:36:30 - >> 采集WTI原油 (TradingEconomics/oilprice.com)...
+[OK] 17:36:31 -   OIL = 96.32 [tradingeconomics.com] OK
+[INFO] 17:36:31 - >> 采集VIX恐慌指数...

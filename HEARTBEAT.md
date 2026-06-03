@@ -134,6 +134,54 @@
 *本快照由 2026-06-03 13:55 心跳自动生成 | 上次更新: 2026-06-03 04:44 (9h11min 前)*
 
 
+## 快照 | 2026-06-03 17:28 GMT+8 (第 18 次心跳 - 元规划者反思 + 3子智能体派发)
+
+> ⏰ **第18次心跳触发** (定时提醒) | 🔄 工作区扫描 + 3子智能体派发 | 📊 距 18:00 cron并发 32min
+
+### 🔍 扫描发现 (双身份模式: 情报专家 + 任务管理)
+- **prices_latest.json 17:20 v10**: BTC $66,852.69 (-0.45% 1.5h) | ETH $1,876.52 | SOL $74.83 (+1.44%)
+- **F&G 11 维持 27.5h+** (alternative.me 直采)
+- **VIX/OIL/GOLD stale 4.3h** (12:55 旧数据, 21:30 开盘前需刷新)
+- **Cron 4/4 任务 LastResult=0x80070002** (AINewsCollector_6h / DailyCollector / HeartbeatSelfCheck / HourlyPriceCollector)
+- **子智能体 17:17 BUG**: sonnet fast mode 3/3 0文件落地, 已修复 → 改用 minmax/MiniMax-M3 标准模式
+
+### ⚠️ 遗忘点 (本轮识别)
+1. **Macro 4.3h stale** → 子智能体 macro-refresh-1728 (12min 限时)
+2. **Cron 0x80070002 + 18:00 4任务并发** → 子智能体 cron-health-check-1728 (10min 限时)
+3. **21:30 美股开盘前 preview** → 子智能体 us-market-preview-1728 (15min 限时)
+4. **WATCHLIST 27+天断档** → 18:00 后 P1 手动重建
+5. **push/ 嵌套 (push/push/)** → git rm + .gitignore
+6. **v15 简报末尾缺失** (第7章节) → 18:30 P2 补
+7. **briefings 命名 RFC** → 已记入 optimization-proposals-2026-06-03.md
+
+### 📊 当前状态 (17:28)
+- BTC: $66,852.69 (-0.45% 1.5h, -4.20% 24h)
+- ETH: $1,876.52 (+0.23% 1.5h, -5.45% 24h)
+- SOL: $74.83 (+1.44% 1.5h, 反弹加速)
+- F&G: 11 (Extreme Fear, 27.5h+ 维持)
+- Token: ~3K/200K (1.5%) 🟢
+
+### 🤖 子智能体派发中 (3个, 全用 minmax/MiniMax-M3 标准模式)
+- 🔄 **agent-macro-1728** (1a2f1d51) — macro 重采
+- 🔄 **agent-cron-1728** (fb9b1859) — cron 健康检查
+- 🔄 **agent-usmkt-1728** (72ec16d1) — 美股盘前 preview
+
+### 📅 关键时间窗口
+- 17:28 → 18:00 cron 三触发并发 (32min)
+- 18:30 → v18 简报整合
+- 20:00 → DailyCollector 验证 (5h 距)
+- 21:30 → 美股 6/3 开盘 (4h02min 距)
+- 22:00 → ISM PMI 4 档分水岭 (4h32min 距)
+- 6/13 → P0 风险对冲倒计时 10 天
+
+### 🛠️ 元规划者反思 (重要)
+**sonnet fast mode 100% 失败** (3/3 派发) → **改用 minmax/MiniMax-M3** (本轮验证中) → 派发后 5min read 检查 (不依赖 status="done")
+
+---
+*本快照由 2026-06-03 17:28 心跳自动生成 | 上次更新: 2026-06-03 14:13 (3h15min 前)*
+
+---
+
 ## 快照 | 2026-06-03 14:13 GMT+8 (第 14 次心跳 - 全面完成 + 重大发现)
 
 > ⏰ **第14次心跳触发** | 🎉 4/4 子智能体完成 + 推送成功 + BUG 修复 | 📊 14:12 commit fdbed4b 推送

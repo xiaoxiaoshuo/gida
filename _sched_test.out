@@ -1,0 +1,8 @@
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] ===== 心跳自检开始 =====
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] ✅ 价格数据新鲜 (0.0h)
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] ✅ F&G 新鲜: value=23 (Extreme Fear)
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] 🟡 今日简报缺失: C:\Users\Administrator\clawd\agents\workspace-gid\briefings\2026-06-03.md（>24h 断档则 WARN）
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] Cron: HourlyPriceCollector → State=Ready
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] Cron: DailyCollector → State=Ready
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] Git 未推送变更: 21 条
+[INFO] 17:38:10 - [HEARTBEAT-SELF-CHECK] ===== 心跳自检完成 =====
