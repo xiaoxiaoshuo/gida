@@ -1,0 +1,56 @@
+# .gitignore - workspace-gid
+# Created 2026-06-04 02:15 GMT+8 by WATCHLIST 重建子智能体
+# 修复 push/push/ 嵌套问题
+
+# 推送管道嵌套防护 (2026-06-04 02:15 紧急添加)
+# 原因: 增量备份脚本 bug 导致 push/push/memory/ 嵌套生成
+# 解决: git rm --cached + 忽略规则, 保留外层 push/ 主目录
+push/push/
+
+# 系统临时文件
+Thumbs.db
+.DS_Store
+*.tmp
+*.swp
+*.swo
+*~
+
+# 编辑器
+.vscode/
+.idea/
+*.iml
+
+# Node / 包管理
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# 日志与备份
+*.log
+*.bak
+
+# 沙箱限制
+sandbox_cache/
+
+# 内部备份
+ARCHIVE/archive/
+
+# 旧的子智能体临时文件
+data/sandbox/
+
+# 沙箱截图
+data/screenshots/
+
+# 临时构建产物
+dist/
+build/

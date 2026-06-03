@@ -1,88 +1,64 @@
 ﻿{
-    "timestamp_iso":  "2026-06-03T09:36:12Z",
-    "timestamp":  "2026-06-03 17:36:12",
+    "timestamp_iso":  "2026-06-04T02:17:51Z",
+    "timestamp":  "2026-06-04 02:17:51",
     "macro":  {
                   "VIX":  {
                               "confidence":  "high",
-                              "timestamp":  "2026-06-03 17:36:12",
-                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
                               "source":  "Yahoo_Finance_VIX",
-                              "value":  16.05
-                          },
-                  "OIL":  {
-                              "value":  96.32,
-                              "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-03 17:36:12",
-                              "raw_len":  416316,
-                              "confidence":  "high",
-                              "unit":  "USD/barrel (WTI)"
-                          },
-                  "GOLD":  {
-                               "value":  4443.1,
-                               "source":  "kitco.com",
-                               "timestamp":  "2026-06-03 17:36:12",
-                               "raw_len":  65369,
-                               "confidence":  "high",
-                               "unit":  "USD/oz"
-                           }
+                              "value":  16.08
+                          }
               },
-    "errors":  [
-
-               ],
-    "crypto":  {
-                   "BTC":  {
-                               "price":  66737.1,
-                               "timestamp":  "2026-06-03 17:36:12",
-                               "raw":  "{\"USD\":66737.1}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           },
-                   "ETH":  {
-                               "price":  1873.21,
-                               "timestamp":  "2026-06-03 17:36:12",
-                               "raw":  "{\"USD\":1873.21}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           },
-                   "SOL":  {
-                               "price":  74.83,
-                               "timestamp":  "2026-06-03 17:36:12",
-                               "raw":  "{\"USD\":74.83}",
-                               "confidence":  "high",
-                               "source":  "CryptoCompare_API"
-                           }
-               },
     "quality_report":  {
-                           "SOL":  {
-                                       "label":  "高",
-                                       "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
-                                   },
                            "VIX":  {
-                                       "label":  "高",
-                                       "score":  80,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
-                                   },
-                           "OIL":  {
                                        "label":  "中",
-                                       "score":  65,
-                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                       "score":  80,
+                                       "factors":  "Yahoo 直采"
                                    },
-                           "GOLD":  {
-                                        "label":  "中",
-                                        "score":  65,
-                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
-                                    },
+                           "FNG":  {
+                                       "label":  "高",
+                                       "score":  95,
+                                       "factors":  "alternative.me 直采"
+                                   },
                            "BTC":  {
                                        "label":  "高",
                                        "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                       "factors":  "API权威+时间戳"
                                    },
                            "ETH":  {
                                        "label":  "高",
                                        "score":  100,
-                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                       "factors":  "API权威+时间戳"
+                                   },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威+时间戳"
                                    }
                        },
-    "collection_version":  "v8"
+    "crypto":  {
+                   "BTC":  {
+                               "price":  65705.77,
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "ETH":  {
+                               "price":  1820.95,
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  72.83,
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "sentiment":  {
+                      "FNG":  {
+                                  "classification":  "Extreme Fear",
+                                  "confidence":  "high",
+                                  "source":  "alternative.me",
+                                  "value":  11
+                              }
+                  },
+    "collection_version":  "v9"
 }
