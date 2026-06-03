@@ -20,6 +20,11 @@ function Write-Log {
     param([string]$Message, [string]$Level = "INFO")
     $msg = "[$Level] $(Get-Date -Format 'HH:mm:ss') - $Message"
     Write-Host $msg
+    # BUG 修复 (2026-06-03): 防御性日志目录创建, 防止相对路径失效
+    $logDir = Split-Path -Path $LogFile -Parent -ErrorAction SilentlyContinue
+    if ($logDir -and -not (Test-Path $logDir)) {
+        New-Item -ItemType Directory -Path $logDir -Force | Out-Null
+    }
     Add-Content -Path $LogFile -Value "  - $msg" -Encoding UTF8
 }
 

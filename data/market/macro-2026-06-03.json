@@ -1,0 +1,163 @@
+{
+  "schema": "macro-indicators-2026-06-03",
+  "collected_at": "2026-06-03T14:00:00+08:00",
+  "collected_by": "macro-dxy-ust-kimchi-0603 subagent",
+  "data_snapshot_time": {
+    "yahoo": "2026-06-03T06:00:00Z",
+    "coingecko": "2026-06-03T06:06:00Z"
+  },
+  "indicators": {
+    "dxy": {
+      "value": 99.291,
+      "change_24h_pct": 0.07,
+      "change_24h_abs": 0.07,
+      "change_7d_pct": 0.08,
+      "range_30d": {"low": 97.84, "high": 99.32, "low_date": "2026-05-09", "high_date": "2026-05-20"},
+      "range_52w": {"low": 95.55, "high": 100.64},
+      "interpretation": "neutral_bullish_for_btc",
+      "threshold_status": {"bearish": "above_105", "bullish": "below_100"},
+      "current_regime": "below_100_bullish",
+      "source": "Yahoo Finance DX-Y.NYB (query1.finance.yahoo.com)",
+      "health": "green"
+    },
+    "ust_10y": {
+      "value_pct": 4.455,
+      "change_24h_bp": 7.7,
+      "change_24h_pct": 1.76,
+      "change_7d_pct": 0.04,
+      "change_7d_bp": 0.2,
+      "change_30d_bp": -21.2,
+      "range_30d": {"low_pct": 4.446, "high_pct": 4.667, "high_date": "2026-05-20"},
+      "interpretation": "neutral_for_btc",
+      "threshold_status": {"bearish": "above_4.5", "bullish": "below_4.0"},
+      "current_regime": "near_4.5_elevated",
+      "trend": "falling_from_5_20_peak",
+      "source": "Yahoo Finance ^TNX (CBOE 10Y futures)",
+      "health": "green"
+    },
+    "kimchi_premium": {
+      "value_pct": -2.64,
+      "calculation": "(upbit_krw / usdkrw - binance_usd) / binance_usd * 100",
+      "inputs": {
+        "binance_btc_usdt": 67239.28,
+        "upbit_btc_krw": 99630000,
+        "usd_krw_rate": 1521.9,
+        "theoretical_btc_krw": 102330540
+      },
+      "alternative_calc_with_coingecko_implied": -2.89,
+      "change_7d_pct": -2.84,
+      "change_7d_pp": -2.84,
+      "trend": "deteriorating",
+      "range_7d": {"high_pct": 0.20, "low_pct": -2.70, "high_date": "2026-05-27", "low_date": "2026-06-02"},
+      "interpretation": "asian_capital_fleeing",
+      "threshold_status": {"bullish": "above_3", "neutral": "0_to_3", "bearish": "below_0", "panic": "below_-3"},
+      "current_regime": "panic_territory",
+      "anomaly_flags": {
+        "coingecko_is_anomaly": true,
+        "cross_exchange_consistency": "4_KR_exchanges_within_0.16%",
+        "data_trust": "high_despite_flag"
+      },
+      "korean_exchanges": {
+        "upbit": {"price_krw": 99630000, "vol_btc": 4162, "vol_usd": 271000000, "trust": "green"},
+        "bithumb": {"price_krw": 99550000, "vol_btc": 1425, "vol_usd": 93000000, "trust": "green"},
+        "coinone": {"price_krw": 99470000, "vol_btc": 143, "vol_usd": 9000000, "trust": "green"},
+        "korbit": {"price_krw": 99599000, "vol_btc": 74, "vol_usd": 5000000, "trust": "green"},
+        "average_krw": 99562250,
+        "total_24h_vol_btc": 5804,
+        "total_24h_vol_usd": 378000000
+      },
+      "source": "CoinGecko tickers + Yahoo Finance KRW=X",
+      "health": "green_with_anomaly_warning"
+    }
+  },
+  "btc_context": {
+    "price_usd": 67183,
+    "binance_price_usd": 67239.28,
+    "change_24h_pct": -4.40,
+    "change_7d_pct": -11.15,
+    "change_30d_pct": -16.33,
+    "change_1y_pct": -36.19,
+    "ath_usd": 126080,
+    "ath_drawdown_pct": -47,
+    "range_24h": {"low": 65708, "high": 70276},
+    "vol_24h_usd": 61600000000,
+    "vol_24h_vs_7d_avg_pct": 64,
+    "range_52w": {"low": 60074, "high": 126198},
+    "source": "CoinGecko + Yahoo Finance BTC-USD"
+  },
+  "scenario_analysis": {
+    "bull_case": {
+      "probability_pct": 25,
+      "triggers": {"dxy_below": 99.0, "ust_10y_below": 4.4, "kimchi_above": 0.0},
+      "btc_target": "75000-80000",
+      "btc_change_pct": "12-19",
+      "timeline_weeks": "2-4"
+    },
+    "base_case": {
+      "probability_pct": 50,
+      "triggers": {"dxy_range": "99-100", "ust_10y_range": "4.4-4.5", "kimchi_range": "-2 to -3"},
+      "btc_target": "62000-72000",
+      "btc_change_pct": "-8 to +7",
+      "timeline_weeks": "2-8"
+    },
+    "bear_case": {
+      "probability_pct": 25,
+      "triggers": {"dxy_above": 100, "ust_10y_above": 4.5, "kimchi_below": -3.0},
+      "btc_target": "55000-60000",
+      "btc_change_pct": "-10 to -20",
+      "timeline_weeks": "1-3"
+    }
+  },
+  "ai_capital_siphon_hypothesis": {
+    "verdict": "NOT_SUPPORTED",
+    "confidence": "high",
+    "evidence": [
+      {"factor": "DXY", "expected_for_siphon": "rising_above_100", "actual": 99.291, "supports_siphon": false},
+      {"factor": "UST_10Y", "expected_for_siphon": "rising_above_4.5", "actual": 4.455, "supports_siphon": false},
+      {"factor": "Kimchi", "expected_for_siphon": "staying_positive", "actual": -2.64, "supports_siphon": false},
+      {"factor": "Risk_assets_correlation", "expected_for_siphon": "AI_stocks_up_BTC_down", "actual": "NVDA_GOOGL_rebounding_since_5_27", "supports_siphon": false}
+    ],
+    "alternative_hypotheses": [
+      {"hypothesis": "asian_retail_panic_selling", "support": "kimchi_-2.7%_is_strongest_evidence", "confidence": "high"},
+      {"hypothesis": "global_risk_off_cycle", "support": "btc_-11%_7d_with_ust_falling", "confidence": "medium"},
+      {"hypothesis": "crypto_specific_event", "support": "ust_steady_btc_falling_decouples", "confidence": "medium"}
+    ]
+  },
+  "monitoring_recommendations": {
+    "cron_frequency": {
+      "dxy": "every_30_min",
+      "ust_10y": "every_30_min",
+      "kimchi_premium": "every_15_min",
+      "btc_usd": "every_5_min",
+      "usd_krw": "every_1_hour"
+    },
+    "red_alerts": {
+      "dxy_above": 100.5,
+      "ust_10y_above_pct": 4.6,
+      "kimchi_below_pct": -3.0,
+      "btc_24h_drop_pct": -8,
+      "btc_below": 60000
+    },
+    "yellow_alerts": {
+      "dxy_above": 100.0,
+      "ust_10y_above_pct": 4.5,
+      "kimchi_below_pct": 0.0,
+      "btc_7d_drop_pct": -10,
+      "btc_below": 65000
+    },
+    "data_source_health": {
+      "yahoo_finance_query1": "green",
+      "coingecko_api": "green",
+      "coingecko_korean_tickers": "green_with_anomaly",
+      "marketwatch_web_fetch": "red_blocked",
+      "investing_com_web_fetch": "red_blocked",
+      "cnbc_web_fetch": "yellow_partial",
+      "kimpay_io_browser_fetch": "red_cors_blocked"
+    }
+  },
+  "next_collection": {
+    "recommended_time": "2026-06-03T18:00:00+08:00",
+    "rationale": "korea_market_close_plus_us_market_open",
+    "delta_hours": 4
+  }
+}
