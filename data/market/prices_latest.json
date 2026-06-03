@@ -1,6 +1,6 @@
 ﻿{
-    "timestamp_iso":  "2026-06-03T02:34:14Z",
-    "timestamp":  "2026-06-03 10:34:14",
+    "timestamp_iso":  "2026-06-03T02:55:12Z",
+    "timestamp":  "2026-06-03 10:55:12",
     "macro":  {
                   "VIX":  {
                               "confidence":  "high",
@@ -31,25 +31,25 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  66634.96,
-                               "timestamp":  "2026-06-03 10:34:14",
-                               "raw":  "{\"USD\":66634.96}",
+                               "price":  66627.4,
+                               "timestamp":  "2026-06-03 10:55:12",
+                               "raw":  "{\"USD\":66627.4}",
                                "confidence":  "high",
-                               "source":  "CryptoCompare_API_1034"
+                               "source":  "CryptoCompare_API_1055"
                            },
                    "ETH":  {
-                               "price":  1854.24,
-                               "timestamp":  "2026-06-03 10:34:14",
-                               "raw":  "{\"USD\":1854.24}",
+                               "price":  1852.49,
+                               "timestamp":  "2026-06-03 10:55:12",
+                               "raw":  "{\"USD\":1852.49}",
                                "confidence":  "high",
-                               "source":  "CryptoCompare_API_1034"
+                               "source":  "CryptoCompare_API_1055"
                            },
                    "SOL":  {
-                               "price":  74.32,
-                               "timestamp":  "2026-06-03 10:34:14",
-                               "raw":  "{\"USD\":74.32}",
+                               "price":  74.27,
+                               "timestamp":  "2026-06-03 10:55:12",
+                               "raw":  "{\"USD\":74.27}",
                                "confidence":  "high",
-                               "source":  "CryptoCompare_API_1034"
+                               "source":  "CryptoCompare_API_1055"
                            }
                },
     "quality_report":  {
