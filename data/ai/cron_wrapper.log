@@ -330,3 +330,11 @@ Check the spelling of the name, or if a path was included, verify that the path 
 2026-06-04 04:30:58 - Running merge-ai-news.ps1
 2026-06-04 04:30:58 - Merge completed, exit: 0
 2026-06-04 04:31:30 - Wrapper finished
+2026-06-04 06:35:51 - Wrapper started (v2, 2026-06-04 fix)
+2026-06-04 06:35:51 - Running fetch-hn-top30-v2.ps1
+2026-06-04 06:35:51 - HN error: Could not find a part of the path 'C:\WINDOWS\system32\data\tech\hacker-news-2026-06-04_06-36.json'.
+2026-06-04 06:35:51 - Running gh-trending-browser-v5.ps1
+2026-06-04 06:35:51 - GH completed, exit: 
+2026-06-04 06:35:51 - Running merge-ai-news.ps1
+2026-06-04 06:35:51 - Merge completed, exit: 
+2026-06-04 06:36:03 - Wrapper finished

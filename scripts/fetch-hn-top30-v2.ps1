@@ -36,10 +36,14 @@ $output = @{
     items = $results
 } | ConvertTo-Json -Depth 8
 
-# 写入最新 + 归档
+# 写入最新 + 归档 (v2.1 修复 2026-06-04: 改用绝对路径, 兼容 SYSTEM 账户 Scheduled Task)
+$workspaceRoot = $PSScriptRoot | Split-Path -Parent
 $timestamp = Get-Date -Format "yyyy-MM-dd_HH-mm"
-$archivePath = "data\tech\hacker-news-$timestamp.json"
-$latestPath = "data\tech\hacker-news_latest.json"
+$archivePath = Join-Path $workspaceRoot "data\tech\hacker-news-$timestamp.json"
+$latestPath = Join-Path $workspaceRoot "data\tech\hacker-news_latest.json"
+# 确保目录存在
+$archiveDir = Split-Path $archivePath -Parent
+if (!(Test-Path $archiveDir)) { New-Item -ItemType Directory -Path $archiveDir -Force | Out-Null }
 
 $output | Out-File -FilePath $archivePath -Encoding UTF8
 $output | Out-File -FilePath $latestPath -Encoding UTF8
