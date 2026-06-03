@@ -1,19 +1,27 @@
 {
   "lastChecks": {
-    "macro_prices": 1745206090,
-    "github_push": 1745208120,
-    "ai_news": 1745206260,
-    "briefing": 1745206200
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "btc_price": "2026-06-03T12:55:50+08:00",
+    "fng": "2026-06-02T17:21:57+08:00",
+    "ai_news": "2026-06-03T01:19:03+08:00",
+    "github_trending": "2026-06-03T11:09:22+08:00",
+    "macro": "2026-06-03T13:55:00+08:00"
   },
-  "lastHeartbeat": 1745208120,
-  "pendingTasks": [
-    "GitHub push成功，网络已恢复"
-  ],
-  "subagents": {
-    "price-refresh-urgent": "done",
-    "ai-news-deep-collector": "done",
-    "briefing-generator": "done",
-    "cron-fix-optimizer": "done"
+  "lastHeartbeat": "2026-06-03T13:55:00+08:00",
+  "lastPush": "2026-06-03T13:52:00+08:00",
+  "cronHealth": {
+    "AINewsCollector_6h": "Ready",
+    "DailyCollector": "Ready",
+    "HeartbeatSelfCheck": "Ready",
+    "HourlyPriceCollector": "Ready"
   },
-  "notes": "10:30补采完成。重大发现：Apple CEO换届(Tim Cook→John Ternus)，Kimi K2.6/Qwen3.6发布，Claude Opus 4.7发布。cron已修复。GitHub push成功。"
+  "nextHeartbeat": "2026-06-03T18:00:00+08:00",
+  "nextPrice": "2026-06-03T14:00:00+08:00",
+  "nextAINews": "2026-06-03T18:00:00+08:00",
+  "nextDaily": "2026-06-03T20:00:00+08:00",
+  "notes": "13:55 GMT+8 健康检查：4 任务全部 Ready。所有任务 LastResult=-2147024894 (0x80070002) 已知误报，任务实际执行成功（memory/2026-06-03.md 12:00/13:00 等记录证实）。HeartbeatSelfCheck 实际 6h 周期 (06/12/18/00) 非 4h，下一次 18:00。DailyCollector AM/PM 已合并为单任务 12h 周期。HourlyPriceCollector 14:00 距 5min 即将触发。btc_price 距 1h，fng 20h 已偏旧，ai_news 12h 内，github_trending 3h 内。推送 13:52 失败（归档已生成）。",
+  "checkedAt": "2026-06-03T13:55:00+08:00",
+  "checkedBy": "agent:gida:subagent:500aee40"
 }
