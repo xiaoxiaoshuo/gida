@@ -413,3 +413,72 @@
 
 ---
 *本修正由 2026-06-04 04:32 心跳自动生成 (基于文件 mtime 核实 + 子智能体完成事件交叉验证)*
+
+---
+
+## 修复记录 | 2026-06-04 04:37 GMT+8 (第19次心跳 - AINewsCollector_6h cron 27天断档修复)
+
+> 🔧 **P0 工程 BUG 修复完成**: AI 新闻 28 天断档根因定位 + 修复 + 验证
+> 推送待重试: 1 commit (763d81a) 因 GFW 凌晨严格期持续 21s timeout, 失败 4/4
+
+### 🎯 根因 (子智能体 c48decfa + 主代理联合定位)
+
+data/ai/cron_wrapper.log 显示 5/20 18:00:34:
+`
+Running gh-trending-v3.ps1
+GH error: The term 'C:\...\scripts\gh-trending-v3.ps1' is not recognized...
+Wrapper finished
+`
+
+**实际存在的脚本**: gh-trending-browser-v5.ps1 (v3 → v5 重命名时未更新 cron 引用)
+**scheduled task 状态**: Last Result -2147024894 =  x80070002 = ERROR_FILE_NOT_FOUND
+**影响**: 5/20 18:00 → 6/4 04:30 = 27 天静默失败, 期间所有 AI 新闻 JSON mtime 停在 5/8
+
+### 🛠️ 修复 (主代理直接执行, 1 个 commit 763d81a)
+
+1. **新建 scripts/ai-news-cron-wrapper.ps1** (1.6KB):
+   - 调用 etch-hn-top30-v2.ps1 (HN 抓取, 现有)
+   - 调用 gh-trending-browser-v5.ps1 (GH 抓取, 现有)
+   - 调用 merge-ai-news.ps1 (整合, 现有)
+   - 详细日志到 data/ai/cron_wrapper.log
+
+2. **重新注册 AINewsCollector_6h cron 任务**:
+   - Unregister old → Register new (强制覆盖)
+   - Principal: SYSTEM / LogonType: ServiceAccount
+   - Trigger: 每 6h (00:00 / 06:00 / 12:00 / 18:00)
+   - Next Run: 2026/6/4 06:00:00 ✅
+
+3. **手动测试 (04:30:58 - 04:31:30)**:
+   - HN: 28 条成功 (Gemma 4 12B / Elixir 1.20 / Hyper YC P26 / Anti-NMDA encephalitis 等)
+   - GH: 16 仓库 (browser 提取)
+   - merge: exit 0
+   - **数据恢复**: hacker-news_latest.json 从 5/9 → 6/4 04:30 实时
+   - **新增文件**: data/tech/hacker-news-2026-06-04_04-31.json
+
+### 📊 推送状态 (04:37)
+
+- 1 commit 待推送: 763d81a (6 files, +2195/-1165)
+- 4/4 重试失败 (auto-push v1 / git push 直连)
+- GFW 凌晨 04:30-04:37 持续 21s timeout
+- **建议**: 等 05:00-06:00 cron 窗口 + 网络恢复后重试
+- **备份策略**: 本地 commit 已保存, 推送失败不丢数据
+
+### 🔍 验证 AI 新闻采集恢复
+
+| 指标 | 断档期 (5/8 - 6/4 04:30) | 修复后 (6/4 04:30) |
+|------|---------------------------|---------------------|
+| HN latest.json mtime | 2026/5/9 20:00 | **2026/6/4 04:31** ✅ |
+| AI 新闻 JSON 数量 | 0 新增 (28d 断档) | 28 条 (HN 实时) |
+| 06:00 cron Next Run | 持续失败 | **6/4 06:00 待执行** ✅ |
+| Last Result | -2147024894 (0x80070002) | 0 (本次手动测试) |
+
+### 📁 关键文件 (本轮)
+
+- ✅ scripts/ai-news-cron-wrapper.ps1 (1.6KB, 新建)
+- ✅ data/tech/hacker-news-2026-06-04_04-31.json (HN 28 条)
+- ✅ data/tech/hacker-news_latest.json (mtime 更新 04:31)
+- ✅ data/ai/cron_wrapper.log (新增 04:30-04:31 成功记录)
+- ⏳ commit 763d81a 待推送 (凌晨 GFW 严格期)
+
+---
+*本修复由 2026-06-04 04:37 心跳自动生成 (主代理直接执行, 因子智能体 c48decfa 根因定位准确)*
