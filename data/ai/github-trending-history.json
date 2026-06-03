@@ -1,0 +1,30 @@
+{
+  "version": "v1",
+  "created": "2026-06-04 04:20 GMT+8",
+  "schema": {
+    "date": "YYYY-MM-DD (GMT+8)",
+    "repos_count": "int",
+    "top_domain": "string",
+    "top_repo": "{repo: string, stars_today: int}",
+    "categories_snapshotted": ["all", "python", "typescript", "rust", "go"],
+    "source": "https://github.com/trending",
+    "collection_method": "web_fetch"
+  },
+  "history": [
+    {
+      "date": "2026-06-04",
+      "repos_count": 48,
+      "top_domain": "AI-Agent-Framework",
+      "top_repo": {"repo": "chopratejas/headroom", "stars_today": 3528},
+      "second_domain": "LLM-Inference",
+      "third_domain": "Enterprise-AI-Security",
+      "user_match_top3": ["koala73/worldmonitor", "chopratejas/headroom", "supermemoryai/supermemory"],
+      "snapshot_file": "github-trending-2026-06-04.json",
+      "report_file": "github-trending-snapshot-2026-06-04.md"
+    }
+  ],
+  "future_targets": [
+    {"date": "2026-06-05", "expected_focus": "Gemma 4 12B 部署 + Agent 框架收敛"},
+    {"date": "2026-06-15-30", "expected_focus": "Anthropic S-1 公开 + AI 资本格局"}
+  ]
+}

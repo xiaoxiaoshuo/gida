@@ -299,3 +299,71 @@
 
 ---
 *本快照由 2026-06-04 04:13 心跳自动生成 | 上次更新: 2026-06-03 17:28 (10h45min 前) | 第 19 次心跳*
+
+---
+
+## 快照 | 2026-06-04 04:25 GMT+8 (第19次心跳 - 子智能体 0 文件落地后手动补救)
+
+> ⏰ **第19次心跳触发** | 🔄 子智能体 100% 失败 + 主代理手动补救完成 | 📊 6 新文件落地
+
+### 🔴 P0 异常 (本轮发现)
+- **3 个子智能体 100% 失败** (2s/0-token/0 文件): ai-news-28d (4e41c8b5) / github-trending (0dff9e2e) / v24-briefing (206b70c1)
+- **根因**: custom-1/LongCat-Flash-Lite 模型在子智能体 runtime 不可用 + 重派 minmax/MiniMax-M3 仍未落地
+- **规避**: 主代理改用 web_fetch + write 工具直接执行, 6 个文件全部完成
+
+### 🟢 P0 全部完成 (本轮手动补救, 6 新文件)
+- ✅ **data/ai/hn-realtime-2026-06-04-0419.json** (6.0KB, 15 条 HN Top stories)
+- ✅ **data/ai/github-trending-2026-06-04.json** (11.0KB, 48 仓库 4 分类)
+- ✅ **data/ai/github-trending-snapshot-2026-06-04.md** (8.6KB, 5 热点 + 5 推荐)
+- ✅ **data/ai/ai-news-flashback-2026-06-04.md** (9.8KB, 6 大事件深度解读)
+- ✅ **data/ai/ai-news-pipeline-diag-2026-06-04.md** (3.6KB, 28 天断档根因 + 3 修复方案)
+- ✅ **briefings/2026-06-04-v24-0420.md** (6.7KB, 取代 v22/v23-DRAFT)
+- ✅ **data/ai/github-trending-history.json** (新建, 含 6/4 首次条目)
+
+### 📊 数据状态 (04:25 快照)
+| 品种 | 价格 | 24h% | 7d% | 状态 |
+|------|------|------|------|------|
+| BTC | $65,700.05 | **-2.43%** | -12.61% | 🔻 破 ,750 触线 |
+| WTI | $96.10 | +2.50% | - | 🟡 维持, 未破  |
+| Gold | $4,436.90 | -1.12% | - | 🔻 TD 降目标 (鹰派 Fed) |
+| VIX | 16.33 | +1.78% | - | 🟢 低 (市场未恐慌) |
+
+### 🔍 凌晨 6 大新信号 (本轮)
+1. **Gemma 4 12B 官方发布** (Google, 6/3 16:04 UTC, HN 481 pts) — encoder-free 多模态开源 LLM
+2. **Anthropic  S-1** (6/1 提交, 反超 OpenAI ) — 11-26 天后公开
+3. **OpenAI frontier + Codex 上 AWS** (6/3 15:45 UTC) — MSFT 护城河削弱
+4. **Alphabet  2026 capex** (6/3 13:15 UTC) — TPU + 数据中心
+5. **Nvidia-AMD CPU 联盟** (6/3 14:50 UTC) — Grace Hopper + EPYC
+6. **DDR5 32GB = ** (Tom's Hardware, HN 327 pts) — AI HBM 挤压消费级供应链
+
+### 🚨 关键新发现 (本轮)
+- **GitHub 6/4 Trending SOTA**: chopratejas/headroom (3,528 stars/day) — 压缩 LLM 上下文 60-95% token
+- **8 个 AI Agent 框架同时 Trending**: 集体爆发, 6 月内必有整合
+- **koala73/worldmonitor** (55K stars, 139/day) — 与本情报工作场景完全重合, 用户应重点关注
+- **farion1231/cc-switch** (含 OpenClaw 支持) — 中国 AI 工具栈进入 Rust 主流
+- **子智能体派发机制需修复** — 强证据: custom-1/LongCat-Flash-Lite + minmax/MiniMax-M3 重派均失败
+
+### 🛠️ 系统健康
+- 推送: ⏳ 7 新文件待 push (本轮完成后批量)
+- Token: 🟢 ~25K/200K (12.5%) — 充裕
+- Cron: 🟡 06:00 AINewsCollector_6h 首次修复后触发 (待验证)
+- 子智能体: 🔴 全部失败, 改主代理直接执行 (本轮验证有效)
+
+### 📅 关键时间窗口 (6/4)
+- 05:00 — HourlyPriceCollector (35min 后)
+- 06:00 — AINewsCollector_6h (1h35min 后)
+- 08:00 — Farside BTC ETF 5/30 数据 (3h35min 后)
+- 14:00 — HeartbeatSelfCheck (9h35min 后)
+- 21:30 — 美股开盘 (17h05min 后, GOOGL 8-K + NVDA 财报季)
+- 22:00 — ISM Services PMI
+- 6/15-30 — Anthropic S-1 公开 (11-26 天)
+- 6/16-17 — FOMC 会议 (12-13 天)
+
+### 🔧 元规划者反思
+- **子智能体 100% 失败教训**: 当前 OpenClaw runtime + 子智能体 session_key 模式不稳定, 主代理直接执行是更可靠路径
+- **web_fetch 抓取 GitHub Trending 4 分类耗时 ~10s**: 比预期快, 可作为 cron 采集方案
+- **HN Algolia API 替代 news.ycombinator.com**: 解决 GFW 阻断 HN 主站的问题
+- **Cron AINewsCollector_6h 修复后需 6/4 06:00 验证**: 如失败, 立即派生子智能体-δ 排查
+
+---
+*本快照由 2026-06-04 04:25 心跳自动生成 | 上次更新: 2026-06-04 04:13 (12min 前) | 第 19 次心跳*

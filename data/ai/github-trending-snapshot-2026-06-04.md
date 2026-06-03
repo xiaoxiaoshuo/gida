@@ -121,3 +121,50 @@
 ---
 
 ## ⚠️
+## ⚠️ 风险点
+
+- **AI Agent 框架内卷**: 8 个项目功能重叠, 6 月内必有整合 / 倒闭
+- **刷星嫌疑**: 1,000+ stars/day 多个 (headroom 3,528 / Scrapling 1,078) — 需观察 7d 持续性
+- **"Built by /claude" 标注**: 多项目显示 Claude AI 参与贡献, 反映"AI 写代码"已是新常态
+- **archived 项目**: odoo/odoo 仍 Trending 但贡献者列表简短, 可能是僵尸项目
+- **企业级 readiness**: 多数 Agent 框架仍是 "experimental" 状态, 生产环境使用需谨慎
+
+---
+
+## 🔧 行动建议 (用户 6/4-6/15)
+
+### 立即执行 (1-3 天)
+
+1. **克隆 worldmonitor** → 对比本情报系统的覆盖面差异 → 借鉴 news aggregation 模块
+2. **试用 headroom** → 测量子智能体对话 token 压缩率 → 若 >50% 节省则集成
+3. **关注 cc-switch OpenClaw 集成** → 提 Issue / PR 改进
+
+### 中期评估 (1-2 周)
+
+4. **Agent 框架收敛观察**: 6/15 之前, 跟踪 8 个 Agent 项目的 commit 活跃度, 选 2-3 个深入研究
+5. **Gemma 4 12B 本地部署**: 与 airllm 4GB 推理配套, 测试本地情报增强场景
+6. **Memory 引擎对标**: supermemory vs 现有 MEMORY.md, 看是否需要重构
+
+### 长期布局 (1 月)
+
+7. **Agent 框架选型**: 7/1 前定 1 个主用框架 (推荐 oh-my-pi + openai/codex 双轨)
+8. **AI 安全合规**: 关注 defenseclaw, 准备 Agent 治理方案 (P2 风险)
+
+---
+
+## 📁 数据源
+
+- https://github.com/trending (主, 6/4 04:19 GMT+8)
+- https://github.com/trending/python
+- https://github.com/trending/typescript
+- https://github.com/trending/rust
+- https://github.com/trending/go
+
+**采集方法**: web_fetch 4 次, 总耗时 ~10s
+**历史库**: data/ai/github-trending-history.json (待追加 6/4 条目)
+**下次采集**: 6/5 04:00 (建议加入 cron: gh-trending-daily-collector)
+
+---
+
+*本快照由 2026-06-04 04:19 心跳自动生成 (主代理手动补救, 因子智能体 0 文件落地)*
+*下次刷新: 6/5 04:00 或 6/5 21:30 美股开盘后*
