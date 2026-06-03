@@ -1,97 +1,76 @@
-{
-  "version": "v9",
-  "timestamp_utc": "2026-06-03T18:22:00Z",
-  "timestamp_gmt8": "2026-06-04 02:22:00 GMT+8",
-  "data_source": "oilprice.com + coingecko.com + kitco.com + cnbc.com",
-  "v8_baseline": {
-    "v8_timestamp_gmt8": "2026-06-03 17:55 GMT+8",
-    "v8_wti_usd": 96.69,
-    "v8_wti_pct_change": 3.12,
-    "v8_gold_usd": 4474.0,
-    "v8_gold_pct_change": -1.01,
-    "v8_btc_usd": 67137.0,
-    "v8_vix": 16.05
-  },
-  "v9_current": {
-    "wti_crude_usd": 96.10,
-    "wti_pct_change_24h": 2.50,
-    "wti_delta_v8": -0.59,
-    "wti_source": "oilprice.com live",
-    "wti_high_intraday_note": "WTI has NOT yet broken $100; pulled back from overnight spike above $98",
-    "brent_crude_usd": 97.97,
-    "brent_pct_change_24h": 2.05,
-    "murban_crude_usd": 97.04,
-    "natural_gas_usd": 3.216,
-    "natural_gas_pct_change": 1.55,
-    "heating_oil_usd": 3.860,
-    "heating_oil_pct_change": 4.37,
-    "wti_midland_usd": 96.78,
-    "wti_midland_pct_change": 2.08,
-    "gold_usd_oz": 4436.90,
-    "gold_pct_change_24h": -1.12,
-    "gold_day_low": 4426.40,
-    "gold_day_high": 4497.50,
-    "gold_delta_v8": -37.10,
-    "gold_source": "kitco.com (14:21 NY time / 18:21 GMT)",
-    "gold_macro_note": "TD Securities CUT H2 2026 gold forecasts; markets now pricing Fed rate HIKE (not cut) due to oil-shock inflation. This is BEARISH for gold even as Iran war rages",
-    "btc_usd_coingecko": 65700.05,
-    "btc_pct_change_24h": -2.43,
-    "btc_pct_change_7d": -12.61,
-    "btc_low_24h": 65590.00,
-    "btc_low_7d": 65748.90,
-    "btc_high_7d": 75154.74,
-    "btc_delta_v8": -1437.0,
-    "btc_delta_pct_v8": -2.14,
-    "btc_source": "CoinGecko + Binance + Coinbase cross-verified",
-    "btc_critical_note": "BTC at $65,700 is sitting ON the $65,750 touch line. 24h low $65,590 - $110 below touch line. Touch line INTRADAY. 7d low $65,748.90 - $1.10 below touch line",
-    "vix": 16.33,
-    "vix_pct_change": 1.78,
-    "vix_delta_v8": 0.28,
-    "vix_note": "VIX essentially unchanged. Market is NOT panicking despite Iran war. This is bearish signal for safe-haven rally continuation",
-    "amzn_price": 248.88,
-    "amzn_pct_change": -2.98
-  },
-  "macro_shifts_since_v8": {
-    "fed_policy": "MAJOR SHIFT: Markets now pricing Fed RATE HIKE (not cut) for H2 2026 due to oil-shock inflation",
-    "gold_signal": "Despite war, gold falling because hawkish Fed > war premium",
-    "btc_signal": "Despite war, BTC falling because: (1) hawkish Fed = liquidity drain, (2) MicroStrategy SOLD 32 BTC (first sale since 2022), (3) $500M long liquidations",
-    "credit_market": "No flight to quality despite 8h+ of war escalation - suggests institutional positioning is 'this is contained'"
-  },
-  "kuwait_attack_casualty_data": {
-    "iranian_missiles_fired": 13,
-    "iranian_drones_fired": 17,
-    "kuwait_injured_official": 63,
-    "kuwait_injured_source": "Kuwait MoH via ABC News 6/3 7:53 AM EDT (= 19:53 GMT+8)",
-    "us_response": "Self-defense strikes shot down Iranian missiles/drones heading to Kuwait AND Bahrain"
-  },
-  "critical_news_8h": {
-    "kuwait_oil_recovery": "Kuwait says oil output won't recover for 10-12 weeks after Hormuz reopens (oilprice.com breaking)",
-    "iraq_ceyhan": "Iraq targeting 770,000 bpd through Ceyhan (3h ago)",
-    "south_korea_canadian": "South Korea locks in Canadian crude + LNG in sweeping supply overhaul (4h ago)",
-    "russia_waivers": "Rubio: U.S. wants to end Russian oil waivers 'as soon as possible' (6h ago)",
-    "iraq_pipeline": "Iraq looking to triple pipeline oil exports as Hormuz remains closed (5h ago)",
-    "ceasefire_status": "Iran reviewing latest U.S. ceasefire proposal; no deal yet",
-    "trump_status": "Trump 'talking to Pod Force One' - undecided on further strikes",
-    "kuwait_attack_significance": "2nd direct Iran attack on Gulf state in June 2026"
-  },
-  "institutional_views": {
-    "goldman_sachs": "Sees oil to $180 by August if re-escalation",
-    "hsbc": "Flags 'super-squeeze' in oil market",
-    "goldman_ceo": "Warns oil shock could alter consumer behavior",
-    "iea": "Global oil stocks on track for historical lows ahead of summer peak",
-    "rystad": "U.S.-Iran re-escalation could drive oil to $180 by August",
-    "td_securities": "Cut H2 2026 gold forecasts (hawkish Fed trade)",
-    "kansas_fed": "Warns oil price shock might not be transitory"
-  },
-  "next_critical_window_gmt": {
-    "farside_btc_etf_0800_gmt4": "8 hours 38 min from now (8:00 GMT+4 = 12:00 GMT = 20:00 GMT+8, which is 18 hours from 02:22 GMT+8)",
-    "eia_crude_inventory_already_released": "EIA -8.0M barrels for week ending May 29 (already in market)",
-    "ism_services_already_released": "Released 6/3 22:00 GMT+4 (see v21 2124 briefing for handling)"
-  },
-  "scenario_probabilities_v9": {
-    "iran_escalation_24h": {"de_escalate": 35, "status_quo": 35, "escalate": 30},
-    "wti_break_100_24h": {"break": 30, "stay_95_99": 55, "pullback_below_95": 15},
-    "btc_touch_65k_8am": {"touch": 55, "no_touch": 45},
-    "us_market_64_open": {"down": 50, "flat": 30, "up": 20}
-  }
+﻿{
+    "errors":  [
+                   "BTC : all sources failed"
+               ],
+    "timestamp":  "2026-06-04 04:41:25",
+    "collection_version":  "v8",
+    "quality_report":  {
+                           "VIX":  {
+                                       "label":  "高",
+                                       "score":  80,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "VIX":  {
+                              "confidence":  "high",
+                              "timestamp":  "2026-06-04 04:41:25",
+                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "source":  "Yahoo_Finance_VIX",
+                              "value":  16.06
+                          },
+                  "OIL":  {
+                              "value":  96.27,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-04 04:41:25",
+                              "raw_len":  417383,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4435.2,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-04 04:41:25",
+                               "raw_len":  65392,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "crypto":  {
+                   "ETH":  {
+                               "price":  1797.03,
+                               "timestamp":  "2026-06-04 04:41:25",
+                               "raw":  "{\"USD\":1797.03}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  71.82,
+                               "timestamp":  "2026-06-04 04:41:25",
+                               "raw":  "{\"USD\":71.82}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "timestamp_iso":  "2026-06-03T20:41:25Z"
 }
