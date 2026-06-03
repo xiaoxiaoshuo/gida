@@ -1,0 +1,1 @@
+﻿fatal: path 'data\briefings\s-1-8d-countdown-2026-06-04.md' exists on disk, but not in 'pre-patch2'
