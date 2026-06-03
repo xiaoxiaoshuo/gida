@@ -54,3 +54,5 @@ data/screenshots/
 # 临时构建产物
 dist/
 build/
+scripts/*.QUARANTINED
+scripts/cred-stdin.txt
