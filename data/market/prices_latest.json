@@ -1,6 +1,6 @@
 {
-    "timestamp_iso": "2026-06-03T07:46:00Z",
-    "timestamp": "2026-06-03 15:46:00",
+    "timestamp_iso": "2026-06-03T09:17:00Z",
+    "timestamp": "2026-06-03 17:17:00",
     "macro": {
         "VIX": {
             "confidence": "high",
@@ -26,100 +26,109 @@
             "unit": "USD/oz"
         }
     },
-    "errors": [],
+    "errors": ["Binance socket hang up (GFW) - 1-source fallback used"],
     "crypto": {
         "BTC": {
-            "price": 67152.66,
+            "price": 66852.69,
             "consensus": {
                 "sources": {
-                    "CryptoCompare": 67279.87,
-                    "Binance": 67364.64,
-                    "Coinbase": 67251.865
+                    "CryptoCompare": 66852.69
                 },
-                "cv_pct": 0.0712,
-                "std": 47.94,
-                "method": "3-source mean"
+                "cv_pct": null,
+                "std": null,
+                "method": "1-source (CryptoCompare) - Binance/OKX/Coinbase unreachable"
             },
-            "24h_change_pct": -4.146,
+            "24h_change_pct": -4.20,
             "24h_volume_usdt": 2503049914.54,
             "24h_high": 70442.00,
             "24h_low": 65426.34,
             "funding_rate_pct": 0.007877,
-            "funding_source": "Binance Futures",
-            "timestamp": "2026-06-03 13:57:00",
-            "raw": "{\"USD\":67298.79}",
-            "confidence": "high",
-            "source": "3-source consensus (CryptoCompare+Binance+Coinbase)"
+            "funding_source": "Binance Futures (stale, 13:55)",
+            "timestamp": "2026-06-03 17:17:00",
+            "raw": "{\"USD\":66852.69}",
+            "confidence": "medium",
+            "source": "CryptoCompare (1-source, OKX/Binance/Coinbase blocked by GFW)",
+            "vs_15_46": "-$300.00 / -0.45%",
+            "trend": "continuing_down_1.5h"
         },
         "ETH": {
-            "price": 1872.23,
+            "price": 1876.52,
             "consensus": {
                 "sources": {
-                    "CryptoCompare": 1871.70,
-                    "Binance": 1873.78,
-                    "Coinbase": 1871.205
+                    "CryptoCompare": 1876.52
                 },
-                "cv_pct": 0.0596,
-                "std": 1.12,
-                "method": "3-source mean"
+                "cv_pct": null,
+                "std": null,
+                "method": "1-source (CryptoCompare)"
             },
-            "24h_change_pct": -5.590,
+            "24h_change_pct": -5.45,
             "24h_volume_usdt": 1267804694.31,
             "24h_high": 1990.00,
             "24h_low": 1816.92,
             "funding_rate_pct": 0.010000,
-            "funding_source": "Binance Futures",
-            "timestamp": "2026-06-03 13:57:00",
-            "raw": "{\"USD\":1872.23}",
-            "confidence": "high",
-            "source": "3-source consensus (CryptoCompare+Binance+Coinbase)"
+            "funding_source": "Binance Futures (stale, 13:55)",
+            "timestamp": "2026-06-03 17:17:00",
+            "raw": "{\"USD\":1876.52}",
+            "confidence": "medium",
+            "source": "CryptoCompare (1-source)",
+            "vs_15_46": "+$4.29 / +0.23%",
+            "trend": "slight_recovery"
         },
         "SOL": {
-            "price": 73.77,
-            "timestamp": "2026-06-03 12:55:44",
-            "raw": "{\"USD\":73.77}",
-            "confidence": "high",
-            "source": "CryptoCompare_API"
+            "price": 74.83,
+            "timestamp": "2026-06-03 17:17:00",
+            "raw": "{\"USD\":74.83}",
+            "confidence": "medium",
+            "source": "CryptoCompare (1-source)",
+            "vs_15_46": "+$1.06 / +1.44%",
+            "trend": "rebound_accelerating"
         },
         "Fear_Greed": {
             "value": 11,
             "label": "Extreme Fear",
             "source": "alternative.me",
-            "timestamp": "2026-06-03 13:55:00",
-            "vs_1130": "unchanged"
+            "timestamp": "2026-06-03 17:17:00",
+            "vs_1130": "unchanged",
+            "duration_hours": 27.5
         }
     },
     "quality_report": {
+        "BTC": {
+            "label": "中",
+            "score": 65,
+            "factors": "1-source (CryptoCompare) - OKX/Binance/Coinbase 不可达, 资金费率13:55 stale"
+        },
+        "ETH": {
+            "label": "中",
+            "score": 65,
+            "factors": "1-source (CryptoCompare)"
+        },
         "SOL": {
+            "label": "中",
+            "score": 70,
+            "factors": "1-source + 价格字段 + 时间戳"
+        },
+        "F&G": {
             "label": "高",
-            "score": 100,
-            "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+            "score": 95,
+            "factors": "alternative.me 直采, 27.5h 维持 Extreme Fear"
         },
         "VIX": {
-            "label": "高",
-            "score": 80,
-            "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+            "label": "中",
+            "score": 50,
+            "factors": "12:55 stale, 4.3h 过时"
         },
         "OIL": {
             "label": "中",
-            "score": 65,
-            "factors": "API权威来源 + 来源标注 + 时间戳"
+            "score": 50,
+            "factors": "12:55 stale"
         },
         "GOLD": {
             "label": "中",
-            "score": 65,
-            "factors": "API权威来源 + 来源标注 + 时间戳"
-        },
-        "BTC": {
-            "label": "高",
-            "score": 100,
-            "factors": "3-source consensus (CV<0.1%) + 24h stats + funding rate + 原始数据"
-        },
-        "ETH": {
-            "label": "高",
-            "score": 100,
-            "factors": "3-source consensus (CV<0.1%) + 24h stats + funding rate + 原始数据"
+            "score": 50,
+            "factors": "12:55 stale"
         }
     },
-    "collection_version": "v9-btc-eth-verify-1355"
+    "collection_version": "v10-1717-fresh",
+    "notes": "1.5h refresh: BTC -0.45% to $66,852 (continuing decline), ETH +0.23% (slight recovery), SOL +1.44% (rebound). F&G 11 maintained 27.5h. 1-source limitation due to GFW blocking Binance/OKX/Coinbase - HIGH RISK for accuracy. Cross-verify via Brave browser if needed."
 }
