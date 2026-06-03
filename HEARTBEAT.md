@@ -805,3 +805,48 @@ Wrapper finished
 
 ---
 *本快照由 2026-06-04 05:42 心跳自动生成 (重写, 因为 git reset --hard 丢失了 24/25 快照)*
+
+---
+
+## 快照 | 2026-06-04 07:05 GMT+8 (第28次心跳 - 7:00 cron 验证 + 2 子智能体派发 + ETF 数据预热)
+
+> ⏰ **第28次心跳触发** | 🔄 7:00 cron 自动跑通 + v27 简报派发 | 📊 08:00 Farside ETF 55min 后
+
+### 🟢 P0 完成 (本轮)
+- ✅ **7:00 cron 修复后首次自动跑通** (HourlyPrice Last Result 0, prices_latest 07:00:08)
+- ✅ **推送 3a8e230** (2 files, 7 insertions)
+- ✅ **8c4b8308 (v27 briefing) 派发** 7min 限时
+- ✅ **b8f6fac0 (ETF prep) 派发** 7min 限时
+
+### 📊 数据状态 (07:05 实时)
+| 品种 | 价格 | 24h% | 来源 |
+|------|------|------|------|
+| BTC | ,080 | - | 07:00 CryptoCompare |
+| ETH | ,827.65 | - | 07:00 CryptoCompare |
+| SOL | .15 | - | 07:00 CryptoCompare |
+| OIL | .41 | -2.50% | 07:00 tradingeconomics |
+| GOLD | ,448.6 | -1.12% | 07:00 kitco.com |
+| F&G | 11 | -12 | 07:00 替代.me |
+
+### 🟡 08:00 Farside ETF 5/30 数据 (55min 后, P0)
+- Farside 主页 Cloudflare 拦截 (403)
+- CoinGlass 抓的是 FAQ 而非实时
+- Bing 搜索结果包含: CMC ,289 / btcfans ,737 / Tradingkey ,426 (6/3 旧数据)
+- **6/4 凌晨真实数据需 b8f6fac0 子智能体从 CoinGlass 浏览器抓取**
+
+### 🤖 子智能体状态 (本轮 2)
+- 🔄 **8c4b8308** (v27 briefing): 7min 限时
+- 🔄 **b8f6fac0** (ETF prep): 7min 限时
+
+### 📅 关键时间窗口 (6/4)
+- **08:00 — Farside BTC ETF 5/30 数据 (P0)**
+- 09:30 — Farside 5/30 完整版
+- 12:00 — AINews 6h 周期 (修复后)
+- 16:15 — ADP 非农
+- 21:30 — 美股 6/4 开盘 (GOOGL 8-K + NVDA 财报季)
+- 22:00 — ISM Services PMI
+- 6/13 — 风险对冲截止 (8d 8h)
+- 6/15-30 — Anthropic S-1 公开
+
+---
+*本快照由 2026-06-04 07:05 心跳自动生成 | 上次更新: 2026-06-04 07:02 (3min 前) | 第 28 次心跳*
