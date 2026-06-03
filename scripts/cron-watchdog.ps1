@@ -22,9 +22,10 @@ $health = @{
   overall = "healthy"
 }
 
-# 检查 1: AINewsCollector_6h Last Result
+# 检查 1: AINewsCollector_6h Last Result (v2.1 修复: schtasks 全路径, 兼容 SYSTEM 账户)
+$schtasksPath = "C:\Windows\System32\schtasks.exe"
 try {
-  $taskInfo = schtasks /Query /TN "AINewsCollector_6h" /V /FO LIST 2>&1 | Out-String
+  $taskInfo = & $schtasksPath /Query /TN "AINewsCollector_6h" /V /FO LIST 2>&1 | Out-String
   if ($taskInfo -match "Last Result:\s+(\S+)") {
     $lastResult = $matches[1]
     if ($lastResult -eq "0") {
@@ -41,9 +42,9 @@ try {
   $alerts += "AINewsCollector_6h check failed: $_"
 }
 
-# 检查 2: HourlyPriceCollector Last Result
+# 检查 2: HourlyPriceCollector Last Result (v2.1 全路径修复)
 try {
-  $taskInfo = schtasks /Query /TN "HourlyPriceCollector" /V /FO LIST 2>&1 | Out-String
+  $taskInfo = & $schtasksPath /Query /TN "HourlyPriceCollector" /V /FO LIST 2>&1 | Out-String
   if ($taskInfo -match "Last Result:\s+(\S+)") {
     $lastResult = $matches[1]
     if ($lastResult -eq "0") {
