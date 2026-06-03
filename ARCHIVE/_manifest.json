@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-06-03T22:55:00+08:00",
+  "last_cleanup": null,
+  "pending": [],
+  "pushed": [],
+  "note": "Reconstructed 22:55 GMT+8 — lost during nested-dir corruption cleanup. Cleanup: 3 nested memory/2026-06-03.md copies deleted (push/, push/push/, ARCHIVE/archive/). Root memory/ + ARCHIVE/memory/ canonical."
+}

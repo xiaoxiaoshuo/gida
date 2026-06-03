@@ -39,7 +39,7 @@ function Get-GitStatus {
 }
 
 function Invoke-GitPush {
-    param([int]$MaxRetries = $PushRetryCount, [int]$DelaySec = $PushRetryDelayDelay)
+    param([int]$MaxRetries = $PushRetryCount, [int]$DelaySec = $PushRetryDelaySec)
     Set-Location $RepoRoot
     $success = $false
     $attempts = @()
@@ -132,12 +132,10 @@ function Clear-ArchiveForPushedFiles {
         return
     }
     
-    $remaining = @()
-    foreach ($item in $manifest.pending) {
-        $remaining += $item
-    }
-    $manifest.pending = @()
+    # BUG 修复 (2026-06-03 22:55): 先把 pending 移动到 pushed, 再清空 pending
+    # 旧代码: $manifest.pending = @() ; $manifest.pushed += $manifest.pending  (顺序反了, pending 已空)
     $manifest.pushed += $manifest.pending
+    $manifest.pending = @()
     Set-ArchiveManifest -Manifest $manifest
     
     # 清理超过7天的已推送记录
