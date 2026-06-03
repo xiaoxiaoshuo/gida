@@ -1,6 +1,6 @@
 {
-    "timestamp_iso": "2026-06-03T05:57:00Z",
-    "timestamp": "2026-06-03 13:57:00",
+    "timestamp_iso": "2026-06-03T07:25:00Z",
+    "timestamp": "2026-06-03 15:25:00",
     "macro": {
         "VIX": {
             "confidence": "high",
@@ -29,7 +29,7 @@
     "errors": [],
     "crypto": {
         "BTC": {
-            "price": 67298.79,
+            "price": 67122.63,
             "consensus": {
                 "sources": {
                     "CryptoCompare": 67279.87,
