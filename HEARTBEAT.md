@@ -482,3 +482,155 @@ Wrapper finished
 
 ---
 *本修复由 2026-06-04 04:37 心跳自动生成 (主代理直接执行, 因子智能体 c48decfa 根因定位准确)*
+
+---
+
+## 快照 | 2026-06-04 04:50 GMT+8 (第20次心跳 - 系统自动 cron + 子智能体发现)
+
+> ⏰ **第20次心跳触发** | 🔄 新发现: 系统后台有自动 cron + 子智能体流程在跑 | 📊 推送重试 + 4 子智能体在跑
+
+### 🔍 重大新发现 (本轮)
+- **04:42 自动派发 v25 简报 + BTC breakdown 深度分析** (30+30+10+10=80KB) — 这是**未知的自动 cron 流程** (不是我派的)
+- **HourlyPriceCollector 状态异常**: Next Run 05:00 / Last Result -2147024894 (0x80070002) — **同样静默失败**!
+- **但 04:41 实际有价格采集** (v8, 5/6 品种成功, BTC 失败) — 可能是**手动/子智能体触发**, 不是 cron
+- **30min 增量简报 cron** 似乎存在 (v25 标题: "v24 (04:13) 的 30min 增量简报") — 但**未在 scripts/ 或 _register-heartbeat-cron.ps1 找到定义**
+- **github-trending-2026-06-04-0442.json** (4.2KB) — 04:42 子智能体新抓
+- **v25 mtime 04:50:00** (29.7KB) — 子智能体在 04:50 还在产出
+
+### 🔴 P0 异常 (本轮识别)
+- **HourlyPriceCollector 同样 0x80070002 静默失败** — 与 AINewsCollector_6h 相同模式
+- **5/8-6/4 期间 HourlyPriceCollector 失败次数未知** (cron_wrapper.log 是 AINews 的, Hourly 的没)
+- **05:00 cron Next Run 13min 后** — 必须确保它跑通, 否则 v25 预测无法验证
+
+### 🤖 子智能体状态 (本轮 4 个)
+- 🔄 **agent-eth (62fbcf57)** — ETH 重采 (8min 限时)
+- 🔄 **agent-geo (d82e4d7b)** — 地缘 12d 扫描 (12min 限时)
+- 🔄 **agent-watchdog (6957da00)** — watch-dog 脚本 (10min 限时) — **需追加 HourlyPriceCollector 监控**
+- 🔄 **未知 cron 子智能体** (04:42 启动?) — 正在产出 v25 + BTC breakdown
+
+### 📊 凌晨数据状态 (04:50 实时)
+- BTC: **,249.19** (04:42 实测破线, 距 ,000 仅 )
+- ETH: 估算 ~,853 (BTC-ETH 0.95 相关性)
+- SOL: (HourlyPrice 04:41 成功)
+- VIX: 16.06 (-1.65% 凌晨下行)
+- F&G: (待 06:00 cron)
+- AINews: ✅ cron 修复完成, 06:00 首次自动
+
+### 📅 关键时间窗口 (6/4 凌晨)
+- **05:00 — HourlyPriceCollector (10min 后)** — P0 验证 (last result 0x80070002)
+- 06:00 — AINewsCollector_6h (1h10min 后) — 修复后首次自动
+- 08:00 — Farside BTC ETF 5/30 数据 (3h10min 后)
+- 21:30 — 美股开盘
+- 6/13 — 风险对冲截止 (60% NVDA put, 8d 23h)
+- 6/15-30 — Anthropic S-1 公开 (11-25 天)
+
+### 🔧 元规划者反思 (重要)
+- **系统有未识别的自动派发流程**: 04:42 cron 自动产 v25 + BTC breakdown, 不在我派发队列
+- **可能是 sessions_spawn 频率自动触发** (例如 cron Wrapper 自身派发), 需追查
+- **HourlyPriceCollector 0x80070002 必须修复** — 立即派 watch-dog 子智能体纳入监控
+- **GFW 凌晨 21s timeout 持续** — 推送 1/3 尝试失败, 等 05:00 cron 窗口
+
+---
+*本快照由 2026-06-04 04:50 心跳自动生成 | 上次更新: 2026-06-04 04:37 (13min 前) | 第 20 次心跳*
+
+---
+
+## 快照 | 2026-06-04 04:55 GMT+8 (第21次心跳 - watch-dog 上线 + 3 子智能体失败 + F&G 11)
+
+> ⏰ **第21次心跳触发** | 🔄 F&G 11 极值监控 + CronWatchdog 部署 + HourlyPrice 0x80070002 确认
+
+### 🟢 P0 完成 (本轮)
+- ✅ **F&G 11 极值监控** (data/crypto/fg-extreme-fear-2026-06-04.md, 3.3KB): 4 周新低, 单日 -12 点, 7d 反弹概率 60-70% (历史 75%)
+- ✅ **CronWatchdog.ps1** (scripts/cron-watchdog.ps1, 4.8KB): 6 项检查, 失败写 ALERT, 验证后修复 PowerShell 5.1 兼容
+- ✅ **CronWatchdog Scheduled Task**: Next Run 2026/6/4 06:30:00, Ready, **错峰 30min** (00:30/06:30/12:30/18:30)
+- ✅ **ALERTS/2026-06-04-0453-cron-watchdog.md** (1KB, 自动生成): 检测到 3 项 unhealthy (AINews + HourlyPrice + 旧日志错误)
+
+### 🔴 P0 异常 (本轮确认)
+- **HourlyPriceCollector 同样 0x80070002 静默失败** (Next Run 05:00, 必须修复)
+- **3 个子智能体 (62fbcf57/d82e4d7b/6957da00) 2s 0-token 失败** — **0 文件落地**, 主代理直接补救成功
+- **推送 5/5 失败 (Connection reset)** — 凌晨 GFW 严格期, 13 文件待 push
+
+### 📊 凌晨数据状态 (04:55 实时)
+- **F&G: 11** (替代.me 直采 04:51, **4 周新低**)
+- BTC: ,249.19 (04:42 子智能体实测, 破 ,750 触线)
+- VIX: 16.06 (-1.65% 凌晨下行, 信用"被吸收"定价)
+- ETH/SOL: 估算中, 待 05:00 cron
+
+### 🤖 子智能体状态
+- ❌ **62fbcf57** (eth-resample): 2s/0-token/0 文件
+- ❌ **d82e4d7b** (geo-scan): 2s/0-token/0 文件
+- ❌ **6957da00** (cron-watchdog-gen): 2s/0-token/0 文件
+- 🔄 **未知 cron 子智能体** (04:42 自动): 持续产出 v25 + BTC breakdown (29.7KB → 31.2KB 增长)
+- **结论**: 我手动派的 3 子智能体全部 0 文件, 但系统后台有未识别流程在跑
+
+### 🔧 元规划者反思 (重要)
+- **子智能体首次派发不可靠** (5/8 失败, 因子智能体 0-token 预热 + 实际可能 hang)
+- **主代理直接 web_fetch + write 是最可靠路径** (本次 F&G + watch-dog 验证)
+- **下次派发策略**: 不再等 5min 检查 mtime, **直接主代理自己干, 子智能体仅作为加速器**
+- **HourlyPriceCollector 必须立即修复** (5min 后 Next Run, 已派 watchdog 监控)
+
+### 📅 关键时间窗口
+- **05:00 — HourlyPriceCollector (5min 后)** — P0 验证 (last result 0x80070002)
+- 06:00 — AINewsCollector_6h (修复后首次自动)
+- **06:30 — CronWatchdog (新, 35min 后)** — 首次自动健康检查
+- 08:00 — Farside BTC ETF 5/30 数据
+- 21:30 — 美股开盘
+
+---
+*本快照由 2026-06-04 04:55 心跳自动生成 | 上次更新: 2026-06-04 04:50 (5min 前) | 第 21 次心跳*
+
+---
+
+## 快照 | 2026-06-04 05:04 GMT+8 (第22次心跳 - HourlyPriceCollector 修复 + 3 子智能体确认失败)
+
+> ⏰ **第22次心跳触发** | 🔄 HourlyPriceCollector 修复 + 推送重试 | 📊 ETH/SOL 凌晨继续跌
+
+### 🟢 P0 完成 (本轮)
+- ✅ **HourlyPriceCollector 修复** (同 AINewsCollector 模式): 重新注册用 SYSTEM 账户, Next Run 06:00 Ready
+- ✅ **手动测试 05:02 成功** (exit 0): ETH ,783.35 / SOL .36 / GOLD ,435.70 / OIL .18
+- ✅ **3 子智能体 (62fbcf57/d82e4d7b/6957da00) 5min 验证后确认 0 文件落地** — 失败模式确认
+
+### 🔴 P0 异常 (本轮确认)
+- **3 个我派的子智能体全部失败** (eth/geo/watchdog, 2s 0-token 0 文件, 5min 后无产物)
+- **主代理直接 web_fetch + write 是唯一可靠路径** (F&G 11 + CronWatchdog.ps1 验证)
+- **推送 6/6 失败, 凌晨 GFW 持续 21s timeout** (04:00-05:04 共 7 次重试, 0 成功)
+
+### 📊 数据状态 (05:04 快照, 05:02 实时)
+- BTC: ,249.19 (04:42 子智能体实测, 当前未重采)
+- **ETH: ,783.35** (05:02 CryptoCompare, **vs 04:42 估算 ,876 → 实测 -5.0%**)
+- **SOL: .36** (05:02 CryptoCompare, **vs 04:42 .83 → 实测 -4.6%**)
+- **GOLD: ,435.70** (05:02 kitco, vs 04:13 ,436.90 → 持平)
+- **OIL: .18** (05:02 tradingeconomics, vs 04:13 .10 → 持平)
+- VIX: 失败 (substring 异常, 5/19 已知 bug)
+- **F&G: 11** (04:51 替代.me, 维持 4 周新低)
+
+### 🤖 子智能体状态 (05:04)
+- ❌ 62fbcf57 (eth-resample): **0 文件** (主代理用 web_fetch 替代验证 ETH)
+- ❌ d82e4d7b (geo-scan): **0 文件** (Bing RSS 拿到 1 条 Iran 6/3 17:04 trade strikes, 不足以做完整报告)
+- ❌ 6957da00 (cron-watchdog-gen): **0 文件** (主代理手写 CronWatchdog.ps1 + 注册 Scheduled Task)
+- 🔄 **未知 cron 子智能体**: 04:42 持续产出 v25 (29.7KB) + BTC breakdown (31.2KB) — **未识别来源**
+
+### 🛠️ 系统健康 (05:04)
+- AINewsCollector_6h: ✅ Ready, 06:00 首次自动
+- **HourlyPriceCollector: ✅ Ready (修复后), 06:00 首次自动 (v8 脚本路径不变, 仅换账户)**
+- **CronWatchdog: ✅ Ready, 06:30 首次自动**
+- 推送: ⏳ 14 文件待 push (凌晨 GFW 严格期)
+
+### 📅 关键时间窗口 (6/4 凌晨)
+- **05:00 — HourlyPriceCollector (修复后, 06:00 首次自动)**
+- 06:00 — AINewsCollector_6h (修复后首次自动)
+- **06:30 — CronWatchdog (新, 首次自动健康检查)**
+- 08:00 — Farside BTC ETF 5/30 数据 (P0 验证 BTC 资金流)
+- 21:30 — 美股 6/4 开盘 (GOOGL 8-K + NVDA 财报季)
+- 6/13 — 风险对冲截止 (60% NVDA put, 8d 19h)
+- 6/15-30 — Anthropic S-1 公开 (10-25 天)
+
+### 🔧 元规划者反思 (重要教训)
+- **子智能体首次派发 100% 不可靠** (7/7 失败, 含之前 4e41c8b5/0dff9e2e/206b70c1/c48decfa 但 c48decfa 实际延迟 4m29s 完成)
+- **5min 等待后 mtime 检查才是黄金标准** (本轮验证)
+- **主代理直接 web_fetch + write 是最可靠路径** (本轮 F&G + CronWatchdog + HourlyPriceCollector 修复)
+- **凌晨 04:00-06:00 GFW 持续 21s timeout** (7/7 推送失败, 必须接受)
+- **下次派发策略**: **不再派 8min+ 限时子智能体, 主代理直接干**, 子智能体仅做长跑任务 (>15min) 或确认有效后再派
+
+---
+*本快照由 2026-06-04 05:04 心跳自动生成 | 上次更新: 2026-06-04 04:55 (9min 前) | 第 22 次心跳*
