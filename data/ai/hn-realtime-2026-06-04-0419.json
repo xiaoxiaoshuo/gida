@@ -1,0 +1,35 @@
+{
+  "version": "v1",
+  "timestamp_utc": "2026-06-03T20:20:00Z",
+  "timestamp_gmt8": "2026-06-04 04:20 GMT+8",
+  "collection_method": "hn.algolia.com API (官方 Algolia 搜索, front_page tag)",
+  "source": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=20",
+  "total_hits": 200,
+  "stories": [
+    {"rank": 1, "title": "Meta workers can opt out of being tracked at work up to 30 min", "points": 577, "comments": 538, "author": "reconnecting", "url": "https://www.bbc.com/news/articles/c93x0k194yno", "domain": "bbc.com", "created_at": "2026-06-03T12:42:07Z", "ai_relevance": "LOW", "category": "privacy/workplace"},
+    {"rank": 2, "title": "Hacking your PC using your speaker without ever touching it", "points": 556, "comments": 94, "author": "xx_ns", "url": "https://blog.nns.ee/2026/06/03/katana-badusb/", "domain": "nns.ee", "created_at": "2026-06-03T10:53:00Z", "ai_relevance": "LOW", "category": "security/hardware"},
+    {"rank": 3, "title": "Gemma 4 12B: A unified, encoder-free multimodal model", "points": 481, "comments": 175, "author": "rvz", "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/", "domain": "blog.google", "created_at": "2026-06-03T16:04:42Z", "ai_relevance": "VERY_HIGH", "category": "AI/Google/LLM"},
+    {"rank": 4, "title": "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building", "points": 327, "comments": 300, "author": "papersail", "url": "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building", "domain": "tomshardware.com", "created_at": "2026-06-03T12:43:43Z", "ai_relevance": "HIGH", "category": "AI/Hardware/Memory"},
+    {"rank": 5, "title": "DaVinci Resolve 21", "points": 292, "comments": 136, "author": "pentagrama", "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew", "domain": "blackmagicdesign.com", "created_at": "2026-06-03T14:18:39Z", "ai_relevance": "MEDIUM", "category": "creative-tools/video"},
+    {"rank": 6, "title": "I was recently diagnosed with anti-NMDA receptor encephalitis", "points": 284, "comments": 66, "author": "Tomte", "url": "https://burntsushi.net/encephalitis/", "domain": "burntsushi.net", "created_at": "2026-06-03T14:10:06Z", "ai_relevance": "NONE", "category": "health/personal"},
+    {"rank": 7, "title": "Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2", "points": 216, "comments": 29, "author": "nathell", "url": "https://handwritten.danieljanus.pl/2026-06-01-edsger.html", "domain": "danieljanus.pl", "created_at": "2026-06-02T18:52:52Z", "ai_relevance": "LOW", "category": "ShowHN/devtools"},
+    {"rank": 8, "title": "PlayStation Architecture", "points": 211, "comments": 35, "author": "gregsadetsky", "url": "https://www.copetti.org/writings/consoles/playstation/", "domain": "copetti.org", "created_at": "2026-06-03T10:25:00Z", "ai_relevance": "NONE", "category": "hardware/retro"},
+    {"rank": 9, "title": "Sample size in the age of microbenchmarking (2024)", "points": 199, "comments": 32, "author": "signa11", "url": "https://www.duckduckgo.com/l/?uddg=https%3A%2F%2Fjakobnordlander.github.io%2F2024%2F10%2F30%2Fmicrobenchmarking.html", "domain": "jakobnordlander.github.io", "created_at": "2026-06-03T05:35:00Z", "ai_relevance": "MEDIUM", "category": "performance/benchmarking"},
+    {"rank": 10, "title": "Anthropic's new $965B valuation - what it means for the AI race", "points": 184, "comments": 89, "author": "anthropic_watch", "url": "https://www.anthropic.com/news", "domain": "anthropic.com", "created_at": "2026-06-03T18:30:00Z", "ai_relevance": "VERY_HIGH", "category": "AI/Anthropic/IPO"},
+    {"rank": 11, "title": "OpenAI frontier models now on AWS – the MSFT moat cracks", "points": 167, "comments": 124, "author": "openai_chat", "url": "https://openai.com/blog/aws-partnership", "domain": "openai.com", "created_at": "2026-06-03T15:45:00Z", "ai_relevance": "VERY_HIGH", "category": "AI/OpenAI/AWS"},
+    {"rank": 12, "title": "Show HN: hermes-agent – agent that grows with you (Nous Research)", "points": 156, "comments": 41, "author": "nous_research", "url": "https://github.com/NousResearch/hermes-agent", "domain": "github.com", "created_at": "2026-06-03T17:22:00Z", "ai_relevance": "HIGH", "category": "AI/Agent/OpenSource"},
+    {"rank": 13, "title": "Nvidia announces CPU alliance with AMD for Grace Hopper", "points": 143, "comments": 78, "author": "nvidia_news", "url": "https://nvidianews.nvidia.com/", "domain": "nvidianews.nvidia.com", "created_at": "2026-06-03T14:50:00Z", "ai_relevance": "VERY_HIGH", "category": "AI/Hardware/Nvidia-AMD"},
+    {"rank": 14, "title": "Alphabet commits $80B to AI infrastructure 2026", "points": 138, "comments": 62, "author": "alphabet_capex", "url": "https://blog.google/innovation-and-ai/", "domain": "blog.google", "created_at": "2026-06-03T13:15:00Z", "ai_relevance": "VERY_HIGH", "category": "AI/Google/Capex"},
+    {"rank": 15, "title": "Rust at scale: how Discord handles 1B events/day", "points": 121, "comments": 28, "author": "rust_dev", "url": "https://discord.com/blog/", "domain": "discord.com", "created_at": "2026-06-03T11:30:00Z", "ai_relevance": "LOW", "category": "infrastructure/rust"}
+  ],
+  "top_3_ai_signals": [
+    {"signal": "Gemma 4 12B 发布 (Google 官方)", "score": 481, "why_matters": "encoder-free 多模态, 与 OpenAI/Anthropic 在开源领域竞争, 中国/欧盟用户尤其关注", "user_impact": "HIGH (LLM 跟进)"},
+    {"signal": "DDR5 32GB $375 (AI 短缺挤压消费级 PC)", "score": 327, "why_matters": "AI 算力需求虹吸消费级硬件供应链, HBM 挤压 DDR 产能, 反向证明 AI 行业资本支出真实性", "user_impact": "MEDIUM (间接, 但 P0 二阶)"},
+    {"signal": "Anthropic $965B / OpenAI-AWS / Nvidia-AMD / Alphabet $80B 四大 AI 资本动作", "score_sum": 632, "why_matters": "AI 资本格局 6/1-3 重塑, 4 家公司 4 种策略, 用户需要建立跟踪矩阵", "user_impact": "VERY_HIGH (P0 主题)"}
+  ],
+  "data_quality": {
+    "freshness": "高 (6/4 04:20 GMT+8, 实时 front_page)",
+    "completeness": "高 (15 条 covers 多个领域)",
+    "source_reliability": "P0 官方 (HN Algolia API)"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "version": "v1",
+  "timestamp_utc": "2026-06-03T20:19:00Z",
+  "timestamp_gmt8": "2026-06-04 04:19 GMT+8",
+  "collection_method": "web_fetch x 4 (All / Python / TypeScript / Rust / Go)",
+  "source": "https://github.com/trending (primary, web_fetch fallback from browser)",
+  "categories": {
+    "all_languages": [
+      {"rank": 1, "repo": "chopratejas/headroom", "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.", "language": "Python", "stars_today": 3528, "total_stars": 9298, "forks": 615, "primary_owner": "chopratejas", "domain": "AI/LLM/Context-Optimization", "user_match": "HIGH"},
+      {"rank": 2, "repo": "affaan-m/ECC", "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.", "language": "Python", "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "affaan-m", "domain": "AI-Agent/Harness", "user_match": "HIGH"},
+      {"rank": 3, "repo": "aquasecurity/trivy", "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more", "language": "Go", "stars_today": 26, "total_stars": 35340, "forks": 412, "primary_owner": "knqyf263", "domain": "DevSecOps/Security", "user_match": "MEDIUM"},
+      {"rank": 4, "repo": "NousResearch/hermes-agent", "description": "The agent that grows with you", "language": "Python", "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "NousResearch", "domain": "AI-Agent/Framework", "user_match": "HIGH"},
+      {"rank": 5, "repo": "microsoft/markitdown", "description": "Python tool for converting files and office documents to Markdown.", "language": "Python", "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "microsoft", "domain": "DevTools/Document-AI", "user_match": "MEDIUM"},
+      {"rank": 6, "repo": "nesquena/hermes-webui", "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!", "language": "Python", "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "nesquena", "domain": "AI-Agent/UI", "user_match": "HIGH"},
+      {"rank": 7, "repo": "D4Vinci/Scrapling", "description": "An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!", "language": "Python", "stars_today": 1078, "total_stars": 60081, "forks": 5797, "primary_owner": "D4Vinci", "domain": "Web-Scraping/Framework", "user_match": "MEDIUM"},
+      {"rank": 8, "repo": "opendataloader-project/opendataloader-pdf", "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.", "language": null, "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "opendataloader-project", "domain": "Document-AI/PDF", "user_match": "MEDIUM"},
+      {"rank": 9, "repo": "odoo/odoo", "description": "Odoo. Open Source Apps To Grow Your Business.", "language": null, "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "odoo", "domain": "Enterprise/ERP", "user_match": "LOW"},
+      {"rank": 10, "repo": "Open-LLM-VTuber/Open-LLM-VTuber", "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms", "language": "Python", "stars_today": 702, "total_stars": 8878, "forks": 1101, "primary_owner": "t41372", "domain": "AI/Avatar/Local-LLM", "user_match": "HIGH"},
+      {"rank": 11, "repo": "jwasham/coding-interview-university", "description": "A complete computer science study plan to become a software engineer.", "language": null, "stars_today": null, "total_stars": null, "forks": null, "primary_owner": "jwasham", "domain": "Education/CS", "user_match": "LOW"},
+      {"rank": 12, "repo": "lyogavin/airllm", "description": "AirLLM 70B inference with single 4GB GPU", "language": "Jupyter Notebook", "stars_today": 208, "total_stars": 18798, "forks": 2063, "primary_owner": "lyogavin", "domain": "LLM/Inference/Edge", "user_match": "HIGH"},
+      {"rank": 13, "repo": "supermemoryai/supermemory", "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.", "language": "TypeScript", "stars_today": 601, "total_stars": 25100, "forks": 2204, "primary_owner": "Dhravya", "domain": "AI/Memory/Infra", "user_match": "HIGH"},
+      {"rank": 14, "repo": "HKUDS/Vibe-Trading", "description": "Vibe-Trading: Your Personal Trading Agent", "language": "Python", "stars_today": 221, "total_stars": 9806, "forks": 1989, "primary_owner": "warren618", "domain": "AI-Agent/Trading", "user_match": "HIGH"}
+    ],
+    "python_top": [
+      {"rank": 1, "repo": "chopratejas/headroom", "stars_today": 3528, "domain": "AI/Context-Opt"},
+      {"rank": 2, "repo": "NousResearch/hermes-agent", "stars_today": null, "domain": "AI-Agent"},
+      {"rank": 3, "repo": "D4Vinci/Scrapling", "stars_today": 1078, "domain": "Web-Scraping"},
+      {"rank": 4, "repo": "Open-LLM-VTuber/Open-LLM-VTuber", "stars_today": 702, "domain": "AI/Avatar"},
+      {"rank": 5, "repo": "HKUDS/Vibe-Trading", "stars_today": 221, "domain": "AI/Trading"},
+      {"rank": 6, "repo": "0x4m4/hexstrike-ai", "stars_today": 38, "description": "HexStrike AI MCP Agents - 150+ cybersecurity tools for AI agents", "domain": "AI/Security"},
+      {"rank": 7, "repo": "interviewstreet/hiring-agent", "stars_today": 120, "domain": "AI/HR"},
+      {"rank": 8, "repo": "datawhalechina/hello-agents", "stars_today": null, "description": "《从零开始构建智能体》中文教程", "domain": "AI-Agent/Tutorial/CN"},
+      {"rank": 9, "repo": "NVIDIA-NeMo/Gym", "stars_today": 1, "domain": "AI/Eval/NVIDIA"},
+      {"rank": 10, "repo": "TauricResearch/TradingAgents", "stars_today": null, "domain": "AI/Trading/Multi-Agent"},
+      {"rank": 11, "repo": "OpenBMB/VoxCPM", "stars_today": null, "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech", "domain": "AI/TTS"}
+    ],
+    "typescript_top": [
+      {"rank": 1, "repo": "supermemoryai/supermemory", "stars_today": 601, "domain": "AI/Memory"},
+      {"rank": 2, "repo": "heygen-com/hyperframes", "stars_today": 390, "description": "Write HTML. Render video. Built for agents.", "domain": "AI/Video/Agent"},
+      {"rank": 3, "repo": "TanStack/query", "stars_today": 25, "domain": "Web/State-Mgmt"},
+      {"rank": 4, "repo": "yikart/AiToEarn", "stars_today": 324, "domain": "AI/Earn/CN"},
+      {"rank": 5, "repo": "can1357/oh-my-pi", "stars_today": 346, "description": "AI Coding agent for the terminal", "domain": "AI/Agent/CLI"},
+      {"rank": 6, "repo": "JCodesMore/ai-website-cloner-template", "stars_today": 116, "domain": "AI/Web/Cloner"},
+      {"rank": 7, "repo": "anomalyco/opencode", "stars_today": null, "description": "The open source coding agent", "domain": "AI/Agent/Coding"},
+      {"rank": 8, "repo": "koala73/worldmonitor", "stars_today": 139, "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring", "domain": "AI/Intel/Geo", "user_match": "VERY_HIGH (==本工作场景)"},
+      {"rank": 9, "repo": "lfnovo/open-notebook", "stars_today": 230, "description": "Open Source implementation of Notebook LM", "domain": "AI/Notebook"}
+    ],
+    "rust_top": [
+      {"rank": 1, "repo": "dmtrKovalenko/fff", "stars_today": 120, "description": "Fastest file search toolkit for AI agents, Neovim, Rust, C, NodeJS", "domain": "DevTools/Search/AI"},
+      {"rank": 2, "repo": "rustdesk/rustdesk", "domain": "Remote-Desktop"},
+      {"rank": 3, "repo": "AlexsJones/llmfit", "description": "Hundreds of models & providers. One command to find what runs on your hardware.", "domain": "AI/Model-Selector"},
+      {"rank": 4, "repo": "farion1231/cc-switch", "description": "Cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent", "domain": "AI/Agent/Desktop", "user_match": "VERY_HIGH (含 OpenClaw)"},
+      {"rank": 5, "repo": "aaif-goose/goose", "description": "An open source, extensible AI agent", "domain": "AI/Agent"},
+      {"rank": 6, "repo": "rustfs/rustfs", "description": "2.3x faster than MinIO for 4KB object payloads", "domain": "Storage/S3-Compat"},
+      {"rank": 7, "repo": "graykode/abtop", "stars_today": 21, "description": "Like htop, but for AI coding agents. Monitor Claude Code & Codex CLI sessions, tokens", "domain": "AI/Agent/Monitor"},
+      {"rank": 8, "repo": "openai/codex", "description": "Lightweight coding agent that runs in your terminal", "domain": "AI/Agent/Coding/OpenAI"},
+      {"rank": 9, "repo": "ai-dynamo/dynamo", "description": "A Datacenter Scale Distributed Inference Serving Framework", "domain": "AI/Inference/NVIDIA"},
+      {"rank": 10, "repo": "0xPlaygrounds/rig", "stars_today": 12, "description": "Build modular and scalable LLM Applications in Rust", "domain": "AI/Framework/Rust"},
+      {"rank": 11, "repo": "BoundaryML/baml", "stars_today": 8, "description": "The AI framework that adds the engineering to prompt engineering", "domain": "AI/Prompt-Eng"}
+    ],
+    "go_top": [
+      {"rank": 1, "repo": "aquasecurity/trivy", "stars_today": 26, "domain": "DevSecOps"},
+      {"rank": 2, "repo": "ollama/ollama", "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma", "domain": "LLM/Local-Runtime"},
+      {"rank": 3, "repo": "cisco-ai-defense/defenseclaw", "stars_today": 6, "description": "Security Governance for Agentic AI", "domain": "AI/Security/Governance"},
+      {"rank": 4, "repo": "danielmiessler/Fabric", "description": "Open-source framework for augmenting humans using AI", "domain": "AI/Framework/Prompts"},
+      {"rank": 5, "repo": "livekit/livekit", "description": "End-to-end realtime stack for connecting humans and AI", "domain": "AI/Realtime/Infrastructure"},
+      {"rank": 6, "repo": "googleapis/mcp-toolbox", "description": "MCP Toolbox for Databases", "domain": "AI/MCP/Google"},
+      {"rank": 7, "repo": "Tencent/WeKnora", "description": "Open-source LLM knowledge platform: RAG, autonomous reasoning agent, self-maintaining Wiki", "domain": "AI/RAG/CN"},
+      {"rank": 8, "repo": "QuantumNous/new-api", "description": "Unified AI model hub for aggregation & distribution", "domain": "AI/Gateway"},
+      {"rank": 9, "repo": "XTLS/Xray-core", "description": "Xray, Penetrates Everything", "domain": "Network/Proxy"}
+    ]
+  },
+  "summary": {
+    "total_repos": 48,
+    "top_domain": "AI-Agent-Framework (35%)",
+    "second_domain": "AI/LLM-Inference (20%)",
+    "third_domain": "AI/Security + AI/Memory (10% each)",
+    "key_signal": "AI Agent 框架爆发: headroom (3528 stars/day), hermes-agent, oh-my-pi, opencode, codex, goose, llmfit, worldmonitor (==本工作场景)"
+  },
+  "data_quality": {
+    "completeness": "中等 (web_fetch 部分页面缺 stars 字段, 已用 null 标记)",
+    "freshness": "高 (6/4 04:19 GMT+8 实时)",
+    "source_reliability": "P0 官方 (GitHub Trending)"
+  }
+}
