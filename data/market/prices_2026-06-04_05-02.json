@@ -1,0 +1,65 @@
+﻿{
+    "errors":  [
+                   "BTC : all sources failed",
+                   "VIX : failed"
+               ],
+    "timestamp":  "2026-06-04 05:02:02",
+    "collection_version":  "v8",
+    "quality_report":  {
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "GOLD":  {
+                               "value":  4435.7,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-04 05:02:02",
+                               "raw_len":  65349,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           },
+                  "OIL":  {
+                              "value":  96.18,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-04 05:02:02",
+                              "raw_len":  417396,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          }
+              },
+    "crypto":  {
+                   "ETH":  {
+                               "price":  1783.35,
+                               "timestamp":  "2026-06-04 05:02:02",
+                               "raw":  "{\"USD\":1783.35}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           },
+                   "SOL":  {
+                               "price":  71.36,
+                               "timestamp":  "2026-06-04 05:02:02",
+                               "raw":  "{\"USD\":71.36}",
+                               "confidence":  "high",
+                               "source":  "CryptoCompare_API"
+                           }
+               },
+    "timestamp_iso":  "2026-06-03T21:02:02Z"
+}
