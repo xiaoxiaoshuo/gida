@@ -22,7 +22,7 @@ try {
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 "$timestamp - Running gh-trending-v3.ps1" | Add-Content -Path $LogFile -Encoding UTF8
 try {
-    & "$RepoRoot\scripts\gh-trending-v3.ps1" 2>&1 | Out-Null
+    & "$RepoRoot\scripts\gh-trending-browser-v5.ps1" 2>&1 | Out-Null
     "$timestamp - GH completed, exit: $LASTEXITCODE" | Add-Content -Path $LogFile -Encoding UTF8
 } catch {
     "$timestamp - GH error: $($_.Exception.Message)" | Add-Content -Path $LogFile -Encoding UTF8
