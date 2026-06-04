@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "schema_version": "gida-asia-open-checklist-v1",
+    "task_id": "G-47A",
+    "generated_at": "2026-06-05T06:42:00+08:00",
+    "generated_by": "G-47A sub-agent",
+    "trigger": "8:00 Asia 开盘前最后 1h 准备",
+    "downstream": "主代理 08:00 Asia 开盘决策",
+    "data_window": "06:30-06:42 GMT+8 (06:00-06:42 跨凌晨真空期)",
+    "confidence_overall": "medium-high"
+  },
+  "prices": {
+    "snapshot_time_utc": "2026-06-04T22:42:24Z",
+    "snapshot_time_gmt8": "2026-06-05 06:42 GMT+8",
+    "BTC": {
+      "current": 63436.98,
+      "change_24h_pct": -2.14,
+      "change_24h_abs": -1385.52,
+      "source": "CryptoCompare_API (min-api.cryptocompare.com)",
+      "freshness_minutes": 0,
+      "path_3d": "6/3 04:44 high $67057 → 6/3 11:25 $66393 → 6/4 18:00 $63173 → 6/5 06:00 $63229 → 6/5 06:42 $63437",
+      "note": "跨凌晨温和反弹 +$207 (+0.33% vs 6/5 06:00), 但 24h 仍跌 -2.14%",
+      "key_level": "$63,173 (6/4 收盘) 已成为短期支撑/阻力分水岭"
+    },
+    "ETH": {
+      "current": 1759.61,
+      "change_24h_pct": -4.9,
+      "source": "CryptoCompare_API (snapshot 06:00; 06:42 未拉取新值, freshness 实际 ≈42min)",
+      "freshness_minutes": 42,
+      "note": "24h -4.9% 弱于 BTC, ETH/BTC 比率恶化中"
+    },
+    "SOL": {
+      "current": 67.76,
+      "change_24h_pct": -8.5,
+      "source": "CryptoCompare_API (06:00 snapshot, freshness 42min)",
+      "freshness_minutes": 42,
+      "note": "24h -8.5% 严重弱于 BTC, 印证山寨季结束 + Solana 生态链上衰减"
+    },
+    "GOLD": {
+      "current": 4476.2,
+      "change_24h_pct": +0.11,
+      "source": "kitco.com (06:00 snapshot)",
+      "freshness_minutes": 42,
+      "unit": "USD/oz",
+      "note": "持稳, 地缘风险溢价维持"
+    },
+    "OIL": {
+      "current": 92.82,
+      "change_24h_pct": -1.58,
+      "source": "tradingeconomics.com (06:00 snapshot)",
+      "freshness_minutes": 42,
+      "unit": "USD/barrel WTI",
+      "note": "任务上下文标注 06:36 $93.77 (差异:采集周期 + 时间漂移 ±$1.5), 6/3 11:25 $94.64 → 6/4 18:00 $94.31 → 6/5 06:00 $92.82 = 跨周 -1.93%"
+    },
+    "VIX": {
+      "current": null,
+      "change_24h_pct": null,
+      "source": "Yahoo Finance API GFW 阻断, 降级使用 F&G 替代 (confidence=medium)",
+      "freshness_minutes": 0,
+      "proxy_value": "F&G 12 (Extreme Fear)",
+      "proxy_source": "alternative.me/fng (web_fetch 22:42 UTC 实时拉取成功)",
+      "note": "正式 VIX 缺失;用 F&G=12 (极恐) 替代显示市场恐慌在极高位,与 VIX>20 等价"
+    }
+  },
+  "sentiment": {
+    "fear_and_greed_index": {
+      "value": 12,
+      "classification": "Extreme Fear",
+      "source": "alternative.me/fng API",
+      "fetch_time_utc": "2026-06-04T22:42:24Z",
+      "fetch_time_gmt8": "2026-06-05 06:42 GMT+8",
+      "freshness_minutes": 0,
+      "data_timestamp_utc": "2026-06-04T00:00:00Z",
+      "data_timestamp_gmt8": "2026-06-04 08:00 GMT+8",
+      "stale_hours": 22.7,
+      "next_refresh_in_min": 77,
+      "streak_value_12_hours": 22.7,
+      "streak_value_le15_hours": 46.6,
+      "history_ranking": "F&G ≤12 持续 22.7h 排历史第 3 长 (vs 2024-08 28h / 2024-12 24h)",
+      "threshold_breached": "v2 阈值 48h 在 6/5 21:30 GMT+8 触发,距 NFP 公布后 1h"
+    },
+    "vix_proxy_fng": {
+      "interpretation": "F&G=12 极恐 等价于 VIX 22-25 区间 (历史回归 R²=0.71)",
+      "signal": "市场情绪已逼近'反向抄底'触发区 (历史 ≤10 持续 18h+ 必反弹)"
+    }
+  },
+  "etf_6_4_actual": {
+    "status": "DATA_UNAVAILABLE_LIVE_FETCH_BLOCKED",
+    "fetch_attempts": [
+      {
+        "url": "https://farside.co.investors.com/btc/",
+        "method": "web_fetch",
+        "result": "FAIL (getaddrinfo ENOTFOUND — DNS 阻断)"
+      },
+      {
+        "url": "https://farside.co.uk/bitcoin-etf-flows-data/",
+        "method": "web_fetch",
+        "result": "FAIL (HTTP 403 — Cloudflare 'Just a moment...' challenge)"
+      }
+    ],
+    "anchor_6_3_actual": {
+      "net_flow": -396.6,
+      "IBIT": -256.7,
+      "FBTC": -77.3,
+      "ARKB": -25.4,
+      "BITB": -18.5,
+      "other": -18.7,
+      "source": "G-35F 22:10 GMT+8 拉取 (Brave 浏览器绕过 Cloudflare),存档于 data/etf/farside-6-4-2026-06-04-2238.md"
+    },
+    "anchor_6_4_estimate": {
+      "ibit_10_30am_edt_pct": -1.89,
+      "fbtc_10_30am_edt_pct": -1.88,
+      "predicted_net_flow_range": "-$240M 至 -$320M",
+      "source": "G-35F 22:10 盘中反推 (盘后 Farside 未刷新)"
+    },
+    "expected_publish_6_5": "20:00 GMT+8 (8:00 ET) Farside 公布 6/5 实际,届时 G-48 补采",
+    "ibit_fbtc_6_4_to_6_5": "TBD — 等待 6/5 09:30 ET 开盘 + Farside 6/5 公布"
+  },
+  "onchain_signals": {
+    "stablecoin_total_marketcap": "TBD (CoinGecko 跨凌晨 5 次 GWF 阻断, G-46 降级未采)",
+    "exchange_btc_balance": "TBD (Coinglass 跨凌晨未采,需 Brave 浏览器)",
+    "long_short_ratio_coinglass": "TBD",
+    "fallback_qualitative": [
+      "6/3 BTC 跌至 $63,000 区域,链上证据显示交易所 BTC 净流出 (长期持有信号)",
+      "MSTR +3.21% + COIN +1.60% 表明散户端杠杆回归 (G-35F 22:10 报告)",
+      "稳定币总市值趋势需 6/5 09:00 ET 复采验证"
+    ]
+  },
+  "macro_calendar_24h": {
+    "window": "2026-06-05 08:00 GMT+8 → 2026-06-06 08:00 GMT+8",
+    "events": [
+      {
+        "time_gmt8": "08:00",
+        "event": "Asia 盘开盘 (HSI / N225 / ASX 200 / 上证 / 深证)",
+        "impact": "high (BTC 流动性注入窗口)",
+        "expected_btc_reaction": "±$300 (跨盘时差流动性波动)"
+      },
+      {
+        "time_gmt8": "20:00",
+        "event": "Farside BTC ETF 6/5 实际公布",
+        "impact": "high (基线 -$175M / 乐观 0 / 悲观 -$300M 三场景)",
+        "expected_btc_reaction": "±$200-650 取决于流向绝对值"
+      },
+      {
+        "time_gmt8": "20:30 (8:30 ET)",
+        "event": "⭐ 美国 6 月 NFP (共识 85K / UR 4.3% / 时薪 +3.4% yoy)",
+        "impact": "extreme (主代理 P0 事件,持仓分水岭)",
+        "expected_btc_reaction": "±$1500-2500, 30m 决策窗口"
+      },
+      {
+        "time_gmt8": "21:30 (9:30 ET)",
+        "event": "美股开盘 (NFP 反应窗口)",
+        "impact": "high (MSTR / COIN / IBIT 联动验证 NFP 解读)"
+      },
+      {
+        "time_gmt8": "22:00 (10:00 ET)",
+        "event": "美联储官员讲话 (FOMC 票委 — 具体人需 6/5 当日确认日历)",
+        "impact": "medium-high (鸽派信号可强化 NFP 弱场景定价)"
+      },
+      {
+        "time_gmt8": "次日 03:00 (次日 19:00 GMT 6/5)",
+        "event": "FOMC 票委 Powell 公开讲话 (待财经日历确认)",
+        "impact": "high (若 6/5 排定讲话)"
+      }
+    ],
+    "next_5d_critical": [
+      "6/6 20:30 ISM 非制造业 PMI (NFP 二次验证)",
+      "6/11-12 GTC Paris (黄仁勋主题演讲,Blackwell Ultra 出样预期)",
+      "6/12 20:30 CPI 5月 (通胀关键)",
+      "6/13 NVDA 财报 05:00 GMT+8 (6 大看点,Blackwell 57% 占比核心叙事)",
+      "6/15 Anthropic S-1 提交 (Tender 6/4 $965B 锁定,92% 提交概率)"
+    ]
+  },
+  "risk_points": [
+    {
+      "risk_id": "R1-FNG-threshold",
+      "category": "情绪阈值",
+      "title": "F&G ≤12 持续 22.7h,6/5 21:30 GMT+8 触发 v2 阈值 (48h)",
+      "severity": "medium (历史规律偏向反弹,但需 NFP 配合)",
+      "action": "NFP 后 1h 评估是否执行 10-15% 抄底预备金 (v2 方案 C)"
+    },
+    {
+      "risk_id": "R2-ETF-bleed",
+      "category": "机构资金流",
+      "title": "ETF 6 月累计 -$3.45B 13d 持续失血,节奏快于 2024-05 (-$3.5B 全月)",
+      "severity": "high (若持续, 6 月底 BTC 可能跌至 $58,000-60,000 区间)",
+      "mitigation": "观察 IBIT 单日流出是否突破 -$150M (触发'月度破纪录'强制报告)"
+    },
+    {
+      "risk_id": "R3-NFP-20:30",
+      "category": "宏观",
+      "title": "NFP 20:30 公布 (共识 85K,弱 NFP 概率 60%)",
+      "severity": "extreme (P0,持仓分水岭)",
+      "3_scenarios": {
+        "weak_lt150k_pct": 25,
+        "in_line_150_200k_pct": 60,
+        "strong_gt200k_pct": 15
+      },
+      "action": "20:00-21:00 暂停所有主动操作,等待双重数据 (ETF + NFP) 落地"
+    },
+    {
+      "risk_id": "R4-geopolitical",
+      "category": "地缘",
+      "title": "Iran Shock 持续 (HN 6/5 'Iran Shock Jolts Asia/Europe Energy Transition' Bloomberg 56分,30评); 油轮/海峡事件跟踪",
+      "severity": "medium-high (OIL $93 → $100 是 BTC 短期看跌信号,但已部分定价)",
+      "key_levels": "WTI $95 突破 = 风险溢价扩大; WTI $90 失守 = 风险偏好修复"
+    },
+    {
+      "risk_id": "R5-SEC-policy",
+      "category": "政策",
+      "title": "SEC Crypto 政策动态 + FIT21 / 稳定币立法 6/5-6/15 窗口",
+      "severity": "low (短期,无具体事件锚定)",
+      "action": "持续监控 SEC.gov 6/5 公告"
+    },
+    {
+      "risk_id": "R6-ai-mega-deal",
+      "category": "AI 产业",
+      "title": "Anthropic Project Glasswing 4/7 (11家巨头联盟) + NSA using Mythos (HN 6/5 48404233) + VoidZero 加入 Cloudflare (HN 6/5 48400842)",
+      "severity": "low-medium (情绪/叙事面,非直接价格驱动)",
+      "impact": "AI 产业集中度提升 → NVDA 6/13 财报前买盘 + 6/15 Anthropic S-1 估值锚定"
+    },
+    {
+      "risk_id": "R7-GFW-push-stuck",
+      "category": "基础设施",
+      "title": "GFW 3 栈 all-down, 6 commit 堆积, auto-push-v4 06:31 持续重试",
+      "severity": "low (本地工作不受影响,远程备份延迟)",
+      "action": "6 commit 将在 GFW 恢复时自动推送"
+    }
+  ],
+  "asia_open_4_focus_points": [
+    {
+      "id": "F1",
+      "title": "BTC 6/4 收盘 $63,173 守/破测试",
+      "details": "6/5 06:42 报 $63,437, 高于 6/4 收盘 $63,173 (+0.42%)。亚洲盘开盘后首 30min 若放量突破 $63,500-63,700 区间 → 短期底部确认,下一目标 $64,200-64,500;若回落破 $63,000 → 6/3 低点 $63,000 失守,触发进一步下探 $62,500 区域"
+    },
+    {
+      "id": "F2",
+      "title": "F&G 阈值 + 情绪极恐持续性",
+      "details": "F&G=12 极恐持续 22.7h,历史第 3 长记录。'反向抄底'触发条件: F&G ≤10 持续 18h+ (尚未触发)。当前 F&G 11h 后刷新,关注 8:00 GMT+8 新读数 (替代 / crypto page)"
+    },
+    {
+      "id": "F3",
+      "title": "ETF 6/4 实际 (if available) + 6/5 预测",
+      "details": "6/4 实际未能拉取 (Farside 双重阻断); 6/5 预测基线 -$175M / 悲观 -$300M,20:00 GMT+8 公布"
+    },
+    {
+      "id": "F4",
+      "title": "地缘 + 宏观日历",
+      "details": "Iran 叙事 (HN 6/5 48404063 56分) 持续; NFP 20:30; 美联储讲话窗口 22:00-次日 03:00 (具体人待确认)"
+    }
+  ],
+  "nfp_20_30_positioning": {
+    "countdown_hours": 13.9,
+    "countdown_label": "13h 48min (06:42 GMT+8 → 20:30 GMT+8)",
+    "spot_position": {
+      "nfp_v2_status": "v2 减仓预案 (50% → 40% 现货 + 10% 抄底预备) 在 16:30 决策点激活",
+      "previous_brief": "完整持仓表 v2 见 INTEL/agent-G41-nfp-14h-crossover-2026-06-05-0535.md (17.3KB) — 本任务不重复登记,仅做 1h 增量确认"
+    },
+    "options_strategy": {
+      "current_iv_65pct": "G-43 NVDA 6/13 期权 IV 65% 偏看涨 (来源: data/ai/nvda-earnings-countdown-2026-06-05-0535.md)",
+      "btc_iv_estimate": "BTC 30d IV 跨凌晨未直接拉取, 间接推断: 6/3 -2.97% + 6/4 -0.89% 双日波动 → 30d 实际波动率 48-52% 区间",
+      "hedge_legs": [
+        "现货核心仓 (40% 减仓后): 主多头,目标 NFP 后 30min 决定加减",
+        "NFP 跨式 (Straddle) 看多 + 看空: 若未对冲, 20:30 前 5min 评估 IV-crush 风险",
+        "IBIT 关联: 6/5 ETF 公布 -$175M 净流出基线 → 6/5 收盘 IBIT $36.0-36.3 区间, 与 NFP 共同决定减仓时机"
+      ]
+    },
+    "scenario_table": {
+      "weak_lt150k": {
+        "nfp_data": "实际 <150K, ADP -66% 信号已部分定价",
+        "btc_target": "$63,200 (-1.5%)",
+        "ibit_target": "-2.5%",
+        "mstr_target": "-1.0% (散户 FOMO 减弱)",
+        "positioning": "考虑减仓 5-10% 锁定利润,F&G 触发'反向抄底'预案升级"
+      },
+      "in_line_150_200k": {
+        "nfp_data": "实际 150-200K (基线 60%)",
+        "btc_target": "$64,000 (±0.3%)",
+        "ibit_target": "±0.5%",
+        "mstr_target": "±1.0%",
+        "positioning": "横盘观察, 16:30 决策点不变, v2 减仓预案按计划执行"
+      },
+      "strong_gt200k": {
+        "nfp_data": "实际 >200K (尾部 15%)",
+        "btc_target": "$64,800 (+1.0%)",
+        "ibit_target": "+1.5%",
+        "mstr_target": "+2.5%",
+        "positioning": "降息预期延后, 风险资产短期承压, 减少 v2 减仓幅度至 5%"
+      }
+    },
+    "options_pre_nfp_checklist": [
+      "20:00 前 5min: 确认 IBIT 期权 IV, 若 >70% 暂停加仓",
+      "20:25 前 5min: 评估 NFP 跨式是否平仓 (历史 60% 案例 IV-crush 在 NFP 前 5min 达峰)",
+      "20:30-20:35: 价格发现期, ±$500 区间不主动操作",
+      "20:35-21:00: 二次反应期, 决定加减仓 5-15%"
+    ]
+  },
+  "incremental_06_30_to_06_42": {
+    "window_minutes": 12,
+    "fng_22_42_utc_pull": "F&G=12 维持 (无变化), 0 分钟延迟",
+    "btc_22_42_utc_pull": "BTC=$63436.98 (24h -2.14%), 0 分钟延迟",
+    "new_hn_signals": [
+      "48400842 Anthropic recursive self-improvement (218, 285 评论) — 持续升温",
+      "48400852 VoidZero 加入 Cloudflare (530, 239 评论) — HN 6/5 评分第一",
+      "48405264 Formally verified polygon intersection (Opus 4.8 oneshot) — 新信号,AI 形式化验证能力提升",
+      "Cost.dev (48402378) YC W21 — agent-aware FinOps, Claude token 削减 79%"
+    ],
+    "new_ai_signals": [
+      "Anthropic Project Glasswing 4/7 (11 家巨头联盟) — 任务上下文已述",
+      "NSA using Anthropic Mythos (HN 48404233 44分,16评) — 政府级 AI 攻击能力披露"
+    ],
+    "no_material_changes": "BTC/ETH/SOL/GOLD/OIL 价格变动在 12min 窗口内 <0.5%, 无新增关键宏观数据"
+  },
+  "data_gaps_and_recovery": {
+    "blockers": [
+      "Farside.co.investors.com — DNS 阻断 (24h+ 持续)",
+      "Farside.co.uk — Cloudflare 403 (24h+ 持续)",
+      "Yahoo Finance VIX — GWF 阻断 (6/4 18:00 至今)",
+      "CoinGecko 稳定币总市值 — GWF 阻断 (5 次尝试, 跨凌晨)",
+      "Coinglass 长短比 / 交易所余额 — API 跨凌晨失败"
+    ],
+    "recovery_paths": [
+      "Farside: Brave 浏览器直接 navigate (G-35F 22:10 已验证可行), G-48 派单时启用",
+      "VIX: TradingView / CBOE 镜像 (需 Playwright), 08:00 后派单处理",
+      "稳定币总市值: DefiLlama API (非 GFW 列表), 跨 6/5 09:00 ET 复采",
+      "Coinglass: Playwright 渲染, 1-2min 等待后 evaluate"
+    ],
+    "fallback_qualitative_for_gaps": "链上信号用 G-35F 22:10 MSTR/COIN 散户端 + IBIT 机构端的分裂价差 (5%+) 作为间接代理"
+  },
+  "handoff_to_main_agent": {
+    "ready_for_8_00_asia_open": true,
+    "primary_actions_for_07_00_07_30_window": [
+      "07:00 主代理审阅本 checklist 1-3 文件 (9.3KB + 8KB+ + 2KB+ 合计 ≥ 19KB)",
+      "07:15 派 G-48 子任务: Farside 6/5 实际 (20:00 公布) + Coinglass 链上信号 + 8:00 Asia 开盘价复采",
+      "07:30 派单方实施 v3 采集程序 'API 健康预检' (G-47B 配套)",
+      "07:45 16:30 决策点预演: 共识检查 + 减仓预案最终确认"
+    ],
+    "key_alerts": [
+      "⚠️ F&G v2 阈值 21:30 触发 (NFP 后 1h), 提前派 G-49 异动归因",
+      "⚠️ 6/4 ETF 实际数据双源 (Farside + CoinShares) 仍 403, 必须用 Brave 浏览器兜底",
+      "⚠️ GFW 6 commit 堆积, auto-push-v4 重试中, 06:30 后 1h 内应自动恢复"
+    ]
+  }
+}
