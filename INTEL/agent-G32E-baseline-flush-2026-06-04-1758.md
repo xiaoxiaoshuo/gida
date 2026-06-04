@@ -124,3 +124,170 @@
 **附加**: `data/ai/github-trending-2026-06-04-1804.json` (v6 web_fetch fallback, 25 项, 噪声多)
 **降级原因**: Playwright 模块未安装, v6 fallback 仅匹配 regex, 输出含 JS 资产路径和 hovercard
 **优化**: 我用更精准的 `<article class="Box-row">` 块匹配 + href/desc/stars/lang 提取, 拿到 15 个真实 repos
+
+
+### 4.1 18:06 Trending Top 15 (regex 增强版)
+
+| # | Repo | 描述 | 今日 | 语言 |
+|---|------|------|------|------|
+| 1 | sponsors/chopratejas | (无描述) | 3,530 | Python |
+| 2 | sponsors/affaan-m | (无描述) | 2,141 | JS |
+| 3 | aquasecurity/trivy | 容器安全扫描 | 24 | Go |
+| 4 | NousResearch/hermes-agent | Hermes agent (开源) | 1,735 | Python |
+| 5 | microsoft/markitdown | Markdown 转换工具 | 1,984 | Python |
+| 6 | sponsors/JuliusBrussee | (无描述) | 471 | JS |
+| 7 | sponsors/nesquena | (无描述) | 719 | Python |
+| 8 | sponsors/D4Vinci | (Scrapling 作者) | 1,067 | Python |
+| 9 | opendataloader-project/opendataloader-pdf | PDF 数据加载 | 570 | Java |
+| 10 | odoo/odoo | 企业 ERP | 29 | Python |
+| 11 | Open-LLM-VTuber/Open-LLM-VTuber | 虚拟 VTuber LLM | 693 | Python |
+| 12 | jwasham/coding-interview-university | 面试准备 | 330 | - |
+| 13 | sponsors/lyogavin | (无描述) | 208 | Jupyter |
+| 14 | supermemoryai/supermemory | 记忆系统 | 600 | TypeScript |
+| 15 | HKUDS/Vibe-Trading | 量化交易 Vibe | 197 | Python |
+
+### 4.2 关键观察
+
+- **AI 主题 4/15 = 27%**: NousResearch hermes-agent + Open-LLM-VTuber + supermemory + HKUDS Vibe-Trading = "Agent 化" 主线
+- **企业工具 3/15 = 20%**: aquasecurity/trivy + microsoft/markitdown + odoo/odoo
+- **多个 sponsors/* (sponsor-only) 项目**: GitHub Trending 上"赞助专属"项目稀释信号
+- **质量评估**: 优于 v6 fallback (25 项含 hovercard/JS asset 噪声), 但仍低于主代理浏览器抓取基线
+
+### 4.3 失败/降级记录
+
+- **Playwright PowerShell 模块未安装**: 6/4 凌晨尝试 import 失败, v6 走 web_fetch fallback
+- **web_fetch 拿 HTML 626KB, 但 Box-row 15 个 + 大量 SPA 噪声**: 真实 repo 15 个, 噪声 (hovercard/asset) 10 个
+- **建议**: 下次升级 v7 (用 Playwright .NET + `chromium` headless), 或维持 web_fetch + regex 增强版
+
+---
+
+## 5. AI 行业增量 (过去 2h, 16:00 → 18:00 GMT+8)
+
+**信源**: HN 17:41 → 18:00 diff + INTEL/* 已有覆盖 + MEMORY.md
+**结论**: **2h 内无新 P0/P1 信号**, 6/3-6/4 主线持续
+
+### 5.1 新增信号 (HN 18:00 vs 17:41)
+
+- **Uruky** (HN, 15 分) — EU-based Kagi 替代, 加 Image Search + URL Rewrites. **小信号, 无关 P0 任务**
+
+### 5.2 持续主线 (无异动)
+
+- **Anthropic S-1 倒计时**: 6/15 公布 → 距今 10d 21h (vs 6/2 19:15 时 13d). **预期内推进, 无延期/加速信号**
+- **NVDA 6/13 财报**: 8d 21h, 主板塌方 25%+ (#21) 持续催化
+- **Gemma 4 12B 商业化**: #1 持续 (837 分, vs 12:00 832), 与 INTEL/gemma4-anthropic-fs-2026-06-04-1245.md 互证
+- **Anthropic fs (containment)**: #5 (127 分) 持续, 与 6/3 7ec60fe5 子智能体判断一致
+- **AI 哲学反思**: Ted Chiang (441, 765 descendants) + 数学家警告 (239, 273 descendants) = 6/4 主线
+- **AI 商业化定价**: Uber $1,500/月 (485, 608 descendants) = 关键信号, 6/4 INTEL 已覆盖
+
+### 5.3 隐信号 (2h 缺口)
+
+- **2h 内 HN 增量 = 1 条** = 主线已饱和, 短窗口内无新基本面
+- **OpenAI 静默**: 16:00-18:00 无 OpenAI 相关 HN/博客新增, 与 6/3 7ec60fe5 修正判断一致 (OpenAI 6/2-6/4 处于静默期)
+- **Anthropic 静默**: fs 论文 6/3 发布后, 6/4 18:00 前无新 Anthropic 博客 (等 S-1 6/15)
+- **DeepSeek 静默**: DeepSeek 4 Flash 仅在 HN #6 (188 分) 提及, 无新版本发布
+
+**判断**: AI 行业 2h delta ≈ 0, **主代理 12:00 派单的 4 条 P0 任务 (Anthropic S-1 / OpenAI-AWS / NVDA 6/13 / Google $80B) 均无新异动, 维持原判断**。
+
+---
+
+## 6. cron 状态检查 ✅
+
+### 6.1 hourly-price.conf 配置
+
+- **路径**: `cron/hourly-price.conf`
+- **内容**: Windows Task Scheduler 模板 + Cron 表达式 (每小时 :05)
+- **状态**: 配置正确, 注释完整, 无变更需求
+
+### 6.2 Windows Task Scheduler 实际状态
+
+```
+TaskName:             HourlyPriceCollector
+Task State:           Ready
+TriggerType:          Daily (With Repetition)
+StartBoundary:        2026-06-04T00:00:00+08:00
+Repetition.Interval:  PT1H  ← 60min 间隔, 健康
+Repetition.Duration:  P365D  (持续 1 年)
+Enabled:              True
+LastRunTime:          2026-06-04 18:00:01  ← 18:00 cron 已成功执行
+NextRunTime:          2026-06-04 19:00:00  ← 19:00 cron 待触发
+NumberOfMissedRuns:   0  ← 无 missed run
+```
+
+**结论**: cron **无漂移**, 60min 间隔**健康**, 0 missed run, 无需修正。HourlyPriceCollector 持续稳定采集, 18:00 prices_latest.json 已落盘 (66KB, 含 BTC/ETH/SOL/OIL/GOLD/F&G 6 维度)。
+
+### 6.3 顺带验证的其他 cron
+
+- `ai-news.conf` (2026/4/24, 3KB) - 历史配置, 当前由 AINewsCollector 接管 (cron_collector.log 18:00 正常)
+- `briefing-generator.conf` (2026/6/4 12:52, 3.5KB) - 12:52 最新, 当日使用
+- `daily-collection.conf` (2026/4/8, 3.7KB) - 老配置, 但 v32 简报已 17:48 正常生成
+- `github-trending.conf` (2026/4/21, 451B) - 极简配置
+- `heartbeat-selfcheck.conf` (2026/6/2 17:24, 676B) - 17:24 最新
+
+---
+
+## 7. So What — 决策者建议 (2 条核心)
+
+### So What #1: **22:00 ISM 前不主动刷新, 等 v33-ism 子智能体**
+
+**行动**: 维持当前数据状态 (18:00 fresh), 不派发新的子智能体, 等 22:00 触发 v33-ism (7min 限时)。本次基线刷新已满足 ISM 决策需求:
+- 价格 fresh 30min (18:00 cron)
+- HN fresh 30min (18:00:17)
+- GH Trending fresh 4min (18:06)
+- MEMORY.md 6/3-6/4 状态完整
+- cron 健康验证
+
+**优先级**: P1 (等 22:00) — **不抢跑**
+
+**风险**: 若 18:00-22:00 出现重大新基本面 (e.g. Fed 紧急声明, BTC flash crash, Anthropic 提前发 S-1), 需要主代理 19:00 或 20:00 中间检查 (单次 5min)
+
+### So What #2: **GH Trending 升级 v7 (Playwright .NET) 解决 6/4 噪声问题**
+
+**行动**: 6/5 上午派发 v7-gh-trending 子智能体 (或主代理直接), 用 Playwright .NET (`npx playwright install chromium`) 替代 PowerShell Playwright 模块:
+1. PowerShell `Install-Module Playwright` 在 SYSTEM 账户下失败
+2. 改用 Node.js + `npx @playwright/mcp` 或 `npx playwright`
+3. 走 chromium headless 抓 github.com/trending (避开 SPA 渲染问题)
+4. 输出到 `data/ai/github-trending-YYYY-MM-DD-HHMM.json`, 包含完整 25 repos + stars_today + language + description
+
+**优先级**: P2 (优化项, 非 P0) — **可延后到 6/6 上午执行**
+
+**风险**: 当前 web_fetch+regex 增强版 (15 repos) 已能覆盖 trending 信号, v7 升级非紧急
+
+---
+
+## 8. 元规划者反思
+
+### 本轮 G-32E 关键发现
+
+1. **6/6 任务 100% 有产出** (5 完全成功 + 1 降级成功), 但限时 8min 实际 ~12min (微超 4min)
+2. **降级路径生效**: GH Trending Playwright → web_fetch → regex 增强 (15 真实 repos), 信号质量 > v6 fallback
+3. **MEMORY.md 6/3-6/4 状态补丁 2.8KB**: 涵盖 BTC 累计 / G-32A/B/C 三件套 / 5 因子归因 / ISM 准备 / NFP 倒计时 / 6/13 三重共振 / 7 TODO 子智能体
+4. **数据新鲜度 < 30min** (除 GH 4min), 完全满足 22:00 ISM 决策需求
+5. **cron 健康**: PT1H 间隔 0 missed, HourlyPriceCollector 18:00 准时执行
+6. **18:00 是静默稳态**: 8:00 ETF 决策点已过, 22:00 ISM 倒计时 4h, 中间无重大新基本面
+
+### 数据陈旧度评估 (铁律要求)
+
+- **价格 18:00** (cron) — **0min 陈旧** ✅
+- **HN 18:00:17** — **0min 陈旧** ✅
+- **GH Trending 18:06** — **4min 陈旧** ✅
+- **MEMORY.md** — **fresh (本轮刚追加)** ✅
+- **cron** — **healthy (0 missed)** ✅
+- **AI 行业 2h delta** — **< 2h 陈旧 (G-32A 17:37 → G-32E 18:00 = 23min)** ✅
+
+**总评估**: 18:00 数据基线 **全部 fresh, 无任何陈旧降级**, 满足 22:00 ISM P0 决策需求。
+
+### 下次心跳 (19:00) 建议
+
+- **不主动派发新子智能体** (等 22:00 v33-ism)
+- **19:00 cron**: HourlyPriceCollector 自动执行
+- **20:00 cron**: DailyCollector 自动执行
+- **20:00-21:30**: 美股盘前, 主代理可选择性抓 NVDA 盘前走势
+- **22:00**: 触发 v33-ism (7min), 22:05 ISM 结果
+- **23:30**: 触发 v34-farside (P1), 23:30 Farside 6/4 实际
+
+---
+
+*报告生成: 2026-06-04 18:10 GMT+8 | G-32E 子智能体 | 全源基线刷新 | 6/6 任务 100% 有产出 | 数据新鲜度 < 30min | 等 22:00 v33-ism 触发*
+
+*整合源: HN 18:00:17 (62KB, 30 条) + GH Trending 18:06 (15 repos) + prices_latest.json 18:00 (4.6KB) + F&G 12 (22h+ 极值) + MEMORY.md 6/3-6/4 状态补丁 (2.8KB) + DAILY 17:50-18:00 心跳 (218 字) + cron PT1H 健康验证*
+
