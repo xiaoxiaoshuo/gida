@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-06-05 07:43:00",
+  "value": 12,
+  "value_classification": "Extreme Fear",
+  "previous_value": 12,
+  "previous_classification": "Extreme Fear",
+  "last_week": null,
+  "last_month": 23,
+  "last_month_classification": "Extreme Fear",
+  "source": "alternative.me API (主代理 fallback 20s timeout retry)",
+  "confidence": "high",
+  "streak_hours": 38,
+  "note": "主代理 07:43 二次验证, 12 Extreme Fear 持续 38h+ (历史第3长), 接近 v2 阈值 48h 升级",
+  "next_threshold_check": "2026-06-05 20:00 (NFP 前 30min)",
+  "checkedAt": "2026-06-05T07:43:00+08:00"
+}

@@ -113,6 +113,40 @@ try {
   $health.checks.last_push_age = "error: $_"
 }
 
+# 检查 6: v3 API 健康预检 (2026-06-05 07:48 集成, G-47B 设计落地)
+$v3StateFile = Join-Path $workspace "data\system\health-precheck-v3-state.json"
+$v3Script = Join-Path $workspace "scripts\health-precheck-v3.ps1"
+if (Test-Path $v3Script) {
+  try {
+    # 静默运行 v3 健康预检 (5-15s)
+    $v3Output = & $v3Script 2>&1 | Out-String
+    if (Test-Path $v3StateFile) {
+      $v3State = Get-Content $v3StateFile -Raw | ConvertFrom-Json
+      $v3Score = $v3State.score
+      $v3Verdict = $v3State.verdict
+      $v3Action = $v3State.action
+      $v3CritFails = @($v3State.critical_fails)
+      
+      $health.checks.v3_api_health = "score=${v3Score}% verdict=${v3Verdict} action=${v3Action}"
+      
+      if ($v3Verdict -eq "red") {
+        $alerts += "v3 API 健康预检 RED: score=${v3Score}% action=${v3Action} critical_fails=$($v3CritFails -join ',')"
+        $health.overall = "unhealthy"
+      } elseif ($v3Verdict -eq "yellow") {
+        $alerts += "v3 API 健康预检 YELLOW: score=${v3Score}% (降级 offline-buffer)"
+      }
+    } else {
+      $health.checks.v3_api_health = "no_state_file"
+      $alerts += "v3 health-precheck 状态文件缺失"
+    }
+  } catch {
+    $health.checks.v3_api_health = "error: $_"
+    $alerts += "v3 health-precheck 失败: $_"
+  }
+} else {
+  $health.checks.v3_api_health = "missing_script"
+}
+
 # 写历史
 try {
   $health | ConvertTo-Json -Compress | Add-Content -Path $historyFile

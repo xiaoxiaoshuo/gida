@@ -1,0 +1,76 @@
+{
+  "healthy": 5,
+  "action": "proceed",
+  "results": [
+    {
+      "name": "okx_btc",
+      "critical": true,
+      "healthy": true,
+      "error": null,
+      "latency_ok": true,
+      "latency_ms": 758,
+      "json_ok": true,
+      "category": "crypto",
+      "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+      "http_ok": true,
+      "data_ok": true
+    },
+    {
+      "name": "binance_btc",
+      "critical": true,
+      "healthy": true,
+      "error": null,
+      "latency_ok": true,
+      "latency_ms": 540,
+      "json_ok": true,
+      "category": "crypto",
+      "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+      "http_ok": true,
+      "data_ok": true
+    },
+    {
+      "name": "cryptocompare_btc",
+      "critical": false,
+      "healthy": true,
+      "error": null,
+      "latency_ok": true,
+      "latency_ms": 1216,
+      "json_ok": true,
+      "category": "crypto",
+      "url": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+      "http_ok": true,
+      "data_ok": true
+    },
+    {
+      "name": "alternative_fng",
+      "critical": false,
+      "healthy": true,
+      "error": null,
+      "latency_ok": true,
+      "latency_ms": 1242,
+      "json_ok": true,
+      "category": "sentiment",
+      "url": "https://api.alternative.me/fng/?limit=1",
+      "http_ok": true,
+      "data_ok": true
+    },
+    {
+      "name": "hn_topstories",
+      "critical": false,
+      "healthy": true,
+      "error": null,
+      "latency_ok": true,
+      "latency_ms": 785,
+      "json_ok": true,
+      "category": "ai",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "http_ok": true,
+      "data_ok": true
+    }
+  ],
+  "total": 5,
+  "verdict": "green",
+  "score": 100.0,
+  "timestamp": "2026-06-05T07:53:12+08:00",
+  "critical_fails": []
+}
