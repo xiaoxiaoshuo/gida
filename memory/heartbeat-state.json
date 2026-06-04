@@ -1,27 +1,29 @@
 {
   "lastChecks": {
-    "email": null,
-    "calendar": null,
-    "weather": null,
-    "btc_price": "2026-06-03T12:55:50+08:00",
-    "fng": "2026-06-02T17:21:57+08:00",
-    "ai_news": "2026-06-03T01:19:03+08:00",
-    "github_trending": "2026-06-03T11:09:22+08:00",
-    "macro": "2026-06-03T13:55:00+08:00"
+    "btc_price": "2026-06-05T01:00:01+08:00",
+    "fng": "2026-06-05T01:00:01+08:00",
+    "ai_news": "2026-06-04T18:00:00+08:00",
+    "github_trending": "2026-06-04T18:07:00+08:00",
+    "macro": "2026-06-05T01:00:01+08:00",
+    "hn": "2026-06-04T18:00:00+08:00",
+    "watchlist": "2026-06-04T07:32:00+08:00",
+    "memory_md": "2026-06-04T18:10:00+08:00",
+    "briefings": "2026-06-04T22:17:00+08:00",
+    "intel": "2026-06-04T22:38:00+08:00"
   },
-  "lastHeartbeat": "2026-06-03T13:55:00+08:00",
-  "lastPush": "2026-06-03T13:52:00+08:00",
+  "lastHeartbeat": "2026-06-05T01:55:00+08:00",
+  "lastPush": "2026-06-05T01:52:58+08:00",
+  "lastPushStatus": "FAIL_3x_GFW_reset_archived",
   "cronHealth": {
-    "AINewsCollector_6h": "Ready",
-    "DailyCollector": "Ready",
-    "HeartbeatSelfCheck": "Ready",
-    "HourlyPriceCollector": "Ready"
+    "HourlyPriceCollector": "Ready (01:00 fresh 55min)",
+    "AutoPushV4": "Running_archived_pending_5min",
+    "IncrementalBackup": "Archive_created_2026-06-05_01:55:28"
   },
-  "nextHeartbeat": "2026-06-03T18:00:00+08:00",
-  "nextPrice": "2026-06-03T14:00:00+08:00",
-  "nextAINews": "2026-06-03T18:00:00+08:00",
-  "nextDaily": "2026-06-03T20:00:00+08:00",
-  "notes": "13:55 GMT+8 健康检查：4 任务全部 Ready。所有任务 LastResult=-2147024894 (0x80070002) 已知误报，任务实际执行成功（memory/2026-06-03.md 12:00/13:00 等记录证实）。HeartbeatSelfCheck 实际 6h 周期 (06/12/18/00) 非 4h，下一次 18:00。DailyCollector AM/PM 已合并为单任务 12h 周期。HourlyPriceCollector 14:00 距 5min 即将触发。btc_price 距 1h，fng 20h 已偏旧，ai_news 12h 内，github_trending 3h 内。推送 13:52 失败（归档已生成）。",
-  "checkedAt": "2026-06-03T13:55:00+08:00",
-  "checkedBy": "agent:gida:subagent:500aee40"
+  "nextHeartbeat": "2026-06-05T08:00:00+08:00",
+  "nextPrice": "2026-06-05T02:00:00+08:00",
+  "nextPush": "2026-06-05T02:05:00+08:00 (rate-limit cooldown)",
+  "nextAINews": "2026-06-05T06:00:00+08:00",
+  "notes": "01:55 跨凌晨扫描: 4 个子智能体已派发规划 (G-36A NFP 二次预热 / G-36B WATCHLIST 增量 / G-36C 跨凌晨补采)。NFP 倒计时 18h35min 是唯一 P0, G-35E 22:26 已落 32KB nfp-prep。briefings 4h+ 跨凌晨未更新 (v36 22:17), MEMORY.md 7h45min 停更, heartbeat-state 6/3 旧数据已修正。F&G 12 持续 30h+ (历史第 3 长), BTC $63,489 22:00 后回稳 (-0.34%)。",
+  "checkedAt": "2026-06-05T01:55:00+08:00",
+  "checkedBy": "agent:gida:meta-planner"
 }
