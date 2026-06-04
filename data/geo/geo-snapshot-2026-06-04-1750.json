@@ -1,0 +1,84 @@
+{
+  "snapshot_id": "geo-snapshot-2026-06-04-1750",
+  "agent": "G-32C",
+  "captured_at": "2026-06-04T17:50:00+08:00",
+  "captured_at_utc": "2026-06-04T09:50:00Z",
+  "data_freshness": "real-time (fetched within 3 min of capture)",
+  "previous_snapshot": "middle-east-snapshot-2026-06-04-0835.json (8h+ stale)",
+  "tasks_attempted": 3,
+  "tasks_succeeded": 2,
+  "sources": {
+    "jpost_live_updates": {
+      "url": "https://www.jpost.com/middle-east/iran-news/2026-06-04/live-updates-898327",
+      "status": "OK",
+      "fetched_at_utc": "2026-06-04T09:53:13Z",
+      "freshness": "live updates through 12:35 PM local on June 4 (i.e., same day, hours fresh)"
+    },
+    "tradingeconomics_wti": {
+      "url": "https://tradingeconomics.com/commodity/crude-oil",
+      "status": "OK",
+      "fetched_at_utc": "2026-06-04T09:52:25Z"
+    },
+    "oilprice_homepage": {
+      "url": "https://oilprice.com/",
+      "status": "OK (limited)",
+      "fetched_at_utc": "2026-06-04T09:52:50Z",
+      "note": "WTI live tile extracted via static text (not JS-rendered chart)"
+    },
+    "reuters_middle_east": {"url": "https://www.reuters.com/world/middle-east/", "status": "FAIL (fetch failed)"},
+    "aljazeera_middle_east": {"url": "https://www.aljazeera.com/news/middle-east/", "status": "FAIL (fetch failed)"},
+    "timesofisrael": {"url": "https://www.timesofisrael.com/", "status": "FAIL (Cloudflare CAPTCHA)"},
+    "opec_org": {"url": "https://www.opec.org/news-archive.html", "status": "FAIL (Cloudflare interstitial)"}
+  },
+  "key_signals": {
+    "ceasefire_signal": {
+      "headline": "Israel, Lebanon agree to ceasefire (US-brokered), conditional on Hezbollah halting fire",
+      "issued_by": "US State Department",
+      "reported_at_jpost": "2026-06-04 04:26 UTC (12:26 IDT)",
+      "ceasefire_in_force": "NOT YET - Lebanon president said it may take effect within 1 day of both parties' approval; Israel (Katz) said operations in Lebanon continue 'for now'",
+      "hezbollah_response": "Deputy head Mahmoud Kamati threatened to target Tel Aviv/Haifa if Israel strikes Beirut again (4:26 UTC update)",
+      "first_idf_action_post_announce": "IDF issued first evacuation warning since the Trump ceasefire announcement (10:49 IDT = 07:49 UTC)",
+      "exclusive_zones": "US to introduce 'pilot zones' where Lebanese army has exclusive control",
+      "confidence_in_actual_ceasefire_within_24h": 0.45
+    },
+    "iran_us_track": {
+      "headline": "Trump claims US-Iran deal 'could be reached by weekend'; Iran demands frozen assets released in initial phase - stalemate",
+      "iran_red_line": "Release of frozen assets in phase 1 (US has not agreed)",
+      "iran_response_to_kuwait_strike": "Iran claims failed US missile struck Kuwait airport, says Gulf bears 'clear responsibility'",
+      "us_house": "House backs resolution curbing Trump Iran war powers (4:26 UTC)",
+      "trump_loophole": "WSJ: Trump will end ceasefire if Iran kills US troops",
+      "confidence_in_deal_by_weekend": 0.20
+    },
+    "oil_price_action": {
+      "wti_current_usd": 94.45,
+      "wti_change_pct": -1.64,
+      "wti_source": "OilPrice.com live tile (11 min delay)",
+      "wti_tradingeconomics": 94.31,
+      "wti_change_24h_te": -1.78,
+      "previous_peak": 96.31,
+      "peak_to_now_change_pct": -1.93,
+      "interpretation": "Pullback from 6/3 high; momentum is RISK-ON relief rally (not sustained breakout)",
+      "rationale": "Oil down on (1) Israel-Lebanon ceasefire agreement headline, (2) Trump weekend Iran deal claim, but tempered by Hezbollah non-acceptance and continued IDF ops"
+    },
+    "opec_plus_6_3": {
+      "status": "INCONCLUSIVE - opec.org blocked by Cloudflare; no fresh 6/3/2026 result retrieved",
+      "context_from_bing": "5/3/2026 OPEC+ approved 188k bpd June hike; this matches prior pattern of monthly small hikes; no June 3 meeting confirmed via accessible sources",
+      "confidence": 0.30,
+      "fallback_assumption": "OPEC+ continues prior pattern (gradual 100-200k bpd monthly hikes) but actual supply impact minimal while Hormuz disruptions persist"
+    }
+  },
+  "btc_geo_premium_assessment": {
+    "previous_weight_15pct_confidence_70": "Baseline established at 17:55 ALERT (Iran 13 ballistic + 17 drone attack on Kuwait airport)",
+    "new_signals_since_08:49": [
+      "Israel-Lebanon ceasefire agreed (positive, reduces northern front escalation)",
+      "Trump weekend Iran deal claim (positive, but contradicts Iran's asset-release stalemate)",
+      "Hezbollah non-acceptance (negative, partial offset)",
+      "WTI -1.93% from peak (positive, market is pricing some de-escalation)",
+      "US House curbs Trump Iran war powers (mixed - diplomatic constraint on escalation)"
+    ],
+    "new_weight_pct": 10,
+    "new_confidence_pct": 60,
+    "rationale": "Multiple positive (de-escalation) headlines but none yet 'binding': ceasefire not in force, Hezbollah non-accepting, Iran-US still in stalemate, oil only modest pullback. GEO premium FADES from 15%→10% but does NOT collapse. Confidence down 70%→60% because ceasefire is conditional/unconfirmed.",
+    "btc_24h_path": "BTC -8.2% cumulative has likely already absorbed most GEO premium. 24h forward: GEO premium contribution should compress to 5-8% of any further downside; if Israel-Lebanon ceasefire holds 24h+, premium drops to 3-5% (ceasefire becomes 'priced in')."
+  }
+}
