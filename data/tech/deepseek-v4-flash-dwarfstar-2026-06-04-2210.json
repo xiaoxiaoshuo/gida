@@ -1,0 +1,177 @@
+{
+  "task_id": "G-35E-T2-deepseek-flash",
+  "snapshot_time": "2026-06-04T22:10:00+08:00",
+  "scraped_at_gmt8": "2026-06-04 22:11",
+  "status": "DELIVERED (full README captured)",
+  "object": {
+    "github_repo": "antirez/ds4",
+    "url": "https://github.com/antirez/ds4",
+    "actual_project_name": "DwarfStar (源码 ds4.c)",
+    "author": "Salvatore Sanfilippo (antirez, Redis 创始人)",
+    "description_official": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
+    "license": "MIT (含 GGML 致谢)",
+    "language": "C (核心 ds4.c, 不依赖 GGML 链接, 但借鉴其设计/格式)",
+    "created_at": "2026-05-06T17:17:05Z",
+    "pushed_at": "2026-06-02T07:46:28Z",
+    "size_kb": 5174,
+    "stargazers": 12915,
+    "forks": 1125,
+    "watchers": 96,
+    "open_issues": 154,
+    "releases": 0,
+    "branches": "main + rocm (社区维护分支)"
+  },
+  "supported_models": {
+    "primary": {
+      "name": "DeepSeek V4 Flash",
+      "params_estimated": "284B (MoE, README 提到『284B parameters 远多于 27B/35B 密集模型』)",
+      "context_window": "1,000,000 tokens",
+      "quant_levels_offered": ["q2-imatrix", "q2-q4-imatrix", "q4-imatrix"],
+      "min_ram": "96GB (实际可跑 128GB 100% 推荐)",
+      "sweet_spot": "MacBook Pro M3/M5 Max 128GB"
+    },
+    "side_path": {
+      "name": "DeepSeek V4 PRO",
+      "params_estimated": ">284B (未明确披露, 估计 600B+ MoE)",
+      "context_window": "1,000,000 tokens",
+      "quant_levels_offered": ["pro-q2-imatrix", "pro-q4-layers00-30", "pro-q4-layers31-output"],
+      "min_ram": "512GB (Mac Studio M3 Ultra)",
+      "status": "experimental, 主要验证路线"
+    }
+  },
+  "supported_backends": {
+    "metal": {
+      "target": "macOS (primary)",
+      "min_hardware": "MacBook 96GB+ / Mac Studio 512GB",
+      "make_target": "make",
+      "notes": "macOS 当前版本有 virtual memory bug 会 kernel panic, 暂时无法跑 CPU 路径"
+    },
+    "cuda": {
+      "target": "Linux",
+      "special_target": "DGX Spark (GB10)",
+      "make_targets": ["make cuda-spark", "make cuda-generic", "make cuda CUDA_ARCH=sm_120|native"],
+      "notes": "DGX Spark 是重点优化对象"
+    },
+    "rocm": {
+      "target": "AMD",
+      "branch": "rocm (社区维护, antirez 无硬件访问权限)"
+    },
+    "cpu": {
+      "purpose": "correctness check + tokenizer diagnostics only",
+      "build": "make cpu",
+      "warning": "macOS 跑 CPU 路径会 kernel panic"
+    }
+  },
+  "speed_benchmarks_metal": {
+    "unit": "tokens/second (单次, ctx=32768, nothink, greedy, gen=256)",
+    "table": [
+      {"machine": "MBP M3 Max 128GB", "quant": "q2", "prompt": "short", "prefill": 58.52, "gen": 26.68},
+      {"machine": "MBP M3 Max 128GB", "quant": "q2", "prompt": "11709t", "prefill": 250.11, "gen": 21.47},
+      {"machine": "MBP M5 Max 128GB", "quant": "q2", "prompt": "short", "prefill": 87.25, "gen": 34.27},
+      {"machine": "MBP M5 Max 128GB", "quant": "q2", "prompt": "11707t", "prefill": 463.44, "gen": 25.90},
+      {"machine": "Mac Studio M3 Ultra 512GB", "quant": "q2", "prompt": "short", "prefill": 84.43, "gen": 36.86},
+      {"machine": "Mac Studio M3 Ultra 512GB", "quant": "PRO q2", "prompt": "32768t", "prefill": 138.82, "gen": 9.56},
+      {"machine": "DGX Spark GB10 128GB", "quant": "q2", "prompt": "7047t", "prefill": 343.81, "gen": 13.75}
+    ]
+  },
+  "distributed_inference": {
+    "purpose": "让模型跨多机运行 (单卡装不下) + 流水线 prefill 加速",
+    "mechanism": "TCP worker-to-worker 通信 + layer 切片 (e.g., --layers 0:30 coordinator, --layers 31:output worker)",
+    "speedup_results_2_macbooks_m5_max_thunderbolt5": [
+      {"prompt_tokens": 9421, "single_proc_ref_tps": 421.70, "two_macbooks_tps": 582.22, "speedup": "1.38x"},
+      {"prompt_tokens": 28684, "single_proc_ref_tps": 405.30, "two_macbooks_tps": 674.16, "speedup": "1.66x"},
+      {"prompt_tokens": 63819, "single_proc_ref_tps": 353.62, "two_macbooks_tps": 654.79, "speedup": "1.85x"}
+    ],
+    "generation_note": "分布式 gen 必须严格自回归, 单 token 至少一次跨机激活, 因此比单机慢 19.4% (12k ctx 实测: 30.59 t/s → 24.67 t/s). 分布式主要价值是装大模型 + 加速 prefill, 不加速 decode.",
+    "link_comparison_thunderbolt5_vs_wifi_vs_internet": [
+      {"link": "Thunderbolt 5", "ping_ms": 0.45, "prefill_tps": 582.99, "gen_tps": 25.09},
+      {"link": "WiFi", "ping_ms": 77.20, "prefill_tps": 250.70, "gen_tps": 10.70},
+      {"link": "Internet/VPN", "ping_ms": 152.10, "prefill_tps": 114.88, "gen_tps": 3.63}
+    ]
+  },
+  "key_innovations": {
+    "1_compressed_kv_cache_on_disk": "DeepSeek V4 极强 KV 压缩 + 现代 Mac SSD → KV 缓存是『一级磁盘公民』而非纯 RAM. 默认启用 --kv-disk-dir, 8GB 配额. SHA1 命名 (渲染 byte prefix hash). 4 类保存点: cold/continued/evict/shutdown.",
+    "2_two_bit_quant_specialized": "2-bit 量化『不是开玩笑』: routed MoE experts 用 IQ2_XXS, down projection 用 Q2_K, 其他组件 (shared experts, projections, routing) 保持原精度. 配合 imatrix calibration, 81GB 模型可在 96GB RAM 跑, 250k 上下文实测可用.",
+    "3_first_class_distributed_protocol": "完整 TCP 协议: HELLO/WORK/RESULT 帧 + 滚动 64-bit token-prefix hash 防止 worker 串位 + 协调器 worker 拔掉自动重建 (含 KV 回放) + Ctrl+C 协同停止防止 KV 撕裂.",
+    "4_native_coding_agent": "ds4-agent 用 on-disk KV cache 作为会话状态本身 (不通过 socket/API 边界), 实现『零延迟工具调用 + 实时 prefill 进度条 + KV 不可能 mismatch』. 支持 /save /list /switch /del /strip. 会话 SHA 来自 first user prompt + 创建时间.",
+    "5_exact_dsml_tool_replay": "服务器记忆 tool-id → 精确采样 DSML 字节的 radix tree map (默认 10万 ID). 客户端发回 tool ID 时用模型原始采样字节渲染, 避免 KV checkpoint 失效. 备份路径是规范化 JSON-to-DSML, 加上 checkpoint 重写或 KV 快照回放.",
+    "6_official_vector_validation": "测试套件使用 DeepSeek V4 Flash 官方 API logprobs (top_logprobs 全切片, greedy, nothink) 作为真值. 本地生成 ./ds4 --dump-logprobs 后按 token 字节对比, 量化/模板/attention 回归在长生成失败前就会被捕获.",
+    "7_steering_vectors": "内置单向量激活 steering (源自 Refusal in Language Models Is Mediated by a Single Direction 论文), 可调整 verbosity/拒绝行为. 适合 cybersecurity 研究者降级 dual-use 输出."
+  },
+  "agent_integration_supported_clients": {
+    "openai_compatible": "POST /v1/chat/completions (含 SSE streaming + 实时 tool_calls 流式)",
+    "responses_api": "POST /v1/responses (Codex CLI 首选, 含 response.output_text.delta + 完整 lifecycle 事件)",
+    "anthropic_compatible": "POST /v1/messages (Claude Code 客户端, 含 thinking 流 + tool_use 块)",
+    "completions_legacy": "POST /v1/completions",
+    "verified_clients": ["opencode", "Pi", "Codex CLI", "Claude Code (via ~/bin/claude-ds4 wrapper)"]
+  },
+  "thinking_modes": {
+    "non_thinking": "直接回答 (deepseek-chat alias 或 thinking:disabled)",
+    "thinking_default": "DS4 服务器默认 thinking 模式, 客户端 sampling 旋钮被忽略 (匹配 DeepSeek API 行为)",
+    "think_max": "reasoning_effort=max 触发, 仅在大 ctx 下生效 (小 ctx 降级到 normal)",
+    "key_claim": "V4 Flash 的 thinking 部分长度『与问题复杂度成正比』, 很多情况只有其他模型的 1/5, 这是其差异化杀手锏"
+  },
+  "model_quality_claims_from_readme": [
+    "V4 Flash 在 96/128GB 机器上『感觉比本地密集模型大很多』",
+    "V4 PRO 在 512GB Mac Studio 上翻译等任务更强",
+    "KV 缓存『难以置信的压缩』允许长上下文 + 磁盘持久化",
+    "2-bit 量化在 coding agent + 工具调用场景『运行良好且可靠』",
+    "V4 Flash 写英语/意大利语『明显优于同尺寸本地模型』, 接近 frontier 体验"
+  ],
+  "kv_cache_format": {
+    "header_magic": "KVC v1 (48 bytes)",
+    "session_payload_magic": "DSV4 v2 (13 × u32)",
+    "tool_id_map_magic": "KTM v1 (可选, header extension bit 0)",
+    "key_features": [
+      "cache key = SHA1(渲染 byte prefix), 文件名 <sha1>.kv",
+      "continued saves 在绝对对齐 frontier, 默认每 10k tokens 一次",
+      "cold saves 修剪 32 token tail 并对齐到 2048-token 边界 (防 BPE retokenization miss)",
+      "min 512 tokens 存储, cold save 最多 30000 tokens"
+    ],
+    "tuning_knobs": ["--kv-cache-min-tokens", "--kv-cache-cold-max-tokens", "--kv-cache-continued-interval-tokens", "--kv-cache-boundary-trim-tokens", "--kv-cache-boundary-align-tokens", "--tool-memory-max-ids", "--disable-exact-dsml-tool-replay", "--kv-cache-reject-different-quant"]
+  },
+  "power_management": {
+    "flag": "--power N (0-100)",
+    "mechanism": "测量 GPU 工作时间, 在 prefill 层间 / generation token 间插入 sleep",
+    "effect": "降低温度/风扇/电池消耗, 不改变模型输出"
+  },
+  "competitive_landscape": {
+    "vs_llama_cpp": "不链接 GGML, 但借鉴其 quant layouts/CPU quant-dot/部分 kernels. 致谢 Georgi Gerganov 与贡献者. 区别: 不做通用 GGUF runner, 专为 DS4 优化, 含原生 agent + server + 评估管线",
+    "vs_ollama_vllm": "更窄: 单模型深度优化 vs 通用引擎. 集成 coding agent (ds4-agent) 是显著差异化",
+    "ai_assisted_dev": "README 明确声明『本项目在 GPT 5.5 强力协助下开发, 人类主导想法/测试/调试』. 透明披露 AI 参与."
+  },
+  "p0_signals_for_main_agent": [
+    "P0-1 [AI 基础设施/本地推理]: antirez (Redis 创始人) 亲自下场写 DeepSeek V4 Flash 原生 C 推理引擎, 1 个月 12.9k stars, 1.1k forks, MIT 协议. 这是 2026 年开源 LLM 推理栈的『Redis 时刻』级事件, 验证『单模型深度优化 + 原生 agent 集成』路径的商业/技术可行性.",
+    "P0-2 [DeepSeek V4 生态成熟度]: V4 Flash 已被认为在 96/128GB 机器上『感觉 quasi-frontier』, 配合 DwarfStar 让 frontier-class 模型首次在消费级硬件可跑. DeepSeek 在 2026 年 5-6 月的迭代速度 (V4 → V4 Flash → V4 PRO) 正在挑战闭源前沿模型.",
+    "P0-3 [分布式推理平民化]: 两台 M5 Max + Thunderbolt 5 实现 1.85x prefill speedup + V4 PRO Q4 全模型 11.47 t/s 跨机跑通. 验证『家用消费硬件可拼装 frontier 模型推理』, 对云端 GPU 商业 (AWS/DigitalOcean/RunPod) 构成结构性挑战.",
+    "P0-4 [KV 缓存架构革新]: 『KV 缓存是磁盘一级公民』+ SHA1 命名 + 4 保存点 + exact DSML replay 解决 agent 状态一致性问题. 这是 2026 年 LLM 系统设计的关键范式, 直接削弱闭源 Agent 平台的护城河.",
+    "P0-5 [Coding Agent 战局]: DwarfStar 同时支持 Codex CLI / Claude Code / opencode / Pi, 通过 OpenAI/Anthropic 兼容 API. 对 Cursor (Anysphere) / Windsurf / Cline 等商业 agent 是降维打击 — 开发者可以用本地免费 V4 Flash 跑 Claude Code / Codex."
+  ],
+  "links": {
+    "repo": "https://github.com/antirez/ds4",
+    "commits_atom": "https://github.com/antirez/ds4/commits/main.atom",
+    "huggingface_weights": "https://huggingface.co/antirez/deepseek-v4-gguf",
+    "v4_pro_repo": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "key_subdocs": [
+      "CONTRIBUTING.md",
+      "gguf-tools/README.md",
+      "gguf-tools/imatrix/README.md",
+      "speed-bench/README.md",
+      "dir-steering/README.md",
+      "tests/test-vectors/README.md"
+    ]
+  },
+  "caveats": [
+    "项目处于 beta 状态, antirez 自评『还需数月才能稳定』",
+    "无正式 release (GitHub releases 数组空), 必须 git clone 编译",
+    "macOS 跑 CPU 路径会 kernel panic (平台 bug, 非项目 bug)",
+    "PRO 支持实验性, 需 512GB Mac Studio, 受众极小",
+    "高级特性如 MTP speculative decoding 仍 correctness-gated, 速度提升有限"
+  ],
+  "fetch_notes": {
+    "web_fetch_status": "https://raw.githubusercontent.com/antirez/ds4/main/README.md 直接 fetch 失败 (fetch failed), 必须通过 browser 工具",
+    "browser_method": "open brave tab → page evaluate fetch('https://raw.githubusercontent.com/.../README.md')",
+    "fallback_used": "browser evaluate async (需目标 tab 已加载 github 域以通过 CORS)",
+    "verdict": "web_fetch 对 raw.githubusercontent.com 间歇性失败, README 类长文档用 browser evaluate 拉取最稳"
+  }
+}

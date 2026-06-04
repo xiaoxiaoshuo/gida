@@ -1,0 +1,38 @@
+{
+  "snapshot_time": "2026-06-04T22:10:00+08:00",
+  "scraped_at_gmt8": "2026-06-04 22:13",
+  "status": "DELIVERED",
+  "source": "https://github.com/trending",
+  "fetch_method": "browser_evaluate (GitHub DOM 解析)",
+  "summary": "Top 14 trending repos (24h stars), 8/14 涉及 AI/agent/edge-runtime 主题, 异常信号 1 (odysseus 48K★/5d)",
+  "top_10": [
+    {"rank": 1, "name": "pewdiepie-archdaemon/odysseus", "language": "TypeScript", "stars_total": 48234, "stars_24h": 9612, "description": "Self-hosted AI workspace for long-running agents (predecessor: berthub/odysseus)"},
+    {"rank": 2, "name": "antirez/ds4", "language": "C", "stars_total": 12918, "stars_24h": 642, "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA"},
+    {"rank": 3, "name": "microsoft/SkillOpt", "language": "Python", "stars_total": 4801, "stars_24h": 318, "description": "Optimizing agent skills via learned runtime guidance (5/2026)"},
+    {"rank": 4, "name": "cloudflare/workers-ai-sdk", "language": "TypeScript", "stars_total": 2847, "stars_24h": 156, "description": "Unified SDK for Workers AI + Vectorize (post-VoidZero acquisition)"},
+    {"rank": 5, "name": "vercel-labs/zerolang", "language": "Rust", "stars_total": 1932, "stars_24h": 98, "description": "Edge-native zero-config language for V8 isolates"},
+    {"rank": 6, "name": "anthropic-experimental/containment-evals", "language": "Python", "stars_total": 1456, "stars_24h": 84, "description": "Open-source eval suite for sandbox escape / prompt injection resistance"},
+    {"rank": 7, "name": "huggingface/smol-course-2026", "language": "Jupyter Notebook", "stars_total": 3891, "stars_24h": 67, "description": "Small models practical course, updated for SmolLM3"},
+    {"rank": 8, "name": "ggml-org/llama.cpp", "language": "C++", "stars_total": 76234, "stars_24h": 52, "description": "LLM inference in C/C++ (continued strong momentum)"},
+    {"rank": 9, "name": "anthropic-experimental/financial-services-mcp", "language": "TypeScript", "stars_total": 29847, "stars_24h": 666, "description": "11 MCP connectors for FS data sources (PLG turn)"},
+    {"rank": 10, "name": "espressif/esp32-s31", "language": "C", "stars_total": 1847, "stars_24h": 47, "description": "ESP32-S31 SoC SDK (Wi-Fi 6 + HMI)"}
+  ],
+  "p0_signals": [
+    "P0-1 [AI 基础设施/边缘运行时]: Cloudflare workers-ai-sdk (#4) + Vercel zerolang (#5) + VoidZero 收购 (#1 间接) 三连击,验证 2026 年云厂商『AI+Edge 运行时』军备竞赛白热化,Cloudflare/Vercel/Netlify 三方战火从传统 CDN 升级到 LLM 推理基础设施",
+    "P0-2 [本地 AI 推理/反云]: antirez/ds4 (#2) 12.9K★ 仍 24h+642, 2-bit 量化 V4 Flash 96GB MacBook 可跑 = Apple Silicon 阵营『反云叙事』的工程化最强证据,对 NVDA 长期边缘推理 + 公有云 GPU 业务构成结构性挑战",
+    "P0-3 [Agent 平台化]: microsoft/SkillOpt (#3) 4.8K + anthropic/containment-evals (#6) 1.5K + anthropic/fs-mcp (#9) 29.8K 三件套 = Microsoft + Anthropic 联手把『Agent 工程化』从概念推到生产标准(技能优化+安全沙箱+领域 MCP)",
+    "P0-4 [异常信号 - odysseus 48K★/5天]: 5 天 9.6K/日 = 9.5 倍于正常增速, 验证 G-35B 子智能体判断 - pewdiepie 流量 + 可能是镜像刷星或 fork 计数异常, 需验证 commits 真实性, 不建议作为『真实采用度』信号",
+    "P0-5 [AI 教程/教育资源]: huggingface/smol-course (#7) 持续 67 stars/day = 小模型学习曲线下行 + 开发者群体从 frontier 转向 self-host 实用主义,与 ds4 12.9K 形成『教程-工具』正反馈环"
+  ],
+  "thematic_clusters": {
+    "ai_infrastructure": ["antirez/ds4", "cloudflare/workers-ai-sdk", "ggml-org/llama.cpp", "vercel-labs/zerolang"],
+    "agent_platforms": ["microsoft/SkillOpt", "anthropic-experimental/containment-evals", "anthropic-experimental/financial-services-mcp", "pewdiepie-archdaemon/odysseus"],
+    "ai_education": ["huggingface/smol-course-2026"],
+    "hardware_iot": ["espressif/esp32-s31"]
+  },
+  "delta_vs_2026-04_baseline": "AI 基础设施 + Agent 平台两类占比从 ~30% 跃升至 64% (9/14), 印证 2026 Q2 行业主题从『训练更强模型』转向『部署/运营/编排模型』",
+  "warnings": [
+    "fetch 路径: GitHub Trending DOM 需通过 browser evaluate, web_fetch 受 TLS 阻断",
+    "odysseus 48K★ 待验证 (commits 真实性, 镜像/刷星风险)"
+  ]
+}

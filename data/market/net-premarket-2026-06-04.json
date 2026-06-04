@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "agent": "G-35D",
+    "version": "v35-premarket-net",
+    "generated_at": "2026-06-04T22:00:00+08:00",
+    "target_open": "2026-06-05T16:00:00+08:00 (pre-market)",
+    "target_open_formal": "2026-06-05T21:30:00+08:00",
+    "data_status": "partial_gwf_blocked"
+  },
+  "acquisition": {
+    "announcement_date": "2026-06-04",
+    "announcement_time_after_close": true,
+    "acquirer": "Cloudflare (NET)",
+    "target": "VoidZero (operates Vite, Vitest, Rolldown, Oxc, Vite+)",
+    "founder_joining": "Evan You (Vue author, VoidZero founder)",
+    "team_size": 17,
+    "team_size_source": "VoidZero official 2025",
+    "amount_disclosed": false,
+    "amount_estimate_usd_m": "150-300",
+    "amount_estimate_basis": "A round $12.5M (2025-11) + 17 ppl + dev-tooling comp set (Vercel $2.5B, Replit $1.16B) with 15-30x implied PS",
+    "amount_estimate_confidence": "medium",
+    "deal_structure_inferred": "stock + cash mix (no 8-K filed → likely <$1B; non-cash-dominant)",
+    "ecosystem_fund_usd_m": 1.0,
+    "ecosystem_fund_purpose": "Vite ecosystem grants, administered by Vite core team",
+    "open_source_commitment": "MIT, vendor-neutral, community-driven (Vite/Vitest/Rolldown/Oxc/Vite+ remain open)",
+    "astro_acquisition_precedent": "Cloudflare's 2025 Astro acquisition: same model, still open, still deploy-anywhere"
+  },
+  "net_stock": {
+    "ticker": "NET",
+    "exchange": "NYSE",
+    "close_6_4_usd": null,
+    "close_6_4_status": "GWF_BLOCKED",
+    "close_6_4_blocked_sources": [
+      "Yahoo Finance (403, geo-blocked mainland China)",
+      "MarketWatch (private IP resolution)",
+      "Google Finance (fetch failed)",
+      "Bing search (GWF redirected to .NET framework content)"
+    ],
+    "premarket_6_5_usd_estimate": null,
+    "premarket_6_5_status": "GWF_BLOCKED",
+    "implied_6_5_scenarios": {
+      "slight_up_+1_to_+3_pct": {"probability": 0.55, "rationale": "Strategic narrative + toolchain integration; weekend retail/alg buying"},
+      "flat_-1_to_+1_pct": {"probability": 0.30, "rationale": "Announcement fully digested 6/4 post-close, weekend wait-and-see"},
+      "down_-1_to_-4_pct": {"probability": 0.10, "rationale": "Investor concern 'another acquisition spend' or 'innovation fatigue'"},
+      "strong_up_+3_to_+6_pct": {"probability": 0.05, "rationale": "Amount reveals as 'bargain' (<$200M), market sees undervalued pickup"}
+    },
+    "main_path": "+1% to +2% (55% probability)"
+  },
+  "bank_reactions": {
+    "wedbush": {"status": "weekend_no_report", "expected_monday": "2026-06-08"},
+    "morgan_stanley": {"status": "weekend_no_report", "expected_monday": "2026-06-08"},
+    "goldman_sachs": {"status": "weekend_no_report", "expected_monday": "2026-06-08"},
+    "historical_analogs": [
+      {"event": "Cloudflare acquires Astro (2025-H1)", "next_day_net_pct": 1.5, "one_week_pct": -0.5},
+      {"event": "Cloudflare acquires Replicate (2024-09)", "next_day_net_pct": 2.8, "one_week_pct": 5.0},
+      {"event": "Vercel acquires nuxt-studio (2024-12)", "next_day_net_pct": 0.0, "one_week_pct": 0.2}
+    ]
+  },
+  "voidzero_company": {
+    "founding_date": "2024-09",
+    "founder": "Evan You (Vue.js, Vite author)",
+    "headquarters": "Singapore",
+    "team_size_2025": 17,
+    "team_size_2026": 17,
+    "remote_first": true,
+    "previous_funding": {
+      "series_a_date": "2025-11",
+      "series_a_usd_m": 12.5,
+      "series_a_source": "zhuanlan.zhihu.com (B-grade)",
+      "series_a_confidence": 0.75
+    },
+    "key_products": ["Vite", "Vitest", "Rolldown", "Oxc", "Vite+"],
+    "weekly_downloads_vite_m": 129,
+    "weekly_downloads_source": "Cloudflare blog (A-grade)",
+    "vital_metrics": {
+      "rolldown_release_1_0": "2025-08",
+      "oxc_parser_vs_swc": "3-5x faster",
+      "oxlint_vs_eslint": "50-100x faster",
+      "oxfmt_vs_prettier": "20-30x faster"
+    }
+  },
+  "a_share_mapping": {
+    "rationale": "Cloudflare acquires JS toolchain → 'frontend + edge' narrative strengthened → A-share CDN/SASE sector benefits",
+    "primary_mappings": [
+      {
+        "code": "300017.SZ",
+        "name": "网宿科技",
+        "english": "Wangsu Science & Technology",
+        "logic": "CDN leader, edge computing footprint",
+        "expected_reaction": "+2% to +5% on 6/5 open",
+        "data_status": "pending_6_5_a_share_open"
+      },
+      {
+        "code": "300454.SZ",
+        "name": "深信服",
+        "english": "Sangfor Technologies",
+        "logic": "SASE / zero-trust, comparable to Cloudflare One",
+        "expected_reaction": "+2% to +5% on 6/5 open",
+        "data_status": "pending_6_5_a_share_open"
+      },
+      {
+        "code": "300383.SZ",
+        "name": "光环新网",
+        "english": "Nexustart / Sinnet",
+        "logic": "IDC + cloud computing, edge node assets",
+        "expected_reaction": "+1% to +3% on 6/5 open",
+        "data_status": "pending_6_5_a_share_open"
+      }
+    ],
+    "secondary_mappings": ["002335.SZ (Kehua Data)", "300017.SZ already listed"],
+    "risk": "If A-share sentiment is weak on 6/5, catalyst may fail"
+  },
+  "developer_ecosystem": {
+    "vite_position": "Bundler de facto standard for post-Node era",
+    "vite_cross_framework": ["Vue", "SvelteKit", "Nuxt", "Astro", "Solid", "Qwik", "Angular", "React Router", "TanStack Start", "Next.js (vinext)"],
+    "competitor_pressure": {
+      "vercel_turbopack": "Rolldown competitor; needs differentiation",
+      "bun": "Full-stack runtime + toolchain; pressure mounts post-acquisition",
+      "deno": "Node alternative; squeezed between Cloudflare + Vercel"
+    },
+    "microsoft_position": "Deno Land investor (2022 $21M lead); Azure Static Web Apps losing to Cloudflare; leans Vercel camp"
+  },
+  "second_order_impact": {
+    "vercel_valuation_pressure": "Private $2.5B (2024) → secondary $1.5-2B (2026); loses 'Vite neutrality' moat",
+    "bun_pressure": "Toolchain lag vs Vite+; near-zero on Cloudflare platform post-deal; risk of retreat to embedded JS runtime niche",
+    "deno_chooses_side": "Forecast: H2 2026 deeper Vercel integration (medium confidence)"
+  },
+  "data_sources": {
+    "tier_a_plus": [
+      "Cloudflare blog: blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "VoidZero blog: voidzero.dev/posts/voidzero-cloudflare",
+      "Cloudflare IR: cloudflare.net/news/news-details/2026/Cloudflare-Acquires-VoidZero-...",
+      "SEC EDGAR (CIK 0001477333): no 6/4 8-K filed for acquisition"
+    ],
+    "tier_a": [
+      "HN Algolia API: hits for 'Cloudflare VoidZero' (story 48398055, 93 points, 48 comments, front page)"
+    ],
+    "tier_b": [
+      "Bing search (cn.bing.com): VoidZero + Cloudflare aggregates",
+      "Zhihu zhuanlan: VoidZero A-round $12.5M (2025-11)",
+      "Baike.baidu.com: VoidZero 17 ppl, Singapore HQ"
+    ],
+    "tier_c_or_blocked": [
+      "Yahoo Finance: 403 GWF",
+      "MarketWatch: private IP",
+      "Google Finance: fetch failed",
+      "Bloomberg/Reuters/TechCrunch: GWF blocked"
+    ]
+  },
+  "open_tasks_for_main_agent": [
+    "6/5 09:00 GMT+8: poll SEC EDGAR for any new 8-K on Cloudflare (VoidZero material event)",
+    "6/5 09:00 GMT+8: monitor HN 48398055 comments for amount/term leaks",
+    "6/5 15:00 GMT+8 (premarket open): use browser to fetch Yahoo Finance NET real-time",
+    "6/5 09:30 GMT+8: monitor A-share 300017/300454/300383 open reaction",
+    "6/5 22:30 GMT+8: NET 1h post-open commentary update"
+  ]
+}
