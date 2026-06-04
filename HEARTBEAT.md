@@ -1,10 +1,95 @@
 ### 📊 [系统心跳 - SYSTEM_HEARTBEAT]
-- **当前任务 (Active_Task)**: G-46 三子批次派发 (06:18) + 8:00 Asia 准备 + NFP 14h12min 倒计时
-- **任务进度 (Progress)**: G-46A/B/C 0/3 启动, 限时 12-25min
-- **Token 消耗预警 (Budget)**: ~155K/200K (77%, 健康)
-- **距 8:00 亚洲盘**: 1h42min | 距 16:30 决策点: 10h12min | 距 20:00 F&G v2: 13h42min ⚠️ | 距 20:30 NFP: 14h12min
-- **GFW 状态**: WinHTTP 514ms 通, OpenSSL 仍 21s 阻断, auto-push-v4 6:18 archive 后待 06:30 重试
+- **当前任务 (Active_Task)**: G-46 三子批次失败 → 派单方降级采集完成 (06:33, 4 文件 23KB) + auto-push-v4 重试中
+- **任务进度 (Progress)**: 100% (G-46 失败 → 派单方降级 100% 成功)
+- **Token 消耗预警 (Budget)**: ~170K/200K (85%, 健康)
+- **距 8:00 亚洲盘**: 1h26min | 距 16:30 决策点: 10h56min | 距 20:00 F&G v2: 13h26min ⚠️ | 距 20:30 NFP: 14h56min
+- **GFW 状态**: 三栈全断 06:32 (WinHTTP 8s, OpenSSL 19.5s, Schannel 7.7s), auto-push-v4 重试中
 - **6/13 三重共振**: 8d 19h (GTC Paris 6/11 + NVDA 6/13 + Anthropic S-1 6/15)
+- **aihubmix API 余额**: **0 (G-46 失败根因)** — 待充值后恢复子智能体能力
+
+### 📋 [待办清单 - TODO_STACK]
+- [P0] - **auto-push-v4 重试中** (06:31 启动, GFW 三栈全断, 持续重试 30s/60s/120s)
+- [P0] - **8:00 亚洲盘开盘** (1h26min): BTC 24h 路径决定, 派 G-47 异动归因
+- [P0] - **16:00 pre-market + 16:30 决策点** (9h26min / 10h56min)
+- [P0] - **20:00 F&G v2 阈值** (13h26min) ⚠️ F&G 12 持续 35h+ 历史第 3 长
+- [P0] - **20:30 NFP 实际值** (14h56min): 派 G-48 异动归因, 共识 85K / UR 4.3% / 时薪 3.4%
+- [P1] - **07:30 补采**: 黄金/原油/AI News 剩余 2 家 (DeepSeek 404 + HF fetch failed)
+- [P1] - **aihubmix 充值**: 派单方需在 06:33 充值或下轮 (cron 自然) 升级
+- [DONE] - **G-46 派单方降级 4 文件 23KB** (06:33): INTEL + tech-news + farside + v43
+- [DONE] - **G-37A 第五门升级**: API 健康预检 (派单方派单前 test call)
+- [DONE] - **MEMORY 刷新** (4.3h → 0h 老化)
+- [DONE] - **cron-watchdog 6:30 ALERT** (940B, UNHEALTHY 1 错误)
+- [DONE] - **本地 commit b719f79** (15 files, 2969+ / 906-)
+
+### ⚠️ [错误日志 - ERROR_LOG]
+- **失败记录 #N-9 (本轮新增)**: **aihubmix API 余额不足** (403), G-46A/B/C 三子智能体 1-3min 空跑 0 字节
+  - 规避策略: G-37A 第五门 "API 健康预检" — 派单方派单前 5min 内 test call 验证余额
+  - 降级路径: 派单方直接 PowerShell 脚本 + web_fetch (本次成功降级)
+- **失败记录 #N-8 (本轮新发现)**: auto-push-v4 06:31 GFW 三栈全断 (WinHTTP 8s + OpenSSL 19.5s + Schannel 7.7s)
+  - 规避策略: auto-push-v4 archive 模式稳定, 下次 09:00 cron 推送
+- **失败记录 #N-7 (历史)**: G-42 NFP 矩阵使用 130K 错误基线 (未更新 ADP 后的 85K) — v41 已修正
+- **失败记录 #N-6 (历史)**: AINewsCollector_0400 部署但未注册 (5:50 修复)
+- **失败记录 #N-5 (历史)**: GFW 05:27-05:35 all-down 持续 8min
+- **规避策略**:
+  - 任何 cron 脚本: 部署 + 语法 + **注册** + 首次运行验证 (四重门控)
+  - 子智能体: 强制 write + 路径 + 字节数 + 限时 + **API 健康预检** (G-37A 第五门)
+  - 数据基线冲突: 至少 2 个子智能体独立验证, 偏差 >20% 标"信源待考"
+  - 推送: auto-push-v4 archive 模式稳定, 30s/60s/120s 指数退避
+
+### 📡 G-46 派单方降级 4 文件 (06:33)
+- **INTEL/agent-meta-planner-asia-open-prep-2026-06-05-0623.md (9.5KB)**: 8:00 Asia 准备 + GH/HN/AI News 综合
+- **data/ai/tech-news-2026-06-05_06-29.json (5.4KB)**: 4/6 AI 博客 (Anthropic+OpenAI+DeepMind+Meta)
+- **data/etf/farside-6-5-prediction-2026-06-05-0623.md (3.4KB)**: 3 场景预测 (中性 50%)
+- **briefings/2026-06-05-v43-asia-prep-0623.md (4.8KB)**: BLUF + 5 P0/P1 + 3 风险
+
+### 🔧 G-46 失败关键发现 (派单方元规划者方法论)
+- **G-37A 铁律升级 (5 门)**:
+  1. 强制 write_file (必须实际调用 write 工具)
+  2. 路径正确 (全路径含工作区根)
+  3. 字节数门槛 (写盘后 echo "X/Y 文件 [字节数总和]KB")
+  4. 限时 (派发时明确 min 限时, 超时 partial 写盘 + 报错)
+  5. **API 健康预检** (派单方派单前 5min 内 test call 验证余额) ⭐ 新增
+
+- **降级路径价值**:
+  - 子智能体失败 ≠ 任务失败, 派单方 5min 内降级
+  - web_fetch 直采 AI 博客比子智能体更快, 抓到 HN NSA Mythos 等关键信号
+  - 派单方 = 上下文 + 交叉验证 + 降级路径 + 元规划
+
+### 📊 关键数据状态 (06:33)
+- **价格 06:00 OKX**: BTC $63,370.30 / ETH $1,764.66 / SOL $67.95
+- **F&G 12 持续 35h+** (历史第 3 长, 6/3 20:00 起) — v2 阈值 (48h) 今晚 20:00 触发
+- **NFP 14h56min 倒计时**: 共识 85K / UR 4.3% / 时薪 3.4%
+- **HN 6/23 关键信号**: NSA using Anthropic Mythos (P0) + AI Builds Itself (P0) + Iran Shock Energy (P0)
+- **GH Trending Top 3**: antirez/ds4 12.9k★ (DeepSeek 4 Flash 本地) + microsoft/SkillOpt 4.9k★ (AI 技能压缩)
+- **AI 博客**: Anthropic Glasswing 4/7 (11家巨头联盟) + DeepMind Gemini 3.5/Co-Scientist + Meta Age Assurance
+- **aihubmix 余额**: 0 (G-46 失败根因, 待充值)
+
+### 🛠️ 6/13 三重共振倒计时 8d 19h
+- **6/11-12 GTC Paris** (黄仁勋主题演讲, Blackwell Ultra 8/15 出样预期)
+- **6/13 NVDA 财报** (北京时间 6/14 05:00, 5 大看点: Blackwell 出货/Q2 指引/毛利率/HBM库存/客户结构)
+- **6/15 Anthropic S-1** (Tender 6/4 $965B 锁定, 92% 提交概率, NSA Mythos + Glasswing 双向影响)
+- **新增 5 个二阶关联**:
+  1. NSA Mythos (HN 6/5) — Anthropic S-1 政治风险升级, IPO 估值 -5-10%
+  2. Project Glasswing 4/7 — 11 家巨头安全联盟 = "安全溢价", IPO 估值 +5-8%
+  3. antirez/ds4 + SkillOpt — 边缘推理 + 技能压缩, NVDA 6/13 财报"低空飞行"风险上升
+  4. KVarN (Huawei vLLM KV-cache) — 中国 AI 突破, NVDA 数据中心增速下修
+  5. Iran Shock Energy — 油价 +5% 概率上升, 6/5 ISM Services 通胀分项可能反弹
+
+### 📊 子智能体累计 (今日 28 件)
+- G-40 (2件 ✅) + G-41/42/43 (3件 ✅) + G-44/45 (2件 ✅) = 7 件 100% 成功
+- **G-46A/B/C (3件 ❌)** — aihubmix 余额 0, 派单方已降级补采 (5 件 / 0 件率)
+- 历史 25/28 = 89% 成功率
+
+### 🎯 派单方 TODO (4h 内)
+- 07:30 黄金/原油/AI News 剩余 2 家补采 (DeepSeek 404 / HF fetch failed)
+- 08:00 亚洲盘开盘 + 派 G-47 8h 异动归因
+- 16:00 pre-market + 16:30 决策点
+- 20:00 F&G v2 阈值检查 ⚠️
+- 20:30 NFP 实际值 → 派 G-48 异动归因
+- 22:00 ISM Services 二次确认
+
+---
+*本快照由 2026-06-05 06:35 心跳自动生成 | 派发方: agent:gida:meta-planner | 第 42 次心跳 | G-46 派单方降级采集完成*
 
 ### 📋 [待办清单 - TODO_STACK]
 - [P0] - **G-46A 回报验证** (runId 7226495c, 25min 限时, 06:43 验证): 8:00 Asia 准备 + Farside 6/5 + v43 简报 → 3 文件 ≥18KB
