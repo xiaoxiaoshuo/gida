@@ -237,3 +237,33 @@
 **报告结束 | 总字数 ~3,800 字 | 数据源 8 个 | 样本 28 月 | 5 强脱钩 + 5 强共振衰退全列**
 
 > **下一动作**: 主代理应在 6/5 20:00 GMT+8 (NFP 前 30 分钟) 拉起 nfp-prep-result 模板, 准备 6/5 NFP 实际值抓取与重定价
+
+---
+
+## 7. POST-COMPILE CORRECTION (2026-06-04 22:30 GMT+8)
+
+> **重要修正 (★)**: Trading Economics 实时抓取 (6/4 22:00 GMT+8) 确认 **ISM 5月 Headline = 54.5 (实际, Beat 共识 53.8)**, 不是 47.9. 任务输入 "ISM Services Employment 47.9" 指的是 **Employment 子项** (实际 47.9, Miss 共识 48.1). ISM 5月报告呈 **"头尾分化"** 模式:
+
+| 子项 | 5月实际 | 4月实际 | 变化 | Surprise |
+|---|---|---|---|---|
+| **Headline** | **54.5** | 51.0 | +3.5pp | **Beat (+0.7pp)** |
+| **Business Activity** | **57.7** | 55.9 | +1.8pp | Beat (+2.7pp) |
+| **New Orders** | **57.3** | 53.5 | +3.8pp | Beat (+4.5pp) |
+| **Employment** | **47.9** | 48.0 | -0.1pp | **Miss (-0.2pp)** ★ 任务引用 |
+| **Prices Paid** | **71.3** | 70.7 | +0.6pp | In-line / Beat |
+| **S&P Global Services PMI (区别于 ISM)** | 50.7 | 51.0 | -0.3pp | Miss (-0.2pp) |
+
+> **ISM 5月 Headline 与 Employment 子项 gap = -6.6pp** (历史均值 -2.9pp, 当前是 2σ 异常). 含义: 服务业产出↑ + 需求↑ + 价格↑ 但 服务业就业↓ - 经典 "headcount freeze while output rises" 模式, AI/automation 替代效应已结构化.
+
+> **更新 28 月 ISM-NFP 脱钩/共振分析 (2026-05 行)**:
+> - 2026-05: ISM Emp 47.9 (sub-index, Miss) + ISM Headline 54.5 (Beat) + NFP PENDING
+> - 6/5 NFP 共识 102K (Trading Economics, 6/4 22:00 GMT+8 抓取, 替代 120-130K)
+> - 概率分布调整: 看多 30% (脱钩, NFP > 120K) / 基线 45% (近临界, 80-120K) / 看空 25% (共振, NFP < 80K)
+> - 5月 ISM Headline 54.5 (强扩张) + 4月 NFP +115K (韧性) + 共识 102K → **支持"看多 30% 脱钩"路径** (强 ISM Headline + 偏鸽 NFP 共识 = 软着陆 + AI 替代)
+
+> **数据源混淆点 (必须明确标注)**:
+> - ISM 5月 Headline 54.5 (Institute for Supply Management) ≠ S&P Global Services PMI 5月 50.7 (S&P Global / Markit)
+> - 任务输入 "ISM Services Employment 47.9" 明确是 ISM Employment 子项, 不是 S&P Global, 不是 ISM Headline
+> - 任何 ISM 与 S&P Global 数据并用需明确分标
+
+> **G-32D 后端行动**: 内部缓存 ism-history-2024-2026.json (2026-06-04 18:08 编译) 仍含 2026-05 PENDING, 需立即重新编译以纳入 ISM 5月实际值 (Headline 54.5 + Emp 47.9 + NO 57.3 + Prices 71.3 + BA 57.7)

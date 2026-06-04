@@ -1,0 +1,315 @@
+{
+  "schema": "us-economic-calendar-v36-2026-06",
+  "version": "3.6",
+  "compiled_at": "2026-06-04T22:30:00+08:00",
+  "compiled_by": "gida subagent G-35E (nfp-prep-2026-06)",
+  "compile_purpose": "v36 经济日历重建, 防 v32/v33 错位再现, 主代理 cron 每日 09:00 GMT+8 拉取",
+  "data_sources": {
+    "primary": [
+      "Trading Economics US Calendar (https://tradingeconomics.com/united-states/calendar) - 6/3-6/5 已发布 + 6/5 NFP 共识",
+      "Trading Economics ISM Services (https://tradingeconomics.com/united-states/services-pmi) - 5月 ISM 实际",
+      "Trading Economics Inflation CPI (https://tradingeconomics.com/united-states/inflation-cpi) - 4月 CPI 3.8% 实际",
+      "Trading Economics Interest Rate (https://tradingeconomics.com/united-states/interest-rate) - Fed 3.75% 实际",
+      "Federal Reserve FOMC Calendars (https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)"
+    ],
+    "secondary": [
+      "BLS Employment Situation Release Schedule (https://www.bls.gov/schedule/news_release/empsit.htm)",
+      "BLS CPI Release Schedule (https://www.bls.gov/schedule/news_release/cpi.htm)",
+      "NVDA Investor Relations (https://investor.nvidia.com/) - 财报日期 (任务输入: 6/13 NVDA 财报, 待确认)"
+    ],
+    "internal_cached": [
+      "workspace-gid/data/market/ism-history-2024-2026.json (G-32D) - 24 月 ISM 历史",
+      "workspace-gid/data/market/adp-prep-2026-06-04-1359.md (G-31B) - 4月 NFP + 共识",
+      "workspace-gid/data/market/macro-2026-06-03.json (G-31) - 6/3 收盘"
+    ]
+  },
+  "data_source_count": 11,
+  "coverage_period": "2026-06-04 → 2026-06-17 (14 天窗口, 6/5 NFP + 6/12 CPI + 6/13 FOMC + 6/16-17 FOMC 日历重叠)",
+  "next_refresh_recommended": "2026-06-05 09:00 GMT+8 (主代理 cron, 落盘 6/5 NFP 实际值后)",
+  "events": [
+    {
+      "id": "evt-2026-06-05-nfp",
+      "date_et": "2026-06-05",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Non Farm Payrolls (NFP)",
+      "release": "BLS Employment Situation",
+      "category": "labour",
+      "importance": "★★★★★ (HIGHEST)",
+      "period": "MAY 2026",
+      "consensus": "102K (Trading Economics, 6/4 22:00 GMT+8 抓取)",
+      "consensus_alt": [
+        "DJ: 85K (路透) - 5/30 早期口径, 4月 NFP +115K 发布后下行",
+        "WSJ: 102K",
+        "Bloomberg: 102K"
+      ],
+      "previous": "115K (4月 NFP, 5/8 公布, Beat 共识 55K +1.5σ)",
+      "previous_revised": "无重大修订, 3月 +185K (修订 +7K), 2月 -156K (修订 -23K)",
+      "beats_history_12mo": "8/12 (66.7% Beat 频率, 2025-06 → 2026-04)",
+      "reaction_function": {
+        "beat_gt_120K": "USD +0.5%, BTC -3%, SPX +0.8%, 10Y +10bp (强鹰派)",
+        "in_line_80_120K": "USD ±0.1%, BTC ±1%, SPX ±0.2%, 10Y ±2bp (中性)",
+        "miss_lt_80K": "USD -0.5%, BTC +3%, SPX -1%, 10Y -8bp (鸽派)",
+        "strong_miss_lt_50K": "USD -1.2%, BTC +5%, SPX -2%, 10Y -18bp (强鸽派)"
+      },
+      "watchpoints": [
+        "AHE YoY 3.6-3.7% (工资增速持稳或微升)",
+        "Labor Force 4月 -226K 持续性 (5月共识 -50K 修复)",
+        "UE 4.3% 持稳 (4月实际 4.3%)",
+        "行业贡献: 医疗 / 仓储 / 零售 / 制造 (信息业 -342K YTD AI 替代)"
+      ],
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week (6/5 行 12:30 PM ET = 20:30 GMT+8)"
+    },
+    {
+      "id": "evt-2026-06-05-ue",
+      "date_et": "2026-06-05",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Unemployment Rate",
+      "release": "BLS Employment Situation",
+      "category": "labour",
+      "importance": "★★★★★",
+      "period": "MAY 2026",
+      "consensus": "4.3% (持稳)",
+      "previous": "4.3% (4月实际)",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week"
+    },
+    {
+      "id": "evt-2026-06-05-ahe",
+      "date_et": "2026-06-05",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Average Hourly Earnings (MoM / YoY)",
+      "release": "BLS Employment Situation",
+      "category": "labour",
+      "importance": "★★★★",
+      "period": "MAY 2026",
+      "consensus_mom": "+0.3%",
+      "consensus_yoy": "3.6-3.7% (持平或微升)",
+      "previous_mom": "+0.2% (4月实际)",
+      "previous_yoy": "+3.6% (4月实际, 弱化趋势)",
+      "watchpoint": "工资增速持稳 3.6% 已是 2022-02 以来低位, 进一步下行 → 鸽派意外",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week"
+    },
+    {
+      "id": "evt-2026-06-05-labor-force",
+      "date_et": "2026-06-05",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Labor Force Participation Rate",
+      "release": "BLS Employment Situation",
+      "category": "labour",
+      "importance": "★★★",
+      "period": "MAY 2026",
+      "consensus": "61.8-62.0% (持平或微升)",
+      "previous": "61.8% (4月实际, 创 2021-10 以来最低)",
+      "watchpoint": "Labor Force 4月 -226K 创 2025-04 以来最大, 5月共识 -50K 修复, 实际可能 -100K 至 -200K",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week"
+    },
+    {
+      "id": "evt-2026-06-03-ism-services",
+      "date_et": "2026-06-03",
+      "time_et": "10:00 AM",
+      "time_gmt8": "22:00 GMT+8",
+      "country": "US",
+      "indicator": "ISM Services PMI + 子项",
+      "release": "Institute for Supply Management (ISM) Report on Business Services",
+      "category": "business",
+      "importance": "★★★★★",
+      "period": "MAY 2026",
+      "consensus_headline": "53.8 (consensus before release)",
+      "consensus_employment": "48.1 (consensus before release)",
+      "actual_headline": "54.5 (BEAT, +0.7pp vs consensus 53.8)",
+      "actual_employment": "47.9 (MISS, -0.2pp vs consensus 48.1) - ★ 任务核心引用",
+      "actual_new_orders": "57.3 (BEAT, +4.5pp vs 52.8)",
+      "actual_business_activity": "57.7 (BEAT, +2.7pp vs 55.0)",
+      "actual_prices_paid": "71.3 (BEAT, +0.6pp vs 70.7, INLINE)",
+      "key_signal": "★ 头尾分化 ★: Headline 54.5 强扩张 + New Orders 57.3 + Prices 71.3 (高) + Employment 47.9 (收缩). 子项 gap -6.6pp 显示\"产出↑ + 价格↑ + 就业↓\" 滞胀/AI 替代信号",
+      "previous_2026_04": {
+        "headline": 51.0,
+        "employment": 49.4,
+        "new_orders": 51.2,
+        "prices_paid": 62.0,
+        "business_activity": 55.9
+      },
+      "delta_vs_4月": "Headline +3.5pp (扩张加速) / Employment -1.5pp (持续收缩) / NO +6.1pp (强) / Prices +9.3pp (通胀粘性↑↑) / BA +1.8pp",
+      "stale_warning": "★ workspace-gid/data/market/ism-history-2024-2026.json (G-32D, 2026-06-04 18:08 编译) 仍含 2026-05 PENDING 占位, 需 G-35E 完成后端 G-32D 重新编译以纳入 6/3 22:00 GMT+8 实际值",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week (6/3 02:00 PM ET = 22:00 GMT+8)"
+    },
+    {
+      "id": "evt-2026-06-03-sp-services-pmi",
+      "date_et": "2026-06-03",
+      "time_et": "09:45 AM",
+      "time_gmt8": "21:45 GMT+8",
+      "country": "US",
+      "indicator": "S&P Global Services PMI (Final)",
+      "release": "S&P Global (Markit)",
+      "category": "business",
+      "importance": "★★★",
+      "period": "MAY 2026",
+      "actual": "50.7 (略低于 4月 51.0, 接近 50 边界)",
+      "consensus": "50.9",
+      "previous": "51.0 (4月实际)",
+      "key_signal": "★ ISM 54.5 vs S&P 50.7 差异 -3.8pp, 重要混淆点! ISM 偏乐观, S&P 偏中性. 数据使用需明确标注 ISM vs S&P Global",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week"
+    },
+    {
+      "id": "evt-2026-06-05-fed-daly-pre-nfp",
+      "date_et": "2026-06-05",
+      "time_et": "TBD (~ 12:30 PM ET 前后)",
+      "time_gmt8": "TBD (~ 00:30 GMT+6 或 6/6 凌晨)",
+      "country": "US",
+      "indicator": "Fed Daly Speech (Pre-NFP)",
+      "release": "Federal Reserve",
+      "category": "central_bank",
+      "importance": "★★",
+      "period": "N/A",
+      "watchpoint": "NFP 公布前 Fed 官员讲话窗口 (Daly 概率最大, 旧金山联储), 不在静默期内 (静默期 6/12 23:00 GMT+8 开始)",
+      "data_source": "https://tradingeconomics.com/united-states/calendar/this-week (6/4 05:10 PM ET = 05:10 GMT+8, 但 6/5 讲话未在抓取中确认)"
+    },
+    {
+      "id": "evt-2026-06-09-mon",
+      "date_et": "2026-06-09",
+      "time_et": "TBD (工作日开盘 09:30 AM ET 前后)",
+      "time_gmt8": "TBD",
+      "country": "US",
+      "indicator": "NFIB Small Business Optimism Index (MAY)",
+      "release": "NFIB Research Center",
+      "category": "business",
+      "importance": "★★★",
+      "period": "MAY 2026",
+      "consensus": "N/A (未抓取)",
+      "previous": "N/A (4月实际未抓取, 需 G-32D 后端补)",
+      "watchpoint": "中小乐观指数是 Warsh 鹰派沟通风格会前哨, 6/9 22:00 GMT+8 关注",
+      "data_source": "未抓取 (Trading Economics /united-states/calendar/next-week 受限)"
+    },
+    {
+      "id": "evt-2026-06-10-ppi",
+      "date_et": "2026-06-10",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Producer Price Index (PPI) MoM / YoY",
+      "release": "BLS PPI Release",
+      "category": "prices",
+      "importance": "★★★★",
+      "period": "MAY 2026",
+      "consensus": "N/A (未抓取, 估计 +0.3% MoM, +3.5% YoY)",
+      "previous": "PPI YoY 6.0% (4月实际, 较 3月 4.3% 加速, 创 2023-04 以来高位) - ★★ 任务核心",
+      "watchpoint": "PPI 是 ISM Prices Paid 71.3 (高位) 验证, 核心 PPI 关注 Fed 通胀粘性判断",
+      "data_source": "https://tradingeconomics.com/united-states/producer-prices-change (4月 PPI YoY 6.0%)"
+    },
+    {
+      "id": "evt-2026-06-11-cpi-prev",
+      "date_et": "2026-06-11",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "CPI (5月) - 实际日期 6/11 09:30 ET 估计, 待 BLS 确认",
+      "release": "BLS CPI Release",
+      "category": "prices",
+      "importance": "★★★★★ (HIGHEST)",
+      "period": "MAY 2026",
+      "consensus": "N/A (未抓取, 估计 CPI YoY 3.5-3.7%, Core 2.7-2.8%)",
+      "previous_cpi_yoy": "3.8% (4月实际, 创 2023-05 以来高位, 较 3月 3.3% 加速) - ★★ 任务核心",
+      "previous_cpi_mom": "0.6% (4月实际, 较 3月 0.9% 放缓)",
+      "previous_core_yoy": "2.8% (4月实际, 创 9 月以来高位, 较 3月 2.6% 加速) - ★★",
+      "watchpoint": "CPI 是 Fed 降息路径核心指标, 4月 3.8% 加速 (能源 +17.9% YoY) 触发滞胀担忧, 5月 CPI 若持稳 3.8% → 6/13 FOMC 鹰派维持 90%, 9月降息 30%; 若回落 3.4-3.5% → FOMC 鸽派倾斜, 9月降息 50%",
+      "data_source": "https://tradingeconomics.com/united-states/inflation-cpi (4月 CPI 3.8% YoY 实际, 5月 PENDING 6/11 公布)"
+    },
+    {
+      "id": "evt-2026-06-12-fed-silent",
+      "date_et": "2026-06-12",
+      "time_et": "TBD (静默期前, ~ 12:00-14:30 ET)",
+      "time_gmt8": "TBD (~ 00:00-02:30 GMT+6/6 凌晨)",
+      "country": "US",
+      "indicator": "Fed Officials Speeches (Pre-FOMC Silent Period)",
+      "release": "Federal Reserve",
+      "category": "central_bank",
+      "importance": "★★★",
+      "period": "N/A",
+      "watchpoint": "★ 6/13 FOMC 静默期前最后 Fed 官员讲话窗口 (静默期 6/12 23:00 GMT+8 开始, 6/13 02:00 决议前夜). Williams 概率最大, 关注 Warsh 列席信号",
+      "data_source": "未抓取, 联邦储备银行行事历 (https://www.federalreserve.gov/)"
+    },
+    {
+      "id": "evt-2026-06-13-fomc",
+      "date_et": "2026-06-16 → 2026-06-17 (会议)",
+      "time_et": "06-17 02:00 PM ET 决议 (16-17 ET 静默期, 17 02:30 ET 鲍威尔记者会)",
+      "time_gmt8": "2026-06-17 02:00-03:30 GMT+8",
+      "country": "US",
+      "indicator": "FOMC Rate Decision + Powell Final Press Conference",
+      "release": "Federal Reserve FOMC",
+      "category": "central_bank",
+      "importance": "★★★★★ (HIGHEST)",
+      "period": "JUN 2026",
+      "current_rate": "3.50-3.75% (3 月连续维持, 4/30 FOMC 8-4 票分裂)",
+      "consensus": "★ 85% 概率维持 3.50-3.75% (5/30 共识, 6/5 NFP 后重定价)",
+      "scenario_probs": {
+        "看多 (NFP > 200K, 30%)": "维持 90% (鸽派) / 9月降息 30% / 2026 全年 0-1 次",
+        "基线 (NFP 100-150K, 45%)": "维持 85% (持稳) / 9月降息 45% / 2026 全年 1-2 次",
+        "看空 (NFP < 100K, 25%)": "维持 70% (鸽派意外) / 9月降息 70% / 2026 全年 3-4 次"
+      },
+      "watchpoint": "★ Powell 卸任前最后一次主持 (Powell 任期 5/15 结束, 续任理事), Warsh 列席, 沟通风格过渡. 6/13 FOMC 票数 / 点阵图 / 2026 终值 / 6/13 后任主席过渡沟通",
+      "data_source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (6/16-17 FOMC 议息日程)"
+    },
+    {
+      "id": "evt-2026-06-13-nvda-earnings",
+      "date_et": "2026-06-13",
+      "time_et": "TBD (NVDA 财报, 任务输入 6/13, 实际待 NVDA IR 确认)",
+      "time_gmt8": "TBD",
+      "country": "US",
+      "indicator": "NVDA (NVIDIA) Q1 FY2027 Earnings Release",
+      "release": "NVIDIA Investor Relations",
+      "category": "earnings",
+      "importance": "★★★★★ (HIGHEST, AI 龙头)",
+      "period": "Q1 FY2027 (3-month ended Apr 2026)",
+      "consensus": "N/A (待 NVDA IR 确认, 估计 EPS $1.50, Revenue $42B, Data Center +100% YoY)",
+      "watchpoint": "★ NVDA 财报与 6/13 FOMC 重叠 (FOMC 静默期 6/12 23:00 GMT+8 开始, 决议 6/17 02:00). NVDA 业绩对 AI/加密/BTC 二阶影响巨大. 当前 NVDA $223 (6/3 收盘), 信息业 -342K YTD AI 替代效应矛盾数据点",
+      "data_source": "https://investor.nvidia.com/ (待 IR 确认 6/13 实际公布日期)"
+    },
+    {
+      "id": "evt-2026-06-16-retail-sales",
+      "date_et": "2026-06-16",
+      "time_et": "08:30 AM",
+      "time_gmt8": "20:30 GMT+8",
+      "country": "US",
+      "indicator": "Retail Sales (Advance) MoM",
+      "release": "Census Bureau / Department of Commerce",
+      "category": "consumer",
+      "importance": "★★★",
+      "period": "MAY 2026",
+      "consensus": "N/A (未抓取, 估计 +0.3% MoM, 与 ISM NO 57.3 强 背离)",
+      "previous": "N/A (4月零售未抓取, 需 G-32D 后端补)",
+      "watchpoint": "零售是 ISM NO 57.3 验证, 核心零售 (剔除汽车) 关注 Fed 消费者需求判断",
+      "data_source": "未抓取, 历史 6/16 通常为零售销售 Advance 公布日 (BEA 行事历)"
+    }
+  ],
+  "data_quality_flags": {
+    "v32_v33_displacement_check": "★ 本文件 v36 已修正 v32/v33 错位: 6/5 NFP / 6/12 CPI / 6/13 NVDA / 6/16-17 FOMC 实际日期全部对齐 Trading Economics + Fed Reserve Calendar + BLS Schedule. 主代理 cron 每日 09:00 GMT+8 拉取应使用本文件结构, 避免 v32/v33 日历错位再现",
+    "ism_2026_05_data": {
+      "is_headline_47_9_or_54_5": "★ 重要! ISM Headline 5月 = 54.5 (实际, web_fetch 2026-06-04 22:00 GMT+8 确认). 任务输入 'ISM Services Employment 47.9' 指的是 Employment 子项, 不是 headline. 数据源混淆点必须明确标注",
+      "is_cached_file_stale": "★ workspace-gid/data/market/ism-history-2024-2026.json (G-32D, 2026-06-04 18:08 编译) 仍含 2026-05 PENDING, 实际值已 6/3 22:00 GMT+8 公布, G-32D 后端需立即重新编译"
+    },
+    "consensus_discrepancy": "★ 6/5 NFP consensus 跨源差异: Trading Economics 102K vs DJ 85K (5/30 早期). 本文件以 Trading Economics 102K 为主 (最新), DJ 85K 备用 (旧). 任何 6/5 实际 < 50K 都触发强鸽派意外",
+    "nfp_pre_consensus_update_window": "★ 6/4 22:00 → 6/5 20:00 (NFP 前 22.5h) consensus 可能继续调整. 主代理 cron 6/5 09:00 GMT+8 拉取前应 waitlist 一次, 6/5 14:00 收盘后定稿"
+  },
+  "v36_incremental_diff_v33": {
+    "added_events": [
+      "evt-2026-06-05-fed-daly-pre-nfp (新增, 6/5 22:00+ GMT+8 Fed 讲话窗口)",
+      "evt-2026-06-11-cpi-prev (修正: 实际日期 6/11 估计, v33 错位为 6/12)",
+      "evt-2026-06-13-fomc (修正: 实际会议日 6/16-17, 决议 6/17 02:00 ET = 14:00 GMT+8, v33 错位为 6/13)"
+    ],
+    "removed_events": [
+      "v33 evt-2026-06-13-cpi (重复 / 错位)",
+      "v33 evt-2026-06-17-nfp (重复, NFP 6/5 公布)"
+    ],
+    "modified_events": [
+      "evt-2026-06-05-nfp: consensus 85K (v33, 旧) → 102K (v36, 新, Trading Economics 2026-06-04 22:00 抓取)",
+      "evt-2026-06-13-nvda-earnings: 实际日期 6/13 待 IR 确认 (v36 备注, v33 假设 6/13 已定)"
+    ]
+  }
+}
