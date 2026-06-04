@@ -1,0 +1,127 @@
+﻿[
+    {
+        "confidence":  "C",
+        "name":  "_graphql/GetSuggestedNavigationDestinations",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "0xbyt4/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "2000/svg",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "AbdullahY36/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "accessibility/keyboard-shortcuts",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "advanced-security/code-security",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "advanced-security/secret-protection",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "affaan-m/ECC",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "affaan-m/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "afourney/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "ai/github-app",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "ai-ag2026/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "airllm/forks",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "airllm/stargazers",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "Anri-Lombard/hovercard",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "apps/dependabot",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "apps/github-actions",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "apps/github-copilot-cli",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "apps/greptile-apps",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "aquasecurity/trivy",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "assets/26533-318ac47648fb7752.js",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "assets/28000-450a3042fe455862.js",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "assets/2887-d67f71d8e1d3e1d8.js",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "assets/296-20965d7d607b213c.js",
+        "source":  "web_fetch_partial"
+    },
+    {
+        "confidence":  "C",
+        "name":  "assets/30058-4f7b63da3786282e.js",
+        "source":  "web_fetch_partial"
+    }
+]
