@@ -6,9 +6,14 @@
 
 $logFile = "C:\Users\Administrator\clawd\agents\workspace-gid\data\ai\cron_wrapper.log"
 $workspace = "C:\Users\Administrator\clawd\agents\workspace-gid\scripts"
+$rootDir   = "C:\Users\Administrator\clawd\agents\workspace-gid"
+
+# 修复 2026-06-04 18:35: 强制锁定 WorkingDirectory 到 workspace-gid 根目录
+# 防止 Scheduled Task 默认 C:\WINDOWS\system32 解析相对路径失败
+Set-Location $rootDir
 
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-Add-Content -Path $logFile -Value "$timestamp - Wrapper started (v2, 2026-06-04 fix)"
+Add-Content -Path $logFile -Value "$timestamp - Wrapper started (v2, 2026-06-04 fix, Set-Location $rootDir)"
 
 # 任务 1: HN Top 抓取
 Add-Content -Path $logFile -Value "$timestamp - Running fetch-hn-top30-v2.ps1"
