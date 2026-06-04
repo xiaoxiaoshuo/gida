@@ -1,0 +1,75 @@
+{
+  "collected_at": "2026-06-05T06:29:00+08:00",
+  "collector": "agent:gida:meta-planner (degraded after G-46 subagent 403)",
+  "time_window": "2026-05-01 to 2026-06-05",
+  "sources": [
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "status": "OK",
+      "items": [
+        {"date": "2026-04-07", "title": "Project Glasswing", "url": "https://www.anthropic.com/news", "summary": "11家科技金融巨头联合安全联盟: AWS+Anthropic+Apple+Broadcom+Cisco+CrowdStrike+Google+JPM+Linux+MS+NVDA+Palo Alto. 公开市场第一次 AI 安全 = 行业标准, Anthropic IPO 估值安全溢价", "tags": ["security", "consortium", "IPO-valuation"]},
+        {"date": "2026-04-17", "title": "Introducing Claude Design by Anthropic Labs", "url": "https://www.anthropic.com/news", "summary": "Claude 协作设计产品, 设计/原型/幻灯片/单页文档", "tags": ["product", "claude-design"]},
+        {"date": "2026-03-18", "title": "What 81,000 people want from AI", "url": "https://www.anthropic.com/news", "summary": "最大型多语言定性研究, 81000 用户参与", "tags": ["research", "user-study"]},
+        {"date": "2026-02-04", "title": "Claude is a space to think (ad-free)", "url": "https://www.anthropic.com/news", "summary": "Claude 永不加广告, 拒绝广告激励, 巩固用户信任", "tags": ["product", "trust", "PBC"]}
+      ]
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/",
+      "status": "OK",
+      "items": [
+        {"date": "2026-06-02", "title": "Advancing youth safety and opportunity through global leadership", "url": "https://openai.com/news/", "summary": "全球青少年安全合作, 弱化 AGI 营销, 强调安全责任", "tags": ["safety", "youth", "global-leadership"]}
+      ]
+    },
+    {
+      "name": "DeepMind",
+      "url": "https://deepmind.google/blog/",
+      "status": "OK",
+      "items": [
+        {"date": "2026-05", "title": "Gemini Omni", "url": "https://deepmind.google/blog/", "summary": "Google DeepMind 新一代 Omni 多模态模型", "tags": ["model", "multimodal", "gemini"]},
+        {"date": "2026-05", "title": "Gemini 3.5: frontier intelligence with action", "url": "https://deepmind.google/blog/", "summary": "Gemini 3.5 frontier intelligence, 强调 action 能力 (代理)", "tags": ["model", "frontier", "gemini-3.5"]},
+        {"date": "2026-05", "title": "Gemini for Science", "url": "https://deepmind.google/blog/", "summary": "AI 实验和工具用于科学发现", "tags": ["science", "AI4Science"]},
+        {"date": "2026-05", "title": "Co-Scientist: A multi-agent AI partner to accelerate research", "url": "https://deepmind.google/blog/", "summary": "多智能体 AI 加速研究", "tags": ["agent", "research"]},
+        {"date": "2026-05", "title": "Google Antigravity 2.0", "url": "https://deepmind.google/blog/", "summary": "Google 通用 AI 平台 v2", "tags": ["platform"]},
+        {"date": "2026-04", "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning", "url": "https://deepmind.google/blog/", "summary": "具身智能 + 机器人任务", "tags": ["robotics", "embodied-AI"]},
+        {"date": "2026-04", "title": "Gemma 4: Byte for byte, the most capable open models", "url": "https://deepmind.google/blog/", "summary": "Gemma 4 12B 开源最强模型 (G-43 12B 三足鼎立基准)", "tags": ["open-source", "gemma-4"]},
+        {"date": "2026-04", "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact", "url": "https://deepmind.google/blog/", "summary": "Gemini 驱动的 coding agent 跨领域扩展", "tags": ["agent", "coding"]},
+        {"date": "2026-04", "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training", "url": "https://deepmind.google/blog/", "summary": "分布式 AI 训练新前沿", "tags": ["research", "training"]}
+      ]
+    },
+    {
+      "name": "Meta AI",
+      "url": "https://about.fb.com/category/ai/",
+      "status": "OK",
+      "items": [
+        {"date": "2026-05", "title": "New AI-Powered Age Assurance Measures to Place Teens in Age-Appropriate Experiences", "url": "https://about.fb.com/news/2026/05/ai-age-assurance-teens/", "summary": "Meta AI 视觉分析青少年年龄, 强化 EU/巴西/US 监管, 与 OpenAI/Anthropic 同步强调青少年安全", "tags": ["safety", "youth", "regulation"]}
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/",
+      "status": "FAILED (404)",
+      "items": [],
+      "note": "URL 失效, 派单方降级用 GH Trending antirez/ds4 (12.9k★, DeepSeek 4 Flash 本地推理) 替代"
+    },
+    {
+      "name": "Hugging Face",
+      "url": "https://huggingface.co/blog",
+      "status": "FAILED (network error)",
+      "items": [],
+      "note": "Web fetch 失败, 派单方降级等待 07:00 重试"
+    }
+  ],
+  "summary": {
+    "total_items": 15,
+    "p0_signals": 4,
+    "key_themes": [
+      "AI 安全 = 行业标准 (Anthropic Glasswing + OpenAI/Meta 青少年保护)",
+      "Gemini 3.5 frontier + Co-Scientist = 代理战争升级",
+      "Gemma 4 开源对标 Qwen3 / Llama 4 (G-43 12B 三足鼎立)",
+      "具身智能 Gemini Robotics-ER 1.6 + AlphaEvolve coding agent",
+      "DeepSeek 4 Flash 本地推理 (antirez/ds4 12.9k★) 挑战 NVDA 边缘"
+    ]
+  }
+}
