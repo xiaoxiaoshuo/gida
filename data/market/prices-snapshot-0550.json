@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-06-05 05:50:01",
+  "type": "manual-snapshot",
+  "source": "OKX API (主代理直采, 06:00 cron 前)",
+  "crypto": {
+    "BTC": {"price": 63370.30, "vs_05:00": "+0.18%", "vs_05:35": "+0.13%", "source": "OKX", "confidence": "high"},
+    "ETH": {"price": 1764.66, "vs_05:00": "-0.46%", "vs_05:35": "+0.21%", "source": "OKX", "confidence": "high"},
+    "SOL": {"price": 67.95, "vs_05:00": "-1.15%", "vs_05:35": "+0.22%", "source": "OKX", "confidence": "high"}
+  },
+  "macro": {
+    "F&G": {"value": null, "note": "alternative.me 5:50 timeout (GFW 偶发), 上次确认 5:45 = 12 极值", "last_known": 12, "duration_known": "36-48h", "next_retry": "06:00 cron"},
+    "OIL": {"value": 93.01, "source": "tradingeconomics.com 05:00", "freshness": "50min", "note": "地缘溢价持续"},
+    "GOLD": {"value": 4476.40, "source": "kitco.com 05:00", "freshness": "50min"}
+  },
+  "context": {
+    "nfp_countdown": "14h40min",
+    "fng_v2_threshold_trigger": "6/5 20:00 (NFP 前 30min) ⚠️",
+    "next_cron": "06:00 AINews (10min) + 06:00 AINewsCollector_0400 首次自动验证 (关键)",
+    "push_status": "阻塞 (21s GFW), 4 commit 堆积本地",
+    "data_conflict_resolved": "G-42 用 130K 错误基线 → G-41/G-36A 修正为 85K (post-ADP), 已整合到 v41 briefing"
+  }
+}
