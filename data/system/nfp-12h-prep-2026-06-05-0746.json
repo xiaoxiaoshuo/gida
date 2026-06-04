@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "filename": "nfp-12h-prep-2026-06-05-0746.json",
+    "purpose": "NFP 12h40min 倒计时决策依据 + 16:30 决策点 + 20:00 F&G v2 + 20:30 NFP 派单模板",
+    "version": "v44-meta-planner",
+    "generated_at": "2026-06-05T07:55:00+08:00",
+    "author": "agent:gida:meta-planner (派单方备用, 防止 G-48 失败)",
+    "next_review": "2026-06-05T20:00:00+08:00"
+  },
+  "nfp_consensus_locked": {
+    "NFP_value_K": 85,
+    "NFP_range_K": "65-105",
+    "UR_pct": 4.3,
+    "UR_range_pct": "4.2-4.4",
+    "AHE_MoM_pct": 0.3,
+    "AHE_YoY_pct": 3.4,
+    "consensus_source": "G-41/G-42/G-43 三子智能体综合 (修正 G-42 130K 错误基线 → G-41 85K 正确)",
+    "修正原因": "G-42 使用 130K 旧基线, G-41 使用 85K (post-ADP -66% 修正), 派单方裁决 = 85K",
+    "confidence": "high"
+  },
+  "scenarios_v44": [
+    {
+      "id": "scenario_A_baseline",
+      "label": "基线 60% (↑5pp vs v43)",
+      "NFP_range": "65-105K",
+      "UR_range": "4.2-4.4%",
+      "AHE_MoM": "0.2-0.4%",
+      "sep_sept_cut_bp": 25,
+      "sep_sept_cut_prob": "55%",
+      "btc_target_30m": "$65,500 → 回落 $63,500-64,500",
+      "btc_target_24h": "持平 ±1%",
+      "operation": "16:30 决策: 50% 现货减至 40%, 10% 留 NFP 后抄底"
+    },
+    {
+      "id": "scenario_B_dovish",
+      "label": "鸽派 25% (持平 v43)",
+      "NFP_range": "< 70K",
+      "UR_range": "≥ 4.4%",
+      "sahm_rule_proximity": "接近触发",
+      "sep_sept_cut_bp": 50,
+      "sep_sept_cut_prob": "30%",
+      "btc_target_30m": "+2.5% 测试 $65,000",
+      "btc_target_24h": "$64,500-65,500 区间",
+      "operation": "NFP 后 30min 抄底, 启用 10% 预备金"
+    },
+    {
+      "id": "scenario_C_hawkish",
+      "label": "鹰派 15% (↓5pp vs v43)",
+      "NFP_range": "> 100K",
+      "UR_range": "≤ 4.2%",
+      "AHE_MoM": "> 0.4%",
+      "sep_sept_cut_bp": 0,
+      "sep_sept_cut_prob": "25%",
+      "btc_target_30m": "-3% 测试 $60,000",
+      "btc_target_24h": "$59,500-61,000 区间",
+      "operation": "观望, 不抢反弹, 等待 22:00 ISM Services 二次确认"
+    }
+  ],
+  "btc_5scenario_weighted_v44": {
+    "极弱": { "NFP": "< 50K", "prob": "5%", "btc_target": "$66,000", "weight": 0.25 },
+    "弱": { "NFP": "50-70K", "prob": "20%", "btc_target": "$64,500", "weight": 0.26 },
+    "基线": { "NFP": "70-100K", "prob": "50%", "btc_target": "$63,500", "weight": 0.00 },
+    "强": { "NFP": "100-130K", "prob": "20%", "btc_target": "$61,500", "weight": -0.62 },
+    "极强": { "NFP": "> 130K", "prob": "5%", "btc_target": "$59,500", "weight": -0.32 },
+    "加权预期": "-0.43%",
+    "解读": "中性偏空, 弱于 G-47 派单方 6/23 估算的 -0.30%, 原因 = 强情景概率上调 5pp"
+  },
+  "ism_nfp_decoupling_matrix": {
+    "principle": "ISM Services 是 NFP 的'二次确认'指标, 强 NFP + 弱 ISM = 软着陆, 弱 NFP + 强 ISM = 滞胀先兆",
+    "matrix": [
+      { "nfp": "强", "ism": "强", "btc": "$59,500 暴跌 -6.3%", "verdict": "硬着陆预警" },
+      { "nfp": "强", "ism": "弱", "btc": "$61,500 温和 -3.1%", "verdict": "软着陆" },
+      { "nfp": "弱", "ism": "强", "btc": "$64,500 温和 +1.3%", "verdict": "滞胀担忧" },
+      { "nfp": "弱", "ism": "弱", "btc": "$66,000 暴涨 +5%", "verdict": "鸽派狂欢" }
+    ]
+  },
+  "decision_point_16_30": {
+    "time": "2026-06-05T16:30:00+08:00",
+    "checklist": [
+      "1. 检查 F&G 12 持续时长 (预期 ≥40h, v2 阈值 4h 内触发)",
+      "2. 检查 premarket 美股期货 (道指/纳指期货方向)",
+      "3. 检查 NFP 共识是否在 16:00 前修正 (Bloomberg/Reuters 调查)",
+      "4. 检查 BTC 6/4 美东收盘价 vs 6/5 亚洲盘 (v44: $63,701 vs $63,820, -0.19%)",
+      "5. 检查 ETF 6/4 实际净流入 (G-48 ETF 预测: -$280M 中性, 待 22:00 兜底)",
+      "6. 决定: 50% 现货 → 40% 减仓 + 10% 抄底预备 (基线剧本)"
+    ],
+    "alternative_decisions": [
+      "if BTC > $65,500: 减仓 20% (50% → 30%) + 20% 抄底预备",
+      "if BTC < $62,000: 不减仓, 维持 50%, 等待 8:00 抄底",
+      "if NFP 共识下修至 < 70K: 鸽派剧本, 16:30 加仓 10%"
+    ]
+  },
+  "fng_v2_threshold_trigger_20_00": {
+    "time": "2026-06-05T20:00:00+08:00",
+    "current": "F&G 12 持续 38h+ (07:43 latest, 距 48h 还有 ~10h)",
+    "v2_threshold": "F&G ≤ 12 持续 ≥ 48h",
+    "trigger_probability": "≥ 95% (按 10h 后仍 12 估算, 历史第 3 长连击)",
+    "operation_if_triggered": {
+      "if_BTC_above_64000": "减仓 10% (40% → 30%)",
+      "if_BTC_64000_62000": "维持 40%",
+      "if_BTC_below_62000": "抄底 10% (30% → 40%, 用预备金)"
+    },
+    "v3_threshold_plan": "72h ≤ 10 (6/6 20:00 视情况升级)"
+  },
+  "nfp_release_20_30": {
+    "time": "2026-06-05T20:30:00+08:00",
+    "派单_template": {
+      "task": "G-49 NFP 异动归因",
+      "trigger": "NFP 实际值 vs 共识 |delta| > 30K",
+      "data_sources": "BLS 官方 + Bloomberg/Reuters + CryptoCompare BTC 实时 + F&G 实时",
+      "deliverables": [
+        "INTEL/agent-G49-NFP-actual-2026-06-05-2030.md (≥8KB)",
+        "data/market/nfp-actual-2026-06-05.json (≥3KB)",
+        "data/market/btc-realtime-2026-06-05_2035.json (≥2KB)"
+      ],
+      "限时": "20min",
+      "派单方": "agent:gida:meta-planner (20:25 cron 心跳触发)"
+    }
+  },
+  "ism_services_22_00": {
+    "time": "2026-06-05T22:00:00+08:00",
+    "purpose": "NFP 二次确认 + ISM 与 NFP 解耦矩阵判定",
+    "consensus_locked": "ISM Services 51.5 (vs 5月 51.0, 弱扩张)",
+    "operation": "如 ISM 与 NFP 同向 → 加深情景判定;如反向 → 解耦矩阵, B/C 剧本切换"
+  },
+  "派单方_todo_within_4h": [
+    "07:55 (本文件): nfp-12h-prep 落盘 ✅",
+    "08:00 Asia 开盘: 派单方综合 v44 + G-48 报告 (推送 9eaba55 已成功)",
+    "10:00 cron-watchdog (v3 健康已集成, 6 项检查全绿)",
+    "16:00 pre-market + 16:30 决策点 (本文件 checklist 启动)",
+    "20:00 F&G v2 阈值 (本文件 触发预案)",
+    "20:30 NFP 实际值 → 派 G-49 (本文件 派单模板)",
+    "22:00 ISM Services 二次确认"
+  ],
+  "数据缺口": [
+    "Farside ETF 6/4 实际 -$280M (G-48 兜底, 待 22:00 验证)",
+    "Yahoo Finance VIX 失败, F&G 12 替代 (medium 置信度)",
+    "黄金/原油 24h 变化字段缺失 (用 7D 近似)"
+  ],
+  "信源等级": {
+    "high": ["CryptoCompare BTC/ETH/SOL", "alternative.me F&G", "CryptoCompare BTC 价格"],
+    "medium": ["Kitco 黄金", "TradingEconomics 原油", "F&G 作为 VIX 替代"],
+    "low": ["G-48 ETF 6/5 0-1h 净流入预估 (未公布)", "G-48 6/4 ETF 反推 -$280M"]
+  }
+}
