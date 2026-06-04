@@ -1,29 +1,27 @@
 ﻿{
-    "timestamp_iso":  "2026-06-04T04:00:01Z",
-    "timestamp":  "2026-06-04 12:00:01",
+    "timestamp_iso":  "2026-06-04T04:48:58Z",
+    "timestamp":  "2026-06-04 12:48:58",
     "macro":  {
                   "VIX":  {
-                              "value":  12,
-                              "source":  "alternative.me_FNG",
-                              "timestamp":  "2026-06-04 12:00:01",
-                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
-                              "confidence":  "medium",
-                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"12\",\n\t\t\t\"value_classification\": \"Extr",
-                              "value_classification":  "Extreme Fear"
+                              "confidence":  "high",
+                              "timestamp":  "2026-06-04 12:48:58",
+                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "source":  "Yahoo_Finance_VIX",
+                              "value":  16.06
                           },
                   "OIL":  {
-                              "value":  95.52,
+                              "value":  95.27,
                               "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-04 12:00:01",
-                              "raw_len":  416607,
+                              "timestamp":  "2026-06-04 12:48:58",
+                              "raw_len":  416616,
                               "confidence":  "high",
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4464.4,
+                               "value":  4481.5,
                                "source":  "kitco.com",
-                               "timestamp":  "2026-06-04 12:00:01",
-                               "raw_len":  65374,
+                               "timestamp":  "2026-06-04 12:48:58",
+                               "raw_len":  65422,
                                "confidence":  "high",
                                "unit":  "USD/oz"
                            }
@@ -33,23 +31,23 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  64294.21,
-                               "timestamp":  "2026-06-04 12:00:01",
-                               "raw":  "{\"USD\":64294.21}",
+                               "price":  64330.99,
+                               "timestamp":  "2026-06-04 12:48:58",
+                               "raw":  "{\"USD\":64330.99}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            },
                    "ETH":  {
-                               "price":  1806.82,
-                               "timestamp":  "2026-06-04 12:00:01",
-                               "raw":  "{\"USD\":1806.82}",
+                               "price":  1803.96,
+                               "timestamp":  "2026-06-04 12:48:58",
+                               "raw":  "{\"USD\":1803.96}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            },
                    "SOL":  {
-                               "price":  71.4,
-                               "timestamp":  "2026-06-04 12:00:01",
-                               "raw":  "{\"USD\":71.4}",
+                               "price":  70.9,
+                               "timestamp":  "2026-06-04 12:48:58",
+                               "raw":  "{\"USD\":70.9}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            }
@@ -61,9 +59,9 @@
                                        "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
                                    },
                            "VIX":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                       "label":  "高",
+                                       "score":  80,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
                                    },
                            "OIL":  {
                                        "label":  "中",
