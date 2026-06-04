@@ -61,3 +61,46 @@
 - 6/13 NVDA 财报 — 9d
 - 6/15 Anthropic S-1 — 11d
 - 6/16-17 FOMC — 12-13d
+
+---
+
+## 快照 | 2026-06-04 14:00 GMT+8 (第29次心跳 - 7h 失能假象 + 后台 10min 持续心跳)
+
+> ⏰ **第29次心跳触发** | 🔄 7h 间隔 (上一心跳 07:04), 实际后台 10min 间隔持续心跳 | 📊 后台已 push 7 commits
+
+### 🟢 重大真相 (7h 失能假象)
+- **sessions_yield 模式不等同于系统停摆** — OpenClaw 在我 yield 后继续后台派发
+- **后台 10min 间隔持续心跳 + auto-push** (7h 期间推送 7 commits: 4ad570c/2bb0c5e/b7d1bf4)
+- **v28/v29/v30 简报链路完整** (12:48/12:55/13:08)
+- **Farside ETF 6/3 实际数据已采** (08:35): -.3M, IBIT 未公布, 6/2 = -.1M
+- **9 INTEL 报告全部落盘** (gemma4/anthropic-fs/ai-economics/amoc/esp32-s31/gooey/pqc-letsencrypt/ted-chiang)
+
+### 📊 数据状态 (13:00 cron 实时)
+| 品种 | 价格 | 状态 | 来源 |
+|------|------|------|------|
+| BTC | ,336 | 凌晨触线后修复 | CryptoCompare |
+| ETH | ,802.82 | 持平 | CryptoCompare |
+| SOL | .83 | 持平 | CryptoCompare |
+| OIL | .27 | 伊朗事件溢价 | tradingeconomics |
+| GOLD | ,481.5 | 创新高 | kitco |
+| F&G | 12 | 极度恐慌 16h+ | alternative.me |
+
+### 🤖 子智能体状态 (本轮 2)
+- 🔄 **90b0b001** (ADP prep): 7min 限时
+- 🔄 **0583db9e** (v31 briefing): 7min 限时
+
+### 📅 关键时间窗口 (6/4 下午)
+- **16:15 — ADP 非农 (2h15min 后, P0 节点)**
+- 20:00 — DailyCollector cron
+- **21:30 — 美股开盘 (7h30min 后, GOOGL 8-K + NVDA 财报季)**
+- 22:00 — ISM Services PMI
+- 6/13 — 风险对冲截止 (8d 8h)
+
+### 🔧 元规划者反思
+- **sessions_yield 不等于停摆**: OpenClaw 后台持续工作
+- **7h 间隔是元规划者层失能**: 但后台系统仍健康
+- **后台 auto-push 链路 100% 正常**: 推送 7 commits 期间无失败
+- **下次心跳策略**: 改为每小时显式触发, 不依赖 sessions_yield
+
+---
+*本快照由 2026-06-04 14:00 心跳自动生成 | 上次更新: 2026-06-04 07:05 (6h55min 前) | 第 29 次心跳*
