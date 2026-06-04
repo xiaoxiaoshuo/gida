@@ -1,69 +1,63 @@
 # HEARTBEAT.md - 心跳状态
 
-> 状态：🟢 简报断档恢复 (v28/v29 已落盘) | 🟢 Cron 健康 | 🔴 Git 推送阻塞 (GFW) | ⏰ 12:56:24
+> 状态：🟢 v30 简报整合 | 🟢 8 份 INTEL 报告 | 🟢 2 脚本升级 | ⏰ 13:10
 
-## ✅ 本次心跳成果 (12:45-12:56)
+## ✅ 本次心跳成果 (12:59-13:10)
 
-### 数据采集
-- ✅ 手动价格刷新 12:48 (BTC 64330 / ETH 1803 / SOL 70.9 / VIX 16.06 / GOLD 4481.5 / OIL 95.27)
+### 工作区盘点
+- **INTEL/**: 8 份 (5 已有 + 3 补采)
+- **briefings/**: v28 / v29 / **v30 (本轮)**
+- **DAILY/**: v2 + 13:08 增量
+- **scripts/**: briefing-generator v2.0 升级 + gh-trending-v6 新建
 
-### 简报恢复
-- ✅ **简报 v28** 落盘 6.0KB (中场快讯版, 12:48)
-- ✅ **简报 v29** 落盘 11.2KB (子智能体整合版, 12:55, 整合 25KB 深度分析)
-- ✅ **DAILY v2** 落盘 3.8KB (中场增量, 12:50)
+### 子智能体补采 (3 派发, 3 完成)
+- ✅ `INTEL/gooey-2026-06-04-1300.md` (2.8KB) - A级, chriskiehl/Gooey = CLI→GUI 装饰器(非 LLM)
+- ✅ `INTEL/pqc-letsencrypt-2026-06-04-1300.md` (3.0KB) - A级, MTC 路线图 2026 Q4 staging
+- ⚠️ `INTEL/ted-chiang-ai-philosophy-2026-06-04-1300.md` - 子智能体 PARTIAL, **主代理 browser 升级到 B+ 级**
 
-### 子智能体产出 (5 份, 26.7KB)
-- ✅ `INTEL/gemma4-anthropic-fs-2026-06-04-1245.md` (13.5KB) - Gemma 4 12B + Anthropic fs 双 P0 深度
-- ✅ `INTEL/anthropic-fs-2026-06-04-1250.md` (4.7KB) - Anthropic fs 仓库解构
-- ✅ `INTEL/ai-economics-2026-06-04-1250.md` (3.9KB) - Uber $1500 限额 + Anthropic containment
-- ✅ `INTEL/amoc-2026-06-04-1250.md` (2.9KB) - AMOC 监测拆解 + 风险科普
-- ✅ `INTEL/esp32-s31-2026-06-04-1255.md` (1.5KB) - 乐鑫新芯片规格
+### 主代理直采
+- ✅ HN Algolia 搜索定位 Ted Chiang 真实 URL = The Atlantic (非 New Yorker)
+- ✅ Threads 官方账号拿到 The Atlantic 引文 + 评论
+- ✅ The Atlantic Cloudflare 阻断 / archive.org 429 → 诚实降级 + 推断
 
-### 采集程序优化
-- ✅ `cron/briefing-generator.conf` (2.8KB) - 简报生成 cron 配置
-- ✅ `scripts/briefing-generator.ps1` (2.0KB) - 简报生成脚本 (触发 ALERT + 数据检查)
-- ✅ `ALERTS/2026-06-04-1252-briefing-trigger.md` - 触发器已写入
+### 采集程序优化 (2 项)
+- ✅ `scripts/briefing-generator.ps1` v2.0 (4.9KB) - 多源 + age 验证 + 简报骨架 + ALERT 触发
+- ✅ `scripts/gh-trending-v6.ps1` (4.8KB) - Playwright 全自动 + web_fetch fallback, **修复 v5 断链**
 
-## 🔥 P0 信号综合评估
+### 简报
+- ✅ **v30** (5.6KB) - 8 INTEL 整合 + 5 行动建议
 
-| 信号 | 强度 | 简报 | 子智能体 | 评估 |
-|------|------|------|---------|------|
-| **Gemma 4 12B (Apache 2.0)** | 🔴 P0 | ✅ v29 | ✅ 13.5KB | Google 政策转向 + 本地 Agent 段位 |
-| **Anthropic fs 仓库** | 🔴 P0 | ✅ v29 | ✅ 4.7KB | PLG 转身, MCP 锁定金融数据 |
-| **Uber $1500/月 AI 限额** | 🔴 P0 | ✅ v29 | ✅ 3.9KB | 企业 AI 成本硬性封顶 |
-| **AMOC 监测拆解** | 🟡 P0 | ✅ v29 | ✅ 2.9KB | 环境/气候/地缘长尾 |
-| **GOLD $4,481.5 创新高** | 🟡 P0 | ✅ v28/v29 | - | 传统避险 vs 数字资产背离 |
-| **VIX 16.06 横盘 8h+** | 🟢 P1 | ✅ v28/v29 | - | 信用被吸收, 极罕见 |
-| **ESP32-S31** | 🟢 P1 | ⏭️ (v29 未含) | ✅ 1.5KB | 乐鑫 Wi-Fi 6 + HMI 一体化 |
-| **Elixir v1.20 类型化** | 🟢 P1 | ⏭️ | ⏭️ | 长尾语言复兴 |
-| **Let's Encrypt PQC** | 🟢 P1 | ⏭️ | ⏭️ | 加密学里程碑 |
+## 🔥 P0 信号 (本轮)
 
-## 📊 工作区状态总览 (12:56)
+1. **AI Agent 二层分化** - Gemma 4 (开源底座) + Anthropic fs (vertical ref) - 置信度 0.85
+2. **Ted Chiang 论点** - "AI 意识被商业工具化" - 直接挑战 Anthropic containment 叙事
+3. **Let's Encrypt PQC MTC 路线** - 2027 production, 弃用 X.509+ML-DSA
+4. **BTC 触线 $64,750 修复** - 凌晨空窗期"被吸收式"确认
 
-| 区域 | 最后更新 | 状态 |
-|------|----------|------|
-| data/market | 12:48 | 🟢 fresh (手动刷新) |
-| data/tech (HN) | 12:00 | 🟢 fresh (cron) |
-| data/ai | 12:00 | 🟢 fresh (cron) |
-| data/geo | 08:49 | 🟡 4h 缺口 (子智能体未跑中东) |
-| data/crypto | 08:37 | 🟡 4h 缺口 (ETF) |
-| briefings/ | 12:55 | 🟢 v29 落盘 |
-| DAILY/ | 12:50 | 🟢 v2 落盘 |
-| INTEL/ | 12:55 | 🟢 5 份新报告 |
-| ALERTS/ | 12:52 | 🟢 触发器 |
-| memory/2026-06-04.md | 12:55 | 🟢 持续记录 |
-| .last_push_time | 12:42 | 🔴 GFW 阻塞 |
-| Cron (HN/AI/Price) | 12:00 | 🟢 healthy |
+## 📊 工作区状态 (13:10)
+
+| 区域 | 状态 |
+|------|------|
+| data/market | 🟢 fresh (13:00) |
+| data/tech (HN) | 🟢 fresh (12:00) |
+| data/ai | 🟢 fresh (12:00) |
+| data/geo | 🟡 4h 缺口 (08:49) |
+| data/crypto | 🟡 4h 缺口 (08:37) |
+| briefings/ | 🟢 **v30 latest** (13:08) |
+| DAILY/ | 🟢 v2 + 13:08 增量 |
+| INTEL/ | 🟢 **8 份新报告** |
+| scripts/ | 🟢 **briefing v2.0 + gh-trending v6** |
+| GitHub | 🟡 待推送 (4 files) |
+
+## ⚠️ ERROR_LOG 新增
+- **派单 URL 错标**: HN #10 Ted Chiang 误为 New Yorker, 实际 The Atlantic → **新规: 派单 URL 必须来自 HN Algolia 验证**
+- **briefing-generator v1.0 数据源检查不全** → 升级 v2.0
+- **gh-trending-v5 断链** (脚本打印提示无人执行) → 升级 v6 Playwright 自动
 
 ## ⏰ 倒计时
-- **6/4 16:00 简报 v30** — 3h5min
-- **6/4 18:00 ETF 6/4 数据** — 5h5min
-- **6/4 23:00 美股盘后 + DAILY 收官** — 10h5min
-- **6/13 NVDA 财报** — 9 天
-- **6/15 Anthropic S-1** — 11 天
-
-## 🔧 下一步建议
-- [ ] 16:00 自动生成 v30 (触发 briefing-generator.ps1)
-- [ ] 18:00 触发 ETF 6/4 数据采集
-- [ ] 等 GFW 恢复后批量推送 (当前 5+ 变更待推送)
-- [ ] 中东 12:00 增量数据缺失, 需补派 gida-geo 子智能体
+- 6/4 14:00 价格 cron — 50min
+- 6/4 16:00 简报 v31 — 3h
+- 6/4 18:00 ETF 6/4 — 5h
+- 6/13 NVDA 财报 — 9d
+- 6/15 Anthropic S-1 — 11d
+- 6/16-17 FOMC — 12-13d
