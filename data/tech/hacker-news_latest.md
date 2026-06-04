@@ -1,157 +1,157 @@
-﻿# Hacker News Top 30 — 2026-06-02 23:03 GMT+8
+# Hacker News Top 30 — 2026-06-05 02:27 GMT+8
 
-> **采集时间**: 2026-06-02T20:25:22Z | **数量**: 30 | **来源**: HN Front Page
+> **采集时间**: 06/05/2026 00:00:17 | **数量**: 30 | **来源**: HN Front Page
 > **链接**: https://news.ycombinator.com/
 
 ---
-### 1. Why Janet? (2023)
+### 1. VoidZero Is Joining Cloudflare
 
-- **Score**: 177 | **Comments**: 74 | **By**: yacin
-- 🔗 [Article](https://ianthehenry.com/posts/why-janet/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48367907)
+- **Score**: 270 | **Comments**: 149 | **By**: coloneltcb
+- 🔗 [Article](https://blog.cloudflare.com/voidzero-joins-cloudflare/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48398055)
 
-### 2. Adafruit Receives Demand Letter from Fenwick Legal Counsel on Behalf of Flux.ai
+### 2. Ian's Secure Shoelace Knot
 
-- **Score**: 143 | **Comments**: 47 | **By**: semanser
-- 🔗 [Article](https://blog.adafruit.com/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48368121)
+- **Score**: 196 | **Comments**: 64 | **By**: mooreds
+- 🔗 [Article](https://www.fieggen.com/shoelace/secureknot.htm) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48397028)
 
-### 3. CSS-Native Parallax Effect
+### 3. They’re made out of weights
 
-- **Score**: 43 | **Comments**: 20 | **By**: dandep
-- 🔗 [Article](https://dan-webnotes.com/posts/2026-06-02-css-native-parallax-effect/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48368291)
+- **Score**: 1087 | **Comments**: 456 | **By**: MaxLeiter
+- 🔗 [Article](https://maxleiter.com/blog/weights) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48391611)
 
-### 4. The newest Instagram “exploit” is the goofiest I've seen
+### 4. KVarN: Native vLLM KV-cache quantization back end by Huawei
 
-- **Score**: 1904 | **Comments**: 431 | **By**: ssiddharth
-- 🔗 [Article](https://www.0xsid.com/blog/meta-account-takeover-fiasco) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48359102)
+- **Score**: 11 | **Comments**: 2 | **By**: theanonymousone
+- 🔗 [Article](https://github.com/huawei-csl/KVarN) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48399974)
 
-### 5. Can the stockmarket swallow Anthropic, SpaceX and OpenAI?
+### 5. Gaussian Point Splatting
 
-- **Score**: 438 | **Comments**: 766 | **By**: 1vuio0pswjnm7
-- 🔗 [Article](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48364055)
+- **Score**: 120 | **Comments**: 41 | **By**: ibobev
+- 🔗 [Article](https://momentsingraphics.de/Siggraph2026.html) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48396792)
 
-### 6. Muxcard, a dyi credit card size computer
+### 6. In a first, wind and solar generated more power than gas globally in April 2026
 
-- **Score**: 92 | **Comments**: 29 | **By**: sargstuff
-- 🔗 [Article](https://github.com/krauseler/muxcard) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48342399)
+- **Score**: 128 | **Comments**: 110 | **By**: speckx
+- 🔗 [Article](https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48399332)
 
-### 7. Great Question (YC W21) Is Hiring Applied AI Interns
+### 7. U.S. Army Corps of Engineers Bay Model
 
-- **Score**: 1 | **Comments**: 0 | **By**: nedwin
-- 🔗 [Article](https://www.ycombinator.com/companies/great-question/jobs/J5TNvQH-ai-engineer-intern) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48369098)
+- **Score**: 113 | **Comments**: 30 | **By**: tosh
+- 🔗 [Article](https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48373642)
 
-### 8. macOS needs its grid back
+### 8. French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56
 
-- **Score**: 293 | **Comments**: 170 | **By**: ranebo
-- 🔗 [Article](https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48364800)
+- **Score**: 246 | **Comments**: 68 | **By**: fidotron
+- 🔗 [Article](https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48397233)
 
-### 9. Apple rejected my dictation app for using the accessibility API
+### 9. Elixir v1.20: Now a gradually typed language
 
-- **Score**: 4 | **Comments**: 0 | **By**: RZelaya
-- 🔗 [Article](https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48369088)
+- **Score**: 894 | **Comments**: 352 | **By**: cloud8421
+- 🔗 [Article](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48388324)
 
-### 10. CQL: Categorical Databases
+### 10. 3D-printed book turns its own G-code into raised lettering
 
-- **Score**: 56 | **Comments**: 14 | **By**: noworriesnate
-- 🔗 [Article](https://categoricaldata.net/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48335022)
+- **Score**: 13 | **Comments**: 8 | **By**: surprisetalk
+- 🔗 [Article](https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48370558)
 
-### 11. Webcam head tracking, webcam to control in‑game FOV
+### 11. Gemma 4 12B: A unified, encoder-free multimodal model
 
-- **Score**: 12 | **Comments**: 11 | **By**: mwit2023
-- 🔗 [Article](https://www.openfov.com/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48336783)
+- **Score**: 955 | **Comments**: 357 | **By**: rvz
+- 🔗 [Article](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48385906)
 
-### 12. Chipotlai Max
+### 12. Several Injured in Boeing 787 Nose-Gear Collapse in Frankfurt
 
-- **Score**: 262 | **Comments**: 40 | **By**: nigelgutzmann
-- 🔗 [Article](https://github.com/cyberpapiii/chipotlai-max) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48363765)
+- **Score**: 18 | **Comments**: 3 | **By**: karakoram
+- 🔗 [Article](https://www.reuters.com/business/aerospace-defense/lufthansa-787-jet-suffers-front-wheel-collapse-frankfurt-gate-2026-06-04/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48400242)
 
-### 13. OpenAI frontier models and Codex are now available on AWS
+### 13. Show HN: Prela – Purely Algebraic Relation Combinators
 
-- **Score**: 295 | **Comments**: 104 | **By**: typpo
-- 🔗 [Article](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48363132)
+- **Score**: 22 | **Comments**: 1 | **By**: remywang
+- 🔗 [Article](https://github.com/remysucre/prela) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48356563)
 
-### 14. You Don't Love Systemd Timers Enough
+### 14. AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools
 
-- **Score**: 9 | **Comments**: 7 | **By**: yacin
-- 🔗 [Article](https://blog.tjll.net/you-dont-love-systemd-timers-enough/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48367904)
+- **Score**: 1 | **Comments**: 0 | **By**: mathiasn
+- 🔗 [Article](https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48397435)
 
-### 15. How is Groq raising more money?
+### 15. I built a vulnerable app and spent $1,500 seeing if LLMs could hack it
 
-- **Score**: 120 | **Comments**: 56 | **By**: hasheddan
-- 🔗 [Article](https://www.zach.be/p/how-the-hell-is-groq-raising-more) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48364620)
+- **Score**: 319 | **Comments**: 166 | **By**: jc4p
+- 🔗 [Article](https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48392343)
 
-### 16. Debug Project
+### 16. Artificial intelligence is not conscious
 
-- **Score**: 236 | **Comments**: 95 | **By**: Eridanus2
-- 🔗 [Article](https://debug.com/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48362347)
+- **Score**: 607 | **Comments**: 992 | **By**: lordleft
+- 🔗 [Article](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48387270)
 
-### 17. CS336: Language Modeling from Scratch
+### 17. Under Notre Dame, a 'dig of the century' unearths 1,700 years of history
 
-- **Score**: 491 | **Comments**: 48 | **By**: kristianpaul
-- 🔗 [Article](https://cs336.stanford.edu/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48357075)
+- **Score**: 117 | **Comments**: 30 | **By**: cobbzilla
+- 🔗 [Article](https://apnews.com/article/notre-dame-dig-treasures-paris-archaeology-roman-dae41f792c1402faf32a87c154cc9a77) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48368725)
 
-### 18. AI Agent Guidelines for CS336 at Stanford
+### 18. UK media fails to disclose defence sector links in nearly 60% of cases
 
-- **Score**: 435 | **Comments**: 140 | **By**: prakashqwerty
-- 🔗 [Article](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48359232)
+- **Score**: 325 | **Comments**: 189 | **By**: XzetaU8
+- 🔗 [Article](https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48395938)
 
-### 19. Should you normalize RGB values by 255 or 256?
+### 19. The ways we contain Claude across products
 
-- **Score**: 281 | **Comments**: 118 | **By**: pplanu
-- 🔗 [Article](https://30fps.net/pages/255-vs-256-division/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48360054)
+- **Score**: 185 | **Comments**: 80 | **By**: jbredeche
+- 🔗 [Article](https://www.anthropic.com/engineering/how-we-contain-claude) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48392082)
 
-### 20. Microsoft builds MacBook Pro rival with NVIDIA-powered Surface Laptop Ultra
+### 20. I was recently diagnosed with anti-NMDA receptor encephalitis
 
-- **Score**: 236 | **Comments**: 491 | **By**: jbk
-- 🔗 [Article](https://www.windowslatest.com/2026/06/01/microsoft-builds-its-ultimate-macbook-pro-rival-with-the-nvidia-powered-surface-laptop-ultra/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48355720)
+- **Score**: 691 | **Comments**: 215 | **By**: Tomte
+- 🔗 [Article](https://burntsushi.net/encephalitis/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48384355)
 
-### 21. Fooling around with encrypted reasoning blobs
+### 21. Uber's $1,500/month AI limit is a useful signal for AI tool pricing
 
-- **Score**: 105 | **Comments**: 18 | **By**: supermatou
-- 🔗 [Article](https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48321210)
+- **Score**: 559 | **Comments**: 683 | **By**: pdyc
+- 🔗 [Article](https://simonwillison.net/2026/Jun/3/uber-caps-usage/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48383056)
 
-### 22. Strace-ui, Bonsai_term, and the TUI renaissance
+### 22. Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud
 
-- **Score**: 71 | **Comments**: 43 | **By**: matt_d
-- 🔗 [Article](https://blog.janestreet.com/strace-ui-bonsai-term-and-the-tui-renaissance/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48365904)
+- **Score**: 19 | **Comments**: 0 | **By**: nab
+- 🔗 [Article](https://boxes.dev) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48399358)
 
-### 23. Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity
+### 23. thunderbolt-ibverbs: We have InfiniBand at home
 
-- **Score**: 87 | **Comments**: 25 | **By**: ismaeel_bashir
-- 🔗 [Article](https://news.ycombinator.com/item?id=48356312) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48356312)
+- **Score**: 89 | **Comments**: 6 | **By**: zdw
+- 🔗 [Article](https://blog.hellas.ai/blog/thunderbolt-ibverbs/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48371008)
 
-### 24. What appear to be biochemical processes may be a natural feature of geology
+### 24. Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes
 
-- **Score**: 247 | **Comments**: 89 | **By**: speckx
-- 🔗 [Article](https://www.quantamagazine.org/the-dirt-that-refused-to-die-20260601/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48357905)
+- **Score**: 552 | **Comments**: 509 | **By**: littlexsparkee
+- 🔗 [Article](https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48392004)
 
-### 25. On Reading SRAMs in IR Images, and Establishing Bounds on Trust
+### 25. Learn SQL Once, Use It for 30 Years
 
-- **Score**: 7 | **Comments**: 1 | **By**: zdw
-- 🔗 [Article](https://www.bunniestudios.com/blog/2026/on-reading-srams-in-ir-images-and-establishing-bounds-on-trust/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48347002)
+- **Score**: 193 | **Comments**: 141 | **By**: karakoram
+- 🔗 [Article](https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48347483)
 
-### 26. Ask HN: Who is hiring? (June 2026)
+### 26. Kiki – a tiny homepage construction kit with a small footprint
 
-- **Score**: 203 | **Comments**: 282 | **By**: whoishiring
-- 🔗 [Article](https://news.ycombinator.com/item?id=48357725) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48357725)
+- **Score**: 79 | **Comments**: 50 | **By**: tobr
+- 🔗 [Article](https://tomotama.com/kiki) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48348545)
 
-### 27. Sweden is now America's most valuable tech ally. Most Americans haven't noticed
+### 27. DaVinci Resolve 21
 
-- **Score**: 4 | **Comments**: 0 | **By**: RickJWagner
-- 🔗 [Article](https://thehill.com/opinion/technology/5898904-strategic-alliance-sweden-us/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48369162)
+- **Score**: 507 | **Comments**: 228 | **By**: pentagrama
+- 🔗 [Article](https://www.blackmagicdesign.com/products/davinciresolve/whatsnew) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48384482)
 
-### 28. Alphabet announces $80B equity capital raise to expand AI infra and compute
+### 28. Claude Code and Codex Can Have Real-Time Conversation via Git
 
-- **Score**: 213 | **Comments**: 199 | **By**: gregschlom
-- 🔗 [Article](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48362515)
+- **Score**: 85 | **Comments**: 65 | **By**: syumei
+- 🔗 [Article](https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48345837)
 
-### 29. I made my phone slow on purpose
+### 29. ESP32-S31
 
-- **Score**: 218 | **Comments**: 180 | **By**: gcampos
-- 🔗 [Article](https://vinewallapp.com/notes/i-made-my-phone-slow-on-purpose/) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48312443)
+- **Score**: 340 | **Comments**: 181 | **By**: volemo
+- 🔗 [Article](https://www.espressif.com/en/products/socs/esp32-s31) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48385965)
 
-### 30. A new way to build chips: Sequentially stacking silicon to extend Moore's Law
+### 30. A Post-Quantum Future for Let's Encrypt
 
-- **Score**: 59 | **Comments**: 37 | **By**: hhs
-- 🔗 [Article](https://matse.illinois.edu/news/85775) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48341285)
+- **Score**: 298 | **Comments**: 153 | **By**: SGran
+- 🔗 [Article](https://letsencrypt.org/2026/06/03/pq-certs) | 💬 [HN Discussion](https://news.ycombinator.com/item?id=48385114)
 
 

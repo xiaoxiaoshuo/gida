@@ -1,7 +1,7 @@
 # WATCHLIST | GitHub Trending AI/ML 项目监控清单
 
 > 建立时间：2026-03-26  
-> 状态：🟢 已更新 (2026-03-26 10:46)  
+> 状态：🟢 已更新 (2026-06-05 02:30)  
 > 频率：每日自动采集 + 每周人工复核
 
 ---
@@ -112,4 +112,101 @@ AI/ML/
 
 ---
 
-*最后更新：2026-03-26 10:46 GMT+8*
+## 🆕 v2 增量 (2026-06-05 02:30 GMT+8)
+
+> **信号源**: data/ai/github-trending_latest.json + 02:27 快照  
+> **采集者**: G-37A 子智能体 (runId: G37A-WATCHLIST-FIX-2026-06-05-0230)  
+> **窗口**: 6/5 02:27 实时 Top 10 增量
+
+### 🔥 重点监控 3 个项目
+
+#### 1. antirez/ds4 ⭐ 12,929 (本日新增关注)
+
+- **URL**: https://github.com/antirez/ds4
+- **作者**: Salvatore Sanfilippo (antirez) - Redis 之父
+- **Stars**: 12,929 (单日新增 +857)
+- **类型**: 本地推理 / 单文件 LLM 实现
+- **监控理由**:
+  - **antirez 出品** = 品质背书, 社区关注度天然高
+  - 单文件 C 实现 → 嵌入式/边缘部署场景
+  - 与 DeepSeek 4 Flash 本地推理理念一致
+  - 可能成为 Ollama/llama.cpp 之外的新选择
+- **行动建议**:
+  - 跟踪 release 与 issue 活跃度
+  - 关注是否集成到 Cloudflare Workers / Vercel Edge
+
+#### 2. vercel-labs/zerolang ⭐ 4,857 (本日新增关注)
+
+- **URL**: https://github.com/vercel-labs/zerolang
+- **作者**: Vercel Labs
+- **Stars**: 4,857 (单日新增 +1,203)
+- **类型**: Agent DSL / 声明式 AI 编排语言
+- **监控理由**:
+  - Vercel Labs 官方出品 = 商业化产品预备
+  - 零配置 Agent 编排 DSL, 解决 Agent 框架碎片化
+  - 与 LangChain/AutoGen/CrewAI 形成差异化
+  - 可能成为 Vercel v0 之外的 Agent 商业化抓手
+- **行动建议**:
+  - 阅读 spec.md / examples 评估技术先进性
+  - 关注 npm 包发布与 SDK 生态
+  - 与 boxes.dev (AI IDE as a Service) 协同观察
+
+#### 3. microsoft/SkillOpt ⭐ 4,876 (本日新增关注)
+
+- **URL**: https://github.com/microsoft/SkillOpt
+- **作者**: Microsoft Research
+- **Stars**: 4,876 (单日新增 +612)
+- **类型**: NLP 训练优化 / 技能路由
+- **监控理由**:
+  - Microsoft 官方研究项目 = 长期投入信号
+  - "Skill" 概念 = 与 Anthropic Skills / OpenAI Tools 同构
+  - 可能整合到 Phi-4 / Azure AI Foundry
+  - 训练效率优化 → 商业成本结构改善
+- **行动建议**:
+  - 跟踪与 Microsoft Research Blog 的关联论文
+  - 关注 Azure AI 集成路线图
+  - 与 HuggingFace TRL / axolotl 对比
+
+### 🟠 其他重点关注项目
+
+#### 4. nexu-io/html-anything ⭐ 6,047 (本日新增关注)
+
+- **URL**: https://github.com/nexu-io/html-anything
+- **Stars**: 6,047
+- **类型**: HTML 生成 / 模板引擎
+- **监控理由**:
+  - 简洁设计, 适配 AI Agent 输出场景
+  - 与 v0 / Bolt.new / Lovable 商业方向契合
+  - 单日 Stars 增长快, 开发者认可度上升
+
+#### 5. 关联生态项目 (按子智能体信号源)
+
+- 02:27 快照同时检测到大量 Agent / LLM 工具类项目持续增长
+- 推荐每日 02:00 / 09:00 / 18:00 三次采集, 避免漏掉 antirez/vercel-labs/microsoft 这类大厂/明星开发者信号
+
+### 📊 增量摘要表
+
+| 序号 | 项目 | URL | Stars | 重要性 | 监控理由 |
+|------|------|-----|-------|--------|----------|
+| 1 | antirez/ds4 | [link](https://github.com/antirez/ds4) | 12,929 | 🔴 P0 | Redis 之父单文件 LLM, 边缘部署 |
+| 2 | vercel-labs/zerolang | [link](https://github.com/vercel-labs/zerolang) | 4,857 | 🔴 P0 | Vercel Agent DSL, 商业化预备 |
+| 3 | microsoft/SkillOpt | [link](https://github.com/microsoft/SkillOpt) | 4,876 | 🔴 P0 | MS 官方 NLP 训练优化 |
+| 4 | nexu-io/html-anything | [link](https://github.com/nexu-io/html-anything) | 6,047 | 🟠 P1 | AI Agent HTML 生成场景 |
+| 5 | (信号源) | - | - | 🟡 P2 | 02:27 持续采集, 见 github-trending_latest.json |
+
+### 🎯 战略研判
+
+1. **本地推理生态再起**: antirez/ds4 + Ollama + llama.cpp = 边缘 AI 部署军备竞赛, 配合 Gemma 4 12B 多模态 → 客户端 AI 复兴
+2. **Agent DSL 标准化**: vercel-labs/zerolang 出现, 标志 Agent 编排从"框架"向"语言"演进, 长期可能挑战 LangChain 生态
+3. **Microsoft AI 押注**: SkillOpt 项目显示 MS 在 Agent 工具调用 / 技能路由上的研究投入, 与 Phi-4 商业化协同
+
+### 🔄 与 v1 核心监控项目联动
+
+- antirez/ds4 → 补充 vLLM/llama.cpp 板块, 扩展"🟠 基础设施 > LLM 推理"维度
+- vercel-labs/zerolang → 补强"🔴 Agent 框架 > 多智能体协作"板块
+- microsoft/SkillOpt → 补强"🟡 应用层 > AI 助手"板块的工具调用层
+
+---
+
+*最后更新：2026-06-05 02:30 GMT+8 (G-37A)*  
+*信号源: data/ai/github-trending_latest.json + 02:27 fresh snapshot*

@@ -144,4 +144,119 @@
 
 ---
 
-*最后更新：2026-03-26*
+## 🆕 v2 增量 (2026-06-05 02:30 GMT+8)
+
+> **信号源**: data/ai/ai-news_latest.md (02:27 fresh 3min, 46 条)  
+> **采集者**: G-37A 子智能体 (runId: G37A-WATCHLIST-FIX-2026-06-05-0230)  
+> **窗口**: 6/3 - 6/4 关键博客与公司动态
+
+### 🔥 P0 级信号（必读）
+
+#### 1. VoidZero Is Joining Cloudflare ⭐⭐⭐⭐⭐
+
+- **URL**: https://blog.cloudflare.com/voidzero-joins-cloudflare/
+- **时间戳**: 2026-06-04 (HN 270+ pts)
+- **来源**: Hacker News / Cloudflare Blog
+- **摘要**: VoidZero (由 Vite/Rollup 作者 Evan You 创立) 正式加入 Cloudflare。Cloudflare 借此整合 JS 工具链生态 (Vite/Rollup/esbuild/Oxc), 推动边缘计算上的 JS 构建工具链统一。
+- **影响**: 
+  - Cloudflare Workers 生态可能内置 Vite/Rollup,边缘 SSR 性能进一步提升
+  - 传统 webpack 生态承压
+  - JS 工具链整合可能延伸到 Workers AI 部署链路
+- **行动建议**: 关注 Cloudflare Workers AI 与 VoidZero 集成的后续公告
+
+#### 2. The ways we contain Claude across products (Anthropic Engineering)
+
+- **URL**: https://www.anthropic.com/engineering/how-we-contain-claude
+- **时间戳**: 2026-06-03 发布
+- **来源**: Anthropic Engineering Blog
+- **摘要**: Anthropic 公开 Claude 在不同产品 (Claude.ai, API, Bedrock, Vertex AI) 中的"边界控制"机制 - 包括 system prompt 强化、输出过滤、Jailbreak 防御栈。配合 6/15 S-1 提交时间窗, 透明度建设意图明显。
+- **影响**:
+  - 投资人/监管层关切: 安全治理投入可量化
+  - 行业基准: 其他大模型厂商安全堆栈将被迫公开
+  - 监管博弈筹码: Anthropic 主动披露 = 防御性合规策略
+- **行动建议**: S-1 路演前最后一次"软披露", 关注 6/15 后续
+
+#### 3. Gemma 4 12B: A unified, encoder-free multimodal model (Google AI)
+
+- **URL**: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/
+- **时间戳**: 2026-06-04
+- **来源**: Google AI Blog
+- **摘要**: Google 发布 Gemma 4 12B - 统一无编码器多模态模型,支持文本/图像/视频/音频原生输入。12B 参数量,主打"小而强"的开源生态位。
+- **影响**:
+  - 12B 段位竞争升级: Qwen3-12B / Llama 4 12B / Gemma 4 12B 三足鼎立
+  - 多模态"无编码器"路线确认, 与 Apple AIMv2 / InternVL 一致
+  - 本地部署 + Apple Silicon / Snapdragon X 优化空间打开
+- **行动建议**: 跟踪 HuggingFace 下载量与开发者采用率, 关注 6/12 FOMC 前流动性事件
+
+### 🟠 P1 级信号（重要）
+
+#### 4. KVarN: Native vLLM KV-cache quantization back end (Huawei)
+
+- **URL**: https://github.com/huawei-csl/KVarN
+- **时间戳**: 2026-06-04
+- **来源**: Hacker News / GitHub
+- **摘要**: Huawei CSL 团队发布 vLLM 原生 KV-cache 量化后端,支持 INT4/INT8 量化,显存占用降低 50-70%, 推理吞吐量提升 1.5-2x。
+- **影响**:
+  - 长上下文场景 (128K+) 部署成本大幅下降
+  - 配合 Ascend NPU 优化, 国产推理栈完整度提升
+  - 与 DeepSeek V3.2 / Qwen3 长上下文生态协同
+- **行动建议**: 监控 vLLM 上游合并进度, 关注 Ascend 910C/910D 配套
+
+#### 5. Uber's $1,500/month AI limit is a useful signal for AI tool pricing (Simon Willison)
+
+- **URL**: https://simonwillison.net/2026/Jun/3/uber-caps-usage/
+- **时间戳**: 2026-06-03
+- **来源**: Simon Willison's Blog
+- **摘要**: Uber 内部对 AI 编码工具 (Cursor/Copilot/Claude Code) 设定了 $1,500/工程师/月 的硬性预算上限, 反映企业级 AI 工具消费已从"试用"进入"管控"阶段。
+- **影响**:
+  - 定价心理学锚点: $1,500/月 成为一个新基准线
+  - 企业 IT 采购 AI 工具进入"成本可预测"时代
+  - 倒逼 AI 工具厂商提供 ROI 证明
+- **行动建议**: 跟踪企业级 AI 工具 ARR 增速, 关注 Cursor / Cognition / Replit 商业化进展
+
+### 🟡 P2 级信号（关注）
+
+#### 6. Claude Code and Codex Can Have Real-Time Conversation via Git (Medium)
+
+- **URL**: https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05
+- **时间戳**: 2026-06-04
+- **来源**: Medium / Hacker News
+- **摘要**: 开发者展示 Claude Code 与 OpenAI Codex 通过 Git 仓库进行实时对话/协作的工作流 - 利用 Git 作为"消息队列"。
+- **影响**:
+  - AI Agent 协作新范式: Git = Agent 中间件
+  - 与 MCP (Model Context Protocol) 生态互补
+  - 编码 Agent 多模型协作的早期实验
+
+#### 7. Show HN: Boxes.dev - Claude Code 和 Codex 云端运行
+
+- **URL**: https://boxes.dev
+- **时间戳**: 2026-06-04
+- **来源**: Show HN
+- **摘要**: Boxes.dev 提供云端容器, 允许开发者在浏览器中运行 Claude Code 和 Codex, 告别 localhost 限制, 解决本地环境配置痛点。
+- **影响**: 
+  - 编码 Agent 商业化新方向: "AI IDE as a Service"
+  - 与 GitHub Codespaces / Replit 竞争
+
+### 📊 增量摘要表
+
+| 序号 | 博客/公司 | 标题 | 重要性 | URL |
+|------|----------|------|--------|-----|
+| 1 | Cloudflare | VoidZero Is Joining Cloudflare | 🔴 P0 | [link](https://blog.cloudflare.com/voidzero-joins-cloudflare/) |
+| 2 | Anthropic | The ways we contain Claude across products | 🔴 P0 | [link](https://www.anthropic.com/engineering/how-we-contain-claude) |
+| 3 | Google AI | Gemma 4 12B: unified multimodal | 🔴 P0 | [link](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/) |
+| 4 | Huawei CSL | KVarN: vLLM KV-cache quantization | 🟠 P1 | [link](https://github.com/huawei-csl/KVarN) |
+| 5 | Simon Willison | Uber's $1,500/month AI limit | 🟠 P1 | [link](https://simonwillison.net/2026/Jun/3/uber-caps-usage/) |
+| 6 | Medium (Koukyosyumei) | Claude Code + Codex via Git | 🟡 P2 | [link](https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05) |
+| 7 | Boxes.dev | AI IDE as a Service | 🟡 P2 | [link](https://boxes.dev) |
+
+### 🎯 战略研判
+
+1. **Cloudflare 战略升级**: VoidZero 加入 + Workers AI + 6月 Anthropic 合作 = Cloudflare 正从 CDN 转型为"全栈 AI 云", 直接对标 AWS/Azure/GCP 三巨头
+2. **Google 开源反击**: Gemma 4 12B 多模态 + 12B 段位卡位 = 应对 DeepSeek/Qwen 冲击
+3. **Anthropic 安全叙事**: S-1 前的"软披露"工程文化, 估值故事铺垫
+4. **企业 AI 进入"成本管控"期**: $1,500/月 锚点出现
+
+---
+
+*最后更新：2026-06-05 02:30 GMT+8 (G-37A)*
+*信号源: data/ai/ai-news_latest.md*

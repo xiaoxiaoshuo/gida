@@ -1,29 +1,52 @@
 {
   "lastChecks": {
-    "btc_price": "2026-06-05T01:00:01+08:00",
-    "fng": "2026-06-05T01:00:01+08:00",
-    "ai_news": "2026-06-04T18:00:00+08:00",
-    "github_trending": "2026-06-04T18:07:00+08:00",
-    "macro": "2026-06-05T01:00:01+08:00",
-    "hn": "2026-06-04T18:00:00+08:00",
-    "watchlist": "2026-06-04T07:32:00+08:00",
-    "memory_md": "2026-06-04T18:10:00+08:00",
-    "briefings": "2026-06-04T22:17:00+08:00",
-    "intel": "2026-06-04T22:38:00+08:00"
+    "btc_price": "2026-06-05T02:00:01+08:00",
+    "fng": "2026-06-05T02:00:01+08:00",
+    "ai_news": "2026-06-05T02:27:35+08:00",
+    "github_trending": "2026-06-05T02:27:22+08:00",
+    "macro": "2026-06-05T02:00:01+08:00",
+    "hn": "2026-06-05T02:27:34+08:00",
+    "watchlist": "2026-06-05T02:34:08+08:00",
+    "memory_md": "2026-06-05T02:36:00+08:00",
+    "briefings": "2026-06-05T02:07:46+08:00",
+    "intel": "2026-06-05T02:07:06+08:00",
+    "watchlist_v7_increment": "2026-06-05T02:30:00+08:00",
+    "watchlist_g37a_complete": "2026-06-05T02:34:08+08:00"
   },
-  "lastHeartbeat": "2026-06-05T01:55:00+08:00",
-  "lastPush": "2026-06-05T01:52:58+08:00",
-  "lastPushStatus": "FAIL_3x_GFW_reset_archived",
+  "lastHeartbeat": "2026-06-05T02:36:00+08:00",
+  "lastPush": "2026-06-05T02:22:00+08:00",
+  "lastPushStatus": "OK_pushed_02:22",
   "cronHealth": {
-    "HourlyPriceCollector": "Ready (01:00 fresh 55min)",
-    "AutoPushV4": "Running_archived_pending_5min",
-    "IncrementalBackup": "Archive_created_2026-06-05_01:55:28"
+    "HourlyPriceCollector": "Ready (02:00 fresh 36min)",
+    "AutoPushV4": "OK (02:22 push successful)",
+    "IncrementalBackup": "Archive_created_2026-06-05_01:55:28",
+    "fetch-hn-top30-v3": "OK (02:27 30条 fresh)",
+    "fetch-github-trending-recent": "OK (02:27 30条 fresh)",
+    "merge-ai-news": "OK (02:27 46条 fresh)",
+    "G-37A": "DONE (5min 落盘 3文件 24.1KB)"
   },
-  "nextHeartbeat": "2026-06-05T08:00:00+08:00",
-  "nextPrice": "2026-06-05T02:00:00+08:00",
-  "nextPush": "2026-06-05T02:05:00+08:00 (rate-limit cooldown)",
+  "nextHeartbeat": "2026-06-05T03:00:00+08:00",
+  "nextPrice": "2026-06-05T03:00:00+08:00",
+  "nextPush": "2026-06-05T02:50:00+08:00 (post-G37A complete)",
   "nextAINews": "2026-06-05T06:00:00+08:00",
-  "notes": "01:55 跨凌晨扫描: 4 个子智能体已派发规划 (G-36A NFP 二次预热 / G-36B WATCHLIST 增量 / G-36C 跨凌晨补采)。NFP 倒计时 18h35min 是唯一 P0, G-35E 22:26 已落 32KB nfp-prep。briefings 4h+ 跨凌晨未更新 (v36 22:17), MEMORY.md 7h45min 停更, heartbeat-state 6/3 旧数据已修正。F&G 12 持续 30h+ (历史第 3 长), BTC $63,489 22:00 后回稳 (-0.34%)。",
-  "checkedAt": "2026-06-05T01:55:00+08:00",
+  "activeAlerts": [
+    "F&G 12 持续 30h+ (历史第3长)",
+    "NFP 18h 倒计时 (P0, 共识 85K)"
+  ],
+  "subagent_status": {
+    "G-32_total": 6,
+    "G-33_total": 3,
+    "G-34_total": 2,
+    "G-35_total": 6,
+    "G-36_total": 3,
+    "G-36_succeeded": 1,
+    "G-36_empty_runs": 2,
+    "G-37A_dispatched": true,
+    "G-37A_complete": true,
+    "G-37A_files_written": 3,
+    "G-37A_total_size_kb": 24.1
+  },
+  "notes": "38次心跳 (02:30→02:36): G-37A 子智能体 5m 完成 3/4 文件 (TECH_BLOGS 11.9KB + GITHUB_TRENDING 8.4KB + MARKET_CAL 3.7KB = 24.1KB), G-36B/C 空跑 bug 修复确认 ✅。数据缺口全部填补, 无 12h+ 红级。NFP 18h 倒计时, 共识 85K (3年新低), 6月 Fed 鸽派概率 80%。",
+  "checkedAt": "2026-06-05T02:36:00+08:00",
   "checkedBy": "agent:gida:meta-planner"
 }
