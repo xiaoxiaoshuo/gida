@@ -1,0 +1,78 @@
+{
+  "snapshot_id": "geo-snapshot-2026-06-05-0338",
+  "snapshot_time_gmt8": "2026-06-05T03:38:00+08:00",
+  "snapshot_author": "主代理 fallback (G-38B 子智能体 2m10s done 0 落盘, 主代理接管)",
+  "data_freshness": {
+    "fng_streak_hours": 32,
+    "fng_value": 12,
+    "fng_classification": "Extreme Fear",
+    "fng_history_30d_floor": 11,
+    "fng_history_30d_rebound_rate": "75% (12 次 F&G≤12 样本, 9 次 7d 反弹 +2-+10%, 1 次继续跌, 2 次横盘)"
+  },
+  "events": [
+    {
+      "id": "G-ME-CF-1749053400",
+      "time_gmt8_approx": "2026-06-04 17:50",
+      "category": "geopolitical",
+      "type": "ceasefire_partial",
+      "title": "Israel-Hezbollah 停火协议 (部分)",
+      "summary": "以色列与黎巴嫩真主党在 6/4 17:50 达成局部停火, 但 G-32C 17:50 报告显示真主党未完全接受, 协议为'边际改善'非'风险解除'",
+      "source": "G-32C 17:50 INTEL 报告 + ALERT 6/4 17:55",
+      "market_impact_at_time": "OIL $92.63 → $93.77 (+1.66%, 边际缓解但维持地缘溢价)",
+      "current_status": "未升级, 也未解除 - 9h 内无重大新进展"
+    },
+    {
+      "id": "G-ME-IK-1748937600",
+      "time_gmt8_approx": "2026-06-03 17:55 (24h 前)",
+      "category": "geopolitical",
+      "type": "military_escalation",
+      "title": "伊朗-科威特事件 (24h 前已 ALERT)",
+      "summary": "ALERT v1 触发, 黄金 $4,527 → $4,484 (-1.12%), 油价 $94.31 (持续)",
+      "current_status": "持续, 但市场已部分消化"
+    }
+  ],
+  "market_reaction": {
+    "OIL": {
+      "current": 93.27,
+      "vs_24h_ago": "+0.7%",
+      "regime": "地缘溢价维持, 区间 $92-95",
+      "key_driver": "伊朗-科威特事件 + 以黎停火协议对冲"
+    },
+    "GOLD": {
+      "current": 4478.9,
+      "vs_24h_ago": "-0.1%",
+      "regime": "横盘, 创新高后消化",
+      "key_driver": "避险买盘 vs 美元走强对冲"
+    },
+    "BTC": {
+      "current": 63789.9,
+      "vs_24h_ago": "+0.4%",
+      "regime": "凌晨触底反弹后, 区间 $63K-64K",
+      "key_driver": "周末空头回补 + 4h 触线下方技术性反弹"
+    }
+  },
+  "ahead": {
+    "next_4h": {
+      "04:00": "HourlyPrice cron 触发 (主代理验证 BTC 路径)",
+      "06:00": "AINews cron 跨凌晨首次自动 (关键节点)",
+      "08:00": "亚洲盘开盘 + Farside 6/5 ETF 实际"
+    },
+    "next_24h": {
+      "16:00": "HourlyPrice 验证 (美股盘前)",
+      "20:30": "🔴 NFP 6/5 (P0 触发, 派 G-37Y)",
+      "21:30": "美股开盘 (NFP 消化)"
+    },
+    "geopolitical_calendar": {
+      "06/05_08:30_ET": "NFP 6/5 公布",
+      "06/08": "OPEC+ 会议",
+      "06/12": "FOMC 利率决议",
+      "06/13": "NVDA 财报 + Anthropic S-1 窗口期"
+    }
+  },
+  "data_gaps": [
+    "Reuters/Bloomberg 中东 6/4 17:50 后真主党正式回应 (Bing 搜索无结果, 需 Bloomberg/Reuters 镜像)",
+    "沙特/UAE/Qatar 6/4 停火协议立场 (跨信源未确认)",
+    "Bing 搜索 'Hezbollah ceasefire response June 5 2026' 仅返回历史 Wikipedia/百度百科条目, 无 6/4-6/5 新闻"
+  ],
+  "mitigation": "主代理 fallback 模式 (G-38B 子智能体空跑 0 落盘, 与 G-36B/C 同模式, 已在 ERROR_LOG 入档)"
+}
