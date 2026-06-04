@@ -754,3 +754,31 @@ A d d - C o n t e n t   :   T h e   p r o c e s s   c a n n o t   a c c e s s   
 [INFO] 13:00:18 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-04_13-00.json
 [INFO] 13:00:18 - 质量: 高 (平均分 82.5)
 [INFO] 13:00:18 - 错误: 0 项
+[INFO] 14:00:01 - ========== 价格采集开始 (v8 多源降级) ==========
+[INFO] 14:00:01 - 时间: 2026-06-04 14:00:01
+[INFO] 14:00:01 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 14:00:01 -   采集 BTC ...
+[OK] 14:00:02 -   BTC = 63911.69 [CryptoCompare_API] 质量:高
+[INFO] 14:00:02 -   采集 ETH ...
+[OK] 14:00:03 -   ETH = 1782.15 [CryptoCompare_API] 质量:高
+[INFO] 14:00:03 -   采集 SOL ...
+[OK] 14:00:03 -   SOL = 70.26 [CryptoCompare_API] 质量:高
+[INFO] 14:00:03 - >> 采集VIX恐慌指数...
+[WARN] 14:00:06 - VIX Yahoo Finance API全部失败，降级到F&G(alternative.me)...
+[ERROR] 14:00:16 -   VIX采集失败
+[INFO] 14:00:16 - >> 采集黄金价格...
+[INFO] 14:00:18 -   GOLD Kitco字体样式正则成功: 4470.5
+[OK] 14:00:18 -   GOLD = 4470.5 [kitco.com] 质量:中
+[INFO] 14:00:18 - >> 采集原油价格...
+[INFO] 14:00:19 -   OIL TradingEconomics抓取成功: 95.38
+[OK] 14:00:19 -   OIL = 95.38 [tradingeconomics.com] 质量:中
+[INFO] 14:00:19 -   [中间保存] crypto+partial macro 已写入 prices_latest.json
+[WARN] 14:00:19 - >> 宏观数据浏览器降级采集 (失败项: VIX)...
+[WARN] 14:00:33 -   浏览器降级采集异常: Exception calling "Substring" with "2" argument(s): "Index and length must refer
+[INFO] 14:00:33 -   [合并] 浏览器采集的macro数据: GOLD, OIL
+[INFO] 14:00:33 -   [合并] 浏览器采集的macro数据已合并到结果
+[INFO] 14:00:33 - ========== 采集完成 ==========
+[INFO] 14:00:33 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-04_14-00.json
+[INFO] 14:00:33 - 质量: 高 (平均分 86)
+[INFO] 14:00:33 - 错误: 1 项
+[WARN] 14:00:33 - 失败详情: VIX : failed
