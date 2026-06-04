@@ -4,7 +4,7 @@
                         "path":  "items",
                         "name":  "Hacker News",
                         "status":  "ok",
-                        "count":  28
+                        "count":  30
                     },
                     {
                         "path":  "repos",
@@ -13,7 +13,7 @@
                         "count":  16
                     }
                 ],
-    "timestamp":  "2026-06-03T22:36:03Z",
+    "timestamp":  "2026-06-04T04:00:15Z",
     "repos":  [
                   {
                       "rank":  1,
@@ -210,9 +210,30 @@
               ],
     "items":  [
                   {
+                      "date":  "2026-06-04T00:44:13Z",
+                      "title":  "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse",
+                      "url":  "https://e360.yale.edu/digest/trump-ooi-amoc",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T02:44:40Z",
+                      "title":  "American capitalism has taken an apocalyptic turn",
+                      "url":  "https://economist.com/business/2026/06/03/american-capitalism-has-taken-an-apocalyptic-turn",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-03T19:02:26Z",
                       "title":  "Elixir v1.20: Now a gradually typed language",
                       "url":  "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T00:56:32Z",
+                      "title":  "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+                      "url":  "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -224,30 +245,30 @@
                       "desc":  ""
                   },
                   {
+                      "date":  "2026-06-03T23:37:18Z",
+                      "title":  "\"They\u0027re made out of weights\"",
+                      "url":  "https://maxleiter.com/blog/weights",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T00:18:02Z",
+                      "title":  "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+                      "url":  "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T00:27:52Z",
+                      "title":  "The ways we contain Claude across products",
+                      "url":  "https://www.anthropic.com/engineering/how-we-contain-claude",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-03T14:10:06Z",
                       "title":  "I was recently diagnosed with anti-NMDA receptor encephalitis",
                       "url":  "https://burntsushi.net/encephalitis/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T16:10:25Z",
-                      "title":  "ESP32-S31",
-                      "url":  "https://www.espressif.com/en/products/socs/esp32-s31",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T14:18:39Z",
-                      "title":  "DaVinci Resolve 21",
-                      "url":  "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-01T13:16:51Z",
-                      "title":  "Stop Killing Games",
-                      "url":  "https://jxself.org/stop-killing-games.shtml",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -259,6 +280,41 @@
                       "desc":  ""
                   },
                   {
+                      "date":  "2026-06-03T12:25:14Z",
+                      "title":  "Uber\u0027s $1,500/month AI limit is a useful signal for AI tool pricing",
+                      "url":  "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T14:18:39Z",
+                      "title":  "DaVinci Resolve 21",
+                      "url":  "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-01T20:31:24Z",
+                      "title":  "Meteor Explodes over Massachusetts",
+                      "url":  "https://www.nbcboston.com/news/local/meteor-explodes-over-massachusetts-what-we-know-and-where-it-landed/3957663/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-05-31T18:05:37Z",
+                      "title":  "CP/M-86 \u0026 MS-DOS Cross Development Environment",
+                      "url":  "https://github.com/tsupplis/cpm86-crossdev",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T20:39:34Z",
+                      "title":  "Ableton Extensions SDK",
+                      "url":  "https://www.ableton.com/en/live/extensions/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-03T17:12:27Z",
                       "title":  "Gooey: A GPU-accelerated UI framework for Zig",
                       "url":  "https://github.com/duanebester/gooey",
@@ -266,9 +322,23 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T10:53:00Z",
-                      "title":  "Hacking your PC using your speaker without ever touching it",
-                      "url":  "https://blog.nns.ee/2026/06/03/katana-badusb/",
+                      "date":  "2026-06-03T16:10:25Z",
+                      "title":  "ESP32-S31",
+                      "url":  "https://www.espressif.com/en/products/socs/esp32-s31",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T15:06:09Z",
+                      "title":  "A Post-Quantum Future for Let\u0027s Encrypt",
+                      "url":  "https://letsencrypt.org/2026/06/03/pq-certs",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-05-31T20:26:43Z",
+                      "title":  "Patching my guitar amp\u0027s firmware",
+                      "url":  "https://mforney.org/blog/2026-05-28-patching-my-guitar-amps-firmware.html",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -280,65 +350,30 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T17:01:00Z",
-                      "title":  "Skyvern (YC S23) Is Hiring Open-Source Loving DevRel Engineers",
-                      "url":  "https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai",
+                      "date":  "2026-06-03T21:55:23Z",
+                      "title":  "Journey to JPEG XL: open-source experiments shaped the future of image coding",
+                      "url":  "https://opensource.googleblog.com/2026/06/journey-to-jpeg-xl-how-open-source-experiments-shaped-the-future-of-image-coding.html",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T18:58:05Z",
-                      "title":  "Rootshell: A new E2EE email service hosted in Iceland",
-                      "url":  "https://rootshell.is",
+                      "date":  "2026-06-04T00:00:04Z",
+                      "title":  "The Ü Programming Language",
+                      "url":  "https://github.com/Panzerschrek/U-00DC-Sprache/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T19:41:21Z",
-                      "title":  "Brume is a 24-voice multi-timbral desktop synth for the CM5",
-                      "url":  "https://brume.aftertone.co/",
+                      "date":  "2026-06-03T21:32:10Z",
+                      "title":  "A Mathematician\u0027s Lament – Paul Lockhart (2002) [pdf]",
+                      "url":  "https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician%27s_Lament.pdf",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T16:51:49Z",
-                      "title":  "Angular v22",
-                      "url":  "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T17:50:16Z",
-                      "title":  "Embryos shape their limbs: a key discovery of \"genetic brakes\"",
-                      "url":  "https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-05-30T16:46:38Z",
-                      "title":  "Fluid Simulation for Dummies (2006)",
-                      "url":  "https://www.mikeash.com/pyblog/fluid-simulation-for-dummies.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T12:42:07Z",
-                      "title":  "Meta workers can opt out of being tracked at work up to 30 min",
-                      "url":  "https://www.bbc.com/news/articles/c93x0k194yno",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T11:04:04Z",
-                      "title":  "Every Byte Matters",
-                      "url":  "https://fzakaria.com/2026/06/01/every-byte-matters",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T10:24:25Z",
-                      "title":  "PlayStation Architecture",
-                      "url":  "https://www.copetti.org/writings/consoles/playstation/",
+                      "date":  "2026-06-04T00:12:50Z",
+                      "title":  "DNS Is for People – Not for IT Infrastructure",
+                      "url":  "https://louwrentius.com/dns-is-for-people-not-for-it-infrastructure.html",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -350,61 +385,40 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T16:25:08Z",
-                      "title":  "New Texas Instruments 5532 chips are not the 5532\u0027s we\u0027ve used for decades",
-                      "url":  "https://groupdiy.com/threads/the-new-ti-5532-chips-are-not-5532s-weve-used-for-decades.93707/",
+                      "date":  "2026-06-03T17:01:00Z",
+                      "title":  "Skyvern (YC S23) Is Hiring Open-Source Loving DevRel Engineers",
+                      "url":  "https://www.ycombinator.com/companies/skyvern/jobs/1qRTlVx-founding-developer-marketing-open-source-ai",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T10:51:29Z",
-                      "title":  "What I\u0027ve learned about the trombone",
-                      "url":  "http://bryanhu.com/blog/posts/what-ive-learned-about-the-trombone/",
+                      "date":  "2026-06-03T20:08:33Z",
+                      "title":  "A Man Who Reads Books for a Living (One Every Two Days)",
+                      "url":  "https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-02T03:08:02Z",
-                      "title":  "GoPro warned it may not survive",
-                      "url":  "https://thenextweb.com/news/gopro-going-concern-ai-memory-crisis-default",
+                      "date":  "2026-06-03T19:43:37Z",
+                      "title":  "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
+                      "url":  "https://github.com/tastyeffectco/sandboxes",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T17:43:00Z",
-                      "title":  "Bot vs human traffic",
-                      "url":  "https://radar.cloudflare.com/traffic#bot-vs-human",
+                      "date":  "2026-06-03T17:50:16Z",
+                      "title":  "Embryos shape their limbs: a key discovery of \"genetic brakes\"",
+                      "url":  "https://nouvelles.umontreal.ca/en/article/2026/06/02/how-embryos-shape-their-limbs-a-key-discovery-of-genetic-brakes",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-02T18:52:52Z",
-                      "title":  "Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2",
-                      "url":  "https://handwritten.danieljanus.pl/2026-06-01-edsger.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T12:43:43Z",
-                      "title":  "32GB of DDR5 now costs $375 – AI shortage continues to squeeze PC building",
-                      "url":  "https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-01T01:18:16Z",
-                      "title":  "Nabokov\u0027s pale fire: the lost \u0027father of all hypertext demos\u0027? (2011)",
-                      "url":  "https://dl.acm.org/doi/pdf/10.1145/1995966.1996008",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T16:24:46Z",
-                      "title":  "Show HN: Nutrepedia – Nutrition info in 29 locales built with Clojure and Htmx",
-                      "url":  "https://nutrepedia.com/en-us/",
+                      "date":  "2026-06-01T12:29:20Z",
+                      "title":  "Algorithmic Theming Engines",
+                      "url":  "https://www.smashingmagazine.com/2026/05/building-self-correcting-color-systems-contrast-color/",
                       "source":  "Hacker News",
                       "desc":  ""
                   }
               ],
-    "count":  44
+    "count":  46
 }
