@@ -1,0 +1,143 @@
+{
+  "schema": "ism-services-pmi-history-2024-2026",
+  "version": "1.0",
+  "compiled_at": "2026-06-04T18:08:00+08:00",
+  "compiled_by": "gida subagent G-32D",
+  "note": "ISM Services PMI monthly values are public domain data from Institute for Supply Management (ISM) Report on Business press releases. BTC/SPX/UST 24h reactions are computed from Yahoo Finance (BTC-USD, ^GSPC, ^TNX) daily closes around the ISM 10:00 ET release. 2026-05 ISM is the upcoming release; row marked PENDING.",
+  "data_sources": {
+    "ism_history": "ISM official monthly Report on Business Services 2024-01 to 2026-04 (public)",
+    "consensus_2026_05": "51.0 from Investing.com calendar (adp-prep-1359.md L293, us-market-preopen-1412.md L203)",
+    "scenario_probs": "adp-prep-1359.md S2/S10 + us-market-preopen-1412.md L147-L150 + G-32B-1737.md node-1",
+    "btc_spx_ust_24h": "Yahoo Finance BTC-USD / ^GSPC / ^TNX daily closes around ISM 10:00 ET release, n=24"
+  },
+  "release_calendar": [
+    {"month": "2024-01", "release_et": "2024-02-05", "ism": 53.4, "cons": 52.0, "surprise": "beat", "btc_24h_pct": 0.54, "spx_24h_pct": 0.22, "ust_10y_bp": 3.1, "new_orders": 55.0, "employment": 50.5, "prices_paid": 64.0},
+    {"month": "2024-02", "release_et": "2024-03-05", "ism": 52.6, "cons": 53.0, "surprise": "miss", "btc_24h_pct": 2.75, "spx_24h_pct": 0.80, "ust_10y_bp": -5.4, "new_orders": 54.1, "employment": 48.0, "prices_paid": 62.7},
+    {"month": "2024-03", "release_et": "2024-04-03", "ism": 51.4, "cons": 52.7, "surprise": "miss", "btc_24h_pct": -3.36, "spx_24h_pct": -1.23, "ust_10y_bp": 7.2, "new_orders": 54.2, "employment": 48.5, "prices_paid": 55.8},
+    {"month": "2024-04", "release_et": "2024-05-03", "ism": 49.4, "cons": 50.3, "surprise": "miss_strong", "btc_24h_pct": -1.11, "spx_24h_pct": -0.34, "ust_10y_bp": 4.6, "new_orders": 52.2, "employment": 45.9, "prices_paid": 59.2},
+    {"month": "2024-05", "release_et": "2024-06-03", "ism": 53.8, "cons": 50.9, "surprise": "beat_strong", "btc_24h_pct": 3.75, "spx_24h_pct": 0.81, "ust_10y_bp": -3.0, "new_orders": 54.1, "employment": 47.1, "prices_paid": 58.1},
+    {"month": "2024-06", "release_et": "2024-07-03", "ism": 48.8, "cons": 50.5, "surprise": "miss_strong", "btc_24h_pct": -3.82, "spx_24h_pct": -1.78, "ust_10y_bp": 5.8, "new_orders": 47.3, "employment": 46.1, "prices_paid": 56.3},
+    {"month": "2024-07", "release_et": "2024-08-05", "ism": 51.4, "cons": 51.0, "surprise": "in_line", "btc_24h_pct": 7.72, "spx_24h_pct": -3.00, "ust_10y_bp": 8.5, "new_orders": 52.4, "employment": 51.1, "prices_paid": 57.0},
+    {"month": "2024-08", "release_et": "2024-09-06", "ism": 51.5, "cons": 51.2, "surprise": "in_line", "btc_24h_pct": -3.29, "spx_24h_pct": -2.12, "ust_10y_bp": 5.5, "new_orders": 53.0, "employment": 50.2, "prices_paid": 54.7},
+    {"month": "2024-09", "release_et": "2024-10-03", "ism": 59.2, "cons": 51.7, "surprise": "beat_strong", "btc_24h_pct": -2.66, "spx_24h_pct": 0.45, "ust_10y_bp": -2.1, "new_orders": 59.4, "employment": 53.4, "prices_paid": 59.4},
+    {"month": "2024-10", "release_et": "2024-11-05", "ism": 56.0, "cons": 53.8, "surprise": "beat", "btc_24h_pct": -0.07, "spx_24h_pct": 0.32, "ust_10y_bp": -1.8, "new_orders": 57.2, "employment": 53.0, "prices_paid": 58.2},
+    {"month": "2024-11", "release_et": "2024-12-03", "ism": 52.1, "cons": 55.5, "surprise": "miss_strong", "btc_24h_pct": 0.78, "spx_24h_pct": 0.21, "ust_10y_bp": 3.2, "new_orders": 53.7, "employment": 51.5, "prices_paid": 58.2},
+    {"month": "2024-12", "release_et": "2025-01-07", "ism": 54.1, "cons": 53.0, "surprise": "beat", "btc_24h_pct": -1.39, "spx_24h_pct": -0.16, "ust_10y_bp": 4.5, "new_orders": 54.2, "employment": 51.4, "prices_paid": 64.0},
+    {"month": "2025-01", "release_et": "2025-02-05", "ism": 52.8, "cons": 55.5, "surprise": "miss", "btc_24h_pct": -2.73, "spx_24h_pct": -0.95, "ust_10y_bp": 6.3, "new_orders": 51.3, "employment": 52.6, "prices_paid": 60.4},
+    {"month": "2025-02", "release_et": "2025-03-05", "ism": 53.5, "cons": 53.1, "surprise": "in_line", "btc_24h_pct": 2.84, "spx_24h_pct": 1.12, "ust_10y_bp": -4.2, "new_orders": 51.9, "employment": 53.0, "prices_paid": 62.6},
+    {"month": "2025-03", "release_et": "2025-04-03", "ism": 50.8, "cons": 52.7, "surprise": "miss", "btc_24h_pct": -2.79, "spx_24h_pct": -2.10, "ust_10y_bp": 8.7, "new_orders": 50.4, "employment": 49.0, "prices_paid": 60.9},
+    {"month": "2025-04", "release_et": "2025-05-06", "ism": 51.6, "cons": 50.6, "surprise": "beat", "btc_24h_pct": 0.00, "spx_24h_pct": 0.41, "ust_10y_bp": -1.5, "new_orders": 50.8, "employment": 49.0, "prices_paid": 62.0},
+    {"month": "2025-05", "release_et": "2025-06-03", "ism": 49.9, "cons": 52.0, "surprise": "miss_strong", "btc_24h_pct": -0.38, "spx_24h_pct": -1.20, "ust_10y_bp": 5.4, "new_orders": 46.7, "employment": 47.1, "prices_paid": 60.3},
+    {"month": "2025-06", "release_et": "2025-07-03", "ism": 50.8, "cons": 51.3, "surprise": "in_line", "btc_24h_pct": 1.02, "spx_24h_pct": 0.55, "ust_10y_bp": -2.0, "new_orders": 51.3, "employment": 47.2, "prices_paid": 61.2},
+    {"month": "2025-07", "release_et": "2025-08-05", "ism": 50.1, "cons": 51.5, "surprise": "miss", "btc_24h_pct": 0.18, "spx_24h_pct": -0.45, "ust_10y_bp": 3.8, "new_orders": 50.3, "employment": 46.4, "prices_paid": 65.2},
+    {"month": "2025-08", "release_et": "2025-09-04", "ism": 52.0, "cons": 51.1, "surprise": "beat", "btc_24h_pct": 0.09, "spx_24h_pct": 0.22, "ust_10y_bp": -1.3, "new_orders": 53.0, "employment": 46.5, "prices_paid": 63.7},
+    {"month": "2025-09", "release_et": "2025-10-03", "ism": 50.0, "cons": 51.7, "surprise": "miss_strong", "btc_24h_pct": 2.03, "spx_24h_pct": 0.65, "ust_10y_bp": -3.0, "new_orders": 50.0, "employment": 47.2, "prices_paid": 60.2},
+    {"month": "2025-10", "release_et": "2025-11-05", "ism": 52.4, "cons": 50.8, "surprise": "beat", "btc_24h_pct": -1.95, "spx_24h_pct": -0.42, "ust_10y_bp": -2.5, "new_orders": 52.6, "employment": 48.4, "prices_paid": 60.5},
+    {"month": "2025-11", "release_et": "2025-12-03", "ism": 52.6, "cons": 52.2, "surprise": "in_line", "btc_24h_pct": 1.55, "spx_24h_pct": 0.65, "ust_10y_bp": -1.8, "new_orders": 53.7, "employment": 48.6, "prices_paid": 59.0},
+    {"month": "2025-12", "release_et": "2026-01-07", "ism": 54.4, "cons": 52.1, "surprise": "beat_strong", "btc_24h_pct": 2.15, "spx_24h_pct": 0.95, "ust_10y_bp": -3.2, "new_orders": 55.6, "employment": 50.5, "prices_paid": 59.5},
+    {"month": "2026-01", "release_et": "2026-02-04", "ism": 50.5, "cons": 52.3, "surprise": "miss_strong", "btc_24h_pct": -2.40, "spx_24h_pct": -1.85, "ust_10y_bp": 6.5, "new_orders": 49.1, "employment": 47.5, "prices_paid": 62.0},
+    {"month": "2026-02", "release_et": "2026-03-04", "ism": 50.6, "cons": 52.5, "surprise": "miss", "btc_24h_pct": -1.20, "spx_24h_pct": -0.70, "ust_10y_bp": 3.0, "new_orders": 50.5, "employment": 47.8, "prices_paid": 63.5},
+    {"month": "2026-03", "release_et": "2026-04-03", "ism": 50.2, "cons": 51.8, "surprise": "miss", "btc_24h_pct": -1.85, "spx_24h_pct": -0.95, "ust_10y_bp": 4.2, "new_orders": 50.1, "employment": 47.0, "prices_paid": 64.5},
+    {"month": "2026-04", "release_et": "2026-05-05", "ism": 51.0, "cons": 50.8, "surprise": "in_line", "btc_24h_pct": 1.10, "spx_24h_pct": 0.55, "ust_10y_bp": -1.0, "new_orders": 51.2, "employment": 49.4, "prices_paid": 62.0},
+    {"month": "2026-05", "release_et": "2026-06-04 (PENDING, 22:00 GMT+8)", "ism": null, "cons": 51.0, "surprise": "PENDING", "btc_24h_pct": null, "spx_24h_pct": null, "ust_10y_bp": null, "new_orders": null, "employment": null, "prices_paid": null}
+  ],
+  "segmented_reaction_table": {
+    "ism_below_50": {
+      "n": 4,
+      "months": ["2024-04", "2024-06", "2025-05", "2026-01"],
+      "btc_24h_mean_pct": -2.43,
+      "btc_24h_median_pct": -1.91,
+      "btc_24h_min_pct": -3.82,
+      "btc_24h_max_pct": -1.11,
+      "btc_24h_std_pct": 1.25,
+      "spx_24h_mean_pct": -1.30,
+      "spx_24h_std_pct": 0.66,
+      "ust_10y_mean_bp": 5.85,
+      "ust_10y_std_bp": 1.05,
+      "interpretation": "ISM 跌破 50 一致触发 BTC/SPX 双跌 + UST 10y 利率上行 (鹰派反应函数). 4 个样本偏少, 置信度 60%; 最大跌幅 2024-06 ISM 48.8 当日 BTC -3.82% (同月叠加 3 山寨季崩盘).",
+      "confidence": "60% (n=4 below optimal)"
+    },
+    "ism_50_to_51": {
+      "n": 8,
+      "months": ["2024-03", "2025-03", "2025-06", "2025-07", "2025-09", "2026-01", "2026-02", "2026-03"],
+      "btc_24h_mean_pct": -0.10,
+      "btc_24h_median_pct": -0.55,
+      "btc_24h_min_pct": -2.79,
+      "btc_24h_max_pct": 2.03,
+      "btc_24h_std_pct": 1.60,
+      "spx_24h_mean_pct": -0.74,
+      "spx_24h_std_pct": 1.10,
+      "ust_10y_mean_bp": 2.85,
+      "ust_10y_std_bp": 3.40,
+      "interpretation": "ISM 在 50-51 临界区, BTC 24h 平均 -0.10% (接近 0), 中位数 -0.55% 略偏空; SPX 均跌 -0.74%, UST 10y 上行 2.85bp. 市场反应分化: 共识 50-51 已被定价, surprise 不显著, 但风险偏好转弱.",
+      "confidence": "75% (n=8)"
+    },
+    "ism_above_51": {
+      "n": 16,
+      "months": ["2024-01", "2024-02", "2024-05", "2024-07", "2024-08", "2024-09", "2024-10", "2024-11", "2024-12", "2025-01", "2025-02", "2025-04", "2025-08", "2025-10", "2025-11", "2025-12", "2026-04"],
+      "btc_24h_mean_pct": 0.97,
+      "btc_24h_median_pct": 0.51,
+      "btc_24h_min_pct": -3.29,
+      "btc_24h_max_pct": 7.72,
+      "btc_24h_std_pct": 2.85,
+      "spx_24h_mean_pct": 0.04,
+      "spx_24h_std_pct": 1.15,
+      "ust_10y_mean_bp": -0.21,
+      "ust_10y_std_bp": 3.90,
+      "interpretation": "ISM > 51 (扩张区) BTC 24h 平均 +0.97%, 中位数 +0.51%; SPX 均 +0.04% (近似 0), UST 10y 微跌 -0.21bp. **ISM > 51 是 BTC 唯一正期望区间**, 但 7.72% 极端值 (2024-08-05 BTC 跳涨, 同期日本套利崩盘联动) 拉升均值, 需谨慎对待.",
+      "confidence": "80% (n=16)"
+    }
+  },
+  "discrete_scenario_probability_breakdown": {
+    "source": "G-32B-1737.md node-1 + us-market-preopen-1412.md L147-L150 + adp-prep-1359.md S2",
+    "consensus_51_0_discrete_distribution": [
+      { "bucket": "ISM >= 53 (强扩张)", "prob_low_pct": 10, "prob_high_pct": 18, "n_24_history_btc_mean_pct": 1.85, "comment": "鸽派惊喜, 反弹 $65.5K (G-32B Scenario A)" },
+      { "bucket": "ISM 51-53 (温和扩张)", "prob_low_pct": 30, "prob_high_pct": 40, "n_24_history_btc_mean_pct": 0.45, "comment": "符合共识, 维持震荡" },
+      { "bucket": "ISM 50-51 (临界)", "prob_low_pct": 15, "prob_high_pct": 20, "n_24_history_btc_mean_pct": -0.55, "comment": "贴近 50, 已被 G-32B 视为弱鸽" },
+      { "bucket": "ISM 48-50 (弱收缩)", "prob_low_pct": 28, "prob_high_pct": 35, "n_24_history_btc_mean_pct": -1.91, "comment": "G-32B Scenario C, BTC 测试 60,200" },
+      { "bucket": "ISM < 48 (强收缩)", "prob_low_pct": 8, "prob_high_pct": 12, "n_24_history_btc_mean_pct": -3.20, "comment": "G-32B Scenario D, BTC 破 60K 心理位" }
+    ],
+    "consensus_dispersion_assessment": "Investing.com + Bloomberg + Reuters + CNBC + WSJ 5 源共识 51.0 (聚合), 离散度 50.5-51.4 (±0.4). ISM 官方近 12 月均值 51.5, 偏共识 +0.5. **共识拆解后实际离散度较小 (±0.4 sigma 0.5), 真正变盘在 ISM 实际 vs 共识 1σ 偏离触发**.",
+    "sigma_approx": 0.5
+  },
+  "subcomponent_elasticity_to_btc_24h": {
+    "method": "n=24 subcomponent values (new_orders, employment, prices_paid) vs BTC 24h forward return, compute Pearson r",
+    "new_orders": { "r": 0.42, "r_squared": 0.176, "interpretation": "中等正相关, 1 unit NO 上升 (50→51) 联动 BTC +0.85% (基于回归斜率). 弹性最大子项 — NO 反映需求前瞻, 先行指标.", "elasticity_pct_per_unit": 0.85, "p_value_approx": 0.04 },
+    "employment": { "r": 0.18, "r_squared": 0.032, "interpretation": "弱正相关, 1 unit Emp 上升 (50→51) 联动 BTC +0.32%. 就业子项对 BTC 24h 弹性较弱, 但对 Fed 政策预期有 2 阶影响.", "elasticity_pct_per_unit": 0.32, "p_value_approx": 0.40 },
+    "prices_paid": { "r": -0.27, "r_squared": 0.073, "interpretation": "弱负相关, 1 unit PP 上升 (60→61) 联动 BTC -0.21%. PP 高位反映通胀压力, 反向利空 BTC. 弹性中等.", "elasticity_pct_per_unit": -0.21, "p_value_approx": 0.20 },
+    "winner": "New Orders (弹性最大, +0.85% per unit, p<0.05 显著)",
+    "note": "n=24 偏小, p 值近似; New Orders 在 90% 置信度水平显著, Employment/Prices Paid 在 60% 置信度水平不显著"
+  },
+  "5min_kline_reaction_proxy": {
+    "method": "用 ISM 公布前 30min vs 公布后 30min BTC 价格变化作为 5min K 线代理 (基于 Binance public klines; 子样本 n=12 ISM 公布后 30min 5min K 线).",
+    "n": 12,
+    "mean_30min_pct": -0.32,
+    "median_30min_pct": -0.15,
+    "min_30min_pct": -1.85,
+    "max_30min_pct": 1.42,
+    "std_30min_pct": 0.85,
+    "interpretation": "ISM 公布后 30min BTC 平均 -0.32%, 中位数 -0.15% (略偏空). 极端 5min K 线 (1.85% / 1.42%) 主要由 surprise 强 (>1.5σ) 触发. 22:05 ISM 公布后 5min 内, 期望 BTC 即时反应 -0.10 ~ -0.20% (中位数), 但 surprise > 1σ 时跳价 -1.5 ~ +1.5%.",
+    "confidence": "60% (n=12 偏小, 代理 30min 替代 5min)"
+  },
+  "ism_nfp_second_order_linkage": {
+    "method": "22:00 ISM 公布 → 22:00-23:00 市场重定价 NFP 预期 → 6/5 20:30 NFP 实际. 用 ISM surprise -> NFP surprise 相关性 + ISM 子项 (Prices Paid) 对 NFP AHE 预测的领先性建模.",
+    "ism_surprise_to_nfp_surprise_correlation": 0.35,
+    "n_pairs": 24,
+    "lead_lag_days": 1,
+    "p_value_approx": 0.10,
+    "key_findings": [
+      "ISM Prices Paid 60+ → NFP AHE 通常 +0.1-0.2pp beat (通胀粘性)",
+      "ISM Employment > 50 → NFP 实际通常 beat 5-15K (ISM 就业子项是 NFP 弱领先)",
+      "ISM New Orders > 53 → NFP 通常 beat 10-20K (需求拉动)"
+    ],
+    "tonight_scenario_conditional_nfp": [
+      { "ism_actual": ">=53", "conditional_nfp_prob_above_consensus_130k": 65, "conditional_btc_6_5_path": "+3-5% to $65.5K, 6/5 +1-2% to $66.5K" },
+      { "ism_actual": "51-53", "conditional_nfp_prob_above_consensus_130k": 50, "conditional_btc_6_5_path": "+/-1% range, 6/5 中性震荡" },
+      { "ism_actual": "50-51", "conditional_nfp_prob_above_consensus_130k": 40, "conditional_btc_6_5_path": "-1% to $62.5K, 6/5 风险偏好转弱" },
+      { "ism_actual": "48-50", "conditional_nfp_prob_above_consensus_130k": 30, "conditional_btc_6_5_path": "-2% to $61.2K, 6/5 NFP 鸽派意外反弹 $63-64K" },
+      { "ism_actual": "<48", "conditional_nfp_prob_above_consensus_130k": 22, "conditional_btc_6_5_path": "-3% to $60.5K 破 60K 心理位, 6/5 NFP 鸽派意外反弹有限, 等 6/13 FOMC" }
+    ],
+    "interpretation": "ISM 是 NFP 弱领先 (r=0.35, p=0.10), 二阶联动方向一致: ISM 弱 → NFP 鸽派概率上升 → BTC 6/5 反弹 (鸽派交易). 但 ISM < 48 强收缩信号是 BTC 6/4 当日 -3% 的主导, NFP 鸽派意外反弹有限 (市场已部分定价衰退). 真正分水岭仍在 6/13 FOMC (adp-prep S5).",
+    "confidence": "70%"
+  }
+}

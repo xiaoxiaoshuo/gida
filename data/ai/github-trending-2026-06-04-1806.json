@@ -1,0 +1,127 @@
+﻿{
+    "collected_at":  "2026-06-04 18:06",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "repo":  "sponsors/chopratejas",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "3,530",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  2,
+                      "repo":  "sponsors/affaan-m",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "2,141",
+                      "language":  "JavaScript"
+                  },
+                  {
+                      "rank":  3,
+                      "repo":  "sponsors/JuliusBrussee",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "471",
+                      "language":  "JavaScript"
+                  },
+                  {
+                      "rank":  4,
+                      "repo":  "aquasecurity/trivy",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "24",
+                      "language":  "Go"
+                  },
+                  {
+                      "rank":  5,
+                      "repo":  "NousResearch/hermes-agent",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "1,735",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  6,
+                      "repo":  "microsoft/markitdown",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "1,984",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  7,
+                      "repo":  "sponsors/nesquena",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "719",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  8,
+                      "repo":  "sponsors/D4Vinci",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "1,067",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  9,
+                      "repo":  "opendataloader-project/opendataloader-pdf",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "570",
+                      "language":  "Java"
+                  },
+                  {
+                      "rank":  10,
+                      "repo":  "odoo/odoo",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "29",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  11,
+                      "repo":  "Open-LLM-VTuber/Open-LLM-VTuber",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "693",
+                      "language":  "Python"
+                  },
+                  {
+                      "rank":  12,
+                      "repo":  "jwasham/coding-interview-university",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "330",
+                      "language":  ""
+                  },
+                  {
+                      "rank":  13,
+                      "repo":  "sponsors/lyogavin",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "208",
+                      "language":  "Jupyter Notebook"
+                  },
+                  {
+                      "rank":  14,
+                      "repo":  "supermemoryai/supermemory",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "600",
+                      "language":  "TypeScript"
+                  },
+                  {
+                      "rank":  15,
+                      "repo":  "HKUDS/Vibe-Trading",
+                      "description":  "",
+                      "total_stars":  "",
+                      "today_stars":  "197",
+                      "language":  "Python"
+                  }
+              ],
+    "source":  "github.com/trending_web_fetch_regex",
+    "total":  15
+}

@@ -1,0 +1,48 @@
+﻿{
+    "attempts":  [
+                     {
+                         "timestamp":  "2026-06-04 18:07:51",
+                         "outcome":  "pushed",
+                         "commit_count":  1,
+                         "bundle_path":  "",
+                         "attempt_index":  0,
+                         "probe":  {
+                                       "Schannel_ok":  false,
+                                       "Schannel_ms":  273,
+                                       "WinHTTP_ok":  true,
+                                       "timestamp":  "18:07:49",
+                                       "WinHTTP_ms":  541,
+                                       "verdict":  "push-now",
+                                       "OpenSSL_ms":  930,
+                                       "OpenSSL_ok":  true
+                                   }
+                     },
+                     {
+                         "timestamp":  "2026-06-04 18:08:17",
+                         "outcome":  "skipped",
+                         "commit_count":  0,
+                         "bundle_path":  "C:\\Users\\Administrator\\clawd\\agents\\workspace-gid\\repo-2026-06-04_180812.bundle",
+                         "attempt_index":  0,
+                         "probe":  {
+
+                                   }
+                     },
+                     {
+                         "timestamp":  "2026-06-04 18:08:41",
+                         "outcome":  "pushed",
+                         "commit_count":  1,
+                         "bundle_path":  "",
+                         "attempt_index":  0,
+                         "probe":  {
+                                       "Schannel_ok":  false,
+                                       "Schannel_ms":  227,
+                                       "WinHTTP_ok":  true,
+                                       "timestamp":  "18:08:36",
+                                       "WinHTTP_ms":  795,
+                                       "verdict":  "push-now",
+                                       "OpenSSL_ms":  912,
+                                       "OpenSSL_ok":  true
+                                   }
+                     }
+                 ]
+}

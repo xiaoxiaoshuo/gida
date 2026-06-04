@@ -1,0 +1,133 @@
+﻿{
+    "method":  "browser tool - openclaw profile - evaluate DOM scrape",
+    "source":  "github.com/trending (browser evaluate, 主代理 G-33)",
+    "total":  15,
+    "collected_at":  "2026-06-04 18:07",
+    "repos":  [
+                  {
+                      "name":  "chopratejas/headroom",
+                      "stars_today":  3530,
+                      "stars":  11142,
+                      "desc":  "Compress tool outputs/logs/files/RAG chunks pre-LLM, 60-95% token reduction",
+                      "rank":  1,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "affaan-m/ECC",
+                      "stars_today":  2141,
+                      "stars":  206427,
+                      "desc":  "Agent harness perf optimization (Claude Code, Codex, Cursor)",
+                      "rank":  2,
+                      "language":  "JavaScript"
+                  },
+                  {
+                      "name":  "JuliusBrussee/caveman",
+                      "stars_today":  471,
+                      "stars":  68594,
+                      "desc":  "Claude Code skill, -65% tokens via caveman speech",
+                      "rank":  3,
+                      "language":  "JavaScript"
+                  },
+                  {
+                      "name":  "NousResearch/hermes-agent",
+                      "stars_today":  1735,
+                      "stars":  179983,
+                      "desc":  "The agent that grows with you",
+                      "rank":  4,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "microsoft/markitdown",
+                      "stars_today":  1984,
+                      "stars":  143531,
+                      "desc":  "Python tool for converting files to Markdown",
+                      "rank":  5,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "D4Vinci/Scrapling",
+                      "stars_today":  1067,
+                      "stars":  60721,
+                      "desc":  "Adaptive Web Scraping framework",
+                      "rank":  6,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "opendataloader-project/opendataloader-pdf",
+                      "stars_today":  570,
+                      "stars":  23574,
+                      "desc":  "PDF Parser for AI-ready data",
+                      "rank":  7,
+                      "language":  "Java"
+                  },
+                  {
+                      "name":  "nesquena/hermes-webui",
+                      "stars_today":  719,
+                      "stars":  13295,
+                      "desc":  "Hermes Agent WebUI",
+                      "rank":  8,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "supermemoryai/supermemory",
+                      "stars_today":  600,
+                      "stars":  25396,
+                      "desc":  "Memory engine/API for AI era",
+                      "rank":  9,
+                      "language":  "TypeScript"
+                  },
+                  {
+                      "name":  "Open-LLM-VTuber/Open-LLM-VTuber",
+                      "stars_today":  693,
+                      "stars":  9237,
+                      "desc":  "Talk to LLM with voice + Live2D avatar",
+                      "rank":  10,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "aquasecurity/trivy",
+                      "stars_today":  24,
+                      "stars":  35532,
+                      "desc":  "Container/K8s vulnerability scanner",
+                      "rank":  11,
+                      "language":  "Go"
+                  },
+                  {
+                      "name":  "lyogavin/airllm",
+                      "stars_today":  208,
+                      "stars":  19153,
+                      "desc":  "AirLLM 70B inference with 4GB GPU",
+                      "rank":  12,
+                      "language":  "Jupyter Notebook"
+                  },
+                  {
+                      "name":  "HKUDS/Vibe-Trading",
+                      "stars_today":  197,
+                      "stars":  10445,
+                      "desc":  "Personal Trading Agent (HKUDS)",
+                      "rank":  13,
+                      "language":  "Python"
+                  },
+                  {
+                      "name":  "jwasham/coding-interview-university",
+                      "stars_today":  330,
+                      "stars":  349359,
+                      "desc":  "CS study plan to become SWE",
+                      "rank":  14,
+                      "language":  ""
+                  },
+                  {
+                      "name":  "odoo/odoo",
+                      "stars_today":  29,
+                      "stars":  52111,
+                      "desc":  "Open Source ERP/Business Apps",
+                      "rank":  15,
+                      "language":  "Python"
+                  }
+              ],
+    "analysis":  {
+                     "dominant_theme":  "AI Agent Token Optimization (headroom/ECC/caveman = 3 of top 3) + Hermes Agent 生态 (#4 #8 #9) + Microsoft 文档处理 (#5)",
+                     "confidence":  "HIGH (15 个完整数据, browser evaluate 直采)",
+                     "signal":  "Token cost + Agent 基础设施 主导 GitHub 6/4 趋势, 与 Anthropic fs + Uber  限制形成强对应 (企业 AI ROI 焦虑)"
+                 }
+}
