@@ -1,4 +1,66 @@
-# 快照 | 2026-06-04 07:29 GMT+8 (第29次心跳 - 3 子智能体派发 + 429 限流接管)
+# 快照 | 2026-06-04 08:35 GMT+8 (第38次心跳 - 双身份模式: 情报专家 + 任务管理)
+
+> ⏰ **定时提醒触发** | 🔄 工作区扫描 + ETF 真实数据 + 子智能体派发 | 📊 距 09:00 亚股 25min
+> **上次更新**: 2026-06-04 07:29 (1h 6min 前,详见末尾延续段落)
+
+## 🎯 08:35 关键发现 (主代理直采 Farside)
+
+### 🔴 P0 修正: 6/3 BTC ETF 实际仅 -$54.3M (vs 凌晨预测 -$3B!)
+- **Farside 6/3 真实数据** (08:35 主代理浏览器 evaluate, A+ 等级):
+  - 仅 FBTC -$54.3M, IBIT 尚未公布 (BlackRock 延后)
+  - 11/12 只 ETF 零流量 (极度观望)
+  - 6/2 → 6/3 净流出减缓 90% (从 -$519.1M → -$54.3M)
+  - **5/27 → 6/3 7d 累计 -$2,303.4M** (凌晨 prep 估算 -$3B 大幅高估)
+- **投资判断修正**:
+  - BTC 7d 概率触 $64K 修正至 **40-50%** (从 55-60% 下调)
+  - 24h 主路径: 横盘 55% / 反弹 30% / 继续跌 15%
+  - 文件: `data/crypto/farside-etf-6-3-actual-2026-06-04.md` (1.7KB, 已落盘)
+
+### 📊 价格 8:00 cron 已采集
+- BTC $64,036 (4 周新低) / ETH $1,810 / SOL $71.52
+- F&G 12 (Extreme Fear, 维持 13h+)
+- OIL $95.23 / GOLD $4,458.8 / VIX 缺失(降级用 F&G)
+
+### 🔴 重大遗忘点 (本轮扫描发现)
+1. **HN 实时采集 25 天断档**: hacker-news_latest.json 5/9 6:08 后无更新
+2. **AI news 8h 老化无更新**: ai-news_latest.json 06:36 后无刷新 (6h 周期 cron 仍工作)
+3. **github-trending 4h 老化**: github-trending-2026-06-04.json 04:20 后无更新
+4. **META 异动归因缺失**: 6/3 盘后 +4.23%, 无专题报告
+5. **v27 简报后无新简报**: 07:04 → 08:35 = 1h31min 缺口
+
+### 🤖 派发子智能体 (1 串行, 避免 429)
+- **agent-GE-geo-morning-0835** (runId 58d99bd3, 12min 限时, ⏳ running)
+  - 任务: 6/4 凌晨地缘深度 (Iran-Kuwait 4h 增量 / 霍尔木兹 / Trump 表态 / 黄金异常 / 俄乌/台海/朝核)
+  - 预期: data/geo/middle-east-6-4-morning-2026-06-04.md (≥ 6KB) + JSON snapshot
+  - 完成后主代理再派第 2 个: HN + AI news 合并采集
+
+### 📊 cron 健康 (4 任务全部 Ready)
+- AINewsCollector_6h: Ready (LastRun 6/3 18:00 验证, 06:00 修复后首次自动)
+- DailyCollector: Ready (12h 周期合并)
+- HeartbeatSelfCheck: Ready (6h 周期: 00/06/12/18)
+- HourlyPriceCollector: Ready (上次 8:00:01 验证, 0x80070002 已知误报)
+
+### 📅 08:35 → 22:00 关键时间窗口
+- **08:35-08:50** — agent-GE 子智能体运行 (12min)
+- **09:00** — 亚股开盘 (港股 / 日经 / A股), 25min
+- **09:30** — 港股 / A股开盘, 55min
+- **12:00** — AINewsCollector_6h cron 验证 (HeartbeatSelfCheck 同步)
+- **14:00** — HeartbeatSelfCheck 周期点 (不一定触发, 周期 6h)
+- **16:15** — ADP 非农 (7h40min)
+- **21:30** — 美股 6/4 开盘 (13h)
+- **22:00** — ISM Services PMI (13h30min, 4 档分水岭)
+- **6/13** — 9d 倒计时 (NVDA put 60% 部署)
+- **6/15-30** — Anthropic S-1 公开窗口 (11-26d)
+
+## ⚠️ ERROR_LOG (历史教训)
+- **3 并发子智能体 = 429 Token Plan 限流** (7/3 07:30, 错误 2062)
+  - 规避: 串行 (1 完成再 1) 或最多 2 并发
+- **sonnet fast mode 子智能体 0 文件落地** (6/3 17:17, 3 个子智能体失败)
+  - 规避: 改 opus 标准模式, 或派发后 5min read 验证
+- **PAT 暴露 3 次** (6/4 02:30-03:00) — 任何脚本不得硬编码 token
+- **凌晨 GFW 02:00-04:30 高阻断** — OpenSSL/Schannel 阻断, 走 WinHTTP + API PUT
+
+## 🔄 07:29 延续段 (快照接续)
 
 > ⏰ **第29次心跳触发 (续)** | 🔄 子智能体状态盘点 + 429 接管 | 📊 距 08:00 Farside ETF 31min
 > **上次更新**: 2026-06-04 07:27 (2min 前, 详见下方原快照)
