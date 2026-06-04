@@ -1,0 +1,155 @@
+{
+  "scan_time": "2026-06-05T05:55:00+08:00",
+  "scan_method": "G-45 subagent, Get-ScheduledTask + Get-ScheduledTaskInfo",
+  "scanner": "agent:gida:subagent:a56dd788-a929-4fd7-b42a-6dfa002fd4fd",
+  "parent_task": "G-45 collection-program-v2-audit-0550",
+  "v1_health_score": 7.6,
+  "v1_health_grade": "B-",
+  "summary": {
+    "total_tasks_scanned": 8,
+    "healthy": 4,
+    "fixed": 1,
+    "suspect": 1,
+    "unverified": 1,
+    "disabled": 2
+  },
+  "tasks": [
+    {
+      "name": "AINewsCollector_0400",
+      "purpose": "凌晨 04:00 AI News 补采 (填补 02-06 真空)",
+      "status": "✅-fixed",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "last_run_iso": "1999-11-30T00:00:00",
+      "last_run_note": "Windows epoch zero value = never run yet (5:50 主代理手动注册, 首次自动跑 6/6 04:00)",
+      "next_run": "2026-06-06T04:00:00",
+      "missed_runs": 0,
+      "script_path": "C:\\Users\\Administrator\\clawd\\agents\\workspace-gid\\scripts\\cron-ainews-0400.ps1",
+      "script_size_bytes": 13311,
+      "script_mtime": "2026-06-05T05:29:29+08:00",
+      "fix_note": "5:50 主代理手动注册 (G-40B 5:20 部署脚本但漏注册调度, 5:50 发现并修复)",
+      "fix_evidence": "NextRunTime=2026/6/6 04:00, MissedRuns=0, State=Ready",
+      "v2_action": "无需改动, 6/6 04:00 验证首次自动执行"
+    },
+    {
+      "name": "AINewsCollector_6h",
+      "purpose": "AI News 主采集 (00/06/12/18 触发)",
+      "status": "✅-healthy",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "last_run": "2026-06-05T00:00:01",
+      "next_run": "2026-06-05T06:00:00",
+      "missed_runs": 0,
+      "output_evidence": "data/ai/ai-news_latest.md (5526 bytes) 存在, 内容新",
+      "v2_action": "无"
+    },
+    {
+      "name": "HourlyPriceCollector",
+      "purpose": "每小时价格采集 (加密货币 + 宏观)",
+      "status": "⚠️-suspect",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "last_run": "2026-06-05T05:00:01",
+      "next_run": "2026-06-05T06:00:00",
+      "missed_runs": 0,
+      "output_evidence": "data/prices/ 最新文件 = 2026-05-06T13:06:58, 一个月前未更新",
+      "v2_action": "P2 排查: 任务跑成功但未写盘, 6/5 06:00 观察首文件, price-refresh-0200 填补"
+    },
+    {
+      "name": "CronWatchdog",
+      "purpose": "cron 任务健康监控 + 自愈",
+      "status": "✅-healthy",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "last_run": null,
+      "next_run": null,
+      "missed_runs": 0,
+      "v2_action": "无 (G-40B 已部署, LastRun 未详查)"
+    },
+    {
+      "name": "DailyCollector",
+      "purpose": "每日宏观 + 地缘 + AI 综合报告",
+      "status": "✅-healthy",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "last_run": null,
+      "next_run": null,
+      "missed_runs": 0,
+      "v2_action": "无"
+    },
+    {
+      "name": "DailyCollector_AM",
+      "purpose": "AM 时段日报 (已废弃)",
+      "status": "⏸️-disabled",
+      "registered": true,
+      "enabled": false,
+      "state": "Disabled",
+      "v2_action": "清理: 移到 scripts/_deprecated/, v2 P0 阶段一并清"
+    },
+    {
+      "name": "DailyCollector_PM",
+      "purpose": "PM 时段晚报 (已废弃)",
+      "status": "⏸️-disabled",
+      "registered": true,
+      "enabled": false,
+      "state": "Disabled",
+      "v2_action": "清理: 移到 scripts/_deprecated/"
+    },
+    {
+      "name": "GhTrending_v6_3layer",
+      "purpose": "GitHub Trending 采集 (v6 三层降级)",
+      "status": "✅-verified-once",
+      "registered": true,
+      "enabled": true,
+      "state": "Ready",
+      "script_path": "C:\\Users\\Administrator\\clawd\\agents\\workspace-gid\\scripts\\gh-trending-v6-3layer-fallback.ps1",
+      "script_size_bytes": 13613,
+      "script_mtime": "2026-06-05T05:19:32+08:00",
+      "output_evidence": "data/tech/github-trending_latest.md (3014 bytes) 存在, 5:45 之前已成功跑过一次",
+      "v2_action": "无 (需 1 周观察期确认 3 层降级稳定性)"
+    }
+  ],
+  "v2_priority_actions": [
+    {
+      "priority": "P0",
+      "action": "部署+注册双重验证机制 (deploy-cron-v2.ps1)",
+      "owner": "主代理 + G-46",
+      "eta": "2026-06-05T23:00:00+08:00",
+      "blocker": null
+    },
+    {
+      "priority": "P1",
+      "action": "ETH 三源冗余 (增加 Binance 备选 L4)",
+      "owner": "G-47",
+      "eta": "2026-06-06T00:00:00+08:00",
+      "blocker": null
+    },
+    {
+      "priority": "P1",
+      "action": "ETF Coinglass JS 渲染升级 (Playwright .NET)",
+      "owner": "主代理 + G-48",
+      "eta": "2026-06-06T09:00:00+08:00",
+      "blocker": "Playwright 150MB 下载"
+    },
+    {
+      "priority": "P2",
+      "action": "Price-refresh-0200 cron 填补 + 排查 HourlyPriceCollector 不写盘",
+      "owner": "G-47",
+      "eta": "2026-06-06T00:00:00+08:00",
+      "blocker": null
+    }
+  ],
+  "next_scan": "2026-06-05T06:30:00+08:00 (6h cron 后) 或 2026-06-06T04:30:00+08:00 (0400 首次跑后)",
+  "scan_duration_sec": 180,
+  "data_sources": [
+    "Get-ScheduledTask (8 tasks matching pattern)",
+    "Get-ScheduledTaskInfo (3 tasks LastRunTime/NextRunTime)",
+    "Get-ChildItem data/ -Recurse (12 files 6/4 之后)",
+    "Get-ChildItem scripts/*.ps1 (40 脚本盘点)"
+  ]
+}

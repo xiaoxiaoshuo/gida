@@ -1,392 +1,424 @@
-{
-  "items": [
-    {
-      "date": "2026-06-04T13:00:51Z",
-      "title": "VoidZero Is Joining Cloudflare",
-      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T11:17:34Z",
-      "title": "Ian's Secure Shoelace Knot",
-      "url": "https://www.fieggen.com/shoelace/secureknot.htm",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T23:37:18Z",
-      "title": "They’re made out of weights",
-      "url": "https://maxleiter.com/blog/weights",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T15:18:00Z",
-      "title": "KVarN: Native vLLM KV-cache quantization back end by Huawei",
-      "url": "https://github.com/huawei-csl/KVarN",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T10:48:13Z",
-      "title": "Gaussian Point Splatting",
-      "url": "https://momentsingraphics.de/Siggraph2026.html",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T14:36:39Z",
-      "title": "In a first, wind and solar generated more power than gas globally in April 2026",
-      "url": "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-02T17:50:00Z",
-      "title": "U.S. Army Corps of Engineers Bay Model",
-      "url": "https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T11:39:28Z",
-      "title": "French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56",
-      "url": "https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T19:02:26Z",
-      "title": "Elixir v1.20: Now a gradually typed language",
-      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-02T14:15:15Z",
-      "title": "3D-printed book turns its own G-code into raised lettering",
-      "url": "https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T16:04:42Z",
-      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T15:37:16Z",
-      "title": "Several Injured in Boeing 787 Nose-Gear Collapse in Frankfurt",
-      "url": "https://www.reuters.com/business/aerospace-defense/lufthansa-787-jet-suffers-front-wheel-collapse-frankfurt-gate-2026-06-04/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-01T13:26:01Z",
-      "title": "Show HN: Prela – Purely Algebraic Relation Combinators",
-      "url": "https://github.com/remysucre/prela",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T12:00:29Z",
-      "title": "AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools",
-      "url": "https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T00:56:32Z",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T17:51:37Z",
-      "title": "Artificial intelligence is not conscious",
-      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-02T11:20:10Z",
-      "title": "Under Notre Dame, a 'dig of the century' unearths 1,700 years of history",
-      "url": "https://apnews.com/article/notre-dame-dig-treasures-paris-archaeology-roman-dae41f792c1402faf32a87c154cc9a77",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T08:45:36Z",
-      "title": "UK media fails to disclose defence sector links in nearly 60% of cases",
-      "url": "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T00:27:52Z",
-      "title": "The ways we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T14:10:06Z",
-      "title": "I was recently diagnosed with anti-NMDA receptor encephalitis",
-      "url": "https://burntsushi.net/encephalitis/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T12:25:14Z",
-      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
-      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T14:38:35Z",
-      "title": "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
-      "url": "https://boxes.dev",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-02T14:48:44Z",
-      "title": "thunderbolt-ibverbs: We have InfiniBand at home",
-      "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-04T00:18:02Z",
-      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-05-31T17:16:15Z",
-      "title": "Learn SQL Once, Use It for 30 Years",
-      "url": "https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-05-31T18:54:55Z",
-      "title": "Kiki – a tiny homepage construction kit with a small footprint",
-      "url": "https://tomotama.com/kiki",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T14:18:39Z",
-      "title": "DaVinci Resolve 21",
-      "url": "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-05-31T14:12:48Z",
-      "title": "Claude Code and Codex Can Have Real-Time Conversation via Git",
-      "url": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T16:10:25Z",
-      "title": "ESP32-S31",
-      "url": "https://www.espressif.com/en/products/socs/esp32-s31",
-      "source": "Hacker News",
-      "desc": ""
-    },
-    {
-      "date": "2026-06-03T15:06:09Z",
-      "title": "A Post-Quantum Future for Let's Encrypt",
-      "url": "https://letsencrypt.org/2026/06/03/pq-certs",
-      "source": "Hacker News",
-      "desc": ""
-    }
-  ],
-  "count": 46,
-  "sources": [
-    {
-      "name": "Hacker News",
-      "count": 30,
-      "status": "ok",
-      "path": "items"
-    },
-    {
-      "name": "GitHub Trending",
-      "count": 16,
-      "status": "ok",
-      "path": "repos"
-    }
-  ],
-  "repos": [
-    {
-      "today_stars": 2434,
-      "built_by": [],
-      "description": "Coding agent for DeepSeek models that runs in your terminal",
-      "repo": "Hmbown/DeepSeek-TUI",
-      "stars": 11398,
-      "rank": 1,
-      "url": "https://github.com/Hmbown/DeepSeek-TUI",
-      "forks": 0
-    },
-    {
-      "today_stars": 0,
-      "built_by": [],
-      "description": "Production-grade engineering skills for AI coding agents",
-      "repo": "addyosmani/agent-skills",
-      "stars": 0,
-      "rank": 2,
-      "url": "https://github.com/addyosmani/agent-skills",
-      "forks": 0
-    },
-    {
-      "today_stars": 218,
-      "built_by": [],
-      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
-      "repo": "PriorLabs/TabPFN",
-      "stars": 6685,
-      "rank": 3,
-      "url": "https://github.com/PriorLabs/TabPFN",
-      "forks": 0
-    },
-    {
-      "today_stars": 927,
-      "built_by": [],
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "repo": "docusealco/docuseal",
-      "stars": 14361,
-      "rank": 4,
-      "url": "https://github.com/docusealco/docuseal",
-      "forks": 0
-    },
-    {
-      "today_stars": 532,
-      "built_by": [],
-      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs",
-      "repo": "LearningCircuit/local-deep-research",
-      "stars": 5913,
-      "rank": 5,
-      "url": "https://github.com/LearningCircuit/local-deep-research",
-      "forks": 0
-    },
-    {
-      "today_stars": 0,
-      "built_by": [],
-      "description": "Truly independent web browser",
-      "repo": "LadybirdBrowser/ladybird",
-      "stars": 0,
-      "rank": 6,
-      "url": "https://github.com/LadybirdBrowser/ladybird",
-      "forks": 0
-    },
-    {
-      "today_stars": 230,
-      "built_by": [],
-      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway",
-      "repo": "InsForge/InsForge",
-      "stars": 8634,
-      "rank": 7,
-      "url": "https://github.com/InsForge/InsForge",
-      "forks": 0
-    },
-    {
-      "today_stars": 666,
-      "built_by": [],
-      "description": "An autonomous agent for deep financial research",
-      "repo": "virattt/dexter",
-      "stars": 24578,
-      "rank": 8,
-      "url": "https://github.com/virattt/dexter",
-      "forks": 0
-    },
-    {
-      "today_stars": 641,
-      "built_by": [],
-      "description": "Anthropics financial services repository",
-      "repo": "anthropics/financial-services",
-      "stars": 9603,
-      "rank": 9,
-      "url": "https://github.com/anthropics/financial-services",
-      "forks": 0
-    },
-    {
-      "today_stars": 2192,
-      "built_by": [],
-      "description": "The leading agent orchestration platform for Claude",
-      "repo": "ruvnet/ruflo",
-      "stars": 45658,
-      "rank": 10,
-      "url": "https://github.com/ruvnet/ruflo",
-      "forks": 0
-    },
-    {
-      "today_stars": 0,
-      "built_by": [],
-      "description": "A list of free LLM inference resources accessible via API",
-      "repo": "cheahjs/free-llm-api-resources",
-      "stars": 0,
-      "rank": 11,
-      "url": "https://github.com/cheahjs/free-llm-api-resources",
-      "forks": 0
-    },
-    {
-      "today_stars": 42,
-      "built_by": [],
-      "description": "Open-source intelligence for the global theater",
-      "repo": "BigBodyCobain/Shadowbroker",
-      "stars": 6056,
-      "rank": 12,
-      "url": "https://github.com/BigBodyCobain/Shadowbroker",
-      "forks": 0
-    },
-    {
-      "today_stars": 0,
-      "built_by": [],
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "repo": "shiyu-coder/Kronos",
-      "stars": 0,
-      "rank": 13,
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "forks": 0
-    },
-    {
-      "today_stars": 503,
-      "built_by": [],
-      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
-      "repo": "bwya77/vscode-dark-islands",
-      "stars": 8296,
-      "rank": 14,
-      "url": "https://github.com/bwya77/vscode-dark-islands",
-      "forks": 0
-    },
-    {
-      "today_stars": 0,
-      "built_by": [],
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates",
-      "repo": "bytedance/deer-flow",
-      "stars": 0,
-      "rank": 15,
-      "url": "https://github.com/bytedance/deer-flow",
-      "forks": 0
-    },
-    {
-      "today_stars": 1125,
-      "built_by": [],
-      "description": "🕷️ An adaptive Web Scraping framework",
-      "repo": "D4Vinci/Scrapling",
-      "stars": 46779,
-      "rank": 16,
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "forks": 0
-    }
-  ],
-  "timestamp": "2026-06-04T18:27:33Z"
+﻿{
+    "sources":  [
+                    {
+                        "path":  "items",
+                        "name":  "Hacker News",
+                        "status":  "ok",
+                        "count":  30
+                    },
+                    {
+                        "path":  "repos",
+                        "name":  "GitHub Trending",
+                        "status":  "ok",
+                        "count":  16
+                    }
+                ],
+    "timestamp":  "2026-06-04T22:00:14Z",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2434,
+                      "repo":  "Hmbown/DeepSeek-TUI",
+                      "url":  "https://github.com/Hmbown/DeepSeek-TUI",
+                      "stars":  11398,
+                      "forks":  0,
+                      "description":  "Coding agent for DeepSeek models that runs in your terminal"
+                  },
+                  {
+                      "rank":  2,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "addyosmani/agent-skills",
+                      "url":  "https://github.com/addyosmani/agent-skills",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Production-grade engineering skills for AI coding agents"
+                  },
+                  {
+                      "rank":  3,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  218,
+                      "repo":  "PriorLabs/TabPFN",
+                      "url":  "https://github.com/PriorLabs/TabPFN",
+                      "stars":  6685,
+                      "forks":  0,
+                      "description":  "⚡ TabPFN: Foundation Model for Tabular Data ⚡"
+                  },
+                  {
+                      "rank":  4,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  927,
+                      "repo":  "docusealco/docuseal",
+                      "url":  "https://github.com/docusealco/docuseal",
+                      "stars":  14361,
+                      "forks":  0,
+                      "description":  "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
+                  },
+                  {
+                      "rank":  5,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  532,
+                      "repo":  "LearningCircuit/local-deep-research",
+                      "url":  "https://github.com/LearningCircuit/local-deep-research",
+                      "stars":  5913,
+                      "forks":  0,
+                      "description":  "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs"
+                  },
+                  {
+                      "rank":  6,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "LadybirdBrowser/ladybird",
+                      "url":  "https://github.com/LadybirdBrowser/ladybird",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Truly independent web browser"
+                  },
+                  {
+                      "rank":  7,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  230,
+                      "repo":  "InsForge/InsForge",
+                      "url":  "https://github.com/InsForge/InsForge",
+                      "stars":  8634,
+                      "forks":  0,
+                      "description":  "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway"
+                  },
+                  {
+                      "rank":  8,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  666,
+                      "repo":  "virattt/dexter",
+                      "url":  "https://github.com/virattt/dexter",
+                      "stars":  24578,
+                      "forks":  0,
+                      "description":  "An autonomous agent for deep financial research"
+                  },
+                  {
+                      "rank":  9,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  641,
+                      "repo":  "anthropics/financial-services",
+                      "url":  "https://github.com/anthropics/financial-services",
+                      "stars":  9603,
+                      "forks":  0,
+                      "description":  "Anthropics financial services repository"
+                  },
+                  {
+                      "rank":  10,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2192,
+                      "repo":  "ruvnet/ruflo",
+                      "url":  "https://github.com/ruvnet/ruflo",
+                      "stars":  45658,
+                      "forks":  0,
+                      "description":  "The leading agent orchestration platform for Claude"
+                  },
+                  {
+                      "rank":  11,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "cheahjs/free-llm-api-resources",
+                      "url":  "https://github.com/cheahjs/free-llm-api-resources",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "A list of free LLM inference resources accessible via API"
+                  },
+                  {
+                      "rank":  12,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  42,
+                      "repo":  "BigBodyCobain/Shadowbroker",
+                      "url":  "https://github.com/BigBodyCobain/Shadowbroker",
+                      "stars":  6056,
+                      "forks":  0,
+                      "description":  "Open-source intelligence for the global theater"
+                  },
+                  {
+                      "rank":  13,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "shiyu-coder/Kronos",
+                      "url":  "https://github.com/shiyu-coder/Kronos",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Kronos: A Foundation Model for the Language of Financial Markets"
+                  },
+                  {
+                      "rank":  14,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  503,
+                      "repo":  "bwya77/vscode-dark-islands",
+                      "url":  "https://github.com/bwya77/vscode-dark-islands",
+                      "stars":  8296,
+                      "forks":  0,
+                      "description":  "VSCode theme based off the easemate IDE and Jetbrains islands theme"
+                  },
+                  {
+                      "rank":  15,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "bytedance/deer-flow",
+                      "url":  "https://github.com/bytedance/deer-flow",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "An open-source long-horizon SuperAgent harness that researches, codes, and creates"
+                  },
+                  {
+                      "rank":  16,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  1125,
+                      "repo":  "D4Vinci/Scrapling",
+                      "url":  "https://github.com/D4Vinci/Scrapling",
+                      "stars":  46779,
+                      "forks":  0,
+                      "description":  "🕷️ An adaptive Web Scraping framework"
+                  }
+              ],
+    "items":  [
+                  {
+                      "date":  "2026-06-04T20:11:20Z",
+                      "title":  "Anthropic\u0027s open-source framework for AI-powered vulnerability discovery",
+                      "url":  "https://github.com/anthropics/defending-code-reference-harness",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T13:00:51Z",
+                      "title":  "VoidZero Is Joining Cloudflare",
+                      "url":  "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T16:20:17Z",
+                      "title":  "When AI Builds Itself: Our progress toward recursive self-improvement",
+                      "url":  "https://www.anthropic.com/institute/recursive-self-improvement",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T19:52:02Z",
+                      "title":  "Castor: CERN Advanced STORage Manager",
+                      "url":  "https://castor.web.cern.ch/content/home.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T11:17:34Z",
+                      "title":  "Ian\u0027s Secure Shoelace Knot",
+                      "url":  "https://www.fieggen.com/shoelace/secureknot.htm",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T16:02:35Z",
+                      "title":  "Retro-Tech Parenting",
+                      "url":  "https://havenweb.org/2026/05/28/retro-tech.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T15:18:00Z",
+                      "title":  "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+                      "url":  "https://github.com/huawei-csl/KVarN",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T20:32:18Z",
+                      "title":  "Show HN: FFmpeg WebCLI – Full FFmpeg in Browser, Offline PWA, No Uploads(WASM)",
+                      "url":  "https://github.com/tejaswigowda/ffmpeg-webCLI",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T19:30:44Z",
+                      "title":  "JLink JTAG Access on the Pinecil",
+                      "url":  "https://danielmangum.com/posts/jlink-jtag-pinecil/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T04:32:19Z",
+                      "title":  "Samurai City",
+                      "url":  "https://worksinprogress.co/issue/samurai-city/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T19:36:48Z",
+                      "title":  "Meta\u0027s ships facial recognition on smart glasses",
+                      "url":  "https://www.buchodi.com/meta-glasses-facial-recognition/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T00:18:02Z",
+                      "title":  "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+                      "url":  "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-01T18:02:10Z",
+                      "title":  "Making Debian or Fedora persistent live images",
+                      "url":  "https://sigwait.org/~alex/blog/2026/05/28/smdBC8.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T20:19:07Z",
+                      "title":  "Iran Shock Jolts Asia and Europe to Speed Up Energy Transition",
+                      "url":  "https://www.bloomberg.com/graphics/2026-energy-transition-iran-war/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-01T05:54:27Z",
+                      "title":  "Sum-product, unit distances, and number fields",
+                      "url":  "https://www.erdosproblems.com/forum/thread/blog:6",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T17:00:37Z",
+                      "title":  "Zettascale (YC S24) Is Hiring Founding FPGA Engineers",
+                      "url":  "https://www.ycombinator.com/companies/zettascale/jobs/O9S1vqO-founding-engineer-fpga-rtl-asic-architect",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T17:50:00Z",
+                      "title":  "U.S. Army Corps of Engineers Bay Model",
+                      "url":  "https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T20:33:02Z",
+                      "title":  "NSA using Anthropic\u0027s Mythos for cyber attacks",
+                      "url":  "https://www.ft.com/content/d02d91b3-2636-454e-9442-dc7e69f51815",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T08:56:10Z",
+                      "title":  "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
+                      "url":  "https://uruky.com/?il=en",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T14:48:44Z",
+                      "title":  "AI, Ashby Engineering, and the future",
+                      "url":  "https://www.ashbyhq.com/blog/engineering/ai-ashby-engineering-and-the-future",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T10:48:13Z",
+                      "title":  "Gaussian Point Splatting",
+                      "url":  "https://momentsingraphics.de/Siggraph2026.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T19:02:26Z",
+                      "title":  "Elixir v1.20: Now a gradually typed language",
+                      "url":  "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T12:32:40Z",
+                      "title":  "Ask HN: So what happened to Facebook \"localhost\" tracking?",
+                      "url":  "https://news.ycombinator.com/item?id=48397731",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T20:00:54Z",
+                      "title":  "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
+                      "url":  "https://tiki.li/blog/blqsort",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T12:35:20Z",
+                      "title":  "Mornings and nights no longer exist at 47C: A day in the hottest place in India",
+                      "url":  "https://www.bbc.co.uk/news/articles/crmp0krp98ro",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T19:39:19Z",
+                      "title":  "Ask HN: High school student – is learning programming still worthwhile?",
+                      "url":  "https://news.ycombinator.com/item?id=48403614",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T14:15:15Z",
+                      "title":  "3D-printed book turns its own G-code into raised lettering",
+                      "url":  "https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T17:39:13Z",
+                      "title":  "The desperation of NYTimes",
+                      "url":  "https://rozumem.xyz/posts/16",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T11:30:13Z",
+                      "title":  "Show HN: Cost.dev (YC W21) – making agents cost-aware and cheaper to call",
+                      "url":  "https://cost.dev/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T18:10:07Z",
+                      "title":  "Ask HN: Time loop and partial blackhole?",
+                      "url":  "https://news.ycombinator.com/item?id=48402378",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  }
+              ],
+    "count":  46
 }
