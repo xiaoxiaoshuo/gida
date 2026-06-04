@@ -1,0 +1,61 @@
+﻿{
+    "source":  "farside.co.uk/bitcoin-etf-flow-all-data/",
+    "fetched_at":  "2026-06-04T17:42:00+08:00",
+    "page_footer_date":  "04 June 2026",
+    "fetched_by":  "G-32A subagent (browser evaluate)",
+    "june_2026_entries":  [
+                              {
+                                  "MSBT":  6.1,
+                                  "Total":  -483.8,
+                                  "ARKB":  -12.3,
+                                  "BTCO":  0,
+                                  "HODL":  0,
+                                  "BTCW":  0,
+                                  "EZBC":  0,
+                                  "BITB":  0,
+                                  "FBTC":  -37.3,
+                                  "BRRR":  0,
+                                  "date":  "2026-06-01",
+                                  "GBTC":  0,
+                                  "BTC":  0,
+                                  "IBIT":  -440.3
+                              },
+                              {
+                                  "MSBT":  14.8,
+                                  "Total":  -519.1,
+                                  "ARKB":  -16.7,
+                                  "BTCO":  0,
+                                  "HODL":  0,
+                                  "BTCW":  0,
+                                  "EZBC":  0,
+                                  "BITB":  0,
+                                  "FBTC":  -45.1,
+                                  "BRRR":  0,
+                                  "date":  "2026-06-02",
+                                  "GBTC":  -83.5,
+                                  "BTC":  0,
+                                  "IBIT":  -388.6
+                              },
+                              {
+                                  "MSBT":  0,
+                                  "Total":  -396.6,
+                                  "ARKB":  0,
+                                  "BTCO":  0,
+                                  "HODL":  0,
+                                  "BTCW":  0,
+                                  "EZBC":  0,
+                                  "BITB":  0,
+                                  "FBTC":  -54.3,
+                                  "BRRR":  0,
+                                  "date":  "2026-06-03",
+                                  "GBTC":  0,
+                                  "BTC":  0,
+                                  "IBIT":  -342.3
+                              }
+                          ],
+    "cross_check":  "6/3 数据与主代理 08:35 GMT+8 采集一致,已交叉验证",
+    "note_6_4":  "6/4 数据尚未公布 (Farside 23:00 GMT+8 左右更新,届时主代理应再次 evaluate)",
+    "page_header":  "Bitcoin ETF Flow – All Data (US$m) – Farside Investors",
+    "unit":  "US millions",
+    "confidence":  "HIGH (官方主源)"
+}
