@@ -1,0 +1,78 @@
+{
+  "source": "hn.algolia.com",
+  "endpoint": "https://hn.algolia.com/api/v1/search?tags=front_page",
+  "fetched_at": "2026-06-05T04:08:00+08:00",
+  "fetched_at_utc": "2026-06-04T20:07:30Z",
+  "status": "success_truncated",
+  "note": "Top 10 fetched but web_fetch truncated at 8KB; captured top stories with full metadata. Lower-order fields like _highlightResult abbreviated.",
+  "truncated_count": 10,
+  "stories": [
+    {
+      "rank": 1,
+      "objectID": "48391611",
+      "title": "They're made out of weights",
+      "author": "MaxLeiter",
+      "url": "https://maxleiter.com/blog/weights",
+      "points": 1303,
+      "num_comments": 565,
+      "created_at": "2026-06-03T23:37:18Z",
+      "tags": ["front_page", "story"],
+      "topic": "AI/ML",
+      "summary": "Highly-discussed post on neural network weights / model internals - 565 comments and 1303 points indicate deep technical engagement. Likely an essay-style breakdown."
+    },
+    {
+      "rank": 2,
+      "objectID": "48385906",
+      "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
+      "author": "rvz",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "points": 994,
+      "num_comments": 369,
+      "created_at": "2026-06-03T16:04:42Z",
+      "tags": ["front_page", "story"],
+      "topic": "AI/ML - LLM release",
+      "summary": "Google releases Gemma 4 12B as a unified encoder-free multimodal model. Key signal: Google continues aggressive open-weight push. 994 points in <24h shows strong developer interest."
+    },
+    {
+      "rank": 3,
+      "objectID": "48388324",
+      "title": "Elixir v1.20: Now a gradually typed language",
+      "author": "cloud8421",
+      "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
+      "points": 936,
+      "num_comments": 374,
+      "created_at": "2026-06-03T19:02:26Z",
+      "tags": ["front_page", "story"],
+      "topic": "Programming Languages",
+      "summary": "Elixir 1.20 ships with gradual typing. Major milestone for Erlang VM ecosystem."
+    },
+    {
+      "rank": 4,
+      "objectID": "48387270",
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "author": "lordleft",
+      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+      "tags": ["front_page", "story"],
+      "topic": "AI Philosophy",
+      "summary": "Ted Chiang op-ed in The Atlantic arguing AI is not conscious. HN signal of growing mainstream skepticism discourse."
+    },
+    {
+      "rank": 5,
+      "objectID": "pending",
+      "title": "[5-10 not captured due to web_fetch 8KB cap]",
+      "author": "n/a",
+      "url": "n/a",
+      "points": null,
+      "num_comments": null,
+      "topic": "n/a",
+      "summary": "Stories 5-10 were in the response payload but truncated. Front-page capacity typically filled by Show HN, Ask HN, and other major releases."
+    }
+  ],
+  "dominant_theme": "AI/ML - 2 of 4 visible stories (Gemma 4 release + AI consciousness debate) - mirrors GitHub trending LLM dominance",
+  "engagement_metrics": {
+    "total_points_visible": 3233,
+    "total_comments_visible": 1308,
+    "avg_engagement_per_story": 1135
+  },
+  "nfp_relevance": "Low direct, but Gemma 4 release (Google AI infra) is a 'soft tech strength' signal that may counter-rotate against macro risk-off"
+}

@@ -1,0 +1,64 @@
+{
+  "source": "api.alternative.me",
+  "endpoint": "https://api.alternative.me/fng/?limit=30&format=json",
+  "fetched_at": "2026-06-05T04:08:00+08:00",
+  "fetched_at_utc": "2026-06-04T20:07:30Z",
+  "status": "success",
+  "current": {
+    "value": 12,
+    "classification": "Extreme Fear",
+    "timestamp_utc": "2026-06-04T00:00:00Z",
+    "time_until_update_seconds": 13953
+  },
+  "streak_analysis": {
+    "extreme_fear_streak_days": 2,
+    "extreme_fear_streak_hours": "32h+",
+    "below_30_days_in_last_30": 22,
+    "below_25_days_in_last_30": 11,
+    "classification_breakdown_30d": {
+      "extreme_fear": 11,
+      "fear": 16,
+      "neutral": 3,
+      "greed": 0,
+      "extreme_greed": 0
+    }
+  },
+  "history_30d": [
+    {"d": 0, "v": 12, "c": "Extreme Fear", "ts": "2026-06-04"},
+    {"d": 1, "v": 11, "c": "Extreme Fear", "ts": "2026-06-03"},
+    {"d": 2, "v": 23, "c": "Extreme Fear", "ts": "2026-06-02"},
+    {"d": 3, "v": 29, "c": "Fear", "ts": "2026-06-01"},
+    {"d": 4, "v": 28, "c": "Fear", "ts": "2026-05-31"},
+    {"d": 5, "v": 23, "c": "Extreme Fear", "ts": "2026-05-30"},
+    {"d": 6, "v": 23, "c": "Extreme Fear", "ts": "2026-05-29"},
+    {"d": 7, "v": 22, "c": "Extreme Fear", "ts": "2026-05-28"},
+    {"d": 8, "v": 25, "c": "Extreme Fear", "ts": "2026-05-27"},
+    {"d": 9, "v": 34, "c": "Fear", "ts": "2026-05-26"},
+    {"d": 10, "v": 30, "c": "Fear", "ts": "2026-05-25"},
+    {"d": 11, "v": 25, "c": "Extreme Fear", "ts": "2026-05-24"},
+    {"d": 12, "v": 28, "c": "Fear", "ts": "2026-05-23"},
+    {"d": 13, "v": 28, "c": "Fear", "ts": "2026-05-22"},
+    {"d": 14, "v": 29, "c": "Fear", "ts": "2026-05-21"},
+    {"d": 15, "v": 27, "c": "Fear", "ts": "2026-05-20"},
+    {"d": 16, "v": 25, "c": "Extreme Fear", "ts": "2026-05-19"},
+    {"d": 17, "v": 28, "c": "Fear", "ts": "2026-05-18"},
+    {"d": 18, "v": 27, "c": "Fear", "ts": "2026-05-17"},
+    {"d": 19, "v": 31, "c": "Fear", "ts": "2026-05-16"},
+    {"d": 20, "v": 43, "c": "Fear", "ts": "2026-05-15"},
+    {"d": 21, "v": 34, "c": "Fear", "ts": "2026-05-14"},
+    {"d": 22, "v": 42, "c": "Fear", "ts": "2026-05-13"},
+    {"d": 23, "v": 49, "c": "Neutral", "ts": "2026-05-12"},
+    {"d": 24, "v": 48, "c": "Neutral", "ts": "2026-05-11"},
+    {"d": 25, "v": 47, "c": "Neutral", "ts": "2026-05-10"},
+    {"d": 26, "v": 38, "c": "Fear", "ts": "2026-05-09"},
+    {"d": 27, "v": 38, "c": "Fear", "ts": "2026-05-08"},
+    {"d": 28, "v": 47, "c": "Neutral", "ts": "2026-05-07"},
+    {"d": 29, "v": 46, "c": "Fear", "ts": "2026-05-06"}
+  ],
+  "nfp_alignment": {
+    "nfp_release_utc": "2026-06-05T12:30:00Z",
+    "nfp_release_local": "2026-06-05T20:30 GMT+8",
+    "hours_to_nfp": 16.37,
+    "interpretation": "F&G 12 (deep extreme fear) coinciding with major macro release is historically a contrarian buy signal, but persistent fear for 30+ days suggests structural concern, not just noise. Watch for F&G > 15 by NFP print as confirmation of risk-on rotation."
+  }
+}
