@@ -1,29 +1,29 @@
 ﻿{
-    "timestamp_iso":  "2026-06-04T15:00:01Z",
-    "timestamp":  "2026-06-04 23:00:01",
+    "timestamp_iso":  "2026-06-04T16:00:01Z",
+    "timestamp":  "2026-06-05 00:00:01",
     "macro":  {
                   "VIX":  {
                               "value":  12,
                               "source":  "alternative.me_FNG",
-                              "timestamp":  "2026-06-04 23:00:01",
+                              "timestamp":  "2026-06-05 00:00:01",
                               "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
                               "confidence":  "medium",
                               "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"12\",\n\t\t\t\"value_classification\": \"Extr",
                               "value_classification":  "Extreme Fear"
                           },
                   "OIL":  {
-                              "value":  92.89,
+                              "value":  92.98,
                               "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-04 23:00:01",
-                              "raw_len":  416553,
+                              "timestamp":  "2026-06-05 00:00:01",
+                              "raw_len":  416564,
                               "confidence":  "high",
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4465.8,
+                               "value":  4479,
                                "source":  "kitco.com",
-                               "timestamp":  "2026-06-04 23:00:01",
-                               "raw_len":  65402,
+                               "timestamp":  "2026-06-05 00:00:01",
+                               "raw_len":  65426,
                                "confidence":  "high",
                                "unit":  "USD/oz"
                            }
@@ -33,23 +33,23 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  63887.46,
-                               "timestamp":  "2026-06-04 23:00:01",
-                               "raw":  "{\"USD\":63887.46}",
+                               "price":  63831.15,
+                               "timestamp":  "2026-06-05 00:00:01",
+                               "raw":  "{\"USD\":63831.15}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            },
                    "ETH":  {
-                               "price":  1772.47,
-                               "timestamp":  "2026-06-04 23:00:01",
-                               "raw":  "{\"USD\":1772.47}",
+                               "price":  1775.05,
+                               "timestamp":  "2026-06-05 00:00:01",
+                               "raw":  "{\"USD\":1775.05}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            },
                    "SOL":  {
-                               "price":  69.72,
-                               "timestamp":  "2026-06-04 23:00:01",
-                               "raw":  "{\"USD\":69.72}",
+                               "price":  69.58,
+                               "timestamp":  "2026-06-05 00:00:01",
+                               "raw":  "{\"USD\":69.58}",
                                "confidence":  "high",
                                "source":  "CryptoCompare_API"
                            }

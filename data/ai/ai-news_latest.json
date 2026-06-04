@@ -13,7 +13,7 @@
                         "count":  16
                     }
                 ],
-    "timestamp":  "2026-06-04T10:00:17Z",
+    "timestamp":  "2026-06-04T16:00:17Z",
     "repos":  [
                   {
                       "rank":  1,
@@ -210,9 +210,16 @@
               ],
     "items":  [
                   {
-                      "date":  "2026-06-04T08:45:36Z",
-                      "title":  "UK media fails to disclose defence sector links in nearly 60% of cases",
-                      "url":  "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
+                      "date":  "2026-06-04T13:00:51Z",
+                      "title":  "VoidZero Is Joining Cloudflare",
+                      "url":  "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T11:17:34Z",
+                      "title":  "Ian\u0027s Secure Shoelace Knot",
+                      "url":  "https://www.fieggen.com/shoelace/secureknot.htm",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -224,6 +231,41 @@
                       "desc":  ""
                   },
                   {
+                      "date":  "2026-06-04T15:18:00Z",
+                      "title":  "KVarN: Native vLLM KV-cache quantization back end by Huawei",
+                      "url":  "https://github.com/huawei-csl/KVarN",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T10:48:13Z",
+                      "title":  "Gaussian Point Splatting",
+                      "url":  "https://momentsingraphics.de/Siggraph2026.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T14:36:39Z",
+                      "title":  "In a first, wind and solar generated more power than gas globally in April 2026",
+                      "url":  "https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-02T17:50:00Z",
+                      "title":  "U.S. Army Corps of Engineers Bay Model",
+                      "url":  "https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T11:39:28Z",
+                      "title":  "French-Iranian author Marjane Satrapi, author of \u0027Persepolis\u0027, dies at 56",
+                      "url":  "https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-03T19:02:26Z",
                       "title":  "Elixir v1.20: Now a gradually typed language",
                       "url":  "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
@@ -231,16 +273,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-04T00:18:02Z",
-                      "title":  "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-                      "url":  "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-04T08:56:10Z",
-                      "title":  "Show HN: Uruky (EU-based Kagi alternative) now has Image Search and URL Rewrites",
-                      "url":  "https://uruky.com/?il=en",
+                      "date":  "2026-06-02T14:15:15Z",
+                      "title":  "3D-printed book turns its own G-code into raised lettering",
+                      "url":  "https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -252,9 +287,37 @@
                       "desc":  ""
                   },
                   {
+                      "date":  "2026-06-04T15:37:16Z",
+                      "title":  "Several Injured in Boeing 787 Nose-Gear Collapse in Frankfurt",
+                      "url":  "https://www.reuters.com/business/aerospace-defense/lufthansa-787-jet-suffers-front-wheel-collapse-frankfurt-gate-2026-06-04/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-01T13:26:01Z",
+                      "title":  "Show HN: Prela – Purely Algebraic Relation Combinators",
+                      "url":  "https://github.com/remysucre/prela",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-04T12:00:29Z",
+                      "title":  "AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools",
+                      "url":  "https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-04T00:56:32Z",
                       "title":  "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
                       "url":  "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T17:51:37Z",
+                      "title":  "Artificial intelligence is not conscious",
+                      "url":  "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -266,9 +329,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T17:51:37Z",
-                      "title":  "Artificial intelligence is not conscious – Ted Chiang",
-                      "url":  "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
+                      "date":  "2026-06-04T08:45:36Z",
+                      "title":  "UK media fails to disclose defence sector links in nearly 60% of cases",
+                      "url":  "https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -294,16 +357,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-05-31T17:16:15Z",
-                      "title":  "Learn SQL Once, Use It for 30 Years",
-                      "url":  "https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T14:18:39Z",
-                      "title":  "DaVinci Resolve 21",
-                      "url":  "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+                      "date":  "2026-06-04T14:38:35Z",
+                      "title":  "Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud",
+                      "url":  "https://boxes.dev",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -315,16 +371,37 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-01T20:31:24Z",
-                      "title":  "Meteor Explodes over Massachusetts",
-                      "url":  "https://www.nbcboston.com/news/local/meteor-explodes-over-massachusetts-what-we-know-and-where-it-landed/3957663/",
+                      "date":  "2026-06-04T00:18:02Z",
+                      "title":  "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+                      "url":  "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-05-31T18:05:37Z",
-                      "title":  "CP/M-86 \u0026 MS-DOS Cross Development Environment",
-                      "url":  "https://github.com/tsupplis/cpm86-crossdev",
+                      "date":  "2026-05-31T17:16:15Z",
+                      "title":  "Learn SQL Once, Use It for 30 Years",
+                      "url":  "https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-05-31T18:54:55Z",
+                      "title":  "Kiki – a tiny homepage construction kit with a small footprint",
+                      "url":  "https://tomotama.com/kiki",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-03T14:18:39Z",
+                      "title":  "DaVinci Resolve 21",
+                      "url":  "https://www.blackmagicdesign.com/products/davinciresolve/whatsnew",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-05-31T14:12:48Z",
+                      "title":  "Claude Code and Codex Can Have Real-Time Conversation via Git",
+                      "url":  "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -336,86 +413,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-03T20:08:33Z",
-                      "title":  "A Man Who Reads Books for a Living",
-                      "url":  "https://lithub.com/the-man-who-reads-books-for-a-living-one-every-two-days/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
                       "date":  "2026-06-03T15:06:09Z",
                       "title":  "A Post-Quantum Future for Let\u0027s Encrypt",
                       "url":  "https://letsencrypt.org/2026/06/03/pq-certs",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T20:39:34Z",
-                      "title":  "Ableton Extensions SDK",
-                      "url":  "https://www.ableton.com/en/live/extensions/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T10:05:48Z",
-                      "title":  "Mathematicians issue warning as AI rapidly gains ground",
-                      "url":  "https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T21:55:23Z",
-                      "title":  "Journey to JPEG XL: open-source experiments shaped the future of image coding",
-                      "url":  "https://opensource.googleblog.com/2026/06/journey-to-jpeg-xl-how-open-source-experiments-shaped-the-future-of-image-coding.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-04T00:41:09Z",
-                      "title":  "Dumbphone 2",
-                      "url":  "https://dumb.co/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T17:12:27Z",
-                      "title":  "Gooey: A GPU-accelerated UI framework for Zig",
-                      "url":  "https://github.com/duanebester/gooey",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T17:39:53Z",
-                      "title":  "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
-                      "url":  "https://news.ycombinator.com/item?id=48387095",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T21:32:10Z",
-                      "title":  "A Mathematician\u0027s Lament (2002) [pdf]",
-                      "url":  "https://worrydream.com/refs/Lockhart_2002_-_A_Mathematician%27s_Lament.pdf",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T10:24:25Z",
-                      "title":  "PlayStation Architecture",
-                      "url":  "https://www.copetti.org/writings/consoles/playstation/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-05-31T20:26:43Z",
-                      "title":  "Patching my guitar amp\u0027s firmware",
-                      "url":  "https://mforney.org/blog/2026-05-28-patching-my-guitar-amps-firmware.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-03T19:43:37Z",
-                      "title":  "Self-hosted dev sandboxes with preview URLs (Docker, Go, no K8s)",
-                      "url":  "https://github.com/tastyeffectco/sandboxes",
                       "source":  "Hacker News",
                       "desc":  ""
                   }
