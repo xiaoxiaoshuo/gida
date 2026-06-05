@@ -1,0 +1,204 @@
+{
+  "collection_id": "ai-news-2026-06-05_09-00",
+  "collection_type": "incremental_cron_pickup",
+  "collected_at": "2026-06-05T09:04:00+08:00",
+  "collected_at_utc": "2026-06-05T01:04:00Z",
+  "collector": "G-51 subagent (cron pickup from cron-ainews-6h cache, last 06:00)",
+  "interval_hours": 3,
+  "previous_collection": "ai-news_latest.json (06:00, 19.6KB, 46 items)",
+  "delta_window": "06:00-09:00 (3h, since 06:00 cron)",
+  "sources": {
+    "hacker_news": {
+      "status": "ok",
+      "fetched_at": "2026-06-05T09:00:00+08:00",
+      "items_count": 10,
+      "delta_vs_06:00": "incremental - 06:00 cron cached 30 items, 09:00 re-fetch top 10 (cost-controlled)",
+      "note": "AI blog feeds not re-fetched (last 06:00 cron 6h cycle, next 12:00 cron)"
+    },
+    "anthropic_blog": {"status": "cached", "last_cron": "06:00", "next_cron": "12:00"},
+    "openai_blog": {"status": "cached", "last_cron": "06:00", "next_cron": "12:00"},
+    "google_ai_blog": {"status": "cached", "last_cron": "06:00", "next_cron": "12:00"},
+    "deepseek_blog": {"status": "cached", "last_cron": "06:00", "next_cron": "12:00"}
+  },
+  "hacker_news_top10": [
+    {
+      "rank": 1,
+      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "score": 96,
+      "comments": 3,
+      "age": "3 hours ago",
+      "category": "ai_research",
+      "ticker_relevance": "Anthropic S-1 倒计时 10d (6/15)",
+      "ticker": "ANTHROPIC",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 2,
+      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "score": 207,
+      "comments": 5,
+      "age": "5 hours ago",
+      "category": "ai_product",
+      "ticker_relevance": "Google I/O 2025 后续, Gemini 生态扩张",
+      "ticker": "GOOGL",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 3,
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "url": "https://github.com/antirez/ds4",
+      "score": 188,
+      "comments": 5,
+      "age": "5 hours ago",
+      "category": "ai_infrastructure",
+      "ticker_relevance": "DeepSeek 4 Flash = 中端 LLM 推理 + Apple Silicon 优化",
+      "ticker": "DEEPSEEK",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 4,
+      "title": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI",
+      "url": "https://www.tomshardware.com/pc-components/motherboards/...",
+      "score": 196,
+      "comments": 5,
+      "age": "5 hours ago",
+      "category": "ai_supply_chain",
+      "ticker_relevance": "AI 算力需求挤压消费级硬件, NVDA/AMD 上游受益",
+      "ticker": "NVDA, AMD",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 5,
+      "title": "Agents need control flow, not more prompts",
+      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "score": 191,
+      "comments": 4,
+      "age": "4 hours ago",
+      "category": "ai_research",
+      "ticker_relevance": "Agent 设计哲学讨论, 与 OpenAI Codex CLI 方向一致",
+      "ticker": "OPENAI",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 6,
+      "title": "Chrome removes claim of On-device AI not sending data to Google Servers",
+      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/",
+      "score": 326,
+      "comments": 4,
+      "age": "4 hours ago",
+      "category": "ai_governance",
+      "ticker_relevance": "Google On-device AI 数据隐私争议, 监管风险",
+      "ticker": "GOOGL",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 7,
+      "title": "ZAYA1-8B matches DeepSeek-R1 on math with less than 1B active parameters",
+      "url": "https://firethering.com/zaya1-8b-open-source-math-coding-model/",
+      "score": 73,
+      "comments": 11,
+      "age": "11 hours ago",
+      "category": "ai_research",
+      "ticker_relevance": "1B 活跃参数达 DeepSeek-R1 数学水平, MoE 架构突破",
+      "ticker": "DEEPSEEK, OPENAI",
+      "is_new_since_06:00": true
+    },
+    {
+      "rank": 8,
+      "title": "Show HN: TRUST – Coding Rust like it's 1989",
+      "url": "https://github.com/wojtczyk/trust",
+      "score": 94,
+      "comments": 14,
+      "age": "14 hours ago",
+      "category": "dev_tool",
+      "ticker_relevance": "低相关性, Rust 复古编程范式",
+      "ticker": null,
+      "is_new_since_06:00": false
+    },
+    {
+      "rank": 9,
+      "title": "ProgramBench: Can language models rebuild programs from scratch?",
+      "url": "https://arxiv.org/abs/2605.03546",
+      "score": 128,
+      "comments": 16,
+      "age": "16 hours ago",
+      "category": "ai_research",
+      "ticker_relevance": "LLM 程序重建能力基准, 反映当前 LLM coding 能力边界",
+      "ticker": null,
+      "is_new_since_06:00": false
+    },
+    {
+      "rank": 10,
+      "title": "Stage CLI – An easier way of reading your AI generated changes locally",
+      "url": "https://github.com/ReviewStage/stage-cli",
+      "score": 24,
+      "comments": 4,
+      "age": "4 hours ago",
+      "category": "dev_tool",
+      "ticker_relevance": "AI 代码审查本地化工具, 与 Codex CLI/Cursor 竞争",
+      "ticker": null,
+      "is_new_since_06:00": true
+    }
+  ],
+  "high_relevance_tickers": ["ANTHROPIC", "NVDA", "GOOGL", "DEEPSEEK", "OPENAI"],
+  "key_themes_09:00": [
+    "Anthropic 解读研究发布 (Natural Language Autoencoders, HN rank 1, S-1 倒计时 10d 关键内容)",
+    "Google DeepMind AlphaEvolve 影响力扩展 (HN rank 2, 跨学科 AI agent)",
+    "DeepSeek 4 Flash 推理引擎 + ZAYA1-8B MoE 突破 (HN rank 3+7, 中国 LLM 生态)",
+    "AI 算力挤压消费硬件 (HN rank 4, NVDA 长期需求支撑)",
+    "Chrome On-device AI 隐私争议 (HN rank 6, Google 监管风险)"
+  ],
+  "nfp_related": [
+    "无直接 NFP 关联 AI 新闻 (06:00 后 3h 内无重大宏观 + AI 复合事件)"
+  ],
+  "nvda_earnings_related": [
+    "Motherboard collapse 反映 AI 算力需求挤压 (间接 NVDA 利好, 6/13 财报前 8d)",
+    "DeepSeek 4 Flash + ZAYA1-8B 反映推理成本下降 (间接 NVDA 营收承压, 需 6/13 财报验证)"
+  ],
+  "anthropic_s1_related": [
+    "Natural Language Autoencoders: Anthropic 解读研究, S-1 招股书 10d 倒计时 (6/15)",
+    "Claude Design + Project Glasswing 已发布 (4/17 + 4/7 历史)"
+  ],
+  "ai_blog_summaries_cached": {
+    "anthropic": {
+      "latest": "Natural Language Autoencoders (2026-05-08)",
+      "cached_at": "06:00 cron",
+      "next_pickup": "12:00 cron",
+      "key_finding": "Anthropic 持续发布研究类内容, 强化 'safety + interpretability' 品牌定位"
+    },
+    "openai": {
+      "latest": "GPT-5.5 Instant (2026-05-05)",
+      "cached_at": "06:00 cron",
+      "next_pickup": "12:00 cron",
+      "key_finding": "OpenAI 转向 B2B + 广告试点 + ChatGPT Futures, 商业化加速"
+    },
+    "google_ai": {
+      "latest": "Catalyzing scientific impact (2026-05-01)",
+      "cached_at": "06:00 cron",
+      "next_pickup": "12:00 cron",
+      "key_finding": "Google AI Blog 重定向 research.google/blog, 内容偏学术合作"
+    },
+    "deepseek": {
+      "latest": "DeepSeek 4 Flash 推理 (HN rank 3 间接)",
+      "cached_at": "06:00 cron",
+      "next_pickup": "12:00 cron",
+      "key_finding": "DeepSeek 主站 GFW 限制, 实际更新通过 GitHub deepseek-ai + HN 反映"
+    }
+  },
+  "delta_from_06:00_cron": {
+    "new_in_top10": 7,
+    "dropped_from_top10": 7,
+    "thematic_shift": "从 'AI 商业化' (06:00 GPT-5.5 / Claude Design) 转向 'AI 解读 + 推理效率' (09:00 Natural Language Autoencoders / DeepSeek 4 Flash / AlphaEvolve)",
+    "macro_overlay": "无新增 NFP 关联 AI 新闻, 06:00-09:00 3h 内 AI 新闻相对独立于宏观"
+  },
+  "downstream_consumers": [
+    "主代理 09:10 审阅 (派 G-50 12:00 整合 AINews 9:00 增量 + 12:00 cron 全量)",
+    "briefings/2026-06-05-v46-asia-2h-0900.md (本任务 5 P0 BLUF 第 5 条)"
+  ],
+  "collection_latency_seconds": 3,
+  "file_size_bytes_estimate": 4200,
+  "next_cron": "12:00 (cron-ainews-6h 周期)",
+  "v46_briefing_hook": "AINews 09:00 增量聚焦: Anthropic S-1 倒计时 10d 内容准备 + NVDA 6/13 财报前 8d 算力需求验证 + DeepSeek 4 Flash 中国 LLM 推理突破"
+}

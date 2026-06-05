@@ -1,0 +1,9 @@
+﻿{
+    "value":  12,
+    "note":  "09:03 二次验证, 12 Extreme Fear 持续 39h+ (历史第3长), 距 v2 阈值 48h 还有 9h",
+    "source":  "alternative.me API (主代理 fallback 20s timeout retry)",
+    "timestamp":  "2026-06-05 00:00:00",
+    "classification":  "Extreme Fear",
+    "streak_hours":  39,
+    "confidence":  "high"
+}
