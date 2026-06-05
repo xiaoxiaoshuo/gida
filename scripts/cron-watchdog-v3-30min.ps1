@@ -69,11 +69,15 @@ if (!(Test-Path $logDir))   { New-Item -ItemType Directory -Path $logDir   -Forc
 
 # 检查 1: HourlyPrice 数据新鲜度
 function Test-HourlyPrice {
-    $f = Join-Path $DataDir "prices\prices_latest.json"
+    $f = Join-Path $DataDir "market\prices_latest.json"
     $result = @{ name = "hourly_price"; ok = $false; detail = ""; age_min = $null }
     if (!(Test-Path $f)) {
-        $result.detail = "missing: $f"
-        return $result
+        # 备选路径: data/market/prices_*.json
+        $alt = Get-ChildItem -Path $DataDir -Recurse -Filter "prices_*.json" -ErrorAction SilentlyContinue | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+        if ($alt) { $f = $alt.FullName } else {
+            $result.detail = "missing: data/market/prices_latest.json (no fallback)"
+            return $result
+        }
     }
     $age = (Get-Date) - (Get-Item $f).LastWriteTime
     $ageMin = [math]::Round($age.TotalMinutes, 1)
@@ -109,10 +113,17 @@ function Test-AINews {
 
 # 检查 3: GitHub Trending 数据新鲜度
 function Test-GitHubTrending {
-    $f = Join-Path $DataDir "tech\github-trending_latest.md"
+    # 实际数据在 data/tech/github-trending_latest.{json,md} 或 data/ai/github-trending_latest.json
+    $candidates = @(
+        (Join-Path $DataDir "tech\github-trending_latest.json"),
+        (Join-Path $DataDir "ai\github-trending_latest.json"),
+        (Join-Path $DataDir "tech\github-trending_latest.md")
+    )
+    $f = $null
+    foreach ($c in $candidates) { if (Test-Path $c) { $f = $c; break } }
     $result = @{ name = "github_trending"; ok = $false; detail = ""; age_min = $null }
-    if (!(Test-Path $f)) {
-        $result.detail = "missing: $f"
+    if (!$f) {
+        $result.detail = "missing: data/tech/github-trending_latest.*"
         return $result
     }
     $age = (Get-Date) - (Get-Item $f).LastWriteTime
