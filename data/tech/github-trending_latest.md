@@ -1,39 +1,165 @@
-# GitHub Trending | 2026-06-05 02:27
+﻿# GitHub Trending - 2026-06-05_11-39
 
-> 数据源: GitHub API (stars:>1000 pushed:>2026-04-18)
-> 更新: 06/05/2026 02:27:22
+- Collect time: 2026-06-05 11:39:45
+- Source: github.com/search/repositories (v7 L1_curl)
+- Query: `https://api.github.com/search/repositories?q=stars:1000+pushed:>2026-05-24`
+- Scale: total_count=16177, returned=15
+- Field completeness: 11 fields
+- Noise rate: 0%
 
-## Top 30 开源项目
+## Top Repos (sorted by stars)
 
-| # | 项目 | Stars | 语言 | 更新 | 描述 |
-|---|------|-------|------|------|------|
-| 1 | [****]() | 49,495 | - | 2026-06-04 | Self-hosted AI workspace.  |
-| 2 | [****]() | 13,271 | - | 2026-06-04 | An enhanced tool for CodexApp, striving to make Codex better |
-| 3 | [****]() | 12,929 | - | 2026-06-02 | DeepSeek 4 Flash local inference engine for Metal and CUDA |
-| 4 | [****]() | 6,791 | - | 2026-05-12 |  |
-| 5 | [****]() | 6,047 | - | 2026-06-02 | ✨ The agentic HTML editor — your local AI agent writes the H |
-| 6 | [****]() | 5,894 | - | 2026-05-27 | JavaScript / TypeScript SDK for building Astrid OS capsules. |
-| 7 | [****]() | 4,876 | - | 2026-06-03 | SkillOpt is a text-space optimizer that trains reusable natu |
-| 8 | [****]() | 4,857 | - | 2026-06-04 | The programming language for agents |
-| 9 | [****]() | 4,816 | - | 2026-05-10 |  |
-| 10 | [****]() | 4,383 | - | 2026-06-04 | Open Source Global Intelligence Platform - Real-Time OSINT D |
-| 11 | [****]() | 4,257 | - | 2026-06-02 | Read-only developer endpoint scanner for on-disk package, ex |
-| 12 | [****]() | 4,102 | - | 2026-05-13 | Build desktop + mobile apps with Zig and web UI |
-| 13 | [****]() | 3,822 | - | 2026-06-04 | ⚡️A native, local-first alternative to Logitech Options+, wr |
-| 14 | [****]() | 3,416 | - | 2026-06-03 | A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 \| Full-stack China |
-| 15 | [****]() | 3,408 | - | 2026-06-04 |  |
-| 16 | [****]() | 3,342 | - | 2026-06-02 | Youre reading this. The skill predicted it. A workflow that  |
-| 17 | [****]() | 3,041 | - | 2026-06-04 | A Unified Virtual Filesystem For AI Agents |
-| 18 | [****]() | 2,955 | - | 2026-06-04 | Task-oriented AI Agent productivity platform |
-| 19 | [****]() | 2,862 | - | 2026-06-04 | OpenSquilla — Token-Efficient AI Agent with same budget, hig |
-| 20 | [****]() | 2,855 | - | 2026-05-27 | 🪧 Claude Code / Codex skill — generate Xiaohongshu carousel |
-| 21 | [****]() | 2,847 | - | 2026-06-04 | The public gallery of animated pet for Codex, Claude Code, O |
-| 22 | [****]() | 2,692 | - | 2026-06-02 | AI Agent 学习路线与资料库收集 |
-| 23 | [****]() | 2,657 | - | 2026-05-26 |  |
-| 24 | [****]() | 2,657 | - | 2026-06-04 | Git. Ship. Done - Core |
-| 25 | [****]() | 2,632 | - | 2026-06-04 | Coreutils for Windows: Installer & Packaging |
-| 26 | [****]() | 2,571 | - | 2026-06-04 | 美股指南 |
-| 27 | [****]() | 2,517 | - | 2026-05-25 | A library of HTML slide templates designed so any coding age |
-| 28 | [****]() | 2,470 | - | 2026-05-18 | [CVPR 2026 Oral] VGGT Omega |
-| 29 | [****]() | 2,420 | - | 2026-05-22 | AI-powered interactive 3D model generation, inspection, and  |
-| 30 | [****]() | 2,379 | - | 2026-05-17 | Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景 |
+| # | Repo | Stars | Lang | Description | Pushed |
+|---|------|------:|------|-------------|--------|
+| 1 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 472,996 | N/A | 😎 Awesome lists about all kinds of interesting topics | 2026-06-02 |
+| 2 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | 446,095 | TypeScript | freeCodeCamp.org's open-source codebase and curriculum. Learn math, programmi... | 2026-06-04 |
+| 3 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 439,415 | Python | A collective list of free APIs | 2026-06-03 |
+| 4 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 389,695 | Python | :books: Freely available programming books | 2026-06-04 |
+| 5 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 376,898 | TypeScript | Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞  | 2026-06-05 |
+| 6 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | 356,279 | TypeScript | Interactive roadmaps, guides and other educational content to help developers... | 2026-06-04 |
+| 7 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 301,327 | Python | An opinionated list of Python frameworks, libraries, tools, and resources | 2026-06-04 |
+| 8 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 297,245 | N/A | A list of Free Software network services and web applications which can be ho... | 2026-06-02 |
+| 9 | [facebook/react](https://github.com/facebook/react) | 245,468 | JavaScript | The library for web and native user interfaces. | 2026-06-04 |
+| 10 | [torvalds/linux](https://github.com/torvalds/linux) | 235,351 | C | Linux kernel source tree | 2026-06-04 |
+| 11 | [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) | 221,657 | Python | All Algorithms implemented in Python | 2026-06-01 |
+| 12 | [obra/superpowers](https://github.com/obra/superpowers) | 218,120 | Shell | An agentic skills framework & software development methodology that works. | 2026-06-03 |
+| 13 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 207,410 | JavaScript | The agent harness performance optimization system. Skills, instincts, memory,... | 2026-06-04 |
+| 14 | [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms) | 196,045 | JavaScript | 📝 Algorithms and data structures implemented in JavaScript with explanations... | 2026-05-28 |
+| 15 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 195,414 | C++ | An Open Source Machine Learning Framework for Everyone | 2026-06-05 |
+
+## Detail
+
+
+### 1. [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+
+  - Stars: 472,996 | Forks: 35,310 | Watchers: 472,996 | Open Issues: 83
+  - Language: N/A | License: CC0-1.0 | Owner: sindresorhus (User)
+  - Pushed: 2026-06-02T12:50:13Z | Updated: 2026-06-05T03:35:37Z
+  - Description: 😎 Awesome lists about all kinds of interesting topics
+  - Topics: `awesome`, `awesome-list`, `lists`, `resources`, `unicorns`
+
+### 2. [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
+
+  - Stars: 446,095 | Forks: 44,836 | Watchers: 446,095 | Open Issues: 174
+  - Language: TypeScript | License: BSD-3-Clause | Owner: freeCodeCamp (Organization)
+  - Pushed: 2026-06-04T21:05:13Z | Updated: 2026-06-05T03:34:36Z
+  - Description: freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
+  - Topics: `careers`, `certification`, `community`, `curriculum`, `d3`, `education`
+  - Homepage: https://contribute.freecodecamp.org
+
+### 3. [public-apis/public-apis](https://github.com/public-apis/public-apis)
+
+  - Stars: 439,415 | Forks: 48,152 | Watchers: 439,415 | Open Issues: 1,393
+  - Language: Python | License: MIT | Owner: public-apis (Organization)
+  - Pushed: 2026-06-03T21:39:19Z | Updated: 2026-06-05T03:30:14Z
+  - Description: A collective list of free APIs
+  - Topics: `api`, `apis`, `dataset`, `development`, `free`, `list`
+  - Homepage: https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo
+
+### 4. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
+
+  - Stars: 389,695 | Forks: 66,414 | Watchers: 389,695 | Open Issues: 81
+  - Language: Python | License: CC-BY-4.0 | Owner: EbookFoundation (Organization)
+  - Pushed: 2026-06-04T15:50:01Z | Updated: 2026-06-05T03:22:16Z
+  - Description: :books: Freely available programming books
+  - Topics: `books`, `education`, `hacktoberfest`, `list`, `resource`
+  - Homepage: https://ebookfoundation.github.io/free-programming-books/
+
+### 5. [openclaw/openclaw](https://github.com/openclaw/openclaw)
+
+  - Stars: 376,898 | Forks: 78,755 | Watchers: 376,898 | Open Issues: 7,715
+  - Language: TypeScript | License: NOASSERTION | Owner: openclaw (Organization)
+  - Pushed: 2026-06-05T03:38:04Z | Updated: 2026-06-05T03:38:16Z
+  - Description: Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+  - Topics: `ai`, `assistant`, `crustacean`, `molty`, `openclaw`, `own-your-data`
+  - Homepage: https://openclaw.ai
+
+### 6. [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)
+
+  - Stars: 356,279 | Forks: 44,181 | Watchers: 356,279 | Open Issues: 18
+  - Language: TypeScript | License: NOASSERTION | Owner: nilbuild (User)
+  - Pushed: 2026-06-04T14:34:30Z | Updated: 2026-06-05T02:41:01Z
+  - Description: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+  - Topics: `angular-roadmap`, `backend-roadmap`, `blockchain-roadmap`, `computer-science`, `dba-roadmap`, `developer-roadmap`
+  - Homepage: https://roadmap.sh
+
+### 7. [vinta/awesome-python](https://github.com/vinta/awesome-python)
+
+  - Stars: 301,327 | Forks: 28,044 | Watchers: 301,327 | Open Issues: 19
+  - Language: Python | License: NOASSERTION | Owner: vinta (User)
+  - Pushed: 2026-06-04T04:35:12Z | Updated: 2026-06-05T03:34:43Z
+  - Description: An opinionated list of Python frameworks, libraries, tools, and resources
+  - Topics: `awesome`, `collections`, `python`, `python-frameworks`, `python-libraries`, `python-tools`
+  - Homepage: https://awesome-python.com/
+
+### 8. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
+
+  - Stars: 297,245 | Forks: 13,830 | Watchers: 297,245 | Open Issues: 0
+  - Language: N/A | License: NOASSERTION | Owner: awesome-selfhosted (Organization)
+  - Pushed: 2026-06-02T13:17:58Z | Updated: 2026-06-05T03:31:03Z
+  - Description: A list of Free Software network services and web applications which can be hosted on your own servers
+  - Topics: `awesome`, `awesome-list`, `cloud`, `free-software`, `hosting`, `privacy`
+  - Homepage: https://awesome-selfhosted.net/
+
+### 9. [facebook/react](https://github.com/facebook/react)
+
+  - Stars: 245,468 | Forks: 51,172 | Watchers: 245,468 | Open Issues: 1,328
+  - Language: JavaScript | License: MIT | Owner: facebook (Organization)
+  - Pushed: 2026-06-04T19:55:44Z | Updated: 2026-06-05T03:14:58Z
+  - Description: The library for web and native user interfaces.
+  - Topics: `declarative`, `frontend`, `javascript`, `library`, `react`, `ui`
+  - Homepage: https://react.dev
+
+### 10. [torvalds/linux](https://github.com/torvalds/linux)
+
+  - Stars: 235,351 | Forks: 62,704 | Watchers: 235,351 | Open Issues: 3
+  - Language: C | License: NOASSERTION | Owner: torvalds (User)
+  - Pushed: 2026-06-04T22:10:46Z | Updated: 2026-06-05T03:34:59Z
+  - Description: Linux kernel source tree
+
+### 11. [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+
+  - Stars: 221,657 | Forks: 50,715 | Watchers: 221,657 | Open Issues: 937
+  - Language: Python | License: MIT | Owner: TheAlgorithms (Organization)
+  - Pushed: 2026-06-01T19:33:28Z | Updated: 2026-06-05T02:35:57Z
+  - Description: All Algorithms implemented in Python
+  - Topics: `algorithm`, `algorithm-competitions`, `algorithms-implemented`, `algos`, `community-driven`, `education`
+  - Homepage: https://thealgorithms.github.io/Python/
+
+### 12. [obra/superpowers](https://github.com/obra/superpowers)
+
+  - Stars: 218,120 | Forks: 19,418 | Watchers: 218,120 | Open Issues: 261
+  - Language: Shell | License: MIT | Owner: obra (User)
+  - Pushed: 2026-06-03T05:46:02Z | Updated: 2026-06-05T03:39:16Z
+  - Description: An agentic skills framework & software development methodology that works.
+
+### 13. [affaan-m/ECC](https://github.com/affaan-m/ECC)
+
+  - Stars: 207,410 | Forks: 31,836 | Watchers: 207,410 | Open Issues: 81
+  - Language: JavaScript | License: MIT | Owner: affaan-m (User)
+  - Pushed: 2026-06-04T23:00:53Z | Updated: 2026-06-05T03:38:11Z
+  - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+  - Topics: `ai-agents`, `anthropic`, `claude`, `claude-code`, `developer-tools`, `llm`
+  - Homepage: https://ecc.tools
+
+### 14. [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+
+  - Stars: 196,045 | Forks: 31,063 | Watchers: 196,045 | Open Issues: 401
+  - Language: JavaScript | License: MIT | Owner: trekhleb (User)
+  - Pushed: 2026-05-28T14:30:51Z | Updated: 2026-06-05T03:05:27Z
+  - Description: 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+  - Topics: `algorithm`, `algorithms`, `computer-science`, `data-structures`, `interview`, `interview-preparation`
+
+### 15. [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)
+
+  - Stars: 195,414 | Forks: 75,352 | Watchers: 195,414 | Open Issues: 3,162
+  - Language: C++ | License: Apache-2.0 | Owner: tensorflow (Organization)
+  - Pushed: 2026-06-05T03:38:57Z | Updated: 2026-06-05T03:38:29Z
+  - Description: An Open Source Machine Learning Framework for Everyone
+  - Topics: `deep-learning`, `deep-neural-networks`, `distributed`, `machine-learning`, `ml`, `neural-network`
+  - Homepage: https://tensorflow.org
+
+---
+
+- Generator: gh-trending-v7-search-api v1.0
+

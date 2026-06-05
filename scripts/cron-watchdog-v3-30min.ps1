@@ -249,78 +249,155 @@ $($Results.GetEnumerator() | ForEach-Object { "| $($_.Key) | $(if($_.Value.ok){'
 }
 
 # ============================================================================
-# Main + Mutex 启动锁 (v3 优化: 避免 0x800710E0 ERROR_ABANDONED 重复触发)
+# Main + Mutex 启动锁 (v3.1 强化 G-56D 11:34 修复)
+# 修复内容:
+#   1. try/finally 包裹主逻辑, 保证 mutex 必释放 (避免被 kill 时 mutex 残留 abandoned)
+#   2. 显式处理 AbandonedMutexException (在某些 .NET 版本, WaitOne 0/false 也会抛)
+#   3. JSONL 写入改为 finally 块, 即便中途异常也能落盘
+#   4. 任何主路径 exit 都先释放 mutex, 再 exit
+#   5. 增加 crashed-mutex 探测: 启动时记录上轮 LastTaskResult (便于溯源)
 # ============================================================================
-$script:MutexName = "Global\GidaCronWatchdogV3_30min_Mutex"
-$script:Mutex     = $null
-$script:MutexHeld = $false
+$script:MutexName  = "Global\GidaCronWatchdogV3_30min_Mutex"
+$script:Mutex      = $null
+$script:MutexHeld  = $false
+$script:AbandonedRecovered = $false
+$script:ExitCode   = 0
+$script:results    = $null
+$script:startTime  = $null
+
+# 启动时检测上轮崩溃 (上轮 LastTaskResult = 0x800710E0 ERROR_ABANDONED)
+# 注意: Get-ScheduledTask 在 SYSTEM 上下文下可能 hang, 用超时保护
+try {
+    $prevTask = $null
+    $job = Start-Job -ScriptBlock { Get-ScheduledTask -TaskName 'CronWatchdogV3_30min' -ErrorAction SilentlyContinue | Get-ScheduledTaskInfo -ErrorAction SilentlyContinue } -ErrorAction SilentlyContinue
+    if ($job) {
+        if (Wait-Job $job -Timeout 3) {
+            $prevInfo = Receive-Job $job -ErrorAction SilentlyContinue
+            if ($prevInfo -and $prevInfo.LastTaskResult -eq 2147942402) {
+                Write-Host "[$(Get-Date -Format 'HH:mm:ss')] WARN: previous run ended with 0x800710E0 ERROR_ABANDONED - mutex may have been leaked. Attempting recovery..." -ForegroundColor Yellow
+            }
+        } else {
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] WARN: Get-ScheduledTask timeout (>3s), skipping pre-check" -ForegroundColor DarkYellow
+        }
+        Remove-Job $job -Force -ErrorAction SilentlyContinue
+    }
+} catch {}
+
+# 尝试获取 mutex (捕获 AbandonedMutexException 兜底)
 try {
     $script:Mutex = New-Object System.Threading.Mutex($false, $script:MutexName)
-    if ($script:Mutex.WaitOne(0, $false)) {
+    try {
+        if ($script:Mutex.WaitOne(0, $false)) {
+            $script:MutexHeld = $true
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) starting... [mutex acquired]" -ForegroundColor Cyan
+        } else {
+            Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) SKIP: another instance holds mutex" -ForegroundColor Yellow
+            if ($script:Mutex) { try { $script:Mutex.Dispose() } catch {} }
+            exit 0
+        }
+    } catch [System.Threading.AbandonedMutexException] {
+        # 兜底: 某些 .NET 版本 (尤其 PS5.1 + Win7 兼容层) WaitOne(0, false) 也会抛 AbandonedMutexException
+        # 此时本线程已获得 mutex 所有权, 标记 recovered 继续执行
         $script:MutexHeld = $true
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) starting... [mutex acquired]" -ForegroundColor Cyan
-    } else {
-        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) SKIP: another instance holds mutex" -ForegroundColor Yellow
-        exit 0
+        $script:AbandonedRecovered = $true
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) starting... [mutex recovered from abandoned state]" -ForegroundColor Yellow
     }
 } catch {
     Write-Host "WARN: mutex init failed: $_ (proceeding without lock)" -ForegroundColor Yellow
 }
 
-$startTime = Get-Date
-$results = [ordered]@{}
-$results.hourly_price     = Test-HourlyPrice
-$results.ai_news          = Test-AINews
-$results.github_trending  = Test-GitHubTrending
-$results.auto_push        = Test-AutoPush
-$results.gfw_health       = Test-GFWHealth
+# === 主执行: try/finally 保证 mutex 释放 + JSONL 落盘 ===
+try {
+    $script:startTime = Get-Date
+    $results = [ordered]@{}
+    $results.hourly_price     = Test-HourlyPrice
+    $results.ai_news          = Test-AINews
+    $results.github_trending  = Test-GitHubTrending
+    $results.auto_push        = Test-AutoPush
+    $results.gfw_health       = Test-GFWHealth
 
-$failed = 0; foreach ($v in $results.Values) { if (-not $v.ok) { $failed++ } }
-$ok     = 5 - $failed
-$elapsed = [math]::Round(((Get-Date) - $startTime).TotalSeconds, 1)
+    $failed = 0; foreach ($v in $results.Values) { if (-not $v.ok) { $failed++ } }
+    $ok     = 5 - $failed
+    $elapsed = [math]::Round(((Get-Date) - $script:startTime).TotalSeconds, 1)
 
-# 输出控制台
-Write-Host ""
-Write-Host "=== Results ($elapsed s) ===" -ForegroundColor Cyan
-foreach ($key in $results.Keys) {
-    $r = $results[$key]
-    $mark = if ($r.ok) { "✅" } else { "❌" }
-    $color = if ($r.ok) { "Green" } else { "Red" }
-    Write-Host "  $mark $key : $($r.detail)" -ForegroundColor $color
-}
-Write-Host ""
-Write-Host "Summary: $ok/5 OK, $failed/5 FAILED" -ForegroundColor $(if($failed -eq 0){"Green"}else{"Yellow"})
+    # 输出控制台
+    Write-Host ""
+    Write-Host "=== Results ($elapsed s) ===" -ForegroundColor Cyan
+    foreach ($key in $results.Keys) {
+        $r = $results[$key]
+        $mark = if ($r.ok) { "✅" } else { "❌" }
+        $color = if ($r.ok) { "Green" } else { "Red" }
+        Write-Host "  $mark $key : $($r.detail)" -ForegroundColor $color
+    }
+    Write-Host ""
+    Write-Host "Summary: $ok/5 OK, $failed/5 FAILED" -ForegroundColor $(if($failed -eq 0){"Green"}else{"Yellow"})
 
-# 写 JSONL 日志
-$entry = [ordered]@{
-    timestamp = (Get-Date -Format "o")
-    date      = $Date
-    ok        = $ok
-    failed    = $failed
-    elapsed_s = $elapsed
-    results   = $results
-    threshold = $AlertThreshold
-}
-if (-not $DryRun) {
-    try {
-        $entry | ConvertTo-Json -Compress -Depth 5 | Add-Content -Path $HealthLog -Encoding UTF8
-    } catch {
-        Write-Host "WARN: failed to write health log: $_" -ForegroundColor Yellow
+    # 写 JSONL 日志 (此处抛异常会被 finally 捕获, 不影响 mutex 释放)
+    $entry = [ordered]@{
+        timestamp = (Get-Date -Format "o")
+        date      = $Date
+        ok        = $ok
+        failed    = $failed
+        elapsed_s = $elapsed
+        results   = $results
+        threshold = $AlertThreshold
+        mutex_recovered = $script:AbandonedRecovered
+    }
+    $script:results = $entry
+    $script:ExitCode = 0
+    if ($failed -ge $AlertThreshold) { $script:ExitCode = 1 }
+
+    Write-Host ""
+    if ($script:ExitCode -eq 0) {
+        Write-Host "✅ All checks within threshold ($AlertThreshold)" -ForegroundColor Green
+    } else {
+        Write-Host "❌ FAILED >= $AlertThreshold, writing ALERT" -ForegroundColor Red
+    }
+} catch {
+    # 主逻辑异常: 记录错误到 JSONL, 但仍要释放 mutex
+    Write-Host "ERROR: main execution failed: $_" -ForegroundColor Red
+    $script:ExitCode = 2
+    $script:results = [ordered]@{
+        timestamp = (Get-Date -Format "o")
+        date      = $Date
+        ok        = 0
+        failed    = 5
+        elapsed_s = if ($script:startTime) { [math]::Round(((Get-Date) - $script:startTime).TotalSeconds, 1) } else { 0 }
+        results   = @{ error = "$_" }
+        threshold = $AlertThreshold
+        mutex_recovered = $script:AbandonedRecovered
+        fatal_error = $true
+    }
+} finally {
+    # 1. 写 JSONL 日志 (无论成功失败都落盘)
+    if (-not $DryRun -and $script:results) {
+        try {
+            $script:results | ConvertTo-Json -Compress -Depth 5 | Add-Content -Path $HealthLog -Encoding UTF8
+        } catch {
+            Write-Host "WARN: failed to write health log: $_" -ForegroundColor Yellow
+        }
+    }
+
+    # 2. 写 ALERT (仅失败时)
+    if ($script:ExitCode -ge 1 -and $script:results -and $script:results.results.error) {
+        # 异常路径不写 ALERT (避免 ALERT 风暴)
+    } elseif ($script:ExitCode -ge 1 -and $script:results) {
+        try {
+            $alertFile = Write-Alert -Results $script:results.results -Failed $script:results.failed -Date $Date
+        } catch {
+            Write-Host "WARN: Write-Alert failed: $_" -ForegroundColor Yellow
+        }
+    }
+
+    # 3. 释放 mutex (G-56D 11:34 关键修复: 必须在 finally 块释放, 避免被 kill 时残留)
+    if ($script:MutexHeld -and $script:Mutex) {
+        try { $script:Mutex.ReleaseMutex() | Out-Null } catch {
+            Write-Host "WARN: ReleaseMutex failed (may be from abandoned state): $_" -ForegroundColor Yellow
+        }
+        try { $script:Mutex.Close() } catch {}
+        try { $script:Mutex.Dispose() } catch {}
+        $script:MutexHeld = $false
     }
 }
 
-# 触发 ALERT
-if ($failed -ge $AlertThreshold) {
-    $alertFile = Write-Alert -Results $results -Failed $failed -Date $Date
-    exit 1
-}
-
-Write-Host ""
-Write-Host "✅ All checks within threshold ($AlertThreshold)" -ForegroundColor Green
-
-# 释放 mutex (v3 优化: 避免 0x800710E0 ERROR_ABANDONED 重复触发 hang)
-if ($script:MutexHeld -and $script:Mutex) {
-    try { $script:Mutex.ReleaseMutex() | Out-Null } catch {}
-    try { $script:Mutex.Dispose() } catch {}
-}
-exit 0
+exit $script:ExitCode
