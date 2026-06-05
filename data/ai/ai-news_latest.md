@@ -1,246 +1,50 @@
-# AI/ML News — 2026-06-05
+﻿# AI News 凌晨补采 | 2026-06-05_12-20
 
-> Top stories in AI/ML · Source: Multi-RSS · Updated: 06/05/2026 02:27:35
+**采集时间**: 2026-06-05 12:20:45 GMT+8
+**数据源**: Hacker News top 30 + AI 博客 RSS 20
+**总量**: 50 items
+
+## 🔥 Hacker News Top 30
+
+1. [Azure Linux 4.0 is Microsoft's first general-purpose Linux](https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/) ★14 💬10
+2. [The Causes of Long Covid](https://www.science.org/content/blog-post/causes-long-covid) ★26 💬6
+3. [What happens if Japan takes in zero immigrants?](https://www.konichivalue.com/p/what-happens-if-japan-takes-in-zero) ★15 💬11
+4. [Meta enables ADB on deprecated Portal devices [video]](https://fb.watch/HxPu0fSyeH/) ★124 💬30
+5. [Open Code Review – An AI-powered code review CLI tool](https://github.com/alibaba/open-code-review) ★85 💬21
+6. [South Korean Forums Will Need to Scan Every Images with AI Censorship Tools](https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341) ★60 💬26
+7. [Do transformers need three projections? Systematic study of QKV variants](https://arxiv.org/abs/2606.04032) ★126 💬20
+8. [Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate](https://arxiv.org/abs/2604.24881) ★19 
+9. [SpaceX, Other Mega IPOs Denied Fast Index Entry by S&P](https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation) ★223 💬106
+10. [IPv6 zones in URLs are a mistake](https://xeiaso.net/notes/2026/ipv6-zones-go-url/) ★104 💬79
+11. [Queen bees emerge from special wax chambers](https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06) ★57 💬8
+12. [Show HN: Mercek – A Desktop IDE for AWS ECS](https://www.mercek.dev/) ★35 💬8
+13. [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness) ★319 💬102
+14. [Castor: CERN Advanced STORage Manager](https://castor.web.cern.ch/content/home.html) ★46 💬20
+15. [Meta's ships facial recognition on smart glasses](https://www.buchodi.com/meta-glasses-facial-recognition/) ★254 💬214
+
+## 📰 AI 官方博客 (20 条)
+
+- **GoogleAI Blog**: [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)
+- **GoogleAI Blog**: [Check out real-life AI prototypes from the Futures Lab.](https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/)
+- **GoogleAI Blog**: [Take our I/O 2026 quiz, vibe coded in Google AI Studio.](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/)
+- **GoogleAI Blog**: [5 ways Google Search can level up your thrift and vintage shopping](https://blog.google/products-and-platforms/products/search/thrifting-tips/)
+- **GoogleAI Blog**: [How we used Gemini to build Google I/O 2026](https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/)
+- **GoogleAI Blog**: [100 things we announced at I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)
+- **GoogleAI Blog**: [A new experiment brings better group meetings to Google Beam](https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/)
+- **GoogleAI Blog**: [We’re announcing new community investments in Missouri.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/)
+- **GoogleAI Blog**: [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/)
+- **GoogleAI Blog**: [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/wasmer)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/biodefense-in-the-intelligence-age)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/endava-frontiers)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/chatgpt-memory-dreaming)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/codex-for-every-role-tool-workflow)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/travelers)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/frontier-safety-blueprint)
+- **OpenAI Blog**: [System.Xml.XmlElement](https://openai.com/index/public-policy-agenda)
 
 ---
-### 1. VoidZero Is Joining Cloudflare
-
-🔗 [Source](https://blog.cloudflare.com/voidzero-joins-cloudflare/)
-
-*来源: Hacker News*
-
----\
-
-### 2. Ian's Secure Shoelace Knot
-
-🔗 [Source](https://www.fieggen.com/shoelace/secureknot.htm)
-
-*来源: Hacker News*
-
----\
-
-### 3. They’re made out of weights
-
-🔗 [Source](https://maxleiter.com/blog/weights)
-
-*来源: Hacker News*
-
----\
-
-### 4. KVarN: Native vLLM KV-cache quantization back end by Huawei
-
-🔗 [Source](https://github.com/huawei-csl/KVarN)
-
-*来源: Hacker News*
-
----\
-
-### 5. Gaussian Point Splatting
-
-🔗 [Source](https://momentsingraphics.de/Siggraph2026.html)
-
-*来源: Hacker News*
-
----\
-
-### 6. In a first, wind and solar generated more power than gas globally in April 2026
-
-🔗 [Source](https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/)
-
-*来源: Hacker News*
-
----\
-
-### 7. U.S. Army Corps of Engineers Bay Model
-
-🔗 [Source](https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model)
-
-*来源: Hacker News*
-
----\
-
-### 8. French-Iranian author Marjane Satrapi, author of 'Persepolis', dies at 56
-
-🔗 [Source](https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56)
-
-*来源: Hacker News*
-
----\
-
-### 9. Elixir v1.20: Now a gradually typed language
-
-🔗 [Source](https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/)
-
-*来源: Hacker News*
-
----\
-
-### 10. 3D-printed book turns its own G-code into raised lettering
-
-🔗 [Source](https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/)
-
-*来源: Hacker News*
-
----\
-
-### 11. Gemma 4 12B: A unified, encoder-free multimodal model
-
-🔗 [Source](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/)
-
-*来源: Hacker News*
-
----\
-
-### 12. Several Injured in Boeing 787 Nose-Gear Collapse in Frankfurt
-
-🔗 [Source](https://www.reuters.com/business/aerospace-defense/lufthansa-787-jet-suffers-front-wheel-collapse-frankfurt-gate-2026-06-04/)
-
-*来源: Hacker News*
-
----\
-
-### 13. Show HN: Prela – Purely Algebraic Relation Combinators
-
-🔗 [Source](https://github.com/remysucre/prela)
-
-*来源: Hacker News*
-
----\
-
-### 14. AccessOwl (YC S22) is hiring an AI TypeScript Engineer to connect 300 SaaS tools
-
-🔗 [Source](https://www.ycombinator.com/companies/accessowl/jobs/hfWAhVp-ai-enabled-senior-software-engineer-typescript-focus)
-
-*来源: Hacker News*
-
----\
-
-### 15. I built a vulnerable app and spent $1,500 seeing if LLMs could hack it
-
-🔗 [Source](https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/)
-
-*来源: Hacker News*
-
----\
-
-### 16. Artificial intelligence is not conscious
-
-🔗 [Source](https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/)
-
-*来源: Hacker News*
-
----\
-
-### 17. Under Notre Dame, a 'dig of the century' unearths 1,700 years of history
-
-🔗 [Source](https://apnews.com/article/notre-dame-dig-treasures-paris-archaeology-roman-dae41f792c1402faf32a87c154cc9a77)
-
-*来源: Hacker News*
-
----\
-
-### 18. UK media fails to disclose defence sector links in nearly 60% of cases
-
-🔗 [Source](https://aoav.org.uk/2026/military-experts-or-arms-industry-insiders-uk-media-fails-to-disclose-defence-sector-links-in-nearly-60-of-cases/)
-
-*来源: Hacker News*
-
----\
-
-### 19. The ways we contain Claude across products
-
-🔗 [Source](https://www.anthropic.com/engineering/how-we-contain-claude)
-
-*来源: Hacker News*
-
----\
-
-### 20. I was recently diagnosed with anti-NMDA receptor encephalitis
-
-🔗 [Source](https://burntsushi.net/encephalitis/)
-
-*来源: Hacker News*
-
----\
-
-### 21. Uber's $1,500/month AI limit is a useful signal for AI tool pricing
-
-🔗 [Source](https://simonwillison.net/2026/Jun/3/uber-caps-usage/)
-
-*来源: Hacker News*
-
----\
-
-### 22. Show HN: Boxes.dev: ditch localhost; run Claude Code and Codex in the cloud
-
-🔗 [Source](https://boxes.dev)
-
-*来源: Hacker News*
-
----\
-
-### 23. thunderbolt-ibverbs: We have InfiniBand at home
-
-🔗 [Source](https://blog.hellas.ai/blog/thunderbolt-ibverbs/)
-
-*来源: Hacker News*
-
----\
-
-### 24. Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes
-
-🔗 [Source](https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html)
-
-*来源: Hacker News*
-
----\
-
-### 25. Learn SQL Once, Use It for 30 Years
-
-🔗 [Source](https://fagnerbrack.com/learn-sql-once-use-it-for-30-years-9aceb0bdee03)
-
-*来源: Hacker News*
-
----\
-
-### 26. Kiki – a tiny homepage construction kit with a small footprint
-
-🔗 [Source](https://tomotama.com/kiki)
-
-*来源: Hacker News*
-
----\
-
-### 27. DaVinci Resolve 21
-
-🔗 [Source](https://www.blackmagicdesign.com/products/davinciresolve/whatsnew)
-
-*来源: Hacker News*
-
----\
-
-### 28. Claude Code and Codex Can Have Real-Time Conversation via Git
-
-🔗 [Source](https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05)
-
-*来源: Hacker News*
-
----\
-
-### 29. ESP32-S31
-
-🔗 [Source](https://www.espressif.com/en/products/socs/esp32-s31)
-
-*来源: Hacker News*
-
----\
-
-### 30. A Post-Quantum Future for Let's Encrypt
-
-🔗 [Source](https://letsencrypt.org/2026/06/03/pq-certs)
-
-*来源: Hacker News*
-
----\
-
+*来源: cron-ainews-0400 自动采集 | 2026-06-05 12:20:45*
 

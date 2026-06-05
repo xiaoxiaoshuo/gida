@@ -1,7 +1,7 @@
 ﻿{
     "next_critical_event":  "6/10 20:30 CPI 5月 (D3)",
-    "days_to_fomc":  8,
-    "timestamp":  "10:12",
+    "days_to_fomc":  7,
+    "timestamp":  "12:20",
     "scenarios":  {
                       "hawkish_pause":  {
                                             "trigger":  "CPI 0.3%+ NFP \u003e180K",
@@ -62,7 +62,7 @@
                                          ],
                            "D7_focus":  "通胀粘性 + JOLTS/职位空缺 + ISM 价格分项"
                        },
-    "d_tag":  "D8",
+    "d_tag":  "D7",
     "nvda_watch":  {
                        "earnings_date":  "2026-06-14 05:00 GMT+8 (美东 6/13 17:00)",
                        "linkage_to_fomc":  "Blackwell capex 指引可能强化/弱化 FOMC AI 投资叙事",
@@ -75,10 +75,10 @@
                        "iv_skew":  "65% 偏看涨 (Call/Put 1.85)"
                    },
     "price_snapshot":  {
-                           "gold":  4447.8,
-                           "oil":  93.03,
+                           "gold":  4443.5,
+                           "oil":  93.1,
                            "fng":  12,
-                           "btc":  63321.24,
-                           "eth":  1751.99
+                           "btc":  62659.39,
+                           "eth":  1727.53
                        }
 }

@@ -257,7 +257,7 @@ $($Results.GetEnumerator() | ForEach-Object { "| $($_.Key) | $(if($_.Value.ok){'
 #   4. 任何主路径 exit 都先释放 mutex, 再 exit
 #   5. 增加 crashed-mutex 探测: 启动时记录上轮 LastTaskResult (便于溯源)
 # ============================================================================
-$script:MutexName  = "Global\GidaCronWatchdogV3_30min_Mutex"
+$script:MutexName  = "Local\GidaCronWatchdogV3_30min_Mutex"
 $script:Mutex      = $null
 $script:MutexHeld  = $false
 $script:AbandonedRecovered = $false

@@ -11,7 +11,7 @@ param(
 
 $ErrorActionPreference = "Continue"
 $Workspace = "C:\Users\Administrator\clawd\agents\workspace-gid"
-$MutexName = "Global\GidaCronWatchdogV3_30min_Mutex"
+$MutexName = "Local\GidaCronWatchdogV3_30min_Mutex"
 $InnerScript = Join-Path $Workspace "scripts\cron-watchdog-v3-30min.ps1"
 $LogFile = Join-Path $Workspace "data\system\cron-watchdog-v3-wrapper.log"
 
