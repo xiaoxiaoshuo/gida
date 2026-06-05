@@ -693,3 +693,34 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 
 ---
 *本快照由 2026-06-05 06:36 心跳自动生成 | 上次 MEMORY 更新: 2026-06-05 06:18 (18min 前) | 第 43 次心跳*
+
+
+### 2026-06-05 - 派生+采集优化+推送突破 7min 全栈 (第 48 次心跳)
+
+**关键洞察** (LONG_TERM_SAVE):
+1. **cron 真空期识别**: 当前 cron 间隔 4h (12:00/16:00/20:00), 16:30 决策点 → 20:30 NFP 间 4h 真空期, bridge-2h 填补提升响应 2x
+2. **D8 关键节点设计**: FOMC 倒计时 8 天, 6/10 CPI D3 关键决策日 = 子智能体派发密度切换点
+3. **GFW 缓解窗口利用**: 10:11 短暂缓解 27min 后恢复, 派单方应每 10-15min 试探推送, 避免错失窗口
+4. **派单方方法论 v48 升级**: cron 设计 (1-2min 本地) 派单方亲自 / 跨域数据补采 (15-25min 远程) 委派子智能体 = 时间窗口分层
+5. **cron XML 兼容性铁律**: <CalendarTrigger> 在 schtasks v1.3 不可用, 改用 <TimeTrigger> + 间隔 Repetition
+6. **FNG 嵌套降级**: prices_latest.json 中 FNG 替代 VIX, key 是 macro.VIX.value 而非 macro.FNG, 派单方脚本必须双重检查
+7. **变量命名冲突**: FOMC tracker 初始版本 $fomcDate (param) 覆盖了同名变量 Get-Date "2026-06-13", 改用 $fomcTarget 解决
+
+**新部署 cron** (Task Scheduler):
+- BridgeCollector2h (每 2h, 12:00 首次): 填补 4h cron 间隔真空期
+- FomcD7Tracker (每 12h, 21:00 首次): 6/13 FOMC D8 发酵追踪 + NVDA 财报 D0 联动
+
+**新文件清单** (本轮新增):
+- scripts/bridge-2h-cron.ps1 (3.1KB)
+- scripts/fomc-d7-tracker.ps1 (3.9KB)
+- cron/bridge-2h.conf (XML Task Scheduler 配置)
+- cron/fomc-d7-tracker.conf (XML Task Scheduler 配置)
+- data/bridge/bridge-snapshot-2026-06-05-10.json (484B, 首次运行)
+- data/fomc/fomc-d7-snapshot-2026-06-05.json (4.7KB, 首次运行)
+
+**派单方亲自实施统计** (本轮 7min):
+- 子智能体派生: 2 件 (G-52A, G-52B)
+- cron 创建+注册: 2 件 (Bridge, FOMC)
+- 推送恢复: 1 次 (b206af9..787df41)
+- 数据落盘: 4 文件 (2 cron JSON + 2 派生初始)
+- 总计: 7 件主要工作, 派单方 vs 子智能体比例 5:2
