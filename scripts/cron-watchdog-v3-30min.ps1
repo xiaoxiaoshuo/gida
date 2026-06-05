@@ -249,9 +249,23 @@ $($Results.GetEnumerator() | ForEach-Object { "| $($_.Key) | $(if($_.Value.ok){'
 }
 
 # ============================================================================
-# Main
+# Main + Mutex 启动锁 (v3 优化: 避免 0x800710E0 ERROR_ABANDONED 重复触发)
 # ============================================================================
-Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) starting..." -ForegroundColor Cyan
+$script:MutexName = "Global\GidaCronWatchdogV3_30min_Mutex"
+$script:Mutex     = $null
+$script:MutexHeld = $false
+try {
+    $script:Mutex = New-Object System.Threading.Mutex($false, $script:MutexName)
+    if ($script:Mutex.WaitOne(0, $false)) {
+        $script:MutexHeld = $true
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) starting... [mutex acquired]" -ForegroundColor Cyan
+    } else {
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] cron-watchdog-v3 ($Date) SKIP: another instance holds mutex" -ForegroundColor Yellow
+        exit 0
+    }
+} catch {
+    Write-Host "WARN: mutex init failed: $_ (proceeding without lock)" -ForegroundColor Yellow
+}
 
 $startTime = Get-Date
 $results = [ordered]@{}
@@ -303,4 +317,10 @@ if ($failed -ge $AlertThreshold) {
 
 Write-Host ""
 Write-Host "✅ All checks within threshold ($AlertThreshold)" -ForegroundColor Green
+
+# 释放 mutex (v3 优化: 避免 0x800710E0 ERROR_ABANDONED 重复触发 hang)
+if ($script:MutexHeld -and $script:Mutex) {
+    try { $script:Mutex.ReleaseMutex() | Out-Null } catch {}
+    try { $script:Mutex.Dispose() } catch {}
+}
 exit 0

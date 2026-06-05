@@ -73,6 +73,26 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - 创建今日简报模板：`DAILY/2026-03-25.md`
 - **注意：网络访问受限（web_fetch失败），注意网络访问时GWF 问题，同时也不能减少国外信源，可以搜Google等镜像网站** 
 
+### 2026-06-05 - cron-watchdog-v3 mutex 启动锁修复 (派单方亲自优化)
+- **Bug**: 11:10 Task Scheduler 触发 v3 后 LastTaskResult=2147942402 (0x800710E0 ERROR_ABANDONED), JSONL 未追加
+- **根因**: 30min 周期 + GFW 探测 hang + 多实例 race condition (派单方手动测试时 v3 11:10 实例还 hang 在 GFW)
+- **修复**: scripts/cron-watchdog-v3-30min.ps1 加 `System.Threading.Mutex` `Global\GidaCronWatchdogV3_30min_Mutex` + `WaitOne(0, $false)` 启动锁
+- **测试 (11:23)**: A 实例获取 mutex 跑完 5/5 绿 + B 实例 SKIP "another instance holds mutex" = ✅ mutex 生效
+- **方法论**: Task Scheduler 30min 周期任务必备 mutex, 避免 ERROR_ABANDONED 退出,JSONL 必漏记录
+
+### 2026-06-05 - 派单方层"扫描 + 派生"方法论 v49
+- **5min 实时扫描**: 派单方每 30-60min 扫数据/价格/异动 (如 BTC 11:00 跌穿 $63,000 比 v47 预测 $63,185 低 -1.0pp)
+- **5min 派生 G-XX**: 派单方发现异动 → 立即派子智能体归因 (G-55 BTC 异动归因)
+- **子智能体 18min 深度**: 子智能体跨域数据补采 + 3 因子权重 v48 修正 + 操作建议
+- **23min 协同闭环**: 派单方扫描 + 派生 + 子智能体归因 = 23min (vs 派单方单干 30min+)
+- **关键**: G-37A 铁律 5 门 + 派单方亲自修复 cron (5-25min) + 子智能体补采 (15-25min) = 时间窗口分层
+
+### 2026-06-05 - GFW 缓解窗口二元利用
+- **探测策略**: 派单方每 5-10min 试探 push, Tcp443 + Web 5s timeout 二元检测
+- **窗口规律**: 历史 4-6h 周期, 11:19 push 成功案例 (4 文件 25 行 + bundle 15.1MB)
+- **方法论**: 派单方 layer 不依赖推送, 子智能体专注本地落盘, GFW 缓解时 incremental-backup restore + push
+- **auto-push-v5 行为**: 检测到失败 → 撤销 commit → 执行 incremental-backup archive → 等待 GFW
+
 ### 2026-03-25 - 定时任务建立
 - 创建定时任务 `intelligence-daily-cycle`（每24小时运行12次，即每2小时一次）
   - Cron表达式：0 */2 * * *（Asia/Shanghai时区）
