@@ -97,6 +97,7 @@ function Test-ApiHealth {
         critical    = if ($Source.tier -eq 1) { $true } else { $false }
         tier        = if ($Source.tier) { $Source.tier } else { 2 }
         category    = if ($Source.category) { $Source.category } else { "unknown" }
+        role        = $null  # 由调用方填充
         http_ok     = $false
         json_ok     = $false
         data_ok     = $false
@@ -206,12 +207,16 @@ function Test-ApiHealth {
 
 # ========== 从路由矩阵提取测试端点 ==========
 function Get-TestEndpoints {
-    param([hashtable]$RoutingConfig)
+    param($RoutingConfig)
     
     $endpoints = @()
     
-    foreach ($assetKey in $RoutingConfig.sources.Keys) {
-        $source = $RoutingConfig.sources[$assetKey]
+    # 兼容 PSCustomObject（ConvertFrom-Json输出）和 Hashtable
+    $sources = $RoutingConfig.sources
+    $sourceKeys = if ($sources -is [hashtable]) { $sources.Keys } else { $sources.PSObject.Properties.Name }
+    
+    foreach ($assetKey in $sourceKeys) {
+        $source = if ($sources -is [hashtable]) { $sources[$assetKey] } else { $sources.$assetKey }
         
         # 如果是单个源（非资产组，如OKX_BTC/COINGECKO）
         if ($source.endpoint) {
@@ -289,7 +294,7 @@ foreach ($ep in $endpoints) {
         timeout_s = $ep.timeout_s
     } -AssetKey $ep.asset_key
     
-    $r | Add-Member -NotePropertyName "role" -NotePropertyValue ($ep.role)
+    $r.role = $ep.role  # 直接赋值（兼容嵌套对象序列化）
     $results += $r
     
     if ($r.healthy) { $upCount++ }
@@ -309,14 +314,18 @@ $score = [math]::Round(($upCount / $totalCount) * 100, 1)
 # 5. 资产级分析：统计每个资产primary是否可用
 $assetHealth = @{}
 foreach ($r in $results) {
-    if (-not $assetHealth[$r.asset]) {
-        $assetHealth[$r.asset] = @{ primary_ok = $false; alts_ok = @(); blocked = $false }
+    # 兼容: hashtable（Add-Member前）vs PSObject（Add-Member后）
+    $hasAsset = $r.ContainsKey('asset') -or ($r.PSObject.Properties.Name -contains 'asset')
+    $assetName = if ($hasAsset) { $r.asset } else { $r.asset_key }
+    if (-not $assetName) { continue }
+    if (-not $assetHealth[$assetName]) {
+        $assetHealth[$assetName] = @{ primary_ok = $false; alts_ok = @(); blocked = $false }
     }
     if ($r.role -eq "primary" -and $r.healthy) {
-        $assetHealth[$r.asset].primary_ok = $true
+        $assetHealth[$assetName].primary_ok = $true
     }
     if ($r.role -like "alt*" -and $r.healthy) {
-        $assetHealth[$r.asset].alts_ok += $r.name
+        $assetHealth[$assetName].alts_ok += $r.name
     }
 }
 
