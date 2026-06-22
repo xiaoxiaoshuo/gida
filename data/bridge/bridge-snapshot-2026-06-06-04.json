@@ -1,0 +1,16 @@
+﻿{
+    "sol":  62.89,
+    "trigger_1630":  {
+                         "delta_2h":  -3.202,
+                         "fng_status":  "Extreme Fear",
+                         "action":  "待 16:30 cron 综合判定",
+                         "btc_position":  "below_62500"
+                     },
+    "fng_value":  12,
+    "fng_class":  "Extreme Fear",
+    "btc_age_min":  60,
+    "timestamp":  "04:00",
+    "btc":  59397.65,
+    "btc_delta_2h_pct":  -3.202,
+    "eth":  1552.46
+}

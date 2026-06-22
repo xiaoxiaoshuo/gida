@@ -1,0 +1,84 @@
+﻿{
+    "next_critical_event":  "6/10 20:30 CPI 5月 (D3)",
+    "days_to_fomc":  -4,
+    "timestamp":  "21:00",
+    "scenarios":  {
+                      "hawkish_pause":  {
+                                            "trigger":  "CPI 0.3%+ NFP \u003e180K",
+                                            "prob":  45,
+                                            "impact":  "-0.5% BTC"
+                                        },
+                      "dovish_25bp":  {
+                                          "trigger":  "CPI \u003c0.2% + NFP \u003c100K",
+                                          "prob":  30,
+                                          "impact":  "+1.5% BTC"
+                                      },
+                      "dovish_pause":  {
+                                           "trigger":  "CPI 0.2-0.3% 基线",
+                                           "prob":  10,
+                                           "impact":  "+0.5% BTC"
+                                       },
+                      "dovish_50bp":  {
+                                          "trigger":  "CPI \u003c0.1% + 失业率 \u003e4.2%",
+                                          "prob":  10,
+                                          "impact":  "+3.0% BTC"
+                                      },
+                      "hawkish_hike":  {
+                                           "trigger":  "CPI \u003e0.4% 通胀重新加速",
+                                           "prob":  5,
+                                           "impact":  "-2.5% BTC"
+                                       }
+                  },
+    "fomc_watchlist":  {
+                           "D0_focus":  "6/13 02:00 ET SEP dot plot + Powell press conf",
+                           "D2_focus":  "6/11-12 GTC Paris 黄仁勋主题演讲 (BTC 杠杆资金联动)",
+                           "D3_focus":  "6/11 Fed 静默期前最后一次官员讲话 (Williams/Daly)",
+                           "key_dates":  [
+                                             {
+                                                 "date":  "06-09",
+                                                 "event":  "JOLTS 职位空缺",
+                                                 "impact":  "P1"
+                                             },
+                                             {
+                                                 "date":  "06-10",
+                                                 "event":  "CPI 5月数据",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "06-11",
+                                                 "event":  "PPI + 6/12 GTC Paris 开幕",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "06-12",
+                                                 "event":  "GTC Paris Keynote (黄仁勋)",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "06-13",
+                                                 "event":  "FOMC 决议 02:00 ET + 鲍威尔记者会 02:30",
+                                                 "impact":  "P0"
+                                             }
+                                         ],
+                           "D7_focus":  "通胀粘性 + JOLTS/职位空缺 + ISM 价格分项"
+                       },
+    "d_tag":  "D-4",
+    "nvda_watch":  {
+                       "earnings_date":  "2026-06-14 05:00 GMT+8 (美东 6/13 17:00)",
+                       "linkage_to_fomc":  "Blackwell capex 指引可能强化/弱化 FOMC AI 投资叙事",
+                       "key_metrics":  [
+                                           "Q2 Data Center Revenue",
+                                           "Blackwell 出货节奏",
+                                           "Q3 Guidance",
+                                           "中国业务 H20/RTX 进展"
+                                       ],
+                       "iv_skew":  "65% 偏看涨 (Call/Put 1.85)"
+                   },
+    "price_snapshot":  {
+                           "gold":  4339.6,
+                           "oil":  78.42,
+                           "fng":  23,
+                           "btc":  66487.8,
+                           "eth":  1799.58
+                       }
+}

@@ -1,546 +1,424 @@
 ﻿{
-    "hn_items":  [
-                     {
-                         "url":  "https://www.boxofcables.dev/azure-linux-4-0-is-microsofts-first-general-purpose-linux/",
-                         "source":  "Hacker News",
-                         "id":  48407499,
-                         "type":  "story",
-                         "by":  "haydenbarnes",
-                         "time":  1780629268,
-                         "score":  14,
-                         "title":  "Azure Linux 4.0 is Microsoft\u0027s first general-purpose Linux",
-                         "descendants":  10
-                     },
-                     {
-                         "url":  "https://www.science.org/content/blog-post/causes-long-covid",
-                         "source":  "Hacker News",
-                         "id":  48407451,
-                         "type":  "story",
-                         "by":  "maxall4",
-                         "time":  1780628668,
-                         "score":  26,
-                         "title":  "The Causes of Long Covid",
-                         "descendants":  6
-                     },
-                     {
-                         "url":  "https://www.konichivalue.com/p/what-happens-if-japan-takes-in-zero",
-                         "source":  "Hacker News",
-                         "id":  48407068,
-                         "type":  "story",
-                         "by":  "Konichivalue",
-                         "time":  1780624586,
-                         "score":  15,
-                         "title":  "What happens if Japan takes in zero immigrants?",
-                         "descendants":  11
-                     },
-                     {
-                         "url":  "https://fb.watch/HxPu0fSyeH/",
-                         "source":  "Hacker News",
-                         "id":  48406640,
-                         "type":  "story",
-                         "by":  "jenders",
-                         "time":  1780620278,
-                         "score":  124,
-                         "title":  "Meta enables ADB on deprecated Portal devices [video]",
-                         "descendants":  30
-                     },
-                     {
-                         "url":  "https://github.com/alibaba/open-code-review",
-                         "source":  "Hacker News",
-                         "id":  48406358,
-                         "type":  "story",
-                         "by":  "geoffbp",
-                         "time":  1780617869,
-                         "score":  85,
-                         "title":  "Open Code Review – An AI-powered code review CLI tool",
-                         "descendants":  21
-                     },
-                     {
-                         "url":  "https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341",
-                         "source":  "Hacker News",
-                         "id":  48406198,
-                         "type":  "story",
-                         "by":  "Cider9986",
-                         "time":  1780616756,
-                         "score":  60,
-                         "title":  "South Korean Forums Will Need to Scan Every Images with AI Censorship Tools",
-                         "descendants":  26
-                     },
-                     {
-                         "url":  "https://arxiv.org/abs/2606.04032",
-                         "source":  "Hacker News",
-                         "id":  48405931,
-                         "type":  "story",
-                         "by":  "Anon84",
-                         "time":  1780614716,
-                         "score":  126,
-                         "title":  "Do transformers need three projections? Systematic study of QKV variants",
-                         "descendants":  20
-                     },
-                     {
-                         "url":  "https://arxiv.org/abs/2604.24881",
-                         "source":  "Hacker News",
-                         "id":  48405841,
-                         "type":  "story",
-                         "by":  "PaulHoule",
-                         "time":  1780614100,
-                         "score":  19,
-                         "title":  "Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate",
-                         "descendants":  0
-                     },
-                     {
-                         "url":  "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
-                         "source":  "Hacker News",
-                         "id":  48405718,
-                         "type":  "story",
-                         "by":  "tristanj",
-                         "time":  1780613299,
-                         "score":  223,
-                         "title":  "SpaceX, Other Mega IPOs Denied Fast Index Entry by S\u0026P",
-                         "descendants":  106
-                     },
-                     {
-                         "url":  "https://xeiaso.net/notes/2026/ipv6-zones-go-url/",
-                         "source":  "Hacker News",
-                         "id":  48405019,
-                         "type":  "story",
-                         "by":  "xena",
-                         "time":  1780609354,
-                         "score":  104,
-                         "title":  "IPv6 zones in URLs are a mistake",
-                         "descendants":  79
-                     },
-                     {
-                         "url":  "https://cen.acs.org/materials/biobased-materials/queen-bees-special-wax/104/web/2026/06",
-                         "source":  "Hacker News",
-                         "id":  48404905,
-                         "type":  "story",
-                         "by":  "gmays",
-                         "time":  1780608691,
-                         "score":  57,
-                         "title":  "Queen bees emerge from special wax chambers",
-                         "descendants":  8
-                     },
-                     {
-                         "url":  "https://www.mercek.dev/",
-                         "source":  "Hacker News",
-                         "id":  48404732,
-                         "type":  "story",
-                         "by":  "utibeumanah",
-                         "time":  1780607716,
-                         "score":  35,
-                         "title":  "Show HN: Mercek – A Desktop IDE for AWS ECS",
-                         "descendants":  8
-                     },
-                     {
-                         "url":  "https://github.com/anthropics/defending-code-reference-harness",
-                         "source":  "Hacker News",
-                         "id":  48403980,
-                         "type":  "story",
-                         "by":  "binyu",
-                         "time":  1780603880,
-                         "score":  319,
-                         "title":  "Anthropic\u0027s open-source framework for AI-powered vulnerability discovery",
-                         "descendants":  102
-                     },
-                     {
-                         "url":  "https://castor.web.cern.ch/content/home.html",
-                         "source":  "Hacker News",
-                         "id":  48403753,
-                         "type":  "story",
-                         "by":  "naves",
-                         "time":  1780602722,
-                         "score":  46,
-                         "title":  "Castor: CERN Advanced STORage Manager",
-                         "descendants":  20
-                     },
-                     {
-                         "url":  "https://www.buchodi.com/meta-glasses-facial-recognition/",
-                         "source":  "Hacker News",
-                         "id":  48403588,
-                         "type":  "story",
-                         "by":  "buchodi",
-                         "time":  1780601808,
-                         "score":  254,
-                         "title":  "Meta\u0027s ships facial recognition on smart glasses",
-                         "descendants":  214
-                     },
-                     {
-                         "url":  "https://www.ycombinator.com/companies/zettascale/jobs/O9S1vqO-founding-engineer-fpga-rtl-asic-architect",
-                         "source":  "Hacker News",
-                         "id":  48401433,
-                         "type":  "job",
-                         "by":  "el_al",
-                         "time":  1780592437,
-                         "score":  1,
-                         "title":  "Zettascale (YC S24) Is Hiring Founding FPGA Engineers",
-                         "descendants":  null
-                     },
-                     {
-                         "url":  "https://www.anthropic.com/institute/recursive-self-improvement",
-                         "source":  "Hacker News",
-                         "id":  48400842,
-                         "type":  "story",
-                         "by":  "meetpateltech",
-                         "time":  1780590017,
-                         "score":  383,
-                         "title":  "When AI Builds Itself: Our progress toward recursive self-improvement",
-                         "descendants":  509
-                     },
-                     {
-                         "url":  "https://havenweb.org/2026/05/28/retro-tech.html",
-                         "source":  "Hacker News",
-                         "id":  48400588,
-                         "type":  "story",
-                         "by":  "mawise",
-                         "time":  1780588955,
-                         "score":  271,
-                         "title":  "Retro-Tech Parenting",
-                         "descendants":  182
-                     },
-                     {
-                         "url":  "https://github.com/huawei-csl/KVarN",
-                         "source":  "Hacker News",
-                         "id":  48399974,
-                         "type":  "story",
-                         "by":  "theanonymousone",
-                         "time":  1780586280,
-                         "score":  120,
-                         "title":  "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
-                         "descendants":  12
-                     },
-                     {
-                         "url":  "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
-                         "source":  "Hacker News",
-                         "id":  48398055,
-                         "type":  "story",
-                         "by":  "coloneltcb",
-                         "time":  1780578051,
-                         "score":  592,
-                         "title":  "VoidZero Is Joining Cloudflare",
-                         "descendants":  264
-                     },
-                     {
-                         "url":  "https://momentsingraphics.de/Siggraph2026.html",
-                         "source":  "Hacker News",
-                         "id":  48396792,
-                         "type":  "story",
-                         "by":  "ibobev",
-                         "time":  1780570093,
-                         "score":  180,
-                         "title":  "Gaussian Point Splatting",
-                         "descendants":  67
-                     },
-                     {
-                         "url":  "https://www.scotthyoung.com/blog/2026/05/27/revolutionize-schooling/",
-                         "source":  "Hacker News",
-                         "id":  48376008,
-                         "type":  "story",
-                         "by":  "andrewstuart",
-                         "time":  1780433019,
-                         "score":  96,
-                         "title":  "I\u0027m skeptical about efforts to revolutionize schooling",
-                         "descendants":  163
-                     },
-                     {
-                         "url":  "https://tiki.li/blog/blqsort",
-                         "source":  "Hacker News",
-                         "id":  48375445,
-                         "type":  "story",
-                         "by":  "birdculture",
-                         "time":  1780430454,
-                         "score":  116,
-                         "title":  "Branchless Quicksort faster than std:sort and pdqsort with C and C++ API",
-                         "descendants":  18
-                     },
-                     {
-                         "url":  "https://danielmangum.com/posts/jlink-jtag-pinecil/",
-                         "source":  "Hacker News",
-                         "id":  48375064,
-                         "type":  "story",
-                         "by":  "hasheddan",
-                         "time":  1780428644,
-                         "score":  46,
-                         "title":  "JLink JTAG Access on the Pinecil",
-                         "descendants":  8
-                     },
-                     {
-                         "url":  "https://en.wikipedia.org/wiki/U.S._Army_Corps_of_Engineers_Bay_Model",
-                         "source":  "Hacker News",
-                         "id":  48373642,
-                         "type":  "story",
-                         "by":  "tosh",
-                         "time":  1780422600,
-                         "score":  223,
-                         "title":  "U.S. Army Corps of Engineers Bay Model",
-                         "descendants":  58
-                     },
-                     {
-                         "url":  "https://kyrieblunders.bearblog.dev/making-dr-grpo-go-brrr/",
-                         "source":  "Hacker News",
-                         "id":  48373266,
-                         "type":  "story",
-                         "by":  "vishal-padia",
-                         "time":  1780421173,
-                         "score":  15,
-                         "title":  "I made a kernel 2.2x faster. It made my training loop 3x slower",
-                         "descendants":  1
-                     },
-                     {
-                         "url":  "https://github.com/tarpediem/zenvision-linux",
-                         "source":  "Hacker News",
-                         "id":  48368338,
-                         "type":  "story",
-                         "by":  "berlianta",
-                         "time":  1780396141,
-                         "score":  33,
-                         "title":  "Reverse-Engineered Userspace Driver for Asus ZenVision Lid OLED on Linux\"",
-                         "descendants":  4
-                     },
-                     {
-                         "url":  "https://worksinprogress.co/issue/samurai-city/",
-                         "source":  "Hacker News",
-                         "id":  48366090,
-                         "type":  "story",
-                         "by":  "zdw",
-                         "time":  1780374739,
-                         "score":  124,
-                         "title":  "Samurai City",
-                         "descendants":  21
-                     },
-                     {
-                         "url":  "https://sigwait.org/~alex/blog/2026/05/28/smdBC8.html",
-                         "source":  "Hacker News",
-                         "id":  48360414,
-                         "type":  "story",
-                         "by":  "henry_flower",
-                         "time":  1780336930,
-                         "score":  67,
-                         "title":  "Making Debian or Fedora persistent live images",
-                         "descendants":  7
-                     },
-                     {
-                         "url":  "https://www.alexedwards.net/blog/go-experiments-explained",
-                         "source":  "Hacker News",
-                         "id":  48354136,
-                         "type":  "story",
-                         "by":  "ingve",
-                         "time":  1780303171,
-                         "score":  3,
-                         "title":  "Go Experiments Explained",
-                         "descendants":  0
-                     }
-                 ],
-    "总量":  50,
-    "触发时间":  "2026-06-05_12-20",
-    "rss_items":  [
-                      {
-                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
-                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
-                          "description":  [
-                                              "Gemini Omni \u0026 Gemini 3.5 hero",
-                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
-                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
-                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
-                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
-                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
-                          "description":  [
-                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
-                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
-                                          ],
-                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
-                          "title":  "How we used Gemini to build Google I/O 2026",
-                          "description":  [
-                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
-                                              "Learn how Googlers used AI to produce Google I/O 2026."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 20 May 2026 19:30:00 +0000",
-                          "title":  "100 things we announced at I/O 2026",
-                          "description":  [
-                                              "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
-                                              "We\u0027ve been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 20 May 2026 16:45:00 +0000",
-                          "title":  "A new experiment brings better group meetings to Google Beam",
-                          "description":  [
-                                              "A small group meeting featuring two in-room participants and three participants on-screen.",
-                                              "See and hear your colleagues in true-to-life size and sound, making hybrid meetings feel more inclusive and connected."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 20 May 2026 20:40:00 +0000",
-                          "title":  "We’re announcing new community investments in Missouri.",
-                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
-                          "title":  "Catch up on 12 major I/O 2026 moments",
-                          "description":  [
-                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
-                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
-                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
-                          "description":  [
-                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
-                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 13:15:00 GMT",
-                          "title":  [
-                                        [
+    "sources":  [
+                    {
+                        "path":  "items",
+                        "name":  "Hacker News",
+                        "status":  "ok",
+                        "count":  30
+                    },
+                    {
+                        "path":  "repos",
+                        "name":  "GitHub Trending",
+                        "status":  "ok",
+                        "count":  16
+                    }
+                ],
+    "timestamp":  "2026-06-22T10:00:15Z",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 12:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  2434,
+                      "repo":  "Hmbown/DeepSeek-TUI",
+                      "url":  "https://github.com/Hmbown/DeepSeek-TUI",
+                      "stars":  11398,
+                      "forks":  0,
+                      "description":  "Coding agent for DeepSeek models that runs in your terminal"
+                  },
+                  {
+                      "rank":  2,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/wasmer",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 04 Jun 2026 00:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "addyosmani/agent-skills",
+                      "url":  "https://github.com/addyosmani/agent-skills",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Production-grade engineering skills for AI coding agents"
+                  },
+                  {
+                      "rank":  3,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/biodefense-in-the-intelligence-age",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 04 Jun 2026 12:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  218,
+                      "repo":  "PriorLabs/TabPFN",
+                      "url":  "https://github.com/PriorLabs/TabPFN",
+                      "stars":  6685,
+                      "forks":  0,
+                      "description":  "⚡ TabPFN: Foundation Model for Tabular Data ⚡"
+                  },
+                  {
+                      "rank":  4,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/endava-frontiers",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 04 Jun 2026 09:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  927,
+                      "repo":  "docusealco/docuseal",
+                      "url":  "https://github.com/docusealco/docuseal",
+                      "stars":  14361,
+                      "forks":  0,
+                      "description":  "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
+                  },
+                  {
+                      "rank":  5,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/chatgpt-memory-dreaming",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Tue, 02 Jun 2026 09:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  532,
+                      "repo":  "LearningCircuit/local-deep-research",
+                      "url":  "https://github.com/LearningCircuit/local-deep-research",
+                      "stars":  5913,
+                      "forks":  0,
+                      "description":  "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs"
+                  },
+                  {
+                      "rank":  6,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/codex-for-every-role-tool-workflow",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Tue, 02 Jun 2026 07:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "LadybirdBrowser/ladybird",
+                      "url":  "https://github.com/LadybirdBrowser/ladybird",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Truly independent web browser"
+                  },
+                  {
+                      "rank":  7,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Tue, 02 Jun 2026 12:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  230,
+                      "repo":  "InsForge/InsForge",
+                      "url":  "https://github.com/InsForge/InsForge",
+                      "stars":  8634,
+                      "forks":  0,
+                      "description":  "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway"
+                  },
+                  {
+                      "rank":  8,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/travelers",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  666,
+                      "repo":  "virattt/dexter",
+                      "url":  "https://github.com/virattt/dexter",
+                      "stars":  24578,
+                      "forks":  0,
+                      "description":  "An autonomous agent for deep financial research"
+                  },
+                  {
+                      "rank":  9,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/frontier-safety-blueprint",
-                          "source":  "OpenAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
-                          "title":  [
-                                        [
+                                   ],
+                      "today_stars":  641,
+                      "repo":  "anthropics/financial-services",
+                      "url":  "https://github.com/anthropics/financial-services",
+                      "stars":  9603,
+                      "forks":  0,
+                      "description":  "Anthropics financial services repository"
+                  },
+                  {
+                      "rank":  10,
+                      "built_by":  [
 
-                                        ]
-                                    ],
-                          "description":  "System.Xml.XmlElement",
-                          "link":  "https://openai.com/index/public-policy-agenda",
-                          "source":  "OpenAI Blog"
-                      }
-                  ],
-    "采集时间":  "2026-06-05 12:20:45",
-    "来源":  "cron-ainews-0400",
-    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
-    "分类统计":  {
-                 "rss":  20,
-                 "hn":  30
-             }
+                                   ],
+                      "today_stars":  2192,
+                      "repo":  "ruvnet/ruflo",
+                      "url":  "https://github.com/ruvnet/ruflo",
+                      "stars":  45658,
+                      "forks":  0,
+                      "description":  "The leading agent orchestration platform for Claude"
+                  },
+                  {
+                      "rank":  11,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "cheahjs/free-llm-api-resources",
+                      "url":  "https://github.com/cheahjs/free-llm-api-resources",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "A list of free LLM inference resources accessible via API"
+                  },
+                  {
+                      "rank":  12,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  42,
+                      "repo":  "BigBodyCobain/Shadowbroker",
+                      "url":  "https://github.com/BigBodyCobain/Shadowbroker",
+                      "stars":  6056,
+                      "forks":  0,
+                      "description":  "Open-source intelligence for the global theater"
+                  },
+                  {
+                      "rank":  13,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "shiyu-coder/Kronos",
+                      "url":  "https://github.com/shiyu-coder/Kronos",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Kronos: A Foundation Model for the Language of Financial Markets"
+                  },
+                  {
+                      "rank":  14,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  503,
+                      "repo":  "bwya77/vscode-dark-islands",
+                      "url":  "https://github.com/bwya77/vscode-dark-islands",
+                      "stars":  8296,
+                      "forks":  0,
+                      "description":  "VSCode theme based off the easemate IDE and Jetbrains islands theme"
+                  },
+                  {
+                      "rank":  15,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "bytedance/deer-flow",
+                      "url":  "https://github.com/bytedance/deer-flow",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "An open-source long-horizon SuperAgent harness that researches, codes, and creates"
+                  },
+                  {
+                      "rank":  16,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  1125,
+                      "repo":  "D4Vinci/Scrapling",
+                      "url":  "https://github.com/D4Vinci/Scrapling",
+                      "stars":  46779,
+                      "forks":  0,
+                      "description":  "🕷️ An adaptive Web Scraping framework"
+                  }
+              ],
+    "items":  [
+                  {
+                      "date":  "2026-06-22T05:38:40Z",
+                      "title":  "Deno Desktop",
+                      "url":  "https://docs.deno.com/runtime/desktop/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T01:55:16Z",
+                      "title":  "Help I accidentally a wigglegram",
+                      "url":  "https://lmao.center/blog/wiggle-accidents/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:40:53Z",
+                      "title":  "Did my old job only exist because of fraud?",
+                      "url":  "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:29:43Z",
+                      "title":  "Apertus – Open Foundation Model for Sovereign AI",
+                      "url":  "https://apertvs.ai/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:22:03Z",
+                      "title":  "GLM 5.2 vs. Opus",
+                      "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T15:54:23Z",
+                      "title":  "Munich 1991: The Roots of the Current AI Boom",
+                      "url":  "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:30:17Z",
+                      "title":  "Codex logging bug may write TBs to local SSDs",
+                      "url":  "https://github.com/openai/codex/issues/28224",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T20:56:01Z",
+                      "title":  "There is minimal downside to switching to open models",
+                      "url":  "https://www.marble.onl/posts/cancel_claude.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T03:29:19Z",
+                      "title":  "Memory Safe Inline Assembly",
+                      "url":  "https://fil-c.org/inlineasm",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T05:43:54Z",
+                      "title":  "Lisp in the Rust Type System",
+                      "url":  "https://github.com/playX18/lisp-in-types/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:10:32Z",
+                      "title":  "Everything is logarithms",
+                      "url":  "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T22:55:23Z",
+                      "title":  "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+                      "url":  "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T19:00:01Z",
+                      "title":  "Luis Alvarez\u0027s Journey from Hiroshima to the Death of the Dinosaurs",
+                      "url":  "https://www.lrb.co.uk/the-paper/v48/n11/steven-shapin/barrel-of-greenbacks",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T12:44:13Z",
+                      "title":  "Identity verification on Claude",
+                      "url":  "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:29:17Z",
+                      "title":  "Investors get real-time view of UK bond market activity for the first time",
+                      "url":  "https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T14:30:46Z",
+                      "title":  "My 1992 view of the problems of computer programming in 1992",
+                      "url":  "https://blog.plover.com/prog/fortran-i.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T02:08:18Z",
+                      "title":  "Sakana Fugu",
+                      "url":  "https://sakana.ai/fugu/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T00:42:50Z",
+                      "title":  "Efficient C++ Programming for Modern C++ CPUs, Chapter 4/part 2",
+                      "url":  "https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-take-2-80736",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T18:51:47Z",
+                      "title":  "JSON-LD explained for personal websites",
+                      "url":  "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T22:53:50Z",
+                      "title":  "Japanese verb conjugation the simple hard way",
+                      "url":  "https://underreacted.leaflet.pub/3mmevu6woys27",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-18T18:45:03Z",
+                      "title":  "How I play video games with spinal muscular atrophy",
+                      "url":  "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T00:34:33Z",
+                      "title":  "1983 Northern Telecom Commodore Phone",
+                      "url":  "https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:23:13Z",
+                      "title":  "PowerFox Browser",
+                      "url":  "https://powerfox.jazzzny.me/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T12:49:48Z",
+                      "title":  "Show HN: Teach your kids perfect pitch",
+                      "url":  "https://github.com/paytonjjones/bsharp",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-17T07:33:29Z",
+                      "title":  "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2",
+                      "url":  "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:54:34Z",
+                      "title":  "Rent collections are down in New York",
+                      "url":  "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T13:18:28Z",
+                      "title":  "Show HN: Criterion Closet as a website – pull any of 1,247 films off the shelf",
+                      "url":  "https://the-criterion-closet.vercel.app",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T16:41:21Z",
+                      "title":  "The minimum viable unit of saleable software",
+                      "url":  "https://brandur.org/minimum-viable-unit",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T16:08:23Z",
+                      "title":  "Prefer duplication over the wrong abstraction (2016)",
+                      "url":  "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T04:50:26Z",
+                      "title":  "Danish privacy activist Lars Andersen raided by police",
+                      "url":  "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  }
+              ],
+    "count":  46
 }

@@ -1,7 +1,7 @@
 ﻿{
     "next_critical_event":  "6/10 20:30 CPI 5月 (D3)",
     "days_to_fomc":  7,
-    "timestamp":  "12:20",
+    "timestamp":  "21:00",
     "scenarios":  {
                       "hawkish_pause":  {
                                             "trigger":  "CPI 0.3%+ NFP \u003e180K",
@@ -75,10 +75,10 @@
                        "iv_skew":  "65% 偏看涨 (Call/Put 1.85)"
                    },
     "price_snapshot":  {
-                           "gold":  4443.5,
-                           "oil":  93.1,
+                           "gold":  4470.7,
+                           "oil":  92.75,
                            "fng":  12,
-                           "btc":  62659.39,
-                           "eth":  1727.53
+                           "btc":  61942.35,
+                           "eth":  1662.96
                        }
 }

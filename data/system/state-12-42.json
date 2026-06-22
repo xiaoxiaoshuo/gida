@@ -1,0 +1,53 @@
+{
+  "heartbeat": 50,
+  "timestamp": "2026-06-05T12:42:00+08:00",
+  "session_type": "main",
+  "agent_layer": "meta-planner",
+  "agent_dual_identity": ["跨学科情报专家", "元规划者"],
+
+  "system_heartbeat": {
+    "active_task": "定时扫描 + cron 修复 + 派单准备 (12:33 reminder)",
+    "progress": "85%",
+    "token_budget": "60-70K / 200K"
+  },
+
+  "todo_stack": [
+    {"priority": "P0", "task": "gh-trending-v7 cron 修复 (curl.exe 绝对路径)", "status": "DONE", "completed_at": "12:39"},
+    {"priority": "P0", "task": "CronWatchdogV3_30min cron 修复 (G-57 pattern)", "status": "DONE", "completed_at": "12:40"},
+    {"priority": "P0", "task": "派 G-59 16:00 pre-market + 16:30 决策点 v3 减仓", "status": "READY_TO_DISPATCH", "cron_at": "15:30"},
+    {"priority": "P0", "task": "派 G-61 4 周黑洞补采 (hacker-news + tech-news)", "status": "READY_TO_DISPATCH", "cron_at": "14:00"},
+    {"priority": "P1", "task": "TOOLS.md 实际更新 (G-56B INTEL 提到但未做)", "status": "DEFERRED"},
+    {"priority": "P1", "task": "scripts/ 目录清理 (47+ .ps1 含 g56d-*/g57-* 临时)", "status": "DEFERRED"},
+    {"priority": "P1", "task": "MEMORY.md 12:42 增量更新", "status": "DONE", "completed_at": "12:42"}
+  ],
+
+  "error_log": {
+    "last_failure": "v7 cron 0x80070002 (12:30, 已修复)",
+    "fix_applied": "Curl.exe 绝对路径 + G-57 cron pattern (SYSTEM/ServiceAccount/Highest + 完整 ps 路径 + WorkingDirectory + 无 shell 重定向)"
+  },
+
+  "forgotten_points": [
+    "data/ai/tech-news_latest.json 28.3d 老化 (黑洞) - G-61 补采",
+    "data/ai/hacker-news_latest.json 27.3d 老化 (黑洞) - G-61 补采",
+    "TOOLS.md 未实际更新 GH Search API 章节 (G-56B 提到)",
+    "scripts/ 临时调试脚本堆积 (g56d-* g57-* 15+ 个)"
+  ],
+
+  "ignored_requirements": [
+    "采集程序统一健康监控 (用户明确要求, 当前 cron 分散无统一面板)",
+    "TOOLS.md 真实更新 (4 次提到, 0 次执行)"
+  ],
+
+  "cron_health_matrix_12_42": {
+    "AINewsCollector_0400": {"state": "Ready", "result": "0x00000000", "next": "06-06 04:00"},
+    "AINewsCollector_6h": {"state": "Ready", "result": "0x00000000", "next": "06-05 18:00"},
+    "BridgeCollector2h": {"state": "Ready", "result": "0x00000000", "next": "06-05 14:00"},
+    "CronWatchdog": {"state": "Ready", "result": "0x00000001", "next": "06-05 18:30", "note": "code 1 非阻塞"},
+    "CronWatchdogV3_30min": {"state": "Ready", "result": "0x00000000", "next": "06-05 13:00", "fixed_at": "12:40"},
+    "FomcD7Tracker": {"state": "Ready", "result": "0x00000000", "next": "06-05 21:00"},
+    "gh-trending-v7-hourly": {"state": "Ready", "result": "0x00000000", "next": "06-05 13:30", "fixed_at": "12:39"},
+    "HourlyPriceCollector": {"state": "Ready", "result": "0x00000000", "next": "06-05 13:00"}
+  },
+
+  "subagent_dispatch_log": "data/system/dispatch-log-2026-06-05.jsonl (G-59 + G-61 READY_TO_DISPATCH)"
+}

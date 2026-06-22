@@ -1,0 +1,13 @@
+﻿{
+    "rss_items":  [
+
+                  ],
+    "hn_items":  [
+
+                 ],
+    "note":  "HN + RSS 全部失败, 见 data/system/ainews-0400-errors.jsonl",
+    "触发时间":  "2026-06-20_15-49",
+    "采集时间":  "2026-06-20 15:49:15",
+    "总量":  0,
+    "来源":  "cron-ainews-0400"
+}

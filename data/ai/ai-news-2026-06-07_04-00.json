@@ -1,0 +1,126 @@
+﻿{
+    "hn_items":  {
+
+                 },
+    "总量":  10,
+    "触发时间":  "2026-06-07_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/public-policy-agenda",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/frontier-safety-blueprint",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/travelers",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 07:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 09:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/codex-for-every-role-tool-workflow",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 09:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/chatgpt-memory-dreaming",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/endava-frontiers",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/biodefense-in-the-intelligence-age",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/wasmer",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:15:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-07 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  0
+             }
+}

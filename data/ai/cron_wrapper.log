@@ -378,3 +378,498 @@ Check the spelling of the name, or if a path was included, verify that the path 
 2026-06-05 12:00:01 - Running merge-ai-news.ps1
 2026-06-05 12:00:01 - Merge completed, exit: 
 2026-06-05 12:00:14 - Wrapper finished
+2026-06-05 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-05 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-05 18:00:01 - HN completed, exit: 
+2026-06-05 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-05 18:00:01 - GH completed, exit: 
+2026-06-05 18:00:01 - Running merge-ai-news.ps1
+2026-06-05 18:00:01 - Merge completed, exit: 
+2026-06-05 18:00:20 - Wrapper finished
+2026-06-06 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-06 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-06 00:00:01 - HN completed, exit: 
+2026-06-06 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-06 00:00:01 - GH completed, exit: 
+2026-06-06 00:00:01 - Running merge-ai-news.ps1
+2026-06-06 00:00:01 - Merge completed, exit: 
+2026-06-06 00:00:18 - Wrapper finished
+2026-06-06 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-06 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-06 06:00:01 - HN completed, exit: 
+2026-06-06 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-06 06:00:01 - GH completed, exit: 
+2026-06-06 06:00:01 - Running merge-ai-news.ps1
+2026-06-06 06:00:01 - Merge completed, exit: 
+2026-06-06 06:00:14 - Wrapper finished
+2026-06-06 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-06 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-06 12:00:01 - HN completed, exit: 1
+2026-06-06 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-06 12:00:01 - GH completed, exit: 1
+2026-06-06 12:00:01 - Running merge-ai-news.ps1
+2026-06-06 12:00:01 - Merge completed, exit: 1
+2026-06-06 12:00:18 - Wrapper finished
+2026-06-06 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-06 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-06 18:00:01 - HN completed, exit: 
+2026-06-06 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-06 18:00:01 - GH completed, exit: 
+2026-06-06 18:00:01 - Running merge-ai-news.ps1
+2026-06-06 18:00:01 - Merge completed, exit: 
+2026-06-06 18:00:17 - Wrapper finished
+2026-06-07 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-07 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-07 00:00:01 - HN completed, exit: 
+2026-06-07 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-07 00:00:01 - GH completed, exit: 
+2026-06-07 00:00:01 - Running merge-ai-news.ps1
+2026-06-07 00:00:01 - Merge completed, exit: 
+2026-06-07 00:00:18 - Wrapper finished
+2026-06-07 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-07 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-07 06:00:01 - HN completed, exit: 
+2026-06-07 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-07 06:00:01 - GH completed, exit: 
+2026-06-07 06:00:01 - Running merge-ai-news.ps1
+2026-06-07 06:00:01 - Merge completed, exit: 
+2026-06-07 06:00:15 - Wrapper finished
+2026-06-07 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-07 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-07 12:00:01 - HN completed, exit: 1
+2026-06-07 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-07 12:00:01 - GH completed, exit: 1
+2026-06-07 12:00:01 - Running merge-ai-news.ps1
+2026-06-07 12:00:01 - Merge completed, exit: 1
+2026-06-07 12:00:18 - Wrapper finished
+2026-06-07 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-07 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-07 18:00:01 - HN completed, exit: 
+2026-06-07 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-07 18:00:01 - GH completed, exit: 
+2026-06-07 18:00:01 - Running merge-ai-news.ps1
+2026-06-07 18:00:01 - Merge completed, exit: 
+2026-06-07 18:00:16 - Wrapper finished
+2026-06-08 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-08 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-08 00:00:01 - HN completed, exit: 
+2026-06-08 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-08 00:00:01 - GH completed, exit: 
+2026-06-08 00:00:01 - Running merge-ai-news.ps1
+2026-06-08 00:00:01 - Merge completed, exit: 
+2026-06-08 00:00:16 - Wrapper finished
+2026-06-08 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-08 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-08 06:00:01 - HN completed, exit: 
+2026-06-08 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-08 06:00:01 - GH completed, exit: 
+2026-06-08 06:00:01 - Running merge-ai-news.ps1
+2026-06-08 06:00:01 - Merge completed, exit: 
+2026-06-08 06:00:14 - Wrapper finished
+2026-06-08 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-08 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-08 12:00:01 - HN completed, exit: 
+2026-06-08 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-08 12:00:01 - GH completed, exit: 
+2026-06-08 12:00:01 - Running merge-ai-news.ps1
+2026-06-08 12:00:01 - Merge completed, exit: 
+2026-06-08 12:00:14 - Wrapper finished
+2026-06-08 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-08 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-08 18:00:01 - HN completed, exit: 
+2026-06-08 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-08 18:00:01 - GH completed, exit: 
+2026-06-08 18:00:01 - Running merge-ai-news.ps1
+2026-06-08 18:00:01 - Merge completed, exit: 
+2026-06-08 18:00:15 - Wrapper finished
+2026-06-09 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-09 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-09 00:00:01 - HN completed, exit: 
+2026-06-09 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-09 00:00:01 - GH completed, exit: 
+2026-06-09 00:00:01 - Running merge-ai-news.ps1
+2026-06-09 00:00:01 - Merge completed, exit: 
+2026-06-09 00:00:13 - Wrapper finished
+2026-06-09 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-09 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-09 06:00:01 - HN completed, exit: 
+2026-06-09 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-09 06:00:01 - GH completed, exit: 
+2026-06-09 06:00:01 - Running merge-ai-news.ps1
+2026-06-09 06:00:01 - Merge completed, exit: 
+2026-06-09 06:00:13 - Wrapper finished
+2026-06-09 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-09 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-09 12:00:01 - HN completed, exit: 
+2026-06-09 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-09 12:00:01 - GH completed, exit: 
+2026-06-09 12:00:01 - Running merge-ai-news.ps1
+2026-06-09 12:00:01 - Merge completed, exit: 
+2026-06-09 12:00:13 - Wrapper finished
+2026-06-09 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-09 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-09 18:00:01 - HN completed, exit: 
+2026-06-09 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-09 18:00:01 - GH completed, exit: 
+2026-06-09 18:00:01 - Running merge-ai-news.ps1
+2026-06-09 18:00:01 - Merge completed, exit: 
+2026-06-09 18:00:15 - Wrapper finished
+2026-06-10 00:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-10 00:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-10 00:00:02 - HN completed, exit: 
+2026-06-10 00:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-10 00:00:02 - GH completed, exit: 
+2026-06-10 00:00:02 - Running merge-ai-news.ps1
+2026-06-10 00:00:02 - Merge completed, exit: 
+2026-06-10 00:00:16 - Wrapper finished
+2026-06-10 06:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-10 06:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-10 06:00:02 - HN completed, exit: 
+2026-06-10 06:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-10 06:00:02 - GH completed, exit: 
+2026-06-10 06:00:02 - Running merge-ai-news.ps1
+2026-06-10 06:00:02 - Merge completed, exit: 
+2026-06-10 06:00:14 - Wrapper finished
+2026-06-10 12:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-10 12:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-10 12:00:02 - HN completed, exit: 
+2026-06-10 12:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-10 12:00:02 - GH completed, exit: 
+2026-06-10 12:00:02 - Running merge-ai-news.ps1
+2026-06-10 12:00:02 - Merge completed, exit: 
+2026-06-10 12:00:15 - Wrapper finished
+2026-06-10 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-10 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-10 18:00:01 - HN completed, exit: 
+2026-06-10 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-10 18:00:01 - GH completed, exit: 
+2026-06-10 18:00:01 - Running merge-ai-news.ps1
+2026-06-10 18:00:01 - Merge completed, exit: 
+2026-06-10 18:00:18 - Wrapper finished
+2026-06-11 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-11 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-11 00:00:01 - HN completed, exit: 
+2026-06-11 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-11 00:00:01 - GH completed, exit: 
+2026-06-11 00:00:01 - Running merge-ai-news.ps1
+2026-06-11 00:00:01 - Merge completed, exit: 
+2026-06-11 00:00:21 - Wrapper finished
+2026-06-11 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-11 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-11 06:00:01 - HN completed, exit: 
+2026-06-11 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-11 06:00:01 - GH completed, exit: 
+2026-06-11 06:00:01 - Running merge-ai-news.ps1
+2026-06-11 06:00:01 - Merge completed, exit: 
+2026-06-11 06:00:19 - Wrapper finished
+2026-06-11 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-11 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-11 12:00:01 - HN completed, exit: 1
+2026-06-11 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-11 12:00:01 - GH completed, exit: 1
+2026-06-11 12:00:01 - Running merge-ai-news.ps1
+2026-06-11 12:00:01 - Merge completed, exit: 1
+2026-06-11 12:00:18 - Wrapper finished
+2026-06-11 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-11 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-11 18:00:01 - HN completed, exit: 
+2026-06-11 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-11 18:00:01 - GH completed, exit: 
+2026-06-11 18:00:01 - Running merge-ai-news.ps1
+2026-06-11 18:00:01 - Merge completed, exit: 
+2026-06-11 18:00:15 - Wrapper finished
+2026-06-12 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-12 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-12 00:00:01 - HN completed, exit: 
+2026-06-12 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-12 00:00:01 - GH completed, exit: 
+2026-06-12 00:00:01 - Running merge-ai-news.ps1
+2026-06-12 00:00:01 - Merge completed, exit: 
+2026-06-12 00:00:14 - Wrapper finished
+2026-06-12 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-12 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-12 06:00:01 - HN completed, exit: 
+2026-06-12 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-12 06:00:01 - GH completed, exit: 
+2026-06-12 06:00:01 - Running merge-ai-news.ps1
+2026-06-12 06:00:01 - Merge completed, exit: 
+2026-06-12 06:00:14 - Wrapper finished
+2026-06-12 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-12 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-12 12:00:01 - HN completed, exit: 
+2026-06-12 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-12 12:00:01 - GH completed, exit: 
+2026-06-12 12:00:01 - Running merge-ai-news.ps1
+2026-06-12 12:00:01 - Merge completed, exit: 
+2026-06-12 12:00:14 - Wrapper finished
+2026-06-12 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-12 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-12 18:00:01 - HN completed, exit: 
+2026-06-12 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-12 18:00:01 - GH completed, exit: 
+2026-06-12 18:00:01 - Running merge-ai-news.ps1
+2026-06-12 18:00:01 - Merge completed, exit: 
+2026-06-12 18:00:14 - Wrapper finished
+2026-06-13 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-13 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-13 00:00:01 - HN completed, exit: 
+2026-06-13 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-13 00:00:01 - GH completed, exit: 
+2026-06-13 00:00:01 - Running merge-ai-news.ps1
+2026-06-13 00:00:01 - Merge completed, exit: 
+2026-06-13 00:00:15 - Wrapper finished
+2026-06-13 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-13 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-13 06:00:01 - HN completed, exit: 
+2026-06-13 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-13 06:00:01 - GH completed, exit: 
+2026-06-13 06:00:01 - Running merge-ai-news.ps1
+2026-06-13 06:00:01 - Merge completed, exit: 
+2026-06-13 06:00:15 - Wrapper finished
+2026-06-13 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-13 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-13 12:00:01 - HN completed, exit: 
+2026-06-13 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-13 12:00:01 - GH completed, exit: 
+2026-06-13 12:00:01 - Running merge-ai-news.ps1
+2026-06-13 12:00:01 - Merge completed, exit: 
+2026-06-13 12:00:14 - Wrapper finished
+2026-06-13 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-13 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-13 18:00:01 - HN completed, exit: 
+2026-06-13 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-13 18:00:01 - GH completed, exit: 
+2026-06-13 18:00:01 - Running merge-ai-news.ps1
+2026-06-13 18:00:01 - Merge completed, exit: 
+2026-06-13 18:00:15 - Wrapper finished
+2026-06-14 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-14 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-14 00:00:01 - HN completed, exit: 
+2026-06-14 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-14 00:00:01 - GH completed, exit: 
+2026-06-14 00:00:01 - Running merge-ai-news.ps1
+2026-06-14 00:00:01 - Merge completed, exit: 
+2026-06-14 00:00:15 - Wrapper finished
+2026-06-14 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-14 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-14 06:00:01 - HN completed, exit: 
+2026-06-14 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-14 06:00:01 - GH completed, exit: 
+2026-06-14 06:00:01 - Running merge-ai-news.ps1
+2026-06-14 06:00:01 - Merge completed, exit: 
+2026-06-14 06:00:15 - Wrapper finished
+2026-06-14 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-14 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-14 12:00:01 - HN completed, exit: 
+2026-06-14 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-14 12:00:01 - GH completed, exit: 
+2026-06-14 12:00:01 - Running merge-ai-news.ps1
+2026-06-14 12:00:01 - Merge completed, exit: 
+2026-06-14 12:00:14 - Wrapper finished
+2026-06-14 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-14 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-14 18:00:01 - HN completed, exit: 
+2026-06-14 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-14 18:00:01 - GH completed, exit: 
+2026-06-14 18:00:01 - Running merge-ai-news.ps1
+2026-06-14 18:00:01 - Merge completed, exit: 
+2026-06-14 18:00:16 - Wrapper finished
+2026-06-15 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-15 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-15 00:00:01 - HN completed, exit: 
+2026-06-15 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-15 00:00:01 - GH completed, exit: 
+2026-06-15 00:00:01 - Running merge-ai-news.ps1
+2026-06-15 00:00:01 - Merge completed, exit: 
+2026-06-15 00:00:14 - Wrapper finished
+2026-06-15 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-15 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-15 06:00:01 - HN completed, exit: 
+2026-06-15 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-15 06:00:01 - GH completed, exit: 
+2026-06-15 06:00:01 - Running merge-ai-news.ps1
+2026-06-15 06:00:01 - Merge completed, exit: 
+2026-06-15 06:00:14 - Wrapper finished
+2026-06-15 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-15 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-15 12:00:01 - HN completed, exit: 
+2026-06-15 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-15 12:00:01 - GH completed, exit: 
+2026-06-15 12:00:01 - Running merge-ai-news.ps1
+2026-06-15 12:00:01 - Merge completed, exit: 
+2026-06-15 12:00:14 - Wrapper finished
+2026-06-15 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-15 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-15 18:00:01 - HN completed, exit: 
+2026-06-15 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-15 18:00:01 - GH completed, exit: 
+2026-06-15 18:00:01 - Running merge-ai-news.ps1
+2026-06-15 18:00:01 - Merge completed, exit: 
+2026-06-15 18:00:17 - Wrapper finished
+2026-06-16 00:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-16 00:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-16 00:00:02 - HN completed, exit: 
+2026-06-16 00:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-16 00:00:02 - GH completed, exit: 
+2026-06-16 00:00:02 - Running merge-ai-news.ps1
+2026-06-16 00:00:02 - Merge completed, exit: 
+2026-06-16 00:00:14 - Wrapper finished
+2026-06-16 06:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-16 06:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-16 06:00:02 - HN completed, exit: 
+2026-06-16 06:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-16 06:00:02 - GH completed, exit: 
+2026-06-16 06:00:02 - Running merge-ai-news.ps1
+2026-06-16 06:00:02 - Merge completed, exit: 
+2026-06-16 06:00:14 - Wrapper finished
+2026-06-16 12:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-16 12:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-16 12:00:02 - HN completed, exit: 
+2026-06-16 12:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-16 12:00:02 - GH completed, exit: 
+2026-06-16 12:00:02 - Running merge-ai-news.ps1
+2026-06-16 12:00:02 - Merge completed, exit: 
+2026-06-16 12:00:15 - Wrapper finished
+2026-06-16 18:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-16 18:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-16 18:00:02 - HN completed, exit: 
+2026-06-16 18:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-16 18:00:02 - GH completed, exit: 
+2026-06-16 18:00:02 - Running merge-ai-news.ps1
+2026-06-16 18:00:02 - Merge completed, exit: 
+2026-06-16 18:00:16 - Wrapper finished
+2026-06-17 00:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-17 00:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-17 00:00:02 - HN completed, exit: 
+2026-06-17 00:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-17 00:00:02 - GH completed, exit: 
+2026-06-17 00:00:02 - Running merge-ai-news.ps1
+2026-06-17 00:00:02 - Merge completed, exit: 
+2026-06-17 00:00:16 - Wrapper finished
+2026-06-17 06:00:02 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-17 06:00:02 - Running fetch-hn-top30-v2.ps1
+2026-06-17 06:00:02 - HN completed, exit: 
+2026-06-17 06:00:02 - Running gh-trending-browser-v5.ps1
+2026-06-17 06:00:02 - GH completed, exit: 
+2026-06-17 06:00:02 - Running merge-ai-news.ps1
+2026-06-17 06:00:02 - Merge completed, exit: 
+2026-06-17 06:00:15 - Wrapper finished
+2026-06-17 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-17 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-17 12:00:01 - HN completed, exit: 
+2026-06-17 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-17 12:00:01 - GH completed, exit: 
+2026-06-17 12:00:01 - Running merge-ai-news.ps1
+2026-06-17 12:00:01 - Merge completed, exit: 
+2026-06-17 12:00:14 - Wrapper finished
+2026-06-17 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-17 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-17 18:00:01 - HN completed, exit: 
+2026-06-17 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-17 18:00:01 - GH completed, exit: 
+2026-06-17 18:00:01 - Running merge-ai-news.ps1
+2026-06-17 18:00:01 - Merge completed, exit: 
+2026-06-17 18:00:15 - Wrapper finished
+2026-06-18 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-18 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-18 00:00:01 - HN completed, exit: 
+2026-06-18 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-18 00:00:01 - GH completed, exit: 
+2026-06-18 00:00:01 - Running merge-ai-news.ps1
+2026-06-18 00:00:01 - Merge completed, exit: 
+2026-06-18 00:00:16 - Wrapper finished
+2026-06-18 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-18 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-18 06:00:01 - HN completed, exit: 
+2026-06-18 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-18 06:00:01 - GH completed, exit: 
+2026-06-18 06:00:01 - Running merge-ai-news.ps1
+2026-06-18 06:00:01 - Merge completed, exit: 
+2026-06-18 06:00:14 - Wrapper finished
+2026-06-18 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-18 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-18 12:00:01 - HN completed, exit: 
+2026-06-18 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-18 12:00:01 - GH completed, exit: 
+2026-06-18 12:00:01 - Running merge-ai-news.ps1
+2026-06-18 12:00:01 - Merge completed, exit: 
+2026-06-18 12:00:16 - Wrapper finished
+2026-06-18 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-18 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-18 18:00:01 - HN completed, exit: 
+2026-06-18 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-18 18:00:01 - GH completed, exit: 
+2026-06-18 18:00:01 - Running merge-ai-news.ps1
+2026-06-18 18:00:01 - Merge completed, exit: 
+2026-06-18 18:00:14 - Wrapper finished
+2026-06-20 15:49:15 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-20 15:49:15 - Running fetch-hn-top30-v2.ps1
+2026-06-20 15:49:15 - Running gh-trending-browser-v5.ps1
+2026-06-20 15:49:15 - GH completed, exit: 1
+2026-06-20 15:49:15 - Running merge-ai-news.ps1
+2026-06-20 15:49:15 - Merge completed, exit: 1
+2026-06-20 15:49:16 - Wrapper finished
+2026-06-20 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-20 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-20 18:00:01 - HN completed, exit: 
+2026-06-20 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-20 18:00:01 - GH completed, exit: 
+2026-06-20 18:00:01 - Running merge-ai-news.ps1
+2026-06-20 18:00:01 - Merge completed, exit: 
+2026-06-20 18:00:14 - Wrapper finished
+2026-06-21 00:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-21 00:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-21 00:00:01 - HN completed, exit: 
+2026-06-21 00:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-21 00:00:01 - GH completed, exit: 
+2026-06-21 00:00:01 - Running merge-ai-news.ps1
+2026-06-21 00:00:01 - Merge completed, exit: 
+2026-06-21 00:00:16 - Wrapper finished
+2026-06-21 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-21 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-21 06:00:01 - HN completed, exit: 
+2026-06-21 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-21 06:00:01 - GH completed, exit: 
+2026-06-21 06:00:01 - Running merge-ai-news.ps1
+2026-06-21 06:00:01 - Merge completed, exit: 
+2026-06-21 06:00:16 - Wrapper finished
+2026-06-21 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-21 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-21 12:00:01 - HN completed, exit: 
+2026-06-21 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-21 12:00:01 - GH completed, exit: 
+2026-06-21 12:00:01 - Running merge-ai-news.ps1
+2026-06-21 12:00:01 - Merge completed, exit: 
+2026-06-21 12:00:14 - Wrapper finished
+2026-06-21 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-21 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-21 18:00:01 - HN completed, exit: 
+2026-06-21 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-21 18:00:01 - GH completed, exit: 
+2026-06-21 18:00:01 - Running merge-ai-news.ps1
+2026-06-21 18:00:01 - Merge completed, exit: 
+2026-06-21 18:00:14 - Wrapper finished
+2026-06-22 09:04:18 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-22 09:04:18 - Running fetch-hn-top30-v2.ps1
+2026-06-22 09:04:18 - HN completed, exit: 
+2026-06-22 09:04:18 - Running gh-trending-browser-v5.ps1
+2026-06-22 09:04:18 - GH completed, exit: 
+2026-06-22 09:04:18 - Running merge-ai-news.ps1
+2026-06-22 09:04:18 - Merge completed, exit: 
+2026-06-22 09:04:32 - Wrapper finished
+2026-06-22 12:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-22 12:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-22 12:00:01 - HN completed, exit: 
+2026-06-22 12:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-22 12:00:01 - GH completed, exit: 
+2026-06-22 12:00:01 - Running merge-ai-news.ps1
+2026-06-22 12:00:01 - Merge completed, exit: 
+2026-06-22 12:00:14 - Wrapper finished
+2026-06-22 18:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-22 18:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-22 18:00:01 - HN completed, exit: 
+2026-06-22 18:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-22 18:00:01 - GH completed, exit: 
+2026-06-22 18:00:01 - Running merge-ai-news.ps1
+2026-06-22 18:00:01 - Merge completed, exit: 
+2026-06-22 18:00:15 - Wrapper finished

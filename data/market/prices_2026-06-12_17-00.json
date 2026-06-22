@@ -1,0 +1,78 @@
+﻿{
+    "errors":  [
+                   "BTC : all sources failed"
+               ],
+    "timestamp":  "2026-06-12 17:00:01",
+    "collection_version":  "v8",
+    "quality_report":  {
+                           "VIX":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "macro":  {
+                  "VIX":  {
+                              "value":  12,
+                              "source":  "alternative.me_FNG",
+                              "timestamp":  "2026-06-12 17:00:01",
+                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
+                              "confidence":  "medium",
+                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"12\",\n\t\t\t\"value_classification\": \"Extr",
+                              "value_classification":  "Extreme Fear"
+                          },
+                  "OIL":  {
+                              "value":  83.72,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-12 17:00:01",
+                              "raw_len":  416478,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4223.4,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-12 17:00:01",
+                               "raw_len":  65545,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "crypto":  {
+                   "ETH":  {
+                               "price":  1673.16,
+                               "timestamp":  "2026-06-12 17:00:01",
+                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1673.16\",\"lowest_ask\":\"1673.16\",\"lowest_siz",
+                               "confidence":  "high",
+                               "source":  "Gateio_API"
+                           },
+                   "SOL":  {
+                               "price":  66.9,
+                               "timestamp":  "2026-06-12 17:00:01",
+                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"66.9\",\"lowest_ask\":\"66.91\",\"lowest_size\":\"2",
+                               "confidence":  "high",
+                               "source":  "Gateio_API"
+                           }
+               },
+    "timestamp_iso":  "2026-06-12T09:00:01Z"
+}

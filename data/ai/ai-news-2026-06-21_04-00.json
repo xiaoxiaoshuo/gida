@@ -1,0 +1,540 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://mitchivin.com/",
+                         "source":  "Hacker News",
+                         "id":  48612095,
+                         "type":  "story",
+                         "by":  "mitchivin",
+                         "time":  1781983128,
+                         "score":  12,
+                         "title":  "Show HN: My Windows XP portfolio with working Game Boy and iPod",
+                         "descendants":  8
+                     },
+                     {
+                         "url":  "https://clickhouse.com/blog/postgresbench",
+                         "source":  "Hacker News",
+                         "id":  48611942,
+                         "type":  "story",
+                         "by":  "saisrirampur",
+                         "time":  1781982070,
+                         "score":  7,
+                         "title":  "PostgresBench: A Reproducible Benchmark for Postgres Services",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://github.com/confh/Tiny",
+                         "source":  "Hacker News",
+                         "id":  48611857,
+                         "type":  "story",
+                         "by":  "confis",
+                         "time":  1781981626,
+                         "score":  7,
+                         "title":  "Show HN: Tiny – An interpeted dynamic langauge with inline Go native functions",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://github.com/overflowy/make-look-scanned",
+                         "source":  "Hacker News",
+                         "id":  48611513,
+                         "type":  "story",
+                         "by":  "overflowy",
+                         "time":  1781979478,
+                         "score":  19,
+                         "title":  "Show HN: Make PDFs look scanned (CLI or in the browser via WASM)",
+                         "descendants":  9
+                     },
+                     {
+                         "url":  "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+                         "source":  "Hacker News",
+                         "id":  48611411,
+                         "type":  "story",
+                         "by":  "ridesisapis",
+                         "time":  1781978731,
+                         "score":  219,
+                         "title":  "The Wholesale Plagiarism of Obscure Sorrows",
+                         "descendants":  79
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48611303,
+                         "type":  "story",
+                         "by":  "ciwolex",
+                         "time":  1781977927,
+                         "score":  35,
+                         "title":  "Ask HN: Due to spam on GitHub, what platforms can I move my projects?",
+                         "descendants":  39
+                     },
+                     {
+                         "url":  "https://www.sciencedaily.com/releases/2026/06/260617032207.htm",
+                         "source":  "Hacker News",
+                         "id":  48611083,
+                         "type":  "story",
+                         "by":  "nryoo",
+                         "time":  1781976456,
+                         "score":  67,
+                         "title":  "The ability to regrow body parts is dormant in mammals, not lost",
+                         "descendants":  32
+                     },
+                     {
+                         "url":  "https://www.lispm.net/apps/uhf-x11/",
+                         "source":  "Hacker News",
+                         "id":  48610853,
+                         "type":  "story",
+                         "by":  "zdw",
+                         "time":  1781975064,
+                         "score":  70,
+                         "title":  "UHF X11: X11 Built for VisionOS and Apple Vision Pro",
+                         "descendants":  9
+                     },
+                     {
+                         "url":  "https://github.com/oven-sh/WebKit/pull/249",
+                         "source":  "Hacker News",
+                         "id":  48610841,
+                         "type":  "story",
+                         "by":  "gr4vityWall",
+                         "time":  1781974969,
+                         "score":  59,
+                         "title":  "Bun has an open PR adding shared-memory threads to JavaScriptCore",
+                         "descendants":  64
+                     },
+                     {
+                         "url":  "https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community",
+                         "source":  "Hacker News",
+                         "id":  48610827,
+                         "type":  "story",
+                         "by":  "zdw",
+                         "time":  1781974896,
+                         "score":  105,
+                         "title":  "SMPTE Makes Its Standards Freely Accessible",
+                         "descendants":  40
+                     },
+                     {
+                         "url":  "https://github.com/DatanoiseTV/ember-hackernews",
+                         "source":  "Hacker News",
+                         "id":  48610816,
+                         "type":  "story",
+                         "by":  "sylwester",
+                         "time":  1781974838,
+                         "score":  61,
+                         "title":  "Ember, a native iOS Hacker News reader I built around accessibility",
+                         "descendants":  13
+                     },
+                     {
+                         "url":  "https://startupwiki.tech/",
+                         "source":  "Hacker News",
+                         "id":  48610224,
+                         "type":  "story",
+                         "by":  "shpran",
+                         "time":  1781971169,
+                         "score":  78,
+                         "title":  "Show HN: StartupWiki – A Free Alternative to Crunchbase",
+                         "descendants":  24
+                     },
+                     {
+                         "url":  "https://neuviemeporte.github.io/f15-se2/2026/06/20/needyou.html",
+                         "source":  "Hacker News",
+                         "id":  48609766,
+                         "type":  "story",
+                         "by":  "LowLevelMahn",
+                         "time":  1781968203,
+                         "score":  113,
+                         "title":  "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+                         "descendants":  30
+                     },
+                     {
+                         "url":  "https://vawaa.com/",
+                         "source":  "Hacker News",
+                         "id":  48609553,
+                         "type":  "story",
+                         "by":  "karakoram",
+                         "time":  1781966412,
+                         "score":  43,
+                         "title":  "Vacation With An Artist – Mini-Apprenticeships with Artists in Their Studios",
+                         "descendants":  4
+                     },
+                     {
+                         "url":  "https://vale.rocks/posts/pda-browsers",
+                         "source":  "Hacker News",
+                         "id":  48609422,
+                         "type":  "story",
+                         "by":  "robin_reala",
+                         "time":  1781965247,
+                         "score":  34,
+                         "title":  "Web Browsers on PDAS",
+                         "descendants":  11
+                     },
+                     {
+                         "url":  "https://www.birminghammail.co.uk/news/midlands-news/vpn-ban-update-uk-households-34141063",
+                         "source":  "Hacker News",
+                         "id":  48609385,
+                         "type":  "story",
+                         "by":  "iamnothere",
+                         "time":  1781964875,
+                         "score":  238,
+                         "title":  "VPN ban update for UK households as government looks at \u0027age-gate\u0027",
+                         "descendants":  246
+                     },
+                     {
+                         "url":  "https://www.extremetech.com/computing/windows-11s-new-media-player-uses-35x-more-ram-charges-for-popular-video",
+                         "source":  "Hacker News",
+                         "id":  48609343,
+                         "type":  "story",
+                         "by":  "tcp_handshaker",
+                         "time":  1781964510,
+                         "score":  170,
+                         "title":  "Windows 11 New Media Player Uses 3.5x More RAM, Charges for Popular Video Codecs",
+                         "descendants":  86
+                     },
+                     {
+                         "url":  "https://www.argusred.com/cli",
+                         "source":  "Hacker News",
+                         "id":  48609231,
+                         "type":  "story",
+                         "by":  "dk189",
+                         "time":  1781963343,
+                         "score":  36,
+                         "title":  "Show HN: We post-trained a model that pen tests instead of refusing",
+                         "descendants":  15
+                     },
+                     {
+                         "url":  "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+                         "source":  "Hacker News",
+                         "id":  48609194,
+                         "type":  "story",
+                         "by":  "Brajeshwar",
+                         "time":  1781963079,
+                         "score":  121,
+                         "title":  "From PGP to Mythos: a brief history of export controls that didn\u0027t stop anyone",
+                         "descendants":  58
+                     },
+                     {
+                         "url":  "https://www.politico.com/news/magazine/2026/06/20/south-korea-weapons-dealer-trump-00959559",
+                         "source":  "Hacker News",
+                         "id":  48608515,
+                         "type":  "story",
+                         "by":  "JumpCrisscross",
+                         "time":  1781955892,
+                         "score":  27,
+                         "title":  "The rise of South Korea’s weapons business",
+                         "descendants":  9
+                     },
+                     {
+                         "url":  "https://blog.cloudflare.com/temporary-accounts/",
+                         "source":  "Hacker News",
+                         "id":  48608394,
+                         "type":  "story",
+                         "by":  "farhadhf",
+                         "time":  1781954345,
+                         "score":  96,
+                         "title":  "Temporary Cloudflare accounts for AI agents",
+                         "descendants":  70
+                     },
+                     {
+                         "url":  "https://bootimus.com",
+                         "source":  "Hacker News",
+                         "id":  48608255,
+                         "type":  "story",
+                         "by":  "car",
+                         "time":  1781952918,
+                         "score":  89,
+                         "title":  "Bootimus – A Self-Contained PXE and HTTP Boot Server",
+                         "descendants":  33
+                     },
+                     {
+                         "url":  "https://cssquake.com/",
+                         "source":  "Hacker News",
+                         "id":  48608223,
+                         "type":  "story",
+                         "by":  "msalsas",
+                         "time":  1781952593,
+                         "score":  378,
+                         "title":  "CSSQuake",
+                         "descendants":  83
+                     },
+                     {
+                         "url":  "https://www.timwehrle.de/blog/i-stored-a-website-in-a-favicon/",
+                         "source":  "Hacker News",
+                         "id":  48606619,
+                         "type":  "story",
+                         "by":  "theanonymousone",
+                         "time":  1781933639,
+                         "score":  273,
+                         "title":  "I Stored a Website in a Favicon",
+                         "descendants":  93
+                     },
+                     {
+                         "url":  "https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/",
+                         "source":  "Hacker News",
+                         "id":  48606140,
+                         "type":  "story",
+                         "by":  "moultano",
+                         "time":  1781926609,
+                         "score":  389,
+                         "title":  "Where to Find the Colors Your Screen Can\u0027t Show You",
+                         "descendants":  100
+                     },
+                     {
+                         "url":  "https://dancemagazine.com/pointe-shoe-innovation/",
+                         "source":  "Hacker News",
+                         "id":  48605310,
+                         "type":  "story",
+                         "by":  "onemind",
+                         "time":  1781918310,
+                         "score":  25,
+                         "title":  "Why has the pointe shoe been so resistant to change?",
+                         "descendants":  22
+                     },
+                     {
+                         "url":  "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/265d73a0-6bfa-45df-92ff-4e7d3f8be4b1/content",
+                         "source":  "Hacker News",
+                         "id":  48587584,
+                         "type":  "story",
+                         "by":  "jruohonen",
+                         "time":  1781798994,
+                         "score":  20,
+                         "title":  "Mencius (2016)",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://www.not-ship.com/can-you-see-three-trees/",
+                         "source":  "Hacker News",
+                         "id":  48582374,
+                         "type":  "story",
+                         "by":  "Pamar",
+                         "time":  1781770580,
+                         "score":  285,
+                         "title":  "Can you see three trees?",
+                         "descendants":  131
+                     },
+                     {
+                         "url":  "https://www.politicshome.com/news/article/now-dont-espionage-meets-magic",
+                         "source":  "Hacker News",
+                         "id":  48576217,
+                         "type":  "story",
+                         "by":  "thinkingemote",
+                         "time":  1781727357,
+                         "score":  10,
+                         "title":  "Now You Don\u0027t: When Espionage Meets Magic",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://github.com/oraziorillo/microcrad",
+                         "source":  "Hacker News",
+                         "id":  48570364,
+                         "type":  "story",
+                         "by":  "oraziorillo",
+                         "time":  1781703282,
+                         "score":  41,
+                         "title":  "Show HN: Microcrad – Micrograd Reimplemented in C",
+                         "descendants":  11
+                     }
+                 ],
+    "总量":  50,
+    "触发时间":  "2026-06-21_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 17 Jun 2026 15:00:00 +0000",
+                          "title":  "New research shows how AMIE, our medical AI, could help manage health conditions.",
+                          "description":  "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
+                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
+                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 17 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/ai-chemist-improves-reaction",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 17 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/introducing-life-sci-bench",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 18 Jun 2026 08:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/diagnose-rare-childhood-diseases",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 18 Jun 2026 17:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/chatgpt-enterprise-spend-controls",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 18 Jun 2026 11:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/preply",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-to-acquire-ona",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/academy-courses-applying-ai-at-work",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 16 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/deployment-simulation",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Sun, 14 Jun 2026 17:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/introducing-openai-partner-network",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-21 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  20,
+                 "hn":  30
+             }
+}

@@ -1,0 +1,8 @@
+﻿{"error":"The term \u0027curl.exe\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.","timestamp":"2026-06-05T12:37:38Z","fallback":"try_L2_powershell","layer":"L1_curl_exception","script":"gh-trending-v7-search-api"}
+{"error":"The term \u0027curl.exe\u0027 is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.","timestamp":"2026-06-05T12:38:54Z","fallback":"try_L2_powershell","layer":"L1_curl_exception","script":"gh-trending-v7-search-api"}
+{"error":"curl exit code 56","timestamp":"2026-06-10T17:30:18Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
+{"error":"Invalid JSON primitive: .","timestamp":"2026-06-11T23:30:13Z","fallback":"try_L2_powershell","layer":"L1_curl_exception","script":"gh-trending-v7-search-api"}
+{"error":"curl exit code 28","timestamp":"2026-06-14T16:30:27Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
+{"error":"curl exit code 28","timestamp":"2026-06-15T14:30:26Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
+{"error":"curl exit code 6","timestamp":"2026-06-20T15:49:15Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
+{"error":"The remote name could not be resolved: \u0027api.github.com\u0027","timestamp":"2026-06-20T15:49:16Z","fallback":"try_L3_empty","layer":"L2_ps_exception","script":"gh-trending-v7-search-api"}

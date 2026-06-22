@@ -1,0 +1,430 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://geohot.github.io//blog/jekyll/update/2026/06/21/the-doom-justifies-the-valuation.html",
+                         "source":  "Hacker News",
+                         "id":  48624195,
+                         "type":  "story",
+                         "by":  "inatreecrown2",
+                         "time":  1782089107,
+                         "score":  8,
+                         "title":  "The Doom Justifies the Valuation",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://status.claude.com/incidents/lv35v0q9nsj2",
+                         "source":  "Hacker News",
+                         "id":  48624153,
+                         "type":  "story",
+                         "by":  "forks",
+                         "time":  1782088730,
+                         "score":  29,
+                         "title":  "Claude: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6",
+                         "descendants":  30
+                     },
+                     {
+                         "url":  "https://mcipetition.com/",
+                         "source":  "Hacker News",
+                         "id":  48623721,
+                         "type":  "story",
+                         "by":  "reasonableklout",
+                         "time":  1782084847,
+                         "score":  11,
+                         "title":  "Petition against Meta\u0027s employee training data collection for ML models",
+                         "descendants":  3
+                     },
+                     {
+                         "url":  "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+                         "source":  "Hacker News",
+                         "id":  48623434,
+                         "type":  "story",
+                         "by":  "dev-experiments",
+                         "time":  1782082523,
+                         "score":  9,
+                         "title":  "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://underreacted.leaflet.pub/3mmevu6woys27",
+                         "source":  "Hacker News",
+                         "id":  48623419,
+                         "type":  "story",
+                         "by":  "valzevul",
+                         "time":  1782082430,
+                         "score":  27,
+                         "title":  "Simple hard way to conjugate Japanese verbs",
+                         "descendants":  20
+                     },
+                     {
+                         "url":  "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
+                         "source":  "Hacker News",
+                         "id":  48622867,
+                         "type":  "story",
+                         "by":  "advisedwang",
+                         "time":  1782078053,
+                         "score":  180,
+                         "title":  "Did my old job only exist because of fraud?",
+                         "descendants":  73
+                     },
+                     {
+                         "url":  "https://blog.plover.com/prog/fortran-i.html",
+                         "source":  "Hacker News",
+                         "id":  48622814,
+                         "type":  "story",
+                         "by":  "pavel_lishin",
+                         "time":  1782077651,
+                         "score":  3,
+                         "title":  "My 1992 view of the problems of computer programming in 1992",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/",
+                         "source":  "Hacker News",
+                         "id":  48622788,
+                         "type":  "story",
+                         "by":  "worik",
+                         "time":  1782077425,
+                         "score":  88,
+                         "title":  "FDA advisors unanimously vote to approve Moderna\u0027s mRNA after agency drama",
+                         "descendants":  47
+                     },
+                     {
+                         "url":  "https://apertvs.ai/",
+                         "source":  "Hacker News",
+                         "id":  48622778,
+                         "type":  "story",
+                         "by":  "T-A",
+                         "time":  1782077383,
+                         "score":  168,
+                         "title":  "Apertus – Open Foundation Model for Sovereign AI",
+                         "descendants":  58
+                     },
+                     {
+                         "url":  "https://powerfox.jazzzny.me/",
+                         "source":  "Hacker News",
+                         "id":  48622731,
+                         "type":  "story",
+                         "by":  "thisislife2",
+                         "time":  1782076993,
+                         "score":  61,
+                         "title":  "PowerFox Browser",
+                         "descendants":  17
+                     },
+                     {
+                         "url":  "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+                         "source":  "Hacker News",
+                         "id":  48622626,
+                         "type":  "story",
+                         "by":  "E-Reverance",
+                         "time":  1782076232,
+                         "score":  88,
+                         "title":  "Everything is logarithms",
+                         "descendants":  11
+                     },
+                     {
+                         "url":  "https://github.com/raiyanyahya/recall",
+                         "source":  "Hacker News",
+                         "id":  48622590,
+                         "type":  "story",
+                         "by":  "mateenah",
+                         "time":  1782075937,
+                         "score":  62,
+                         "title":  "Show HN: Recall – fully-local project memory for Claude Code",
+                         "descendants":  52
+                     },
+                     {
+                         "url":  "https://www.marble.onl/posts/cancel_claude.html",
+                         "source":  "Hacker News",
+                         "id":  48622518,
+                         "type":  "story",
+                         "by":  "amarble",
+                         "time":  1782075361,
+                         "score":  28,
+                         "title":  "There is minimal downside to switching to open models",
+                         "descendants":  6
+                     },
+                     {
+                         "url":  "https://www.mooreds.com/wordpress/archives/3518",
+                         "source":  "Hacker News",
+                         "id":  48622234,
+                         "type":  "story",
+                         "by":  "skogstokig",
+                         "time":  1782073068,
+                         "score":  102,
+                         "title":  "Ask for no, don\u0027t ask for yes (2022)",
+                         "descendants":  46
+                     },
+                     {
+                         "url":  "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+                         "source":  "Hacker News",
+                         "id":  48621517,
+                         "type":  "story",
+                         "by":  "ethanhawksley",
+                         "time":  1782067907,
+                         "score":  155,
+                         "title":  "JSON-LD explained for personal websites",
+                         "descendants":  39
+                     },
+                     {
+                         "url":  "https://www.ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer",
+                         "source":  "Hacker News",
+                         "id":  48620504,
+                         "type":  "job",
+                         "by":  "kaushikmahorker",
+                         "time":  1782061228,
+                         "score":  1,
+                         "title":  "Wildcard (YC W25) is hiring an applied ML engineer",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://brandur.org/minimum-viable-unit",
+                         "source":  "Hacker News",
+                         "id":  48620342,
+                         "type":  "story",
+                         "by":  "brandur",
+                         "time":  1782060081,
+                         "score":  123,
+                         "title":  "The minimum viable unit of saleable software",
+                         "descendants":  49
+                     },
+                     {
+                         "url":  "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+                         "source":  "Hacker News",
+                         "id":  48620090,
+                         "type":  "story",
+                         "by":  "rafaepta",
+                         "time":  1782058103,
+                         "score":  421,
+                         "title":  "Prefer duplication over the wrong abstraction (2016)",
+                         "descendants":  288
+                     },
+                     {
+                         "url":  "https://norvig.com/lispy.html",
+                         "source":  "Hacker News",
+                         "id":  48619831,
+                         "type":  "story",
+                         "by":  "tosh",
+                         "time":  1782056193,
+                         "score":  162,
+                         "title":  "(How to Write a (Lisp) Interpreter (In Python)) (2010)",
+                         "descendants":  55
+                     },
+                     {
+                         "url":  "https://twitter.com/MattZirwas/status/2068365802491834541",
+                         "source":  "Hacker News",
+                         "id":  48618536,
+                         "type":  "story",
+                         "by":  "MrBuddyCasino",
+                         "time":  1782046508,
+                         "score":  25,
+                         "title":  "I was wrong about the Midjourney ultra-sound scanner",
+                         "descendants":  18
+                     },
+                     {
+                         "url":  "https://github.com/paytonjjones/bsharp",
+                         "source":  "Hacker News",
+                         "id":  48618488,
+                         "type":  "story",
+                         "by":  "paytonjjones",
+                         "time":  1782046188,
+                         "score":  45,
+                         "title":  "Show HN: Teach your kids perfect pitch",
+                         "descendants":  31
+                     },
+                     {
+                         "url":  "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+                         "source":  "Hacker News",
+                         "id":  48618455,
+                         "type":  "story",
+                         "by":  "bathory",
+                         "time":  1782045853,
+                         "score":  553,
+                         "title":  "Identity verification on Claude",
+                         "descendants":  499
+                     },
+                     {
+                         "url":  "https://www.beyondallreason.info",
+                         "source":  "Hacker News",
+                         "id":  48617990,
+                         "type":  "story",
+                         "by":  "mosiuerbarso",
+                         "time":  1782041881,
+                         "score":  427,
+                         "title":  "Beyond All Reason (Free Total Annihilation Inspired RTS)",
+                         "descendants":  252
+                     },
+                     {
+                         "url":  "https://minipcs.zip",
+                         "source":  "Hacker News",
+                         "id":  48612432,
+                         "type":  "story",
+                         "by":  "yathern",
+                         "time":  1781985354,
+                         "score":  8,
+                         "title":  "Show HN: MiniPCs.zip – Charting the Pareto frontier of Mini PCs",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://the-criterion-closet.vercel.app",
+                         "source":  "Hacker News",
+                         "id":  48609054,
+                         "type":  "story",
+                         "by":  "olievans",
+                         "time":  1781961508,
+                         "score":  38,
+                         "title":  "Show HN: Criterion Closet as a website – pull any of 1,247 films off the shelf",
+                         "descendants":  10
+                     },
+                     {
+                         "url":  "https://github.com/w84death/floppinux",
+                         "source":  "Hacker News",
+                         "id":  48594090,
+                         "type":  "story",
+                         "by":  "modinfo",
+                         "time":  1781835016,
+                         "score":  58,
+                         "title":  "An Embedded Linux on a Single Floppy",
+                         "descendants":  25
+                     },
+                     {
+                         "url":  "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
+                         "source":  "Hacker News",
+                         "id":  48589687,
+                         "type":  "story",
+                         "by":  "dannyobrien",
+                         "time":  1781808303,
+                         "score":  20,
+                         "title":  "I Play Video Games with Spinal Muscular Atrophy",
+                         "descendants":  2
+                     },
+                     {
+                         "url":  "https://www.theguardian.com/society/2026/jun/17/hpv-jabs-reduce-risk-dying-cervical-cancer-before-30-zero-study-finds",
+                         "source":  "Hacker News",
+                         "id":  48579013,
+                         "type":  "story",
+                         "by":  "toomuchtodo",
+                         "time":  1781743012,
+                         "score":  135,
+                         "title":  "HPV jabs cut risk of dying from cervical cancer before 30 to almost zero",
+                         "descendants":  66
+                     },
+                     {
+                         "url":  "https://blog.minimal.app/conversion-engine/",
+                         "source":  "Hacker News",
+                         "id":  48568487,
+                         "type":  "story",
+                         "by":  "arthurofbabylon",
+                         "time":  1781693338,
+                         "score":  4,
+                         "title":  "From Combinatorial Mess to Linear Elegance: Architecting a Conversion Engine",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2",
+                         "source":  "Hacker News",
+                         "id":  48567028,
+                         "type":  "story",
+                         "by":  "ObviouslyFlamer",
+                         "time":  1781681609,
+                         "score":  46,
+                         "title":  "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2",
+                         "descendants":  10
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-22_09-04",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
+                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
+                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 17 Jun 2026 15:00:00 +0000",
+                          "title":  "New research shows how AMIE, our medical AI, could help manage health conditions.",
+                          "description":  "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-22 09:04:18",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}

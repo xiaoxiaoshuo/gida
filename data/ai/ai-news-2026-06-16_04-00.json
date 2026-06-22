@@ -1,0 +1,543 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://serialport.org/blog/the-alaska-server/",
+                         "source":  "Hacker News",
+                         "id":  48545293,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1781548647,
+                         "score":  11,
+                         "title":  "The Alaska Server",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
+                         "source":  "Hacker News",
+                         "id":  48545260,
+                         "type":  "story",
+                         "by":  "pera",
+                         "time":  1781548454,
+                         "score":  62,
+                         "title":  "Around 200 Stanford students walk out as Google CEO takes stage",
+                         "descendants":  4
+                     },
+                     {
+                         "url":  "https://forgottenbytes.net/commander_keen.html",
+                         "source":  "Hacker News",
+                         "id":  48544781,
+                         "type":  "story",
+                         "by":  "mfiguiere",
+                         "time":  1781545959,
+                         "score":  61,
+                         "title":  "Game Engine White Papers Commander Keen",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://www.anthropic.com/news/claude-corps",
+                         "source":  "Hacker News",
+                         "id":  48544637,
+                         "type":  "story",
+                         "by":  "Mustan",
+                         "time":  1781545284,
+                         "score":  42,
+                         "title":  "Claude Corps",
+                         "descendants":  36
+                     },
+                     {
+                         "url":  "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
+                         "source":  "Hacker News",
+                         "id":  48544451,
+                         "type":  "story",
+                         "by":  "lkanwoqwp",
+                         "time":  1781544557,
+                         "score":  65,
+                         "title":  "How TimescaleDB compresses time-series data",
+                         "descendants":  6
+                     },
+                     {
+                         "url":  "https://typst.app/docs/changelog/0.15.0/",
+                         "source":  "Hacker News",
+                         "id":  48544396,
+                         "type":  "story",
+                         "by":  "schu",
+                         "time":  1781544257,
+                         "score":  151,
+                         "title":  "Typst 0.15.0",
+                         "descendants":  24
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48543908,
+                         "type":  "story",
+                         "by":  "PrimalNick",
+                         "time":  1781542041,
+                         "score":  27,
+                         "title":  "Launch HN: Drafted (YC P26) – Models for residential architecture",
+                         "descendants":  27
+                     },
+                     {
+                         "url":  "https://tinywind.io",
+                         "source":  "Hacker News",
+                         "id":  48543475,
+                         "type":  "story",
+                         "by":  "tinywind",
+                         "time":  1781540153,
+                         "score":  348,
+                         "title":  "TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+                         "descendants":  72
+                     },
+                     {
+                         "url":  "https://nick.zoic.org/art/boot-naked-linux/",
+                         "source":  "Hacker News",
+                         "id":  48543269,
+                         "type":  "story",
+                         "by":  "abnercoimbre",
+                         "time":  1781539406,
+                         "score":  49,
+                         "title":  "Boot Naked Linux",
+                         "descendants":  23
+                     },
+                     {
+                         "url":  "https://machine0.io",
+                         "source":  "Hacker News",
+                         "id":  48543245,
+                         "type":  "story",
+                         "by":  "bwm",
+                         "time":  1781539303,
+                         "score":  50,
+                         "title":  "Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+                         "descendants":  18
+                     },
+                     {
+                         "url":  "https://v1c.rocks/log/exploiting-slack-video/",
+                         "source":  "Hacker News",
+                         "id":  48542970,
+                         "type":  "story",
+                         "by":  "victorio",
+                         "time":  1781538197,
+                         "score":  22,
+                         "title":  "Show HN: Exploiting Slack\u0027s video embeds to achieve E2EE communication",
+                         "descendants":  2
+                     },
+                     {
+                         "url":  "https://www.iroh.computer/blog/v1",
+                         "source":  "Hacker News",
+                         "id":  48542480,
+                         "type":  "story",
+                         "by":  "chadfowler",
+                         "time":  1781536386,
+                         "score":  682,
+                         "title":  "Iroh 1.0",
+                         "descendants":  222
+                     },
+                     {
+                         "url":  "https://rsgm.dev/post/ai-dev-platform/",
+                         "source":  "Hacker News",
+                         "id":  48542433,
+                         "type":  "story",
+                         "by":  "rsgm",
+                         "time":  1781536180,
+                         "score":  150,
+                         "title":  "My Homelab AI Dev Platform",
+                         "descendants":  33
+                     },
+                     {
+                         "url":  "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+                         "source":  "Hacker News",
+                         "id":  48542132,
+                         "type":  "story",
+                         "by":  "bookofjoe",
+                         "time":  1781534927,
+                         "score":  182,
+                         "title":  "Copper transport drug restores memory and clears toxic Alzheimer\u0027s proteins",
+                         "descendants":  68
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48542100,
+                         "type":  "story",
+                         "by":  "cloudking",
+                         "time":  1781534813,
+                         "score":  318,
+                         "title":  "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+                         "descendants":  200
+                     },
+                     {
+                         "url":  "https://github.com/sammysltd/euromesh",
+                         "source":  "Hacker News",
+                         "id":  48541014,
+                         "type":  "story",
+                         "by":  "smashini",
+                         "time":  1781530269,
+                         "score":  85,
+                         "title":  "Can Europe train a frontier AI model on the compute it owns?",
+                         "descendants":  109
+                     },
+                     {
+                         "url":  "https://crankgpt.com",
+                         "source":  "Hacker News",
+                         "id":  48540854,
+                         "type":  "story",
+                         "by":  "rishikeshs",
+                         "time":  1781529613,
+                         "score":  495,
+                         "title":  "CrankGPT",
+                         "descendants":  202
+                     },
+                     {
+                         "url":  "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers",
+                         "source":  "Hacker News",
+                         "id":  48540844,
+                         "type":  "story",
+                         "by":  "tuhtah",
+                         "time":  1781529579,
+                         "score":  191,
+                         "title":  "Hetzner Price Adjustment",
+                         "descendants":  307
+                     },
+                     {
+                         "url":  "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+                         "source":  "Hacker News",
+                         "id":  48540499,
+                         "type":  "story",
+                         "by":  "thm",
+                         "time":  1781527803,
+                         "score":  198,
+                         "title":  "Fox to buy Roku",
+                         "descendants":  274
+                     },
+                     {
+                         "url":  "https://openrouter.ai/openrouter/fusion",
+                         "source":  "Hacker News",
+                         "id":  48537641,
+                         "type":  "story",
+                         "by":  "tdchaitanya",
+                         "time":  1781507457,
+                         "score":  180,
+                         "title":  "Openrouter Fusion API",
+                         "descendants":  70
+                     },
+                     {
+                         "url":  "https://www.ycombinator.com/companies/dalus/jobs/5IDmKJt-senior-software-frontend-engineer-germany-office",
+                         "source":  "Hacker News",
+                         "id":  48537556,
+                         "type":  "job",
+                         "by":  "sebastianvoelkl",
+                         "time":  1781506822,
+                         "score":  1,
+                         "title":  "Dalus (YC W25) Is Hiring a Senior Software Engineer in Germany",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+                         "source":  "Hacker News",
+                         "id":  48537512,
+                         "type":  "story",
+                         "by":  "cl3misch",
+                         "time":  1781506341,
+                         "score":  176,
+                         "title":  "Improvement in advanced Alzheimer’s disease following high-dose psilocybin",
+                         "descendants":  125
+                     },
+                     {
+                         "url":  "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models",
+                         "source":  "Hacker News",
+                         "id":  48536776,
+                         "type":  "story",
+                         "by":  "MehrdadKhnzd",
+                         "time":  1781499334,
+                         "score":  430,
+                         "title":  "Apple Foundation Models",
+                         "descendants":  203
+                     },
+                     {
+                         "url":  "https://karthinks.com/software/even-more-batteries-included-with-emacs/",
+                         "source":  "Hacker News",
+                         "id":  48535886,
+                         "type":  "story",
+                         "by":  "signa11",
+                         "time":  1781490625,
+                         "score":  331,
+                         "title":  "Even more batteries included with Emacs",
+                         "descendants":  119
+                     },
+                     {
+                         "url":  "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/",
+                         "source":  "Hacker News",
+                         "id":  48533848,
+                         "type":  "story",
+                         "by":  "sohkamyung",
+                         "time":  1781477695,
+                         "score":  850,
+                         "title":  "Your ePub Is fine",
+                         "descendants":  288
+                     },
+                     {
+                         "url":  "https://maurycyz.com/projects/glass/1/",
+                         "source":  "Hacker News",
+                         "id":  48528587,
+                         "type":  "story",
+                         "by":  "zdw",
+                         "time":  1781452329,
+                         "score":  98,
+                         "title":  "Making glass-to-metal seals for home­made vacuum tubes",
+                         "descendants":  28
+                     },
+                     {
+                         "url":  "http://ernesernesto.github.io/writes/portingmatchmorphosistowasm/",
+                         "source":  "Hacker News",
+                         "id":  48506980,
+                         "type":  "story",
+                         "by":  "birdculture",
+                         "time":  1781285457,
+                         "score":  96,
+                         "title":  "Ported my C game to WASM, here\u0027s every bug that I hit",
+                         "descendants":  78
+                     },
+                     {
+                         "url":  "https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/",
+                         "source":  "Hacker News",
+                         "id":  48503509,
+                         "type":  "story",
+                         "by":  "ledoge",
+                         "time":  1781268769,
+                         "score":  25,
+                         "title":  "Factoring \"short-sleeve\" RSA keys with polynomials",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://fata.dev",
+                         "source":  "Hacker News",
+                         "id":  48489163,
+                         "type":  "story",
+                         "by":  "djoume",
+                         "time":  1781179023,
+                         "score":  42,
+                         "title":  "Show HN: Fata – Spaced repetition to fight skill rot from AI coding",
+                         "descendants":  20
+                     },
+                     {
+                         "url":  "https://www.smithsonianmag.com/smart-news/these-italian-teenagers-stayed-overnight-at-their-school-they-found-ancient-roman-ruins-hidden-in-the-basement-180988917/",
+                         "source":  "Hacker News",
+                         "id":  48485527,
+                         "type":  "story",
+                         "by":  "thunderbong",
+                         "time":  1781144526,
+                         "score":  154,
+                         "title":  "Teenagers Stayed Overnight at Their School and Found Hidden Ancient Roman Ruins",
+                         "descendants":  74
+                     }
+                 ],
+    "总量":  50,
+    "触发时间":  "2026-06-16_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
+                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
+                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/bbva",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/using-codex-to-simulate-black-holes",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/preply",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Sun, 14 Jun 2026 17:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/introducing-openai-partner-network",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/academy-courses-applying-ai-at-work",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/lseg",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 20:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-on-oracle-cloud",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-to-acquire-ona",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-16 04:00:02",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  20,
+                 "hn":  30
+             }
+}

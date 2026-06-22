@@ -1,0 +1,455 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://www.githubstatus.com/incidents/2nmfnbknhlnv",
+                         "source":  "Hacker News",
+                         "id":  48416936,
+                         "type":  "story",
+                         "by":  "SparkyDogs",
+                         "time":  1780686936,
+                         "score":  67,
+                         "title":  "Accidentally deleted subscriptions for chat integrations (Slack and MS Teams)",
+                         "descendants":  21
+                     },
+                     {
+                         "url":  "https://twitter.com/eastdakota/status/2062860530360959273",
+                         "source":  "Hacker News",
+                         "id":  48416845,
+                         "type":  "story",
+                         "by":  "orgonon",
+                         "time":  1780686492,
+                         "score":  13,
+                         "title":  "Three of our worst VC stories",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://openreview.net/pdf?id=Yxz92UuPLQ",
+                         "source":  "Hacker News",
+                         "id":  48416635,
+                         "type":  "story",
+                         "by":  "brandonb",
+                         "time":  1780685426,
+                         "score":  16,
+                         "title":  "Transformers Are Inherently Succinct",
+                         "descendants":  3
+                     },
+                     {
+                         "url":  "https://sakana.ai/rsi-lab/",
+                         "source":  "Hacker News",
+                         "id":  48415633,
+                         "type":  "story",
+                         "by":  "hardmaru",
+                         "time":  1780680459,
+                         "score":  22,
+                         "title":  "Sakana AI\u0027s Recursive Self-Improvement (RSI) Lab",
+                         "descendants":  14
+                     },
+                     {
+                         "url":  "https://www.theregister.com/public-sector/2026/06/04/govuk-goes-dutch-on-payments-as-it-dumps-stripe/5250763",
+                         "source":  "Hacker News",
+                         "id":  48415217,
+                         "type":  "story",
+                         "by":  "toomuchtodo",
+                         "time":  1780678530,
+                         "score":  150,
+                         "title":  "Gov.uk has replaced Stripe with Dutch provider Adyen",
+                         "descendants":  37
+                     },
+                     {
+                         "url":  "https://github.com/icflorescu/mantine-datatable/discussions/813",
+                         "source":  "Hacker News",
+                         "id":  48414978,
+                         "type":  "story",
+                         "by":  "justsomehuman",
+                         "time":  1780677597,
+                         "score":  46,
+                         "title":  "Mantine-datatable (and others) compromised – owner account suspended",
+                         "descendants":  14
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48414869,
+                         "type":  "story",
+                         "by":  "guanming0717",
+                         "time":  1780677180,
+                         "score":  27,
+                         "title":  "Launch HN: General Instinct (YC P26) – Frontier models on edge devices",
+                         "descendants":  10
+                     },
+                     {
+                         "url":  "https://superlemon.bearblog.dev/the-company-i-work-for-is-losing-all-of-its-humanity-but-i-dont-know-where-else-to-go/",
+                         "source":  "Hacker News",
+                         "id":  48414862,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1780677158,
+                         "score":  16,
+                         "title":  "The company I work for is losing all of its humanity, I don\u0027t know where to go",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+                         "source":  "Hacker News",
+                         "id":  48414653,
+                         "type":  "story",
+                         "by":  "theanonymousone",
+                         "time":  1780676328,
+                         "score":  152,
+                         "title":  "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+                         "descendants":  28
+                     },
+                     {
+                         "url":  "https://github.com/microsoft/pg_durable",
+                         "source":  "Hacker News",
+                         "id":  48414367,
+                         "type":  "story",
+                         "by":  "coffeemug",
+                         "time":  1780675197,
+                         "score":  198,
+                         "title":  "pg_durable: Microsoft open sources in-database durable execution",
+                         "descendants":  42
+                     },
+                     {
+                         "url":  "https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/",
+                         "source":  "Hacker News",
+                         "id":  48414027,
+                         "type":  "story",
+                         "by":  "jsve",
+                         "time":  1780673978,
+                         "score":  186,
+                         "title":  "Conventional Commits encourages focus on the wrong things",
+                         "descendants":  138
+                     },
+                     {
+                         "url":  "https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/",
+                         "source":  "Hacker News",
+                         "id":  48413500,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1780671843,
+                         "score":  93,
+                         "title":  "New method turns ocean water into drinking water, without waste",
+                         "descendants":  46
+                     },
+                     {
+                         "url":  "https://www.bbc.com/news/live/c4g44ew3g1kt",
+                         "source":  "Hacker News",
+                         "id":  48413464,
+                         "type":  "story",
+                         "by":  "janpot",
+                         "time":  1780671631,
+                         "score":  284,
+                         "title":  "Astronauts told to return to ISS after sheltering over air leak repairs",
+                         "descendants":  185
+                     },
+                     {
+                         "url":  "https://nltimes.nl/2026/06/05/dutch-govt-will-allow-european-company-operate-digid-platform",
+                         "source":  "Hacker News",
+                         "id":  48413295,
+                         "type":  "story",
+                         "by":  "TechTechTech",
+                         "time":  1780670924,
+                         "score":  195,
+                         "title":  "Dutch gov\u0027t will only allow European company to operate DigiD platform",
+                         "descendants":  64
+                     },
+                     {
+                         "url":  "https://www.economist.com/leaders/2026/06/04/indias-surprise-baby-bust-is-a-warning-to-the-world",
+                         "source":  "Hacker News",
+                         "id":  48413254,
+                         "type":  "story",
+                         "by":  "hakonbogen",
+                         "time":  1780670684,
+                         "score":  60,
+                         "title":  "India\u0027s surprise baby bust",
+                         "descendants":  291
+                     },
+                     {
+                         "url":  "https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/",
+                         "source":  "Hacker News",
+                         "id":  48413072,
+                         "type":  "story",
+                         "by":  "vquemener",
+                         "time":  1780669850,
+                         "score":  165,
+                         "title":  "I tested every IP KVM in my Homelab",
+                         "descendants":  47
+                     },
+                     {
+                         "url":  "https://alexispurslane.github.io/rsync-analysis/",
+                         "source":  "Hacker News",
+                         "id":  48411635,
+                         "type":  "story",
+                         "by":  "logicprog",
+                         "time":  1780663413,
+                         "score":  141,
+                         "title":  "Did Claude increase bugs in rsync?",
+                         "descendants":  142
+                     },
+                     {
+                         "url":  "https://nango.dev/careers",
+                         "source":  "Hacker News",
+                         "id":  48411227,
+                         "type":  "job",
+                         "by":  "bastienbeurier",
+                         "time":  1780660818,
+                         "score":  1,
+                         "title":  "Nango (YC W23, dev infra) is hiring staff back end engineers",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://github.com/zdk/lowfat",
+                         "source":  "Hacker News",
+                         "id":  48409955,
+                         "type":  "story",
+                         "by":  "zdkaster",
+                         "time":  1780650642,
+                         "score":  73,
+                         "title":  "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+                         "descendants":  45
+                     },
+                     {
+                         "url":  "https://www.quantamagazine.org/entanglement-builds-space-time-now-magic-gives-it-gravity-20260603/",
+                         "source":  "Hacker News",
+                         "id":  48409675,
+                         "type":  "story",
+                         "by":  "rbanffy",
+                         "time":  1780648417,
+                         "score":  148,
+                         "title":  "Entanglement Builds Space-Time. Now \"Magic\" Gives It Gravity",
+                         "descendants":  143
+                     },
+                     {
+                         "url":  "https://arxiv.org/abs/2606.03673",
+                         "source":  "Hacker News",
+                         "id":  48409664,
+                         "type":  "story",
+                         "by":  "mimorigasaka",
+                         "time":  1780648336,
+                         "score":  321,
+                         "title":  "Tracing a powerful GNSS interference source over Europe",
+                         "descendants":  172
+                     },
+                     {
+                         "url":  "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+                         "source":  "Hacker News",
+                         "id":  48409191,
+                         "type":  "story",
+                         "by":  "EdwinHoksberg",
+                         "time":  1780644393,
+                         "score":  752,
+                         "title":  "Changing how we develop Ladybird",
+                         "descendants":  490
+                     },
+                     {
+                         "url":  "https://herbsutter.com/2026/06/04/c-the-documentary-released-today/",
+                         "source":  "Hacker News",
+                         "id":  48408016,
+                         "type":  "story",
+                         "by":  "ingve",
+                         "time":  1780634221,
+                         "score":  330,
+                         "title":  "C++: The Documentary",
+                         "descendants":  243
+                     },
+                     {
+                         "url":  "https://arnorhs.dev/posts/2026-06-04/maybe-later-was-a-feature/",
+                         "source":  "Hacker News",
+                         "id":  48402744,
+                         "type":  "story",
+                         "by":  "arnorhs",
+                         "time":  1780597915,
+                         "score":  22,
+                         "title":  "\"Maybe later\" was a feature",
+                         "descendants":  3
+                     },
+                     {
+                         "url":  "https://justinjackson.ca/hard-thing",
+                         "source":  "Hacker News",
+                         "id":  48400653,
+                         "type":  "story",
+                         "by":  "levhawk",
+                         "time":  1780589241,
+                         "score":  38,
+                         "title":  "Do the Hardest Thing",
+                         "descendants":  16
+                     },
+                     {
+                         "url":  "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+                         "source":  "Hacker News",
+                         "id":  48398925,
+                         "type":  "story",
+                         "by":  "laxmena",
+                         "time":  1780582240,
+                         "score":  37,
+                         "title":  "My Agent Skill for Test-Driven Development",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://fremaconsulting.ch/blog/faiss",
+                         "source":  "Hacker News",
+                         "id":  48398689,
+                         "type":  "story",
+                         "by":  "tohms",
+                         "time":  1780581268,
+                         "score":  15,
+                         "title":  "Inside FAISS: Billion-Scale Similarity Search",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://mouseless.click",
+                         "source":  "Hacker News",
+                         "id":  48383667,
+                         "type":  "story",
+                         "by":  "riddley",
+                         "time":  1780492926,
+                         "score":  349,
+                         "title":  "Mouseless – keyboard-driven control of macOS/Linux/Windows",
+                         "descendants":  163
+                     },
+                     {
+                         "url":  "https://redis.io/blog/announcing-redis-8-8/",
+                         "source":  "Hacker News",
+                         "id":  48382047,
+                         "type":  "story",
+                         "by":  "ksec",
+                         "time":  1780481111,
+                         "score":  180,
+                         "title":  "Redis 8.8: New array data structure, rate limiter, performance improvements",
+                         "descendants":  82
+                     },
+                     {
+                         "url":  "https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html",
+                         "source":  "Hacker News",
+                         "id":  48380174,
+                         "type":  "story",
+                         "by":  "calyhre",
+                         "time":  1780463709,
+                         "score":  124,
+                         "title":  "Cooldown Support for Ruby Bundler",
+                         "descendants":  29
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-06_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/frontier-safety-blueprint",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/public-policy-agenda",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/travelers",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 07:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 02 Jun 2026 09:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/codex-for-every-role-tool-workflow",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 09:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/chatgpt-memory-dreaming",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/endava-frontiers",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 04 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/biodefense-in-the-intelligence-age",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/wasmer",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:15:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-06 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}

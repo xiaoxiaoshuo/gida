@@ -1,2 +1,46 @@
 ﻿{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-05T12:20:59Z","layer":"RSS_Anthropic","date_param":"2026-06-05_12-20"}
 {"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-05T12:21:02Z","layer":"RSS_DeepSeek","date_param":"2026-06-05_12-20"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-06T04:00:19Z","layer":"RSS_Anthropic","date_param":"2026-06-06_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-06T04:00:35Z","layer":"RSS_GoogleAI","date_param":"2026-06-06_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-06T04:00:37Z","layer":"RSS_DeepSeek","date_param":"2026-06-06_04-00"}
+{"status":"fail","error":"The operation has timed out.","timestamp":"2026-06-07T04:00:17Z","layer":"HN_topstories","date_param":"2026-06-07_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-07T04:00:26Z","layer":"RSS_Anthropic","date_param":"2026-06-07_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-07T04:00:41Z","layer":"RSS_GoogleAI","date_param":"2026-06-07_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-07T04:00:43Z","layer":"RSS_DeepSeek","date_param":"2026-06-07_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-08T04:00:26Z","layer":"RSS_OpenAI","date_param":"2026-06-08_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-08T04:00:31Z","layer":"RSS_Anthropic","date_param":"2026-06-08_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-08T04:00:34Z","layer":"RSS_DeepSeek","date_param":"2026-06-08_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-09T04:00:26Z","layer":"RSS_OpenAI","date_param":"2026-06-09_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-09T04:00:33Z","layer":"RSS_Anthropic","date_param":"2026-06-09_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-09T04:00:36Z","layer":"RSS_DeepSeek","date_param":"2026-06-09_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-10T04:00:23Z","layer":"RSS_Anthropic","date_param":"2026-06-10_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-10T04:00:26Z","layer":"RSS_DeepSeek","date_param":"2026-06-10_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-11T04:00:23Z","layer":"RSS_Anthropic","date_param":"2026-06-11_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-11T04:00:27Z","layer":"RSS_DeepSeek","date_param":"2026-06-11_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-12T04:00:21Z","layer":"RSS_Anthropic","date_param":"2026-06-12_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-12T04:00:23Z","layer":"RSS_DeepSeek","date_param":"2026-06-12_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-13T04:00:19Z","layer":"RSS_Anthropic","date_param":"2026-06-13_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-13T04:00:21Z","layer":"RSS_DeepSeek","date_param":"2026-06-13_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-14T04:00:15Z","layer":"RSS_Anthropic","date_param":"2026-06-14_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-14T04:00:18Z","layer":"RSS_DeepSeek","date_param":"2026-06-14_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-15T04:00:21Z","layer":"RSS_Anthropic","date_param":"2026-06-15_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-15T04:00:23Z","layer":"RSS_DeepSeek","date_param":"2026-06-15_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-16T04:00:19Z","layer":"RSS_Anthropic","date_param":"2026-06-16_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-16T04:00:21Z","layer":"RSS_DeepSeek","date_param":"2026-06-16_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-17T04:00:28Z","layer":"RSS_OpenAI","date_param":"2026-06-17_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-17T04:00:34Z","layer":"RSS_Anthropic","date_param":"2026-06-17_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-17T04:00:38Z","layer":"RSS_DeepSeek","date_param":"2026-06-17_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-18T04:00:25Z","layer":"RSS_OpenAI","date_param":"2026-06-18_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-18T04:00:29Z","layer":"RSS_Anthropic","date_param":"2026-06-18_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-18T04:00:32Z","layer":"RSS_DeepSeek","date_param":"2026-06-18_04-00"}
+{"status":"fail","error":"The remote name could not be resolved: \u0027hacker-news.firebaseio.com\u0027","timestamp":"2026-06-20T15:49:15Z","layer":"HN_topstories","date_param":"2026-06-20_15-49"}
+{"status":"partial","error":"The remote name could not be resolved: \u0027openai.com\u0027","timestamp":"2026-06-20T15:49:15Z","layer":"RSS_OpenAI","date_param":"2026-06-20_15-49"}
+{"status":"partial","error":"The remote name could not be resolved: \u0027www.anthropic.com\u0027","timestamp":"2026-06-20T15:49:16Z","layer":"RSS_Anthropic","date_param":"2026-06-20_15-49"}
+{"status":"partial","error":"The remote name could not be resolved: \u0027blog.google\u0027","timestamp":"2026-06-20T15:49:16Z","layer":"RSS_GoogleAI","date_param":"2026-06-20_15-49"}
+{"status":"partial","error":"The remote name could not be resolved: \u0027api-docs.deepseek.com\u0027","timestamp":"2026-06-20T15:49:17Z","layer":"RSS_DeepSeek","date_param":"2026-06-20_15-49"}
+{"status":"fail","error":"HN + RSS 全部失败","timestamp":"2026-06-20T15:49:17Z","layer":"main_all","date_param":"2026-06-20_15-49"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-21T04:00:24Z","layer":"RSS_Anthropic","date_param":"2026-06-21_04-00"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-21T04:00:27Z","layer":"RSS_DeepSeek","date_param":"2026-06-21_04-00"}
+{"status":"partial","error":"The operation has timed out.","timestamp":"2026-06-22T09:04:43Z","layer":"RSS_OpenAI","date_param":"2026-06-22_09-04"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-22T09:04:45Z","layer":"RSS_Anthropic","date_param":"2026-06-22_09-04"}
+{"status":"partial","error":"远程服务器返回错误: (404) 未找到。","timestamp":"2026-06-22T09:04:47Z","layer":"RSS_DeepSeek","date_param":"2026-06-22_09-04"}

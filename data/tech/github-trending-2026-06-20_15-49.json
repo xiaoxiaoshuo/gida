@@ -1,0 +1,10 @@
+﻿{
+    "collected_at":  "2026-06-20 15:49:16",
+    "source":  "gh-trending-v7-search-api (all layers failed)",
+    "date":  "2026-06-20_15-49",
+    "total":  0,
+    "repos":  [
+
+              ],
+    "note":  "v7 全部 3 层失败, 见 data/system/gh-trending-v7-errors.jsonl"
+}

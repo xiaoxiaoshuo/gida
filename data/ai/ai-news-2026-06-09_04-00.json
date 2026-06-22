@@ -1,0 +1,436 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+                         "source":  "Hacker News",
+                         "id":  48450142,
+                         "type":  "story",
+                         "by":  "unclefuzzy",
+                         "time":  1780946087,
+                         "score":  32,
+                         "title":  "Apple reveals new AI architecture built around Google Gemini models",
+                         "descendants":  2
+                     },
+                     {
+                         "url":  "https://burrito.bio/essays/what-limits-a-cells-size",
+                         "source":  "Hacker News",
+                         "id":  48450065,
+                         "type":  "story",
+                         "by":  "mailyk",
+                         "time":  1780945827,
+                         "score":  24,
+                         "title":  "Why are cells small?",
+                         "descendants":  10
+                     },
+                     {
+                         "url":  "https://www.admin.ch/en/sustainability-initiative",
+                         "source":  "Hacker News",
+                         "id":  48450059,
+                         "type":  "story",
+                         "by":  "napolux",
+                         "time":  1780945788,
+                         "score":  64,
+                         "title":  "Switzerland wil have a referendum to cap population at 10M",
+                         "descendants":  96
+                     },
+                     {
+                         "url":  "https://www.apple.com/apple-intelligence/",
+                         "source":  "Hacker News",
+                         "id":  48449084,
+                         "type":  "story",
+                         "by":  "0xedb",
+                         "time":  1780942673,
+                         "score":  125,
+                         "title":  "Siri AI",
+                         "descendants":  115
+                     },
+                     {
+                         "url":  "https://siraben.github.io/ti84p-re/",
+                         "source":  "Hacker News",
+                         "id":  48448493,
+                         "type":  "story",
+                         "by":  "siraben",
+                         "time":  1780940493,
+                         "score":  83,
+                         "title":  "Full Reverse Engineering of the TI-84 Plus Operating System",
+                         "descendants":  11
+                     },
+                     {
+                         "url":  "https://thefoggiest.dev/2026/06/04/thunderbird-littering-my-home",
+                         "source":  "Hacker News",
+                         "id":  48448357,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1780939894,
+                         "score":  44,
+                         "title":  "Thunderbird Littering My Home",
+                         "descendants":  27
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48448313,
+                         "type":  "story",
+                         "by":  "mdni007",
+                         "time":  1780939709,
+                         "score":  15,
+                         "title":  "Ask HN: Why hasn\u0027t there been a real competitor to Ticketmaster yet?",
+                         "descendants":  14
+                     },
+                     {
+                         "url":  "https://www.apple.com/apple-events/event-stream/",
+                         "source":  "Hacker News",
+                         "id":  48448106,
+                         "type":  "story",
+                         "by":  "nextstep",
+                         "time":  1780938864,
+                         "score":  173,
+                         "title":  "Apple WWDC 2026 Livestream",
+                         "descendants":  344
+                     },
+                     {
+                         "url":  "https://techcrunch.com/2026/06/08/massachusetts-votes-to-pass-new-privacy-rights-bill-that-bans-sale-of-precise-location-data/",
+                         "source":  "Hacker News",
+                         "id":  48448012,
+                         "type":  "story",
+                         "by":  "01-_-",
+                         "time":  1780938453,
+                         "score":  118,
+                         "title":  "Massachusetts bans sale of precise location data in new privacy rights bill",
+                         "descendants":  20
+                     },
+                     {
+                         "url":  null,
+                         "source":  "Hacker News",
+                         "id":  48447980,
+                         "type":  "story",
+                         "by":  "modzu",
+                         "time":  1780938292,
+                         "score":  9,
+                         "title":  "Ask HN: How to escalate a rejected Google extension?",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://lowtechguys.com/musicdecoy/",
+                         "source":  "Hacker News",
+                         "id":  48447935,
+                         "type":  "story",
+                         "by":  "bobbiechen",
+                         "time":  1780938103,
+                         "score":  403,
+                         "title":  "Stop the Apple Music app from launching",
+                         "descendants":  160
+                     },
+                     {
+                         "url":  "https://www.foodwatch.org/en/eu-banned-pesticides-found-in-rice-tea-and-spices",
+                         "source":  "Hacker News",
+                         "id":  48447062,
+                         "type":  "story",
+                         "by":  "john-titor",
+                         "time":  1780934344,
+                         "score":  65,
+                         "title":  "EU-banned pesticides found in rice, tea and spices",
+                         "descendants":  20
+                     },
+                     {
+                         "url":  "https://www.wheresyoured.at/ai-is-slowing-down/",
+                         "source":  "Hacker News",
+                         "id":  48446893,
+                         "type":  "story",
+                         "by":  "crescit_eundo",
+                         "time":  1780933597,
+                         "score":  190,
+                         "title":  "AI Is Slowing Down",
+                         "descendants":  226
+                     },
+                     {
+                         "url":  "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
+                         "source":  "Hacker News",
+                         "id":  48446639,
+                         "type":  "story",
+                         "by":  "gainsurier",
+                         "time":  1780932453,
+                         "score":  385,
+                         "title":  "MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
+                         "descendants":  269
+                     },
+                     {
+                         "url":  "https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/",
+                         "source":  "Hacker News",
+                         "id":  48446439,
+                         "type":  "story",
+                         "by":  "greedo",
+                         "time":  1780931669,
+                         "score":  376,
+                         "title":  "A Farmer Donated Land to Turn into a Park. The City Is Building a Data Center",
+                         "descendants":  202
+                     },
+                     {
+                         "url":  "https://martinalderson.com/posts/xais-new-rental-business/",
+                         "source":  "Hacker News",
+                         "id":  48446428,
+                         "type":  "story",
+                         "by":  "martinald",
+                         "time":  1780931623,
+                         "score":  201,
+                         "title":  "xAI is looking more like a datacentre REIT than a frontier lab",
+                         "descendants":  154
+                     },
+                     {
+                         "url":  "https://www.reuters.com/legal/transactional/italys-bending-spoons-files-us-ipo-2026-06-08/",
+                         "source":  "Hacker News",
+                         "id":  48446310,
+                         "type":  "story",
+                         "by":  "mmarian",
+                         "time":  1780931057,
+                         "score":  90,
+                         "title":  "Italy\u0027s Bending Spoons, owner of AOL and Vimeo, files for Nasdaq IPO",
+                         "descendants":  75
+                     },
+                     {
+                         "url":  "https://vorpus.github.io/performativeUI/",
+                         "source":  "Hacker News",
+                         "id":  48445554,
+                         "type":  "story",
+                         "by":  "lizhang",
+                         "time":  1780927516,
+                         "score":  579,
+                         "title":  "Show HN: Performative-UI – a react component library of design tropes",
+                         "descendants":  121
+                     },
+                     {
+                         "url":  "https://intunedhq.com",
+                         "source":  "Hacker News",
+                         "id":  48445171,
+                         "type":  "story",
+                         "by":  "fkilaiwi",
+                         "time":  1780925727,
+                         "score":  88,
+                         "title":  "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+                         "descendants":  38
+                     },
+                     {
+                         "url":  "https://github.com/boringcollege/zig-by-example",
+                         "source":  "Hacker News",
+                         "id":  48444871,
+                         "type":  "story",
+                         "by":  "dariubs",
+                         "time":  1780923979,
+                         "score":  201,
+                         "title":  "Zig by Example",
+                         "descendants":  97
+                     },
+                     {
+                         "url":  "https://handson.money/blog/2026-06-06-horse-arse-and-design/",
+                         "source":  "Hacker News",
+                         "id":  48444784,
+                         "type":  "story",
+                         "by":  "vitalikpie",
+                         "time":  1780923474,
+                         "score":  82,
+                         "title":  "Spanish traders set the standard for GnuCash database design",
+                         "descendants":  66
+                     },
+                     {
+                         "url":  "https://pyrefly.org/blog/too-many-type-checkers/",
+                         "source":  "Hacker News",
+                         "id":  48444442,
+                         "type":  "story",
+                         "by":  "ocamoss",
+                         "time":  1780921450,
+                         "score":  105,
+                         "title":  "Are you expected to run five Python type-checkers now?",
+                         "descendants":  101
+                     },
+                     {
+                         "url":  "https://www.bbc.com/worklife/article/20260520-how-social-media-ceased-to-be-social",
+                         "source":  "Hacker News",
+                         "id":  48444228,
+                         "type":  "story",
+                         "by":  "1vuio0pswjnm7",
+                         "time":  1780919882,
+                         "score":  417,
+                         "title":  "Anti-social: It\u0027s fads, not friends, which now dominate social media feeds",
+                         "descendants":  343
+                     },
+                     {
+                         "url":  "https://www.cypherpunkbooks.com",
+                         "source":  "Hacker News",
+                         "id":  48442725,
+                         "type":  "story",
+                         "by":  "yu3zhou4",
+                         "time":  1780907572,
+                         "score":  302,
+                         "title":  "The Cypherpunk Library",
+                         "descendants":  90
+                     },
+                     {
+                         "url":  "https://reeserichardson.blog/2026/05/28/how-much-of-thermo-fishers-antibody-data-has-been-manipulated/",
+                         "source":  "Hacker News",
+                         "id":  48442075,
+                         "type":  "story",
+                         "by":  "mhrmsn",
+                         "time":  1780901766,
+                         "score":  353,
+                         "title":  "How much of Thermo Fisher\u0027s antibody data has been manipulated?",
+                         "descendants":  76
+                     },
+                     {
+                         "url":  "https://igerman.cc/blog/dopamine-fracking/",
+                         "source":  "Hacker News",
+                         "id":  48440792,
+                         "type":  "story",
+                         "by":  "igmn",
+                         "time":  1780886544,
+                         "score":  732,
+                         "title":  "Dopamine Fracking",
+                         "descendants":  372
+                     },
+                     {
+                         "url":  "https://mijndertstuij.nl/posts/life-is-too-short-for-a-slow-terminal/",
+                         "source":  "Hacker News",
+                         "id":  48424545,
+                         "type":  "story",
+                         "by":  "emschwartz",
+                         "time":  1780749888,
+                         "score":  79,
+                         "title":  "Life is too short for a slow terminal",
+                         "descendants":  64
+                     },
+                     {
+                         "url":  "https://ocamlpro.com/blog/2025_07_29_ocaml_onboarding_introduction_to_dune/",
+                         "source":  "Hacker News",
+                         "id":  48402137,
+                         "type":  "story",
+                         "by":  "andrewstetsenko",
+                         "time":  1780595549,
+                         "score":  109,
+                         "title":  "OCaml Onboarding: Introduction to the Dune build system",
+                         "descendants":  10
+                     },
+                     {
+                         "url":  "https://wxwidgets.org/blog/2024/01/using-xdg-compliant-config-files/",
+                         "source":  "Hacker News",
+                         "id":  48397986,
+                         "type":  "story",
+                         "by":  "ankitg12",
+                         "time":  1780577668,
+                         "score":  11,
+                         "title":  "Using XDG-Compliant Config Files – WxWidgets",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://cs-syd.eu/posts/2026-06-03-mutation-testing-in-haskell",
+                         "source":  "Hacker News",
+                         "id":  48384630,
+                         "type":  "story",
+                         "by":  "Norfair",
+                         "time":  1780496942,
+                         "score":  34,
+                         "title":  "Mutation Testing in Haskell",
+                         "descendants":  0
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-09_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 19:30:00 +0000",
+                          "title":  "100 things we announced at I/O 2026",
+                          "description":  [
+                                              "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+                                              "We\u0027ve been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 20:40:00 +0000",
+                          "title":  "We’re announcing new community investments in Missouri.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-09 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}

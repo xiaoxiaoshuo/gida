@@ -1,76 +1,79 @@
-{
-  "healthy": 5,
-  "action": "proceed",
-  "results": [
-    {
-      "name": "okx_btc",
-      "critical": true,
-      "healthy": true,
-      "error": null,
-      "latency_ok": true,
-      "latency_ms": 758,
-      "json_ok": true,
-      "category": "crypto",
-      "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
-      "http_ok": true,
-      "data_ok": true
-    },
-    {
-      "name": "binance_btc",
-      "critical": true,
-      "healthy": true,
-      "error": null,
-      "latency_ok": true,
-      "latency_ms": 540,
-      "json_ok": true,
-      "category": "crypto",
-      "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
-      "http_ok": true,
-      "data_ok": true
-    },
-    {
-      "name": "cryptocompare_btc",
-      "critical": false,
-      "healthy": true,
-      "error": null,
-      "latency_ok": true,
-      "latency_ms": 1216,
-      "json_ok": true,
-      "category": "crypto",
-      "url": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
-      "http_ok": true,
-      "data_ok": true
-    },
-    {
-      "name": "alternative_fng",
-      "critical": false,
-      "healthy": true,
-      "error": null,
-      "latency_ok": true,
-      "latency_ms": 1242,
-      "json_ok": true,
-      "category": "sentiment",
-      "url": "https://api.alternative.me/fng/?limit=1",
-      "http_ok": true,
-      "data_ok": true
-    },
-    {
-      "name": "hn_topstories",
-      "critical": false,
-      "healthy": true,
-      "error": null,
-      "latency_ok": true,
-      "latency_ms": 785,
-      "json_ok": true,
-      "category": "ai",
-      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
-      "http_ok": true,
-      "data_ok": true
-    }
-  ],
-  "total": 5,
-  "verdict": "green",
-  "score": 100.0,
-  "timestamp": "2026-06-05T07:53:12+08:00",
-  "critical_fails": []
+﻿{
+    "results":  [
+                    {
+                        "url":  "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+                        "data_ok":  false,
+                        "latency_ok":  true,
+                        "json_ok":  false,
+                        "http_ok":  false,
+                        "category":  "crypto",
+                        "latency_ms":  70,
+                        "error":  "The remote name could not be resolved: \u0027www.okx.com\u0027",
+                        "critical":  true,
+                        "name":  "okx_btc",
+                        "healthy":  false
+                    },
+                    {
+                        "url":  "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+                        "data_ok":  false,
+                        "latency_ok":  false,
+                        "json_ok":  false,
+                        "http_ok":  false,
+                        "category":  "crypto",
+                        "latency_ms":  5105,
+                        "error":  "The operation has timed out.",
+                        "critical":  true,
+                        "name":  "binance_btc",
+                        "healthy":  false
+                    },
+                    {
+                        "url":  "https://min-api.cryptocompare.com/data/price?fsym=BTC\u0026tsyms=USD",
+                        "data_ok":  false,
+                        "latency_ok":  true,
+                        "json_ok":  false,
+                        "http_ok":  false,
+                        "category":  "crypto",
+                        "latency_ms":  584,
+                        "error":  "{\"Data\":{},\"Err\":{\"type\":2,\"message\":\"API key required, please refer to the documentation at https://developers.coindesk.com/\",\"http_status_code\":401,\"frontend\":{\"type\":2,\"message\":\"API key required, please refer to the documentation at https://developers.coindesk.com/\"}}}",
+                        "critical":  false,
+                        "name":  "cryptocompare_btc",
+                        "healthy":  false
+                    },
+                    {
+                        "url":  "https://api.alternative.me/fng/?limit=1",
+                        "data_ok":  true,
+                        "latency_ok":  true,
+                        "json_ok":  true,
+                        "http_ok":  true,
+                        "category":  "sentiment",
+                        "latency_ms":  850,
+                        "error":  null,
+                        "critical":  false,
+                        "name":  "alternative_fng",
+                        "healthy":  true
+                    },
+                    {
+                        "url":  "https://hacker-news.firebaseio.com/v0/topstories.json",
+                        "data_ok":  true,
+                        "latency_ok":  true,
+                        "json_ok":  true,
+                        "http_ok":  true,
+                        "category":  "ai",
+                        "latency_ms":  1331,
+                        "error":  null,
+                        "critical":  false,
+                        "name":  "hn_topstories",
+                        "healthy":  true
+                    }
+                ],
+    "healthy":  2,
+    "timestamp":  "2026-06-22T18:30:09+08:00",
+    "verdict":  "red",
+    "total":  5,
+    "score":  40,
+    "critical_fails":  [
+                           "okx_btc",
+                           "binance_btc"
+                       ],
+    "action":  "block_alert"
 }

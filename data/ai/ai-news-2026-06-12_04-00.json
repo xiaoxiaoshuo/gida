@@ -1,0 +1,546 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+                         "source":  "Hacker News",
+                         "id":  48495197,
+                         "type":  "story",
+                         "by":  "Bender",
+                         "time":  1781205832,
+                         "score":  6,
+                         "title":  "Who Runs the Ransomware Group \u0027The Gentlemen?\u0027",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://rajitkhanna.com/agents/",
+                         "source":  "Hacker News",
+                         "id":  48493447,
+                         "type":  "story",
+                         "by":  "rajit",
+                         "time":  1781198932,
+                         "score":  5,
+                         "title":  "Building agents without harness engineering",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://zed.dev/blog/introducing-deltadb",
+                         "source":  "Hacker News",
+                         "id":  48492533,
+                         "type":  "story",
+                         "by":  "jeremy_k",
+                         "time":  1781195304,
+                         "score":  125,
+                         "title":  "Software Is Made Between Commits",
+                         "descendants":  76
+                     },
+                     {
+                         "url":  "https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal",
+                         "source":  "Hacker News",
+                         "id":  48492306,
+                         "type":  "story",
+                         "by":  "neilfrndes",
+                         "time":  1781194205,
+                         "score":  294,
+                         "title":  "Solar generates more energy in US than coal for first time",
+                         "descendants":  131
+                     },
+                     {
+                         "url":  "https://waymo.com/blog/2026/06/waymo-premier/",
+                         "source":  "Hacker News",
+                         "id":  48492304,
+                         "type":  "story",
+                         "by":  "boulos",
+                         "time":  1781194202,
+                         "score":  92,
+                         "title":  "Waymo Premier",
+                         "descendants":  199
+                     },
+                     {
+                         "url":  "https://mrbruh.com/amd2/",
+                         "source":  "Hacker News",
+                         "id":  48492215,
+                         "type":  "story",
+                         "by":  "MrBruh",
+                         "time":  1781193820,
+                         "score":  143,
+                         "title":  "The RCE that AMD wouldn\u0027t fix",
+                         "descendants":  42
+                     },
+                     {
+                         "url":  "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+                         "source":  "Hacker News",
+                         "id":  48492210,
+                         "type":  "story",
+                         "by":  "bugvader",
+                         "time":  1781193801,
+                         "score":  60,
+                         "title":  "Claude Fable 5: mid-tier results on coding tasks",
+                         "descendants":  10
+                     },
+                     {
+                         "url":  "https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416",
+                         "source":  "Hacker News",
+                         "id":  48491830,
+                         "type":  "story",
+                         "by":  "hmokiguess",
+                         "time":  1781192243,
+                         "score":  207,
+                         "title":  "Petition to Withdraw Canada\u0027s Bill C-22",
+                         "descendants":  74
+                     },
+                     {
+                         "url":  "https://github.com/icitry/FPS.cob",
+                         "source":  "Hacker News",
+                         "id":  48491486,
+                         "type":  "story",
+                         "by":  "MBCook",
+                         "time":  1781190837,
+                         "score":  72,
+                         "title":  "FPS.cob: A first person shooter in COBOL",
+                         "descendants":  44
+                     },
+                     {
+                         "url":  "https://mimo.xiaomi.com/mimocode",
+                         "source":  "Hacker News",
+                         "id":  48490826,
+                         "type":  "story",
+                         "by":  "apeters",
+                         "time":  1781188039,
+                         "score":  324,
+                         "title":  "MiMo Code is now released and open-source",
+                         "descendants":  176
+                     },
+                     {
+                         "url":  "https://nextcloud.com/blog/nextcloud-hub26-spring/",
+                         "source":  "Hacker News",
+                         "id":  48490715,
+                         "type":  "story",
+                         "by":  "doener",
+                         "time":  1781187467,
+                         "score":  107,
+                         "title":  "Nextcloud Hub 26 Spring: Built together, designed for the future",
+                         "descendants":  80
+                     },
+                     {
+                         "url":  "https://mapcomplete.org/",
+                         "source":  "Hacker News",
+                         "id":  48490532,
+                         "type":  "story",
+                         "by":  "GTP",
+                         "time":  1781186645,
+                         "score":  168,
+                         "title":  "MapComplete: Maps about various topics which you can contribute to",
+                         "descendants":  37
+                     },
+                     {
+                         "url":  "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+                         "source":  "Hacker News",
+                         "id":  48490024,
+                         "type":  "story",
+                         "by":  "mikemcquaid",
+                         "time":  1781184269,
+                         "score":  538,
+                         "title":  "Show HN: Homebrew 6.0.0",
+                         "descendants":  131
+                     },
+                     {
+                         "url":  "https://github.com/huggingface/open-r1",
+                         "source":  "Hacker News",
+                         "id":  48489917,
+                         "type":  "story",
+                         "by":  "yogthos",
+                         "time":  1781183671,
+                         "score":  156,
+                         "title":  "Open Reproduction of DeepSeek-R1",
+                         "descendants":  15
+                     },
+                     {
+                         "url":  "https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/",
+                         "source":  "Hacker News",
+                         "id":  48489402,
+                         "type":  "story",
+                         "by":  "RyeCombinator",
+                         "time":  1781180802,
+                         "score":  305,
+                         "title":  "Lines of code got a better publicist",
+                         "descendants":  201
+                     },
+                     {
+                         "url":  "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+                         "source":  "Hacker News",
+                         "id":  48489229,
+                         "type":  "story",
+                         "by":  "rarisma",
+                         "time":  1781179502,
+                         "score":  207,
+                         "title":  "Anthropic apologizes for invisible Claude Fable guardrails",
+                         "descendants":  229
+                     },
+                     {
+                         "url":  "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+                         "source":  "Hacker News",
+                         "id":  48487029,
+                         "type":  "story",
+                         "by":  "vrganj",
+                         "time":  1781160126,
+                         "score":  634,
+                         "title":  "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+                         "descendants":  295
+                     },
+                     {
+                         "url":  "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time/",
+                         "source":  "Hacker News",
+                         "id":  48476214,
+                         "type":  "story",
+                         "by":  "deadgopher",
+                         "time":  1781099174,
+                         "score":  123,
+                         "title":  "Fully autonomous drones have killed human soldiers for the first time",
+                         "descendants":  92
+                     },
+                     {
+                         "url":  "https://ianyepan.github.io/posts/emacs-in-pop-culture/",
+                         "source":  "Hacker News",
+                         "id":  48474274,
+                         "type":  "story",
+                         "by":  "ggcr",
+                         "time":  1781087865,
+                         "score":  146,
+                         "title":  "Emacs appearances in pop culture",
+                         "descendants":  23
+                     },
+                     {
+                         "url":  "https://blog.adamledoux.net/posts/2026-06-08-programming-a-gba-game-on-an-iphone.html",
+                         "source":  "Hacker News",
+                         "id":  48468495,
+                         "type":  "story",
+                         "by":  "akkartik",
+                         "time":  1781043140,
+                         "score":  24,
+                         "title":  "Programming a GBA Game on an iPhone",
+                         "descendants":  4
+                     },
+                     {
+                         "url":  "https://github.com/denoland/clawpatrol",
+                         "source":  "Hacker News",
+                         "id":  48462928,
+                         "type":  "story",
+                         "by":  "rough-sea",
+                         "time":  1781021210,
+                         "score":  57,
+                         "title":  "Show HN: Claw Patrol, a security firewall for agents",
+                         "descendants":  18
+                     },
+                     {
+                         "url":  "https://www.phoronix.com/news/macOS-27-Beta-Breaks-Asahi",
+                         "source":  "Hacker News",
+                         "id":  48462070,
+                         "type":  "story",
+                         "by":  "josephcsible",
+                         "time":  1781017303,
+                         "score":  138,
+                         "title":  "macOS 27 Beta breaks the ability to boot Asahi Linux",
+                         "descendants":  53
+                     },
+                     {
+                         "url":  "https://ferd.ca/queues-don-t-fix-overload.html",
+                         "source":  "Hacker News",
+                         "id":  48456279,
+                         "type":  "story",
+                         "by":  "locknitpicker",
+                         "time":  1780978219,
+                         "score":  48,
+                         "title":  "Queues Don\u0027t Fix Overload (2014)",
+                         "descendants":  26
+                     },
+                     {
+                         "url":  "https://www.tomshardware.com/video-games/handheld-gaming/developer-gets-half-life-running-at-30-fps-on-a-2007-nokia-n95",
+                         "source":  "Hacker News",
+                         "id":  48452001,
+                         "type":  "story",
+                         "by":  "ljf",
+                         "time":  1780952521,
+                         "score":  123,
+                         "title":  "Developer gets Half-Life running at 30 FPS on a Nokia N95",
+                         "descendants":  34
+                     },
+                     {
+                         "url":  "https://www.chiply.dev/post-svg-line",
+                         "source":  "Hacker News",
+                         "id":  48451013,
+                         "type":  "story",
+                         "by":  "rbanffy",
+                         "time":  1780948911,
+                         "score":  67,
+                         "title":  "SVG-Line: Better Status Bars for Emacs – Charlie Holland\u0027s Blog",
+                         "descendants":  4
+                     },
+                     {
+                         "url":  "https://tonedear.com/",
+                         "source":  "Hacker News",
+                         "id":  48447598,
+                         "type":  "story",
+                         "by":  "mattbit",
+                         "time":  1780936687,
+                         "score":  25,
+                         "title":  "Ear Training Practice Exercises",
+                         "descendants":  14
+                     },
+                     {
+                         "url":  "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+                         "source":  "Hacker News",
+                         "id":  48446673,
+                         "type":  "story",
+                         "by":  "Tomte",
+                         "time":  1780932609,
+                         "score":  81,
+                         "title":  "How Terry Tao became an evangelist for AI in math",
+                         "descendants":  53
+                     },
+                     {
+                         "url":  "https://www.seangoedecke.com/doing-nothing-at-work/",
+                         "source":  "Hacker News",
+                         "id":  48442880,
+                         "type":  "story",
+                         "by":  "Sukram21",
+                         "time":  1780909031,
+                         "score":  247,
+                         "title":  "Doing nothing at work",
+                         "descendants":  75
+                     },
+                     {
+                         "url":  "https://antirez.com/news/168",
+                         "source":  "Hacker News",
+                         "id":  48433351,
+                         "type":  "story",
+                         "by":  "Chrisszz",
+                         "time":  1780826238,
+                         "score":  80,
+                         "title":  "A new era for software testing",
+                         "descendants":  23
+                     },
+                     {
+                         "url":  "https://computerhistory.org/stories/explorers-of-the-lost-computers/",
+                         "source":  "Hacker News",
+                         "id":  48428959,
+                         "type":  "story",
+                         "by":  "andrewstuart",
+                         "time":  1780779631,
+                         "score":  60,
+                         "title":  "Discovery of Cold War-era rare Eastern Bloc computers in a German hangar",
+                         "descendants":  11
+                     }
+                 ],
+    "总量":  50,
+    "触发时间":  "2026-06-12_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 20:40:00 +0000",
+                          "title":  "We’re announcing new community investments in Missouri.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 19:30:00 +0000",
+                          "title":  "100 things we announced at I/O 2026",
+                          "description":  [
+                                              "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+                                              "We\u0027ve been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/bbva",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 20:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-on-oracle-cloud",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/using-codex-to-simulate-black-holes",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-to-acquire-ona",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 09 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/notion",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 09 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 09 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/nextdoor",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/lseg",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-12 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  20,
+                 "hn":  30
+             }
+}

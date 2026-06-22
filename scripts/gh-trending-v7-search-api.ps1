@@ -122,7 +122,10 @@ function Get-V7ViaCurl {
     )
     try {
         $sw = [System.Diagnostics.Stopwatch]::StartNew()
-        $output = & curl.exe @curlArgs 2>&1
+        # Use absolute path - SYSTEM service account has minimal PATH (curl.exe not in it)
+        $curlExe = Join-Path $env:SystemRoot 'System32\curl.exe'
+        if (-not (Test-Path $curlExe)) { $curlExe = 'curl.exe' }  # fallback
+        $output = & $curlExe @curlArgs 2>&1
         $sw.Stop()
         $code = $LASTEXITCODE
         Write-Host ("[L1] curl exit={0} elapsed={1}ms" -f $code, $sw.ElapsedMilliseconds)

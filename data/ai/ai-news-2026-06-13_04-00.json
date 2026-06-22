@@ -1,0 +1,543 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://kagi.com/magic",
+                         "source":  "Hacker News",
+                         "id":  48508649,
+                         "type":  "story",
+                         "by":  "amirmasoudabdol",
+                         "time":  1781293629,
+                         "score":  17,
+                         "title":  "Kagi Magic",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://killedbyapixel.github.io/Cosmodial/",
+                         "source":  "Hacker News",
+                         "id":  48507571,
+                         "type":  "story",
+                         "by":  "memalign",
+                         "time":  1781288417,
+                         "score":  13,
+                         "title":  "Cosmodial Sky Atlas",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur",
+                         "source":  "Hacker News",
+                         "id":  48507282,
+                         "type":  "story",
+                         "by":  "ibobev",
+                         "time":  1781286800,
+                         "score":  132,
+                         "title":  "I Am Not a Reverse Centaur",
+                         "descendants":  88
+                     },
+                     {
+                         "url":  "https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/",
+                         "source":  "Hacker News",
+                         "id":  48507278,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1781286766,
+                         "score":  109,
+                         "title":  "\"Don\u0027t You Just Upload It to ChatGPT?\"",
+                         "descendants":  106
+                     },
+                     {
+                         "url":  "https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos",
+                         "source":  "Hacker News",
+                         "id":  48507020,
+                         "type":  "story",
+                         "by":  "kkm",
+                         "time":  1781285695,
+                         "score":  97,
+                         "title":  "How to setup a local coding agent on macOS",
+                         "descendants":  33
+                     },
+                     {
+                         "url":  "https://piwodlaiwo.github.io/pirates/",
+                         "source":  "Hacker News",
+                         "id":  48506659,
+                         "type":  "story",
+                         "by":  "iweczek",
+                         "time":  1781284066,
+                         "score":  75,
+                         "title":  "Pirates, a naval warfare game inspired by Sid Meier\u0027s Pirates",
+                         "descendants":  30
+                     },
+                     {
+                         "url":  "https://harvardlawreview.org/forum/vol-128/law-enforcements-warrior-problem/",
+                         "source":  "Hacker News",
+                         "id":  48506616,
+                         "type":  "story",
+                         "by":  "bookofjoe",
+                         "time":  1781283849,
+                         "score":  43,
+                         "title":  "Law Enforcement\u0027s \"Warrior\" Problem (2015)",
+                         "descendants":  36
+                     },
+                     {
+                         "url":  "https://bitboard.work/",
+                         "source":  "Hacker News",
+                         "id":  48506545,
+                         "type":  "story",
+                         "by":  "arcb",
+                         "time":  1781283483,
+                         "score":  18,
+                         "title":  "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+                         "descendants":  8
+                     },
+                     {
+                         "url":  "https://www.pgedge.com/blog/looking-forward-to-postgres-19-its-about-time",
+                         "source":  "Hacker News",
+                         "id":  48506372,
+                         "type":  "story",
+                         "by":  "xngbuilds",
+                         "time":  1781282687,
+                         "score":  82,
+                         "title":  "Looking Forward to Postgres 19: It\u0027s About Time",
+                         "descendants":  22
+                     },
+                     {
+                         "url":  "https://www.politico.com/www.politico.eu/article/new-privacy-frontier-europe-eyes-crackdown-smart-glasses/",
+                         "source":  "Hacker News",
+                         "id":  48506324,
+                         "type":  "story",
+                         "by":  "1vuio0pswjnm7",
+                         "time":  1781282476,
+                         "score":  59,
+                         "title":  "New privacy frontier: Europe eyes crackdown on smart glasses",
+                         "descendants":  43
+                     },
+                     {
+                         "url":  "https://sgaud.com/texts/pdf",
+                         "source":  "Hacker News",
+                         "id":  48506209,
+                         "type":  "story",
+                         "by":  "SarthakGaud",
+                         "time":  1781281970,
+                         "score":  76,
+                         "title":  "A PDF that changes based on how its read",
+                         "descendants":  39
+                     },
+                     {
+                         "url":  "https://www.quantamagazine.org/where-did-earth-get-its-oceans-maybe-it-made-them-itself-20260612/",
+                         "source":  "Hacker News",
+                         "id":  48505452,
+                         "type":  "story",
+                         "by":  "ibobev",
+                         "time":  1781278376,
+                         "score":  72,
+                         "title":  "Where Did Earth Get Its Oceans? Maybe It Made Them Itself",
+                         "descendants":  45
+                     },
+                     {
+                         "url":  "https://stackscope.dev/",
+                         "source":  "Hacker News",
+                         "id":  48505364,
+                         "type":  "story",
+                         "by":  "datafreak_",
+                         "time":  1781277972,
+                         "score":  29,
+                         "title":  "Show HN: StackScope – I crawled over 40k indie launches to see what they ship",
+                         "descendants":  8
+                     },
+                     {
+                         "url":  "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/",
+                         "source":  "Hacker News",
+                         "id":  48505231,
+                         "type":  "story",
+                         "by":  "gmays",
+                         "time":  1781277324,
+                         "score":  431,
+                         "title":  "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
+                         "descendants":  110
+                     },
+                     {
+                         "url":  "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
+                         "source":  "Hacker News",
+                         "id":  48505161,
+                         "type":  "story",
+                         "by":  "ML0037",
+                         "time":  1781276939,
+                         "score":  44,
+                         "title":  "Show HN: Script to bulk delete Claude chats from the web UI",
+                         "descendants":  16
+                     },
+                     {
+                         "url":  "https://blog.yadutaf.fr/2026/06/12/introduction-to-uefi-https-boot-qemu-ovmf/",
+                         "source":  "Hacker News",
+                         "id":  48504929,
+                         "type":  "story",
+                         "by":  "jtlebigot",
+                         "time":  1781275806,
+                         "score":  43,
+                         "title":  "Introduction to UEFI HTTP(s) Boot with QEMU/OVMF",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://envs.net/~volpe/blog/posts/reduce-slop.html",
+                         "source":  "Hacker News",
+                         "id":  48504912,
+                         "type":  "story",
+                         "by":  "FergusArgyll",
+                         "time":  1781275718,
+                         "score":  127,
+                         "title":  "Slightly reducing the sloppiness of AI generated front end",
+                         "descendants":  81
+                     },
+                     {
+                         "url":  "https://blog.lopp.net/call-to-action-stop-the-fcc-kyc-regime/",
+                         "source":  "Hacker News",
+                         "id":  48504697,
+                         "type":  "story",
+                         "by":  "FergusArgyll",
+                         "time":  1781274809,
+                         "score":  276,
+                         "title":  "A Call to Action: Stop the FCC\u0027s KYC Regime",
+                         "descendants":  179
+                     },
+                     {
+                         "url":  "https://yalereview.org/article/sheila-liming-the-end-of-books",
+                         "source":  "Hacker News",
+                         "id":  48504543,
+                         "type":  "story",
+                         "by":  "mooreds",
+                         "time":  1781274082,
+                         "score":  128,
+                         "title":  "A dumpster arrived behind my university\u0027s library",
+                         "descendants":  104
+                     },
+                     {
+                         "url":  "https://bytecodealliance.org/articles/WASI-0.3",
+                         "source":  "Hacker News",
+                         "id":  48504063,
+                         "type":  "story",
+                         "by":  "mavdol04",
+                         "time":  1781272275,
+                         "score":  201,
+                         "title":  "WASI 0.3",
+                         "descendants":  82
+                     },
+                     {
+                         "url":  "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
+                         "source":  "Hacker News",
+                         "id":  48503717,
+                         "type":  "job",
+                         "by":  "augustschen",
+                         "time":  1781270058,
+                         "score":  1,
+                         "title":  "Hazel (YC W24) Is Hiring a Full Stack Engineer",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://encryptedspaces.org/",
+                         "source":  "Hacker News",
+                         "id":  48503219,
+                         "type":  "story",
+                         "by":  "_____k",
+                         "time":  1781266927,
+                         "score":  49,
+                         "title":  "Encrypted Spaces An architecture for collaborative applications",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://arxiv.org/abs/2606.13473",
+                         "source":  "Hacker News",
+                         "id":  48503014,
+                         "type":  "story",
+                         "by":  "ilreb",
+                         "time":  1781265602,
+                         "score":  116,
+                         "title":  "Maxproof",
+                         "descendants":  9
+                     },
+                     {
+                         "url":  "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+                         "source":  "Hacker News",
+                         "id":  48502347,
+                         "type":  "story",
+                         "by":  "nekofneko",
+                         "time":  1781260970,
+                         "score":  353,
+                         "title":  "Kimi K2.7-Code: open-source coding model with better token efficiency",
+                         "descendants":  192
+                     },
+                     {
+                         "url":  "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+                         "source":  "Hacker News",
+                         "id":  48500012,
+                         "type":  "story",
+                         "by":  "xiaoyu2006",
+                         "time":  1781239373,
+                         "score":  1333,
+                         "title":  "AI agent bankrupted their operator while trying to scan DN42",
+                         "descendants":  481
+                     },
+                     {
+                         "url":  "https://tombedor.dev/human-attention-and-human-effort/",
+                         "source":  "Hacker News",
+                         "id":  48497609,
+                         "type":  "story",
+                         "by":  "jjfoooo4",
+                         "time":  1781218915,
+                         "score":  1403,
+                         "title":  "If you are asking for human attention, demonstrate human effort",
+                         "descendants":  441
+                     },
+                     {
+                         "url":  "https://news.utexas.edu/2026/06/11/this-jacket-pulls-drinking-water-from-thin-air/",
+                         "source":  "Hacker News",
+                         "id":  48497576,
+                         "type":  "story",
+                         "by":  "ilreb",
+                         "time":  1781218762,
+                         "score":  145,
+                         "title":  "A jacket that harvests drinking water from the air",
+                         "descendants":  92
+                     },
+                     {
+                         "url":  "https://twitter.com/jsrailton/status/2064661778978533571",
+                         "source":  "Hacker News",
+                         "id":  48495928,
+                         "type":  "story",
+                         "by":  "marc__1",
+                         "time":  1781209458,
+                         "score":  146,
+                         "title":  "Malware developers added nuclear and biological weapons text to to their spyware",
+                         "descendants":  91
+                     },
+                     {
+                         "url":  "https://grack.com/blog/2026/06/11/life-before-main/",
+                         "source":  "Hacker News",
+                         "id":  48493512,
+                         "type":  "story",
+                         "by":  "mmastrac",
+                         "time":  1781199155,
+                         "score":  40,
+                         "title":  "There Is Life Before Main in Rust",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://www.theguardian.com/culture/2026/jan/05/raiders-of-the-lost-ark-hit-video-game-prince-of-persia",
+                         "source":  "Hacker News",
+                         "id":  48468852,
+                         "type":  "story",
+                         "by":  "msephton",
+                         "time":  1781045068,
+                         "score":  252,
+                         "title":  "How we made hit video game Prince of Persia",
+                         "descendants":  103
+                     }
+                 ],
+    "总量":  50,
+    "触发时间":  "2026-06-13_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 20:40:00 +0000",
+                          "title":  "We’re announcing new community investments in Missouri.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/using-codex-to-simulate-black-holes",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/bbva",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-to-acquire-ona",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 10:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/academy-courses-applying-ai-at-work",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 12 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/preply",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/lseg",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Tue, 09 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/nextdoor",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 12:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 00:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+                          "source":  "OpenAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 10 Jun 2026 20:00:00 GMT",
+                          "title":  [
+                                        [
+
+                                        ]
+                                    ],
+                          "description":  "System.Xml.XmlElement",
+                          "link":  "https://openai.com/index/openai-on-oracle-cloud",
+                          "source":  "OpenAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-13 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  20,
+                 "hn":  30
+             }
+}

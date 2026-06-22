@@ -1,0 +1,16 @@
+﻿{
+    "sol":  67.06,
+    "trigger_1630":  {
+                         "delta_2h":  0.102,
+                         "fng_status":  "FETCH_FAILED",
+                         "action":  "待 16:30 cron 综合判定",
+                         "btc_position":  "above_63k"
+                     },
+    "fng_value":  null,
+    "fng_class":  "FETCH_FAILED",
+    "btc_age_min":  60,
+    "timestamp":  "14:00",
+    "btc":  63696.9,
+    "btc_delta_2h_pct":  0.102,
+    "eth":  1677.48
+}

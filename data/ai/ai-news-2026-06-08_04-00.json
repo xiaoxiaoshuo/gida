@@ -1,0 +1,436 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://www.natesilver.net/p/why-isnt-the-us-better-at-soccer",
+                         "source":  "Hacker News",
+                         "id":  48437848,
+                         "type":  "story",
+                         "by":  "7777777phil",
+                         "time":  1780861280,
+                         "score":  9,
+                         "title":  "Why isn\u0027t the U.S. better at soccer?",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://performance.dev/how-is-linear-so-fast-a-technical-breakdown",
+                         "source":  "Hacker News",
+                         "id":  48437609,
+                         "type":  "story",
+                         "by":  "howToTestFE",
+                         "time":  1780858897,
+                         "score":  55,
+                         "title":  "How\u0027s Linear so fast? A technical breakdown",
+                         "descendants":  21
+                     },
+                     {
+                         "url":  "https://knowablemagazine.org/content/article/living-world/2026/low-protein-diet-animals-live-longer",
+                         "source":  "Hacker News",
+                         "id":  48437450,
+                         "type":  "story",
+                         "by":  "curmudgeon22",
+                         "time":  1780857437,
+                         "score":  22,
+                         "title":  "The curious case of low-protein diets",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://www.lms.ac.uk/news/leiden-declaration-on-ai-and-mathematics",
+                         "source":  "Hacker News",
+                         "id":  48437442,
+                         "type":  "story",
+                         "by":  "_____k",
+                         "time":  1780857396,
+                         "score":  23,
+                         "title":  "Leiden Declaration on Artificial Intelligence and Mathematics",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony",
+                         "source":  "Hacker News",
+                         "id":  48437406,
+                         "type":  "story",
+                         "by":  "gavinray",
+                         "time":  1780857187,
+                         "score":  27,
+                         "title":  "Building from Zero After Addiction, Prison, and a Felony",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://www.alexself.dev/blog/automated-doubt",
+                         "source":  "Hacker News",
+                         "id":  48437305,
+                         "type":  "story",
+                         "by":  "aself101",
+                         "time":  1780856260,
+                         "score":  11,
+                         "title":  "My automated doubt development process",
+                         "descendants":  7
+                     },
+                     {
+                         "url":  "https://nik.art/making-peace-with-your-unlived-dreams/",
+                         "source":  "Hacker News",
+                         "id":  48437290,
+                         "type":  "story",
+                         "by":  "herbertl",
+                         "time":  1780856147,
+                         "score":  29,
+                         "title":  "Making Peace with Your Unlived Dreams",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://worldip.io/",
+                         "source":  "Hacker News",
+                         "id":  48437279,
+                         "type":  "story",
+                         "by":  "theanonymousone",
+                         "time":  1780856051,
+                         "score":  4,
+                         "title":  "The complete IPv4 address space, mapped",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://github.com/yukiyokotani/office-open-xml-viewer",
+                         "source":  "Hacker News",
+                         "id":  48436863,
+                         "type":  "story",
+                         "by":  "maxloh",
+                         "time":  1780852948,
+                         "score":  51,
+                         "title":  "Silurus/ooxml: Pixel-faithful Office documents, rendered in the browser",
+                         "descendants":  20
+                     },
+                     {
+                         "url":  "https://www.righto.com/2026/06/ibm-604-thyraton-tube-module.html",
+                         "source":  "Hacker News",
+                         "id":  48436819,
+                         "type":  "story",
+                         "by":  "elpocko",
+                         "time":  1780852692,
+                         "score":  45,
+                         "title":  "Powering up a module from the IBM 604: an electronic calculator from 1948",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://www.ycombinator.com/companies/proliferate/jobs/L3copvK-founding-engineer",
+                         "source":  "Hacker News",
+                         "id":  48436669,
+                         "type":  "job",
+                         "by":  "pablo24602",
+                         "time":  1780851677,
+                         "score":  1,
+                         "title":  "Proliferate (YC S25) is hiring to building open source Codex",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2849122",
+                         "source":  "Hacker News",
+                         "id":  48435584,
+                         "type":  "story",
+                         "by":  "supermatou",
+                         "time":  1780844890,
+                         "score":  171,
+                         "title":  "Vitamin D3 During Pregnancy and Cognitive Performance at 10 Years",
+                         "descendants":  76
+                     },
+                     {
+                         "url":  "https://blog.podman.io/2025/10/podman-6-machine-usability-improvements/",
+                         "source":  "Hacker News",
+                         "id":  48434963,
+                         "type":  "story",
+                         "by":  "daesorin",
+                         "time":  1780840887,
+                         "score":  73,
+                         "title":  "Podman 6: machine usability improvements (2025)",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://gitlab.com/cznic/sqlite",
+                         "source":  "Hacker News",
+                         "id":  48434906,
+                         "type":  "story",
+                         "by":  "tosh",
+                         "time":  1780840407,
+                         "score":  22,
+                         "title":  "sqlite: A CGo-free port of SQLite/SQLite3",
+                         "descendants":  8
+                     },
+                     {
+                         "url":  "https://github.com/anthropics/claude-code/issues/65697",
+                         "source":  "Hacker News",
+                         "id":  48434436,
+                         "type":  "story",
+                         "by":  "predkambrij",
+                         "time":  1780837612,
+                         "score":  359,
+                         "title":  "Anthropic, please ship an official Claude Desktop for Linux",
+                         "descendants":  197
+                     },
+                     {
+                         "url":  "https://github.com/devenjarvis/lathe",
+                         "source":  "Hacker News",
+                         "id":  48433756,
+                         "type":  "story",
+                         "by":  "devenjarvis",
+                         "time":  1780831006,
+                         "score":  165,
+                         "title":  "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+                         "descendants":  35
+                     },
+                     {
+                         "url":  "https://kyushu.dev/",
+                         "source":  "Hacker News",
+                         "id":  48432722,
+                         "type":  "story",
+                         "by":  "le_chuck",
+                         "time":  1780817702,
+                         "score":  66,
+                         "title":  "Show HN: Kyushu – A self-hostable WASM sandbox for JavaScript workers",
+                         "descendants":  24
+                     },
+                     {
+                         "url":  "https://www.ioccc.org/2025/",
+                         "source":  "Hacker News",
+                         "id":  48432199,
+                         "type":  "story",
+                         "by":  "matt_d",
+                         "time":  1780811274,
+                         "score":  332,
+                         "title":  "The 29th International Obfuscated C Code Contest (IOCCC) 2025 Winners",
+                         "descendants":  77
+                     },
+                     {
+                         "url":  "https://pdimagearchive.org/",
+                         "source":  "Hacker News",
+                         "id":  48430539,
+                         "type":  "story",
+                         "by":  "davidbarker",
+                         "time":  1780791771,
+                         "score":  223,
+                         "title":  "Public Domain Image Archive",
+                         "descendants":  31
+                     },
+                     {
+                         "url":  "https://blog.brixit.nl/cloning-a-sennheiser-ba2015-accu-pack/",
+                         "source":  "Hacker News",
+                         "id":  48427480,
+                         "type":  "story",
+                         "by":  "zdw",
+                         "time":  1780769800,
+                         "score":  73,
+                         "title":  "Cloning a Sennheiser BA2015 battery pack",
+                         "descendants":  13
+                     },
+                     {
+                         "url":  "https://symbolica.io/posts/symbolica_2_0_release/",
+                         "source":  "Hacker News",
+                         "id":  48415457,
+                         "type":  "story",
+                         "by":  "mmastrac",
+                         "time":  1780679639,
+                         "score":  138,
+                         "title":  "Symbolica 2.0: Programmable Symbols for Python and Rust",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://kelvinpaschal.com/blog/kernel-functions/",
+                         "source":  "Hacker News",
+                         "id":  48412818,
+                         "type":  "story",
+                         "by":  "Kelvinidan",
+                         "time":  1780668677,
+                         "score":  6,
+                         "title":  "A visual introduction to kernel functions",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "http://www.os2museum.com/wp/win16-memory-management/",
+                         "source":  "Hacker News",
+                         "id":  48410844,
+                         "type":  "story",
+                         "by":  "supermatou",
+                         "time":  1780658207,
+                         "score":  121,
+                         "title":  "Win16 Memory Management",
+                         "descendants":  58
+                     },
+                     {
+                         "url":  "https://unix.stackexchange.com/questions/18154/what-is-the-purpose-of-the-lostfound-folder-in-linux-and-unix",
+                         "source":  "Hacker News",
+                         "id":  48409474,
+                         "type":  "story",
+                         "by":  "tosh",
+                         "time":  1780646913,
+                         "score":  60,
+                         "title":  "What is the purpose of the lost+found folder in Linux and Unix? (2014)",
+                         "descendants":  27
+                     },
+                     {
+                         "url":  "https://blog.safia.rocks/2025/12/22/ansi-codes/",
+                         "source":  "Hacker News",
+                         "id":  48408995,
+                         "type":  "story",
+                         "by":  "ankitg12",
+                         "time":  1780642934,
+                         "score":  22,
+                         "title":  "There\u0027s no escaping it: an exploration of ANSI codes",
+                         "descendants":  7
+                     },
+                     {
+                         "url":  "https://fergusfinn.com/blog/kv-entropy-coder/",
+                         "source":  "Hacker News",
+                         "id":  48400151,
+                         "type":  "story",
+                         "by":  "kkm",
+                         "time":  1780586993,
+                         "score":  127,
+                         "title":  "Speculative KV coding: losslessly compressing KV cache by up to ~4×",
+                         "descendants":  24
+                     },
+                     {
+                         "url":  "https://signoregalilei.com/2026/05/31/youll-never-guess-who-made-the-first-wireless-telephone/",
+                         "source":  "Hacker News",
+                         "id":  48399223,
+                         "type":  "story",
+                         "by":  "surprisetalk",
+                         "time":  1780583416,
+                         "score":  22,
+                         "title":  "You\u0027ll never guess who made the first wireless telephone",
+                         "descendants":  4
+                     },
+                     {
+                         "url":  "https://theamphour.com/725-the-secret-life-of-circuits-with-lcamtuf-michal-zalewski/",
+                         "source":  "Hacker News",
+                         "id":  48398703,
+                         "type":  "story",
+                         "by":  "ChrisGammell",
+                         "time":  1780581339,
+                         "score":  56,
+                         "title":  "The Secret Life of Circuits with lcamtuf / Michał Zalewski (Audio Interview)",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://kristoff.it/blog/north-star/",
+                         "source":  "Hacker News",
+                         "id":  48389368,
+                         "type":  "story",
+                         "by":  "kristoff_it",
+                         "time":  1780517767,
+                         "score":  192,
+                         "title":  "My Software North Star",
+                         "descendants":  120
+                     },
+                     {
+                         "url":  "https://github.com/garethgeorge/backrest",
+                         "source":  "Hacker News",
+                         "id":  48370278,
+                         "type":  "story",
+                         "by":  "flexagoon",
+                         "time":  1780408354,
+                         "score":  44,
+                         "title":  "Backrest – a web UI and orchestrator for restic backup",
+                         "descendants":  2
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-08_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 19:30:00 +0000",
+                          "title":  "100 things we announced at I/O 2026",
+                          "description":  [
+                                              "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
+                                              "We\u0027ve been busy! Here’s a rundown of the top announcements, launches and demos at I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 20 May 2026 20:40:00 +0000",
+                          "title":  "We’re announcing new community investments in Missouri.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-08 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}

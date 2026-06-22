@@ -1,93 +1,424 @@
-{
-  "posts": [
-    {
-      "source": "Hacker News",
-      "title": "Dirtyfrag: Universal Linux LPE",
-      "url": "https://www.openwall.com/lists/oss-security/2026/05/07/8",
-      "score": 114,
-      "time_ago": "1 hour ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "The Burning Man MOOP Map",
-      "url": "https://www.not-ship.com/burning-man-moop/",
-      "score": 460,
-      "time_ago": "6 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "Agents need control flow, not more prompts",
-      "url": "https://bsuh.bearblog.dev/agents-need-control-flow/",
-      "score": 191,
-      "time_ago": "4 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-      "score": 96,
-      "time_ago": "3 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "url": "https://deepmind.google/blog/alphaevolve-impact/",
-      "score": 207,
-      "time_ago": "5 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "DeepSeek 4 Flash local inference engine for Metal",
-      "url": "https://github.com/antirez/ds4",
-      "score": 188,
-      "time_ago": "5 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "Chrome removes claim of On-device Al not sending data to Google Servers",
-      "url": "https://old.reddit.com/r/chrome/comments/1t5qayz/chrome_removes_claim_of_ondevice_al_not_sending/",
-      "score": 326,
-      "time_ago": "4 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "Motherboard sales 'collapse' amid unprecedented shortages fueled by AI",
-      "url": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse",
-      "score": 196,
-      "time_ago": "5 hours ago"
-    },
-    {
-      "source": "Hacker News",
-      "title": "ZAYA1-8B matches DeepSeek-R1 on math with less than 1B active parameters",
-      "url": "https://firethering.com/zaya1-8b-open-source-math-coding-model/",
-      "score": 73,
-      "time_ago": "11 hours ago"
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "Advancing voice intelligence with new models in the API",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-      "date": "May 7, 2026"
-    },
-    {
-      "source": "OpenAI Blog",
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "url": "https://openai.com/index/gpt-5-5-instant/",
-      "date": "May 5, 2026"
-    },
-    {
-      "source": "Anthropic Blog",
-      "title": "Introducing Claude Design",
-      "url": "https://www.anthropic.com/news",
-      "date": "Apr 17, 2026"
-    },
-    {
-      "source": "Anthropic Blog",
-      "title": "Project Glasswing",
-      "url": "https://www.anthropic.com/news",
-      "date": "Apr 7, 2026"
-    }
-  ],
-  "collected_at": "2026-05-08T04:58:00Z",
-  "source": "Multiple AI/ML news sources"
+﻿{
+    "sources":  [
+                    {
+                        "path":  "items",
+                        "name":  "Hacker News",
+                        "status":  "ok",
+                        "count":  30
+                    },
+                    {
+                        "path":  "repos",
+                        "name":  "GitHub Trending",
+                        "status":  "ok",
+                        "count":  16
+                    }
+                ],
+    "timestamp":  "2026-06-22T10:00:15Z",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2434,
+                      "repo":  "Hmbown/DeepSeek-TUI",
+                      "url":  "https://github.com/Hmbown/DeepSeek-TUI",
+                      "stars":  11398,
+                      "forks":  0,
+                      "description":  "Coding agent for DeepSeek models that runs in your terminal"
+                  },
+                  {
+                      "rank":  2,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "addyosmani/agent-skills",
+                      "url":  "https://github.com/addyosmani/agent-skills",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Production-grade engineering skills for AI coding agents"
+                  },
+                  {
+                      "rank":  3,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  218,
+                      "repo":  "PriorLabs/TabPFN",
+                      "url":  "https://github.com/PriorLabs/TabPFN",
+                      "stars":  6685,
+                      "forks":  0,
+                      "description":  "⚡ TabPFN: Foundation Model for Tabular Data ⚡"
+                  },
+                  {
+                      "rank":  4,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  927,
+                      "repo":  "docusealco/docuseal",
+                      "url":  "https://github.com/docusealco/docuseal",
+                      "stars":  14361,
+                      "forks":  0,
+                      "description":  "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
+                  },
+                  {
+                      "rank":  5,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  532,
+                      "repo":  "LearningCircuit/local-deep-research",
+                      "url":  "https://github.com/LearningCircuit/local-deep-research",
+                      "stars":  5913,
+                      "forks":  0,
+                      "description":  "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs"
+                  },
+                  {
+                      "rank":  6,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "LadybirdBrowser/ladybird",
+                      "url":  "https://github.com/LadybirdBrowser/ladybird",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Truly independent web browser"
+                  },
+                  {
+                      "rank":  7,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  230,
+                      "repo":  "InsForge/InsForge",
+                      "url":  "https://github.com/InsForge/InsForge",
+                      "stars":  8634,
+                      "forks":  0,
+                      "description":  "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway"
+                  },
+                  {
+                      "rank":  8,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  666,
+                      "repo":  "virattt/dexter",
+                      "url":  "https://github.com/virattt/dexter",
+                      "stars":  24578,
+                      "forks":  0,
+                      "description":  "An autonomous agent for deep financial research"
+                  },
+                  {
+                      "rank":  9,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  641,
+                      "repo":  "anthropics/financial-services",
+                      "url":  "https://github.com/anthropics/financial-services",
+                      "stars":  9603,
+                      "forks":  0,
+                      "description":  "Anthropics financial services repository"
+                  },
+                  {
+                      "rank":  10,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2192,
+                      "repo":  "ruvnet/ruflo",
+                      "url":  "https://github.com/ruvnet/ruflo",
+                      "stars":  45658,
+                      "forks":  0,
+                      "description":  "The leading agent orchestration platform for Claude"
+                  },
+                  {
+                      "rank":  11,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "cheahjs/free-llm-api-resources",
+                      "url":  "https://github.com/cheahjs/free-llm-api-resources",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "A list of free LLM inference resources accessible via API"
+                  },
+                  {
+                      "rank":  12,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  42,
+                      "repo":  "BigBodyCobain/Shadowbroker",
+                      "url":  "https://github.com/BigBodyCobain/Shadowbroker",
+                      "stars":  6056,
+                      "forks":  0,
+                      "description":  "Open-source intelligence for the global theater"
+                  },
+                  {
+                      "rank":  13,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "shiyu-coder/Kronos",
+                      "url":  "https://github.com/shiyu-coder/Kronos",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Kronos: A Foundation Model for the Language of Financial Markets"
+                  },
+                  {
+                      "rank":  14,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  503,
+                      "repo":  "bwya77/vscode-dark-islands",
+                      "url":  "https://github.com/bwya77/vscode-dark-islands",
+                      "stars":  8296,
+                      "forks":  0,
+                      "description":  "VSCode theme based off the easemate IDE and Jetbrains islands theme"
+                  },
+                  {
+                      "rank":  15,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "bytedance/deer-flow",
+                      "url":  "https://github.com/bytedance/deer-flow",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "An open-source long-horizon SuperAgent harness that researches, codes, and creates"
+                  },
+                  {
+                      "rank":  16,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  1125,
+                      "repo":  "D4Vinci/Scrapling",
+                      "url":  "https://github.com/D4Vinci/Scrapling",
+                      "stars":  46779,
+                      "forks":  0,
+                      "description":  "🕷️ An adaptive Web Scraping framework"
+                  }
+              ],
+    "items":  [
+                  {
+                      "date":  "2026-06-22T05:38:40Z",
+                      "title":  "Deno Desktop",
+                      "url":  "https://docs.deno.com/runtime/desktop/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T01:55:16Z",
+                      "title":  "Help I accidentally a wigglegram",
+                      "url":  "https://lmao.center/blog/wiggle-accidents/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:40:53Z",
+                      "title":  "Did my old job only exist because of fraud?",
+                      "url":  "https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:29:43Z",
+                      "title":  "Apertus – Open Foundation Model for Sovereign AI",
+                      "url":  "https://apertvs.ai/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:22:03Z",
+                      "title":  "GLM 5.2 vs. Opus",
+                      "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T15:54:23Z",
+                      "title":  "Munich 1991: The Roots of the Current AI Boom",
+                      "url":  "https://people.idsia.ch/~juergen/ai-boom-roots-munich-1991.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:30:17Z",
+                      "title":  "Codex logging bug may write TBs to local SSDs",
+                      "url":  "https://github.com/openai/codex/issues/28224",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T20:56:01Z",
+                      "title":  "There is minimal downside to switching to open models",
+                      "url":  "https://www.marble.onl/posts/cancel_claude.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T03:29:19Z",
+                      "title":  "Memory Safe Inline Assembly",
+                      "url":  "https://fil-c.org/inlineasm",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T05:43:54Z",
+                      "title":  "Lisp in the Rust Type System",
+                      "url":  "https://github.com/playX18/lisp-in-types/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:10:32Z",
+                      "title":  "Everything is logarithms",
+                      "url":  "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T22:55:23Z",
+                      "title":  "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+                      "url":  "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T19:00:01Z",
+                      "title":  "Luis Alvarez\u0027s Journey from Hiroshima to the Death of the Dinosaurs",
+                      "url":  "https://www.lrb.co.uk/the-paper/v48/n11/steven-shapin/barrel-of-greenbacks",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T12:44:13Z",
+                      "title":  "Identity verification on Claude",
+                      "url":  "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:29:17Z",
+                      "title":  "Investors get real-time view of UK bond market activity for the first time",
+                      "url":  "https://www.fca.org.uk/news/press-releases/investors-get-real-time-view-uk-bond-market-activity-first-time",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T14:30:46Z",
+                      "title":  "My 1992 view of the problems of computer programming in 1992",
+                      "url":  "https://blog.plover.com/prog/fortran-i.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T02:08:18Z",
+                      "title":  "Sakana Fugu",
+                      "url":  "https://sakana.ai/fugu/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T00:42:50Z",
+                      "title":  "Efficient C++ Programming for Modern C++ CPUs, Chapter 4/part 2",
+                      "url":  "https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-take-2-80736",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T18:51:47Z",
+                      "title":  "JSON-LD explained for personal websites",
+                      "url":  "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T22:53:50Z",
+                      "title":  "Japanese verb conjugation the simple hard way",
+                      "url":  "https://underreacted.leaflet.pub/3mmevu6woys27",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-18T18:45:03Z",
+                      "title":  "How I play video games with spinal muscular atrophy",
+                      "url":  "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T00:34:33Z",
+                      "title":  "1983 Northern Telecom Commodore Phone",
+                      "url":  "https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:23:13Z",
+                      "title":  "PowerFox Browser",
+                      "url":  "https://powerfox.jazzzny.me/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T12:49:48Z",
+                      "title":  "Show HN: Teach your kids perfect pitch",
+                      "url":  "https://github.com/paytonjjones/bsharp",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-17T07:33:29Z",
+                      "title":  "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2",
+                      "url":  "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T21:54:34Z",
+                      "title":  "Rent collections are down in New York",
+                      "url":  "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T13:18:28Z",
+                      "title":  "Show HN: Criterion Closet as a website – pull any of 1,247 films off the shelf",
+                      "url":  "https://the-criterion-closet.vercel.app",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T16:41:21Z",
+                      "title":  "The minimum viable unit of saleable software",
+                      "url":  "https://brandur.org/minimum-viable-unit",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T16:08:23Z",
+                      "title":  "Prefer duplication over the wrong abstraction (2016)",
+                      "url":  "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T04:50:26Z",
+                      "title":  "Danish privacy activist Lars Andersen raided by police",
+                      "url":  "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  }
+              ],
+    "count":  46
 }

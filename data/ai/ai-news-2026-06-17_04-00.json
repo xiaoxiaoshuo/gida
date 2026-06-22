@@ -1,0 +1,433 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://www.timescolonist.com/local-news/us-pulling-ocean-sensors-a-shock-for-canadian-research-as-el-nino-nears-12422874",
+                         "source":  "Hacker News",
+                         "id":  48560847,
+                         "type":  "story",
+                         "by":  "ResearchAtPlay",
+                         "time":  1781638925,
+                         "score":  70,
+                         "title":  "U.S. pulling ocean sensors a \u0027shock\u0027 for Canadian research as El Niño nears",
+                         "descendants":  13
+                     },
+                     {
+                         "url":  "https://www.minid.net/2026/6/15/the-web-is-going-to-dissapear",
+                         "source":  "Hacker News",
+                         "id":  48560230,
+                         "type":  "story",
+                         "by":  "taubek",
+                         "time":  1781636257,
+                         "score":  12,
+                         "title":  "The Web We Know Is Going to Disappear",
+                         "descendants":  7
+                     },
+                     {
+                         "url":  "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
+                         "source":  "Hacker News",
+                         "id":  48559935,
+                         "type":  "story",
+                         "by":  "SXX",
+                         "time":  1781635041,
+                         "score":  38,
+                         "title":  "Apple is about to make Hide My Email useless",
+                         "descendants":  14
+                     },
+                     {
+                         "url":  "https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/",
+                         "source":  "Hacker News",
+                         "id":  48559188,
+                         "type":  "story",
+                         "by":  "root-parent",
+                         "time":  1781632442,
+                         "score":  52,
+                         "title":  "GPT‑NL: a sovereign language model for the Netherlands",
+                         "descendants":  41
+                     },
+                     {
+                         "url":  "https://www.gilesthomas.com/2026/06/10g-ethernet-switching-to-broadcom-sfp-plus",
+                         "source":  "Hacker News",
+                         "id":  48559083,
+                         "type":  "story",
+                         "by":  "gpjt",
+                         "time":  1781632122,
+                         "score":  37,
+                         "title":  "10Gb/s Ethernet: switching to a Broadcom SFP+ module",
+                         "descendants":  30
+                     },
+                     {
+                         "url":  "https://status.claude.com/incidents/xmhsglsz3h3w",
+                         "source":  "Hacker News",
+                         "id":  48558766,
+                         "type":  "story",
+                         "by":  "forks",
+                         "time":  1781631030,
+                         "score":  147,
+                         "title":  "Claude: Elevated errors across many models",
+                         "descendants":  131
+                     },
+                     {
+                         "url":  "https://www.fastcompany.com/91558427/ghost-jobs-could-soon-be-illegal-in-new-york",
+                         "source":  "Hacker News",
+                         "id":  48558338,
+                         "type":  "story",
+                         "by":  "toomuchtodo",
+                         "time":  1781629272,
+                         "score":  89,
+                         "title":  "\u0027Ghost jobs\u0027 could soon be illegal in New York",
+                         "descendants":  44
+                     },
+                     {
+                         "url":  "https://newsroom.snap.com/introducing-specs-augmented-reality-glasses",
+                         "source":  "Hacker News",
+                         "id":  48558337,
+                         "type":  "story",
+                         "by":  "haberdasher",
+                         "time":  1781629259,
+                         "score":  36,
+                         "title":  "Specs Augmented Reality Glasses",
+                         "descendants":  21
+                     },
+                     {
+                         "url":  "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+                         "source":  "Hacker News",
+                         "id":  48558147,
+                         "type":  "story",
+                         "by":  "dzonga",
+                         "time":  1781628586,
+                         "score":  79,
+                         "title":  "Stop Using JWTs",
+                         "descendants":  48
+                     },
+                     {
+                         "url":  "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+                         "source":  "Hacker News",
+                         "id":  48558045,
+                         "type":  "story",
+                         "by":  "throwarayes",
+                         "time":  1781628152,
+                         "score":  228,
+                         "title":  "Why is Meta destroying its engineering organization?",
+                         "descendants":  156
+                     },
+                     {
+                         "url":  "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+                         "source":  "Hacker News",
+                         "id":  48558018,
+                         "type":  "story",
+                         "by":  "mrshu",
+                         "time":  1781628058,
+                         "score":  130,
+                         "title":  "TIL: You can make HTTP requests without curl using Bash /dev/TCP",
+                         "descendants":  74
+                     },
+                     {
+                         "url":  "https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/",
+                         "source":  "Hacker News",
+                         "id":  48557768,
+                         "type":  "story",
+                         "by":  "palashawas",
+                         "time":  1781627128,
+                         "score":  55,
+                         "title":  "Making ast.walk 220x Faster",
+                         "descendants":  11
+                     },
+                     {
+                         "url":  "https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work",
+                         "source":  "Hacker News",
+                         "id":  48557530,
+                         "type":  "story",
+                         "by":  "neilfrndes",
+                         "time":  1781626326,
+                         "score":  313,
+                         "title":  "Apple\u0027s weird anti-nausea dots cured my car sickness",
+                         "descendants":  99
+                     },
+                     {
+                         "url":  "https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of",
+                         "source":  "Hacker News",
+                         "id":  48557079,
+                         "type":  "story",
+                         "by":  "pseudolus",
+                         "time":  1781624684,
+                         "score":  87,
+                         "title":  "Calvin and Hobbes and the price of integrity",
+                         "descendants":  27
+                     },
+                     {
+                         "url":  "https://subq.ai/subq-1-1-small-technical-report",
+                         "source":  "Hacker News",
+                         "id":  48556163,
+                         "type":  "story",
+                         "by":  "EDM115",
+                         "time":  1781621410,
+                         "score":  82,
+                         "title":  "SubQ 1.1 Small",
+                         "descendants":  39
+                     },
+                     {
+                         "url":  "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+                         "source":  "Hacker News",
+                         "id":  48555993,
+                         "type":  "story",
+                         "by":  "jfb",
+                         "time":  1781620617,
+                         "score":  695,
+                         "title":  "Running local models is good now",
+                         "descendants":  323
+                     },
+                     {
+                         "url":  "https://parksb.github.io/en/article/32.html",
+                         "source":  "Hacker News",
+                         "id":  48555838,
+                         "type":  "story",
+                         "by":  "parksb",
+                         "time":  1781619986,
+                         "score":  132,
+                         "title":  "But yak shaving is fun",
+                         "descendants":  35
+                     },
+                     {
+                         "url":  "https://qwen.ai/blog?id=qwen-robotsuite",
+                         "source":  "Hacker News",
+                         "id":  48554814,
+                         "type":  "story",
+                         "by":  "ilreb",
+                         "time":  1781615715,
+                         "score":  69,
+                         "title":  "Qwen-Robot Suite: A Foundation Model Suite for Physical World Intelligence",
+                         "descendants":  9
+                     },
+                     {
+                         "url":  "https://ciechanow.ski/mechanical-watch/",
+                         "source":  "Hacker News",
+                         "id":  48553550,
+                         "type":  "story",
+                         "by":  "razin",
+                         "time":  1781609187,
+                         "score":  554,
+                         "title":  "Mechanical Watch (2022)",
+                         "descendants":  106
+                     },
+                     {
+                         "url":  "https://www.unicorn-engine.org/",
+                         "source":  "Hacker News",
+                         "id":  48553450,
+                         "type":  "story",
+                         "by":  "tosh",
+                         "time":  1781608478,
+                         "score":  76,
+                         "title":  "Unicorn – The Ultimate CPU Emulator",
+                         "descendants":  23
+                     },
+                     {
+                         "url":  "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/",
+                         "source":  "Hacker News",
+                         "id":  48553224,
+                         "type":  "story",
+                         "by":  "itsmarcelg",
+                         "time":  1781606664,
+                         "score":  624,
+                         "title":  "SpaceX to buy Cursor for $60B",
+                         "descendants":  1039
+                     },
+                     {
+                         "url":  "https://tck.mn/blog/correlated-randomness-sts2/",
+                         "source":  "Hacker News",
+                         "id":  48552844,
+                         "type":  "story",
+                         "by":  "rdmuser",
+                         "time":  1781603209,
+                         "score":  236,
+                         "title":  "Correlated randomness in Slay the Spire 2",
+                         "descendants":  75
+                     },
+                     {
+                         "url":  "https://twitter.com/ID_AA_Carmack/status/2064095424420487226",
+                         "source":  "Hacker News",
+                         "id":  48550779,
+                         "type":  "story",
+                         "by":  "apitman",
+                         "time":  1781585895,
+                         "score":  794,
+                         "title":  "I admire Fabrice Bellard. He is almost certainly a better overall programmer",
+                         "descendants":  370
+                     },
+                     {
+                         "url":  "https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419",
+                         "source":  "Hacker News",
+                         "id":  48550693,
+                         "type":  "story",
+                         "by":  "paulmooreparks",
+                         "time":  1781585196,
+                         "score":  462,
+                         "title":  "The time the x86 emulator team found code so bad they fixed it during emulation",
+                         "descendants":  149
+                     },
+                     {
+                         "url":  "https://garden-of-flowers.heikkilotvonen.com/",
+                         "source":  "Hacker News",
+                         "id":  48550569,
+                         "type":  "story",
+                         "by":  "california-og",
+                         "time":  1781583957,
+                         "score":  136,
+                         "title":  "Show HN: Garden of Flowers – an archive of pictorial typography before ASCII art",
+                         "descendants":  24
+                     },
+                     {
+                         "url":  "https://sabela.datahaskell.com/",
+                         "source":  "Hacker News",
+                         "id":  48525340,
+                         "type":  "story",
+                         "by":  "mchav",
+                         "time":  1781426002,
+                         "score":  9,
+                         "title":  "Show HN: Sabela – A Reactive Notebook for Haskell",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://sighack.com/post/getting-creative-with-perlin-noise-fields",
+                         "source":  "Hacker News",
+                         "id":  48522316,
+                         "type":  "story",
+                         "by":  "0x000xca0xfe",
+                         "time":  1781391339,
+                         "score":  139,
+                         "title":  "Getting Creative with Perlin Noise Fields",
+                         "descendants":  22
+                     },
+                     {
+                         "url":  "https://shadycharacters.co.uk/2026/06/ollie-wagner/",
+                         "source":  "Hacker News",
+                         "id":  48519723,
+                         "type":  "story",
+                         "by":  "nate",
+                         "time":  1781373407,
+                         "score":  78,
+                         "title":  "An interview with an Apple emoji designer",
+                         "descendants":  39
+                     },
+                     {
+                         "url":  "https://cacm.acm.org/news/cooling-at-the-speed-of-light/",
+                         "source":  "Hacker News",
+                         "id":  48510375,
+                         "type":  "story",
+                         "by":  "sohkamyung",
+                         "time":  1781305168,
+                         "score":  15,
+                         "title":  "Cooling at the Speed of Light",
+                         "descendants":  2
+                     },
+                     {
+                         "url":  "https://blog.janestreet.com/formal-methods-at-jane-street-index/",
+                         "source":  "Hacker News",
+                         "id":  48497067,
+                         "type":  "story",
+                         "by":  "nextos",
+                         "time":  1781215657,
+                         "score":  37,
+                         "title":  "Formal Methods and the Future of Programming",
+                         "descendants":  1
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-17_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 22 May 2026 18:00:00 +0000",
+                          "title":  "Catch up on the Dialogues stage at Google I/O 2026.",
+                          "description":  [
+                                              "Alphabet CEO Sundar Pichai in conversation on the I/O 2026 Dialogues stage",
+                                              "A recap of the 2026 I/O Dialogues, where leaders discuss the future of AI, quantum computing, robotics and creativity."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
+                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
+                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-17 04:00:02",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}

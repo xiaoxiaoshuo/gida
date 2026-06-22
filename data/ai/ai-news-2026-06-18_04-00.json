@@ -1,0 +1,430 @@
+﻿{
+    "hn_items":  [
+                     {
+                         "url":  "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
+                         "source":  "Hacker News",
+                         "id":  48575451,
+                         "type":  "story",
+                         "by":  "Brajeshwar",
+                         "time":  1781724122,
+                         "score":  35,
+                         "title":  "The hacker sent by Anthropic to calm the government\u0027s nerves about AI safety",
+                         "descendants":  23
+                     },
+                     {
+                         "url":  "https://openai.com/index/ai-chemist-improves-reaction/",
+                         "source":  "Hacker News",
+                         "id":  48573757,
+                         "type":  "story",
+                         "by":  "ilreb",
+                         "time":  1781717660,
+                         "score":  26,
+                         "title":  "AI chemist improves a challenging reaction in medicinal chemistry",
+                         "descendants":  12
+                     },
+                     {
+                         "url":  "https://ghostinthedata.info/posts/2026/2026-06-13-human-connection-moat/",
+                         "source":  "Hacker News",
+                         "id":  48573435,
+                         "type":  "story",
+                         "by":  "speckx",
+                         "time":  1781716461,
+                         "score":  46,
+                         "title":  "The Competitive Moat That AI Can\u0027t Replicate",
+                         "descendants":  27
+                     },
+                     {
+                         "url":  "https://www.ycombinator.com/companies/trellis-ai/jobs/Cg94htp-product-lead",
+                         "source":  "Hacker News",
+                         "id":  48573221,
+                         "type":  "job",
+                         "by":  "macklinkachorn",
+                         "time":  1781715602,
+                         "score":  1,
+                         "title":  "Trellis AI (YC W24)  hiring a product lead to build agents for healthcare access",
+                         "descendants":  null
+                     },
+                     {
+                         "url":  "https://ribbie.tv/watch",
+                         "source":  "Hacker News",
+                         "id":  48573012,
+                         "type":  "story",
+                         "by":  "brownrout",
+                         "time":  1781714655,
+                         "score":  134,
+                         "title":  "Show HN: An 8-bit live gamecast for baseball",
+                         "descendants":  80
+                     },
+                     {
+                         "url":  "https://github.com/Adam-CAD/CADAM",
+                         "source":  "Hacker News",
+                         "id":  48572553,
+                         "type":  "story",
+                         "by":  "zachdive",
+                         "time":  1781712844,
+                         "score":  91,
+                         "title":  "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+                         "descendants":  43
+                     },
+                     {
+                         "url":  "https://www.greptile.com/blog/trex-code-execution",
+                         "source":  "Hacker News",
+                         "id":  48571851,
+                         "type":  "story",
+                         "by":  "dakshgupta",
+                         "time":  1781710141,
+                         "score":  33,
+                         "title":  "TREX: An AI code reviewer that runs your code",
+                         "descendants":  5
+                     },
+                     {
+                         "url":  "https://www.science.org/content/article/french-physicist-and-media-star-loses-doctorate-after-plagiarism-investigation",
+                         "source":  "Hacker News",
+                         "id":  48571767,
+                         "type":  "story",
+                         "by":  "bookofjoe",
+                         "time":  1781709829,
+                         "score":  116,
+                         "title":  "French physicist and media star loses doctorate after plagiarism investigation",
+                         "descendants":  112
+                     },
+                     {
+                         "url":  "https://discuss.grapheneos.org/d/35949-volkswagen-app?page=3",
+                         "source":  "Hacker News",
+                         "id":  48571526,
+                         "type":  "story",
+                         "by":  "microtonal",
+                         "time":  1781708687,
+                         "score":  315,
+                         "title":  "Volkswagen started blocking GrapheneOS users",
+                         "descendants":  218
+                     },
+                     {
+                         "url":  "https://lore.org/",
+                         "source":  "Hacker News",
+                         "id":  48571081,
+                         "type":  "story",
+                         "by":  "regnerba",
+                         "time":  1781706627,
+                         "score":  705,
+                         "title":  "Epic Games announces Lore version control system",
+                         "descendants":  394
+                     },
+                     {
+                         "url":  "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
+                         "source":  "Hacker News",
+                         "id":  48570948,
+                         "type":  "story",
+                         "by":  "BerislavLopac",
+                         "time":  1781706044,
+                         "score":  254,
+                         "title":  "AI demands more engineering discipline. Not less",
+                         "descendants":  119
+                     },
+                     {
+                         "url":  "https://www.lutr.dev/want-your-images-back-sure-that-ll-be-5-dollars",
+                         "source":  "Hacker News",
+                         "id":  48569954,
+                         "type":  "story",
+                         "by":  "lutr",
+                         "time":  1781701503,
+                         "score":  536,
+                         "title":  "Want your images back? That\u0027ll be $5",
+                         "descendants":  227
+                     },
+                     {
+                         "url":  "https://www.thesignalist.io/s/the-dialogue-dividend/",
+                         "source":  "Hacker News",
+                         "id":  48569894,
+                         "type":  "story",
+                         "by":  "kodesko",
+                         "time":  1781701238,
+                         "score":  98,
+                         "title":  "Why thinking out loud with someone beats thinking alone",
+                         "descendants":  35
+                     },
+                     {
+                         "url":  "https://wpvip.com/future-of-the-web-2026/",
+                         "source":  "Hacker News",
+                         "id":  48569278,
+                         "type":  "story",
+                         "by":  "thm",
+                         "time":  1781698287,
+                         "score":  939,
+                         "title":  "Sixty percent of US consumers say \u0027AI\u0027 in brand messaging is a turnoff",
+                         "descendants":  477
+                     },
+                     {
+                         "url":  "https://github.com/rxi/microui",
+                         "source":  "Hacker News",
+                         "id":  48569205,
+                         "type":  "story",
+                         "by":  "peter_d_sherman",
+                         "time":  1781697868,
+                         "score":  140,
+                         "title":  "MicroUI – A tiny, portable, immediate-mode UI library written in ANSI C",
+                         "descendants":  42
+                     },
+                     {
+                         "url":  "https://www.rfc-editor.org/info/rfc10008/",
+                         "source":  "Hacker News",
+                         "id":  48568502,
+                         "type":  "story",
+                         "by":  "schappim",
+                         "time":  1781693477,
+                         "score":  262,
+                         "title":  "RFC 10008: The new HTTP Query Method",
+                         "descendants":  121
+                     },
+                     {
+                         "url":  "https://www.scientificamerican.com/article/americas-compact-between-science-and-politics-is-broken/",
+                         "source":  "Hacker News",
+                         "id":  48568058,
+                         "type":  "story",
+                         "by":  "presspot",
+                         "time":  1781690061,
+                         "score":  399,
+                         "title":  "U.S. science is in chaos",
+                         "descendants":  458
+                     },
+                     {
+                         "url":  "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+                         "source":  "Hacker News",
+                         "id":  48567759,
+                         "type":  "story",
+                         "by":  "himata4113",
+                         "time":  1781687520,
+                         "score":  663,
+                         "title":  "GLM-5.2 is the new leading open weights model on Artificial Analysis",
+                         "descendants":  339
+                     },
+                     {
+                         "url":  "https://bubbles.town/",
+                         "source":  "Hacker News",
+                         "id":  48567155,
+                         "type":  "story",
+                         "by":  "headalgorithm",
+                         "time":  1781682584,
+                         "score":  453,
+                         "title":  "Hacker News but for independent blogs",
+                         "descendants":  158
+                     },
+                     {
+                         "url":  "https://claude.com/blog/the-founders-playbook",
+                         "source":  "Hacker News",
+                         "id":  48566832,
+                         "type":  "story",
+                         "by":  "e2e4",
+                         "time":  1781679882,
+                         "score":  176,
+                         "title":  "The founder\u0027s playbook: Building an AI-native startup",
+                         "descendants":  138
+                     },
+                     {
+                         "url":  "https://www.freerange.city/p/why-do-commercial-spaces-sit-vacant",
+                         "source":  "Hacker News",
+                         "id":  48566791,
+                         "type":  "story",
+                         "by":  "Redoubts",
+                         "time":  1781679569,
+                         "score":  73,
+                         "title":  "Why do commercial spaces sit vacant? (2025)",
+                         "descendants":  108
+                     },
+                     {
+                         "url":  "https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/",
+                         "source":  "Hacker News",
+                         "id":  48565498,
+                         "type":  "story",
+                         "by":  "giuliomagnifico",
+                         "time":  1781668516,
+                         "score":  171,
+                         "title":  "US holds off blacklisting DeepSeek, more than 100 firms deemed security risks",
+                         "descendants":  153
+                     },
+                     {
+                         "url":  "https://browser-use.com/posts/firecracker-browser-infra",
+                         "source":  "Hacker News",
+                         "id":  48556561,
+                         "type":  "story",
+                         "by":  "gregpr07",
+                         "time":  1781622901,
+                         "score":  99,
+                         "title":  "How we run Firecracker VMs inside EC2 and start browsers in less than 1s",
+                         "descendants":  50
+                     },
+                     {
+                         "url":  "https://starscope.live/feed",
+                         "source":  "Hacker News",
+                         "id":  48545818,
+                         "type":  "story",
+                         "by":  "xenophin",
+                         "time":  1781551277,
+                         "score":  5,
+                         "title":  "Show HN: StarScope – Free astronomy dashboard for observers outside the US/UK",
+                         "descendants":  1
+                     },
+                     {
+                         "url":  "https://mathenchant.wordpress.com/2026/06/15/seventeen-camels-and-where-they-can-take-you/",
+                         "source":  "Hacker News",
+                         "id":  48544250,
+                         "type":  "story",
+                         "by":  "ibobev",
+                         "time":  1781543553,
+                         "score":  16,
+                         "title":  "Seventeen Camels and Where They Can Take You",
+                         "descendants":  7
+                     },
+                     {
+                         "url":  "https://kirklandroundabouts.com",
+                         "source":  "Hacker News",
+                         "id":  48533098,
+                         "type":  "story",
+                         "by":  "DenisM",
+                         "time":  1781473316,
+                         "score":  114,
+                         "title":  "Kirkland Roundabouts",
+                         "descendants":  86
+                     },
+                     {
+                         "url":  "https://airfields-freeman.com/",
+                         "source":  "Hacker News",
+                         "id":  48531590,
+                         "type":  "story",
+                         "by":  "wizardforhire",
+                         "time":  1781465121,
+                         "score":  133,
+                         "title":  "Abandoned and Little-Known Airfields",
+                         "descendants":  37
+                     },
+                     {
+                         "url":  "https://thehappytraveler.ca/travel-guide-italy/capitoline-wolf-siena-rome-myths/",
+                         "source":  "Hacker News",
+                         "id":  48529923,
+                         "type":  "story",
+                         "by":  "jruohonen",
+                         "time":  1781457700,
+                         "score":  9,
+                         "title":  "The Capitoline Wolf",
+                         "descendants":  0
+                     },
+                     {
+                         "url":  "https://johnowhitaker.github.io/inkwash/about",
+                         "source":  "Hacker News",
+                         "id":  48523534,
+                         "type":  "story",
+                         "by":  "Yenrabbit",
+                         "time":  1781403283,
+                         "score":  114,
+                         "title":  "Show HN: Inkwash, a watercolor sketching app and explanation",
+                         "descendants":  18
+                     },
+                     {
+                         "url":  "https://www.makingsoftware.com/chapters/image-compression",
+                         "source":  "Hacker News",
+                         "id":  48522927,
+                         "type":  "story",
+                         "by":  "vinhnx",
+                         "time":  1781396762,
+                         "score":  111,
+                         "title":  "Image Compression",
+                         "descendants":  14
+                     }
+                 ],
+    "总量":  40,
+    "触发时间":  "2026-06-18_04-00",
+    "rss_items":  [
+                      {
+                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
+                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
+                          "title":  "How we used Gemini to build Google I/O 2026",
+                          "description":  [
+                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
+                                              "Learn how Googlers used AI to produce Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
+                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
+                          "description":  [
+                                              "Gemini Omni \u0026 Gemini 3.5 hero",
+                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
+                          "title":  "Catch up on 12 major I/O 2026 moments",
+                          "description":  [
+                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
+                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
+                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
+                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
+                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
+                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 17 Jun 2026 15:00:00 +0000",
+                          "title":  "New research shows how AMIE, our medical AI, could help manage health conditions.",
+                          "description":  "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+                          "link":  "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
+                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
+                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
+                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
+                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
+                          "description":  [
+                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
+                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
+                                          ],
+                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
+                          "source":  "GoogleAI Blog"
+                      },
+                      {
+                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
+                          "title":  "The latest AI news we announced in May 2026",
+                          "description":  [
+                                              "May AI recap",
+                                              "Here are Google’s latest AI updates from May 2026"
+                                          ],
+                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+                          "source":  "GoogleAI Blog"
+                      }
+                  ],
+    "采集时间":  "2026-06-18 04:00:01",
+    "来源":  "cron-ainews-0400",
+    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
+    "分类统计":  {
+                 "rss":  10,
+                 "hn":  30
+             }
+}
