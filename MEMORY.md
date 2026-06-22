@@ -1,3 +1,5 @@
+# MEMORY.md - 2026-06-23 更新 (元规划者恢复)
+
 # MEMORY.md - Long-Term Memory
 
 This file contains curated memories, significant events, decisions, lessons learned, and important context distilled from daily notes.
@@ -744,3 +746,52 @@ P0官方原始文件 → P1权威媒体(Bloomberg/Reuters) → P2研究机构(Go
 - 推送恢复: 1 次 (b206af9..787df41)
 - 数据落盘: 4 文件 (2 cron JSON + 2 派生初始)
 - 总计: 7 件主要工作, 派单方 vs 子智能体比例 5:2
+
+---
+
+### 2026-06-05~23 - 18天采集持续运行 (元规划者沉默)
+
+**断档概况**: 从 6/5 10:10 最后派单方会话到 6/23 04:06 恢复，共计 18 天。期间：
+- **cron-watchdog-v3**: ✅ 每 30min 持续稳定运行 (最后写入 6/23 07:00, 622KB JSONL)
+- **数据采集管道**: ✅ 持续执行
+  - HourlyPriceCollector: 每小时采集 (06:00 数据: BTC $63,970 / ETH $1,724 / SOL $72.11)
+  - GitHub Trending v5: 每 30min 采集 (cron 日志持续写入)
+  - AINewsCollector_6h: 每 6h 采集
+  - BridgeCollector2h: 每 2h 采集
+  - FomcD7Tracker: 每 12h 采集
+- **自动推送**: ✅ 间歇性成功，GFW 时断时续 (6/23 07:22 最后成功推送)
+- **数据新鲜度**: 6/23 07:00 prices_latest.json 全部 < 1h 新鲜
+
+**元规划者层零产出**:
+- **简报**: 无 — 最后简报 v47 (6/5 10:21)
+- **ALERT**: 无 — 最后 ALERT 6/5 06:00 前后
+- **子智能体**: 无 — 6/5 后无 G-系列任务派发
+- **MEMORY.md**: 6/5 11:25 后未更新 (17天)
+- **HEARTBEAT.md**: 仅 6/23 04:06 一次快照 (由 cron-watchdog 触发)
+
+**18天市场价格演变**:
+| 变量 | 6/5 值 | 6/23 值 | 变化 |
+|------|--------|---------|------|
+| BTC | $63,321 | $63,970 | +$649 (+1.0%) |
+| ETH | ~$1,710 | $1,724 | +0.8% |
+| SOL | ~$83 | $72.11 | -13.1% |
+| F&G | 12 (Extreme Fear) | 20 (Extreme Fear) | +8 回升 |
+| OIL | $93 | $74.33 | -20.1% |
+| GOLD | $4,448 | $4,190.6 | -5.8% |
+
+**关键市场事件 (18天窗口)**:
+1. **OIL暴跌 -20%**: 从 $93 跌至 $74，推测地缘溢价消退 + 需求预期转弱
+2. **BTC横盘震荡**: 6/4 触底 $63,173 后在 $63-66K 区间窄幅震荡
+3. **GOLD回调 -5.8%**: 从 $4,448 高点回落至 $4,190
+4. **F&G缓慢回暖**: 从 12 (历史极值) 回升到 20，但仍处在 Extreme Fear
+5. **ETH跟跌不跟涨**: 相对 BTC 弱势，SOL 跌幅最大 (-13.1%)
+
+**系统关键发现**:
+- **价格数据源切换**: OKX/Binance API 失败，自动降级到 Gateio API (BTC/ETH/SOL 均已切换)
+- **GFW 推送模式**: 推送成功率约 70-80%，GFW 选择性阻断 github.com:443，但 api.github.com 正常
+- **cron-watchdog 健康度**: 4/5 绿色 (hourly_price, ai_news, github_trending, auto_push)，1/5 失败 (gfw_health probe: cmd.exe 路径问题)
+- **6/10 CPI 已公布**: 18天窗口中包含 6/10 CPI 和 6/13 NVDA 财报 — 元规划者未产出分析
+
+**断档根因复盘**: 6/5 10:10 派单方完成 G-52 最终派发后未再触发元规划者层。cron 持续运行但缺乏"元层产出"机制。恢复触发来自 6/23 04:06 auto-push 推送失败。
+
+---

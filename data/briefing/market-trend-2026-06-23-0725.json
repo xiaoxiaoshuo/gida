@@ -1,0 +1,121 @@
+{
+  "report_id": "market-trend-2026-06-23-0725",
+  "generated_at": "2026-06-23T07:25:00+08:00",
+  "timezone": "Asia/Shanghai",
+
+  "trends": {
+    "summary": "加密市场今日早盘持续走弱，BTC、ETH、SOL全线下跌，跌幅约1.2%-1.4%。宏观面F&G从6/5的12回升至20，仍处于Extreme Fear区间。原油和黄金自6/5以来持续下跌，大宗商品全面承压。预计欧洲/美国开市前继续震荡偏弱。",
+
+    "crypto": {
+      "today_session_00_to_07": {
+        "btc": {
+          "open_00": 64840.6,
+          "close_07": 63970.2,
+          "change_usd": -870.4,
+          "change_pct": -1.34,
+          "low_03": 64338.9,
+          "data_gap_04": "FAIL - all sources",
+          "rebound_05": 64433.8,
+          "resume_decline_06_07": true
+        },
+        "eth": {
+          "open_00": 1745.55,
+          "close_07": 1724.24,
+          "change_usd": -21.31,
+          "change_pct": -1.22
+        },
+        "sol": {
+          "open_00": 73.16,
+          "close_07": 72.11,
+          "change_usd": -1.05,
+          "change_pct": -1.44
+        }
+      },
+      "vs_2026_06_05": {
+        "btc": {
+          "june5_session_00to07_pct": -0.20,
+          "june23_session_00to07_pct": -1.34,
+          "june23_vs_june5_07h_pct": 0.42,
+          "note": "BTC 07:00价格微高于6/5（+0.42%），但早盘跌幅是6/5的6.7倍，抛压显著加大"
+        },
+        "eth": {
+          "june5_session_00to07_pct": -0.40,
+          "june23_session_00to07_pct": -1.22,
+          "june23_vs_june5_07h_pct": -2.47,
+          "note": "ETH相对6/5明显走弱，07:00水平低于6/5同期2.47%，表现劣于BTC"
+        },
+        "sol": {
+          "june5_session_00to07_pct": -1.67,
+          "june23_session_00to07_pct": -1.44,
+          "june23_vs_june5_07h_pct": 5.39,
+          "note": "SOL绝对价格大幅高于6/5（+5.39%相对BTC/ETH表现强势），数据缺失可能与04:00采集失败有关"
+        }
+      }
+    },
+
+    "macro": {
+      "fear_greed": {
+        "current": 20,
+        "classification": "Extreme Fear",
+        "previous_june5": 12,
+        "change": "回升8点，仍处于极恐区间"
+      },
+      "oil": {
+        "current": 74.33,
+        "june5": 92.98,
+        "change_pct": -20.06,
+        "note": "原油从6/5以来暴跌20%，全球需求担忧加剧"
+      },
+      "gold": {
+        "current": 4190.6,
+        "june5": 4479.0,
+        "change_pct": -6.44,
+        "note": "黄金同步下跌6.4%，避险资产也在被抛售"
+      },
+      "macro_assessment": "OIL与GOLD同步大跌指向流动性收紧/美元走强或衰退恐慌。加密市场缺乏独有催化剂，跟随宏观偏弱震荡。F&G虽小幅回升，但宏观大宗双杀预示短期难以反转。"
+    },
+
+    "hourly_detail": {
+      "note": "04:00全源采集失败，可能系API限流或网络抖动",
+      "btc_hourly": [
+        {"hour": "00:00", "price": 64840.6},
+        {"hour": "01:00", "price": 64722.5},
+        {"hour": "02:00", "price": 64607.6},
+        {"hour": "03:00", "price": 64338.9, "note": "加速下跌"},
+        {"hour": "04:00", "price": "FAIL"},
+        {"hour": "05:00", "price": 64433.8, "note": "小幅反弹"},
+        {"hour": "06:00", "price": 64316.3, "note": "反弹乏力回落"},
+        {"hour": "07:00", "price": 63970.2, "note": "加速下探新低"}
+      ],
+      "eth_hourly": [
+        {"hour": "00:00", "price": 1745.55},
+        {"hour": "01:00", "price": 1740.23},
+        {"hour": "02:00", "price": 1741.11},
+        {"hour": "03:00", "price": 1733.70},
+        {"hour": "04:00", "price": "FAIL"},
+        {"hour": "05:00", "price": 1734.61},
+        {"hour": "06:00", "price": 1732.95},
+        {"hour": "07:00", "price": 1724.24}
+      ],
+      "sol_hourly": [
+        {"hour": "00:00", "price": 73.16},
+        {"hour": "01:00", "price": 72.95},
+        {"hour": "02:00", "price": 73.27, "note": "SOL相对抗跌"},
+        {"hour": "03:00", "price": 72.65},
+        {"hour": "04:00", "price": "FAIL"},
+        {"hour": "05:00", "price": 72.82},
+        {"hour": "06:00", "price": 72.73},
+        {"hour": "07:00", "price": 72.11}
+      ]
+    },
+
+    "gfw_push_test": {
+      "status": "FAILED",
+      "timestamp": "2026-06-23T07:25:00+08:00",
+      "http_code": "000",
+      "error": "SSL/TLS连接失败（TCP层面），curl.exe无法建立连接至github.com",
+      "git_push": "SKIPPED - 因GFW阻断未执行",
+      "action_taken": "记录时间戳，跳过git push"
+    }
+  }
+}
