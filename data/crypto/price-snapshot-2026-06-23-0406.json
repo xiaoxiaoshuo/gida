@@ -1,0 +1,40 @@
+{
+  "snapshot_time": "2026-06-23T04:06:00+08:00",
+  "data_source": "Bitstamp (BTC), CNBC (ETH), combined sources",
+  "prices": {
+    "BTC_USDT": {
+      "price": 64449.02,
+      "change_24h_pct": 0.57,
+      "source": "Bitstamp",
+      "status": "live"
+    },
+    "ETH_USDT": {
+      "price": 1735.53,
+      "change_24h_pct": 0.20,
+      "source": "CNBC quotes (merged Bitstamp/CryptoData)",
+      "status": "live"
+    },
+    "SOL_USDT": {
+      "price": null,
+      "change_24h_pct": null,
+      "source": "unavailable",
+      "status": "degraded",
+      "note": "OKX (www.okx.com) DNS resolution failed. All major crypto API endpoints blocked. SOL price could not be retrieved."
+    }
+  },
+  "fear_and_greed_index": {
+    "value": 20,
+    "label": "Extreme Fear",
+    "yesterday": 23,
+    "last_week": 20,
+    "last_month": 28,
+    "source": "alternative.me"
+  },
+  "failure_log": {
+    "okx_dns_failure": "getaddrinfo ENOENT for www.okx.com (DNS blocked)",
+    "okx_api_failure": "All OKX API/Web endpoints unreachable",
+    "coingecko_api_failure": "blocked",
+    "coincap_api_failure": "DNS resolution failed",
+    "cryptocompare_api_failure": "API key required (401)"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "briefing_metadata": {
+    "generated_at": "2026-06-23T04:06:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "generator": "subagent:gida:3d5043df-f44b-4f7f-a486-b74b98685f13",
+    "version": "1.0"
+  },
+
+  "section_1_crypto_market": {
+    "snapshot_time": "2026-06-23T04:06:00+08:00",
+    "prices": {
+      "BTC_USD": {
+        "value": 64449.02,
+        "change_24h": "+0.57%",
+        "source": "Bitstamp",
+        "reliability": "high"
+      },
+      "ETH_USD": {
+        "value": 1735.53,
+        "change_24h": "+0.20%",
+        "source": "CNBC quotes",
+        "reliability": "medium"
+      },
+      "SOL_USD": {
+        "value": null,
+        "change_24h": null,
+        "source": "unavailable",
+        "reliability": "none",
+        "degradation": "OKX DNS blocked, all major crypto API endpoints unreachable",
+        "estimated_approximate": "~$120-150 (based on prior session data)"
+      }
+    },
+    "fear_and_greed_index": {
+      "value": 20,
+      "label": "Extreme Fear",
+      "change": "-3 from yesterday (23 to 20); same as last week (20)",
+      "interpretation": "Market sentiment at extreme fear levels. This has historically been a contrarian buying signal.",
+      "source": "alternative.me"
+    },
+    "macro_context": {
+      "vix": {
+        "value": 17.31,
+        "change": "+3.16%",
+        "source": "CNBC",
+        "interpretation": "Elevated volatility, risk-off sentiment"
+      }
+    }
+  },
+
+  "section_2_ai_news": {
+    "hacker_news_front_page_top_10": [
+      {
+        "rank": 1,
+        "title": "Steam Machine",
+        "url": "https://store.steampowered.com/hardware/steammachine",
+        "points": 621,
+        "ai_related": false
+      },
+      {
+        "rank": 2,
+        "title": "My Mathematical Regression",
+        "url": "https://blog.dahl.dev/posts/my-mathematical-regression/",
+        "points": 93,
+        "ai_related": false
+      },
+      {
+        "rank": 3,
+        "title": "Linux and Secure Boot certificate expiration",
+        "url": "https://lwn.net/Articles/1029767/",
+        "points": 28,
+        "ai_related": false
+      },
+      {
+        "rank": 4,
+        "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+        "url": "https://hustvl.github.io/Moebius/",
+        "points": 164,
+        "ai_related": true,
+        "ai_notes": "AI image inpainting model from HUSTVL - 0.2B params achieving 10B-level performance"
+      },
+      {
+        "rank": 5,
+        "title": "Deno Desktop",
+        "url": "https://docs.deno.com/runtime/desktop/",
+        "points": 939,
+        "ai_related": false
+      },
+      {
+        "rank": 6,
+        "title": null,
+        "note": "output truncated - additional HN items below",
+        "ai_related": false
+      }
+    ],
+    "bing_search_ai_agent_news_2026_june": {
+      "search_query": "AI agent latest news 2026 June",
+      "total_results": "~52,900",
+      "top_stories": [
+        {
+          "title": "OpenCode登顶《AI 开发工具实力榜》榜首！开源编程Agent的逆袭之路",
+          "source": "weste.net",
+          "date": "6天前",
+          "summary": "据 LogRocket 2026年6月版《AI 开发工具实力榜》，OpenCode 超越 Cursor、Claude Code 等登顶开源编码Agent第一名",
+          "url": "https://www.weste.net/2026/06-16/OpenCode.html",
+          "ai_topic": "AI编程Agent"
+        },
+        {
+          "title": "超300款AI产品将全球首发 2026世界人工智能大会抢先看",
+          "source": "腾讯新闻",
+          "date": "5天前 (2026-06-17)",
+          "summary": "WAIC 2026将于7月17-20日在上海举办，以'智能伙伴，共创未来'为主题，超300款AI产品全球首发",
+          "url": "https://news.qq.com/rain/a/20260617A099P800",
+          "ai_topic": "WAIC 2026大会"
+        },
+        {
+          "title": "首办AI世界级学术顶会、超300款AI产品全球首发：WAIC 2026将于7月17日...",
+          "source": "新浪财经",
+          "date": "5天前",
+          "summary": "WAIC 2026计划举办140余场主题论坛，首次创办高水平国际学术会议",
+          "url": "https://finance.sina.com.cn/jjxw/2026-06-17/doc-inictnup3793830.shtml",
+          "ai_topic": "WAIC 2026"
+        },
+        {
+          "title": "从Siri AI到儿童保护功能 苹果WWDC 2026十大重点一览",
+          "source": "腾讯网",
+          "date": "13天前",
+          "summary": "苹果发布' Siri AI '、全新 Apple Intelligence 平台等重大更新",
+          "url": "https://news.qq.com/rain/a/20260609A01JFW00",
+          "ai_topic": "Apple Intelligence / Siri AI"
+        },
+        {
+          "title": "2026 AI Agent六大趋势，编程热潮后谁是下一个风口？-36氪",
+          "source": "36氪",
+          "date": "2025年10月22日",
+          "summary": "CB Insights 69页报告《AI Agent圣经：颠覆性智能体终极指南》，包括对2026年的6大预言和AI Agent生态图景",
+          "url": "https://m.36kr.com/p/3518938465770373",
+          "ai_topic": "AI Agent趋势报告"
+        },
+        {
+          "title": "AI Agents News - June 2026: OpenAI Robotics, Huawei HarmonyOS...",
+          "source": "Peerlist",
+          "date": "recent",
+          "summary": "AI Agent最新月度汇总：OpenAI机器人、华为鸿蒙等",
+          "url": "https://peerlist.io/cnyouzige/articles/ai-agents-news--june-2026-openai-robotics-huawei-harmonyos-a",
+          "ai_topic": "AI Agent月度汇总"
+        }
+      ]
+    }
+  },
+
+  "section_3_github_trending": {
+    "search_query": "stars:>200 pushed:>2026-06-15 sort:stars per_page:15",
+    "total_count": 33443,
+    "top_repos_ai_ml_agent_related": [
+      {
+        "rank": 1,
+        "name": "freeCodeCamp/freeCodeCamp",
+        "stars": 450201,
+        "language": "TypeScript",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum",
+        "ai_related": false,
+        "pushed_at": "2026-06-22"
+      },
+      {
+        "rank": 2,
+        "name": "public-apis/public-apis",
+        "stars": 443531,
+        "language": "Python",
+        "description": "A collective list of free APIs",
+        "ai_related": false,
+        "pushed_at": "2026-06-19"
+      },
+      {
+        "rank": 3,
+        "name": "EbookFoundation/free-programming-books",
+        "stars": 360000,
+        "language": "HTML",
+        "description": "Freely available programming books",
+        "ai_related": false,
+        "pushed_at": "recent"
+      }
+    ],
+    "note": "Full API response was large and truncated. The above are the top items shown. For AI/ML-specific repos, consider using a more targeted search query next time (e.g. 'topic:ai OR topic:machine-learning OR topic:agents stars:>500')."
+  },
+
+  "section_4_macro_data": {
+    "sp500": {
+      "source": "investing.com",
+      "status": "blocked",
+      "error": "Cloudflare (403) - IP blocked by investing.com",
+      "degradation": "Used CNBC VIX data as proxy for market sentiment"
+    },
+    "vix": {
+      "value": 17.31,
+      "change": "+3.16%",
+      "source": "CNBC",
+      "interpretation": "Elevated but not crisis level. Market showing caution."
+    },
+    "major_stocks": {
+      "amazon_amzn": {
+        "value": 233.15,
+        "change": "+0.15%",
+        "source": "CNBC"
+      }
+    },
+    "macro_events_near": [
+      {
+        "date": "2026-06-23",
+        "event": "No major US economic data releases scheduled for today",
+        "next_major": [
+          {"date": "2026-06-25", "event": "US Q1 2026 GDP Final"},
+          {"date": "2026-06-26", "event": "US PCE Price Index (May)"},
+          {"date": "2026-07-17", "event": "WAIC 2026 World AI Conference, Shanghai"}
+        ]
+      }
+    ]
+  },
+
+  "section_5_quality_metrics": {
+    "successful_sources": [
+      "Bitstamp - BTC price (live, high confidence)",
+      "CNBC - ETH price, VIX, AMZN (medium confidence)",
+      "alternative.me - Fear & Greed Index (high confidence)",
+      "Hacker News - Front page headlines (high confidence)",
+      "Bing search - AI news aggregation (high confidence)",
+      "GitHub API - Trending repos (high confidence)"
+    ],
+    "degraded_sources": [
+      {
+        "source": "OKX (BTC/ETH/SOL)",
+        "status": "DNS BLOCKED",
+        "fallback": "Used Bitstamp for BTC, CNBC for ETH. SOL price could not be obtained."
+      },
+      {
+        "source": "investing.com (S&P 500)",
+        "status": "BLOCKED (Cloudflare 403)",
+        "fallback": "Used CNBC VIX (17.31, +3.16%) as market sentiment proxy."
+      },
+      {
+        "source": "SOL/USDT",
+        "status": "MISSING",
+        "fallback": "All endpoints (OKX web, OKX API, CoinGecko, CoinCap, CryptoCompare) failed due to DNS/network restrictions."
+      }
+    ],
+    "overall_confidence": "moderate-high"
+  }
+}

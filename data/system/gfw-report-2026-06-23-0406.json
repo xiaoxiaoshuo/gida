@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-06-23 04:06",
+  "github_connectivity": "down",
+  "connectivity_detail": {
+    "github.com_443_curl": "failed (exit code 1, http code 000)",
+    "api.github.com_443_curl": "ok (200)",
+    "ping_github.com": "ok (86ms, IP 20.205.243.166)",
+    "dns_via_8.8.8.8": "ok (resolves to 20.205.243.166)",
+    "git_push_origin_main": "failed (Failed to connect to github.com port 443)",
+    "assessment": "SELECTIVE_BLOCKING - github.com port 443 blocked, api.github.com accessible via different IP"
+  },
+  "last_successful_push": "2026-06-23 03:23:22",
+  "failed_attempts_since": 3,
+  "downtime_minutes": 43,
+  "downtime_start": "2026-06-23 03:23",
+  "push_backlog": [
+    "commit 6423890 (03:42) - chore: 定时更新",
+    "commit d3ab73c (03:52) - chore: 定时更新",
+    "commit b2fa8dd (04:02) - chore: 定时更新"
+  ],
+  "unpushed_commits": 3,
+  "pending_files_git_status": [
+    "HEARTBEAT.md (modified)",
+    "data/ai/tech-news_latest.json (modified)",
+    "memory/2026-06-23.md (modified)",
+    "data/ai/hacker-news-2026-06-23_04-00.json (untracked)"
+  ],
+  "push_memory_archive": {
+    "files": ["2026-06-03.md", "2026-06-04.md", "2026-06-05.md", "2026-06-22.md", "2026-06-23.md"],
+    "last_updated": "2026-06-23 03:23 (2026-06-23.md)"
+  },
+  "gfw_pattern": "current blocking started ~03:23, expected window ~07:00-08:00 (4h cycle)",
+  "recommended_action": "wait"
+}
