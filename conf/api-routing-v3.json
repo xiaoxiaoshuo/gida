@@ -1,0 +1,327 @@
+{
+  "version": "3.0",
+  "generated": "2026-06-23 07:30",
+  "description": "数据源优先级路由矩阵 — 采集程序v3 API健康预检层核心配置",
+  "design_doc": "INTEL/agent-G47B-collection-v3-design-2026-06-05-0636.md",
+  "sources": {
+    "BTC": {
+      "primary": {
+        "name": "Gateio",
+        "endpoint": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt1": {
+        "name": "Bitstamp",
+        "endpoint": "https://www.bitstamp.net/api/v2/ticker/btcusd/",
+        "status": "known_good",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt2": {
+        "name": "HTX/Huobi",
+        "endpoint": "https://api.huobi.pro/market/detail/merged?symbol=btcusdt",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt3": {
+        "name": "Kucoin",
+        "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BTC-USDT",
+        "status": "unknown",
+        "tier": 3,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt4": {
+        "name": "CryptoCompare",
+        "endpoint": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD&api_key={API_KEY}",
+        "status": "needs_api_key",
+        "tier": 3,
+        "timeout_s": 10,
+        "category": "crypto"
+      },
+      "blocked": ["okx", "binance", "coingecko"],
+      "blocked_reason": "GFW DNS劫持/TCP超时 (confirmed 2026-06-05持续至今)"
+    },
+    "ETH": {
+      "primary": {
+        "name": "Gateio",
+        "endpoint": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt1": {
+        "name": "HTX/Huobi",
+        "endpoint": "https://api.huobi.pro/market/detail/merged?symbol=ethusdt",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt2": {
+        "name": "Kucoin",
+        "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ETH-USDT",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt3": {
+        "name": "CryptoCompare",
+        "endpoint": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD&api_key={API_KEY}",
+        "status": "needs_api_key",
+        "tier": 3,
+        "timeout_s": 10,
+        "category": "crypto"
+      },
+      "alt4": {
+        "name": "Bitstamp",
+        "endpoint": "https://www.bitstamp.net/api/v2/ticker/ethusd/",
+        "status": "known_good",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "blocked": ["okx", "binance", "coingecko"],
+      "blocked_reason": "GFW DNS劫持/TCP超时 (confirmed 2026-06-05持续至今)"
+    },
+    "SOL": {
+      "primary": {
+        "name": "Gateio",
+        "endpoint": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt1": {
+        "name": "HTX/Huobi",
+        "endpoint": "https://api.huobi.pro/market/detail/merged?symbol=solusdt",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt2": {
+        "name": "Kucoin",
+        "endpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 5,
+        "category": "crypto"
+      },
+      "alt3": {
+        "name": "CryptoCompare",
+        "endpoint": "https://min-api.cryptocompare.com/data/price?fsym=SOL&tsyms=USD&api_key={API_KEY}",
+        "status": "needs_api_key",
+        "tier": 3,
+        "timeout_s": 10,
+        "category": "crypto"
+      },
+      "blocked": ["okx", "binance", "coingecko"],
+      "blocked_reason": "GFW DNS劫持/TCP超时 (confirmed 2026-06-05持续至今)"
+    },
+    "VIX": {
+      "primary": {
+        "name": "Yahoo Finance VIX",
+        "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 10,
+        "category": "macro"
+      },
+      "alt1": {
+        "name": "Yahoo Finance ^VIXN",
+        "endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIXN?interval=1d&range=1d",
+        "status": "known_good",
+        "tier": 1,
+        "timeout_s": 10,
+        "category": "macro"
+      },
+      "alt2": {
+        "name": "alternative.me F&G (降级替代)",
+        "endpoint": "https://api.alternative.me/fng/",
+        "status": "known_good",
+        "tier": 3,
+        "timeout_s": 10,
+        "category": "macro"
+      }
+    },
+    "FNG": {
+      "primary": {
+        "name": "alternative.me",
+        "endpoint": "https://api.alternative.me/fng/?limit=1",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 10,
+        "category": "sentiment"
+      }
+    },
+    "GOLD": {
+      "primary": {
+        "name": "Kitco",
+        "endpoint": "https://www.kitco.com/charts/livegold.html",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 15,
+        "category": "macro",
+        "note": "JS渲染页面，HTML正则提取，置信度中等"
+      },
+      "alt1": {
+        "name": "Kitco Main",
+        "endpoint": "https://www.kitco.com/charts/gold",
+        "status": "known_good",
+        "tier": 1,
+        "timeout_s": 15,
+        "category": "macro"
+      },
+      "alt2": {
+        "name": "goldprice.org",
+        "endpoint": "https://goldprice.org/gold-price-hong-kong.html",
+        "status": "unknown",
+        "tier": 2,
+        "timeout_s": 15,
+        "category": "macro"
+      }
+    },
+    "OIL": {
+      "primary": {
+        "name": "TradingEconomics",
+        "endpoint": "https://tradingeconomics.com/commodity/crude-oil",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 15,
+        "category": "macro"
+      },
+      "alt1": {
+        "name": "EIA API",
+        "endpoint": "https://api.eia.gov/v2/petroleum/pri/spt/data/?api_key=DEMO_KEY&frequency=daily&data[0]=value&facets[product][]=EPCWTI&sort[0][column]=period&sort[0][direction]=desc&length=1",
+        "status": "known_good",
+        "tier": 1,
+        "timeout_s": 15,
+        "category": "macro",
+        "note": "DEMO_KEY有频率限制且可能返回过期数据"
+      },
+      "alt2": {
+        "name": "oilprice.com",
+        "endpoint": "https://oilprice.com/oil-price-charts/",
+        "status": "known_good",
+        "tier": 2,
+        "timeout_s": 15,
+        "category": "macro",
+        "note": "JS渲染，HTML正则提取"
+      }
+    },
+    "GH_Trending": {
+      "primary": {
+        "name": "GitHub Search API v7",
+        "endpoint": "https://api.github.com/search/repositories",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 10,
+        "category": "tech",
+        "note": "需browser工具访问，curl/Invoke-WebRequest无法直连(TCP超时)"
+      },
+      "alt1": {
+        "name": "GitHub Trending Page",
+        "endpoint": "https://github.com/trending",
+        "status": "known_good",
+        "tier": 2,
+        "timeout_s": 15,
+        "category": "tech",
+        "note": "JS渲染，需browser工具"
+      }
+    },
+    "HN_Top30": {
+      "primary": {
+        "name": "HN Firebase API",
+        "endpoint": "https://hacker-news.firebaseio.com/v0/topstories.json",
+        "status": "known_good",
+        "last_check": "2026-06-23",
+        "tier": 1,
+        "timeout_s": 10,
+        "category": "tech"
+      }
+    },
+    "OKX_BTC": {
+      "name": "OKX API (已阻断)",
+      "endpoint": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+      "status": "blocked",
+      "last_check": "2026-06-23",
+      "blocked_reason": "GFW DNS劫持: 解析到169.254.0.2 (AWS China ELB回退IP)",
+      "blocked_since": "2026-06-05",
+      "category": "crypto"
+    },
+    "BINANCE_BTC": {
+      "name": "Binance API (已阻断)",
+      "endpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+      "status": "blocked",
+      "last_check": "2026-06-23",
+      "blocked_reason": "GFW TCP超时: 5s连接超时",
+      "blocked_since": "2026-06-05",
+      "category": "crypto"
+    },
+    "COINGECKO": {
+      "name": "CoinGecko API (已阻断)",
+      "endpoint": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+      "status": "blocked",
+      "last_check": "2026-06-23",
+      "blocked_reason": "GFW TCP超时: 5s连接超时",
+      "blocked_since": "2026-06-05",
+      "category": "crypto"
+    }
+  },
+  "routing_rules": {
+    "crypto_priority": ["primary", "alt1", "alt2", "alt3", "alt4"],
+    "macro_priority": ["primary", "alt1", "alt2"],
+    "tech_priority": ["primary", "alt1"],
+    "sentiment_priority": ["primary"],
+    "fallback_chain": {
+      "strategy": "try_ordered",
+      "stop_on_success": true,
+      "max_attempts_per_source": 1
+    }
+  },
+  "alerts": {
+    "primary_all_down": {
+      "action": "block_collection",
+      "notify": true,
+      "description": "当某资产的所有primary源均失败时，阻断该资产的采集"
+    },
+    "no_sources_available": {
+      "action": "use_cache",
+      "ttl_hours": 4,
+      "description": "当某资产没有任何可用源时，使用缓存数据，最长4小时"
+    },
+    "all_crypto_down": {
+      "action": "block_all_collection",
+      "notify": true,
+      "description": "当所有加密货币primary源均失败时，阻断全部采集"
+    },
+    "single_source_degradation": {
+      "action": "log_warning",
+      "notify": false,
+      "description": "当单独某个源失败但仍有其他源可用时，仅记录日志"
+    },
+    "dns_hijack_detected": {
+      "action": "block_source",
+      "notify": true,
+      "description": "检测到DNS劫持时，立即将该源标记为blocked并通知"
+    }
+  }
+}
