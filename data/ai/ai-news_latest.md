@@ -1,26 +1,26 @@
-﻿# AI News 凌晨补采 | 2026-06-22_09-04
+﻿# AI News 凌晨补采 | 2026-06-23_04-00
 
-**采集时间**: 2026-06-22 09:04:18 GMT+8
+**采集时间**: 2026-06-23 04:00:02 GMT+8
 **数据源**: Hacker News top 30 + AI 博客 RSS 10
 **总量**: 40 items
 
 ## 🔥 Hacker News Top 30
 
-1. [The Doom Justifies the Valuation](https://geohot.github.io//blog/jekyll/update/2026/06/21/the-doom-justifies-the-valuation.html) ★8 
-2. [Claude: Elevated Error Rates for Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6](https://status.claude.com/incidents/lv35v0q9nsj2) ★29 💬30
-3. [Petition against Meta's employee training data collection for ML models](https://mcipetition.com/) ★11 💬3
-4. [Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions](https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions) ★9 
-5. [Simple hard way to conjugate Japanese verbs](https://underreacted.leaflet.pub/3mmevu6woys27) ★27 💬20
-6. [Did my old job only exist because of fraud?](https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/) ★180 💬73
-7. [My 1992 view of the problems of computer programming in 1992](https://blog.plover.com/prog/fortran-i.html) ★3 💬1
-8. [FDA advisors unanimously vote to approve Moderna's mRNA after agency drama](https://arstechnica.com/health/2026/06/fda-advisors-unanimously-vote-to-approve-modernas-mrna-after-agency-drama/) ★88 💬47
-9. [Apertus – Open Foundation Model for Sovereign AI](https://apertvs.ai/) ★168 💬58
-10. [PowerFox Browser](https://powerfox.jazzzny.me/) ★61 💬17
-11. [Everything is logarithms](https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html) ★88 💬11
-12. [Show HN: Recall – fully-local project memory for Claude Code](https://github.com/raiyanyahya/recall) ★62 💬52
-13. [There is minimal downside to switching to open models](https://www.marble.onl/posts/cancel_claude.html) ★28 💬6
-14. [Ask for no, don't ask for yes (2022)](https://www.mooreds.com/wordpress/archives/3518) ★102 💬46
-15. [JSON-LD explained for personal websites](https://hawksley.dev/blog/json-ld-explained-for-personal-websites/) ★155 💬39
+1. [British Columbia, Time Zones, and Postgres](https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes) ★6 
+2. [Canada is looking to build up to 10 new nuclear reactors over the next 15 years](https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509) ★24 💬1
+3. [Memory crisis is getting so bad that even retro RAM prices are going to the Moon](https://www.theregister.com/personal-tech/2026/06/22/the-memory-crisis-is-getting-so-bad-that-even-retro-ram-prices-are-going-to-the-moon/5259627) ★13 
+4. [Linux and Secure Boot certificate expiration](https://lwn.net/Articles/1029767/) ★19 💬3
+5. [Finding the Best Dog Treat with Statistics](https://www.wespiser.com/posts/2026-06-19-best-dog-treat.html) ★35 💬6
+6. [Steam Machine](https://store.steampowered.com/hardware/steammachine) ★588 💬533
+7. [Blogger defeats photographer's copyright claim](https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm) ★38 💬19
+8. [Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers](https://jobs.ashbyhq.com/charge-robotics) ★1 
+9. [Mexican government unveils a prototype for a new homegrown, ultra-affordable EV](https://gizmodo.com/mexico-just-showed-off-a-new-extremely-cheap-government-backed-ev-2000769080) ★108 💬74
+10. [DisplayMate](https://www.displaymate.com/) ★47 💬15
+11. [NSF slashes research programs to support new tech initiative, insiders say](https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say) ★119 💬52
+12. [Prompt Injection as Role Confusion](https://role-confusion.github.io) ★83 💬45
+13. [Show HN: Oak – Git replacement designed for agents](https://oak.space/oak/oak) ★85 💬95
+14. [The text in Claude Code’s “Extended Thinking” output](https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/) ★224 💬167
+15. [Show HN: Selector Forge – browser extension for AI-generated resilient selectors](https://github.com/Intuned/selector-forge) ★25 
 
 ## 📰 AI 官方博客 (10 条)
 
@@ -36,5 +36,5 @@
 - **GoogleAI Blog**: [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/)
 
 ---
-*来源: cron-ainews-0400 自动采集 | 2026-06-22 09:04:18*
+*来源: cron-ainews-0400 自动采集 | 2026-06-23 04:00:02*
 

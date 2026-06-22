@@ -1,0 +1,57 @@
+﻿{
+    "errors":  [
+                   "BTC : all sources failed",
+                   "ETH : all sources failed",
+                   "SOL : all sources failed"
+               ],
+    "timestamp":  "2026-06-23 04:00:02",
+    "collection_version":  "v8",
+    "quality_report":  {
+                           "VIX":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    }
+                       },
+    "macro":  {
+                  "VIX":  {
+                              "value":  20,
+                              "source":  "alternative.me_FNG",
+                              "timestamp":  "2026-06-23 04:00:02",
+                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
+                              "confidence":  "medium",
+                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"20\",\n\t\t\t\"value_classification\": \"Extr",
+                              "value_classification":  "Extreme Fear"
+                          },
+                  "OIL":  {
+                              "value":  74.23,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-23 04:00:02",
+                              "raw_len":  416662,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4190.2,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-23 04:00:02",
+                               "raw_len":  65575,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "crypto":  {
+
+               },
+    "timestamp_iso":  "2026-06-22T20:00:02Z"
+}
