@@ -1,430 +1,424 @@
 ﻿{
-    "hn_items":  [
-                     {
-                         "url":  "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
-                         "source":  "Hacker News",
-                         "id":  48634787,
-                         "type":  "story",
-                         "by":  "sprawl_",
-                         "time":  1782156060,
-                         "score":  6,
-                         "title":  "British Columbia, Time Zones, and Postgres",
-                         "descendants":  0
-                     },
-                     {
-                         "url":  "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
-                         "source":  "Hacker News",
-                         "id":  48634585,
-                         "type":  "story",
-                         "by":  "geox",
-                         "time":  1782155208,
-                         "score":  24,
-                         "title":  "Canada is looking to build up to 10 new nuclear reactors over the next 15 years",
-                         "descendants":  1
-                     },
-                     {
-                         "url":  "https://www.theregister.com/personal-tech/2026/06/22/the-memory-crisis-is-getting-so-bad-that-even-retro-ram-prices-are-going-to-the-moon/5259627",
-                         "source":  "Hacker News",
-                         "id":  48634559,
-                         "type":  "story",
-                         "by":  "speckx",
-                         "time":  1782155089,
-                         "score":  13,
-                         "title":  "Memory crisis is getting so bad that even retro RAM prices are going to the Moon",
-                         "descendants":  0
-                     },
-                     {
-                         "url":  "https://lwn.net/Articles/1029767/",
-                         "source":  "Hacker News",
-                         "id":  48633941,
-                         "type":  "story",
-                         "by":  "weaksauce",
-                         "time":  1782152669,
-                         "score":  19,
-                         "title":  "Linux and Secure Boot certificate expiration",
-                         "descendants":  3
-                     },
-                     {
-                         "url":  "https://www.wespiser.com/posts/2026-06-19-best-dog-treat.html",
-                         "source":  "Hacker News",
-                         "id":  48633410,
-                         "type":  "story",
-                         "by":  "wespiser_2018",
-                         "time":  1782150408,
-                         "score":  35,
-                         "title":  "Finding the Best Dog Treat with Statistics",
-                         "descendants":  6
-                     },
-                     {
-                         "url":  "https://store.steampowered.com/hardware/steammachine",
-                         "source":  "Hacker News",
-                         "id":  48632884,
-                         "type":  "story",
-                         "by":  "theschwa",
-                         "time":  1782148191,
-                         "score":  588,
-                         "title":  "Steam Machine",
-                         "descendants":  533
-                     },
-                     {
-                         "url":  "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
-                         "source":  "Hacker News",
-                         "id":  48632859,
-                         "type":  "story",
-                         "by":  "speckx",
-                         "time":  1782147970,
-                         "score":  38,
-                         "title":  "Blogger defeats photographer\u0027s copyright claim",
-                         "descendants":  19
-                     },
-                     {
-                         "url":  "https://jobs.ashbyhq.com/charge-robotics",
-                         "source":  "Hacker News",
-                         "id":  48632792,
-                         "type":  "job",
-                         "by":  "justicz",
-                         "time":  1782147617,
-                         "score":  1,
-                         "title":  "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers",
-                         "descendants":  null
-                     },
-                     {
-                         "url":  "https://gizmodo.com/mexico-just-showed-off-a-new-extremely-cheap-government-backed-ev-2000769080",
-                         "source":  "Hacker News",
-                         "id":  48632652,
-                         "type":  "story",
-                         "by":  "speckx",
-                         "time":  1782146925,
-                         "score":  108,
-                         "title":  "Mexican government unveils a prototype for a new homegrown, ultra-affordable EV",
-                         "descendants":  74
-                     },
-                     {
-                         "url":  "https://www.displaymate.com/",
-                         "source":  "Hacker News",
-                         "id":  48632613,
-                         "type":  "story",
-                         "by":  "skibz",
-                         "time":  1782146752,
-                         "score":  47,
-                         "title":  "DisplayMate",
-                         "descendants":  15
-                     },
-                     {
-                         "url":  "https://www.science.org/content/article/exclusive-nsf-slashes-research-programs-support-new-tech-initiative-insiders-say",
-                         "source":  "Hacker News",
-                         "id":  48632327,
-                         "type":  "story",
-                         "by":  "strangeloops85",
-                         "time":  1782145502,
-                         "score":  119,
-                         "title":  "NSF slashes research programs to support new tech initiative, insiders say",
-                         "descendants":  52
-                     },
-                     {
-                         "url":  "https://role-confusion.github.io",
-                         "source":  "Hacker News",
-                         "id":  48631888,
-                         "type":  "story",
-                         "by":  "x312",
-                         "time":  1782143335,
-                         "score":  83,
-                         "title":  "Prompt Injection as Role Confusion",
-                         "descendants":  45
-                     },
-                     {
-                         "url":  "https://oak.space/oak/oak",
-                         "source":  "Hacker News",
-                         "id":  48631726,
-                         "type":  "story",
-                         "by":  "zdgeier",
-                         "time":  1782142668,
-                         "score":  85,
-                         "title":  "Show HN: Oak – Git replacement designed for agents",
-                         "descendants":  95
-                     },
-                     {
-                         "url":  "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
-                         "source":  "Hacker News",
-                         "id":  48630535,
-                         "type":  "story",
-                         "by":  "0o_MrPatrick_o0",
-                         "time":  1782138166,
-                         "score":  224,
-                         "title":  "The text in Claude Code’s “Extended Thinking” output",
-                         "descendants":  167
-                     },
-                     {
-                         "url":  "https://github.com/Intuned/selector-forge",
-                         "source":  "Hacker News",
-                         "id":  48630515,
-                         "type":  "story",
-                         "by":  "ahmadilaiwi",
-                         "time":  1782138084,
-                         "score":  25,
-                         "title":  "Show HN: Selector Forge – browser extension for AI-generated resilient selectors",
-                         "descendants":  0
-                     },
-                     {
-                         "url":  "https://hustvl.github.io/Moebius/",
-                         "source":  "Hacker News",
-                         "id":  48630171,
-                         "type":  "story",
-                         "by":  "DSemba",
-                         "time":  1782136382,
-                         "score":  161,
-                         "title":  "Moebius: 0.2B image inpainting model with 10B-level performance",
-                         "descendants":  46
-                     },
-                     {
-                         "url":  "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
-                         "source":  "Hacker News",
-                         "id":  48630029,
-                         "type":  "story",
-                         "by":  "cdrnsf",
-                         "time":  1782135818,
-                         "score":  80,
-                         "title":  "Chevron signs 20-year power agreement with Microsoft for West Texas data center",
-                         "descendants":  84
-                     },
-                     {
-                         "url":  "https://mitchellh.com/writing/zig-donation-2026",
-                         "source":  "Hacker News",
-                         "id":  48630020,
-                         "type":  "story",
-                         "by":  "tosh",
-                         "time":  1782135781,
-                         "score":  614,
-                         "title":  "Pledging another $400k to the Zig software foundation",
-                         "descendants":  200
-                     },
-                     {
-                         "url":  "https://www.righto.com/2020/05/die-analysis-of-8087-math-coprocessors.html",
-                         "source":  "Hacker News",
-                         "id":  48629982,
-                         "type":  "story",
-                         "by":  "Jimmc414",
-                         "time":  1782135616,
-                         "score":  60,
-                         "title":  "Die analysis of the 8087 math coprocessor\u0027s fast bit shifter (2020)",
-                         "descendants":  10
-                     },
-                     {
-                         "url":  "https://steveharrison.dev/showdirectorypicker-opens-up-a-whole-new-world/",
-                         "source":  "Hacker News",
-                         "id":  48629387,
-                         "type":  "story",
-                         "by":  "steveharrison",
-                         "time":  1782132142,
-                         "score":  83,
-                         "title":  "window.showDirectoryPicker opens up a whole new world",
-                         "descendants":  85
-                     },
-                     {
-                         "url":  "https://puzzlelair.com/",
-                         "source":  "Hacker News",
-                         "id":  48629213,
-                         "type":  "story",
-                         "by":  "HaxleRose",
-                         "time":  1782131026,
-                         "score":  89,
-                         "title":  "Show HN: Got sick of ads, so I made my own logic puzzle site",
-                         "descendants":  74
-                     },
-                     {
-                         "url":  "https://www.washingtonpost.com/obituaries/2026/06/22/alan-greenspan-most-powerful-central-banker-modern-times-dies-100/",
-                         "source":  "Hacker News",
-                         "id":  48628731,
-                         "type":  "story",
-                         "by":  "helsinkiandrew",
-                         "time":  1782127660,
-                         "score":  167,
-                         "title":  "Alan Greenspan has died",
-                         "descendants":  173
-                     },
-                     {
-                         "url":  "https://github.com/openai/codex/issues/28224",
-                         "source":  "Hacker News",
-                         "id":  48626930,
-                         "type":  "story",
-                         "by":  "vantareed",
-                         "time":  1782113417,
-                         "score":  394,
-                         "title":  "Codex logging bug may write TBs to local SSDs",
-                         "descendants":  215
-                     },
-                     {
-                         "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
-                         "source":  "Hacker News",
-                         "id":  48626866,
-                         "type":  "story",
-                         "by":  "ritzaco",
-                         "time":  1782112923,
-                         "score":  425,
-                         "title":  "GLM 5.2 vs. Opus",
-                         "descendants":  287
-                     },
-                     {
-                         "url":  "https://docs.deno.com/runtime/desktop/",
-                         "source":  "Hacker News",
-                         "id":  48626137,
-                         "type":  "story",
-                         "by":  "GeneralMaximus",
-                         "time":  1782106720,
-                         "score":  935,
-                         "title":  "Deno Desktop",
-                         "descendants":  346
-                     },
-                     {
-                         "url":  "https://www.youtube.com/watch?v=8GZDOpV2OXk",
-                         "source":  "Hacker News",
-                         "id":  48622241,
-                         "type":  "story",
-                         "by":  "zdw",
-                         "time":  1782073146,
-                         "score":  59,
-                         "title":  "Nintendo Wii U games running from a 1980\u0027s Bernoulli disk [video]",
-                         "descendants":  23
-                     },
-                     {
-                         "url":  "https://clevercrow.io",
-                         "source":  "Hacker News",
-                         "id":  48621645,
-                         "type":  "story",
-                         "by":  "zhubert",
-                         "time":  1782068767,
-                         "score":  44,
-                         "title":  "Show HN: CleverCrow: give tokens to your favorite projects",
-                         "descendants":  63
-                     },
-                     {
-                         "url":  "https://lmao.center/blog/wiggle-accidents/",
-                         "source":  "Hacker News",
-                         "id":  48605561,
-                         "type":  "story",
-                         "by":  "gregsadetsky",
-                         "time":  1781920516,
-                         "score":  444,
-                         "title":  "Help I accidentally a wigglegram",
-                         "descendants":  113
-                     },
-                     {
-                         "url":  "https://www.commentary.org/articles/joseph-epstein/plagiarism-writing-politics-arts/",
-                         "source":  "Hacker News",
-                         "id":  48605318,
-                         "type":  "story",
-                         "by":  "promulgate",
-                         "time":  1781918373,
-                         "score":  7,
-                         "title":  "A New Book on Plagiarism",
-                         "descendants":  2
-                     },
-                     {
-                         "url":  "https://blog.dahl.dev/posts/my-mathematical-regression/",
-                         "source":  "Hacker News",
-                         "id":  48597221,
-                         "type":  "story",
-                         "by":  "aleda145",
-                         "time":  1781867164,
-                         "score":  83,
-                         "title":  "My Mathematical Regression",
-                         "descendants":  23
-                     }
-                 ],
-    "总量":  40,
-    "触发时间":  "2026-06-23_04-00",
-    "rss_items":  [
-                      {
-                          "pubDate":  "Fri, 29 May 2026 19:00:00 +0000",
-                          "title":  "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
-                          "description":  "We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Mon, 01 Jun 2026 16:00:00 +0000",
-                          "title":  "How we used Gemini to build Google I/O 2026",
-                          "description":  [
-                                              "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle, as well.",
-                                              "Learn how Googlers used AI to produce Google I/O 2026."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 29 May 2026 17:30:00 +0000",
-                          "title":  "9 demos of Gemini Omni and Gemini 3.5 in action",
-                          "description":  [
-                                              "Gemini Omni \u0026 Gemini 3.5 hero",
-                                              "Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 28 May 2026 15:00:00 +0000",
-                          "title":  "Catch up on 12 major I/O 2026 moments",
-                          "description":  [
-                                              "The colorful I/O logo against a black background, surrounded by stills from the I/O keynote",
-                                              "Here are 12 of the biggest Google I/O 2026 keynote moments, including news about Gemini Omni, Gemini 3.5 Flash and more."
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 29 May 2026 12:00:00 +0000",
-                          "title":  "Check out real-life AI prototypes from the Futures Lab.",
-                          "description":  "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Mon, 15 Jun 2026 15:00:00 +0000",
-                          "title":  "We’re strengthening our presence in Alabama through new investments and community support.",
-                          "description":  "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
-                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 17 Jun 2026 15:00:00 +0000",
-                          "title":  "New research shows how AMIE, our medical AI, could help manage health conditions.",
-                          "description":  "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-                          "link":  "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Thu, 11 Jun 2026 20:00:00 +0000",
-                          "title":  "Our new community investments in Virginia support local jobs and expand energy affordability.",
-                          "description":  "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-                          "link":  "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Wed, 03 Jun 2026 13:00:00 +0000",
-                          "title":  "5 ways Google Search can level up your thrift and vintage shopping",
-                          "description":  [
-                                              "A colorful, grain-textured collage of various items scattered across a light blue background. The items include a green bucket hat, a wooden clothes hanger, a blue-and-red striped collar, blue sunglasses, denim shorts, a yellow price tag, a red high-heele",
-                                              "Uncover second-hand scores with AI tools in Google Search and Shopping."
-                                          ],
-                          "link":  "https://blog.google/products-and-platforms/products/search/thrifting-tips/",
-                          "source":  "GoogleAI Blog"
-                      },
-                      {
-                          "pubDate":  "Fri, 05 Jun 2026 14:45:00 +0000",
-                          "title":  "The latest AI news we announced in May 2026",
-                          "description":  [
-                                              "May AI recap",
-                                              "Here are Google’s latest AI updates from May 2026"
-                                          ],
-                          "link":  "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
-                          "source":  "GoogleAI Blog"
-                      }
-                  ],
-    "采集时间":  "2026-06-23 04:00:02",
-    "来源":  "cron-ainews-0400",
-    "note":  "凌晨 04:00 补采, 与 AINewsCollector_6h 互补; RSS 失败时仅保留 HN top 30",
-    "分类统计":  {
-                 "rss":  10,
-                 "hn":  30
-             }
+    "sources":  [
+                    {
+                        "path":  "items",
+                        "name":  "Hacker News",
+                        "status":  "ok",
+                        "count":  30
+                    },
+                    {
+                        "path":  "repos",
+                        "name":  "GitHub Trending",
+                        "status":  "ok",
+                        "count":  16
+                    }
+                ],
+    "timestamp":  "2026-06-22T22:00:15Z",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2434,
+                      "repo":  "Hmbown/DeepSeek-TUI",
+                      "url":  "https://github.com/Hmbown/DeepSeek-TUI",
+                      "stars":  11398,
+                      "forks":  0,
+                      "description":  "Coding agent for DeepSeek models that runs in your terminal"
+                  },
+                  {
+                      "rank":  2,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "addyosmani/agent-skills",
+                      "url":  "https://github.com/addyosmani/agent-skills",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Production-grade engineering skills for AI coding agents"
+                  },
+                  {
+                      "rank":  3,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  218,
+                      "repo":  "PriorLabs/TabPFN",
+                      "url":  "https://github.com/PriorLabs/TabPFN",
+                      "stars":  6685,
+                      "forks":  0,
+                      "description":  "⚡ TabPFN: Foundation Model for Tabular Data ⚡"
+                  },
+                  {
+                      "rank":  4,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  927,
+                      "repo":  "docusealco/docuseal",
+                      "url":  "https://github.com/docusealco/docuseal",
+                      "stars":  14361,
+                      "forks":  0,
+                      "description":  "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
+                  },
+                  {
+                      "rank":  5,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  532,
+                      "repo":  "LearningCircuit/local-deep-research",
+                      "url":  "https://github.com/LearningCircuit/local-deep-research",
+                      "stars":  5913,
+                      "forks":  0,
+                      "description":  "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs"
+                  },
+                  {
+                      "rank":  6,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "LadybirdBrowser/ladybird",
+                      "url":  "https://github.com/LadybirdBrowser/ladybird",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Truly independent web browser"
+                  },
+                  {
+                      "rank":  7,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  230,
+                      "repo":  "InsForge/InsForge",
+                      "url":  "https://github.com/InsForge/InsForge",
+                      "stars":  8634,
+                      "forks":  0,
+                      "description":  "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway"
+                  },
+                  {
+                      "rank":  8,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  666,
+                      "repo":  "virattt/dexter",
+                      "url":  "https://github.com/virattt/dexter",
+                      "stars":  24578,
+                      "forks":  0,
+                      "description":  "An autonomous agent for deep financial research"
+                  },
+                  {
+                      "rank":  9,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  641,
+                      "repo":  "anthropics/financial-services",
+                      "url":  "https://github.com/anthropics/financial-services",
+                      "stars":  9603,
+                      "forks":  0,
+                      "description":  "Anthropics financial services repository"
+                  },
+                  {
+                      "rank":  10,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  2192,
+                      "repo":  "ruvnet/ruflo",
+                      "url":  "https://github.com/ruvnet/ruflo",
+                      "stars":  45658,
+                      "forks":  0,
+                      "description":  "The leading agent orchestration platform for Claude"
+                  },
+                  {
+                      "rank":  11,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "cheahjs/free-llm-api-resources",
+                      "url":  "https://github.com/cheahjs/free-llm-api-resources",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "A list of free LLM inference resources accessible via API"
+                  },
+                  {
+                      "rank":  12,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  42,
+                      "repo":  "BigBodyCobain/Shadowbroker",
+                      "url":  "https://github.com/BigBodyCobain/Shadowbroker",
+                      "stars":  6056,
+                      "forks":  0,
+                      "description":  "Open-source intelligence for the global theater"
+                  },
+                  {
+                      "rank":  13,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "shiyu-coder/Kronos",
+                      "url":  "https://github.com/shiyu-coder/Kronos",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "Kronos: A Foundation Model for the Language of Financial Markets"
+                  },
+                  {
+                      "rank":  14,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  503,
+                      "repo":  "bwya77/vscode-dark-islands",
+                      "url":  "https://github.com/bwya77/vscode-dark-islands",
+                      "stars":  8296,
+                      "forks":  0,
+                      "description":  "VSCode theme based off the easemate IDE and Jetbrains islands theme"
+                  },
+                  {
+                      "rank":  15,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  0,
+                      "repo":  "bytedance/deer-flow",
+                      "url":  "https://github.com/bytedance/deer-flow",
+                      "stars":  0,
+                      "forks":  0,
+                      "description":  "An open-source long-horizon SuperAgent harness that researches, codes, and creates"
+                  },
+                  {
+                      "rank":  16,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  1125,
+                      "repo":  "D4Vinci/Scrapling",
+                      "url":  "https://github.com/D4Vinci/Scrapling",
+                      "stars":  46779,
+                      "forks":  0,
+                      "description":  "🕷️ An adaptive Web Scraping framework"
+                  }
+              ],
+    "items":  [
+                  {
+                      "date":  "2026-06-22T17:09:51Z",
+                      "title":  "Steam Machine launches today",
+                      "url":  "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:21:00Z",
+                      "title":  "British Columbia, Time Zones, and Postgres",
+                      "url":  "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:19:55Z",
+                      "title":  "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+                      "url":  "https://github.com/dorukkumkumoglu/optocamzero",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T11:06:04Z",
+                      "title":  "My Mathematical Regression",
+                      "url":  "https://blog.dahl.dev/posts/my-mathematical-regression/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:22:37Z",
+                      "title":  "Japanese symbols that speak without words",
+                      "url":  "https://arun.is/blog/japan-symbols/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T20:48:30Z",
+                      "title":  "Nearly Half of LG Smart TV Apps Contain Residential Proxy SDKs",
+                      "url":  "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T20:59:15Z",
+                      "title":  "Tacky men with ridiculous glasses want you to wear them too",
+                      "url":  "https://manualdousuario.net/en/smart-glasses-ugly-tacky/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T21:00:51Z",
+                      "title":  "Kyber (YC W23) Is Hiring a Head of Engineering",
+                      "url":  "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:53:02Z",
+                      "title":  "Moebius: 0.2B image inpainting model with 10B-level performance",
+                      "url":  "https://hustvl.github.io/Moebius/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T15:37:48Z",
+                      "title":  "Show HN: Oak – Git alternative designed for agents",
+                      "url":  "https://oak.space/oak/oak",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:06:48Z",
+                      "title":  "Canada is looking to build up to 10 new nuclear reactors over the next 15 years",
+                      "url":  "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:13:46Z",
+                      "title":  "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+                      "url":  "https://ipvm.com/reports/police-chiefs-track",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:30:17Z",
+                      "title":  "Codex logging bug may write TBs to local SSDs",
+                      "url":  "https://github.com/openai/codex/issues/28224",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T20:19:06Z",
+                      "title":  "Nintendo Wii U games running from a 1980\u0027s Bernoulli disk [video]",
+                      "url":  "https://www.youtube.com/watch?v=8GZDOpV2OXk",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T23:25:24Z",
+                      "title":  "PivCo-Huffman \"Merge\" Operations",
+                      "url":  "https://fgiesen.wordpress.com/2026/06/21/pivco-huffman-merge-operations/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T18:24:29Z",
+                      "title":  "Linux and Secure Boot certificate expiration (2025)",
+                      "url":  "https://lwn.net/Articles/1029767/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:22:03Z",
+                      "title":  "GLM 5.2 vs. Opus",
+                      "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T16:45:52Z",
+                      "title":  "DisplayMate",
+                      "url":  "https://www.displaymate.com/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T17:06:10Z",
+                      "title":  "Blogger defeats photographer\u0027s copyright claim",
+                      "url":  "https://blog.ericgoldman.org/archives/2026/06/blogger-defeats-photographers-copyright-claim-sokolskyfilm-v-messiah.htm",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:43:01Z",
+                      "title":  "Pledging another $400k to the Zig software foundation",
+                      "url":  "https://mitchellh.com/writing/zig-donation-2026",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:40:16Z",
+                      "title":  "Die analysis of the 8087 math coprocessor\u0027s fast bit shifter (2020)",
+                      "url":  "https://www.righto.com/2020/05/die-analysis-of-8087-math-coprocessors.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T20:09:40Z",
+                      "title":  "Walt Disney Company is the most successful at monetizing human nostalgia [audio]",
+                      "url":  "https://www.acquired.fm/episodes/the-walt-disney-company",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T15:48:55Z",
+                      "title":  "Prompt Injection as Role Confusion",
+                      "url":  "https://role-confusion.github.io",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T17:46:48Z",
+                      "title":  "Finding the Best Dog Treat with Statistics",
+                      "url":  "https://www.wespiser.com/posts/2026-06-19-best-dog-treat.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T14:22:46Z",
+                      "title":  "The text in Claude Code’s “Extended Thinking” output",
+                      "url":  "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T19:04:49Z",
+                      "title":  "Memory crisis is getting so bad that even retro RAM prices are going to the Moon",
+                      "url":  "https://www.theregister.com/personal-tech/2026/06/22/the-memory-crisis-is-getting-so-bad-that-even-retro-ram-prices-are-going-to-the-moon/5259627",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T20:55:17Z",
+                      "title":  "Job application asked for my SAT scores",
+                      "url":  "https://mrmarket.lol/job-application-asked-for-my-sat-scores/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T05:38:40Z",
+                      "title":  "Deno Desktop",
+                      "url":  "https://docs.deno.com/runtime/desktop/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:43:38Z",
+                      "title":  "Chevron signs 20-year power agreement with Microsoft for West Texas data center",
+                      "url":  "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T01:55:16Z",
+                      "title":  "Help I accidentally a wigglegram",
+                      "url":  "https://lmao.center/blog/wiggle-accidents/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  }
+              ],
+    "count":  46
 }
