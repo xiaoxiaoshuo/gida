@@ -3,3 +3,4 @@
 {"detail":"","source":"health-precheck-v4","timestamp":"2026-06-23T07:37:34+08:00","level":"ALERT","score":null,"action":"block","msg":"API Health Score = %, action=block"}
 {"msg":"API Health Score = 70%, action=block | ALL_SOURCES_DOWN: COINGECKO, BINANCE_BTC, OKX_BTC","level":"ALERT","source":"health-precheck-v4","score":70.0,"action":"block","timestamp":"2026-06-23T07:41:10+08:00","detail":" 资产全部源不可用: COINGECKO, BINANCE_BTC, OKX_BTC"}
 {"source":"health-precheck-v4","timestamp":"2026-06-23T07:42:22+08:00","score":70.0,"msg":"API Health Score = 70%, action=block | ALL_SOURCES_DOWN: OKX_BTC, BINANCE_BTC, COINGECKO","action":"block","level":"ALERT","detail":" 资产全部源不可用: OKX_BTC, BINANCE_BTC, COINGECKO"}
+{"timestamp":"2026-06-23T07:43:12+08:00","level":"ALERT","source":"health-precheck-v4","action":"block","msg":"API Health Score = 70%, action=block | ALL_SOURCES_DOWN: BINANCE_BTC, OKX_BTC, COINGECKO","score":70.0,"detail":" 资产全部源不可用: BINANCE_BTC, OKX_BTC, COINGECKO"}
