@@ -1,0 +1,90 @@
+﻿{
+    "timestamp_iso":  "2026-06-22T14:00:02Z",
+    "timestamp":  "2026-06-22 22:00:02",
+    "macro":  {
+                  "VIX":  {
+                              "value":  20,
+                              "source":  "alternative.me_FNG",
+                              "timestamp":  "2026-06-22 22:00:02",
+                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
+                              "confidence":  "medium",
+                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"20\",\n\t\t\t\"value_classification\": \"Extr",
+                              "value_classification":  "Extreme Fear"
+                          },
+                  "OIL":  {
+                              "value":  73.77,
+                              "source":  "tradingeconomics.com",
+                              "timestamp":  "2026-06-22 22:00:02",
+                              "raw_len":  415782,
+                              "confidence":  "high",
+                              "unit":  "USD/barrel (WTI)"
+                          },
+                  "GOLD":  {
+                               "value":  4203.4,
+                               "source":  "kitco.com",
+                               "timestamp":  "2026-06-22 22:00:02",
+                               "raw_len":  65569,
+                               "confidence":  "high",
+                               "unit":  "USD/oz"
+                           }
+              },
+    "errors":  [
+
+               ],
+    "crypto":  {
+                   "BTC":  {
+                               "price":  65577.1,
+                               "timestamp":  "2026-06-22 22:00:02",
+                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"65577.1\",\"lowest_ask\":\"65573\",\"lowest_size\"",
+                               "confidence":  "high",
+                               "source":  "Gateio_API"
+                           },
+                   "ETH":  {
+                               "price":  1777.74,
+                               "timestamp":  "2026-06-22 22:00:02",
+                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1777.74\",\"lowest_ask\":\"1777.46\",\"lowest_siz",
+                               "confidence":  "high",
+                               "source":  "Gateio_API"
+                           },
+                   "SOL":  {
+                               "price":  75,
+                               "timestamp":  "2026-06-22 22:00:02",
+                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"75\",\"lowest_ask\":\"74.98\",\"lowest_size\":\"542",
+                               "confidence":  "high",
+                               "source":  "Gateio_API"
+                           }
+               },
+    "quality_report":  {
+                           "SOL":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "VIX":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "OIL":  {
+                                       "label":  "中",
+                                       "score":  65,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                   },
+                           "GOLD":  {
+                                        "label":  "中",
+                                        "score":  65,
+                                        "factors":  "API权威来源 + 来源标注 + 时间戳"
+                                    },
+                           "BTC":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   },
+                           "ETH":  {
+                                       "label":  "高",
+                                       "score":  100,
+                                       "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+                                   }
+                       },
+    "collection_version":  "v8"
+}

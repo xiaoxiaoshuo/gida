@@ -9654,3 +9654,26 @@ A d d - C o n t e n t   :   T h e   p r o c e s s   c a n n o t   a c c e s s   
 [INFO] 21:00:18 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-22_21-00.json
 [INFO] 21:00:18 - 质量: 高 (平均分 82.5)
 [INFO] 21:00:18 - 错误: 0 项
+[INFO] 22:00:02 - ========== 价格采集开始 (v8 多源降级) ==========
+[INFO] 22:00:02 - 时间: 2026-06-22 22:00:02
+[INFO] 22:00:02 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 22:00:02 -   采集 BTC ...
+[OK] 22:00:04 -   BTC = 65577.1 [Gateio_API] 质量:高
+[INFO] 22:00:04 -   采集 ETH ...
+[OK] 22:00:05 -   ETH = 1777.74 [Gateio_API] 质量:高
+[INFO] 22:00:05 -   采集 SOL ...
+[OK] 22:00:05 -   SOL = 75 [Gateio_API] 质量:高
+[INFO] 22:00:05 - >> 采集VIX恐慌指数...
+[WARN] 22:00:11 - VIX Yahoo Finance API全部失败，降级到F&G(alternative.me)...
+[WARN] 22:00:13 -   F&G = 20 (Extreme Fear) [alternative.me 降级替代VIX]
+[OK] 22:00:13 -   VIX = 20 [alternative.me_FNG] 质量:中
+[INFO] 22:00:13 - >> 采集黄金价格...
+[INFO] 22:00:15 -   GOLD Kitco字体样式正则成功: 4203.4
+[OK] 22:00:15 -   GOLD = 4203.4 [kitco.com] 质量:中
+[INFO] 22:00:15 - >> 采集原油价格...
+[INFO] 22:00:17 -   OIL TradingEconomics抓取成功: 73.77
+[OK] 22:00:17 -   OIL = 73.77 [tradingeconomics.com] 质量:中
+[INFO] 22:00:17 - ========== 采集完成 ==========
+[INFO] 22:00:17 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-22_22-00.json
+[INFO] 22:00:17 - 质量: 高 (平均分 82.5)
+[INFO] 22:00:17 - 错误: 0 项
