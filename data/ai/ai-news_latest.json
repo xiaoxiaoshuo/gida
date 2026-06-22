@@ -13,7 +13,7 @@
                         "count":  16
                     }
                 ],
-    "timestamp":  "2026-06-22T10:00:15Z",
+    "timestamp":  "2026-06-22T16:00:14Z",
     "repos":  [
                   {
                       "rank":  1,
@@ -210,9 +210,93 @@
               ],
     "items":  [
                   {
+                      "date":  "2026-06-22T13:43:01Z",
+                      "title":  "Pledging Another $400k to the Zig Software Foundation",
+                      "url":  "https://mitchellh.com/writing/zig-donation-2026",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:45:48Z",
+                      "title":  "Never Give Them Your Face",
+                      "url":  "https://nevergivethemyourface.com/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:53:02Z",
+                      "title":  "Moebius: 0.2B image inpainting model with 10B-level performance",
+                      "url":  "https://hustvl.github.io/Moebius/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T14:22:46Z",
+                      "title":  "Claude Code\u0027s \"extended thinking\" is a summary- not authentic thinking",
+                      "url":  "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
                       "date":  "2026-06-22T05:38:40Z",
                       "title":  "Deno Desktop",
                       "url":  "https://docs.deno.com/runtime/desktop/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:43:38Z",
+                      "title":  "Chevron signs 20-year power agreement with Microsoft for West Texas data center",
+                      "url":  "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:30:17Z",
+                      "title":  "Codex logging bug may write TBs to local SSDs",
+                      "url":  "https://github.com/openai/codex/issues/28224",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T07:22:03Z",
+                      "title":  "GLM 5.2 vs. Opus",
+                      "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T12:23:46Z",
+                      "title":  "Show HN: Got sick of ads, so I made my own logic puzzle site",
+                      "url":  "https://puzzlelair.com/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:40:16Z",
+                      "title":  "Die analysis of the 8087 math coprocessor\u0027s fast bit shifter",
+                      "url":  "https://www.righto.com/2020/05/die-analysis-of-8087-math-coprocessors.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T14:55:51Z",
+                      "title":  "DHL Set to Transport Goods on New Wind-Powered Cargo Ships",
+                      "url":  "https://www.wsj.com/pro/sustainable-business/dhl-set-to-transport-goods-on-new-wind-powered-cargo-ships-eca5d5a0",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T14:54:59Z",
+                      "title":  "I built Ponytrail, a local audit trail for AI coding-agent edits",
+                      "url":  "https://github.com/0xroylee/ponytrail",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T15:37:48Z",
+                      "title":  "Git is forever. I\u0027m building Oak anyways",
+                      "url":  "https://oak.space/blog",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -238,9 +322,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-22T07:22:03Z",
-                      "title":  "GLM 5.2 vs. Opus",
-                      "url":  "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+                      "date":  "2026-06-19T19:16:24Z",
+                      "title":  "Granularity comes at a cost – Game Theory",
+                      "url":  "https://www.sidhantbansal.com/2026/Granularity-comes-at-a-cost/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -252,9 +336,16 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-22T07:30:17Z",
-                      "title":  "Codex logging bug may write TBs to local SSDs",
-                      "url":  "https://github.com/openai/codex/issues/28224",
+                      "date":  "2026-06-20T09:13:55Z",
+                      "title":  "Maria Isabel Sánchez Vegara on Her 100th \"Little People, Big Dreams\" Book",
+                      "url":  "https://www.amightygirl.com/blog?p=36753",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T12:09:34Z",
+                      "title":  "Why Drawing Tablet Brands Won\u0027t Collaborate on Linux Floss Drivers",
+                      "url":  "https://www.davidrevoy.com/article1154/why-drawing-tablet-brands-wont-collaborate-on-linux-floss-drivers",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -266,44 +357,9 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-20T03:29:19Z",
-                      "title":  "Memory Safe Inline Assembly",
-                      "url":  "https://fil-c.org/inlineasm",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-20T05:43:54Z",
-                      "title":  "Lisp in the Rust Type System",
-                      "url":  "https://github.com/playX18/lisp-in-types/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T21:10:32Z",
-                      "title":  "Everything is logarithms",
-                      "url":  "https://alexkritchevsky.com/2026/05/25/everything-is-logarithms.html",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T22:55:23Z",
-                      "title":  "Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
-                      "url":  "https://www.teachmecoolstuff.com/viewarticle/fine-tuning-a-local-llm-to-categorize-questions",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-19T19:00:01Z",
-                      "title":  "Luis Alvarez\u0027s Journey from Hiroshima to the Death of the Dinosaurs",
-                      "url":  "https://www.lrb.co.uk/the-paper/v48/n11/steven-shapin/barrel-of-greenbacks",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T12:44:13Z",
-                      "title":  "Identity verification on Claude",
-                      "url":  "https://support.claude.com/en/articles/14328960-identity-verification-on-claude",
+                      "date":  "2026-06-21T20:19:06Z",
+                      "title":  "Nintendo Wii U games running from a 1980\u0027s Bernoulli disk [video]",
+                      "url":  "https://www.youtube.com/watch?v=8GZDOpV2OXk",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -315,9 +371,23 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-19T14:30:46Z",
-                      "title":  "My 1992 view of the problems of computer programming in 1992",
-                      "url":  "https://blog.plover.com/prog/fortran-i.html",
+                      "date":  "2026-06-22T10:35:21Z",
+                      "title":  "Manticore Search 27.1.5: Auth, sharding, conversational and faster vector search",
+                      "url":  "https://manticoresearch.com/blog/manticore-search-27-1-5/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T11:27:40Z",
+                      "title":  "Alan Greenspan Dies at 100; Led Fed During Boom Before 2008 Bust",
+                      "url":  "https://www.bloomberg.com/news/articles/2026-06-22/alan-greenspan-dies-at-100-led-fed-during-boom-before-2008-bust",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T13:57:49Z",
+                      "title":  "Nvidia Halos",
+                      "url":  "https://www.nvidia.com/en-us/ai-trust-center/halos/autonomous-vehicles/",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
@@ -329,93 +399,23 @@
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-20T00:42:50Z",
-                      "title":  "Efficient C++ Programming for Modern C++ CPUs, Chapter 4/part 2",
-                      "url":  "https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-take-2-80736",
+                      "date":  "2026-06-19T14:30:46Z",
+                      "title":  "My 1992 view of the problems of computer programming in 1992",
+                      "url":  "https://blog.plover.com/prog/fortran-i.html",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-21T18:51:47Z",
-                      "title":  "JSON-LD explained for personal websites",
-                      "url":  "https://hawksley.dev/blog/json-ld-explained-for-personal-websites/",
+                      "date":  "2026-06-20T03:29:19Z",
+                      "title":  "Memory Safe Inline Assembly",
+                      "url":  "https://fil-c.org/inlineasm",
                       "source":  "Hacker News",
                       "desc":  ""
                   },
                   {
-                      "date":  "2026-06-21T22:53:50Z",
-                      "title":  "Japanese verb conjugation the simple hard way",
-                      "url":  "https://underreacted.leaflet.pub/3mmevu6woys27",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-18T18:45:03Z",
-                      "title":  "How I play video games with spinal muscular atrophy",
-                      "url":  "https://www.openassistivetech.org/how-i-actually-play-video-games-with-sma-the-tools-i-use-every-day/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T00:34:33Z",
-                      "title":  "1983 Northern Telecom Commodore Phone",
-                      "url":  "https://www.oldtelephoneroom.ca/1983-northern-telecom-commodore-phone/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T21:23:13Z",
-                      "title":  "PowerFox Browser",
-                      "url":  "https://powerfox.jazzzny.me/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T12:49:48Z",
-                      "title":  "Show HN: Teach your kids perfect pitch",
-                      "url":  "https://github.com/paytonjjones/bsharp",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-17T07:33:29Z",
-                      "title":  "Minecraft: Java Edition 26.2, the first version with Vulkan 1.2",
-                      "url":  "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-2",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T21:54:34Z",
-                      "title":  "Rent collections are down in New York",
-                      "url":  "https://www.politico.com/news/2026/06/21/rent-collections-are-down-in-new-york-and-no-ones-sure-why-00966982",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-20T13:18:28Z",
-                      "title":  "Show HN: Criterion Closet as a website – pull any of 1,247 films off the shelf",
-                      "url":  "https://the-criterion-closet.vercel.app",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T16:41:21Z",
-                      "title":  "The minimum viable unit of saleable software",
-                      "url":  "https://brandur.org/minimum-viable-unit",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T16:08:23Z",
-                      "title":  "Prefer duplication over the wrong abstraction (2016)",
-                      "url":  "https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T04:50:26Z",
-                      "title":  "Danish privacy activist Lars Andersen raided by police",
-                      "url":  "https://twitter.com/LarsAnders1620/status/2068208864747540516#m",
+                      "date":  "2026-06-22T10:37:13Z",
+                      "title":  "Rive, Fast and reliable background jobs in Go",
+                      "url":  "https://github.com/riverqueue/river",
                       "source":  "Hacker News",
                       "desc":  ""
                   }
