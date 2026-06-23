@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:30:00+08:00",
+  "source": "openai.com/news/",
+  "data": {
+    "latest_posts": [
+      {
+        "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+        "category": "Applied AI",
+        "date": "Jun 23, 2026"
+      },
+      {
+        "title": "Daybreak: Tools for securing every organization in the world",
+        "category": "Security",
+        "date": "Jun 22, 2026"
+      },
+      {
+        "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "category": "Security",
+        "date": "Jun 22, 2026"
+      },
+      {
+        "title": "Codex-Maxxing for Long-Running Work",
+        "category": "AI Adoption",
+        "date": "Jun 22, 2026"
+      },
+      {
+        "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+        "category": "Company",
+        "date": "Jun 21, 2026"
+      },
+      {
+        "title": "New usage analytics and updated spend controls for enterprises",
+        "category": "Product",
+        "date": "Jun 18, 2026"
+      },
+      {
+        "title": "Improving health intelligence in ChatGPT",
+        "category": "Product",
+        "date": "Jun 18, 2026"
+      },
+      {
+        "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+        "category": "Applied AI",
+        "date": "Jun 18, 2026"
+      },
+      {
+        "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+        "category": "Research",
+        "date": "Jun 17, 2026"
+      }
+    ]
+  }
+}

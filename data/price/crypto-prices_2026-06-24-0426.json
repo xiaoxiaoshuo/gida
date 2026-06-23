@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:28:00+08:00",
+  "source": "coingecko.com (browser scrape)",
+  "data": {
+    "bitcoin": {
+      "price_usd": 62376,
+      "24h_change": "-3.0%",
+      "7d_change": "-4.8%",
+      "market_cap": "$1,250,971,000,237",
+      "24h_volume": "$30,879,865,769",
+      "all_time_high": "$126,080"
+    },
+    "ethereum": {
+      "price_usd": 1661.73,
+      "24h_change": "-4.0%",
+      "7d_change": "-7.4%",
+      "market_cap": "$200,488,766,766",
+      "24h_volume": "$10,836,934,344",
+      "all_time_high": "$4,946.05"
+    },
+    "solana": {
+      "price_usd": 68.88,
+      "24h_change": "-5.0%"
+    },
+    "market_overview": {
+      "total_market_cap": "$2.228T",
+      "24h_volume": "$74.649B",
+      "btc_dominance": "56.2%",
+      "eth_dominance": "9.02%"
+    }
+  }
+}

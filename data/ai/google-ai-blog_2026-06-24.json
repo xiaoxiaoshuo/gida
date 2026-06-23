@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:30:00+08:00",
+  "source": "blog.google/technology/ai/ (web_fetch - JS limited)",
+  "data": {
+    "description": "Google AI blog page: 'Official Google AI news and updates' - The work we're doing to make AI helpful for everyone.",
+    "sections": ["Gemini App", "Research", "Developers", "All the Latest"],
+    "note": "Page is JS-rendered; limited detail via web_fetch."
+  }
+}

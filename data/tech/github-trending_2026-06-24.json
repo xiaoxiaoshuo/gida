@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:30:00+08:00",
+  "source": "github.com/trending (browser scrape)",
+  "data": {
+    "repositories": [
+      {
+        "rank": 1,
+        "name": "calesthio/OpenMontage",
+        "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills.",
+        "language": "Python",
+        "stars": 15261,
+        "forks": 1824,
+        "stars_today": 3590
+      },
+      {
+        "rank": 2,
+        "name": "ZhuLinsen/daily_stock_analysis",
+        "description": "LLM-powered multi-market stock analysis system",
+        "language": "Python",
+        "stars": 46927,
+        "forks": 42351,
+        "stars_today": 1121
+      },
+      {
+        "rank": 3,
+        "name": "mukul975/Anthropic-Cybersecurity-Skills",
+        "description": "817 structured cybersecurity skills for AI agents, mapped to MITRE ATT&CK, NIST CSF 2.0, etc.",
+        "language": "Python",
+        "stars": 19533,
+        "forks": 2272,
+        "stars_today": 1040
+      },
+      {
+        "rank": 4,
+        "name": "garrytan/gstack",
+        "description": "Garry Tan's Claude Code setup: 23 opinionated tools for CEO, Designer, Eng Manager, etc.",
+        "language": "TypeScript",
+        "stars": 113960,
+        "forks": 16874,
+        "stars_today": 1012
+      },
+      {
+        "rank": 5,
+        "name": "bytedance/deer-flow",
+        "description": "Open-source long-horizon SuperAgent harness that researches, codes, and creates",
+        "language": "Python",
+        "stars": 73838,
+        "forks": 9964,
+        "stars_today": 741
+      },
+      {
+        "rank": 6,
+        "name": "koala73/worldmonitor",
+        "description": "Real-time global intelligence dashboard with AI-powered news aggregation",
+        "language": "TypeScript",
+        "stars": 58981,
+        "forks": 9278,
+        "stars_today": 279
+      },
+      {
+        "rank": 7,
+        "name": "palmier-io/palmier-pro",
+        "description": "macOS video editor built for AI",
+        "language": "Swift",
+        "stars": 8347,
+        "forks": 549,
+        "stars_today": 1631
+      },
+      {
+        "rank": 8,
+        "name": "anthropics/claude-plugins-official",
+        "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins",
+        "language": "Python",
+        "stars": 30793,
+        "forks": 3357,
+        "stars_today": 66
+      },
+      {
+        "rank": 9,
+        "name": "shanraisshan/claude-code-best-practice",
+        "description": "From vibe coding to agentic engineering - practice makes claude perfect",
+        "language": "HTML",
+        "stars": 59332,
+        "forks": 5974,
+        "stars_today": 329
+      },
+      {
+        "rank": 10,
+        "name": "revfactory/harness",
+        "description": "A meta-skill that designs domain-specific agent teams and generates the skills they use",
+        "language": "HTML",
+        "stars": 7403,
+        "forks": 1045,
+        "stars_today": 123
+      },
+      {
+        "rank": 11,
+        "name": "jamiepine/voicebox",
+        "description": "The open-source AI voice studio. Clone, dictate, create.",
+        "language": "TypeScript",
+        "stars": 33049,
+        "forks": 3992,
+        "stars_today": 1042
+      },
+      {
+        "rank": 12,
+        "name": "JCodesMore/ai-website-cloner-template",
+        "description": "Clone any website with one command using AI coding agents",
+        "language": "TypeScript",
+        "stars": 18447,
+        "forks": 2796,
+        "stars_today": 827
+      },
+      {
+        "rank": 13,
+        "name": "byoungd/English-level-up-tips",
+        "description": "An advanced guide to learn English",
+        "stars": 54471,
+        "forks": 5584,
+        "stars_today": 151
+      },
+      {
+        "rank": 14,
+        "name": "DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph.",
+        "language": "C",
+        "stars": 12717,
+        "forks": 924,
+        "stars_today": 1299
+      },
+      {
+        "rank": 15,
+        "name": "NousResearch/hermes-agent",
+        "description": "The agent that grows with you",
+        "language": "Python",
+        "stars": 200810,
+        "forks": 35806,
+        "stars_today": 933
+      },
+      {
+        "rank": 16,
+        "name": "affaan-m/ECC",
+        "description": "Agent harness performance optimization system for Claude Code, Codex, etc.",
+        "language": "JavaScript",
+        "stars": 220409,
+        "forks": 33771,
+        "stars_today": 582
+      }
+    ]
+  }
+}

@@ -1,15 +1,11 @@
 {
-  "timestamp": "2026-06-02 17:19:00",
-  "value": 23,
-  "value_classification": "Extreme Fear",
-  "previous_value": 38,
-  "previous_classification": "Fear",
-  "last_week": 38,
-  "last_week_classification": "Fear",
-  "last_month": 17,
-  "last_month_classification": "Extreme Fear",
-  "source": "alternative.me API (web_fetch)",
-  "confidence": "high",
-  "time_until_update": 52692,
-  "note": "重采：上次更新 5/9 38(Fear) → 当前 23(Extreme Fear)，恶化 15 点"
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:27:00+08:00",
+  "source": "alternative.me - Fear & Greed Index API",
+  "data": {
+    "value": 23,
+    "classification": "Extreme Fear",
+    "timestamp": 1782172800,
+    "date": "2026-06-22"
+  }
 }

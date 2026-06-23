@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-24 04:26",
+  "fetchedAt": "2026-06-24T04:30:00+08:00",
+  "source": "chat.deepseek.com (web_fetch - landing page)",
+  "data": {
+    "note": "DeepSeek chat website is a JS-rendered chat interface with no visible blog/news items. No machine-readable update feed found. Consider using https://api-docs.deepseek.com/ for API updates."
+  }
+}
