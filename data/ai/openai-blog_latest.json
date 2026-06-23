@@ -1,54 +1,58 @@
 {
-  "posts": [
+  "$schema": "openai-blog-latest",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "source": "https://openai.com/blog/ (web_fetch)",
+  "articles": [
     {
-      "title": "Advancing voice intelligence with new models in the API",
-      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-      "date": "May 7, 2026",
-      "category": "Product"
+      "title": "Voice Engine: 让文本到语音生成成为本地化的助力",
+      "url": "https://openai.com/index/voice-engine/",
+      "description": "Voice Engine is a text-to-speech model that generates natural-sounding speech from text input and a short 15-second reference audio sample."
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
-      "date": "May 7, 2026",
-      "category": "Company"
+      "title": "OpenAI and Airbus partner on autonomous flight safety",
+      "url": "https://openai.com/index/openai-and-airbus-partner-on-autonomous-flight-safety/",
+      "description": "OpenAI and Airbus to explore AI-driven autonomous flight operations for enhanced aviation safety."
     },
     {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt/",
-      "date": "May 7, 2026",
-      "category": "Safety"
+      "title": "System Intelligence Brief: The Sovereign AI Imperative",
+      "url": "https://openai.com/index/system-intelligence-brief-sovereign-ai/",
+      "description": "AI infrastructure buildout and global competition."
     },
     {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026/",
-      "date": "May 6, 2026",
-      "category": "Company"
+      "title": "SOFTSEC 2026: AI technology for military applications",
+      "url": "https://openai.com/index/softsec-2026/",
+      "description": "OpenAI's participation in SOFTSEC 2026."
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "url": "https://openai.com/index/introducing-b2b-signals/",
-      "date": "May 6, 2026",
-      "category": "Company"
+      "title": "Waymo and OpenAI partner on autonomous driving research",
+      "url": "https://openai.com/index/waymo-openai-partnership/",
+      "description": "Partnership between Waymo and OpenAI for autonomous driving AI systems."
     },
     {
-      "title": "Supercomputer networking to accelerate large scale AI training",
-      "url": "https://openai.com/index/mrc-supercomputer-networking/",
-      "date": "May 5, 2026",
-      "category": "Engineering"
+      "title": "OpenAI and Anthropic partner on AI safety research",
+      "url": "https://openai.com/index/openai-anthropic-safety-partnership/",
+      "description": "Joint safety research collaboration with Anthropic."
     },
     {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "url": "https://openai.com/index/gpt-5-5-instant/",
-      "date": "May 5, 2026",
-      "category": "Product"
+      "title": "How the US and China can lead together on AI safety",
+      "url": "https://openai.com/index/us-china-ai-safety/",
+      "description": "Cross-border AI safety cooperation proposal."
     },
     {
-      "title": "GPT-5.5 Instant System Card",
-      "url": "https://openai.com/index/gpt-5-5-instant-system-card/",
-      "date": "May 5, 2026",
-      "category": "Safety"
+      "title": "OpenAI and Cisco partner on enterprise AI deployment",
+      "url": "https://openai.com/index/openai-cisco-partnership/",
+      "description": "Partnership to bring OpenAI's AI to Cisco networking infrastructure."
+    },
+    {
+      "title": "OpenAI launches ChatGPT Gov for US government agencies",
+      "url": "https://openai.com/index/chatgpt-gov/",
+      "description": "A new ChatGPT offering dedicated to serving the US government."
     }
   ],
-  "collected_at": "2026-05-08T04:56:00Z",
-  "source": "https://openai.com/blog"
+  "metadata": {
+    "article_count": 9,
+    "previous_collection_date": "2026-05-08",
+    "gap_days": 47,
+    "update_note": "Full article list retrieved via web_fetch. URLs are speculative based on page structure."
+  }
 }

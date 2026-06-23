@@ -1,134 +1,162 @@
 {
-  "date": "2026-05-07",
-  "last_updated": "2026-05-07 17:27:00",
-  "repos": [
+  "$schema": "github-trending-latest",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "source": "https://github.com/trending (browser snapshot)",
+  "period": "today",
+  "repositories": [
     {
-      "name": "Hmbown/DeepSeek-TUI",
-      "description": "Coding agent for DeepSeek models that runs in your terminal",
-      "stars": 11398,
-      "stars_today": 2434,
-      "language": "",
-      "url": "https://github.com/Hmbown/DeepSeek-TUI"
-    },
-    {
-      "name": "addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents",
-      "stars": 0,
-      "stars_today": 0,
-      "language": "",
-      "url": "https://github.com/addyosmani/agent-skills"
-    },
-    {
-      "name": "PriorLabs/TabPFN",
-      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
-      "stars": 6685,
-      "stars_today": 218,
+      "rank": 1,
+      "repo": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills.",
       "language": "Python",
-      "url": "https://github.com/PriorLabs/TabPFN"
+      "stars": 15361,
+      "forks": 1835,
+      "stars_today": 3590
     },
     {
-      "name": "docusealco/docuseal",
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "stars": 14361,
-      "stars_today": 927,
-      "language": "",
-      "url": "https://github.com/docusealco/docuseal"
-    },
-    {
-      "name": "LearningCircuit/local-deep-research",
-      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs",
-      "stars": 5913,
-      "stars_today": 532,
+      "rank": 2,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送",
       "language": "Python",
-      "url": "https://github.com/LearningCircuit/local-deep-research"
+      "stars": 46941,
+      "forks": 42354,
+      "stars_today": 1121
     },
     {
-      "name": "LadybirdBrowser/ladybird",
-      "description": "Truly independent web browser",
-      "stars": 0,
-      "stars_today": 0,
-      "language": "",
-      "url": "https://github.com/LadybirdBrowser/ladybird"
+      "rank": 3,
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3",
+      "language": "Python",
+      "stars": 19569,
+      "forks": 2276,
+      "stars_today": 1040
     },
     {
-      "name": "InsForge/InsForge",
-      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway",
-      "stars": 8634,
-      "stars_today": 230,
+      "rank": 4,
+      "repo": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "url": "https://github.com/InsForge/InsForge"
+      "stars": 113988,
+      "forks": 16876,
+      "stars_today": 1012
     },
     {
-      "name": "virattt/dexter",
-      "description": "An autonomous agent for deep financial research",
-      "stars": 24578,
-      "stars_today": 666,
+      "rank": 5,
+      "repo": "bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates.",
+      "language": "Python",
+      "stars": 73850,
+      "forks": 9965,
+      "stars_today": 741
+    },
+    {
+      "rank": 6,
+      "repo": "koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring.",
       "language": "TypeScript",
-      "url": "https://github.com/virattt/dexter"
+      "stars": 59011,
+      "forks": 9279,
+      "stars_today": 279
     },
     {
-      "name": "anthropics/financial-services",
-      "description": "Anthropics financial services repository",
-      "stars": 9603,
-      "stars_today": 641,
+      "rank": 7,
+      "repo": "palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "stars": 8362,
+      "forks": 552,
+      "stars_today": 1631
+    },
+    {
+      "rank": 8,
+      "repo": "anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "language": "Python",
-      "url": "https://github.com/anthropics/financial-services"
+      "stars": 30804,
+      "forks": 3358,
+      "stars_today": 66
     },
     {
-      "name": "ruvnet/ruflo",
-      "description": "The leading agent orchestration platform for Claude",
-      "stars": 45658,
-      "stars_today": 2192,
+      "rank": 9,
+      "repo": "shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "language": "HTML",
+      "stars": 59355,
+      "forks": 5977,
+      "stars_today": 329
+    },
+    {
+      "rank": 10,
+      "repo": "revfactory/harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "language": "HTML",
+      "stars": 7415,
+      "forks": 1045,
+      "stars_today": 123
+    },
+    {
+      "rank": 11,
+      "repo": "jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
       "language": "TypeScript",
-      "url": "https://github.com/ruvnet/ruflo"
+      "stars": 33063,
+      "forks": 3993,
+      "stars_today": 1042
     },
     {
-      "name": "cheahjs/free-llm-api-resources",
-      "description": "A list of free LLM inference resources accessible via API",
-      "stars": 0,
-      "stars_today": 0,
-      "language": "",
-      "url": "https://github.com/cheahjs/free-llm-api-resources"
+      "rank": 12,
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars": 18470,
+      "forks": 2799,
+      "stars_today": 827
     },
     {
-      "name": "BigBodyCobain/Shadowbroker",
-      "description": "Open-source intelligence for the global theater",
-      "stars": 6056,
-      "stars_today": 42,
+      "rank": 13,
+      "repo": "byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English",
+      "stars": 54472,
+      "forks": 5584,
+      "stars_today": 151
+    },
+    {
+      "rank": 14,
+      "repo": "DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph.",
+      "language": "C",
+      "stars": 12765,
+      "forks": 927,
+      "stars_today": 1299
+    },
+    {
+      "rank": 15,
+      "repo": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
       "language": "Python",
-      "url": "https://github.com/BigBodyCobain/Shadowbroker"
+      "stars": 200843,
+      "forks": 35817,
+      "stars_today": 933
     },
     {
-      "name": "shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "stars": 0,
-      "stars_today": 0,
-      "language": "",
-      "url": "https://github.com/shiyu-coder/Kronos"
-    },
-    {
-      "name": "bwya77/vscode-dark-islands",
-      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
-      "stars": 8296,
-      "stars_today": 503,
-      "language": "PowerShell",
-      "url": "https://github.com/bwya77/vscode-dark-islands"
-    },
-    {
-      "name": "bytedance/deer-flow",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates",
-      "stars": 0,
-      "stars_today": 0,
-      "language": "",
-      "url": "https://github.com/bytedance/deer-flow"
-    },
-    {
-      "name": "D4Vinci/Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework",
-      "stars": 46779,
-      "stars_today": 1125,
-      "language": "Python",
-      "url": "https://github.com/D4Vinci/Scrapling"
+      "rank": 16,
+      "repo": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security.",
+      "language": "JavaScript",
+      "stars": 220442,
+      "forks": 33774,
+      "stars_today": 582
     }
-  ]
+  ],
+  "observations": {
+    "ai_agent_dominance": "14 out of 16 repos are AI/agent-related",
+    "notable_trend": "Claude Code ecosystem is massive - gstack (114k stars), claude-code-best-practice (59k), ECC (220k!)",
+    "chinese_projects": "daily_stock_analysis (by ZhuLinsen) and bytedance/deer-flow trending",
+    "new_innovations": "OpenMontage (agentic video production), palmier-pro (AI video editor), voicebox (AI voice studio)"
+  },
+  "metadata": {
+    "previous_collection_date": "2026-05-08",
+    "gap_days": 47,
+    "collection_method": "browser snapshot of github.com/trending"
+  }
 }

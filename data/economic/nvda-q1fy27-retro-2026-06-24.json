@@ -1,0 +1,37 @@
+{
+  "$schema": "retro-nvda-q1-fy27-2026",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "search_status": "PARTIAL - Direct financial news sources (CNBC, Reuters, Yahoo Finance, MarketWatch, Nasdaq) blocked from China network",
+  "methods_attempted": [
+    "web_fetch from CNBC (404)",
+    "web_fetch from Reuters (blocked)",
+    "web_fetch from Yahoo Finance (blocked from CN)",
+    "web_fetch from Nasdaq (403)",
+    "web_fetch from MarketWatch (404)",
+    "web_fetch from NVIDIA investor relations (403)",
+    "web_fetch from EastMoney (404)",
+    "Bing search (returns NVIDIA driver pages, not financial news)",
+    "Bloomberg (blocked)",
+    "Investing.com (Cloudflare blocked)"
+  ],
+  "known_context": {
+    "event": "NVIDIA Q1 Fiscal Year 2027 Earnings",
+    "event_date": "2026-06-13 (after market close, typically)",
+    "fiscal_period": "Q1 FY2027 (Feb-Apr 2026)",
+    "earnings_release_expected": true,
+    "reported_in_news": true,
+    "concurrent_with": "FOMC decision (same day June 13)"
+  },
+  "inferred_context_from_market_data": {
+    "nvidia_stock_behavior": "Could not directly retrieve from China. Refer to tradingeconomics.com for NVDA ticker or CNBC for live quotes.",
+    "ai_demand_context": "Ongoing AI infrastructure buildout continues to drive demand for NVIDIA GPUs (H100/B200/next-gen)"
+  },
+  "recommendation": "Use browser tool to access NVIDIA investor relations page directly, or use terminal with curl via a non-China proxy. NVDA ticker last available data would need separate collection.",
+  "metadata": {
+    "retro_period": "2026-06-05 to 2026-06-23",
+    "event_date": "2026-06-13",
+    "collection_method": "Multiple web_fetch attempts; all direct financial news sources blocked from China",
+    "confidence": "LOW - Unable to retrieve actual earnings numbers",
+    "status": "INCOMPLETE - Requires alternative collection method (browser or proxy)"
+  }
+}

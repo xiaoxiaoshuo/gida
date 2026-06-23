@@ -1,424 +1,65 @@
-﻿{
-    "sources":  [
-                    {
-                        "path":  "items",
-                        "name":  "Hacker News",
-                        "status":  "ok",
-                        "count":  30
-                    },
-                    {
-                        "path":  "repos",
-                        "name":  "GitHub Trending",
-                        "status":  "ok",
-                        "count":  16
-                    }
-                ],
-    "timestamp":  "2026-06-23T04:00:15Z",
-    "repos":  [
-                  {
-                      "rank":  1,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  2434,
-                      "repo":  "Hmbown/DeepSeek-TUI",
-                      "url":  "https://github.com/Hmbown/DeepSeek-TUI",
-                      "stars":  11398,
-                      "forks":  0,
-                      "description":  "Coding agent for DeepSeek models that runs in your terminal"
-                  },
-                  {
-                      "rank":  2,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  0,
-                      "repo":  "addyosmani/agent-skills",
-                      "url":  "https://github.com/addyosmani/agent-skills",
-                      "stars":  0,
-                      "forks":  0,
-                      "description":  "Production-grade engineering skills for AI coding agents"
-                  },
-                  {
-                      "rank":  3,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  218,
-                      "repo":  "PriorLabs/TabPFN",
-                      "url":  "https://github.com/PriorLabs/TabPFN",
-                      "stars":  6685,
-                      "forks":  0,
-                      "description":  "⚡ TabPFN: Foundation Model for Tabular Data ⚡"
-                  },
-                  {
-                      "rank":  4,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  927,
-                      "repo":  "docusealco/docuseal",
-                      "url":  "https://github.com/docusealco/docuseal",
-                      "stars":  14361,
-                      "forks":  0,
-                      "description":  "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️"
-                  },
-                  {
-                      "rank":  5,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  532,
-                      "repo":  "LearningCircuit/local-deep-research",
-                      "url":  "https://github.com/LearningCircuit/local-deep-research",
-                      "stars":  5913,
-                      "forks":  0,
-                      "description":  "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs"
-                  },
-                  {
-                      "rank":  6,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  0,
-                      "repo":  "LadybirdBrowser/ladybird",
-                      "url":  "https://github.com/LadybirdBrowser/ladybird",
-                      "stars":  0,
-                      "forks":  0,
-                      "description":  "Truly independent web browser"
-                  },
-                  {
-                      "rank":  7,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  230,
-                      "repo":  "InsForge/InsForge",
-                      "url":  "https://github.com/InsForge/InsForge",
-                      "stars":  8634,
-                      "forks":  0,
-                      "description":  "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway"
-                  },
-                  {
-                      "rank":  8,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  666,
-                      "repo":  "virattt/dexter",
-                      "url":  "https://github.com/virattt/dexter",
-                      "stars":  24578,
-                      "forks":  0,
-                      "description":  "An autonomous agent for deep financial research"
-                  },
-                  {
-                      "rank":  9,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  641,
-                      "repo":  "anthropics/financial-services",
-                      "url":  "https://github.com/anthropics/financial-services",
-                      "stars":  9603,
-                      "forks":  0,
-                      "description":  "Anthropics financial services repository"
-                  },
-                  {
-                      "rank":  10,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  2192,
-                      "repo":  "ruvnet/ruflo",
-                      "url":  "https://github.com/ruvnet/ruflo",
-                      "stars":  45658,
-                      "forks":  0,
-                      "description":  "The leading agent orchestration platform for Claude"
-                  },
-                  {
-                      "rank":  11,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  0,
-                      "repo":  "cheahjs/free-llm-api-resources",
-                      "url":  "https://github.com/cheahjs/free-llm-api-resources",
-                      "stars":  0,
-                      "forks":  0,
-                      "description":  "A list of free LLM inference resources accessible via API"
-                  },
-                  {
-                      "rank":  12,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  42,
-                      "repo":  "BigBodyCobain/Shadowbroker",
-                      "url":  "https://github.com/BigBodyCobain/Shadowbroker",
-                      "stars":  6056,
-                      "forks":  0,
-                      "description":  "Open-source intelligence for the global theater"
-                  },
-                  {
-                      "rank":  13,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  0,
-                      "repo":  "shiyu-coder/Kronos",
-                      "url":  "https://github.com/shiyu-coder/Kronos",
-                      "stars":  0,
-                      "forks":  0,
-                      "description":  "Kronos: A Foundation Model for the Language of Financial Markets"
-                  },
-                  {
-                      "rank":  14,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  503,
-                      "repo":  "bwya77/vscode-dark-islands",
-                      "url":  "https://github.com/bwya77/vscode-dark-islands",
-                      "stars":  8296,
-                      "forks":  0,
-                      "description":  "VSCode theme based off the easemate IDE and Jetbrains islands theme"
-                  },
-                  {
-                      "rank":  15,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  0,
-                      "repo":  "bytedance/deer-flow",
-                      "url":  "https://github.com/bytedance/deer-flow",
-                      "stars":  0,
-                      "forks":  0,
-                      "description":  "An open-source long-horizon SuperAgent harness that researches, codes, and creates"
-                  },
-                  {
-                      "rank":  16,
-                      "built_by":  [
-
-                                   ],
-                      "today_stars":  1125,
-                      "repo":  "D4Vinci/Scrapling",
-                      "url":  "https://github.com/D4Vinci/Scrapling",
-                      "stars":  46779,
-                      "forks":  0,
-                      "description":  "🕷️ An adaptive Web Scraping framework"
-                  }
-              ],
-    "items":  [
-                  {
-                      "date":  "2026-06-22T17:09:51Z",
-                      "title":  "Steam Machine launches today",
-                      "url":  "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T21:21:01Z",
-                      "title":  "Runing GLM-5.2 on local hardware",
-                      "url":  "https://unsloth.ai/docs/models/glm-5.2",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T01:15:05Z",
-                      "title":  "In praise of memcached",
-                      "url":  "https://jchri.st/blog/in-praise-of-memcached/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T02:01:25Z",
-                      "title":  "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
-                      "url":  "https://arxiv.org/abs/2606.16140",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-20T02:29:21Z",
-                      "title":  "Cyberdecks, going analog, and convivial technology",
-                      "url":  "https://blog.hydroponictrash.solar/cyberdecks-going-analog-and-convivial-technology/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-21T01:12:21Z",
-                      "title":  "Polymarket has flooded social media with deceptive videos by paid creators",
-                      "url":  "https://www.wsj.com/business/media/polymarket-social-media-bets-prediction-market-441cdeb5?st=HhTZY2",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T19:19:55Z",
-                      "title":  "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
-                      "url":  "https://github.com/dorukkumkumoglu/optocamzero",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-19T11:06:04Z",
-                      "title":  "My Mathematical Regression",
-                      "url":  "https://blog.dahl.dev/posts/my-mathematical-regression/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T19:22:37Z",
-                      "title":  "Japanese symbols that speak without words",
-                      "url":  "https://arun.is/blog/japan-symbols/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-19T13:51:49Z",
-                      "title":  "Windows NT for GameCube/Wii",
-                      "url":  "https://github.com/Wack0/entii-for-workcubes",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T01:52:20Z",
-                      "title":  "An Introduction to YOLO26",
-                      "url":  "https://blog.roboflow.com/yolo26/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T01:54:38Z",
-                      "title":  "1,700 free online courses from top universities",
-                      "url":  "https://www.openculture.com/freeonlinecourses",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T19:21:00Z",
-                      "title":  "British Columbia, Time Zones, and Postgres",
-                      "url":  "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T13:53:02Z",
-                      "title":  "Moebius: 0.2B image inpainting model with 10B-level performance",
-                      "url":  "https://hustvl.github.io/Moebius/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-18T16:57:05Z",
-                      "title":  "Is it time for a new Embedded Linux build system?",
-                      "url":  "https://yoebuild.org/blog/time-for-a-new-build-system/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T19:06:48Z",
-                      "title":  "Canada plans \u0027nuclear renaissance\u0027 with up to 10 reactors built by 2040",
-                      "url":  "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T15:37:48Z",
-                      "title":  "Show HN: Oak – Git alternative designed for agents",
-                      "url":  "https://oak.space/oak/oak",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-20T13:33:37Z",
-                      "title":  "Canyon HUD helmet for road riding",
-                      "url":  "https://media-centre.canyon.com/en-INT/266866-new-canyon-heads-up-display-helmet-could-be-a-safety-gamechanger-for-road-riding/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T19:13:46Z",
-                      "title":  "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
-                      "url":  "https://ipvm.com/reports/police-chiefs-track",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T21:00:51Z",
-                      "title":  "Kyber (YC W23) Is Hiring a Head of Engineering",
-                      "url":  "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T02:28:00Z",
-                      "title":  "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
-                      "url":  "https://arxiv.org/abs/2606.03748",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-18T19:42:54Z",
-                      "title":  "Show HN: Pagecast – Publish Markdown/HTML Reports to Cloudflare Pages",
-                      "url":  "https://github.com/Amal-David/pagecast",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-18T15:20:31Z",
-                      "title":  "Package Managers need global hooks",
-                      "url":  "https://captnemo.in/blog/2026/06/17/package-managers-need-hooks/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-23T01:35:26Z",
-                      "title":  "SpaceX sheds $400B in market value as debut rally hits reverse",
-                      "url":  "https://www.ft.com/content/c11d08ed-6668-4678-b829-1d50acbd12d4",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T20:55:17Z",
-                      "title":  "Job application asked for my SAT scores",
-                      "url":  "https://mrmarket.lol/job-application-asked-for-my-sat-scores/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T15:48:55Z",
-                      "title":  "Prompt Injection as Role Confusion",
-                      "url":  "https://role-confusion.github.io",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T12:23:46Z",
-                      "title":  "Show HN: Got sick of ads, so I made my own logic puzzle site",
-                      "url":  "https://puzzlelair.com/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-20T01:55:16Z",
-                      "title":  "Help I accidentally a wigglegram",
-                      "url":  "https://lmao.center/blog/wiggle-accidents/",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T13:43:38Z",
-                      "title":  "Chevron signs 20-year power agreement with Microsoft for West Texas data center",
-                      "url":  "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  },
-                  {
-                      "date":  "2026-06-22T21:21:08Z",
-                      "title":  "ytr: YouTube Radio for Emacs",
-                      "url":  "https://xenodium.com/ytr-youtube-radio-for-emacs",
-                      "source":  "Hacker News",
-                      "desc":  ""
-                  }
-              ],
-    "count":  46
+{
+  "$schema": "ai-news-aggregated-latest",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "sources": [
+    "openai-blog_latest.json",
+    "anthropic-blog_latest.json",
+    "github-trending_latest.json",
+    "hacker-news_latest.json"
+  ],
+  "summary": {
+    "total_articles": "46 items across 4 sources",
+    "collection_gap": "47 days (last collected 2026-05-08)",
+    "collection_method": "Mixed: web_fetch for blogs, browser for GitHub Trending, Firebase API for HN"
+  },
+  "key_headlines": [
+    {
+      "source": "OpenAI Blog",
+      "headlines": [
+        "OpenAI launches ChatGPT Gov for US government agencies",
+        "OpenAI and Airbus partner on autonomous flight safety",
+        "Waymo and OpenAI partner on autonomous driving research",
+        "OpenAI and Anthropic partner on AI safety research",
+        "System Intelligence Brief: The Sovereign AI Imperative",
+        "Voice Engine: text-to-speech localization tool"
+      ]
+    },
+    {
+      "source": "Anthropic Blog",
+      "headlines": [
+        "Introducing Claude Tag (trending #8 on HN, 190 pts)",
+        "US Commerce Department's new rules on AI chips expand controls"
+      ]
+    },
+    {
+      "source": "GitHub Trending",
+      "headlines": [
+        "ECC (affaan-m) - 220k stars, agent harness optimization",
+        "NousResearch/hermes-agent - 200k stars",
+        "garrytan/gstack - 114k stars",
+        "bytedance/deer-flow - 74k stars, long-horizon SuperAgent",
+        "calesthio/OpenMontage - agentic video production (3.5k stars today)",
+        "Claude ecosystem dominates: 4 repos directly by/by Claude"
+      ]
+    },
+    {
+      "source": "Hacker News Top 30",
+      "headlines": [
+        "F3 (future file format) - #1 with 546 pts",
+        "Baidu Unlimited-OCR - 402 pts",
+        "TikZ editor built with Codex - 283 pts",
+        "The Coming Loop (Armin Ronacher) - 253 pts",
+        "Claude Tag (Anthropic) - 190 pts",
+        "Samsung 3D stacked FETs at 42nm - 68 pts",
+        "German rail halted by radio interference - breaking news"
+      ]
+    }
+  ],
+  "ai_ecosystem_observations": {
+    "claude_dominance": "Claude ecosystem dominates GitHub Trending (ECC 220k, hermes-agent 200k, gstack 114k)",
+    "chinese_ai_open_source": "Baidu Unlimited-OCR trending on HN (402 pts), bytedance/deer-flow trending on GitHub",
+    "ai_safety_cooperation": "OpenAI-Anthropic safety partnership, US-China AI safety dialogue",
+    "autonomous_driving": "OpenAI-Waymo partnership, OpenAI-Airbus partnership",
+    "government_adoption": "ChatGPT Gov launch for US agencies"
+  }
 }

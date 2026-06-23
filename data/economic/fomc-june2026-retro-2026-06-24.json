@@ -1,0 +1,40 @@
+{
+  "$schema": "retro-fomc-june-2026",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "source": "tradingeconomics.com/united-states/interest-rate",
+  "key_data": {
+    "fomc_decision_june_2026": {
+      "date": "2026-06-13",
+      "rate_decision": "HOLD - Fed funds rate unchanged at 3.50%-3.75%",
+      "previous_rate": "3.50%-3.75%",
+      "consecutive_holds": 4,
+      "meeting_significance": "First meeting under new Fed Chair Kevin Warsh"
+    },
+    "dot_plot_projections": {
+      "rate_hike_advocates": "9 officials see at least one rate hike this year",
+      "multiple_hike_advocates": "6 officials anticipate at least two rate hikes",
+      "no_move_or_cut": "9 officials expected no move or a cut",
+      "participants_submitting_projections": "18 out of 19 (new Fed Chair did not submit his forecast)"
+    },
+    "economic_projections": {
+      "gdp_growth_2026": "2.2% (down from 2.4% in March)",
+      "gdp_growth_2027": "2.3% (unchanged)",
+      "pce_inflation_2026": "3.6% (sharply up from 2.7% in March)",
+      "pce_inflation_2027": "3.3% (up from 2.7%)",
+      "note": "Significant upward revision to PCE reflects energy price shock from Middle East conflict"
+    },
+    "statement_highlights": {
+      "economic_activity": "Expanding at a solid pace despite elevated uncertainty",
+      "uncertainty_factors": "Conflict in the Middle East",
+      "labor_market": "Job gains have kept pace with the workforce",
+      "inflation_assessment": "Inflation remains elevated relative to the 2% goal",
+      "risk_tilt": "Hawkish - 9 out of 18 officials see at least one hike this year"
+    }
+  },
+  "metadata": {
+    "retro_period": "2026-06-05 to 2026-06-23",
+    "event_date": "2026-06-13",
+    "collection_method": "web_fetch from tradingeconomics.com FOMC detailed report",
+    "confidence": "HIGH - TradingEconomics directly reports FOMC statement details"
+  }
+}

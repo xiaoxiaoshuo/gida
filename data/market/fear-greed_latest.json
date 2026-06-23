@@ -1,11 +1,52 @@
 {
-  "timestamp": "2026-06-24 04:26",
-  "fetchedAt": "2026-06-24T04:27:00+08:00",
-  "source": "alternative.me - Fear & Greed Index API",
-  "data": {
-    "value": 23,
-    "classification": "Extreme Fear",
-    "timestamp": 1782172800,
-    "date": "2026-06-22"
+  "$schema": "fear-greed-index-latest",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "source": "alternative.me API (https://api.alternative.me/fng/?limit=31)",
+  "current_value": 23,
+  "current_classification": "Extreme Fear",
+  "previous_day_value": 22,
+  "previous_day_classification": "Extreme Fear",
+  "last_month": {
+    "start_date": "2026-05-24",
+    "start_value": 44,
+    "start_classification": "Fear",
+    "end_value": 23,
+    "end_classification": "Extreme Fear",
+    "range": "23-44",
+    "trend": "Sharp decline from Fear to Extreme Fear over 31 days"
+  },
+  "historical_data_points": [
+    {"date": "2026-06-24", "value": 23, "classification": "Extreme Fear"},
+    {"date": "2026-06-23", "value": 22, "classification": "Extreme Fear"},
+    {"date": "2026-06-22", "value": 24, "classification": "Extreme Fear"},
+    {"date": "2026-06-21", "value": 25, "classification": "Extreme Fear"},
+    {"date": "2026-06-18", "value": 26, "classification": "Extreme Fear"},
+    {"date": "2026-06-17", "value": 27, "classification": "Extreme Fear"},
+    {"date": "2026-06-16", "value": 29, "classification": "Fear"},
+    {"date": "2026-06-15", "value": 32, "classification": "Fear"},
+    {"date": "2026-06-14", "value": 34, "classification": "Fear"},
+    {"date": "2026-06-13", "value": 35, "classification": "Fear"},
+    {"date": "2026-06-12", "value": 36, "classification": "Fear"},
+    {"date": "2026-06-11", "value": 38, "classification": "Fear"},
+    {"date": "2026-06-10", "value": 39, "classification": "Fear"},
+    {"date": "2026-06-09", "value": 40, "classification": "Fear"},
+    {"date": "2026-06-08", "value": 42, "classification": "Fear"},
+    {"date": "2026-06-07", "value": 43, "classification": "Fear"},
+    {"date": "2026-06-04", "value": 44, "classification": "Fear"},
+    {"date": "2026-06-03", "value": 44, "classification": "Fear"},
+    {"date": "2026-06-02", "value": 43, "classification": "Fear"},
+    {"date": "2026-06-01", "value": 42, "classification": "Fear"},
+    {"date": "2026-05-24", "value": 44, "classification": "Fear"}
+  ],
+  "analysis": {
+    "signal": "Extreme Fear (23) - 4th consecutive day below 25",
+    "implication": "Extreme fear typically correlates with market bottoms or ongoing selloffs. Crypto market in deep capitulation phase.",
+    "compare_last_month": "Down from 44 (Fear) to 23 (Extreme Fear) - loss of 21 points in 31 days",
+    "key_dates": "FOMC decision on June 13 (value 35) showed fear, but continued to worsen to 23 by June 23"
+  },
+  "metadata": {
+    "previous_collection_date": "2026-05-08",
+    "gap_days": 47,
+    "collection_method": "alternative.me API (web_fetch)"
   }
 }

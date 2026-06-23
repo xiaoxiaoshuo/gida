@@ -1,36 +1,26 @@
 {
-  "posts": [
+  "$schema": "anthropic-blog-latest",
+  "collected_at": "2026-06-24T05:33:00+08:00",
+  "source": "https://www.anthropic.com/blog/ (web_fetch)",
+  "articles": [
     {
-      "title": "Introducing Claude Design",
-      "url": "https://www.anthropic.com/news",
-      "date": "Apr 17, 2026",
-      "description": "A new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more."
+      "title": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "description": "Claude Tag - new Claude feature announced. Also trending on Hacker News (48648039, score 190, 119 comments).",
+      "hacker_news_id": 48648039,
+      "hacker_news_score": 190,
+      "hacker_news_comments": 119
     },
     {
-      "title": "Project Glasswing",
-      "url": "https://www.anthropic.com/news",
-      "date": "Apr 7, 2026",
-      "description": "A new initiative that brings together Amazon Web Services, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks in an effort to secure the world's most critical software."
-    },
-    {
-      "title": "What 81,000 people want from AI",
-      "url": "https://www.anthropic.com/news",
-      "date": "Mar 18, 2026",
-      "description": "We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind."
-    },
-    {
-      "title": "Claude is a space to think",
-      "url": "https://www.anthropic.com/news",
-      "date": "Feb 4, 2026",
-      "description": "We've made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust."
-    },
-    {
-      "title": "Natural Language Autoencoders: Turning Claude's Thoughts into Text",
-      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
-      "date": "2026-05-08 (HN mention)",
-      "description": "Research on encoding Claude's internal thoughts into text - mentioned on Hacker News today."
+      "title": "US Commerce Department's new rules on AI chips expand controls to additional countries",
+      "url": "https://www.anthropic.com/news/us-commerce-department-new-rules",
+      "description": "New export controls on AI chips expanded to additional countries."
     }
   ],
-  "collected_at": "2026-05-08T04:56:00Z",
-  "source": "https://www.anthropic.com/news"
+  "metadata": {
+    "article_count": 2,
+    "previous_collection_date": "2026-05-08",
+    "gap_days": 47,
+    "update_note": "Only 2 articles returned. Anthropic blog may use JS rendering for full list; Claude Tag confirmed trending on HN with high engagement."
+  }
 }
