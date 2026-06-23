@@ -1,0 +1,111 @@
+{
+  "collected_at": "2026-06-24 07:45",
+  "method": "browser",
+  "source": "https://investor.nvidia.com/financial-info/quarterly-results/default.aspx → https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+  "source_confidence": "PRIMARY_SOURCE - Official NVIDIA Press Release (May 20, 2026)",
+  "fiscal_period": "Q1 FY2027 (ended April 26, 2026)",
+  "press_release_date": "May 20, 2026",
+  "earnings": {
+    "revenue": {
+      "value": 81615,
+      "unit": "million USD",
+      "label": "$81.6 billion",
+      "qoq_change_pct": 20,
+      "yoy_change_pct": 85,
+      "record": true
+    },
+    "gaap": {
+      "gross_margin_pct": 74.9,
+      "operating_expenses": 7621,
+      "operating_income": 53536,
+      "net_income": 58321,
+      "diluted_eps": 2.39,
+      "qoq_eps_change_pct": 36,
+      "yoy_eps_change_pct": 214
+    },
+    "non_gaap": {
+      "gross_margin_pct": 75.0,
+      "operating_expenses": 7449,
+      "operating_income": 53783,
+      "net_income": 45548,
+      "diluted_eps": 1.87,
+      "qoq_eps_change_pct": 18,
+      "yoy_eps_change_pct": 140
+    },
+    "segments": {
+      "data_center": {
+        "revenue": 75200,
+        "unit": "million USD",
+        "label": "$75.2 billion",
+        "yoy_change_pct": 92,
+        "qoq_change_pct": 21,
+        "record": true,
+        "sub_segments": {
+          "compute": {
+            "revenue": 60400,
+            "label": "$60.4 billion",
+            "yoy_change_pct": 77,
+            "qoq_change_pct": 18,
+            "record": true
+          },
+          "networking": {
+            "revenue": 14800,
+            "label": "$14.8 billion",
+            "yoy_change_pct": 199,
+            "qoq_change_pct": 35,
+            "record": true
+          }
+        },
+        "new_reporting_framework": "Data Center split into Hyperscale and ACIE (AI Clouds, Industrial and Enterprise) starting Q1 FY27"
+      },
+      "edge_computing": {
+        "revenue": 6400,
+        "unit": "million USD",
+        "label": "$6.4 billion",
+        "yoy_change_pct": 29,
+        "qoq_change_pct": 10,
+        "note": "Includes gaming, automotive, AI-RAN, robotics, and ProViz"
+      }
+    },
+    "blackwell": {
+      "context": "Dynamo 1.0 entered production, boosting inference on Blackwell GPUs by up to 7x",
+      "blackwell_ultra": "Available with Google Cloud A5X instances (Vera Rubin-powered)",
+      "new_gpu_announced": "RTX PRO 4500 Blackwell Server Edition GPU"
+    },
+    "cash_return": {
+      "q1_shareholder_return": "~$20.0 billion (record)",
+      "remaining_buyback_authorization": 38500,
+      "additional_buyback_authorization": 80000,
+      "new_dividend": "From $0.01 to $0.25 per share quarterly",
+      "dividend_pay_date": "June 26, 2026",
+      "dividend_record_date": "June 4, 2026"
+    },
+    "guidance": {
+      "q2_fy27_revenue": {
+        "value": 91000,
+        "label": "$91.0 billion",
+        "plus_minus_pct": 2,
+        "note": "No Data Center compute revenue from China assumed in outlook"
+      },
+      "q2_fy27_gaap_gross_margin_pct": 74.9,
+      "q2_fy27_non_gaap_gross_margin_pct": 75.0,
+      "q2_gross_margin_plus_minus_bps": 50,
+      "q2_fy27_gaap_opex": 8500,
+      "q2_fy27_non_gaap_opex": 8300,
+      "fy27_tax_rate_range": [16.0, 18.0]
+    },
+    "highlights": [
+      "Record revenue of $81.6 billion, up 85% YoY",
+      "Record Data Center revenue of $75.2 billion, up 92% YoY",
+      "Data Center compute record $60.4B, up 77% YoY",
+      "Data Center networking record $14.8B, up 199% YoY",
+      "NVIDIA Dynamo 1.0 - open source software boosting Blackwell inference by up to 7x",
+      "NVIDIA Vera Rubin platform announced (Vera CPU + BlueField-4 STX)",
+      "Share buyback authorization increased by $80 billion",
+      "Quarterly dividend increased from $0.01 to $0.25 per share",
+      "New reporting framework: Data Center (Hyperscale + ACIE) and Edge Computing",
+      "Q2 FY27 revenue guidance: $91.0B (±2%)"
+    ],
+    "p_e_ratio_note": "GAAP NI $58.3B on $81.6B revenue — GAAP net margin ~71.5%, Non-GAAP net margin ~55.8%"
+  }
+}

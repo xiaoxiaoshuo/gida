@@ -1,0 +1,15 @@
+{
+  "last_briefing": "deep-news-2026-06-23-0725.json",
+  "btc_24h_change_pct": 2.24,
+  "btc_price": 62580,
+  "triggered": true,
+  "reasons": [
+    "简报过期>12h (24.4h)"
+  ],
+  "fng_value": 23,
+  "briefing_generator": "C:\\Users\\Administrator\\clawd\\agents\\workspace-gid\\scripts\\briefing-generator.ps1",
+  "timestamp": "2026-06-24 07:48:51",
+  "action": "trigger_briefing_generator",
+  "fng_24h_change": null,
+  "last_briefing_age_hours": 24.4
+}
