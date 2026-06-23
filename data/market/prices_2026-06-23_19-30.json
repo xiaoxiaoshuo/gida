@@ -1,0 +1,86 @@
+{
+  "quality_report": {
+    "OIL": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "BTC": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "ETH": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "VIX": {
+      "label": "高",
+      "score": 80,
+      "factors": "API权威来源 + 来源标注 + 时间戳 + 原始数据"
+    },
+    "GOLD": {
+      "label": "中",
+      "score": 65,
+      "factors": "API权威来源 + 来源标注 + 时间戳"
+    },
+    "SOL": {
+      "label": "高",
+      "score": 100,
+      "factors": "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
+    }
+  },
+  "crypto": {
+    "SOL": {
+      "confidence": "high",
+      "source": "Gateio_API",
+      "timestamp": "2026-06-23 19:30:54",
+      "price": 69.17,
+      "raw": "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"69.17\",\"lowest_ask\":\"69.18\",\"lowest_size\":\""
+    },
+    "ETH": {
+      "confidence": "high",
+      "source": "Gateio_API",
+      "timestamp": "2026-06-23 19:30:54",
+      "price": 1660.03,
+      "raw": "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1660.03\",\"lowest_ask\":\"1660.03\",\"lowest_siz"
+    },
+    "BTC": {
+      "confidence": "high",
+      "source": "Gateio_API",
+      "timestamp": "2026-06-23 19:30:54",
+      "price": 62549.2,
+      "raw": "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"62549.2\",\"lowest_ask\":\"62549.3\",\"lowest_siz"
+    }
+  },
+  "macro": {
+    "VIX": {
+      "value": 19.81,
+      "source": "Yahoo_Finance_VIX",
+      "timestamp": "2026-06-23 19:30:54",
+      "raw": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+      "confidence": "high"
+    },
+    "OIL": {
+      "unit": "USD/barrel (WTI)",
+      "raw_len": 416371,
+      "source": "tradingeconomics.com",
+      "value": 73.88,
+      "timestamp": "2026-06-23 19:30:54",
+      "confidence": "high"
+    },
+    "GOLD": {
+      "unit": "USD/oz",
+      "raw_len": 65550,
+      "source": "kitco.com",
+      "value": 4127.5,
+      "timestamp": "2026-06-23 19:30:54",
+      "confidence": "high"
+    }
+  },
+  "timestamp_iso": "2026-06-23T11:30:54Z",
+  "collection_version": "v8",
+  "errors": [],
+  "timestamp": "2026-06-23 19:30:54"
+}
