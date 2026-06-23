@@ -1,29 +1,27 @@
 ﻿{
-    "timestamp_iso":  "2026-06-23T01:00:02Z",
-    "timestamp":  "2026-06-23 09:00:02",
+    "timestamp_iso":  "2026-06-23T07:00:02Z",
+    "timestamp":  "2026-06-23 15:00:01",
     "macro":  {
                   "VIX":  {
-                              "value":  23,
-                              "source":  "alternative.me_FNG",
-                              "timestamp":  "2026-06-23 09:00:02",
-                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
-                              "confidence":  "medium",
-                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"23\",\n\t\t\t\"value_classification\": \"Extr",
-                              "value_classification":  "Extreme Fear"
+                              "confidence":  "high",
+                              "timestamp":  "2026-06-23 15:00:01",
+                              "raw":  "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"^VIX\",\"exchangeName\":\"CXI\",\"fullExchangeName",
+                              "source":  "Yahoo_Finance_VIX",
+                              "value":  17.28
                           },
                   "OIL":  {
-                              "value":  74.09,
+                              "value":  72.7,
                               "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-23 09:00:02",
-                              "raw_len":  415648,
+                              "timestamp":  "2026-06-23 15:00:01",
+                              "raw_len":  416284,
                               "confidence":  "high",
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4194.3,
+                               "value":  4120.2,
                                "source":  "kitco.com",
-                               "timestamp":  "2026-06-23 09:00:02",
-                               "raw_len":  65617,
+                               "timestamp":  "2026-06-23 15:00:01",
+                               "raw_len":  65475,
                                "confidence":  "high",
                                "unit":  "USD/oz"
                            }
@@ -33,23 +31,23 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  64152.8,
-                               "timestamp":  "2026-06-23 09:00:02",
-                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"64152.8\",\"lowest_ask\":\"64152.8\",\"lowest_siz",
+                               "price":  62900.2,
+                               "timestamp":  "2026-06-23 15:00:01",
+                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"62900.2\",\"lowest_ask\":\"62900.5\",\"lowest_siz",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "ETH":  {
-                               "price":  1731.2,
-                               "timestamp":  "2026-06-23 09:00:02",
-                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1731.2\",\"lowest_ask\":\"1731.33\",\"lowest_size",
+                               "price":  1691.7,
+                               "timestamp":  "2026-06-23 15:00:01",
+                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1691.7\",\"lowest_ask\":\"1691.67\",\"lowest_size",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "SOL":  {
-                               "price":  71.88,
-                               "timestamp":  "2026-06-23 09:00:02",
-                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"71.88\",\"lowest_ask\":\"71.9\",\"lowest_size\":\"1",
+                               "price":  70.32,
+                               "timestamp":  "2026-06-23 15:00:01",
+                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"70.32\",\"lowest_ask\":\"70.33\",\"lowest_size\":\"",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            }
@@ -61,9 +59,9 @@
                                        "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
                                    },
                            "VIX":  {
-                                       "label":  "中",
-                                       "score":  65,
-                                       "factors":  "Bing摘要 + 来源标注 + 时间戳 + 原始数据"
+                                       "label":  "高",
+                                       "score":  80,
+                                       "factors":  "API权威来源 + 来源标注 + 时间戳 + 原始数据"
                                    },
                            "OIL":  {
                                        "label":  "中",
