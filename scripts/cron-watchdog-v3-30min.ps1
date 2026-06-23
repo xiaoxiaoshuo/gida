@@ -181,7 +181,7 @@ function Test-GFWHealth {
     $sw = [System.Diagnostics.Stopwatch]::StartNew()
     try {
         # 用 OpenSSL 探测 sclient github.com:443 (与 auto-push-v4 一致)
-        $probe = cmd /c "openssl s_client -connect github.com:443 -servername github.com < NUL" 2>&1 | Out-String
+        $probe = "$env:windir\system32\cmd.exe" /c "openssl s_client -connect github.com:443 -servername github.com < NUL" 2>&1 | Out-String
         $sw.Stop()
         $latency = [int]$sw.ElapsedMilliseconds
         $result.latency_ms = $latency

@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "scan_time": "2026-06-24T07:38:00+08:00",
+    "scan_time_utc": "2026-06-23T23:38:00Z",
+    "scanner": "subagent G-108-etf-spx",
+    "note": "19天元层真空补采 — WATCHLIST v8标记6/24 08:30 Farside ETF数据公布"
+  },
+  "sections": {
+    "btc_etf_flows": {
+      "source": "Farside Investors (farside.co.uk/btc/)",
+      "source_url": "https://farside.co.uk/btc/",
+      "confidence": "HIGH — direct page extraction, table parsed",
+      "funds": {
+        "IBIT": { "name": "iShares Bitcoin Trust (Blackrock)", "fee": "0.25%", "cumulative_total": 61898 },
+        "FBTC": { "name": "Fidelity Wise Origin Bitcoin Fund", "fee": "0.25%", "cumulative_total": 10525 },
+        "BITB": { "name": "Bitwise Bitcoin ETF", "fee": "0.20%", "cumulative_total": 2007 },
+        "ARKB": { "name": "ARK 21Shares Bitcoin ETF", "fee": "0.21%", "cumulative_total": 1297 },
+        "BTCO": { "name": "Invesco Galaxy Bitcoin ETF", "fee": "0.25%", "cumulative_total": 213 },
+        "EZBC": { "name": "Franklin Bitcoin ETF", "fee": "0.19%", "cumulative_total": 332 },
+        "BRRR": { "name": "Valkyrie Bitcoin Fund", "fee": "0.25%", "cumulative_total": 328 },
+        "HODL": { "name": "VanEck Bitcoin Trust", "fee": "0.20%", "cumulative_total": 1123 },
+        "BTCW": { "name": "WisdomTree Bitcoin Fund", "fee": "0.25%", "cumulative_total": 96 },
+        "MSBT": { "name": "Morgan Stanley Bitcoin ETF", "fee": "0.14%", "cumulative_total": 348 },
+        "GBTC": { "name": "Grayscale Bitcoin Trust", "fee": "1.50%", "cumulative_total": -27089 },
+        "BTC": { "name": "Grayscale Bitcoin Mini Trust", "fee": "0.15%", "cumulative_total": 2339 }
+      },
+      "daily_flows": [
+        { "date": "2026-06-04", "IBIT": 47.7, "FBTC": -5.5, "BITB": -15.6, "ARKB": -20.7, "BTCO": -12.6, "EZBC": 0.0, "BRRR": 0.0, "HODL": 0.0, "BTCW": 0.0, "MSBT": 9.9, "GBTC": 0.0, "BTC": 0.0, "total": 3.2 },
+        { "date": "2026-06-05", "IBIT": -213.7, "FBTC": -59.7, "BITB": 0.0, "ARKB": 0.0, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 4.2, "BTCW": 0.0, "MSBT": 4.3, "GBTC": -60.8, "BTC": 0.0, "total": -325.7 },
+        { "date": "2026-06-08", "IBIT": -232.9, "FBTC": 59.4, "BITB": 14.1, "ARKB": 63.1, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 0.0, "BTCW": 0.0, "MSBT": 4.9, "GBTC": 0.0, "BTC": 0.0, "total": -91.4 },
+        { "date": "2026-06-09", "IBIT": -61.6, "FBTC": -20.2, "BITB": 0.0, "ARKB": 0.0, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 0.0, "BTCW": 0.0, "MSBT": 0.0, "GBTC": 0.0, "BTC": 4.4, "total": -77.4 },
+        { "date": "2026-06-10", "IBIT": -148.5, "FBTC": 4.0, "BITB": 0.0, "ARKB": 0.0, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 0.0, "BTCW": 1.0, "MSBT": 0.0, "GBTC": -87.9, "BTC": 17.5, "total": -213.9 },
+        { "date": "2026-06-11", "IBIT": 30.3, "FBTC": -5.5, "BITB": -13.1, "ARKB": -27.2, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": -14.8, "BTCW": 0.0, "MSBT": 2.2, "GBTC": 0.0, "BTC": 5.6, "total": -22.5 },
+        { "date": "2026-06-12", "IBIT": 57.7, "FBTC": 18.0, "BITB": 5.2, "ARKB": 3.2, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 1.8, "BTCW": 0.0, "MSBT": 0.0, "GBTC": 0.0, "BTC": 0.0, "total": 85.9 },
+        { "date": "2026-06-15", "IBIT": 66.4, "FBTC": -8.7, "BITB": 0.0, "ARKB": -6.6, "BTCO": 0.0, "EZBC": -5.8, "BRRR": 0.0, "HODL": -6.1, "BTCW": 0.0, "MSBT": 9.4, "GBTC": -124.0, "BTC": 10.6, "total": -64.8 },
+        { "date": "2026-06-16", "IBIT": 16.4, "FBTC": 4.3, "BITB": 0.0, "ARKB": 0.0, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": 0.0, "BTCW": 0.0, "MSBT": 1.9, "GBTC": -16.8, "BTC": 4.4, "total": 10.2 },
+        { "date": "2026-06-17", "IBIT": -30.8, "FBTC": 14.0, "BITB": 0.0, "ARKB": -43.5, "BTCO": -6.4, "EZBC": 0.0, "BRRR": 0.0, "HODL": -4.1, "BTCW": 0.0, "MSBT": 4.1, "GBTC": -15.5, "BTC": 0.0, "total": -82.2 },
+        { "date": "2026-06-18", "IBIT": -96.7, "FBTC": 0.0, "BITB": 0.0, "ARKB": 0.0, "BTCO": 0.0, "EZBC": 0.0, "BRRR": 0.0, "HODL": -4.4, "BTCW": 0.0, "MSBT": 10.4, "GBTC": 0.0, "BTC": 0.0, "total": -90.7 },
+        { "date": "2026-06-22", "IBIT": -172.0, "FBTC": 57.4, "BITB": 0.0, "ARKB": 64.0, "BTCO": 0.0, "EZBC": 3.7, "BRRR": 0.0, "HODL": 0.0, "BTCW": 3.4, "MSBT": 8.1, "GBTC": -81.0, "BTC": 48.1, "total": -68.3 },
+        { "date": "2026-06-23", "IBIT": null, "FBTC": null, "BITB": 0.0, "ARKB": 31.0, "BTCO": null, "EZBC": 0.0, "BRRR": null, "HODL": null, "BTCW": 0.0, "MSBT": 8.9, "GBTC": 0.0, "BTC": 0.0, "total": 39.9, "note": "Some funds not yet reported (IBIT, FBTC, BTCO, BRRR, HODL = '-' still pending)" }
+      ],
+      "totals": {
+        "cumulative_all_funds": 53417,
+        "average_daily": 87.3,
+        "max_daily": 1373.8,
+        "min_daily": -1113.7
+      },
+      "note": "Farside website footer shows 'Today's date is 23 June 2026' — June 23 data is latest available, partial. IBIT/FBTC not yet posted for Jun 23."
+    },
+    "us_stock_indices": {
+      "source": "Investing.com (indices/us-spx-500)",
+      "source_url": "https://www.investing.com/indices/us-spx-500",
+      "confidence": "HIGH",
+      "spx": {
+        "value": 7365.48,
+        "change": -107.31,
+        "change_pct": -1.44,
+        "status": "Closed",
+        "prev_close": 7365.48,
+        "open": 7366.51,
+        "day_range_low": 7347.60,
+        "day_range_high": 7424.17,
+        "52w_low": 6059.25,
+        "52w_high": 7620.90,
+        "last_updated": "2026-06-23 close (15:59:57 ET)"
+      },
+      "dji": {
+        "value": 51665.43,
+        "change": -47.28,
+        "change_pct": -0.09
+      },
+      "nasdaq": {
+        "name": "Nasdaq Composite",
+        "value": 25587.04,
+        "change": -579.56,
+        "change_pct": -2.22
+      },
+      "ndx": {
+        "name": "Nasdaq 100",
+        "value": 29347.27,
+        "change_pct": -3.30
+      },
+      "vix": {
+        "value": 19.49,
+        "change": 2.21,
+        "change_pct": 12.79
+      },
+      "dxy": {
+        "name": "US Dollar Index",
+        "value": 101.17,
+        "change": 0.370,
+        "change_pct": 0.37
+      },
+      "spx_futures": {
+        "sep26": 7436.50,
+        "change_pct": -0.01,
+        "last_updated": "19:29:18 ET (after-hours)"
+      },
+      "spy": {
+        "value": 733.58,
+        "change_pct": -1.45
+      }
+    },
+    "btc_contract_long_short_ratio": {
+      "source": "CoinGlass (coinglass.com/LongShortRatio)",
+      "source_url": "https://www.coinglass.com/LongShortRatio",
+      "confidence": "HIGH — full page snapshot",
+      "global_24h_ls": "49.41% / 50.59% (Short bias)",
+      "taker_buy_sell_4h": {
+        "long_pct": 50.26,
+        "short_pct": 49.74,
+        "long_volume_4h_usd": "2.01B",
+        "short_volume_4h_usd": "1.99B"
+      },
+      "btc_long_short_ratio_4h": {
+        "overall_ls": "50.24% / 49.76%",
+        "long_volume_4h": "2.02B",
+        "short_volume_4h": "2.00B"
+      },
+      "exchanges": [
+        { "rank": 1, "exchange": "Binance", "long_pct": 48.93, "short_pct": 51.07, "long_volume": "378.57M", "short_volume": "395.12M" },
+        { "rank": 2, "exchange": "OKX", "long_pct": 54.43, "short_pct": 45.57, "long_volume": "199.63M", "short_volume": "167.10M" },
+        { "rank": 3, "exchange": "Bybit", "long_pct": 47.55, "short_pct": 52.45, "long_volume": "161.75M", "short_volume": "178.41M" },
+        { "rank": 4, "exchange": "KuCoin", "long_pct": 49.85, "short_pct": 50.15, "long_volume": "8.17M", "short_volume": "8.22M" },
+        { "rank": 5, "exchange": "Gate", "long_pct": 48.18, "short_pct": 51.82, "long_volume": "120.80M", "short_volume": "129.92M" },
+        { "rank": 6, "exchange": "Bitget", "long_pct": 50.73, "short_pct": 49.27, "long_volume": "70.63M", "short_volume": "68.58M" },
+        { "rank": 7, "exchange": "BingX", "long_pct": 48.9, "short_pct": 51.1, "long_volume": "26.11M", "short_volume": "27.29M" },
+        { "rank": 8, "exchange": "MEXC", "long_pct": 49.91, "short_pct": 50.09, "long_volume": "253.51M", "short_volume": "254.46M" },
+        { "rank": 9, "exchange": "Bitunix", "long_pct": 49.33, "short_pct": 50.67, "long_volume": "85.39M", "short_volume": "87.71M" },
+        { "rank": 10, "exchange": "Hyperliquid", "long_pct": 48.81, "short_pct": 51.19, "long_volume": "92.98M", "short_volume": "97.52M" },
+        { "rank": 11, "exchange": "tradeXYZ", "long_pct": 0, "short_pct": 0, "long_volume": "0", "short_volume": "0" },
+        { "rank": 12, "exchange": "LBank", "long_pct": 58.87, "short_pct": 41.13, "long_volume": "42.47M", "short_volume": "29.67M" },
+        { "rank": 13, "exchange": "Crypto.com", "long_pct": 50.82, "short_pct": 49.18, "long_volume": "25.96M", "short_volume": "25.12M" },
+        { "rank": 14, "exchange": "WhiteBIT", "long_pct": 59.87, "short_pct": 40.13, "long_volume": "84.11M", "short_volume": "56.37M" },
+        { "rank": 15, "exchange": "HTX", "long_pct": 49.85, "short_pct": 50.15, "long_volume": "18.40M", "short_volume": "18.52M" },
+        { "rank": 16, "exchange": "dYdX", "long_pct": 45.8, "short_pct": 54.2, "long_volume": "3.33M", "short_volume": "3.95M" },
+        { "rank": 17, "exchange": "Deribit", "long_pct": 43.49, "short_pct": 56.51, "long_volume": "16.88M", "short_volume": "21.93M" },
+        { "rank": 18, "exchange": "Bitmex", "long_pct": 52.07, "short_pct": 47.93, "long_volume": "5.69M", "short_volume": "5.24M" },
+        { "rank": 19, "exchange": "Bitfinex", "long_pct": 61.89, "short_pct": 38.11, "long_volume": "869.65K", "short_volume": "535.45K" },
+        { "rank": 20, "exchange": "CoinEx", "long_pct": 52.61, "short_pct": 47.39, "long_volume": "17.60M", "short_volume": "15.85M" },
+        { "rank": 21, "exchange": "Kraken", "long_pct": 51.58, "short_pct": 48.42, "long_volume": "17.60M", "short_volume": "16.52M" },
+        { "rank": 22, "exchange": "Aster", "long_pct": 49.82, "short_pct": 50.18, "long_volume": "27.44M", "short_volume": "27.63M" },
+        { "rank": 23, "exchange": "Coinbase", "long_pct": 50.3, "short_pct": 49.7, "long_volume": "332.06M", "short_volume": "328.11M" },
+        { "rank": 24, "exchange": "Lighter", "long_pct": 44.68, "short_pct": 55.32, "long_volume": "28.02M", "short_volume": "34.69M" }
+      ],
+      "binance_btc_ls": {
+        "retail_ls": -1.79,
+        "retail_ratio": 2.07,
+        "retail_sentiment": "Bullish",
+        "whale_account_ls": -1.34,
+        "whale_account_ratio": 2.16,
+        "whale_account_sentiment": "Bullish",
+        "whale_position_ls": 0.68,
+        "whale_position_ratio": 1.21,
+        "whale_position_sentiment": "Bullish",
+        "smart_money_sentiment": "Extremely Bearish 🔥"
+      },
+      "okx_btc_ls": {
+        "retail_ls": -2.07,
+        "retail_ratio": 1.89,
+        "retail_sentiment": "Bullish",
+        "whale_account_ls": -11.4,
+        "whale_account_ratio": 0.90,
+        "whale_account_sentiment": "Neutral",
+        "whale_position_ls": -14.65,
+        "whale_position_ratio": 0.96,
+        "whale_position_sentiment": "Neutral",
+        "smart_money_sentiment": "Neutral"
+      },
+      "bybit_btc_ls": {
+        "retail_ls": 0,
+        "retail_ratio": 1.55,
+        "retail_sentiment": "Bullish",
+        "whale_account_ls": 0.32,
+        "whale_account_ratio": 1.55,
+        "whale_account_sentiment": "Bullish",
+        "whale_position_ls": -0.15,
+        "whale_position_ratio": 1.00,
+        "whale_position_sentiment": "Neutral",
+        "smart_money_sentiment": "Extremely Bearish 🔥"
+      },
+      "market_metrics": {
+        "24h_volume": "178,263,184,588",
+        "24h_volume_change_pct": 1.52,
+        "open_interest": "104,735,998,921",
+        "open_interest_change_pct": -1.17,
+        "24h_liquidation": "573,914,908",
+        "24h_liquidation_change_pct": 55.00
+      },
+      "btc_sentiment": {
+        "very_bullish": 32,
+        "bullish": 21,
+        "neutral": 20,
+        "bearish": 18,
+        "very_bearish": 8
+      },
+      "large_trades_real_time": [
+        { "pair": "BTC-USDT-SWAP", "price": 62635.6, "value": "525.95K", "time": "06-24 07:35:30" },
+        { "pair": "BTC-USDT-SWAP", "price": 62600.6, "value": "870.10K", "time": "06-24 07:24:40" },
+        { "pair": "BTC-USDT-SWAP", "price": 62548.9, "value": "732.92K", "time": "06-24 07:21:25" },
+        { "pair": "BTC-USDT-SWAP", "price": 62526.5, "value": "570.42K", "time": "06-24 07:18:30" },
+        { "pair": "BTC-USDT-SWAP", "price": 62533.7, "value": "683.49K", "time": "06-24 07:15:37" },
+        { "pair": "BTC-USDT-SWAP", "price": 62519.8, "value": "995.32K", "time": "06-24 07:15:25" },
+        { "pair": "BTC-USDT-SWAP", "price": 62500, "value": "1.43M", "time": "06-24 07:11:42" },
+        { "pair": "BTC-USDT-SWAP", "price": 62494, "value": "783.25K", "time": "06-24 07:07:17" },
+        { "pair": "BTC-USDT-SWAP", "price": 62482.5, "value": "586.78K", "time": "06-24 07:05:32" },
+        { "pair": "BTC-USDT-SWAP", "price": 62555.2, "value": "594.33K", "time": "06-24 07:01:59" }
+      ]
+    },
+    "eth_contract_long_short_ratio": {
+      "source": "CoinGlass (coinglass.com/LongShortRatio)",
+      "source_url": "https://www.coinglass.com/LongShortRatio",
+      "confidence": "MEDIUM — page supports ETH toggle but view shown on BTC tab; data from CoinGlass banner shows ETH=1,660.60 (CNBC tab)",
+      "eth_price_cnbc": {
+        "source": "CNBC (incidental tab)",
+        "value": 1660.60,
+        "change": -72.05,
+        "change_pct": -4.16
+      },
+      "note": "ETH-specific L/S ratio requires clicking ETH tab on CoinGlass — snapshot captured BTC-focused view. ETH price captured from incidental CNBC tab."
+    }
+  },
+  "gaps_and_notes": [
+    "SoSoValue not fetched (Farside was sufficient for P0)",
+    "ETH Long/Short Ratio: CoinGlass shows BTC data by default — would need click interaction for ETH-specific tab",
+    "Farside Jun 23: IBIT, FBTC, BTCO, BRRR, HODL still '-' (not yet reported) — partial data shows +39.9M from ARKB/MSBT/BTCW only",
+    "SPX closed Jun 23 at 7365.48, down 1.44% — semiconductor rout (MU -13.16%, ON -11%)",
+    "VIX spiked 12.79% to 19.49 — elevated fear",
+    "DXY at 101.17 (+0.37%) — mild dollar strength",
+    "BTC price ~$62,500-$62,600 (from CoinGlass large trades, 07:35 UTC+8)"
+  ]
+}
