@@ -1,0 +1,164 @@
+{
+    "d_tag": "D+11 (post-June-FOMC)",
+    "timestamp": "2026-06-24 06:33 GMT+8",
+    "next_critical_event": "6/26 PCE 5月 (D+2)",
+    "days_to_next_fomc": 34,
+    "fomc_2026_calendar": {
+        "jan_27_28": "✅ 已完成",
+        "mar_17_18": "✅ 已完成 (含点阵图)",
+        "apr_28_29": "✅ 已完成",
+        "jun_16_17": "✅ D+7 已完成 (最新一次)",
+        "jul_28_29": "🔜 D-34 (下一个)",
+        "sep_15_16": "🔜 D-83 (含SEP+点阵图)",
+        "oct_27_28": "🔜",
+        "dec_8_9": "🔜 (2026年最后一次)"
+    },
+    "june_fomc_result_summary": {
+        "date": "2026-06-16/17",
+        "rate_decision": "HOLD at 3.50-3.75%",
+        "tone": "HAWKISH HOLD (鹰派按兵不动)",
+        "chair": "Warsh首秀",
+        "sep_highlights": {
+            "9_of_18_officials_expect_hike": "9名官员预计2026年加息",
+            "median_rate_2026": "3.75-4.00% (隐含加息1次)",
+            "inflation_outlook": "通胀粘性, 需更多证据确认回落",
+            "growth_forecast": "小幅下调GDP预测"
+        },
+        "key_takeaways": [
+            "鹰派HOLD: 利率不变但加息预期上调",
+            "Warsh首次主持FOMC, 基调强硬",
+            "9/18官员预计2026年底前至少加息1次",
+            "市场反应: BTC从$64K区域回落, 科技股承压",
+            "7月FOMC (7/28-29) 加息概率上升至~35%"
+        ]
+    },
+    "price_snapshot": {
+        "btc": 62517,
+        "btc_24h_low": 61893,
+        "btc_24h_high": 64197,
+        "btc_24h_change": "-2.31%",
+        "eth": 1663,
+        "eth_24h_change": "-3.42%",
+        "sol": 69.31,
+        "sol_24h_change": "-4.13%",
+        "gold": 4109,
+        "gold_previous_high": 4484,
+        "gold_change_from_high": "-8.4%",
+        "oil": 74.16,
+        "oil_previous_high": 92.28,
+        "oil_change_from_high": "-19.6%",
+        "fng": 23,
+        "fng_classification": "Extreme Fear"
+    },
+    "events_calendar": {
+        "upcoming_p0": [
+            {
+                "date": "06-24",
+                "event": "耐用品订单 5月",
+                "impact": "P1",
+                "note": "制造业前瞻指标"
+            },
+            {
+                "date": "06-25",
+                "event": "美联储银行压力测试结果",
+                "impact": "P0",
+                "note": "银行资本要求, 影响整体流动性"
+            },
+            {
+                "date": "06-26",
+                "event": "PCE通胀 5月",
+                "impact": "P0",
+                "note": "FOMC后续路径关键输入"
+            },
+            {
+                "date": "06-30",
+                "event": "FOMC 6月会议纪要发布",
+                "impact": "P0",
+                "note": "鹰HOLD细节+SEP确认"
+            },
+            {
+                "date": "07-03",
+                "event": "BLS NFP 6月",
+                "impact": "P0",
+                "note": "就业市场关键信号"
+            },
+            {
+                "date": "07-10",
+                "event": "CPI 6月",
+                "impact": "P0",
+                "note": "通胀趋势确认"
+            },
+            {
+                "date": "07-28/29",
+                "event": "FOMC 7月会议",
+                "impact": "P0",
+                "note": "下一个利率决议, D-34"
+            },
+            {
+                "date": "09-15/16",
+                "event": "FOMC 9月会议 (含SEP+点阵图)",
+                "impact": "P0",
+                "note": "2026年最重要的FOMC会议"
+            }
+        ]
+    },
+    "scenarios_for_july_fomc": {
+        "hawkish_hold": {
+            "trigger": "PCE 0.3%+维持高粘性 + NFP>180K",
+            "prob": 35,
+            "impact": "-0.5% BTC",
+            "note": "维持鹰派HOLD, 但9月加息预期升温"
+        },
+        "hawkish_hike_25bp": {
+            "trigger": "PCE>0.4% + 劳动力持续紧张",
+            "prob": 25,
+            "impact": "-2.0% BTC",
+            "note": "3.75-4.00%新区间, 科技股重挫"
+        },
+        "dovish_hold": {
+            "trigger": "PCE<0.2% + NFP<150K",
+            "prob": 20,
+            "impact": "+2.0% BTC",
+            "note": "市场需要鸽派信号"
+        },
+        "dovish_hold_cut_signal": {
+            "trigger": "PCE<0.15% + 失业率>4.2%",
+            "prob": 10,
+            "impact": "+3.5% BTC",
+            "note": "暗示9月降息可能性"
+        },
+        "accidental_hike": {
+            "trigger": "Warsh主导+9/18官员压力",
+            "prob": 10,
+            "impact": "-3.0% BTC",
+            "note": "市场未充分定价"
+        }
+    },
+    "fomc_watchlist": {
+        "d0_focus": "7/28 02:00 ET FOMC决议",
+        "d34_focus": "PCE+NFP+CPI 三重数据确认通胀/就业路径",
+        "key_dates_before_fomc": [
+            {"date": "06-26", "event": "PCE 5月", "impact": "P0"},
+            {"date": "07-03", "event": "NFP 6月", "impact": "P0"},
+            {"date": "07-08", "event": "JOLTS 5月", "impact": "P1"},
+            {"date": "07-10", "event": "CPI 6月", "impact": "P0"},
+            {"date": "07-11", "event": "PPI 6月", "impact": "P1"},
+            {"date": "07-16", "event": "Fed进入静默期 (预定7/21当周)", "impact": "P1"}
+        ],
+        "bridge_correction": {
+            "old_fomc_date": "6/12-6/13 (v7 错误数据)",
+            "correct_fomc_date": "6/16-6/17 (根据Fed官网确认)",
+            "note": "v7 tracker使用了错误的FOMC日期(6/12-13), Fed官方日历显示6/16-17"
+        }
+    },
+    "nvda_watch": {
+        "earnings_date": "2026-08 (预估, 未确认)",
+        "note": "6/13 NVDA财报已过期, 下一季度8月"
+    },
+    "asset_correlations": {
+        "btc_vs_tech_stocks": "强正相关 (科技七姐妹卖压同步)",
+        "btc_vs_gold": "弱相关 (GOLD $4,109, BTC $62,517)",
+        "btc_vs_oil": "负相关 (OIL下跌因US-Iran谈判)",
+        "fng_signal": "F&G 23 Extreme Fear持续, 历史性触底信号"
+    }
+}

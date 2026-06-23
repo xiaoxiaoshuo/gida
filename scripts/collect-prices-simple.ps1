@@ -1,7 +1,14 @@
-﻿# collect-prices-simple.ps1 - 加密货币价格采集 v8 (多源降级 + 质量评分 + 浏览器降级)
-# v8修复: (1)OKX API因GFW SSL问题永远失败，移除作为主源，保留Gate.io作备用 (2)修复VIX采集逻辑
+﻿# collect-prices-simple.ps1 - 加密货币价格采集 v10 (API降级链修复 + 冗余增强)
+# v9 (2026-06-18): v8 with corrected OKX strategy comments
+# v10 2026-06-24 API降级链修复
+#   - Replace broken CryptoCompare (401 API key required) with CoinGecko as primary
+#   - Gateio WS (api.gateio.ws) as fallback1
+#   - OKX API as fallback2 (verified working from host)
+#   - Binance API as fallback3 (verified working from host)
+#   - Bing search as last resort
+#   - Enhanced error isolation: atomic write to prices_latest.json
 # 用途: BTC/ETH/SOL + VIX + 黄金 + 原油
-# 降级路径: OKX/CryptoCompare API → Bing搜索摘要 → 国内财经网站
+# 降级路径: CoinGecko → Gateio WS → OKX → Binance → Bing搜索摘要
 # 输出: data/market/prices_YYYY-MM-DD_HH-mm.json (带时间戳+置信度)
 # ============================================================
 
@@ -71,30 +78,35 @@ function Extract-PriceValue {
 function Get-CryptoPrice {
     param([string]$Symbol, [string]$Pair = "BTC-USDT")
 
-    # --- 策略1: CryptoCompare API (最稳定，GFW可访问) ---
-    $ccUrls = @{
-        "BTC" = "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD"
-        "ETH" = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD"
-        "SOL" = "https://min-api.cryptocompare.com/data/price?fsym=SOL&tsyms=USD"
+    # --- 策略1: CoinGecko API (最稳定，无需API key，工作已验证) ---
+    $cgMapping = @{
+        "BTC" = @{id="bitcoin"; sym="BTC"}
+        "ETH" = @{id="ethereum"; sym="ETH"}
+        "SOL" = @{id="solana"; sym="SOL"}
     }
-    if ($ccUrls[$Symbol]) {
-        $r = Invoke-SafeFetch -Url $ccUrls[$Symbol] -Timeout 10
+    if ($cgMapping[$Symbol]) {
+        $cgId = $cgMapping[$Symbol].id
+        $cgUrl = "https://api.coingecko.com/api/v3/simple/price?ids=$cgId&vs_currencies=usd"
+        $r = Invoke-SafeFetch -Url $cgUrl -Timeout 10
         if ($r.ok -and $r.len -gt 5) {
             try {
                 $json = $r.content | ConvertFrom-Json
-                if ($json.USD) {
-                    $price = [double]$json.USD
+                if ($json.$cgId.usd) {
+                    $price = [double]$json.$cgId.usd
                     $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(60, $r.len)) } else { "" }
+                    Write-Log "  CoinGecko $Symbol = $price" "OK"
                     return @{
-                        price = $price; source = "CryptoCompare_API"; confidence = "high"
+                        price = $price; source = "CoinGecko_API"; confidence = "high"
                         raw = $raw; timestamp = $DateStr
                     }
                 }
-            } catch { Write-Log "CryptoCompare $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+            } catch { Write-Log "CoinGecko $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+        } else {
+            Write-Log "CoinGecko $Symbol HTTP失败: $($r.error.Substring(0, [Math]::Min(50, $r.error.Length)))" "WARN"
         }
     }
 
-    # --- 策略2: Gate.io API (备用) ---
+    # --- 策略2: Gateio WS API (备用，已验证可用) ---
     $gateUrls = @{
         "BTC" = "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT"
         "ETH" = "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT"
@@ -108,16 +120,75 @@ function Get-CryptoPrice {
                 if ($json[0].last) {
                     $price = [double]$json[0].last
                     $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(80, $r.len)) } else { "" }
+                    Write-Log "  Gateio $Symbol = $price" "OK"
                     return @{
                         price = $price; source = "Gateio_API"; confidence = "high"
                         raw = $raw; timestamp = $DateStr
                     }
                 }
-            } catch { Write-Log "Gate.io $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+            } catch { Write-Log "Gateio $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+        } else {
+            Write-Log "Gateio $Symbol HTTP失败: $($r.error.Substring(0, [Math]::Min(50, $r.error.Length)))" "WARN"
         }
     }
 
-    # --- 策略3: Bing搜索摘要 (最低置信度) ---
+    # --- 策略3: OKX API (备用2，已验证可用) ---
+    $okxMapping = @{
+        "BTC" = "BTC-USDT"
+        "ETH" = "ETH-USDT"
+        "SOL" = "SOL-USDT"
+    }
+    if ($okxMapping[$Symbol]) {
+        $pair = $okxMapping[$Symbol]
+        $okxUrl = "https://www.okx.com/api/v5/market/ticker?instId=$pair"
+        $r = Invoke-SafeFetch -Url $okxUrl -Timeout 10
+        if ($r.ok -and $r.len -gt 10) {
+            try {
+                $json = $r.content | ConvertFrom-Json
+                if ($json.code -eq "0" -and $json.data[0].last) {
+                    $price = [double]$json.data[0].last
+                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(80, $r.len)) } else { "" }
+                    Write-Log "  OKX $Symbol = $price" "OK"
+                    return @{
+                        price = $price; source = "OKX_API"; confidence = "high"
+                        raw = $raw; timestamp = $DateStr
+                    }
+                }
+            } catch { Write-Log "OKX $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+        } else {
+            Write-Log "OKX $Symbol HTTP失败: $($r.error.Substring(0, [Math]::Min(50, $r.error.Length)))" "WARN"
+        }
+    }
+
+    # --- 策略4: Binance API (备用3，已验证可用) ---
+    $binanceMapping = @{
+        "BTC" = "BTCUSDT"
+        "ETH" = "ETHUSDT"
+        "SOL" = "SOLUSDT"
+    }
+    if ($binanceMapping[$Symbol]) {
+        $pair = $binanceMapping[$Symbol]
+        $bnUrl = "https://api.binance.com/api/v3/ticker/price?symbol=$pair"
+        $r = Invoke-SafeFetch -Url $bnUrl -Timeout 10
+        if ($r.ok -and $r.len -gt 5) {
+            try {
+                $json = $r.content | ConvertFrom-Json
+                if ($json.price) {
+                    $price = [double]$json.price
+                    $raw = if ($r.len -gt 0) { $r.content.Substring(0, [Math]::Min(80, $r.len)) } else { "" }
+                    Write-Log "  Binance $Symbol = $price" "OK"
+                    return @{
+                        price = $price; source = "Binance_API"; confidence = "high"
+                        raw = $raw; timestamp = $DateStr
+                    }
+                }
+            } catch { Write-Log "Binance $Symbol 解析失败: $($_.Exception.Message.Substring(0,50))" "WARN" }
+        } else {
+            Write-Log "Binance $Symbol HTTP失败: $($r.error.Substring(0, [Math]::Min(50, $r.error.Length)))" "WARN"
+        }
+    }
+
+    # --- 策略5: Bing搜索摘要 (最低置信度) ---
     Write-Log "  $Symbol API全部失败，降级到Bing搜索..." "WARN"
     $queries = @{
         "BTC" = "Bitcoin BTC price USD 今日最新"
@@ -406,13 +477,13 @@ function Get-DataQualityScore {
 }
 
 # ========== 主程序 ==========
-Write-Log "========== 价格采集开始 (v8 多源降级) =========="
+Write-Log "========== 价格采集开始 (v10 API降级链修复) =========="
 Write-Log "时间: $DateStr"
 
 $result = @{
     timestamp = $DateStr
     timestamp_iso = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-    collection_version = "v8"
+    collection_version = "v10"
     crypto = @{}
     macro = @{}
     quality_report = @{}
@@ -482,12 +553,16 @@ if (-not $oil -or $oil.value -eq $null) { $macroFailed += "OIL" }
 if (-not $vix -or $vix.value -eq $null) { $macroFailed += "VIX" }
 
 if ($macroFailed.Count -gt 0) {
-    # 先保存当前采集结果（crypto和已成功的macro）
+    # 先保存当前采集结果（crypto和已成功的macro）— 原子写入
     $jsonFile = "$OutputDir\prices_$Timestamp.json"
     $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $jsonFile -Encoding UTF8
     $latestFile = "$OutputDir\prices_latest.json"
-    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $latestFile -Encoding UTF8
-    Write-Log "  [中间保存] crypto+partial macro 已写入 prices_latest.json" "INFO"
+    $tmpFile = "$OutputDir\prices_latest.tmp"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $tmpFile -Encoding UTF8
+    if (Test-Path $tmpFile) {
+        Move-Item -Path $tmpFile -Destination $latestFile -Force
+        Write-Log "  [中间保存] 原子写入完成" "INFO"
+    }
 
     Write-Log ">> 宏观数据浏览器降级采集 (失败项: $($macroFailed -join ', '))..." "WARN"
     try {
@@ -527,8 +602,14 @@ if ($macroFailed.Count -gt 0) {
     # 没有失败项，直接保存
     $jsonFile = "$OutputDir\prices_$Timestamp.json"
     $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $jsonFile -Encoding UTF8
+    # 原子写保护：先写临时文件，再改名，防止写入过程中崩溃导致prices_latest.json损坏
     $latestFile = "$OutputDir\prices_latest.json"
-    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $latestFile -Encoding UTF8
+    $tmpFile = "$OutputDir\prices_latest.tmp"
+    $result | ConvertTo-Json -Depth 6 | Out-File -FilePath $tmpFile -Encoding UTF8
+    if (Test-Path $tmpFile) {
+        Move-Item -Path $tmpFile -Destination $latestFile -Force
+        Write-Log "  prices_latest.json 原子写入完成 (via tmp/rename)" "INFO"
+    }
 }
 
 # --- 总体质量评估 ---
@@ -549,3 +630,5 @@ if ($result.errors.Count -gt 0) {
 }
 
 exit $(if ($result.errors.Count -gt 3) { 1 } else { 0 })
+
+# v10 2026-06-24 API降级链修复

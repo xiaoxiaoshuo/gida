@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-06-24T06:33:00+08:00",
+  "source": "api-health-diagnostic-subagent",
+  "version": "1.0",
+  "api_health_check": {
+    "host_powershell_test": {
+      "note": "Testing from local PowerShell (real network context vs web_fetch sandbox)"
+    },
+    "endpoints": {
+      "gateio_api_gateio": {
+        "url": "https://api.gate.io/api/v4/spot/tickers?currency_pair=BTC_USDT",
+        "host_test": "FAIL (timeout)",
+        "notes": "api.gate.io hostname unreachable from China"
+      },
+      "gateio_api_gateio_ws": {
+        "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT",
+        "host_test": "SUCCESS (HTTP 200, BTC last=62613.4)",
+        "latency_s": 1.8,
+        "notes": "Working! Script uses this domain correctly"
+      },
+      "okx_api": {
+        "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT",
+        "host_test": "SUCCESS (HTTP 200, BTC last=62617.1)",
+        "latency_s": 1.5,
+        "notes": "Working from host! web_fetch sandbox fails due to GFW"
+      },
+      "binance_api": {
+        "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+        "host_test": "SUCCESS (HTTP 200, BTC=62618.23)",
+        "latency_s": 1.5,
+        "notes": "Working from host! web_fetch sandbox fails due to GFW"
+      },
+      "cryptocompare": {
+        "url": "https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD",
+        "host_test": "FAIL (401 - API key required)",
+        "notes": "CryptoCompare now requires API key after CoinDesk acquisition. REMOVE from script or add key"
+      },
+      "coingecko": {
+        "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+        "host_test": "SUCCESS (HTTP 200, BTC=62548)",
+        "latency_s": 1.4,
+        "notes": "Working from host! Add as fallback"
+      },
+      "alternative_fng": {
+        "url": "https://api.alternative.me/fng/",
+        "host_test": "SUCCESS (HTTP 200)",
+        "latency_s": 2.4,
+        "notes": "Working. Used as VIX fallback"
+      },
+      "yahoo_vix": {
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?interval=1d&range=1d",
+        "host_test": "SUCCESS (HTTP 200)",
+        "latency_s": 1.4,
+        "notes": "Working. VIX primary source"
+      }
+    }
+  },
+  "degradation_chain": {
+    "btc": {
+      "primary": {"source": "Gateio WS API", "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=BTC_USDT", "estimated_reliability": "95%", "note": "Confirmed working from host"},
+      "fallback1": {"source": "OKX API", "url": "https://www.okx.com/api/v5/market/ticker?instId=BTC-USDT", "estimated_reliability": "90%", "note": "Confirmed working, different CDN route"},
+      "fallback2": {"source": "Binance API", "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT", "estimated_reliability": "95%", "note": "Confirmed working, most reliable but last resort due to GFW sensitivity"},
+      "fallback3": {"source": "CoinGecko API", "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd", "estimated_reliability": "85%", "note": "Confirmed working, rate limited (10-30 calls/min)"},
+      "fallback4": {"source": "Bing Search (web scrape)", "estimated_reliability": "60%", "note": "Extract from search results"}
+    },
+    "eth": {
+      "primary": {"source": "Gateio WS API", "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=ETH_USDT", "estimated_reliability": "95%"},
+      "fallback1": {"source": "OKX API", "url": "https://www.okx.com/api/v5/market/ticker?instId=ETH-USDT", "estimated_reliability": "90%"},
+      "fallback2": {"source": "Binance API", "url": "https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT", "estimated_reliability": "95%"},
+      "fallback3": {"source": "CoinGecko API", "url": "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd", "estimated_reliability": "85%"}
+    },
+    "sol": {
+      "primary": {"source": "Gateio WS API", "url": "https://api.gateio.ws/api/v4/spot/tickers?currency_pair=SOL_USDT", "estimated_reliability": "90%"},
+      "fallback1": {"source": "OKX API", "url": "https://www.okx.com/api/v5/market/ticker?instId=SOL-USDT", "estimated_reliability": "85%"},
+      "fallback2": {"source": "Binance API", "url": "https://api.binance.com/api/v3/ticker/price?symbol=SOLUSDT", "estimated_reliability": "90%"},
+      "fallback3": {"source": "CoinGecko API", "url": "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd", "estimated_reliability": "80%"}
+    }
+  },
+  "root_cause_analysis": {
+    "why_watchdog_reported_40pct": "The cron-watchdog likely runs the collect-prices script which uses Invoke-WebRequest. This fails for 3 out of 5 endpoints tested (OKX, Binance, CryptoCompare) due to SSL/TLS/GFW issues from the sandbox. However, these APIs actually WORK from the host PowerShell. The script's CryptoCompare strategy fails with 401 (API key required since CoinDesk acquisition).",
+    "key_findings": [
+      "CryptoCompare API is BROKEN - requires API key (401 error). Must replace with CoinGecko.",
+      "Gateio WS (api.gateio.ws) works correctly. Script uses correct domain.",
+      "OKX and Binance work but may be intermittent from China.",
+      "CoinGecko is confirmed working. Add as primary fallback."
+    ],
+    "remediation": [
+      "Replace CryptoCompare with CoinGecko as primary source",
+      "Keep Gateio WS as secondary source",
+      "Add OKX as third fallback source",
+      "Add Binance as fourth fallback source",
+      "Keep Bing search as last resort"
+    ]
+  },
+  "macro_data_sources": {
+    "yahoo_vix": "Working - can be primary VIX source",
+    "alternative_fng": "Working - serves as VIX fallback",
+    "tradingeconomics_oil": "TBD - need to test with browser",
+    "kitco_gold": "TBD - need to test with browser",
+    "eia_oil": "TBD - CORS/restrictions may apply"
+  },
+  "recommendation": "Rewrite collect-prices-simple.ps1 with CoinGecko as primary, Gateio WS as fallback1, OKX as fallback2, Binance as fallback3. Keep Bing search as last resort. Remove CryptoCompare entirely."
+}

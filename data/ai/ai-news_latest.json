@@ -1,65 +1,244 @@
-{
-  "$schema": "ai-news-aggregated-latest",
-  "collected_at": "2026-06-24T05:33:00+08:00",
-  "sources": [
-    "openai-blog_latest.json",
-    "anthropic-blog_latest.json",
-    "github-trending_latest.json",
-    "hacker-news_latest.json"
-  ],
-  "summary": {
-    "total_articles": "46 items across 4 sources",
-    "collection_gap": "47 days (last collected 2026-05-08)",
-    "collection_method": "Mixed: web_fetch for blogs, browser for GitHub Trending, Firebase API for HN"
-  },
-  "key_headlines": [
-    {
-      "source": "OpenAI Blog",
-      "headlines": [
-        "OpenAI launches ChatGPT Gov for US government agencies",
-        "OpenAI and Airbus partner on autonomous flight safety",
-        "Waymo and OpenAI partner on autonomous driving research",
-        "OpenAI and Anthropic partner on AI safety research",
-        "System Intelligence Brief: The Sovereign AI Imperative",
-        "Voice Engine: text-to-speech localization tool"
-      ]
-    },
-    {
-      "source": "Anthropic Blog",
-      "headlines": [
-        "Introducing Claude Tag (trending #8 on HN, 190 pts)",
-        "US Commerce Department's new rules on AI chips expand controls"
-      ]
-    },
-    {
-      "source": "GitHub Trending",
-      "headlines": [
-        "ECC (affaan-m) - 220k stars, agent harness optimization",
-        "NousResearch/hermes-agent - 200k stars",
-        "garrytan/gstack - 114k stars",
-        "bytedance/deer-flow - 74k stars, long-horizon SuperAgent",
-        "calesthio/OpenMontage - agentic video production (3.5k stars today)",
-        "Claude ecosystem dominates: 4 repos directly by/by Claude"
-      ]
-    },
-    {
-      "source": "Hacker News Top 30",
-      "headlines": [
-        "F3 (future file format) - #1 with 546 pts",
-        "Baidu Unlimited-OCR - 402 pts",
-        "TikZ editor built with Codex - 283 pts",
-        "The Coming Loop (Armin Ronacher) - 253 pts",
-        "Claude Tag (Anthropic) - 190 pts",
-        "Samsung 3D stacked FETs at 42nm - 68 pts",
-        "German rail halted by radio interference - breaking news"
-      ]
-    }
-  ],
-  "ai_ecosystem_observations": {
-    "claude_dominance": "Claude ecosystem dominates GitHub Trending (ECC 220k, hermes-agent 200k, gstack 114k)",
-    "chinese_ai_open_source": "Baidu Unlimited-OCR trending on HN (402 pts), bytedance/deer-flow trending on GitHub",
-    "ai_safety_cooperation": "OpenAI-Anthropic safety partnership, US-China AI safety dialogue",
-    "autonomous_driving": "OpenAI-Waymo partnership, OpenAI-Airbus partnership",
-    "government_adoption": "ChatGPT Gov launch for US agencies"
-  }
+﻿{
+    "sources":  [
+                    {
+                        "path":  "items",
+                        "name":  "Hacker News",
+                        "status":  "ok",
+                        "count":  30
+                    },
+                    {
+                        "path":  "repos",
+                        "name":  "GitHub Trending",
+                        "status":  "ok",
+                        "count":  1
+                    }
+                ],
+    "timestamp":  "2026-06-23T22:00:15Z",
+    "repos":  [
+                  {
+                      "rank":  1,
+                      "built_by":  [
+
+                                   ],
+                      "today_stars":  null,
+                      "repo":  "",
+                      "url":  "https://github.com/",
+                      "stars":  null,
+                      "forks":  0,
+                      "description":  null
+                  }
+              ],
+    "items":  [
+                  {
+                      "date":  "2026-06-23T18:40:22Z",
+                      "title":  "Jerry\u0027s Map",
+                      "url":  "http://www.jerrysmap.com/the-map",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T21:19:44Z",
+                      "title":  "German Rail Service Suspended Due to Radio Interference",
+                      "url":  "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T21:14:08Z",
+                      "title":  "All train services in Germany halted after train radio communications disruption",
+                      "url":  "https://english.news.cn/20260624/65f1b6192cd947e28849776a5aef05c6/c.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T20:23:49Z",
+                      "title":  "Don\u0027t verify email addresses by sending spam to them",
+                      "url":  "https://milek7.pl/mailverifyspam/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T18:00:58Z",
+                      "title":  "Swift Package Index joins Apple",
+                      "url":  "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T17:50:22Z",
+                      "title":  "FUTO Swipe – A new swipe typing model",
+                      "url":  "https://swipe.futo.tech/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T12:49:02Z",
+                      "title":  "Printing Gaussian Splats",
+                      "url":  "https://www.patreon.com/DanyBittel/posts/printing-splats-161333338",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T14:24:21Z",
+                      "title":  "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
+                      "url":  "https://tikz.dev/editor/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T16:53:32Z",
+                      "title":  "F3",
+                      "url":  "https://github.com/future-file-format/f3",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T16:30:18Z",
+                      "title":  "The worthlessness of Vitamin D is mildly exaggerated",
+                      "url":  "https://dynomight.net/vitamin-d/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T11:35:05Z",
+                      "title":  "Unlimited OCR: One-shot long-horizon parsing",
+                      "url":  "https://github.com/baidu/Unlimited-OCR",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T21:27:20Z",
+                      "title":  "I automated my job (and it made me a better leader)",
+                      "url":  "https://github.blog/developer-skills/github/i-automated-my-job-and-it-made-me-a-better-leader/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T22:42:32Z",
+                      "title":  "The deadly rise of giant trucks and SUVs",
+                      "url":  "https://www.nytimes.com/interactive/2026/06/21/us/trucks-suv-pedestrian-crashes.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T18:56:19Z",
+                      "title":  "AI Hiring Tools Yield Racial Bias and Systemic Rejection; 26% Black \u0026 15% Asian",
+                      "url":  "https://hai.stanford.edu/news/ai-hiring-tools-can-yield-racial-bias-and-systemic-rejection",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T11:06:41Z",
+                      "title":  "The Coming Loop",
+                      "url":  "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T18:39:22Z",
+                      "title":  "Five monitors on a Commodore 128 [video]",
+                      "url":  "https://www.youtube.com/watch?v=ul5hC3PY1Yg",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T14:40:17Z",
+                      "title":  "Lift4D: Harmonizing Single-View 3D Estimation for 4D Reconstruction In-the-Wild",
+                      "url":  "https://lift4d.github.io/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T16:55:26Z",
+                      "title":  "San Diego photologs from the 1970s",
+                      "url":  "https://www.beautifulpublicdata.com/san-diego-photologs-from-the-1970s/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T11:03:52Z",
+                      "title":  "Samsung demonstrates 3D stacked FETs with triple nanosheet channels at 42nm",
+                      "url":  "https://semiconductor.samsung.com/news-events/tech-blog/from-gaa-to-3d-stacked-fet-expanding-the-transistor-into-the-third-dimension/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T20:44:33Z",
+                      "title":  "F* file system – file search that reads SSD directly bypassing OS kernel",
+                      "url":  "https://github.com/dmtrKovalenko/ffs",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T15:22:41Z",
+                      "title":  "Show HN: The Cascade Graph – An interactive map of AI and energy constraints",
+                      "url":  "https://atomprophet.io/tools/cascade/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T17:09:18Z",
+                      "title":  "Claude Tag",
+                      "url":  "https://www.anthropic.com/news/introducing-claude-tag",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-19T09:08:00Z",
+                      "title":  "Plotnine",
+                      "url":  "https://plotnine.org/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T14:03:19Z",
+                      "title":  "Mistral OCR 4",
+                      "url":  "https://mistral.ai/news/ocr-4/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-21T14:18:10Z",
+                      "title":  "Performance Improvements in Libffi",
+                      "url":  "https://atgreen.github.io/repl-yell/posts/libffi-plan-cache/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T11:40:50Z",
+                      "title":  "The Low-Tech AI of Elden Ring",
+                      "url":  "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-20T22:38:46Z",
+                      "title":  "Solving Wordle using information theory",
+                      "url":  "https://www.binghamton.edu/news/story/6327/s-m-a-r-t-these-researchers-used-math-to-crack-wordle",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T13:36:10Z",
+                      "title":  "MSG Made Dossier on Activists Who Opposed Facial Recognition",
+                      "url":  "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-22T17:46:48Z",
+                      "title":  "Finding the best dog treat with statistics",
+                      "url":  "https://www.wespiser.com/posts/2026-06-19-best-dog-treat.html",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  },
+                  {
+                      "date":  "2026-06-23T14:19:47Z",
+                      "title":  "Elevated error rate across multiple models",
+                      "url":  "https://status.claude.com/incidents/jbhf20wjmzrf",
+                      "source":  "Hacker News",
+                      "desc":  ""
+                  }
+              ],
+    "count":  31
 }

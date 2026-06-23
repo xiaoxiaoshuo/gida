@@ -897,3 +897,11 @@ Check the spelling of the name, or if a path was included, verify that the path 
 2026-06-23 12:00:02 - Running merge-ai-news.ps1
 2026-06-23 12:00:02 - Merge completed, exit: 
 2026-06-23 12:00:15 - Wrapper finished
+2026-06-24 06:00:01 - Wrapper started (v2, 2026-06-04 fix, Set-Location C:\Users\Administrator\clawd\agents\workspace-gid)
+2026-06-24 06:00:01 - Running fetch-hn-top30-v2.ps1
+2026-06-24 06:00:01 - HN completed, exit: 
+2026-06-24 06:00:01 - Running gh-trending-browser-v5.ps1
+2026-06-24 06:00:01 - GH completed, exit: 
+2026-06-24 06:00:01 - Running merge-ai-news.ps1
+2026-06-24 06:00:01 - Merge completed, exit: 
+2026-06-24 06:00:15 - Wrapper finished

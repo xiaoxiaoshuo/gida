@@ -1,162 +1,252 @@
-# 监控清单 | 活跃状态 (ACTIVE WATCHLIST) — v6 重建
+# 监控清单 | 活跃状态 (ACTIVE WATCHLIST) — v8 完全重建
 
-> 🔴 **2026-06-04 07:28 GMT+8 周期重建** (v5 02:20 老化 5h08min, **5h 重建周期**)
-> **触发原因**: 主代理 07:27 周期触发 + 5h08min 老化 + 6/13 风险对冲倒计时 9 天 + 6/15-30 Anthropic S-1 倒计时
-> **数据截止**: 2026-06-04 07:13 GMT+8 (v27 早间亚洲扫描)
-> **数据源**: prices_latest.json v8 (07:00) + asia-open-2026-06-04-0706.md (v27) + v25/v26 简报 + memory/2026-06-04.md (37 次心跳)
-> **报告人**: WATCHLIST 重建子智能体 agent-C (id=dcb8e0b1, gida-intel, model: minmax/MiniMax-M3)
-> **文件大小**: ~10KB (6 章节完整, P0/P1/P2 警报齐全)
+> 🔴 **2026-06-24 06:33 GMT+8 完全重建** (v7 老化 19天, 6/5→6/24)
+> **触发原因**: 元规划者层真空期后重建, WATCHLIST 19天老化 + FOMC D+11 状态 + 所有6/4-6/5事件已过期
+> **数据截止**: 2026-06-24 06:33 GMT+8 (实时采集 + 桥接6/23 INTEL)
+> **数据源**: CoinMarketCap 实时(06:33) + F&G API(06:33) + GitHub Trending + HN + Fed 2026日历
+> **报告人**: G-105 情报重建子智能体 (gida-intel, subagent)
 
 ---
 
 ## 🚨 1. 关键时间窗口 (P0 今日 / P1 7d / P2 30d)
 
-### 🔴 今日 P0 (6/4, 距今数小时级)
+### 🔴 今日 P0 (6/24, GMT+8)
 
 | 时刻 | 事件 | 重要性 | 距离 |
 |---|---|---|---|
-| **08:00** | **Farside BTC ETF 6/3 数据公布** (周一第一个交易日) | 🔴 P0 | **32 min** |
-| 09:00 | 亚太开盘 (港股 09:30 / 日经 09:00) | 🟡 P1 | 1h32min |
-| 09:30 | A股开盘 | 🟡 P1 | 2h02min |
-| 12:00 | AINews 6h 周期 + 早盘小结 | 🟢 P2 | 4h32min |
-| **16:15** | **ADP 非农 (美东 04:15 ET)** | 🔴 P0 | 8h47min |
-| **21:30** | **美股 6/4 开盘 (9:30 ET)** | 🔴 P0 | 14h02min |
-| **22:00** | **ISM Services PMI (10:00 ET)** | 🔴 P0 | 14h32min |
-| 23:00 | 6/4 美股盘中 | 🟡 P1 | 15h32min |
-| 04:00 (6/5) | 6/4 美股收盘 + HourlyPriceCollector | 🟡 P1 | 20h32min |
+| **06:33** | **NOW — WATCHLIST v8 重建** | 🔴 P0 | 0 |
+| 08:30 | Farside BTC ETF 6/23 数据公布 | 🔴 P0 | ~2h |
+| 09:30 | A股/港股开盘 | 🟡 P1 | 3h |
+| 20:30 | 美股开盘 | 🔴 P0 | 14h |
+| 22:00 | 耐用品订单 5月 (美东 10:00) | 🟡 P1 | 15h27min |
 
-**8:00 ETF 关键判断** (v27 子智能体关键纠错):
-- ⚠️ **5/30 = 周六**, 美股 ETF 不开市, 8:00 实际公布的是 **6/3 (周一) 数据**
-- 6/3 (周一) 是 5/30 周末后第一个交易日
+### 📅 P1 本周 (6/24-6/30)
 
-[338 more lines in file. Use offset=31 to continue]
+| 日期 | 事件 | 重要性 | 备注 |
+|------|------|--------|------|
+| 6/24 | 耐用品订单 5月 | 🟡 P1 | 制造业前瞻 |
+| 6/25 | 首次失业金申领 | 🟡 P1 | 就业市场 |
+| 6/25 | **美联储银行压力测试结果** | 🔴 P0 | 银行资本要求, 影响流动性 |
+| 6/26 | **PCE 通胀 5月** | 🔴 P0 | FOMC后续关键输入 |
+| 6/26 | 密歇根消费者信心 6月终值 | 🟡 P1 | |
+| 6/30 | **FOMC 6月会议纪要** | 🔴 P0 | 鹰HOLD细节+SEP点阵图确认 |
+
+### 📅 P2 7月关键事件
+
+| 日期 | 事件 | 重要性 | 备注 |
+|------|------|--------|------|
+| 7/1 | ISM PMI 6月 | 🟡 P1 | |
+| 7/2 | ADP 非农 6月 | 🟡 P1 | |
+| 7/3 | **BLS 6月 NFP** | 🔴 P0 | 关键就业数据 |
+| 7/8 | JOLTS 5月 | 🟡 P1 | |
+| 7/10 | **CPI 6月** | 🔴 P0 | FOMC D-18 输入 |
+| 7/11 | PPI 6月 | 🟡 P1 | |
+| **7/28-29** | **FOMC 7月会议 (D-34)** | 🔴🔴 P0 | **下一个利率决议** |
+| 7/30 | FOMC 7月决议声明 | 🔴🔴 P0 | |
+
+### ⏰ FOMC 倒计时
+
+- **6/16-17 FOMC**: ✅ D+7 已完成 (3.50-3.75% 鹰HOLD, 9/18官员预计加息)
+- **6/30 FOMC 纪要发布**: D+6 (13天后)
+- **7/28-29 FOMC**: **34天后** (D-34)
+- **9/15-16 FOMC**: **83天后** (含SEP+点阵图)
+- **12/8-9 FOMC**: 2026年最后一次
+
+### 📊 关键价格水位 (2026-06-24 06:33 GMT+8)
+
+| 资产 | 当前价格 | 24h变化 | 关键位 |
+|------|---------|---------|--------|
+| **BTC** | **$62,517** | ▼ -2.31% | $62K支撑→$60K心理位 |
+| ETH | $1,663 | ▼ -3.42% | $1,700已破 |
+| SOL | $69.31 | ▼ -4.13% | $70已破 |
+| GOLD | $4,109 | ▼ -0.26% | $4,100附近 (从$4,484高点回落) |
+| OIL | ~$74.16 | — | $70-75区间监测 (US-Iran谈判) |
+| F&G | **23 (Extreme Fear)** | 持续 | 已与6/8保持23 |
 
 ---
 
-## 🆕 v7 增量 (2026-06-05 02:30 GMT+8 — 跨凌晨真空补采)
+## 🚨 2. BTC $62K 支撑/ $60K 心理位监测逻辑
 
-> **触发**: 02:25 第 37 次心跳 + WATCHLIST 18h+ 老化警报 + G-36B 子智能体"空跑"补救
-> **执行**: 主代理 gida meta-planner (主代理 fallback 模式, 见 ERROR_LOG)
-> **数据源**: data/tech/hacker-news_latest.md (02:27, fresh 3min) + data/tech/github-trending_latest.md (02:27) + data/ai/ai-news_latest.md (02:27, 46条) + INTEL/agent-G36A-nfp-2nd-warmup-2026-06-05-0155.md + INTEL/agent-G36C-* 缺失
+### 当前状态
+- **价格**: $62,517 (24h 低点 $61,893 / 高点 $64,197)
+- **距$62K**: +0.83% — 极度接近
+- **距$60K**: +4.19% — 约$2,517下行空间
 
-### 🚨 关键新闻 (6/5 02:27 跨凌晨 Top 5)
+### 支撑层级
+```
+Level 1: $62,000 (整数支撑 + 200日MA附近)
+Level 2: $61,893 (今日24h低点)
+Level 3: $60,000 (心理位 + 极端恐惧回归)
+Level 4: $58,000-$59,000 (5月结构支撑)
+Level 5: $55,000 (熊市情景——占卜利润看空目标)
+```
 
-| # | 标题 | 重要性 | 跨领域信号 |
-|---|------|--------|-----------|
-| 1 | **VoidZero Is Joining Cloudflare** (HN 270pts/149c) | 🔴 P0 | AI 工具链 × 边缘云 × 编程基础设施 |
-| 2 | **They're made out of weights** (HN 1087pts/456c) | 🔴 P0 | AI/LLM 内部机制 — Karpathy 类深度博客 |
-| 3 | **Ian's Secure Shoelace Knot** (HN 196pts) | 🟡 P2 | 跨领域:极客文化 |
-| 4 | **KVarN: Native vLLM KV-cache quantization (Huawei)** (HN 11pts) | 🟡 P1 | 华为 AI 推理栈 — 中美科技摩擦 |
-| 5 | **Gaussian Point Splatting** (Siggraph 2026) | 🟡 P2 | 3D 渲染 + NVIDIA GPU 需求 |
+### 监测要素
+1. **ETF 流量**: BTC ETF 连续多日净流出 ($4.4B/13天) — 机构撤退信号
+2. **F&G 23**: Extreme Fear 持续 — 零售退场, Google Trends BTC搜索量1年低点
+3. **Strategy (MSTR)**: 846,842 BTC持仓, 成本~$33K, $20K才能触发清算 — 最大holder安全
+4. **US-Iran 谈判**: 地缘风险缓和推动BTC反弹从$62K→$64K, 但科技股卖压拉回
+5. **量子FUD**: 特朗普签署量子安全令, BTC $62K附近承压
 
-**VoidZero 收购信号深挖** (G-35A 6/4 23:00 已做, 跨凌晨延续):
-- Cloudflare 拿下 V8/Node 之父 (Guillermo Rauch) 主导的 TypeScript 工具链
-- 与 Workers 平台绑定 → 边缘 AI 推理 + TypeScript 全栈
-- 与 Anthropic/Cloudflare 8 月合作(WASM AI)形成完整栈
-- **12 小时内 HNx2 讨论 (48398055 + 48400588)** — HN 社区高热
+### 情景矩阵
 
-### 🆕 GitHub Trending Top 10 (6/5 02:27)
+| 场景 | 触发条件 | 概率 | BTC影响 |
+|------|---------|------|---------|
+| $62K守住, 反弹至$65K | US-Iran进展+FOMC纪要鸽派解读 | 40% | +4% |
+| $62K跌破, $60K测试 | PCE超预期+科技股继续卖压 | 35% | -4% |
+| $60K失守, 加速至$58K | ETF大额流出+宏观恐慌 | 15% | -7% |
+| 反转突破$65K | 意外鸽派PCE+机构抄底 | 10% | +12% |
 
-| # | 项目 | Stars | 解读 |
+---
+
+## 🚨 3. OIL $70-75 区间转折监测
+
+### 当前状态
+- **参考价格**: ~$74.16 (从6/5 $92.28高点回落 -19.6%, 因US-Iran谈判协议预期)
+- **关键转折**: OIL 从 $78→$74 因US-Iran Swiss谈判进展
+
+### 监测逻辑
+1. **US-Iran 谈判**: 60天内路线图, 霍尔木兹海峡安全+核问题 — OIL风险溢价消退
+2. **OPEC+ 策略**: 6/8会议已过, 关注7月产量决策
+3. **原油vsBTC相关**: OIL $74 + BTC $62K → 风险资产全面承压
+
+### 情景矩阵
+
+| 场景 | 触发条件 | 概率 | OIL影响 |
+|------|---------|------|---------|
+| $70-75 窄幅震荡 | US-Iran协议+OPEC不减产 | 45% | 0% |
+| 跌破$70 | US-Iran正式协议 | 25% | -5% |
+| 反弹至$78+ | 地缘升级+供应中断 | 20% | +5% |
+| 原油$65 | 全球经济衰退信号 | 10% | -12% |
+
+---
+
+## 🚨 4. 宏观关键因子 (所有值得跟踪的)
+
+### 🏦 美联储/FOMC
+| 因子 | 状态 | 影响方向 |
+|------|------|---------|
+| 6/16-17 FOMC: 3.50-3.75%鹰HOLD | ✅ 已完成 (Warsh首秀, 9/18官员预计2026加息) | 鹰派 |
+| 6/30 FOMC纪要发布 | 🔜 D+13 | 细节确认 |
+| 7/28-29 FOMC (SEP更新?) | 🔜 D-34 | 取决于6/26 PCE |
+| 9/15-16 FOMC (含SEP+点阵图) | 🔜 关键会议 | 点阵图变化 |
+| Warsh(FOMC主席)首秀基调 | 强硬 | 紧缩偏好 |
+
+### 📊 经济数据
+| 数据 | 日期 | 重要性 |
+|------|------|--------|
+| **6/26 PCE 5月** | 2天后 | 🔴 市场杀手级 |
+| 6/30 FOMC纪要 | 6天后 | 🔴 |
+| 7/3 NFP 6月 | 9天后 | 🔴 |
+| 7/10 CPI 6月 | 16天后 | 🔴 |
+| 7/28-29 FOMC | 34天后 | 🔴🔴 |
+
+### 🤖 AI/科技
+| 因子 | 状态 | 影响 |
+|------|------|------|
+| OpenAI ChatGPT Gov 政府版 | ✅ 已推 | 企业级AI合规 |
+| OpenAI-Airbus合作 | ✅ 已推 | 航空AI |
+| OpenAI-Waymo合作 | ✅ 已推 | 自动驾驶AI |
+| Mistral OCR 4 | ✅ 新发布 (HN 411pts) | OCR技术突破 |
+| Anthropic Claude Tag | ✅ 新发布 (HN 216pts) | Claude插件生态 |
+| GitHub Agent工程趋势 | 80%项目是Agent相关 | 行业结构性转变 |
+| 科技股(科技七姐妹)卖压 | 当前 | BTC联动下行 |
+
+### 🌍 地缘政治
+| 因子 | 状态 | 影响 |
+|------|------|------|
+| **US-Iran谈判 (Swiss)** | 进展中, 60天路线图 | OIL↓, 风险偏好↑ |
+| 德国铁路通信瘫痪 | 已发生, 大面积停运 | 欧洲基础设施风险 |
+| 中国AI监管发展 | 持续监控 | 不确定 |
+| 数字欧元立法推进 | EU议会支持 | 长期BTC替代叙事 |
+
+### 💰 加密市场内部
+| 因子 | 状态 | 影响 |
+|------|------|------|
+| BTC ETF连续13天净流出 ($4.4B) | 机构撤退 | 卖压 |
+| Strategy 增持520 BTC (6/23) | 做多信号 | 情绪支持 |
+| F&G 23 (Extreme Fear) | ⚠️持续 | 极端看空信号 |
+| BTC Google Trends 1年低点 | 零售退场 | 触底信号? |
+| BlackRock BTC Income ETF (BITA) | 新推 | 机构创新 |
+
+---
+
+## 🚨 5. 技术/开源信号 (6/24)
+
+### GitHub Trending Top 15 (今日)
+| # | 项目 | Stars | 领域 |
 |---|------|-------|------|
-| 1 | pewdiepie-archdaemon/odysseus | 49,495 | Self-hosted AI workspace (高关注) |
-| 2 | BigPizzaV3/CodexPlusPlus | 13,271 | OpenAI Codex 增强工具 |
-| 3 | **antirez/ds4** | 12,929 | DeepSeek 4 Flash 本地 Metal/CUDA 推理 (重点) |
-| 4 | FULU-Foundation/OrcaSlicer-bambulab | 6,791 | 3D 打印 |
-| 5 | nexu-io/html-anything | 6,047 | Agentic HTML editor (本地 AI agent) |
-| 7 | **microsoft/SkillOpt** | 4,876 | 文本空间优化器 (微软 6/3 新发布) |
-| 8 | **vercel-labs/zerolang** | 4,857 | "The programming language for agents" (Vercel 6/4) |
-| 13 | input-leap/input-leap | 3,822 | Logitech Options+ 替代品 (本地优先) |
-| 14 | **stevenlv1980/A-Stock** | 3,416 | A股全栈数据工具包 (中文开源) |
+| 1 | NousResearch/hermes-agent | 200,871 | Agent框架 |
+| 2 | affaan-m/ECC | 220,482 | Agent性能 |
+| 3 | garrytan/gstack | 114,009 | Agent工作流 |
+| 4 | bytedance/deer-flow | 73,867 | SuperAgent |
+| 5 | shanraisshan/claude-code-best-practice | 59,379 | Agent工程 |
+| 6 | koala73/worldmonitor | 59,041 | AI情报 |
+| 7 | ZhuLinsen/daily_stock_analysis | 46,968 | LLM股票分析 |
+| 8 | jamiepine/voicebox | 33,088 | AI语音 |
+| 9 | anthropics/claude-plugins-official | 30,817 | Claude生态 |
+| 10 | mukul975/Anthropic-Cybersecurity-Skills | 19,608 | AI安全 |
+| 11 | JCodesMore/ai-website-cloner-template | 18,493 | AI克隆 |
+| 12 | calesthio/OpenMontage | 15,454 | AI视频 |
+| 13 | DeusData/codebase-memory-mcp | 12,800 | MCP服务器 |
+| 14 | palmier-io/palmier-pro | 8,383 | AI视频编辑 |
+| 15 | revfactory/harness | 7,424 | Agent团队 |
 
-**3 个高价值信号**:
-- **antirez/ds4 (DeepSeek 4 Flash 本地推理)**: DeepSeek 4 Flash 持续引爆开源, 12,929 stars 3 天内, 必跟
-- **vercel-labs/zerolang (Agent 编程语言)**: Vercel 进入 Agent DSL 市场, 与 LangChain/Cloudflare/VoidZero 形成"Agent 工具链四强"
-- **microsoft/SkillOpt (微软 NLP 训练框架)**: 微软在 Agent/Tool 训练栈上加速布局
+**Agent工程占比**: ~80% (12/15项目与Agent/AI相关) ✅ 趋势确认
 
-### 🔄 补采完成项 (6/5 02:30)
+### HN 热点信号 (Top 5 AI/科技)
+| # | 标题 | Pts | 信号解读 |
+|---|------|-----|---------|
+| 8 | Show HN: TikZ Editor (WYSIWYG + LaTeX) | 289 | AI辅助出版 |
+| 10 | AI's Affordability Crisis | 197 | AI成本拐点讨论 |
+| 11 | F3 - Future File Format | 574 | 下一代文件格式 (新赛道) |
+| 12 | Baidu Unlimited OCR (单次长视界) | 419 | 百度OCR突破 |
+| 23 | Claude Tag (Anthropic) | 216 | Claude插件生态扩展 |
 
-| 缺口 | 状态 | 文件 | 时效 |
-|------|------|------|------|
-| data/tech/hacker-news_latest.json | 🟢 已补 | 65.4KB, 30条 | 2min |
-| data/tech/github-trending_latest.json | 🟢 已补 | 13.8KB, 30条 | 3min |
-| data/tech/github-trending_latest.md | 🟢 已补 | 3.0KB | 3min |
-| data/tech/hacker-news_latest.md | 🟢 已补 | 8.5KB | 3min |
-| data/ai/ai-news_latest.json | 🟢 已补 | 13.2KB, 46条 | 2min |
-| data/ai/ai-news_latest.md | 🟢 已补 | 5.5KB | 2min |
-| **WATCHLIST/active.md** | 🟢 **本节 v7 增量** | (本文件) | now |
-| **WATCHLIST/TECH_BLOGS.md** | ⚠️ 仍 3/26 | 待 G-37A 派生 | (3/26 68d 红) |
-| **WATCHLIST/GITHUB_TRENDING.md** | ⚠️ 仍 3/26 | 待 G-37A 派生 | (3/26 68d 红) |
-| **MARKET_CAL.md** | ❌ 缺失 | G-36B 未创建 | 永久需求 |
-
-### ⚠️ 待 G-37A 派生处理 (主代理直采模式)
-
-- **G-37A1** (15min): TECH_BLOGS.md 增量 (OpenAI/Anthropic/DeepMind/HF 6/3-6/4)
-- **G-37A2** (10min): GITHUB_TRENDING.md 增量 (antirez/ds4 + zerolang + SkillOpt)
-- **G-37A3** (10min): 新建 MARKET_CAL.md (6/5-6/18 关键事件: NFP/FOMC/CPI/NVDA/Anthropic S-1)
-- **G-37A4** (5min): memory/2026-06-05.md 追加本次补采记录
-
-### 📊 价格异动 (跨凌晨 22:00 → 02:00 GMT+8)
-
-| 资产 | 22:00 | 02:00 | 变化 | 解读 |
-|------|-------|-------|------|------|
-| BTC | $64,133 | $63,464 | **-1.04%** | 美股盘后正常回吐, 守住 63K |
-| ETH | $1,797 | $1,766 | **-1.73%** | 弱于 BTC, ETH/BTC 走低 |
-| SOL | $71.20 | $69.17 | **-2.85%** | 高 beta 资产承压 |
-| GOLD | $4,484 | $4,480 | -0.09% | 横盘, 等待 NFP |
-| OIL | $92.63 | $92.28 | -0.38% | 横盘, 关注 OPEC+ 6/8 会议 |
-
-**F&G 12 (Extreme Fear) 持续 30h+** — ALERT v2 升级已就位
-**VIX 12 (极低波动率)** — 与 F&G 12 矛盾, 关注 NFP 实际值 > 共识 85K 时的波动率释放
-
-### ⏰ 倒计时 (GMT+8)
-
-- **02:00 价格 cron** ✅ 已完成 (BTC $63,464)
-- **02:30 早间 G-37 派发** — now
-- **06:00 AI News cron** — 3h30min
-- **08:00 亚洲盘开盘** — 5h30min
-- **20:30 BLS 5月 NFP** — 18h5min (P0, G-36A 已落盘)
-- **6/8 OPEC+ 会议** — 3d 18h
-- **6/12 FOMC** — 7d 18h
-- **6/13 NVDA 财报** — 8d 18h
-- **6/15 Anthropic S-1** — 10d 18h
-
-### 🚨 ERROR_LOG (本轮)
-
-- **G-36B 子智能体 1m done 但零落盘** (02:18): sessions_spawn G-36B (WATCHLIST 增量) 1m 跑完声称 done, 但 WATCHLIST/active.md + TECH_BLOGS.md + GITHUB_TRENDING.md + MARKET_CAL.md 一个文件都没写。**模式 bug**: 子智能体无法理解"必须调用 write 工具" 是硬要求。
-- **G-36C 同模式** (02:18): sessions_spawn G-36C (跨凌晨补采) 1m 跑完声称 done, 但 INTEL/agent-G36C-* 一个文件没写。**根因同 G-36B**。
-- **规避策略**: 后续所有子智能体任务必须显式写 "**必须使用 write 工具写出 4 个文件, 缺一不可**", 或主代理 fallback 模式 (本次已用)。
-- **auto-push-v4 1:55 失败 3x** (2h 前): 18:08 已 push 成功, 02:22 已 push 成功, G-37A 完成后 02:35 重试。
-
-### 🛠️ G-37 派发计划 (5min 内, 并行)
-
-- 🔄 **G-37A** (派发中, 35min 限时): WATCHLIST 三件补全
-  - 任务 1: TECH_BLOGS.md 增量 (使用 write 工具)
-  - 任务 2: GITHUB_TRENDING.md 增量 (使用 write 工具)
-  - 任务 3: 新建 MARKET_CAL.md (使用 write 工具)
-  - 任务 4: memory/2026-06-05.md 追加 (使用 edit 工具)
-  - 输出: WATCHLIST/* (3 文件) + memory/2026-06-05.md (追加段落)
-  - **强制**: 每个文件必须 write 调用, 缺一返回视为失败
-
-### 🎯 本次 v7 增量核心判断
-
-1. **跨凌晨真空期利用成功**: 22:00-05:00 ET 加密不停盘 + GitHub API 不限流, 是数据补采黄金窗口 (G-36C 设计正确, 失败在派发模式)
-2. **G-36B/C 子智能体 "空跑" 模式 bug**: 1m 声明 done 但 0 落盘, 必须主代理 fallback 或强制 write 指令
-3. **3 个高价值开源信号**: antirez/ds4 (DeepSeek 本地推理) / vercel-labs/zerolang (Agent DSL) / microsoft/SkillOpt (微软 NLP)
-4. **VoidZero + Cloudflare 是 6/5 早间最强信号**: 与 Anthropic 8月合作形成"边缘 AI + TypeScript 全栈 + 编程基础设施"完整栈
-
-### 📌 G-32/G-33/G-34/G-35/G-36 累计子智能体 (今日 22+)
-
-| ID | 任务 | 状态 | 落盘 | 时长 |
-|---|---|---|---|---|
-| G-32A-F | 6 件 (AI/ETF/BTC归因/GEO/ISM/push) | ✅ | 全部 | 30min |
-| G-33A-C4 | 3 件 (扫描/ISM/倒计时) | ✅ | 全部 | 13min |
-| G-34A-B | 2 件 (BTC归因+ISM/美股盘前+F&G) | ✅ | 全部 | 21min |
-| G-35A-F | 6 件 (VoidZero/GH/NFP/Farside等) | ✅ | 全部 | 85min |
-| **G-36A** | **NFP 二次预热** | ✅ | INTEL (17.8KB) + v37 briefing (5.4KB) | 主代理 fallback |
-| **G-36B** | **WATCHLIST 增量** | 🔴 空跑 | **0 字节** | 1m 失败 |
-| **G-36C** | **跨凌晨补采** | 🔴 空跑 | **0 字节** | 1m 失败 |
-| **G-37A** | **WATCHLIST 三件补全** | 🆕 派发中 | (待回报) | 35min 限时 |
+### OpenAI 6/17-23 关键信号 (桥接自G-103)
+| 事件 | 信号 |
+|------|------|
+| ChatGPT Gov 发布 | 政府级AI合规部署 |
+| OpenAI-Airbus 合作 | 航空制造AI应用 |
+| OpenAI-Waymo 合作 | 自动驾驶AI推理 |
+| Codex CLI 持续更新 | AI编程工具链演进 |
 
 ---
-*本增量 (v7) 由 2026-06-05 02:30 GMT+8 第 37 次心跳 (主代理 fallback) 自动追加 | v6 末次更新 6/4 07:32 (19h 前) | 第 37 次心跳*
+
+## 6. 资产关联矩阵
+
+```
+BTC vs 科技股:    强正相关 (科技七姐妹卖压 → BTC同步跌)
+BTC vs GOLD:      弱相关 (GOLD $4,109 vs BTC $62K)
+BTC vs OIL:       负相关 (OIL↓ → 通胀预期↓ → BTC理论利好)
+BTC vs USD:       弱负相关 (DXY走势)
+BTC vs F&G:       F&G 23 Extreme Fear → 历史性买入信号?
+ETH vs BTC:       ETH更弱 (ETH/BTC下降)
+```
+
+---
+
+## ⏰ 倒计时 (GMT+8)
+
+| 事件 | 时间 | 剩余 |
+|------|------|------|
+| 6/24 耐用品订单 | 22:00 GMT+8 | 15h27min |
+| 6/25 压力测试 | — | ~24h |
+| **6/26 PCE 5月** | 20:30 GMT+8 | **~38h** |
+| 6/30 FOMC纪要 | 02:00 ET / 14:00 CST | ~6天 |
+| 7/3 NFP 6月 | 20:30 GMT+8 | ~9天 |
+| 7/10 CPI 6月 | 20:30 GMT+8 | ~16天 |
+| **7/28-29 FOMC** | 02:00 ET | **34天** |
+| 9/15-16 FOMC (SEP) | 02:00 ET | 83天 |
+
+---
+
+## 🚨 ERROR_LOG (本轮 G-105 重建)
+
+- **数据缺口**: OpenAI 6/17-23 9篇博文的精确清单未完全采集 (桥接自G-103补采)
+- **OIL精确价格**: 使用6/23桥接数据~$74.16, 未实时采集
+- **GOLD精确价格**: CoinMarketCap显示~$4,109 (从$4,484高点回落)
+- **规避策略**: 30分钟限时下优先P0+P1落盘, P2使用已采集HN+GH数据
+
+---
+*本文件 (v8) 由 G-105 情报重建子智能体 2026-06-24 06:33 GMT+8 创建 | 替代 v7 (2026-06-05, 19日老化) | 数据来源: 实时采集+桥接*
