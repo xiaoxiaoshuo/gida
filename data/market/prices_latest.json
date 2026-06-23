@@ -1,29 +1,29 @@
 ﻿{
-    "timestamp_iso":  "2026-06-23T22:00:01Z",
-    "timestamp":  "2026-06-24 06:00:01",
+    "timestamp_iso":  "2026-06-23T23:00:01Z",
+    "timestamp":  "2026-06-24 07:00:01",
     "macro":  {
                   "VIX":  {
                               "value":  23,
                               "source":  "alternative.me_FNG",
-                              "timestamp":  "2026-06-24 06:00:01",
-                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
+                              "timestamp":  "2026-06-24 07:36",
+                              "note":  "FNG独立采集:v1 - F\u0026G替代VIX作为情绪指标",
                               "confidence":  "medium",
-                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"23\",\n\t\t\t\"value_classification\": \"Extr",
+                              "raw":  "",
                               "value_classification":  "Extreme Fear"
                           },
                   "OIL":  {
-                              "value":  73.17,
+                              "value":  73.05,
                               "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-24 06:00:01",
-                              "raw_len":  417237,
+                              "timestamp":  "2026-06-24 07:00:01",
+                              "raw_len":  417246,
                               "confidence":  "high",
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4112,
+                               "value":  4107.9,
                                "source":  "kitco.com",
-                               "timestamp":  "2026-06-24 06:00:01",
-                               "raw_len":  65032,
+                               "timestamp":  "2026-06-24 07:00:01",
+                               "raw_len":  65572,
                                "confidence":  "high",
                                "unit":  "USD/oz"
                            }
@@ -33,23 +33,23 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  62596,
-                               "timestamp":  "2026-06-24 06:00:01",
-                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"62596\",\"lowest_ask\":\"62596\",\"lowest_size\":\"",
+                               "price":  62580,
+                               "timestamp":  "2026-06-24 07:00:01",
+                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"62580\",\"lowest_ask\":\"62580\",\"lowest_size\":\"",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "ETH":  {
-                               "price":  1666.76,
-                               "timestamp":  "2026-06-24 06:00:01",
-                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1666.76\",\"lowest_ask\":\"1666.76\",\"lowest_siz",
+                               "price":  1663.99,
+                               "timestamp":  "2026-06-24 07:00:01",
+                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1663.99\",\"lowest_ask\":\"1664\",\"lowest_size\":",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "SOL":  {
-                               "price":  69.29,
-                               "timestamp":  "2026-06-24 06:00:01",
-                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"69.29\",\"lowest_ask\":\"69.29\",\"lowest_size\":\"",
+                               "price":  69.55,
+                               "timestamp":  "2026-06-24 07:00:01",
+                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"69.55\",\"lowest_ask\":\"69.55\",\"lowest_size\":\"",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            }
@@ -86,5 +86,5 @@
                                        "factors":  "API权威来源 + 价格字段 + 来源标注 + 时间戳 + 原始数据"
                                    }
                        },
-    "collection_version":  "v8"
+    "collection_version":  "v10"
 }
