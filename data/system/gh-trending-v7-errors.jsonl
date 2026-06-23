@@ -8,3 +8,4 @@
 {"error":"The remote name could not be resolved: \u0027api.github.com\u0027","timestamp":"2026-06-20T15:49:16Z","fallback":"try_L3_empty","layer":"L2_ps_exception","script":"gh-trending-v7-search-api"}
 {"error":"curl exit code 28","timestamp":"2026-06-22T22:30:27Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
 {"error":"The operation has timed out.","timestamp":"2026-06-22T22:30:53Z","fallback":"try_L3_empty","layer":"L2_ps_exception","script":"gh-trending-v7-search-api"}
+{"error":"curl exit code 35","timestamp":"2026-06-23T16:30:07Z","fallback":"try_L2_powershell","layer":"L1_curl_exit","script":"gh-trending-v7-search-api"}
