@@ -9,23 +9,22 @@
 - **价格采集**: ✅ 19:30手动恢复 (BTC $62,549小幅回升)
 - **FOMC tracker**: ⚠️ 脚本已修复, snapshot待下次cron刷新
 
-## 📋 待办清单 (21:26)
+## 📋 待办清单 (22:26)
 | P | 任务 | 状态 |
 |---|------|------|
-| P0 | 18:00采集中断修复 | ✅ G-66A |
-| P0 | alert-cleaner v2 | ✅ 4bug修复 |
-| P0 | 推送积压 | ✅ 19:32成功 |
-| P0 | **21:26发现: HourlyPrice+Bridge仍然Disabled** | ✅ **手动Enable, 22:00恢复** |
-| P1 | cron-task-guardian脚本 | ⬜ G-67A进行中 |
-| P1 | ALERTS v2 -Execute清理 | ⬜ |
-| P2 | v3 B~E能力层 | ⬜ |
+| P0 | 18:00采集中断修复 | ✅ G-66A+G-67A |
+| P0 | alert-cleaner v2 | ✅ |
+| P0 | **3个cron Disabled全修复** | ✅ HourlyPrice+Bridge+cron-watchdog 22:00全部恢复 |
+| P0 | guardian注册 | ✅ GidaTaskGuardian 30min |
+| P1 | gfw_health cmd路径bug | ⬜ 老问题 |
 
-## 🔑 信号 (19:30最后采集)
-| BTC $62,549 | +0.2% | 微修复 |
-| ETH $1,660 | +0.7% | 跟涨 |
-| SOL $69.17 | +0.6% | 弱反弹 |
-| VIX 19.81 | 回落 | 情绪略缓 |
+## 🔑 深夜信号 (22:00)
+| BTC $62,467 | +0.1% | 横盘 |
+| ETH $1,663 | +0.2% | 稳定 |
+| SOL $69.2 | 0% | 企稳 |
+| OIL $73.16 | -1% | 续跌 |
+| trigger_1630 | $62,549 | zone_62500_63000 |
 
 ---
 
-*2026-06-23 21:26 更新 | G-67A修复中 | 21:26发现2个cron任务仍Disabled→手修*
+*2026-06-23 22:26 更新 | 全栈修复 ✅ | 14h运营结束 | 深夜静默*
