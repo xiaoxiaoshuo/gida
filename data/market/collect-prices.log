@@ -10381,3 +10381,33 @@ A d d - C o n t e n t   :   T h e   p r o c e s s   c a n n o t   a c c e s s   
 [INFO] 07:00:38 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-24_07-00.json
 [INFO] 07:00:38 - 质量: 高 (平均分 82.5)
 [INFO] 07:00:38 - 错误: 0 项
+[INFO] 08:00:01 - ========== 价格采集开始 (v10 API降级链修复) ==========
+[INFO] 08:00:01 - 时间: 2026-06-24 08:00:01
+[INFO] 08:00:01 - >> 采集加密货币 (BTC/ETH/SOL)...
+[INFO] 08:00:01 -   采集 BTC ...
+[WARN] 08:00:12 - CoinGecko BTC HTTP失败: The operation has timed out.
+[OK] 08:00:13 -   Gateio BTC = 62729.5
+[OK] 08:00:13 -   BTC = 62729.5 [Gateio_API] 质量:高
+[INFO] 08:00:13 -   采集 ETH ...
+[WARN] 08:00:23 - CoinGecko ETH HTTP失败: The operation has timed out.
+[OK] 08:00:23 -   Gateio ETH = 1667.23
+[OK] 08:00:23 -   ETH = 1667.23 [Gateio_API] 质量:高
+[INFO] 08:00:23 -   采集 SOL ...
+[WARN] 08:00:33 - CoinGecko SOL HTTP失败: The operation has timed out.
+[OK] 08:00:33 -   Gateio SOL = 69.73
+[OK] 08:00:33 -   SOL = 69.73 [Gateio_API] 质量:高
+[INFO] 08:00:33 - >> 采集VIX恐慌指数...
+[WARN] 08:00:36 - VIX Yahoo Finance API全部失败，降级到F&G(alternative.me)...
+[WARN] 08:00:37 -   F&G = 17 (Extreme Fear) [alternative.me 降级替代VIX]
+[OK] 08:00:37 -   VIX = 17 [alternative.me_FNG] 质量:中
+[INFO] 08:00:37 - >> 采集黄金价格...
+[INFO] 08:00:38 -   GOLD Kitco字体样式正则成功: 4101.4
+[OK] 08:00:38 -   GOLD = 4101.4 [kitco.com] 质量:中
+[INFO] 08:00:38 - >> 采集原油价格...
+[INFO] 08:00:39 -   OIL TradingEconomics抓取成功: 72.76
+[OK] 08:00:39 -   OIL = 72.76 [tradingeconomics.com] 质量:中
+[INFO] 08:00:39 -   prices_latest.json 原子写入完成 (via tmp/rename)
+[INFO] 08:00:39 - ========== 采集完成 ==========
+[INFO] 08:00:39 - 输出: C:\Users\Administrator\clawd\agents\workspace-gid\data\market\prices_2026-06-24_08-00.json
+[INFO] 08:00:39 - 质量: 高 (平均分 82.5)
+[INFO] 08:00:39 - 错误: 0 项
