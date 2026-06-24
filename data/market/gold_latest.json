@@ -1,12 +1,12 @@
 ﻿{
     "source":  "kitco.com/charts/livegold.html (fetch)",
     "change":  null,
-    "price_per_gram":  150.61,
-    "time_ny":  "5月 07, 2026, 06:17:50 NY time",
+    "price_per_gram":  130.78,
+    "time_ny":  "6月 24, 2026, 09:10:06 NY time",
     "change_pct":  null,
-    "timestamp":  "2026-05-07T18:17:45Z",
-    "price_per_oz":  4684.6,
-    "price_per_kg":  150613.28,
-    "collection_time":  "2026-05-07T18:17:45Z",
+    "timestamp":  "2026-06-24T09:10:02Z",
+    "price_per_oz":  4067.8,
+    "price_per_kg":  130782.71,
+    "collection_time":  "2026-06-24T09:10:02Z",
     "currency":  "USD"
 }

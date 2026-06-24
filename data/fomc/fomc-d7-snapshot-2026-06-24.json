@@ -1,0 +1,70 @@
+﻿{
+    "next_critical_event":  "7/10 CPI 6月 (下一个P0)",
+    "days_to_fomc":  35,
+    "timestamp":  "09:00",
+    "scenarios":  {
+                      "hawkish_pause":  {
+                                            "trigger":  "CPI 6月放缓但仍\u003e3.5% → 维持",
+                                            "prob":  35,
+                                            "impact":  "-1~0% BTC"
+                                        },
+                      "dovish_25bp":  {
+                                          "trigger":  "经济数据恶化 → 7月降息25bp",
+                                          "prob":  10,
+                                          "impact":  "+5% BTC"
+                                      },
+                      "dovish_pause":  {
+                                           "trigger":  "CPI 6月意外下降 → 降息信号",
+                                           "prob":  15,
+                                           "impact":  "+2~3% BTC"
+                                       },
+                      "hawkish_hike":  {
+                                           "trigger":  "CPI 6月持续\u003e4% → 7月加息25bp",
+                                           "prob":  40,
+                                           "impact":  "-3~5% BTC"
+                                       }
+                  },
+    "fomc_watchlist":  {
+                           "D14_focus":  "6/23-7/10 官员密集讲话窗口 (静默前最后一次)",
+                           "D7_focus":  "7/10 CPI 6月数据 (下一个P0)",
+                           "key_dates":  [
+                                             {
+                                                 "date":  "06-01",
+                                                 "event":  "GTC Taipei (已过)",
+                                                 "impact":  "P1"
+                                             },
+                                             {
+                                                 "date":  "06-17",
+                                                 "event":  "6月FOMC 14:00 ET 鹰派维持 (已过)",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "07-10",
+                                                 "event":  "CPI 6月数据 20:30 ET",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "07-28",
+                                                 "event":  "FOMC Day1 11:00 ET",
+                                                 "impact":  "P0"
+                                             },
+                                             {
+                                                 "date":  "07-29",
+                                                 "event":  "FOMC Day2 14:00 ET + 鲍威尔记者会",
+                                                 "impact":  "P0"
+                                             }
+                                         ],
+                           "D36_focus":  "CPI 5月 4.2% 后续影响 + 7/10 CPI 6月前瞻",
+                           "D3_focus":  "7/25 Fed 静默期前最后一次官员讲话",
+                           "D1_focus":  "7/28-29 FOMC Warsh第2次会 (鹰派维持概率高)"
+                       },
+    "price_snapshot":  {
+                           "gold":  4101.4,
+                           "oil":  72.76,
+                           "fng":  17,
+                           "btc":  62729.5,
+                           "eth":  1667.23
+                       },
+    "context_note":  "CPI 5月 4.2% YoY | 6月FOMC鹰派维持 | 半数委员预期加息 | 7/28-29沃什第2次会",
+    "fomc_date":  "2026-07-28/29"
+}

@@ -1,29 +1,29 @@
 ﻿{
-    "timestamp_iso":  "2026-06-24T00:00:01Z",
-    "timestamp":  "2026-06-24 08:00:01",
+    "timestamp_iso":  "2026-06-24T01:00:01Z",
+    "timestamp":  "2026-06-24 09:00:01",
     "macro":  {
                   "VIX":  {
                               "value":  17,
                               "source":  "alternative.me_FNG",
-                              "timestamp":  "2026-06-24 08:00:01",
-                              "note":  "降级: VIX(Yahoo Finance)失败，采集F\u0026G作为替代情绪指标",
+                              "timestamp":  "2026-06-24 09:10",
+                              "note":  "FNG独立采集:v1 - F\u0026G替代VIX作为情绪指标",
                               "confidence":  "medium",
-                              "raw":  "{\n\t\"name\": \"Fear and Greed Index\",\n\t\"data\": [\n\t\t{\n\t\t\t\"value\": \"17\",\n\t\t\t\"value_classification\": \"Extr",
+                              "raw":  "",
                               "value_classification":  "Extreme Fear"
                           },
                   "OIL":  {
-                              "value":  72.76,
+                              "value":  72.9,
                               "source":  "tradingeconomics.com",
-                              "timestamp":  "2026-06-24 08:00:01",
-                              "raw_len":  416723,
+                              "timestamp":  "2026-06-24 09:00:01",
+                              "raw_len":  416699,
                               "confidence":  "high",
                               "unit":  "USD/barrel (WTI)"
                           },
                   "GOLD":  {
-                               "value":  4101.4,
+                               "value":  4096,
                                "source":  "kitco.com",
-                               "timestamp":  "2026-06-24 08:00:01",
-                               "raw_len":  65508,
+                               "timestamp":  "2026-06-24 09:00:01",
+                               "raw_len":  65503,
                                "confidence":  "high",
                                "unit":  "USD/oz"
                            }
@@ -33,23 +33,23 @@
                ],
     "crypto":  {
                    "BTC":  {
-                               "price":  62729.5,
-                               "timestamp":  "2026-06-24 08:00:01",
-                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"62729.5\",\"lowest_ask\":\"62737.4\",\"lowest_siz",
+                               "price":  63017.9,
+                               "timestamp":  "2026-06-24 09:00:01",
+                               "raw":  "[{\"currency_pair\":\"BTC_USDT\",\"last\":\"63017.9\",\"lowest_ask\":\"63017.9\",\"lowest_siz",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "ETH":  {
-                               "price":  1667.23,
-                               "timestamp":  "2026-06-24 08:00:01",
-                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1667.23\",\"lowest_ask\":\"1667.24\",\"lowest_siz",
+                               "price":  1671.53,
+                               "timestamp":  "2026-06-24 09:00:01",
+                               "raw":  "[{\"currency_pair\":\"ETH_USDT\",\"last\":\"1671.53\",\"lowest_ask\":\"1671.5\",\"lowest_size",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            },
                    "SOL":  {
-                               "price":  69.73,
-                               "timestamp":  "2026-06-24 08:00:01",
-                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"69.73\",\"lowest_ask\":\"69.72\",\"lowest_size\":\"",
+                               "price":  70.01,
+                               "timestamp":  "2026-06-24 09:00:01",
+                               "raw":  "[{\"currency_pair\":\"SOL_USDT\",\"last\":\"70.01\",\"lowest_ask\":\"70\",\"lowest_size\":\"120",
                                "confidence":  "high",
                                "source":  "Gateio_API"
                            }

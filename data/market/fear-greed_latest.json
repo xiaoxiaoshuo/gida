@@ -1,1 +1,13 @@
-﻿{"classification":"Extreme Fear","fetched_at":"2026-06-24 07:44","timestamp":"2026-06-23 08:00","source":"alternative.me API v1","value":23}
+﻿{
+    "source":  "alternative.me",
+    "yesterday":  null,
+    "last_week_value":  null,
+    "last_month":  null,
+    "value":  "Extreme Fear",
+    "timestamp":  "2026-06-24T00:00:00Z",
+    "index":  17,
+    "yesterday_value":  null,
+    "last_week":  null,
+    "last_month_value":  null,
+    "collection_time":  "2026-06-24T09:10:02Z"
+}
